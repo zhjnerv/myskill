@@ -1,4 +1,17 @@
 {
   "version": 2,
-  "skills": []
+  "skills": [
+    {
+      "name": "qu-ai-wei",
+      "origin": "vendored",
+      "fork": "https://github.com/zhjnerv/qu-ai-wei",
+      "upstream": "https://github.com/LifelongLazyLearner/qu-ai-wei",
+      "branch": "main",
+      "subpath": null,
+      "vendoredAt": "2026-08-08T17:43:02Z",
+      "lastSync": "2026-08-08T17:43:02Z",
+      "lastSyncTree": "f6aa6dfe1bdbcbdd8322b80a9fafebd292393e0b",
+      "notes": ""
+    }
+  ]
 }
