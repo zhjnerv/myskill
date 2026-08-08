@@ -2,74 +2,31 @@
 
 [简体中文](../README.md) | [English](./README.en.md) | 日本語 | [한국어](./README.ko.md) | [Español](./README.es.md)
 
-qu-ai-wei は、**簡体字中国語**の文章から AI っぽさを減らすための agent skill です。簡体字中国語の下書きを、事実と意図を保ったまま、より自然で人が書いたように読める文章へ整えます。
+> ⚠️ **0.x 開発版：** ルール、分類、インターフェースは今後変更される可能性があります。[issue](https://github.com/LifelongLazyLearner/qu-ai-wei/issues)、[discussion](https://github.com/LifelongLazyLearner/qu-ai-wei/discussions)、PR からフィードバックをお寄せください。
 
-正式なドキュメントは [簡体字中国語 README](../README.md) です。このファイルは、日本語話者向けの短い案内です。
+qu-ai-wei は、AI が生成した**簡体字中国語**の下書きを整える agent skill です。事実、意味、文章のかたさ、原文の声を保ちながら、より自然な中国語に直します。
 
-https://github.com/user-attachments/assets/24513c20-968d-437b-8ceb-1ac1f77f6ad6
+README は複数の言語で読めますが、skill が編集するのは簡体字中国語を本文の中心とする文章です。必要な製品名、技術用語、略語などは原文のまま保持します。
 
-## 何のためのものか
+## デモ
 
-- 簡体字中国語の下書きに残る、AI 生成らしい定型句、機械的な構成、過剰に整った表現、翻訳調の中国語を減らす。
-- 原文にある情報だけを使って、語感、リズム、具体性を軽く整える。
-- ライター、編集者、運営、プロダクトマネージャー、学生、開発者が、日常の簡体字中国語文章を「AI の初稿っぽくない」状態に近づける。
+![qu-ai-wei が簡体字中国語の下書きから空疎な定型句を除き、事実を残す例](../assets/demo.gif)
 
-## 重要な境界
-
-qu-ai-wei が対応するのは **簡体字中国語だけ**です。
-
-英語、日本語、韓国語、スペイン語、繁体字中国語、複数言語が混ざった文章を humanize するものではありません。繁体字中国語は AI っぽさの出方、語彙、組版のルールが異なるため、別のルールセットが必要です。
-
-また、AI 検出をすり抜けるための道具ではありません。自分が責任を持つ文章を読みやすくするために使ってください。
-
-## できること / できないこと
-
-できること:
-
-- 簡体字中国語に見られる典型的な AI っぽい表現を削る。
-- 事実、意図、おおまかな文体を保つ。
-- すでに人が書いた文章、繁体字中国語、法律文書や公文など、勝手に書き換えると危険な入力では止まる。
-
-できないこと:
-
-- 独自の視点、取材内容、具体例、強い主張を発明する。
-- 弱い原稿を雑誌レベルの文章に変える。
-- 簡体字中国語以外の文章を書き換える。
+この例では、一般的な導入、不要な強調表現、スローガンを削り、原文にある二つの事実を残しています。編集範囲は [`references/examples.md`](../references/examples.md) で確認できます。
 
 ## インストール
 
-同じインストールスクリプトで、Cursor、Claude Code、OpenAI Codex CLI、OpenCode、Kiro、Factory Droid、Slate、Hermes に対応しています。
-
-Node/npm がある場合は、外部の `skills` CLI で入れる方法がおすすめです。デフォルトでは利用可能な agent を自動検出し、見つからない場合は選択を促します。
+Node.js と npm がある環境で、次を実行します。
 
 ```bash
 npx skills add https://github.com/LifelongLazyLearner/qu-ai-wei
 ```
 
-これは外部 `skills` CLI が GitHub リポジトリを取得して入れる方法です。qu-ai-wei の npm package ではありません。
-
-特定の agent に入れたい場合は `-a` を付けます。
-
-```bash
-npx skills add https://github.com/LifelongLazyLearner/qu-ai-wei -a codex
-npx skills add https://github.com/LifelongLazyLearner/qu-ai-wei -a codex -a claude-code -a cursor
-npx skills add https://github.com/LifelongLazyLearner/qu-ai-wei -g -a codex -y
-```
-
-```bash
-git clone https://github.com/LifelongLazyLearner/qu-ai-wei.git ~/qu-ai-wei
-cd ~/qu-ai-wei
-
-# ひとつの agent にインストール
-bash scripts/install-skill.sh --platform codex
-
-# 対応する全 agent にインストール
-bash scripts/install-skill.sh --platform all
-```
+外部の `skills` CLI が、コンピューターに入っている対応 AI コーディングツールを検出します。
 
 ## 使い方
 
-中国語が母語でないユーザーは、明示的に skill を呼び出して、簡体字中国語のテキストを貼り付けるのが安全です。
+インストール後、新しいセッションを開始するか、使用中のツールの手順に従って skills を再読み込みしてから、次のように依頼します。
 
 ```text
 /qu-ai-wei
@@ -77,12 +34,22 @@ bash scripts/install-skill.sh --platform all
 [ここに簡体字中国語の文章を貼り付ける]
 ```
 
-[SKILL.md](../SKILL.md) の本文を、AI モデルのカスタム指示やシステムプロンプトに貼り付けることもできます。先頭の YAML frontmatter は除いてください。
+通常モードでは、まず編集すべき文章かを判定し、初稿、自己レビュー、最終稿、推敲レポートを返します。すでに人が書いた自然な文章には手を加えず、用途や文章のかたさが判断できない場合は確認します。
 
-## 関連リンク
+## 最終稿だけ受け取る
 
-- 詳細ドキュメント: [README.md](../README.md)
-- Skill ルール: [SKILL.md](../SKILL.md)
-- 参考資料: [references/](../references/)
-- 変更履歴: [CHANGELOG.md](../CHANGELOG.md)
-- ライセンス: [MIT](../LICENSE)
+より大きなワークフローの一工程として使う場合は、embedded mode を指定します。
+
+```text
+qu-ai-wei で次の PR 説明を修正し、最終稿の本文だけを返してください。
+
+[ここに簡体字中国語の文章を貼り付ける]
+```
+
+embedded mode でも内部の確認手順は変わりません。安全に修正できる場合だけ最終稿を返します。すでに人が書いた文章なら原文を返し、情報が不足している場合は質問するか、処理できない理由を示します。ファイルの書き込み、commit、公開、送信の権限は追加されません。
+
+## 対応範囲
+
+翻訳やゼロからの執筆、原文にない意見や細部の追加、人が持つ固有の文体の書き換え、AI 利用規則の回避には使えません。
+
+実行規則の全文は [SKILL.md](../SKILL.md) を参照してください。本 skill は [humanizer](https://github.com/blader/humanizer) に着想を得ており、中国語の翻訳調に関する規則では [yage.ai](https://yage.ai/share/ai-chinese-translationese-20260418.html) を参考にしています。[MIT License](../LICENSE) で公開しています。
