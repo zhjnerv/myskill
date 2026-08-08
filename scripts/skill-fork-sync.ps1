@@ -106,8 +106,18 @@ foreach ($job in $jobs.Values) {
         $args = @('repo', 'sync', "$($forkRef.Owner)/$($forkRef.Repo)",
                   '--source', "$($upRef.Owner)/$($upRef.Repo)", '--branch', $job.Branch)
         if ($Force) { $args += '--force' }
-        & gh @args
-        if ($LASTEXITCODE -ne 0) { Write-Warn2 'gh repo sync 失败'; $failed += $forkRef.Repo; continue }
+        $out = (& gh @args 2>&1 | Out-String)
+        if ($LASTEXITCODE -ne 0) {
+            Write-Warn2 'gh repo sync 失败'
+            Write-Host $out.TrimEnd() -ForegroundColor DarkYellow
+            # 上游提交碰了 .github/workflows/ 时，OAuth token 必须带 workflow scope，
+            # 否则 GitHub 直接拒绝。这个坑对任何带 Actions 的上游都会复现。
+            if ($out -match 'workflow scope|workflow` scope') {
+                Write-Hint '这个错误只需授权一次：gh auth refresh -s workflow'
+            }
+            $failed += $forkRef.Repo
+            continue
+        }
     } else {
         # 无 gh 时走本地：把 fork 分支推成原作者分支
         $push = @('push', 'origin', "refs/remotes/upstream/$($job.Branch):refs/heads/$($job.Branch)")

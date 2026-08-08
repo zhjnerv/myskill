@@ -137,6 +137,13 @@ git commit
 
 ## 已知坑
 
+**上游带 GitHub Actions 时首次追平会被拒**：上游提交只要碰了 `.github/workflows/`，
+推送就要求 OAuth token 带 `workflow` scope，`gh repo sync` 会直接报错。授权一次即可，全局生效：
+
+```powershell
+gh auth refresh -s workflow
+```
+
 **Google Drive 同步 `.git`**：本仓库在 `D:\谷歌硬盘\PC同步\` 下，Drive 会在 git 写对象时同时上传 `.git`，
 理论上存在索引损坏风险。要么把这个目录排除出 Drive 同步（GitHub 已经是异地备份），要么接受风险并保证及时 push。
 
