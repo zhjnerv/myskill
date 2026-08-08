@@ -1,27 +1,25 @@
 title: "[样本] "
-labels: ["sample"]
 body:
   - type: markdown
     attributes:
       value: |
-        **贴一份你跑过 qu-ai-wei 的原文 + 终稿**,帮作者看它在真实世界里跑得怎么样 —— 哪些规则命中、哪些漏判、哪些过度修正。
-        后续版本会拿这些样本做 regression。
+        分享一份 qu-ai-wei 的真实运行样本，帮助项目发现漏判、误判和过度修正。
 
-        不想贴原文全文?只贴你关心的那几句就够了。贴之前**请自行脱敏**(删掉人名、公司名、内部信息)。
+        不必贴全文，只贴需要讨论的句子也可以。提交前请删除人名、公司名、内部信息、密钥和其他敏感内容。
 
   - type: textarea
     id: original
     attributes:
-      label: 原文
-      description: 粘贴让 qu-ai-wei 改写的那段文字(或关键段落)
+      label: 原文与请求
+      description: 粘贴已脱敏的简体中文原文，以及你对 agent 说的话
     validations:
       required: true
 
   - type: textarea
     id: output
     attributes:
-      label: qu-ai-wei 给的终稿
-      description: v0.6.0 起连「打磨报告」一起贴最好,能帮作者看上下文
+      label: qu-ai-wei 的结果
+      description: 普通模式请尽量保留门检、终稿和打磨报告；内嵌模式贴实际正文即可
     validations:
       required: true
 
@@ -30,43 +28,43 @@ body:
     attributes:
       label: 你觉得改得怎么样
       options:
-        - 改得不错 —— 该删的删了,该留的留了
-        - 改得可以 —— 但漏了一些明显的 AI 腔
-        - 改过头了 —— 该留的毛边被删了
-        - 改坏了 —— 改出了原文没有的内容
-        - 其他(底下文字说)
+        - 改得不错——该删的删了，该留的留了
+        - 有漏判——还留着明显的 AI 腔
+        - 有误判——把正常表达当成了 AI 腔
+        - 改过头——原文声口或必要语体被削弱
+        - 改坏了——丢失或增加了事实
+        - 其他
     validations:
       required: true
 
   - type: textarea
     id: notes
     attributes:
-      label: 具体说说
-      description: 如果上面选了"漏了 / 改过头 / 改坏",指给作者看是哪句哪处
-      placeholder: "例如:倒数第三段的「确诊为 xx」被改成了「被认为是 xx」,这是 2025 鲜活词,本不该改"
+      label: 具体说明
+      description: 指出对应原句和终稿，说明哪里应保留或怎样修改
 
   - type: input
-    id: platform
+    id: host
     attributes:
-      label: 在哪个平台跑的
-      placeholder: "Claude Code / Cursor / Windsurf / Warp / ChatGPT / Kimi / 其他"
+      label: Agent / 宿主
+      placeholder: "Codex / Claude Code / Kimi Code CLI / 其他 Agent Skills 宿主"
 
   - type: input
-    id: genre
+    id: model
     attributes:
-      label: 原文的语体(可选)
-      placeholder: "朋友圈 / 公众号 / 产品文案 / 工作邮件 / PRD / 特稿 ..."
+      label: 模型或服务商（可选）
+      placeholder: "OpenAI / Anthropic / GLM / Kimi / 其他"
 
   - type: input
     id: version
     attributes:
-      label: 跑的是哪个版本(可选)
-      placeholder: "v0.6.0"
+      label: qu-ai-wei 版本或 commit（可选）
+      placeholder: "v0.8.4 / commit SHA"
 
   - type: checkboxes
     id: consent
     attributes:
       label: 使用许可
       options:
-        - label: "我同意把这份样本用于 qu-ai-wei 的 regression 测试和规则改进。"
+        - label: 我已删除敏感信息，并同意项目将这份样本用于规则改进和回归测试。
           required: true

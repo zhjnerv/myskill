@@ -4,211 +4,108 @@ set -euo pipefail
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$ROOT"
 
-MANIFEST="$ROOT/tests/eval-manifest.txt"
-
-usage() {
-  echo "usage: bash tests/check-runs.sh <run-dir>" >&2
-}
-
-if [ "$#" -ne 1 ]; then
-  usage
+if [ "$#" -ne 1 ] || [ ! -d "$1" ]; then
+  echo "usage: bash tests/check-runs.sh <run-directory>" >&2
   exit 2
 fi
 
 RUN_DIR="$1"
-if [ ! -d "$RUN_DIR" ]; then
-  echo "run dir not found: $RUN_DIR" >&2
-  exit 1
-fi
+id=""
+file=""
+require_output_fixed=()
+forbid_output_fixed=()
+require_output_regex=()
+forbid_output_regex=()
+require_final_fixed=()
+forbid_final_fixed=()
 
-fail() {
-  local id="$1"
-  local message="$2"
-  echo "${id}: ${message}" >&2
-  exit 1
-}
-
-extract_zhonggao() {
-  awk '
-    /^## *终稿/ { flag=1; found=1; next }
-    /^## / { flag=0 }
-    flag { print }
-    END { if (found != 1) exit 3 }
-  ' "$1"
-}
-
-reset_block() {
+reset_case() {
   file=""
-  require_section=()
-  require_anywhere=()
-  require_final=()
-  forbid_final=()
-  require_anywhere_fixed=()
+  require_output_fixed=()
+  forbid_output_fixed=()
+  require_output_regex=()
+  forbid_output_regex=()
   require_final_fixed=()
   forbid_final_fixed=()
 }
 
-has_final_assertions() {
+extract_final() {
+  awk '
+    /^#{2,6}[[:space:]]*终稿/ { active=1; found=1; next }
+    active && /^【(打磨报告|改动摘要)】/ { active=0; next }
+    /^#{2,6}[[:space:]]/ { active=0 }
+    active { print }
+    END { if (found != 1) exit 3 }
+  ' "$1"
+}
+
+check_case() {
+  [ -n "$id" ] || return 0
+  output="$RUN_DIR/${file:-${id}-output.md}"
+  [ -f "$output" ] || { echo "$id: missing output $output" >&2; exit 1; }
+
   set +u
-  local count=$(( \
-    ${#require_final[@]} \
-    + ${#forbid_final[@]} \
-    + ${#require_final_fixed[@]} \
-    + ${#forbid_final_fixed[@]} \
-  ))
-  set -u
-
-  [ "$count" -gt 0 ]
-}
-
-check_rg_file() {
-  local id="$1"
-  local key="$2"
-  local pattern="$3"
-  local path="$4"
-
-  if ! rg -q -- "$pattern" "$path"; then
-    fail "$id" "${key} failed: ${pattern}"
-  fi
-}
-
-check_fixed_file() {
-  local id="$1"
-  local key="$2"
-  local pattern="$3"
-  local path="$4"
-
-  if ! rg -q --fixed-strings -- "$pattern" "$path"; then
-    fail "$id" "${key} failed: ${pattern}"
-  fi
-}
-
-check_rg_text_required() {
-  local id="$1"
-  local key="$2"
-  local pattern="$3"
-  local text="$4"
-
-  if ! printf '%s\n' "$text" | rg -q -- "$pattern"; then
-    fail "$id" "${key} failed: ${pattern}"
-  fi
-}
-
-check_rg_text_forbidden() {
-  local id="$1"
-  local key="$2"
-  local pattern="$3"
-  local text="$4"
-
-  if printf '%s\n' "$text" | rg -q -- "$pattern"; then
-    fail "$id" "${key} matched forbidden pattern: ${pattern}"
-  fi
-}
-
-check_fixed_text_required() {
-  local id="$1"
-  local key="$2"
-  local pattern="$3"
-  local text="$4"
-
-  if ! printf '%s\n' "$text" | rg -q --fixed-strings -- "$pattern"; then
-    fail "$id" "${key} failed: ${pattern}"
-  fi
-}
-
-check_fixed_text_forbidden() {
-  local id="$1"
-  local key="$2"
-  local pattern="$3"
-  local text="$4"
-
-  if printf '%s\n' "$text" | rg -q --fixed-strings -- "$pattern"; then
-    fail "$id" "${key} matched forbidden string: ${pattern}"
-  fi
-}
-
-run_block() {
-  [ -n "${id:-}" ] || return 0
-
-  local output_file="${file:-${id}-output.md}"
-  local output_path="$RUN_DIR/$output_file"
-  [ -f "$output_path" ] || fail "$id" "missing output file: $output_path"
-
-  local value
-  set +u
-  for value in "${require_section[@]}"; do
-    check_rg_file "$id" "require_section" "$value" "$output_path"
+  for value in "${require_output_fixed[@]}"; do
+    grep -Fq -- "$value" "$output" || { echo "$id: output missing: $value" >&2; exit 1; }
   done
-  for value in "${require_anywhere[@]}"; do
-    check_rg_file "$id" "require_anywhere" "$value" "$output_path"
-  done
-  for value in "${require_anywhere_fixed[@]}"; do
-    check_fixed_file "$id" "require_anywhere_fixed" "$value" "$output_path"
-  done
-  set -u
-
-  if has_final_assertions; then
-    local final_text
-    if ! final_text="$(extract_zhonggao "$output_path")"; then
-      fail "$id" "missing ## 终稿 section for final-section assertions"
+  for value in "${forbid_output_fixed[@]}"; do
+    if grep -Fq -- "$value" "$output"; then
+      echo "$id: output contains forbidden text: $value" >&2
+      exit 1
     fi
+  done
+  for value in "${require_output_regex[@]}"; do
+    grep -Eq -- "$value" "$output" || { echo "$id: output missing pattern: $value" >&2; exit 1; }
+  done
+  for value in "${forbid_output_regex[@]}"; do
+    if grep -Eq -- "$value" "$output"; then
+      echo "$id: output matches forbidden pattern: $value" >&2
+      exit 1
+    fi
+  done
+  final_check_count=$(( ${#require_final_fixed[@]} + ${#forbid_final_fixed[@]} ))
+  set -u
 
+  if [ "$final_check_count" -gt 0 ]; then
+    final="$(extract_final "$output")" || { echo "$id: missing 终稿 section" >&2; exit 1; }
     set +u
-    for value in "${require_final[@]}"; do
-      check_rg_text_required "$id" "require_final" "$value" "$final_text"
-    done
-    for value in "${forbid_final[@]}"; do
-      check_rg_text_forbidden "$id" "forbid_final" "$value" "$final_text"
-    done
     for value in "${require_final_fixed[@]}"; do
-      check_fixed_text_required "$id" "require_final_fixed" "$value" "$final_text"
+      grep -Fq -- "$value" <<<"$final" || { echo "$id: final missing: $value" >&2; exit 1; }
     done
     for value in "${forbid_final_fixed[@]}"; do
-      check_fixed_text_forbidden "$id" "forbid_final_fixed" "$value" "$final_text"
+      if grep -Fq -- "$value" <<<"$final"; then
+        echo "$id: final contains forbidden text: $value" >&2
+        exit 1
+      fi
     done
     set -u
   fi
 }
 
-id=""
-reset_block
-
-while IFS= read -r raw_line || [ -n "$raw_line" ]; do
-  line="${raw_line%$'\r'}"
-
+while IFS= read -r line || [ -n "$line" ]; do
   case "$line" in
     ""|\#*) continue ;;
   esac
-
   if [[ "$line" =~ ^\[[0-9][0-9]\]$ ]]; then
-    run_block
+    check_case
     id="${line:1:2}"
-    reset_block
+    reset_case
     continue
   fi
-
-  [ -n "$id" ] || fail "manifest" "assertion before fixture block: $line"
-  if [[ "$line" != *=* ]]; then
-    fail "$id" "manifest line missing '=': $line"
-  fi
-
   key="${line%%=*}"
   value="${line#*=}"
-
   case "$key" in
     file) file="$value" ;;
-    require_section) require_section+=("$value") ;;
-    require_anywhere) require_anywhere+=("$value") ;;
-    require_final) require_final+=("$value") ;;
-    forbid_final) forbid_final+=("$value") ;;
-    require_anywhere_fixed) require_anywhere_fixed+=("$value") ;;
+    require_output_fixed) require_output_fixed+=("$value") ;;
+    forbid_output_fixed) forbid_output_fixed+=("$value") ;;
+    require_output_regex) require_output_regex+=("$value") ;;
+    forbid_output_regex) forbid_output_regex+=("$value") ;;
     require_final_fixed) require_final_fixed+=("$value") ;;
     forbid_final_fixed) forbid_final_fixed+=("$value") ;;
-    note) ;;
-    *) fail "$id" "unknown manifest key: $key" ;;
+    fixture|mode|request|note) ;;
+    *) echo "$id: unknown eval key: $key" >&2; exit 1 ;;
   esac
-done < "$MANIFEST"
+done < tests/eval-manifest.txt
 
-run_block
-
-echo "run check ok: $RUN_DIR"
+check_case
+echo "captured run checks ok: $RUN_DIR"

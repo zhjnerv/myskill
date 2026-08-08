@@ -2,87 +2,54 @@
 
 [简体中文](../README.md) | English | [日本語](./README.ja.md) | [한국어](./README.ko.md) | [Español](./README.es.md)
 
-qu-ai-wei is an agent skill for cleaning up AI-sounding writing in **Simplified Chinese**. It helps turn a Simplified Chinese draft from "obviously AI-written" into cleaner, more natural Chinese, while preserving facts and the original intent.
+> ⚠️ **0.x development release:** Rules, categories, and interfaces may still change. Feedback is welcome through [issues](https://github.com/LifelongLazyLearner/qu-ai-wei/issues), [discussions](https://github.com/LifelongLazyLearner/qu-ai-wei/discussions), or pull requests.
 
-The canonical documentation is the [Simplified Chinese README](../README.md). This file is only a compact orientation for English readers.
+qu-ai-wei edits AI-generated drafts written in **Simplified Chinese** so they read more naturally while preserving facts, meaning, formality, and the source voice.
 
-https://github.com/user-attachments/assets/24513c20-968d-437b-8ceb-1ac1f77f6ad6
+This README is available in several languages, but the skill itself edits prose whose primary language is Simplified Chinese. Necessary product names, technical terms, abbreviations, and other embedded terms are preserved.
 
-## What It Is For
+## See It Work
 
-- Cleaning visible AI-writing traces in Simplified Chinese drafts, such as generic slogans, mechanical structure, over-polished phrasing, and translation-like Chinese.
-- Lightly polishing wording, rhythm, and concrete expression when the source text already contains the needed information.
-- Helping writers, editors, operators, product managers, students, and developers make everyday Simplified Chinese writing read less like a first AI draft.
+![qu-ai-wei removes boilerplate while preserving the facts in a Simplified Chinese draft](../assets/demo.gif)
 
-## Hard Boundary
-
-qu-ai-wei **only supports Simplified Chinese**.
-
-It does not humanize English, Japanese, Korean, Spanish, Traditional Chinese, or mixed-language drafts. Traditional Chinese has different AI-writing patterns, word choices, and typography rules, so it needs a separate rule set.
-
-It is also not a cheating or AI-detection bypass tool. Use it to improve writing you are responsible for, not to misrepresent authorship.
-
-## What It Can and Cannot Do
-
-It can:
-
-- Remove obvious AI-sounding Chinese patterns.
-- Keep the text's facts, intent, and broad register.
-- Refuse or pause when the input looks like already-human writing, Traditional Chinese, legal/public-sector writing, or another case where rewriting would be risky.
-
-It cannot:
-
-- Invent original insight, interviews, details, or a stronger point of view.
-- Turn weak source material into magazine-grade writing.
-- Rewrite non-Simplified-Chinese text.
+The example removes a generic opening, an unnecessary emphasis cue, and a slogan while preserving the two stated facts. See [`references/examples.md`](../references/examples.md) for the editing boundaries behind the example.
 
 ## Install
 
-The same install script supports Cursor, Claude Code, OpenAI Codex CLI, OpenCode, Kiro, Factory Droid, Slate, and Hermes.
-
-With Node/npm installed, the recommended path is the external `skills` CLI. By default it detects available agents, or prompts you to choose one:
+With Node.js and npm installed, run:
 
 ```bash
 npx skills add https://github.com/LifelongLazyLearner/qu-ai-wei
 ```
 
-This uses the external `skills` CLI to fetch this GitHub repository. It is not a qu-ai-wei npm package.
-
-To target specific agents, add `-a`:
-
-```bash
-npx skills add https://github.com/LifelongLazyLearner/qu-ai-wei -a codex
-npx skills add https://github.com/LifelongLazyLearner/qu-ai-wei -a codex -a claude-code -a cursor
-npx skills add https://github.com/LifelongLazyLearner/qu-ai-wei -g -a codex -y
-```
-
-```bash
-git clone https://github.com/LifelongLazyLearner/qu-ai-wei.git ~/qu-ai-wei
-cd ~/qu-ai-wei
-
-# Install for one agent
-bash scripts/install-skill.sh --platform codex
-
-# Or install for every supported agent
-bash scripts/install-skill.sh --platform all
-```
+The external `skills` CLI detects supported AI coding tools installed on your computer.
 
 ## Use
 
-For non-Chinese-speaking users, the safest path is to call the skill explicitly and paste Simplified Chinese text:
+After installation, start a new session or reload skills as required by your tool, then ask:
 
 ```text
 /qu-ai-wei
 
-[paste Simplified Chinese text here]
+[paste Simplified Chinese text]
 ```
 
-You can also paste the body of [SKILL.md](../SKILL.md) into an AI model's custom instructions or system prompt. Skip the YAML frontmatter at the top.
+By default, qu-ai-wei checks whether the text should be edited, produces a draft, reviews it, and returns a final version with a polishing report. It stops on already-human writing and asks when the intended context or level of formality is unclear.
 
-## More
+## Final Text Only
 
-- Full docs: [README.md](../README.md)
-- Skill rules: [SKILL.md](../SKILL.md)
-- Supporting references: [references/](../references/)
-- Changes: [CHANGELOG.md](../CHANGELOG.md)
-- License: [MIT](../LICENSE)
+When qu-ai-wei is one step inside a larger workflow, request embedded mode:
+
+```text
+Use qu-ai-wei to revise the following PR description. Return only the final text:
+
+[paste Simplified Chinese text]
+```
+
+Embedded mode runs the same checks. When a safe revision is possible, it exposes only the final text; when the input is already human writing or lacks necessary context, it returns the source unchanged, asks a question, or reports the block. It does not grant permission to write files, commit, publish, or send anything.
+
+## Boundaries
+
+qu-ai-wei does not translate or write from scratch, invent missing opinions or details, rewrite a person's established voice, or help bypass AI-use policies.
+
+See [SKILL.md](../SKILL.md) for the complete execution rules. The method was inspired by [humanizer](https://github.com/blader/humanizer), with Chinese translationese guidance informed by [yage.ai](https://yage.ai/share/ai-chinese-translationese-20260418.html). Licensed under the [MIT License](../LICENSE).
