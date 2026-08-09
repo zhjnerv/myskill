@@ -1,11 +1,11 @@
 name: "法律服务方案格式"
-description: "法律服务方案专用格式，含封面页、分层配色方案、表格交替行、高亮方案标注；金墨配色与默认模板 logo 同源"
+description: "法律服务方案专用格式，含封面页、分层配色方案、表格交替行、高亮方案标注"
 
-# 配色方案 - 金墨分层（与默认模板 logo 同源）
+# 配色方案 - 仅3色
 colors:
-  primary: "#2A2418"       # 暖墨 - 表头、一级标题、封面标题
-  accent: "#A87818"        # 深金 - 高亮（方案名、价格）
-  alt: "#FDF8E3"           # 浅金白 - 交替行背景
+  primary: "#5A4E48"       # 深蓝 - 表头、一级标题
+  accent: "#5A4E48"        # 深棕 - 高亮（方案名、价格）
+  alt: "#F5F0ED"           # 浅棕 - 交替行背景
 
 # 封面页
 cover_page:
@@ -14,7 +14,7 @@ cover_page:
     font: "微软雅黑"
     size: 22
     bold: true
-    color: "#2A2418"
+    color: "#5A4E48"
     alignment: center
     space_before_pt: 120
     space_after_pt: 36
@@ -46,13 +46,13 @@ fonts:
     name_alt: "Microsoft YaHei"
     ascii: "Arial"
 
-# 标题设置 - 金墨分层（H1 暖墨 / H2 深金 / H3 暗金 / H4 墨灰）
+# 标题设置 - 按层级区分
 titles:
   level1:
     size: 16         # 小二
     bold: true
     align: "center"
-    color: "#2A2418"
+    color: "#5A4E48"
     font: "微软雅黑"
     space_before: 16
     space_after: 12
@@ -60,7 +60,7 @@ titles:
     size: 14         # 小三
     bold: true
     align: "left"
-    color: "#A87818"
+    color: "#5A4E48"
     font: "微软雅黑"
     space_before: 14
     space_after: 10
@@ -69,7 +69,7 @@ titles:
     size: 12         # 小四
     bold: true
     align: "left"
-    color: "#8A6A1A"
+    color: "#5A4E48"
     font: "仿宋"
     space_before: 12
     space_after: 8
@@ -78,7 +78,6 @@ titles:
     size: 12
     bold: true
     align: "left"
-    color: "#4A4028"
     font: "仿宋"
     space_before: 8
     space_after: 4
@@ -102,10 +101,10 @@ page_number:
 quotes:
   convert_to_chinese: true
 
-# 表格设置（金墨分层）
+# 表格设置
 table:
   border_enabled: true
-  border_color: "#C89028"
+  border_color: "#CCCCCC"
   border_width: 4
   line_spacing: 1.5
   row_height_cm: 0.8
@@ -116,28 +115,26 @@ table:
     left: 60
     right: 60
   vertical_align: "center"
-  rounded_corners: true
 
   header:
     font: "微软雅黑"
     size: 12
     bold: true
     color: "#FFFFFF"
-    background_color: "#2A2418"     # 暖墨底
+    background_color: "#5A4E48"
 
   row_even:
     background_color: "#FFFFFF"
 
   row_odd:
-    background_color: "#FDF8E3"     # 浅金白
+    background_color: "#F5F0ED"
 
   row_highlight:
-    background_color: "#F5EED8"     # 略深于交替行，用于重点行
+    background_color: "#F5F0ED"
 
   body:
     font: "仿宋"
     size: 12
-    color: "#2D3436"
 
 # 高亮文本
 highlight:
@@ -145,37 +142,32 @@ highlight:
     font: "微软雅黑"
     size: 12
     bold: true
-    color: "#A87818"                # 深金
+    color: "#5A4E48"
 
   price:
     font: "仿宋"
     size: 12
     bold: true
-    color: "#A87818"                # 深金
+    color: "#5A4E48"
 
 # 代码块
 code_block:
   label:
     font: "Times New Roman"
     size: 10
-    color: "#8A6A1A"
   content:
     font: "Times New Roman"
     size: 10
     left_indent: 24
     line_spacing: 1.2
-    background_color: "#FBF6E9"
-    border_color: "#E8D9A8"
-    border_size: 4
 
 inline_code:
   font: "Times New Roman"
   size: 10
-  background_color: "#F5EED8"
 
-# 引用块（浅金白底，与交替行呼应）
+# 引用块
 quote:
-  background_color: "#FDF8E3"
+  background_color: "#F5F0ED"
   left_indent_inches: 0
   font_size: 12
   line_spacing: 1.5
@@ -193,7 +185,7 @@ horizontal_rule:
   repeat_count: 55
   font: "Times New Roman"
   size: 12
-  color: "#C89028"
+  color: "#CCCCCC"
   alignment: "center"
 
 # 列表

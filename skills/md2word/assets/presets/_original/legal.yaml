@@ -1,5 +1,5 @@
 name: "法律文书格式"
-description: "标准法律文书格式，仿宋_GB2312，小四号，1.5倍行距；金墨配色与默认模板 logo 同源"
+description: "标准法律文书格式，仿宋_GB2312，小四号，1.5倍行距"
 
 # 页面设置
 page:
@@ -19,13 +19,12 @@ fonts:
     size: 12      # pt (小四)
     color: "#000000"
 
-# 标题设置（金墨分层：H1 暖墨 / H2 深金 / H3 暗金 / H4 墨灰）
+# 标题设置
 titles:
   level1:
     size: 15      # pt (小三)
     bold: true
     align: "center"
-    color: "#2A2418"   # 暖墨（logo 字形同族，最重）
     space_before: 6
     space_after: 6
     indent: 0
@@ -33,7 +32,6 @@ titles:
     size: 12      # pt (小四)
     bold: true
     align: "justify"
-    color: "#A87818"   # 深金（logo 暗部金，次重）
     indent: 24
     space_before: 9   # 0.5行距 (12pt × 1.5 × 0.5)
     space_after: 9    # 0.5行距
@@ -41,7 +39,6 @@ titles:
     size: 12      # pt (小四)
     bold: true
     align: "justify"
-    color: "#8A6A1A"   # 暗金（明度略降，拉开层级）
     indent: 24
     space_before: 9   # 0.5行距
     space_after: 9    # 0.5行距
@@ -49,7 +46,6 @@ titles:
     size: 12      # pt (小四)
     bold: true
     align: "justify"
-    color: "#4A4028"   # 墨灰（最轻，收束到正文浓度）
     indent: 24
 
 # 段落设置
@@ -70,11 +66,11 @@ page_number:
 quotes:
   convert_to_chinese: true
 
-# 表格设置（金墨分层配色，与默认模板 logo 同源）
-# 暖墨 #2A2418 / 深金 #C89028 / 浅金白 #FDF8E3 / 文字深灰 #2D3436
+# 表格设置（FIGURES-OUTLINE 配图风格规范配色）
+# 主蓝 #2C5282 / 浅灰 #EDF2F7 / 边框 #CBD5E0 / 文字深灰 #2D3436（T139 方案 A）
 table:
   border_enabled: true
-  border_color: "#C89028"          # 边框：深金细线（logo 暗部金）
+  border_color: "#CBD5E0"          # 边框：浅灰细线
   border_width: 4
   line_spacing: 1.2
   row_height_cm: 0.8
@@ -87,35 +83,35 @@ table:
   vertical_align: "center"
   rounded_corners: true            # 圆角边框
 
-  # 表格标题行（第一行）格式：暖墨底 + 白字
+  # 表格标题行（第一行）格式：主蓝底 + 白字
   header:
     font: "Times New Roman"
     size: 10.5
     bold: true
     color: "#FFFFFF"                # 白字
-    background_color: "#2A2418"     # 暖墨底纹（logo 字形同族）
+    background_color: "#2C5282"     # 主蓝底纹（点缀用）
 
   # 表格正文格式
   body:
     font: "仿宋"
     font_alt: "仿宋_GB2312"
     size: 10.5
-    color: "#2D3436"                # 深灰主色（保持阅读浓度）
+    color: "#2D3436"                # 深灰主色（T139 方案 A）
 
-  # 隔行底纹（斑马纹）：浅金白交替
+  # 隔行底纹（斑马纹）：浅灰交替
   row_even:
-    background_color: "#FDF8E3"     # 偶数行浅金白底纹（主金 8% 明度）
+    background_color: "#EDF2F7"     # 偶数行浅灰底纹
   row_odd:
     background_color: "#FFFFFF"     # 奇数行白底
 
-# 代码块设置（出版级：等宽字体 + 米金底纹 + 雾金细边框 + 关拼写检查）
+# 代码块设置（出版级：等宽字体 + 浅灰底纹 + 细边框 + 关拼写检查）
 code_block:
   # 语言标签格式（代码块开头的 [language] 标签；enabled=false 可隐藏标签）
   label:
     enabled: false
     font: "Times New Roman"
     size: 10
-    color: "#8A6A1A"                # 暗金（可阅读浓度）
+    color: "#808080"
 
   # 代码内容格式
   content:
@@ -125,18 +121,18 @@ code_block:
     color: "#333333"
     left_indent: 0
     line_spacing: 1.2
-    background_color: "#FBF6E9" # 米金底纹（与斑马纹同族但更淡）
-    border_color: "#E8D9A8"     # 雾金边框（比表格边框淡，形成前后景）
+    background_color: "#F5F5F5" # 浅灰底纹（留空则不加，向后兼容）
+    border_color: "#D0D0D0"     # 段落边框，相邻行自动连成完整框（留空则不加）
     border_size: 4              # 边框粗细，1/8 pt 单位
     no_proofread: true          # 关闭拼写检查
 
-# 行内代码设置（等宽 + 米金底，与代码块风格一致）
+# 行内代码设置（等宽 + 浅灰底，与代码块风格一致）
 inline_code:
   font: "Consolas"
   east_asia_font: "等线"
   size: 10
   color: "#333333"
-  background_color: "#F5EED8"       # 介于斑马纹与代码底纹之间
+  background_color: "#F0F0F0"
 
 # 引用块设置（无视觉样式：与正文一致，不加底纹/边框/缩进）
 quote:
@@ -151,7 +147,7 @@ math:
   font: "Times New Roman"
   size: 11
   italic: true
-  color: "#8A6A1A"                  # 暗金（替代原深蓝，与 logo 金色同族）
+  color: "#00008B"
 
 # 图片设置
 image:
@@ -166,7 +162,7 @@ horizontal_rule:
   repeat_count: 55
   font: "Times New Roman"
   size: 12
-  color: "#C89028"                  # 深金（替代灰色，呼应边框）
+  color: "#808080"
   alignment: "center"
 
 # 列表设置

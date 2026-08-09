@@ -1,5 +1,5 @@
 name: "简单文档格式"
-description: "简单文档格式，无特殊要求，适合一般用途"
+description: "简单文档格式，无特殊要求，适合一般用途；金墨配色与默认模板 logo 同源"
 
 # 页面设置
 page:
@@ -18,12 +18,13 @@ fonts:
     size: 12
     color: "#000000"
 
-# 标题设置
+# 标题设置（金墨分层：H1 暖墨 / H2 深金 / H3 暗金 / H4 墨灰）
 titles:
   level1:
     size: 15
     bold: true
     align: "center"
+    color: "#2A2418"
     space_before: 6
     space_after: 6
     indent: 0
@@ -31,16 +32,19 @@ titles:
     size: 12
     bold: true
     align: "left"
+    color: "#A87818"
     indent: 0
   level3:
     size: 12
     bold: false
     align: "left"
+    color: "#8A6A1A"
     indent: 0
   level4:
     size: 12
     bold: false
     align: "left"
+    color: "#4A4028"
     indent: 0
 
 # 段落设置
@@ -61,10 +65,10 @@ page_number:
 quotes:
   convert_to_chinese: true
 
-# 表格设置
+# 表格设置（金墨分层配色）
 table:
   border_enabled: true
-  border_color: "#000000"
+  border_color: "#C89028"
   border_width: 4
   line_spacing: 1.2
   row_height_cm: 0.8
@@ -75,19 +79,27 @@ table:
     left: 60
     right: 60
   vertical_align: "center"
+  rounded_corners: true
 
-  # 表格标题行（第一行）格式
+  # 表格标题行（第一行）格式：暖墨底 + 白字
   header:
     font: "Times New Roman"
     size: 10.5
     bold: true
-    color: "#000000"
+    color: "#FFFFFF"
+    background_color: "#2A2418"
 
   # 表格正文格式
   body:
     font: "仿宋_GB2312"
     size: 10.5
-    color: "#000000"
+    color: "#2D3436"
+
+  # 隔行底纹（斑马纹）：浅金白交替
+  row_even:
+    background_color: "#FDF8E3"
+  row_odd:
+    background_color: "#FFFFFF"
 
 # 代码块设置
 code_block:
@@ -95,7 +107,7 @@ code_block:
   label:
     font: "Times New Roman"
     size: 10
-    color: "#808080"
+    color: "#8A6A1A"
 
   # 代码内容格式
   content:
@@ -104,16 +116,20 @@ code_block:
     color: "#333333"
     left_indent: 24
     line_spacing: 1.2
+    background_color: "#FBF6E9"
+    border_color: "#E8D9A8"
+    border_size: 4
 
 # 行内代码设置
 inline_code:
   font: "Times New Roman"
   size: 10
   color: "#333333"
+  background_color: "#F5EED8"
 
-# 引用块设置
+# 引用块设置（极简：浅金白底）
 quote:
-  background_color: "#EAEAEA"
+  background_color: "#FDF8E3"
   left_indent_inches: 0.2
   font_size: 9
   line_spacing: 1.5
@@ -123,7 +139,7 @@ math:
   font: "Times New Roman"
   size: 11
   italic: true
-  color: "#00008B"
+  color: "#8A6A1A"
 
 # 图片设置
 image:
@@ -138,7 +154,7 @@ horizontal_rule:
   repeat_count: 55
   font: "Times New Roman"
   size: 12
-  color: "#808080"
+  color: "#C89028"
   alignment: "center"
 
 # 列表设置

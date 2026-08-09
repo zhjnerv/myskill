@@ -1,5 +1,5 @@
-name: "学术论文格式"
-description: "标准学术论文格式，宋体，小四号，双倍行距；金墨配色与默认模板 logo 同源"
+name: "工作报告格式"
+description: "工作报告格式，黑体标题，仿宋正文，1.5倍行距"
 
 # 页面设置
 page:
@@ -8,48 +8,46 @@ page:
   margin_top: 2.54
   margin_bottom: 2.54
   margin_left: 3.0
-  margin_right: 2.5
+  margin_right: 3.0
 
 # 字体设置
 fonts:
   default:
-    name: "宋体"
+    name: "仿宋_GB2312"
     ascii: "Times New Roman"
     size: 12      # pt (小四)
     color: "#000000"
 
-# 标题设置（金墨分层：H1 暖墨 / H2 深金 / H3 暗金 / H4 墨灰）
+# 标题设置
 titles:
   level1:
-    size: 18      # pt (二号)
+    size: 16      # pt (三号)
     bold: true
     align: "center"
-    color: "#2A2418"
     space_before: 12
-    space_after: 12
+    space_after: 6
     indent: 0
   level2:
     size: 14      # pt (四号)
     bold: true
     align: "left"
-    color: "#A87818"
+    space_before: 6
+    space_after: 3
     indent: 0
   level3:
     size: 12      # pt (小四)
     bold: true
     align: "left"
-    color: "#8A6A1A"
     indent: 0
   level4:
     size: 12      # pt (小四)
     bold: false
     align: "left"
-    color: "#4A4028"
     indent: 0
 
 # 段落设置
 paragraph:
-  line_spacing: 2.0  # 双倍行距
+  line_spacing: 1.5
   first_line_indent: 24
   align: "justify"
 
@@ -65,10 +63,10 @@ page_number:
 quotes:
   convert_to_chinese: true
 
-# 表格设置（金墨分层配色，与默认模板 logo 同源）
+# 表格设置
 table:
   border_enabled: true
-  border_color: "#C89028"          # 深金边框
+  border_color: "#000000"
   border_width: 4
   line_spacing: 1.2
   row_height_cm: 0.8
@@ -79,27 +77,19 @@ table:
     left: 60
     right: 60
   vertical_align: "center"
-  rounded_corners: true
 
-  # 表格标题行（第一行）格式：暖墨底 + 白字
+  # 表格标题行（第一行）格式
   header:
     font: "Times New Roman"
     size: 10.5
     bold: true
-    color: "#FFFFFF"
-    background_color: "#2A2418"
+    color: "#000000"
 
   # 表格正文格式
   body:
-    font: "宋体"
+    font: "仿宋_GB2312"
     size: 10.5
-    color: "#2D3436"
-
-  # 隔行底纹（斑马纹）：浅金白交替
-  row_even:
-    background_color: "#FDF8E3"
-  row_odd:
-    background_color: "#FFFFFF"
+    color: "#000000"
 
 # 代码块设置
 code_block:
@@ -107,7 +97,7 @@ code_block:
   label:
     font: "Times New Roman"
     size: 10
-    color: "#8A6A1A"
+    color: "#808080"
 
   # 代码内容格式
   content:
@@ -116,20 +106,16 @@ code_block:
     color: "#333333"
     left_indent: 24
     line_spacing: 1.2
-    background_color: "#FBF6E9"
-    border_color: "#E8D9A8"
-    border_size: 4
 
 # 行内代码设置
 inline_code:
   font: "Times New Roman"
   size: 10
   color: "#333333"
-  background_color: "#F5EED8"
 
-# 引用块设置（学术：浅金白底 + 缩进，与斑马纹呼应）
+# 引用块设置
 quote:
-  background_color: "#FDF8E3"
+  background_color: "#EAEAEA"
   left_indent_inches: 0.2
   font_size: 9
   line_spacing: 1.5
@@ -139,7 +125,7 @@ math:
   font: "Times New Roman"
   size: 11
   italic: true
-  color: "#8A6A1A"
+  color: "#00008B"
 
 # 图片设置
 image:
@@ -154,7 +140,7 @@ horizontal_rule:
   repeat_count: 55
   font: "Times New Roman"
   size: 12
-  color: "#C89028"
+  color: "#808080"
   alignment: "center"
 
 # 列表设置
