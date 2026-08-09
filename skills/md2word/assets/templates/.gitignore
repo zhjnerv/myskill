@@ -1,0 +1,3 @@
+# Ignore all docx template files to prevent uploading private headers/logos to GitHub
+*.docx
+!.gitkeep

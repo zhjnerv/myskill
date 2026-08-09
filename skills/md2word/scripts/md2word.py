@@ -448,13 +448,11 @@ def add_page_number(doc):
 # 工具函数
 # ============================================================================
 
-def find_template_file(auto: bool = False):
+def find_template_file(auto: bool = True):
     """查找 `assets/templates/` 下的 .docx 模板。
 
     参数:
-        auto: 默认 False → 返回 None（不自动加载模板，避免律所 logo 等视觉元素
-              出现在用户没显式要求的 docx 里）。CLI 用 `--auto-template` 显式开启
-              时传 True，才会真正去扫描 templates 目录。
+        auto: 默认 True → 自动扫描并加载 templates 目录下的模板。
 
     返回:
         模板文件绝对路径；找不到时返回 None。
@@ -1111,7 +1109,7 @@ def main():
     if args.template:
         template_file = args.template
     else:
-        template_file = find_template_file(auto=args.auto_template)
+        template_file = find_template_file(auto=not getattr(args, 'no_template', False))
 
     if args.landscape:
         if 'page' not in config._config:
