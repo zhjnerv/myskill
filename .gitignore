@@ -18,6 +18,9 @@ ehthumbs.db
 *.rej
 
 # ---- 本地运行期产物 ----
+__pycache__/
+*.pyc
+*.pyo
 # 上游镜像克隆默认落在 %LOCALAPPDATA%\myskill-upstream，不在仓库内；
 # 若用 -CacheRoot 覆盖到仓库内，这条兜底防止误提交
 .upstream/
