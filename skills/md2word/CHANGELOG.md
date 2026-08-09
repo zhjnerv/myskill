@@ -2,6 +2,14 @@
 
 本文件记录 md2word 技能的所有重要变更。
 
+## [Unreleased]
+
+### 修复
+- **Windows GBK 控制台兼容**：状态图标无法被旧代码页编码时，改为 ASCII 转义序列而非抛出 `UnicodeEncodeError` 中断转换。配置、脚注和 SVG 模块均初始化该兼容层；回归测试覆盖 `PYTHONIOENCODING=gbk:strict` 下的引号转换和页面脚注注入。
+
+### 使用说明
+- `SKILL.md` 与 README 的命令统一使用 `python -X utf8`，使 PowerShell 上的调用获得可预测的 UTF-8 输出。
+
 ## [1.2.0] - 2026-08-05
 
 ### 回退

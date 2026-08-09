@@ -36,21 +36,23 @@ brew install librsvg                       # SVG→PNG（推荐，rsvg-convert�
 
 主转换脚本：`scripts/md2word.py`
 
+> Windows PowerShell 建议固定使用 `python -X utf8`。该参数可避免旧 GBK 控制台输出状态图标时触发 `UnicodeEncodeError`；其他平台也可直接使用。
+
 ```bash
 # 基本转换
-python scripts/md2word.py input.md output.docx
+python -X utf8 scripts/md2word.py input.md output.docx
 
 # 使用预设格式
-python scripts/md2word.py input.md --preset=academic
+python -X utf8 scripts/md2word.py input.md --preset=academic
 
 # 使用自定义配置
-python scripts/md2word.py input.md --config=my-config.yaml
+python -X utf8 scripts/md2word.py input.md --config=my-config.yaml
 
 # 脚注/尾注模式（默认 footnote 页面脚注；endnote=文档末注释+上标编号）
-python scripts/md2word.py input.md --notes=endnote
+python -X utf8 scripts/md2word.py input.md --notes=endnote
 
 # 全书合并：多章 md → 单 docx（目录+章间分页+页眉，配合 -o 指定输出）
-python scripts/md2word.py --book ch01.md ch02.md ch03.md -o book.docx --preset=book-publish
+python -X utf8 scripts/md2word.py --book ch01.md ch02.md ch03.md -o book.docx --preset=book-publish
 ```
 
 ## 配置系统
@@ -60,7 +62,7 @@ python scripts/md2word.py --book ch01.md ch02.md ch03.md -o book.docx --preset=b
 预设信息从 YAML 文件动态读取，运行以下命令查看完整列表：
 
 ```bash
-python scripts/config.py --list
+python -X utf8 scripts/config.py --list
 ```
 
 常用预设：

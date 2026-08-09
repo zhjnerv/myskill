@@ -17,6 +17,7 @@ import re
 import shutil
 import zipfile
 
+import console_output  # noqa: F401  # 初始化控制台输出兼容层
 from docx.oxml.ns import qn
 from docx.oxml.shared import OxmlElement
 from docx.shared import Pt

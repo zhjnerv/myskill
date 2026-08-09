@@ -15,6 +15,7 @@ import os
 import shutil
 import subprocess
 
+import console_output  # noqa: F401  # 初始化控制台输出兼容层
 from PIL import Image
 
 
