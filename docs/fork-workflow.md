@@ -63,8 +63,8 @@ split 是确定性的：fork 有新提交时重跑只在同一条分支上追加
 前提是你已经 fork 过原作者仓库。没 fork 的话加 `-CreateFork`，脚本用 `gh` 帮你建。
 
 ```powershell
-# 合集仓库里的一个 skill
-.\scripts\skill-vendor.ps1 -Name git-workflow -Upstream cat-xierluo/legal-skills -Subpath git-workflow
+# 合集仓库里的一个 skill（-Subpath 以仓库里的真实路径为准，别猜）
+.\scripts\skill-vendor.ps1 -Name git-workflow -Upstream cat-xierluo/legal-skills -Subpath skills/git-workflow
 
 # 整个仓库就是一个 skill，顺手创建 fork
 .\scripts\skill-vendor.ps1 -Name pdf-tool -Upstream owner/pdf-tool-skill -CreateFork

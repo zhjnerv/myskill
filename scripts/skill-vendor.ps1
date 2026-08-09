@@ -18,7 +18,9 @@
     显式指定自己的 fork 地址。fork 改过名、或不想按默认推导时用。
 
 .PARAMETER Subpath
-    skill 在仓库中的子目录，如 git-workflow。留空表示整个仓库就是这个 skill。
+    skill 在仓库中的子目录，如 skills/git-workflow。留空表示整个仓库就是这个 skill。
+    路径要与仓库里的真实结构一致，可用下面这条确认：
+        gh api "repos/<owner>/<repo>/git/trees/HEAD?recursive=1" --jq '.tree[] | select(.path|endswith("SKILL.md")) | .path'
 
 .PARAMETER Branch
     分支，默认 main。
@@ -28,7 +30,7 @@
 
 .EXAMPLE
     # 合集仓库里的一个 skill，fork 已经存在
-    .\scripts\skill-vendor.ps1 -Name git-workflow -Upstream cat-xierluo/legal-skills -Subpath git-workflow
+    .\scripts\skill-vendor.ps1 -Name git-workflow -Upstream cat-xierluo/legal-skills -Subpath skills/git-workflow
 
 .EXAMPLE
     # 整个仓库就是一个 skill，并顺手创建 fork

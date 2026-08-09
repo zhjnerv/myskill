@@ -25,17 +25,21 @@ myskill/
 ├── registry.json          # 每个 skill 的来源与同步状态（唯一元数据来源）
 ├── skills/<name>/         # 一个目录一个 skill，SKILL.md 必需
 ├── scripts/               # 引入 / 同步 / 回贡 / 部署
-└── docs/fork-workflow.md  # 工作流细节与踩坑
+└── docs/
+    ├── usage.md           # 按场景查的操作手册 ← 日常看这个
+    └── fork-workflow.md   # 设计理由、取舍、已知坑
 ```
 
-## 命令
+## 命令速查
+
+完整用法（含合集仓库的处理、迁移已有 skill、故障排查）见 **[docs/usage.md](docs/usage.md)**。
 
 ```powershell
 # 自研
 .\scripts\skill-new.ps1 -Name contract-review -Description "当用户需要审查合同条款风险时使用。不要用于合同起草。"
 
 # 引入（-Subpath 用于"skill 是合集仓库里的一个子目录"；没 fork 过就加 -CreateFork）
-.\scripts\skill-vendor.ps1 -Name git-workflow -Upstream cat-xierluo/legal-skills -Subpath git-workflow
+.\scripts\skill-vendor.ps1 -Name git-workflow -Upstream cat-xierluo/legal-skills -Subpath skills/git-workflow
 .\scripts\skill-vendor.ps1 -Name pdf-tool -Upstream owner/pdf-tool-skill -CreateFork
 
 # 看状态

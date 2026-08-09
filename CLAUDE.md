@@ -23,6 +23,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 没有 lint / test 命令。改完 skill 的验证方式是部署后在真实会话里触发它。
 
+面向使用者的操作手册在 `docs/usage.md`（按场景查），设计理由与取舍在 `docs/fork-workflow.md`。
+改动脚本行为时这两份都要同步更新——尤其是 `docs/usage.md` 的故障排查表，它记的是真实撞过的坑。
+
 ## 架构：四个必须一起看才成立的设计
 
 ### 1. fork 是唯一同步源，原作者仓库只喂 fork
