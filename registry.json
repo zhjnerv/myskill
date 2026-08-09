@@ -12,6 +12,18 @@
       "lastSync": "2026-08-08T18:05:26Z",
       "lastSyncTree": "ede1316751e76fe21703cdc59730765d2b55c23c",
       "notes": ""
+    },
+    {
+      "name": "md2word",
+      "origin": "vendored",
+      "fork": "https://github.com/zhjnerv/legal-skills",
+      "upstream": "https://github.com/cat-xierluo/legal-skills",
+      "branch": "main",
+      "subpath": "skills/md2word",
+      "vendoredAt": "2026-08-09T15:01:01Z",
+      "lastSync": "2026-08-09T15:01:01Z",
+      "lastSyncTree": "b89fa4eec0b17c12cd9e29e60fda9dbf06490723",
+      "notes": ""
     }
   ]
 }
