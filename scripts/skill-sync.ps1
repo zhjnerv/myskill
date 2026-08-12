@@ -51,13 +51,61 @@ if ($targets.Count -eq 0) {
     return
 }
 
-if (-not $DryRun) { Assert-CleanWorktree }
+if (-not $DryRun) {
+    # 检查是否在继续解决上一次的冲突
+    $mergeHeadPath = Join-Path (Get-RepoRoot) '.git\MERGE_HEAD'
+    $resumingMerge = $false
+    $resumeSkillName = $null
+
+    if (Test-Path $mergeHeadPath) {
+        # 检查最近一次 commit 是否是 subtree sync
+        $lastMsg = Invoke-Git @('log', '-1', '--format=%s') -AllowFail
+        if ($lastMsg -match '^subtree: sync (\S+) from fork$') {
+            $resumeSkillName = $Matches[1]
+            # 确认冲突已解决（没有 unmerged 文件）
+            $unmerged = Invoke-Git @('diff', '--name-only', '--diff-filter=U') -AllowFail
+            if (-not $unmerged) {
+                $resumingMerge = $true
+                Write-Step "检测到正在完成 $resumeSkillName 的冲突解决"
+            }
+        }
+    }
+
+    if (-not $resumingMerge) {
+        Assert-CleanWorktree
+    }
+}
 
 $failed = @()
 
 foreach ($entry in $targets) {
     $n = $entry.name
     $prefix = Get-SkillPrefix $n
+
+    # 如果在恢复模式且当前 skill 不是待恢复的，跳过
+    if ($resumingMerge -and $n -ne $resumeSkillName) {
+        continue
+    }
+
+    # 如果在恢复模式且是待恢复的 skill，直接跳到更新 registry
+    if ($resumingMerge -and $n -eq $resumeSkillName) {
+        Write-Step "完成 $n 的冲突解决并更新 registry"
+        Invoke-Git @('commit', '--no-edit') -AllowFail | Out-Null
+        if ($global:LastGitExitCode -ne 0) {
+            Write-Warn2 "提交失败，请检查工作区状态"
+            $failed += $n
+            break
+        }
+        $newTree = Get-SkillTreeHash $n
+        $entry.lastSync = Get-UtcNow
+        $entry.lastSyncTree = $newTree
+        Write-Registry (Set-SkillEntry -Registry $registry -Entry $entry)
+        Invoke-Git @('add', 'registry.json') | Out-Null
+        Invoke-Git @('commit', '-m', "registry: sync $n", '--allow-empty') | Out-Null
+        Write-Ok "$n 冲突已解决并完成同步"
+        continue
+    }
+
     Write-Step "同步 $n  <-  $($entry.fork) [$($entry.branch)]$(if ($entry.subpath) { " :: $($entry.subpath)" })"
 
     if (-not (Test-Path (Get-SkillPath $n))) {

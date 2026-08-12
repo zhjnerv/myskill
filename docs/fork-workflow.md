@@ -52,7 +52,7 @@ subtree 把内容真正放进工作区，代价是仓库历史里混入外部历
 split 是确定性的：fork 有新提交时重跑只在同一条分支上追加，所以可以反复 pull。
 
 镜像克隆按**仓库**缓存在 `%LOCALAPPDATA%\myskill-cache\`（`MYSKILL_CACHE` 可覆盖）。
-一个合集 fork 供 12 个 skill 使用时只有一份克隆。放在仓库外是因为本仓库在 Google Drive 同步目录里。
+一个合集 fork 供 12 个 skill 使用时只有一份克隆。刻意放在仓库外，避免镜像克隆被纳入版本控制。
 
 ---
 
@@ -143,9 +143,6 @@ git commit
 ```powershell
 gh auth refresh -s workflow
 ```
-
-**Google Drive 同步 `.git`**：本仓库在 `D:\谷歌硬盘\PC同步\` 下，Drive 会在 git 写对象时同时上传 `.git`，
-理论上存在索引损坏风险。要么把这个目录排除出 Drive 同步（GitHub 已经是异地备份），要么接受风险并保证及时 push。
 
 **行尾**：`.gitattributes` 强制全仓库 LF。外部 skill 几乎都在 Linux/macOS 维护，工作区一旦出现 CRLF，
 `subtree pull` 会把整个文件判成改动，制造大量伪冲突。PowerShell 的 `Set-Content` / `Add-Content` 默认写 CRLF，

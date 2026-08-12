@@ -15,14 +15,60 @@
 
 .PARAMETER Remote
     联网做内容级对比。
+
+.PARAMETER Fix
+    重新计算所有 vendored skill 的 lastSyncTree 并写回 registry，修复状态失效问题。
 #>
 [CmdletBinding()]
 param(
     [string]$Name,
-    [switch]$Remote
+    [switch]$Remote,
+    [switch]$Fix
 )
 
 . "$PSScriptRoot\_common.ps1"
+
+# ---------------------------------------------------------------- -Fix 模式
+if ($Fix) {
+    Write-Step '修复 lastSyncTree 状态'
+    $registry = Read-Registry
+    $targets = @($registry.skills | Where-Object { $_.origin -eq 'vendored' })
+    if ($Name) { $targets = @($targets | Where-Object { $_.name -eq $Name }) }
+
+    $updated = 0
+    foreach ($e in $targets) {
+        $path = Get-SkillPath $e.name
+        if (-not (Test-Path $path)) {
+            Write-Warn2 "$($e.name): skills/ 下不存在，跳过"
+            continue
+        }
+        $newTree = Get-SkillTreeHash $e.name
+        if (-not $newTree) {
+            Write-Warn2 "$($e.name): 无法计算 tree hash，跳过"
+            continue
+        }
+        if ($e.lastSyncTree -ne $newTree) {
+            $e.lastSyncTree = $newTree
+            $e.lastSync = Get-UtcNow
+            Write-Registry (Set-SkillEntry -Registry $registry -Entry $e)
+            Write-Ok "$($e.name): 已更新 lastSyncTree"
+            $updated++
+        } else {
+            Write-Host "  --  $($e.name): 无需更新" -ForegroundColor DarkGray
+        }
+    }
+
+    if ($updated -gt 0) {
+        Invoke-Git @('add', 'registry.json') | Out-Null
+        Invoke-Git @('commit', '-m', "registry: fix lastSyncTree for $updated skill(s)") | Out-Null
+        Write-Ok "已修复 $updated 个 skill 的状态"
+    } else {
+        Write-Host '所有 skill 状态正常。' -ForegroundColor Green
+    }
+    return
+}
+
+# ---------------------------------------------------------------- 常规状态显示
 
 $registry = Read-Registry
 $entries = @($registry.skills)

@@ -2,7 +2,7 @@
 
 按场景查。设计理由和踩坑在 [fork-workflow.md](fork-workflow.md)，这里只讲怎么操作。
 
-所有命令都在仓库根目录 `D:\谷歌硬盘\PC同步\GitHub\myskill` 下执行。
+所有命令都在仓库根目录下执行。
 
 ---
 
@@ -139,7 +139,7 @@ frontmatter 里的 `homepage` 就是上游。没有 `homepage` 的只能靠搜�
 输出里全是版本演进带来的差异，你的个性修改会淹没在里面，认不出来。
 
 ```powershell
-$V = "D:\谷歌硬盘\PC同步\GitHub\myskill\skills\<name>"
+$V = "<本仓库路径>\skills\<name>"
 $L = "$env:USERPROFILE\.cc-switch\skills\<name>"
 function Get-Map([string]$root) {
   $m = @{}
@@ -197,6 +197,9 @@ skill 内容都在仓库里，不需要额外拉取。只有 `gh` 需要单独�
 | deploy 说「目标是实体目录，加 -Force」 | 那个位置已经有真实文件夹 | 确认里面没有要保留的东西，加 `-Force`（会先带时间戳备份） |
 | Agent 里 skill 没生效 | 目录名和 `SKILL.md` 的 `name` 不一致 | 改成一致，或重新部署 |
 | 大量文件莫名其妙变成「已修改」 | 行尾被改成 CRLF 了 | `git checkout -- skills/` 复原，别动 `.gitattributes` 里的 `eol=lf` |
+| `status` 里 `lastSyncTree` 缺失或状态混乱 | 冲突后手工 commit 忘记重跑 sync，或手工编辑 registry 后没更新 | `.\scripts\skill-status.ps1 -Fix` 重新计算所有 tree hash |
+| `skill-push -Pr` 报「fork 落后原作者 N 个提交」 | 改动前没先追平 fork，推的 PR 会包含大量无关 diff | `.\scripts\skill-fork-sync.ps1 -Name <skill>` 追平后重试 |
+| 镜像缓存占用过多磁盘空间 | 删除 skill 后镜像仍在 `%LOCALAPPDATA%\myskill-cache\` | `.\scripts\skill-cache-clean.ps1` 清理不再使用的镜像 |
 
 ---
 

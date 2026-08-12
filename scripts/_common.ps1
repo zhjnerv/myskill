@@ -28,11 +28,12 @@ function Get-SkillPrefix {
 function Get-MirrorCacheRoot {
     <#
       .SYNOPSIS fork 镜像克隆的存放根目录。
-      刻意放在仓库外（%LOCALAPPDATA%）：本仓库位于 Google Drive 同步目录，
-      把上游克隆放进来会让 Drive 持续搅动，且毫无同步价值。
+      刻意放在仓库外（%LOCALAPPDATA%），避免镜像克隆被纳入版本控制。
+      确保目录存在后再返回。
     #>
-    if ($env:MYSKILL_CACHE) { return $env:MYSKILL_CACHE }
-    return (Join-Path $env:LOCALAPPDATA 'myskill-cache')
+    $cache = if ($env:MYSKILL_CACHE) { $env:MYSKILL_CACHE } else { (Join-Path $env:LOCALAPPDATA 'myskill-cache') }
+    if (-not (Test-Path $cache)) { New-Item -ItemType Directory -Force -Path $cache | Out-Null }
+    return $cache
 }
 
 # ---------------------------------------------------------------- git 封装
@@ -128,7 +129,6 @@ function Sync-Mirror {
     )
     if (-not $Slug) { $Slug = (Resolve-RepoRef $Url).Slug }
     $cache = Get-MirrorCacheRoot
-    if (-not (Test-Path $cache)) { New-Item -ItemType Directory -Force -Path $cache | Out-Null }
 
     $mirror = Join-Path $cache $Slug
     if (-not (Test-Path (Join-Path $mirror '.git'))) {
@@ -157,7 +157,8 @@ function Resolve-SkillRef {
         [Parameter(Mandatory)][string]$Url,
         [Parameter(Mandatory)][string]$Branch,
         [string]$Subpath,
-        [string]$Slug
+        [string]$Slug,
+        [switch]$Verify  # 验证 SKILL.md 是否在 split 后的根目录
     )
     $mirror = Sync-Mirror -Url $Url -Branch $Branch -Slug $Slug
 
@@ -168,9 +169,12 @@ function Resolve-SkillRef {
         return @{ Mirror = $mirror; Ref = $track }
     }
 
-    $safe = $Subpath -replace '[^A-Za-z0-9._-]', '-'
-    $split = "myskill/split/$safe"
-    Write-Host "[镜像] split $Subpath" -ForegroundColor DarkGray
+    # 分支名用 subpath 的 hash 避免冲突（skills/foo-bar 和 skills/foo/bar 都会映射成 skills-foo-bar）
+    $hash = [System.BitConverter]::ToString(
+        [System.Security.Cryptography.SHA256]::Create().ComputeHash([System.Text.Encoding]::UTF8.GetBytes($Subpath))
+    ).Replace('-','').Substring(0, 8).ToLower()
+    $split = "myskill/split/$hash"
+    Write-Host "[镜像] split $Subpath -> $split" -ForegroundColor DarkGray
     # 分支已存在且可快进时 split 会自动更新；上游 force-push 过历史时会因
     # "不是祖先"失败，此时删掉重建（结果等价，只丢弃本地缓存分支）
     Invoke-Git @('subtree', 'split', "--prefix=$Subpath", '-b', $split, "origin/$Branch") -WorkDir $mirror -AllowFail | Out-Null
@@ -178,6 +182,15 @@ function Resolve-SkillRef {
         Invoke-Git @('branch', '-D', $split) -WorkDir $mirror -AllowFail | Out-Null
         Invoke-Git @('subtree', 'split', "--prefix=$Subpath", '-b', $split, "origin/$Branch") -WorkDir $mirror | Out-Null
     }
+
+    # 验证 SKILL.md 是否在 split 后的根目录
+    if ($Verify) {
+        $hasSkillMd = Invoke-Git @('ls-tree', '--name-only', $split) -WorkDir $mirror -AllowFail
+        if ($hasSkillMd -notmatch '(?m)^SKILL\.md$') {
+            throw "split 后的分支根目录下没有 SKILL.md。请检查 -Subpath 是否正确。`n可用此命令查看正确路径：`n  gh api `"repos/<owner>/<repo>/git/trees/HEAD?recursive=1`" --jq '.tree[] | select(.path|endswith(`"SKILL.md`")) | .path'"
+        }
+    }
+
     return @{ Mirror = $mirror; Ref = $split }
 }
 

@@ -64,7 +64,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
   vendor / sync / status -Remote 三处都走它，改同步逻辑只改这一个函数。
 
 镜像克隆按**仓库**缓存在 `%LOCALAPPDATA%\myskill-cache\`（`MYSKILL_CACHE` 可覆盖），
-不按 skill——一个合集 fork 供多个 skill 使用时只该有一份克隆。刻意在仓库外，因为仓库位于 Google Drive 同步目录。
+不按 skill——一个合集 fork 供多个 skill 使用时只该有一份克隆。刻意在仓库外，避免镜像克隆被纳入版本控制。
+
+用 `skill-cache-clean.ps1` 清理不再使用的镜像。
 
 ### 4. 回贡按 `subpath` 分两条路
 
@@ -90,7 +92,6 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
   工作区出现 CRLF 会让 `subtree pull` 把整文件判成改动，制造大量伪冲突。不要放宽这条。
 - **符号链接**：本机未开 Windows 开发者模式，符号链接需要管理员权限。
   部署一律用 NTFS junction（`New-Item -ItemType Junction`）。
-- **Google Drive**：仓库路径在 `D:\谷歌硬盘\PC同步\` 下，Drive 会同步 `.git`。
 - **gh**：已安装并以 `zhjnerv` 登录。`Test-GhReady` 会检查可用性，不可用时相关能力降级为提示，
   不要让脚本在没有 gh 时直接失败。
 - 脚本全部 PowerShell，`Set-StrictMode -Version Latest` + `$ErrorActionPreference='Stop'`

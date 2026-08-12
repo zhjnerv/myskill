@@ -79,9 +79,23 @@ else {
         $upRef = Resolve-RepoRef $entry.upstream
         Invoke-Git @('remote', 'remove', 'upstream') -WorkDir $workDir -AllowFail | Out-Null
         Invoke-Git @('remote', 'add', 'upstream', $upRef.Url) -WorkDir $workDir | Out-Null
+        Invoke-Git @('fetch', '--force', 'origin', "+refs/heads/$($entry.branch):refs/remotes/origin/$($entry.branch)") -WorkDir $workDir | Out-Null
+        Invoke-Git @('fetch', '--force', 'upstream', "+refs/heads/$($entry.branch):refs/remotes/upstream/$($entry.branch)") -WorkDir $workDir | Out-Null
+
+        # 检查 fork 是否落后 upstream
+        $counts = Invoke-Git @('rev-list', '--left-right', '--count',
+                               "origin/$($entry.branch)...upstream/$($entry.branch)") -WorkDir $workDir
+        $parts = $counts -split '\s+'
+        $behind = [int]$parts[1]
+        if ($behind -gt 0) {
+            Write-Warn2 "fork 落后原作者 $behind 个提交，推送的 PR 会包含大量无关 diff"
+            Write-Hint "建议先跑：scripts\skill-fork-sync.ps1 -Name $Name"
+            throw "fork 未追平，拒绝推送。追平后重试，或确认要包含这些 diff 后重跑。"
+        }
         $baseRemote = 'upstream'
+    } else {
+        Invoke-Git @('fetch', '--force', $baseRemote, "+refs/heads/$($entry.branch):refs/remotes/$baseRemote/$($entry.branch)") -WorkDir $workDir | Out-Null
     }
-    Invoke-Git @('fetch', '--force', $baseRemote, "+refs/heads/$($entry.branch):refs/remotes/$baseRemote/$($entry.branch)") -WorkDir $workDir | Out-Null
     Invoke-Git @('checkout', '-B', $Branch, "$baseRemote/$($entry.branch)") -WorkDir $workDir | Out-Null
 
     $dest = Join-Path $workDir ($entry.subpath -replace '/', '\')

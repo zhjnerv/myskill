@@ -96,17 +96,22 @@ fork 不存在：$($forkRef.Url)
 }
 
 # ------------------------------------------------ subtree add
-$resolved = Resolve-SkillRef -Url $forkRef.Url -Branch $Branch -Subpath $Subpath -Slug $forkRef.Slug
+# 先验证 subpath 是否正确（有 subpath 时）
+if ($Subpath) {
+    try {
+        $resolved = Resolve-SkillRef -Url $forkRef.Url -Branch $Branch -Subpath $Subpath -Slug $forkRef.Slug -Verify
+    } catch {
+        throw $_.Exception.Message
+    }
+} else {
+    $resolved = Resolve-SkillRef -Url $forkRef.Url -Branch $Branch -Subpath $Subpath -Slug $forkRef.Slug
+}
 
 $prefix = Get-SkillPrefix $Name
 Write-Step "git subtree add --prefix $prefix"
 # 统一 --squash：上游历史压成一个提交，本仓库不会被几十个来源的完整历史撑爆。
 # 代价是后续 pull 也必须一律带 --squash（脚本已保证）。
 Invoke-Git @('subtree', 'add', "--prefix=$prefix", $resolved.Mirror, $resolved.Ref, '--squash') | Out-Null
-
-if (-not (Test-Path (Join-Path $skillPath 'SKILL.md'))) {
-    Write-Warn2 "skills/$Name 下没有 SKILL.md，确认 -Subpath 是否指对了目录"
-}
 
 # ------------------------------------------------ 记录来源
 $entry = New-SkillEntry -Name $Name -Origin 'vendored' -Fork $forkRef.Url `
