@@ -253,7 +253,7 @@ function New-SkillEntry {
     <#
       统一字段顺序，保证 registry.json 的 diff 可读。
 
-      fork 是主 remote：引入、同步、回贡全部走它。
+      fork 是主 remote：引入、同步、提 PR 全部走它。
       upstream 只用于把 fork 追平原作者（skill-fork-sync.ps1），不作为同步源——
       这样 fork 的默认分支永远是 upstream 的镜像，能一直快进。
     #>

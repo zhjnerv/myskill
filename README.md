@@ -2,7 +2,7 @@
 
 个人 Claude Code / Codex Skill 集合。装两类东西：自己写的 skill，以及从别人那里引入的 skill。
 
-外部 skill **一律以自己的 fork 为基线**，不直接对接原作者仓库。fork 负责日常同步与回贡，
+外部 skill **一律以自己的 fork 为基线**，不直接对接原作者仓库。fork 负责日常同步与提 PR，
 原作者仓库只用来把 fork 追平。
 
 ```
@@ -24,7 +24,7 @@
 myskill/
 ├── registry.json          # 每个 skill 的来源与同步状态（唯一元数据来源）
 ├── skills/<name>/         # 一个目录一个 skill，SKILL.md 必需
-├── scripts/               # 引入 / 同步 / 回贡 / 部署
+├── scripts/               # 引入 / 同步 / 提 PR / 部署
 └── docs/
     ├── usage.md           # 按场景查的操作手册 ← 日常看这个
     └── fork-workflow.md   # 设计理由、取舍、已知坑
@@ -51,7 +51,7 @@ myskill/
 .\scripts\skill-sync.ps1              # ② fork -> 本仓库
 .\scripts\skill-sync.ps1 -FromUpstream    # ①②一起
 
-# 回贡
+# 提 PR
 .\scripts\skill-push.ps1 -Name pdf-tool -Pr
 
 # 部署到 Agent（NTFS junction，改仓库即时生效）

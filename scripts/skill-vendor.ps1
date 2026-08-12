@@ -6,7 +6,7 @@
     本仓库的外部 skill 一律以自己的 fork 为基线，不直接对接原作者仓库。
     给 -Upstream 时脚本会推导出对应的 fork（同名仓库归到你的 GitHub 账号下），
     不存在时可用 -CreateFork 通过 gh 创建。fork 地址与原作者地址都会记进 registry.json：
-    fork 用于日常同步与回贡，upstream 只用于 skill-fork-sync.ps1 把 fork 追平原作者。
+    fork 用于日常同步与提 PR，upstream 只用于 skill-fork-sync.ps1 把 fork 追平原作者。
 
 .PARAMETER Name
     本仓库中的 skill 目录名，落到 skills/<Name>/。
@@ -126,5 +126,5 @@ Invoke-Git @('add', 'registry.json') | Out-Null
 Invoke-Git @('commit', '-m', "registry: vendor $Name from $($forkRef.Display)") | Out-Null
 
 Write-Ok "已引入 skills/$Name"
-Write-Hint "改完回贡：scripts\skill-push.ps1 -Name $Name"
+Write-Hint "改完提 PR：scripts\skill-push.ps1 -Name $Name"
 Write-Hint "追平原作者：scripts\skill-fork-sync.ps1 -Name $Name"

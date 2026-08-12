@@ -83,7 +83,7 @@ git commit
 
 ---
 
-## 3. 我改了 skill，想回贡给原作者
+## 3. 我改了 skill，想提 PR 给原作者
 
 ```powershell
 .\scripts\skill-status.ps1 -Remote -Name <skill>   # 先看清改了什么
@@ -109,8 +109,8 @@ git commit
 
 | | 回答什么 | 什么时候用 |
 |---|---|---|
-| 离线 | 上次同步之后我动过哪些 | 想知道有没有未提交/未回贡的改动 |
-| `-Remote` | 本地 vs fork 差什么、fork 落后原作者多少 | 决定要不要回贡、要不要追平 |
+| 离线 | 上次同步之后我动过哪些 | 想知道有没有未提交/未推送的改动 |
+| `-Remote` | 本地 vs fork 差什么、fork 落后原作者多少 | 决定要不要提 PR、要不要追平 |
 
 离线显示「同步态」不代表和 fork 一致——如果你改完之后已经 sync 过一次，离线就看不出来了，只有 `-Remote` 能查出来。
 
@@ -160,7 +160,7 @@ Write-Output "=== 两边都有但内容不同 ===";     $ml.Keys | Where-Object 
 只在 fork 里有 `.github/`、`.gitignore`、`.cursorrules` 这类文件是正常的——skill-manager 安装时会剥掉，不是你删的。
 
 上面两组输出为空 → 没改过，直接进第四步。
-有内容 → 把那些文件从 `.cc-switch` 那份拷到 `skills/<name>/`，`git commit`，这样改动就进了本仓库，之后还能用 `skill-push.ps1` 回贡。
+有内容 → 把那些文件从 `.cc-switch` 那份拷到 `skills/<name>/`，`git commit`，这样改动就进了本仓库，之后还能用 `skill-push.ps1` 提 PR。
 
 ### 第四步：升级并切换部署
 

@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-    把本仓库里的个性修改推到自己的 fork（myskill -> fork），准备向原作者开 PR。
+    把本仓库里的个性修改推到自己的 fork（myskill -> fork），准备向原作者提 PR。
 
 .DESCRIPTION
     推的是 fork 上的特性分支（默认 myskill/<Name>），不碰 fork 的默认分支——
@@ -18,7 +18,7 @@
        subtree push 在这种情形会把 skill 内容推到 fork 的仓库根，形状对不上，PR 没法看。
 
 .PARAMETER Name
-    要回贡的 skill。
+    要提 PR 的 skill。
 
 .PARAMETER Branch
     fork 上的特性分支名，默认 myskill/<Name>。
@@ -46,7 +46,7 @@ param(
 $registry = Read-Registry
 $entry = Get-SkillEntry -Registry $registry -Name $Name
 if (-not $entry) { throw "registry.json 中没有 $Name" }
-if ($entry.origin -ne 'vendored') { throw "$Name 是自研 skill，没有可回贡的目标" }
+if ($entry.origin -ne 'vendored') { throw "$Name 是自研 skill，没有可提 PR 的目标" }
 if (-not $entry.fork) { throw "registry.json 中 $Name 缺少 fork 地址" }
 
 if (-not $Branch) { $Branch = "myskill/$Name" }
@@ -63,7 +63,7 @@ if (-not $entry.subpath) {
 }
 else {
     # ------------------------------------------------------ B. 上游子目录：快照
-    Write-Step "快照回贡 $Name -> $($forkRef.Display) : $Branch （子目录 $($entry.subpath)）"
+    Write-Step "快照推送 $Name -> $($forkRef.Display) : $Branch （子目录 $($entry.subpath)）"
 
     $workDir = Join-Path (Get-MirrorCacheRoot) "push-$($forkRef.Slug)"
     if (-not (Test-Path (Join-Path $workDir '.git'))) {
@@ -108,7 +108,7 @@ else {
     if ($rc.ExitCode -ge 8) { throw "robocopy 失败（exit $($rc.ExitCode)）" }
 
     if (-not (Invoke-Git @('status', '--porcelain') -WorkDir $workDir)) {
-        Write-Ok '与基线无差异，无需回贡。'
+        Write-Ok '与基线无差异，无需提 PR。'
         return
     }
 

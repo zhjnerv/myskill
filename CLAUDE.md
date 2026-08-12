@@ -68,7 +68,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 用 `skill-cache-clean.ps1` 清理不再使用的镜像。
 
-### 4. 回贡按 `subpath` 分两条路
+### 4. 提 PR 按 `subpath` 分两条路
 
 `skill-push.ps1`：
 

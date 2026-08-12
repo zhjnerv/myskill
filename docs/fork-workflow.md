@@ -108,7 +108,7 @@ git commit
 离线判断依据是 `registry.json` 的 `lastSyncTree`（同步完成时记下的 `skills/<name>` tree 哈希）。
 `-Remote` 才回答"我到底改了什么"和"fork 烂了没有"。
 
-### 回贡
+### 提 PR 给上游
 
 ```powershell
 .\scripts\skill-push.ps1 -Name pdf-tool           # 推到 fork 的 myskill/pdf-tool 分支

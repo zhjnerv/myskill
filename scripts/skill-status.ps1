@@ -6,7 +6,7 @@
     默认离线：比较 skills/<name> 当前 tree 与 registry 里的 lastSyncTree，
     回答"上次同步之后我自己动过哪些"。
 
-    加 -Remote 时联网做两层对比，这是决定要不要回贡 / 要不要追平原作者的依据：
+    加 -Remote 时联网做两层对比，这是决定要不要提 PR / 要不要追平原作者的依据：
         本地  vs  我的 fork      -> 有没有该推上去的改动
         fork  vs  原作者仓库     -> fork 落后了多少
 
@@ -95,7 +95,7 @@ if ($entries.Count -eq 0) {
         } elseif ((Get-SkillTreeHash $e.name) -eq $e.lastSyncTree) {
             $state = '同步态'
         } else {
-            $state = '本地已改'; $detail = '可用 skill-push 回贡'
+            $state = '本地已改'; $detail = '可用 skill-push 提 PR'
         }
 
         $forkShort = '-'
@@ -147,7 +147,7 @@ foreach ($e in @($entries | Where-Object { $_.origin -eq 'vendored' })) {
     } else {
         Write-Host '  本地相对 fork：' -ForegroundColor Yellow
         Write-Host $diff -ForegroundColor Yellow
-        Write-Hint "回贡：scripts\skill-push.ps1 -Name $($e.name)"
+        Write-Hint "提 PR：scripts\skill-push.ps1 -Name $($e.name)"
     }
 
     # ---- 我的 fork vs 原作者
