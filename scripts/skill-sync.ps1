@@ -30,6 +30,11 @@ param(
 
 . "$PSScriptRoot\_common.ps1"
 
+# ---------------------------------------------------------------- 多机自愈
+if (-not $DryRun) {
+    Repair-SkillSyncState -Silent
+}
+
 if ($FromUpstream) {
     $fsArgs = @{}
     if ($Name) { $fsArgs['Name'] = $Name }

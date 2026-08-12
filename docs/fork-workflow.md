@@ -28,6 +28,10 @@ diff 里混进一堆与你的改动无关的内容；fork 长期不动，哪天�
 这样 ① 永远能快进。一旦有人往 fork 的 main 直接提交，① 就只能靠 `-Force` 强推，
 那些提交会丢。
 
+**为什么这样约束？** 让追平操作永远自动、零冲突。fork 默认分支 = 原作者镜像 → 追平永远快进 → 
+每次 `skill-fork-sync.ps1` 都是 `gh repo sync` 一条命令，从不卡住，不需要人工解冲突。
+代价是你不能在 fork 默认分支上直接改，但这个代价值得——你换来的是完全自动化的追平流程。
+
 ## 为什么用 git subtree 而不是 submodule
 
 submodule 只在父仓库存一个 commit 指针，skill 内容不在父仓库工作区里。三个后果：
@@ -53,6 +57,23 @@ split 是确定性的：fork 有新提交时重跑只在同一条分支上追加
 
 镜像克隆按**仓库**缓存在 `%LOCALAPPDATA%\myskill-cache\`（`MYSKILL_CACHE` 可覆盖）。
 一个合集 fork 供 12 个 skill 使用时只有一份克隆。刻意放在仓库外，避免镜像克隆被纳入版本控制。
+
+---
+
+## 多机环境的状态同步
+
+**场景**：单用户、多台机器，registry.json 通过 git 在机器间同步。
+
+**问题**：`registry.json` 的 `lastSyncTree` 记录"上次 sync 完成时 skills/<name>/ 的 tree hash"。
+机器 A sync 后推送 registry，机器 B pull 下来时，registry 里的 `lastSyncTree` 对不上机器 B 的工作区
+（因为是机器 A sync 时写入的）。
+
+**解决方案（自愈式）**：`skill-status`、`skill-sync`、`skill-push` 开头自动检测并修复：
+- 当前 tree hash 与 registry 记录不一致
+- 但 git status 显示工作区干净（说明不是本机改的，是其他机器 sync 后推上来的）
+- → 静默更新 `lastSyncTree` 为当前值
+
+用户无感知，脚本自动修复状态失效问题。
 
 ---
 
@@ -124,6 +145,11 @@ git commit
 - **有 subpath** → 快照方式：克隆 fork、从原作者分支切出特性分支、把 `skills/<Name>/` 整体覆盖到
   `<subpath>/`、提交推送。不保留逐次历史，换来一个**目录形状正确、能直接开 PR** 的分支。
   `subtree push` 在这种情形会把内容推到 fork 的仓库根，形状对不上，PR 没法看。
+
+**为什么快照模式丢弃历史？** 让 PR 对原作者零负担。快照产出的 PR 是标准 GitHub PR：
+diff 清晰（你改了哪些文件）、目录结构正确（能直接 merge）、零额外操作（点 merge 就完事）。
+虽然丢了逐次提交历史，但原作者能看到最终改动的全貌，对 review 来说够了。
+如果要保留历史，需要原作者配合非标准的 `git subtree merge` 流程——这违反"不给原作者添麻烦"的设计目标。
 
 ---
 

@@ -28,6 +28,11 @@ param(
 
 . "$PSScriptRoot\_common.ps1"
 
+# ---------------------------------------------------------------- 多机自愈
+if (-not $Fix) {
+    Repair-SkillSyncState -Silent
+}
+
 # ---------------------------------------------------------------- -Fix 模式
 if ($Fix) {
     Write-Step '修复 lastSyncTree 状态'
