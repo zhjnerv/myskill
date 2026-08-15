@@ -62,18 +62,20 @@ split 是确定性的：fork 有新提交时重跑只在同一条分支上追加
 
 ## 多机环境的状态同步
 
-**场景**：单用户、多台机器，registry.json 通过 git 在机器间同步。
+`registry.json` 与 `skills/` 必须在同一次 Git 提交中同步。机器 A 完成 `skill-sync` 并推送后，
+机器 B 通过正常的 `git pull` 会同时取得 skill 内容与对应的 `lastSyncTree`，不需要额外自愈。
 
-**问题**：`registry.json` 的 `lastSyncTree` 记录"上次 sync 完成时 skills/<name>/ 的 tree hash"。
-机器 A sync 后推送 registry，机器 B pull 下来时，registry 里的 `lastSyncTree` 对不上机器 B 的工作区
-（因为是机器 A sync 时写入的）。
+`skill-status`、`skill-sync` 和 `skill-push` 不会根据“工作区干净”自动改写 `lastSyncTree`。
+工作区干净只能说明没有未提交修改，无法区分“已提交的本地定制”和“其他机器同步的内容”；
+自动覆盖会把本地定制错误标记为同步基线。
 
-**解决方案（自愈式）**：`skill-status`、`skill-sync`、`skill-push` 开头自动检测并修复：
-- 当前 tree hash 与 registry 记录不一致
-- 但 git status 显示工作区干净（说明不是本机改的，是其他机器 sync 后推上来的）
-- → 静默更新 `lastSyncTree` 为当前值
+状态查询保持只读。仅在确认 registry 状态确实失效后，显式运行：
 
-用户无感知，脚本自动修复状态失效问题。
+```powershell
+.\scripts\skill-status.ps1 -Fix [-Name <skill>]
+```
+
+`-Fix` 会把当前 skill tree 设为新的同步基线并创建提交，执行前必须先确认当前内容就是预期基线。
 
 ---
 

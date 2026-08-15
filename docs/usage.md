@@ -105,7 +105,7 @@ git commit
 .\scripts\skill-status.ps1 -Remote    # 联网，逐个对比
 ```
 
-两者回答的问题不同，别混：
+两者回答的问题不同，别混。状态查询默认只读；只有显式 `-Fix` 才会改写 `registry.json`：
 
 | | 回答什么 | 什么时候用 |
 |---|---|---|

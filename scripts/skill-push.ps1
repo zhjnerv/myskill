@@ -43,9 +43,6 @@ param(
 
 . "$PSScriptRoot\_common.ps1"
 
-# ---------------------------------------------------------------- 多机自愈
-Repair-SkillSyncState -Silent
-
 $registry = Read-Registry
 $entry = Get-SkillEntry -Registry $registry -Name $Name
 if (-not $entry) { throw "registry.json 中没有 $Name" }
