@@ -2,6 +2,18 @@
   "version": 2,
   "skills": [
     {
+      "name": "md2word",
+      "origin": "vendored",
+      "fork": "https://github.com/zhjnerv/legal-skills",
+      "upstream": "https://github.com/cat-xierluo/legal-skills",
+      "branch": "main",
+      "subpath": "skills/md2word",
+      "vendoredAt": "2026-08-09T15:01:01Z",
+      "lastSync": "2026-08-15T02:43:46Z",
+      "lastSyncTree": "3f3b6f6fc602d56514a069ad7233e58414b212f1",
+      "notes": ""
+    },
+    {
       "name": "qu-ai-wei",
       "origin": "vendored",
       "fork": "https://github.com/zhjnerv/qu-ai-wei",
@@ -14,15 +26,15 @@
       "notes": ""
     },
     {
-      "name": "md2word",
+      "name": "patent-download",
       "origin": "vendored",
       "fork": "https://github.com/zhjnerv/legal-skills",
       "upstream": "https://github.com/cat-xierluo/legal-skills",
       "branch": "main",
-      "subpath": "skills/md2word",
-      "vendoredAt": "2026-08-09T15:01:01Z",
-      "lastSync": "2026-08-15T02:43:46Z",
-      "lastSyncTree": "3f3b6f6fc602d56514a069ad7233e58414b212f1",
+      "subpath": "skills/patent-download",
+      "vendoredAt": "2026-08-15T18:27:39Z",
+      "lastSync": "2026-08-15T18:27:39Z",
+      "lastSyncTree": "b353d07dbf2fe50be64725d05087a1f3456680bd",
       "notes": ""
     }
   ]
