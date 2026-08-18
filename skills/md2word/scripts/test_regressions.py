@@ -3,8 +3,6 @@
 
 from pathlib import Path
 from tempfile import TemporaryDirectory
-import os
-import subprocess
 import sys
 import unittest
 import zipfile
@@ -74,38 +72,7 @@ class Md2WordRegressionTest(unittest.TestCase):
         self.assertTrue(callable(md2word.download_external_image))
         self.assertFalse(hasattr(md2word, "ALLOW_REMOTE_IMAGES"), "外链图片下载开关已移除，保持默认下载")
 
-    def test_gbk_console_output_does_not_abort_conversion_helpers(self):
-        script = f"""
-from pathlib import Path
-from tempfile import TemporaryDirectory
-import sys
-sys.path.insert(0, {str(HERE)!r})
-from docx import Document
-from formatter import convert_quotes_to_chinese
-from footnote_handler import _inject_footnotes_into_docx
-
-convert_quotes_to_chinese("标注'需律师现场确认'")
-with TemporaryDirectory() as temp:
-    path = Path(temp) / "footnotes.docx"
-    Document().save(path)
-    _inject_footnotes_into_docx(str(path), [(1, "脚注")])
-"""
-        env = os.environ.copy()
-        env["PYTHONIOENCODING"] = "gbk:strict"
-        result = subprocess.run(
-            [sys.executable, "-c", script],
-            capture_output=True,
-            env=env,
-            check=False,
-        )
-
-        self.assertEqual(
-            result.returncode,
-            0,
-            result.stderr.decode("gbk", errors="replace"),
-        )
-        self.assertIn(b"\\u2705", result.stdout)
-
 
 if __name__ == "__main__":
     unittest.main(verbosity=2)
+

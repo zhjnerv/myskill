@@ -9,8 +9,6 @@ import os
 import yaml
 from typing import Dict, Any, Optional, TYPE_CHECKING, Callable
 
-import console_output  # noqa: F401  # 初始化控制台输出兼容层
-
 if TYPE_CHECKING:
     from typing import Callable
 

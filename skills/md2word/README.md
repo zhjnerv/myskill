@@ -32,7 +32,7 @@ AI：我会调用 md2word，选择 service-plan 预设，生成排版后的 .doc
 完整预设以 `assets/presets/*.yaml` 为准，可运行以下命令查看：
 
 ```bash
-python -X utf8 scripts/config.py --list
+python scripts/config.py --list
 ```
 
 ## 安装方式
@@ -54,17 +54,15 @@ npm install -g @mermaid-js/mermaid-cli
 
 ## 可以怎么用
 
-> Windows PowerShell 建议在命令中加入 `-X utf8`，避免旧 GBK 控制台输出状态图标时中断转换；其他平台可同样使用。
-
 ```bash
 # 基本转换
-python -X utf8 scripts/md2word.py input.md output.docx
+python scripts/md2word.py input.md output.docx
 
 # 使用预设
-python -X utf8 scripts/md2word.py input.md output.docx --preset legal
+python scripts/md2word.py input.md output.docx --preset legal
 
 # 使用自定义配置
-python -X utf8 scripts/md2word.py input.md output.docx --config my-config.yaml
+python scripts/md2word.py input.md output.docx --config my-config.yaml
 ```
 
 也可以直接让 Agent 帮你选择预设：
