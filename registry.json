@@ -9,20 +9,8 @@
       "branch": "main",
       "subpath": "skills/md2word",
       "vendoredAt": "2026-08-09T15:01:01Z",
-      "lastSync": "2026-08-15T02:43:46Z",
+      "lastSync": "2026-08-18T16:28:39Z",
       "lastSyncTree": "3f3b6f6fc602d56514a069ad7233e58414b212f1",
-      "notes": ""
-    },
-    {
-      "name": "qu-ai-wei",
-      "origin": "vendored",
-      "fork": "https://github.com/zhjnerv/qu-ai-wei",
-      "upstream": "https://github.com/LifelongLazyLearner/qu-ai-wei",
-      "branch": "main",
-      "subpath": null,
-      "vendoredAt": "2026-08-08T17:43:02Z",
-      "lastSync": "2026-08-08T18:05:26Z",
-      "lastSyncTree": "ede1316751e76fe21703cdc59730765d2b55c23c",
       "notes": ""
     },
     {
@@ -35,6 +23,18 @@
       "vendoredAt": "2026-08-15T18:27:39Z",
       "lastSync": "2026-08-15T18:27:39Z",
       "lastSyncTree": "b353d07dbf2fe50be64725d05087a1f3456680bd",
+      "notes": ""
+    },
+    {
+      "name": "qu-ai-wei",
+      "origin": "vendored",
+      "fork": "https://github.com/zhjnerv/qu-ai-wei",
+      "upstream": "https://github.com/LifelongLazyLearner/qu-ai-wei",
+      "branch": "main",
+      "subpath": null,
+      "vendoredAt": "2026-08-08T17:43:02Z",
+      "lastSync": "2026-08-08T18:05:26Z",
+      "lastSyncTree": "ede1316751e76fe21703cdc59730765d2b55c23c",
       "notes": ""
     }
   ]
