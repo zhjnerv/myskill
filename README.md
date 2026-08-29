@@ -1,74 +1,124 @@
-# myskill
+# md2word
 
-个人 Claude Code / Codex Skill 集合。装两类东西：自己写的 skill，以及从别人那里引入的 skill。
+将 Markdown 文档转换为符合中文排版习惯的 Word 文档，适合正式报告、法律文书、服务方案、论文和工作材料。
 
-外部 skill **一律以自己的 fork 为基线**，不直接对接原作者仓库。fork 负责日常同步与提 PR，
-原作者仓库只用来把 fork 追平。
+> 写 Markdown，交付 Word。把标题、表格、图片、代码块和基础版式交给脚本处理，减少手动调格式。
 
-```
-   原作者仓库              我的 fork                  本仓库
-   upstream/main          zhjnerv/xxx                skills/<name>/
-        │                      │                          │
-        │ ① skill-fork-sync    │                          │
-        └───── 追平 ──────────►│                          │
-                               │ ② skill-sync             │
-                               ├───── subtree pull ──────►│
-                               │                          │
-                               │ ③ skill-push             │
-     ◄── ④ PR ── myskill/<name>│◄──── subtree push ───────┤
+## 典型场景
+
+```text
+用户：请把这份 Markdown 服务方案转成正式 Word，使用法律服务方案风格。
+AI：我会调用 md2word，选择 service-plan 预设，生成排版后的 .docx 文件。
 ```
 
-## 布局
+## 它能产出什么
 
-```
-myskill/
-├── registry.json          # 每个 skill 的来源与同步状态（唯一元数据来源）
-├── skills/<name>/         # 一个目录一个 skill，SKILL.md 必需
-├── scripts/               # 引入 / 同步 / 提 PR / 部署
-└── docs/
-    ├── usage.md           # 按场景查的操作手册 ← 日常看这个
-    └── fork-workflow.md   # 设计理由、取舍、已知坑
-```
+- `.docx` Word 文档
+- 按预设应用的标题、正文、页边距、表格、代码块和连续 `#F5F5F5` 段落灰底引用框样式；引用框与代码框背景色完全一致
+- `book-publish` 默认让“本章小结”“动手练习”精确标题以 Word 原生标题分页从新页开始，不插入空段或额外 section
+- `--book` 在合并前按每个章节自己的目录解析 Markdown/HTML 本地相对图片，避免输出目录改变后生成图片占位符
+- 自动嵌入本地图片和外部 URL 图片
+- Mermaid 失败时的降级文本占位
+- 可复用的自定义 YAML 配置
 
-## 命令速查
+## 当前覆盖范围
 
-完整用法（含合集仓库的处理、迁移已有 skill、故障排查）见 **[docs/usage.md](docs/usage.md)**。
+内置常用预设：
 
-```powershell
-# 自研
-.\scripts\skill-new.ps1 -Name contract-review -Description "当用户需要审查合同条款风险时使用。不要用于合同起草。"
+- `legal`：法律文书格式，默认预设
+- `service-plan`：法律服务方案，含分层配色
+- `minimal`：极简正式文档
+- `academic`：学术论文
+- `report`：工作报告
 
-# 引入（-Subpath 用于"skill 是合集仓库里的一个子目录"；没 fork 过就加 -CreateFork）
-.\scripts\skill-vendor.ps1 -Name git-workflow -Upstream cat-xierluo/legal-skills -Subpath skills/git-workflow
-.\scripts\skill-vendor.ps1 -Name pdf-tool -Upstream owner/pdf-tool-skill -CreateFork
+完整预设以 `assets/presets/*.yaml` 为准，可运行以下命令查看：
 
-# 看状态
-.\scripts\skill-status.ps1            # 离线：相对上次同步点改了哪些
-.\scripts\skill-status.ps1 -Remote    # 联网：本地 vs fork、fork vs 原作者
-
-# 同步
-.\scripts\skill-fork-sync.ps1         # ① fork 追平原作者
-.\scripts\skill-sync.ps1              # ② fork -> 本仓库
-.\scripts\skill-sync.ps1 -FromUpstream    # ①②一起
-
-# 提 PR
-.\scripts\skill-push.ps1 -Name pdf-tool -Pr
-
-# 部署到 Agent（NTFS junction，改仓库即时生效）
-.\scripts\skill-deploy.ps1 -Prune
-.\scripts\skill-deploy.ps1 -TargetRoot "$env:USERPROFILE\.codex\skills"
+```bash
+python scripts/config.py --list
 ```
 
-所有脚本都支持 `-DryRun` 或 `-WhatIf` 语义的预览（见各脚本 `Get-Help`）。
+## 安装方式
 
-## 部署模型
+1. 打开本仓库的 GitHub Releases。
+2. 下载最新版本的 skill 压缩包。
+3. 解压后将 `md2word/` 文件夹放入你的 skill 目录。
+4. 安装 Python 依赖：
 
-`skills/<name>/` 通过 NTFS 目录联接挂到 `~\.claude\skills\<name>`。
-用 junction 而非符号链接是因为 junction 不需要管理员权限；用链接而非复制是因为
-单一事实来源必须是本仓库，复制会立刻产生"改了哪边"的歧义。
+```bash
+pip install python-docx Pillow beautifulsoup4 PyYAML
+```
 
-## 依赖
+如需渲染 Mermaid 图表，可选安装：
 
-- Git（含 `git subtree`，Git for Windows 自带）
-- GitHub CLI `gh`，已登录。用于推导 fork 地址、创建 fork、`gh repo sync`、开 PR。
-  没有 `gh` 时这些能力降级为手工操作，subtree 部分不受影响。
+```bash
+npm install -g @mermaid-js/mermaid-cli
+```
+
+## 可以怎么用
+
+```bash
+# 基本转换
+python scripts/md2word.py input.md output.docx
+
+# 使用预设
+python scripts/md2word.py input.md output.docx --preset legal
+
+# 使用自定义配置
+python scripts/md2word.py input.md output.docx --config my-config.yaml
+
+# 合并多章；每章的本地相对图片仍按该章文件所在目录解析
+python scripts/md2word.py --book ch01.md ch02.md -o book.docx --preset book-publish
+```
+
+也可以直接让 Agent 帮你选择预设：
+
+- “把这份 Markdown 转成正式法律文书 Word”
+- “用学术论文格式导出这份论文草稿”
+- “把报告转成 Word，外链图片也嵌入进去”
+
+## 使用边界
+
+这个 skill 适合：
+
+- Markdown 到 Word 的批量或重复转换
+- 中文正式文档的基础排版
+- 需要预设样式、图片、表格和代码块的文档
+
+这个 skill 不适合：
+
+- 精细到每一页版面都要人工设计的复杂 Word 模板
+- 依赖 Word 高级域、复杂目录、批注修订或宏的文档
+- 从 PDF、扫描件或图片中抽取内容后再排版；这类任务应先用 OCR 或文档解析工具
+
+## 关键文件
+
+- [SKILL.md](./SKILL.md)：Agent 使用入口
+- [scripts/md2word.py](./scripts/md2word.py)：主转换脚本
+- [references/config-reference.md](./references/config-reference.md)：配置项说明
+- [references/style-mappings.md](./references/style-mappings.md)：Markdown 到 Word 样式映射
+- [assets/config-template.yaml](./assets/config-template.yaml)：自定义配置模板
+
+## 许可证
+
+本作品采用 [MIT](https://opensource.org/licenses/MIT) 许可证。
+
+## 关于作者 / 咨询与交流
+
+杨卫薪律师（微信 ywxlaw）
+
+如需使用交流、企业内部落地、定制开发或商用授权，欢迎添加微信（请注明来意）。
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/cat-xierluo/legal-skills/main/wechat-qr.jpg" width="200" alt="微信二维码"/>
+  <p><em>微信：ywxlaw</em></p>
+</div>
+
+## 关联项目
+
+本仓库是 [Legal Skills](https://github.com/cat-xierluo/legal-skills) 的子项目。如果需要合同、商标、专利、OPC、小微企业合规、文档处理等更多法律类开源 Skill，可以关注主仓库。
+
+相关项目：
+
+- [contract-copilot](https://github.com/cat-xierluo/legal-skills/tree/main/skills/contract-copilot)：合同审查、起草和 Word 修订批注
+- [legal-proposal-generator](https://github.com/cat-xierluo/legal-skills/tree/main/skills/legal-proposal-generator)：法律服务方案生成
+- [de-ai-polish](https://github.com/cat-xierluo/legal-skills/tree/main/skills/de-ai-polish)：中文文章去 AI 腔和自然化润色

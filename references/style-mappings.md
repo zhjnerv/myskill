@@ -1,0 +1,181 @@
+# Markdown 到 Word 样式映射
+
+本文档定义了 Markdown 元素如何映射到 Word 文档样式。
+
+## 默认映射
+
+转换器使用以下默认映射：
+
+| Markdown 元素 | Word 样式 | 说明 |
+|--------------|-----------|------|
+| `# 标题 1` | Heading 1 | 16 pt，加粗 |
+| `## 标题 2` | Heading 2 | 14 pt，加粗 |
+| `### 标题 3` | Heading 3 | 13 pt，加粗 |
+| `#### 标题 4` | Heading 4 | 12 pt，加粗 |
+| `##### 标题 5` | Heading 5 | 11 pt，加粗，斜体 |
+| `###### 标题 6` | Heading 6 | 11 pt，斜体 |
+| 普通文本 | Normal | 12 pt，1.5 倍行距，首行缩进 |
+| `> 引用` | 段落型 callout | 与正文同宽、无可见边框灰底；不产生表格网格线，导读和案例共用 `quote` 配置 |
+| `    代码块` | Code Block | 等宽字体，灰色背景 |
+| `` `行内代码` `` | Code Char | 等宽字体，品红色 |
+| `*斜体*` | Emphasis | 斜体 |
+| `**粗体**` | Strong | 加粗 |
+| `***粗斜体***` | Intense Emphasis | 加粗，强调色 |
+| `- 项目` | List Bullet | 项目符号列表 |
+| `1. 项目` | List Number | 编号列表 |
+
+## 样式自定义
+
+### 精确标题分页
+
+`pagination.page_break_before_headings` 按标题完整文字精确匹配 Markdown `#` 至 `####` 标题。`book-publish` 默认配置“本章小结”和“动手练习”，命中后在标题段落属性中写入 `w:pageBreakBefore`；不会插入独立分页段、分页 run 或 section，也不会改变标题原有格式。普通正文、表题、代码块和只包含目标短语的近似标题不匹配；其他预设默认空列表。
+
+### 统一引用框
+
+连续的 `>` 行只按 Markdown 语义进入同一个 `quote` 渲染器，不识别“本章导读”“案例”等内容标签。每一段直接写入与代码框相同的中性浅灰 `#F5F5F5` 段落底纹，不创建 `w:tbl`；首/尾段分别承担上下内边距，每段共享左右内边距，底纹与正文左右边界齐平。内部空引用行以同底色 exact spacer 承接，内容段之间不再依赖未着色的段后距；连续多个空行折叠为一个 spacer。脚注、粗体、斜体、列表 marker 和行内代码继续沿用原有行内格式解析。完整字段见 [config-reference.md](config-reference.md#引用块格式-quote)。
+
+### 数据表后的留白
+
+Markdown 表格与 HTML 表格都由表格渲染器在组件末尾追加 `table.space_after` exact 空段（默认 6pt）。这段留白不改写随后正文的段落格式；图片、图注和引用块不走该规则。
+
+### 通过配置文件
+
+创建 YAML 配置文件来自定义样式：
+
+```yaml
+fonts:
+  default:
+    name: "仿宋_GB2312"
+    ascii: "Times New Roman"
+    size: 12
+
+titles:
+  level1:
+    size: 16
+    bold: true
+    color: "#1A1A2E"
+```
+
+### 通过 Word 模板
+
+将 `.docx` 模板放入 `assets/templates/` 目录，转换时会应用模板中的样式定义。
+
+## 在 Word 中创建自定义样式
+
+### 方法：通过 Word 界面
+
+1. 在 Word 中打开模板文件
+2. 转到 **开始** → **样式** 窗格（启动器图标）
+3. 右键点击样式 → **修改...**
+4. 调整格式设置
+5. 点击 **确定**
+6. 保存模板文件
+
+## 常见自定义
+
+### 修改标题颜色
+
+在 Word 中修改 `Heading 1` 样式：
+- 右键点击 **Heading 1** → **修改...**
+- **格式** → **字体...**
+- 设置字体颜色
+- 点击 **确定**
+
+### 调整代码块背景
+
+在 Word 中修改 `Code Block` 样式：
+- 右键点击 **Code Block** → **修改...**
+- **格式** → **边框...**
+- **底纹** 选项卡
+- 选择填充颜色
+- 点击 **确定**
+
+### 自定义列表缩进
+
+在 Word 中修改列表样式：
+- 右键点击 **List Bullet** → **修改...**
+- **格式** → **编号...**
+- 调整缩进
+- 点击 **确定**
+
+## 映射故障排除
+
+### 样式未应用
+
+**症状**: 文本未使用预期样式
+
+**解决方案**:
+1. 验证配置文件中的样式名称完全匹配
+2. 检查预设 YAML 是否存在且格式正确
+3. 确保 Word 模板中的样式名称与配置一致
+
+### TOC 未生成
+
+**症状**: 目录缺失
+
+**解决方案**:
+1. 确认 Markdown 中使用了 `#` 标题语法
+2. 验证 Heading 1-3 样式存在
+3. 在 Word 中：**引用** → **目录** → **更新**
+
+### 中文字体错误
+
+**症状**: 中文文本使用回退字体
+
+**解决方案**:
+1. 安装思源宋体 (Source Han Serif CN)
+2. 在样式中修改为优先使用系统字体：
+   - macOS: 宋体-简 (Songti SC)
+   - Windows: 宋体 (SimSun)
+
+## 测试映射
+
+修改配置后，测试转换：
+
+```bash
+# 使用预设转换
+python scripts/md2word.py input.md --preset=legal -o test.docx
+
+# 使用自定义配置转换
+python scripts/md2word.py input.md --config=my-config.yaml -o test.docx
+
+# 打开并验证样式
+open test.docx  # macOS
+```
+
+## 参考样式名称
+
+Word 文档中定义的所有样式（节选）：
+
+- Heading 1, Heading 2, Heading 3, Heading 4, Heading 5, Heading 6
+- Normal, Body Text, Body Text 2, Body Text 3
+- Block Quote
+- Code Block, Code Char
+- Emphasis, Strong, Intense Emphasis
+- List Bullet, List Number, List Paragraph
+- Footer, Header
+- Book Title
+- Intense Quote
+
+查看完整列表，在 Word 中打开模板文件：
+**开发工具** 选项卡 → **样式** 检查器（或 **开始** → 样式窗格）
+
+## T139 表格配色映射（方案 A · DEC-114）
+
+表格渲染采用本书配图风格规范配色（T139 方案 A），确保表格视觉与全书配图风格一致。
+
+| 元素 | 配色 | 说明 |
+|------|------|------|
+| 表头填充 | `#2C5282` 主蓝 | 点缀用，不铺满全表 |
+| 表头文字 | `#FFFFFF` 白色 | 居中加粗 |
+| 表体文字 | `#2D3436` 深灰主 | 正文字色 |
+| 表体次文字 | `#636E72` 次灰 | 次要/备注文字 |
+| 表体底纹（奇数行） | `#FFFFFF` 白底 | 主底 |
+| 表体底纹（偶数行） | `#EDF2F7` 浅灰 | 交替斑马纹 |
+| 外边框 | `#A0AEC0` 中灰 | 0.5-1pt 细线 |
+| 内边框 | `#CBD5E0` 浅灰 | 比外框更浅 |
+| 圆角 | 单元格浅色外边框模拟 | Word 原生不支持 CSS 圆角 |
+| 强调行/列 | `#1A365D` 深蓝 | 最强调位变体 |
+| 深底文字（深蓝/主蓝上） | `#FFFFFF` / `#EDF2F7` | 深底白字保证可读性 |
+
+**设计原则**：白/灰为主底，主蓝做 ACCENT（表头），不铺满。层次靠灰阶深浅区分。透明/白底优先。
