@@ -15,6 +15,7 @@ import tempfile
 import urllib.request
 import urllib.parse
 import io
+import html
 
 from docx import Document
 from docx.shared import Pt, Inches, Cm, RGBColor
@@ -57,6 +58,18 @@ from footnote_handler import (
 # ----------------------------------------------------------------------------
 _active_fn_manager = None
 
+# 仅供 create_book() 与 book_mode parser 通信的内部章间边界。
+# 使用带固定高熵后缀的独立整行 token，避免与合法 Markdown（尤其 ---/***/___）碰撞。
+BOOK_CHAPTER_BREAK_MARKER = (
+    "<<<MD2WORD_INTERNAL_CHAPTER_BREAK_3F6E6E3B-EEBB-4BB4-A2E2-5C4BF0CB5F70>>>"
+)
+TABLE_CAPTION_RE = re.compile(r'^\*{0,2}表\s*\d+[-－]?\d*\s*[:：]')
+
+
+def is_table_caption_line(text):
+    """识别 Markdown 或 HTML 块内的表题行（兼容“表10-5”与“表 10-5”）。"""
+    return bool(TABLE_CAPTION_RE.match(text))
+
 
 def parse_text_with_footnotes(paragraph, text, title_level=0, is_quote=False):
     """解析文本，识别行内 [^id] 脚注引用；其余走 parse_text_formatting。
@@ -68,11 +81,18 @@ def parse_text_with_footnotes(paragraph, text, title_level=0, is_quote=False):
         return
     # 遍历 [^id] 引用：引用之间的普通文本走 parse_text_formatting，引用处插入脚注引用 run
     last = 0
+    previous_reference_rendered = False
     for m in NOTE_REF_RE.finditer(text):
         if m.start() > last:
             parse_text_formatting(paragraph, text[last:m.start()],
                                   title_level=title_level, is_quote=is_quote)
-        _active_fn_manager.add_reference(paragraph, m.group(1))
+        note_id = m.group(1)
+        current_reference_rendered = bool(_active_fn_manager.defs.get(note_id, ''))
+        if (previous_reference_rendered and current_reference_rendered
+                and m.start() == last and _active_fn_manager.mode == 'footnote'):
+            _active_fn_manager.add_adjacent_reference_separator(paragraph)
+        _active_fn_manager.add_reference(paragraph, note_id)
+        previous_reference_rendered = current_reference_rendered
         last = m.end()
     if last < len(text):
         parse_text_formatting(paragraph, text[last:],
@@ -229,71 +249,158 @@ def add_numbered_list(doc, line):
     set_paragraph_format(p)
 
 
+def _apply_heading_pagination(paragraph, heading_text, config):
+    """Apply native Word pagination to an exact Markdown heading match."""
+    configured = config.get('pagination.page_break_before_headings', [])
+    if not isinstance(configured, list):
+        return
+
+    targets = {
+        value.strip()
+        for value in configured
+        if isinstance(value, str) and value.strip()
+    }
+    if heading_text.strip() in targets:
+        paragraph.paragraph_format.page_break_before = True
+
+
+def _quote_padding_pt(quote_config):
+    """Return paragraph-callout padding in points, with v1.3.0 migration.
+
+    v1.3.0 exposed ``cell_margin`` in twips because quote blocks were tables.
+    A custom config that has not migrated yet keeps the same physical padding;
+    new configs use the paragraph-native ``padding`` mapping in points.
+    """
+    padding = quote_config.get('padding')
+    if isinstance(padding, dict):
+        return {
+            edge: float(padding.get(edge, default))
+            for edge, default in (
+                ('top', 5), ('bottom', 5), ('left', 6), ('right', 6)
+            )
+        }
+
+    legacy_margin = quote_config.get('cell_margin') or {}
+    return {
+        edge: float(legacy_margin.get(edge, default_twips)) / 20.0
+        for edge, default_twips in (
+            ('top', 100), ('bottom', 100), ('left', 120), ('right', 120)
+        )
+    }
+
+
+def _apply_quote_paragraph_container(
+        paragraph, quote_config, *, is_first=False, is_last=False):
+    """Apply a full-width grey paragraph callout without creating a table.
+
+    Word paragraph borders provide true text-to-edge padding. Their solid line
+    uses exactly the same colour as the shading, so it is visually absorbed by
+    the fill. Unlike a borderless one-cell table, this representation cannot
+    expose dotted table gridlines when Word's ``View Gridlines`` is enabled.
+    """
+    background = (quote_config.get('background_color') or '#F5F5F5').lstrip('#')
+    padding = _quote_padding_pt(quote_config)
+    p_pr = paragraph._p.get_or_add_pPr()
+
+    for tag in ('w:pBdr', 'w:shd'):
+        for old in p_pr.findall(qn(tag)):
+            p_pr.remove(old)
+
+    borders = OxmlElement('w:pBdr')
+    edge_spaces = {'left': padding['left'], 'right': padding['right']}
+    if is_first:
+        edge_spaces['top'] = padding['top']
+    if is_last:
+        edge_spaces['bottom'] = padding['bottom']
+    for edge in ('top', 'left', 'bottom', 'right'):
+        if edge not in edge_spaces:
+            continue
+        space = edge_spaces[edge]
+        border = OxmlElement(f'w:{edge}')
+        border.set(qn('w:val'), 'single')
+        border.set(qn('w:sz'), '2')
+        border.set(qn('w:color'), background)
+        border.set(qn('w:space'), str(round(space)))
+        borders.append(border)
+    p_pr.insert_element_before(
+        borders, 'w:shd', 'w:tabs', 'w:spacing', 'w:ind', 'w:jc',
+        'w:rPr', 'w:sectPr', 'w:pPrChange'
+    )
+
+    shading = OxmlElement('w:shd')
+    shading.set(qn('w:val'), 'clear')
+    shading.set(qn('w:color'), 'auto')
+    shading.set(qn('w:fill'), background)
+    p_pr.insert_element_before(
+        shading, 'w:tabs', 'w:spacing', 'w:ind', 'w:jc',
+        'w:rPr', 'w:sectPr', 'w:pPrChange'
+    )
+
+
 def add_quote(doc, text):
-    """添加引用块"""
+    """将所有 Markdown 引用块渲染为同一套全宽段落 callout 样式。"""
     config = get_config()
     quote_config = config.get('quote', {})
-    
     lines = text.split('\n')
 
-    # 引用块不施加视觉样式（无底纹/无边框/无缩进），与正文一致
-    bg_color = quote_config.get('background_color')       # None = 不加
-    border_color = quote_config.get('border_color')       # None = 不加
-    border_size = quote_config.get('border_size', 0)
-    left_indent = quote_config.get('left_indent_inches', 0)
-    font_size = quote_config.get('font_size')             # None = 继承正文
-    line_spacing = quote_config.get('line_spacing')       # None = 继承正文
+    paragraphs = []
+    spacer_indexes = set()
+    pending_spacer = False
 
-    for line_index, line in enumerate(lines):
+    for line in lines:
         if not line.strip():
-            p = doc.add_paragraph()
-            if bg_color:
-                pPr = p._p.get_or_add_pPr()
-                shd = OxmlElement('w:shd')
-                shd.set(qn('w:val'), 'clear')
-                shd.set(qn('w:color'), 'auto')
-                shd.set(qn('w:fill'), bg_color.lstrip('#'))
-                pPr.append(shd)
-            p.paragraph_format.line_spacing = 1.0
-            p.paragraph_format.space_before = Pt(0)
-            p.paragraph_format.space_after = Pt(0)
+            # 连续内部空引用行确定性折叠为一个灰底 spacer；首尾空行忽略，
+            # 因为整个 callout 已由 padding 提供上下留白。
+            pending_spacer = bool(paragraphs)
             continue
 
+        if pending_spacer and paragraphs:
+            spacer = doc.add_paragraph()
+            spacer_indexes.add(len(paragraphs))
+            paragraphs.append(spacer)
+        pending_spacer = False
+
         p = doc.add_paragraph()
-        pPr = p._p.get_or_add_pPr()
-        if bg_color:
-            shd = OxmlElement('w:shd')
-            shd.set(qn('w:val'), 'clear')
-            shd.set(qn('w:color'), 'auto')
-            shd.set(qn('w:fill'), bg_color.lstrip('#'))
-            pPr.append(shd)
-        if line_spacing:
-            p.paragraph_format.line_spacing = line_spacing
-        
+
         bullet_match = re.match(r'^\s*([-*+])\s+', line)
         number_match = re.match(r'^\s*(\d+\.)\s+', line)
-        
         list_marker_run = None
-        
+
         if bullet_match:
-            indent_and_bullet = '    •  '
-            list_marker_run = p.add_run(indent_and_bullet)
+            list_marker_run = p.add_run('    •  ')
             line = line[bullet_match.end():]
         elif number_match:
-            indent_and_number = f'    {number_match.group(1)} '
-            list_marker_run = p.add_run(indent_and_number)
+            list_marker_run = p.add_run(f'    {number_match.group(1)} ')
             line = line[number_match.end():]
-        
-        if list_marker_run and font_size:
-            list_marker_run.font.size = Pt(font_size)
+
+        if list_marker_run:
             set_run_format_with_styles(list_marker_run, {}, is_quote=True)
 
-        parse_text_formatting(p, line, is_quote=True)
-        set_paragraph_format(p, is_quote=True)
+        parse_text_with_footnotes(p, line, is_quote=True)
+        paragraphs.append(p)
 
-        if font_size:
-            for run in p.runs:
-                run.font.size = Pt(font_size)
+    if paragraphs:
+        for index, paragraph in enumerate(paragraphs):
+            set_paragraph_format(paragraph, is_quote=True)
+            _apply_quote_paragraph_container(
+                paragraph,
+                quote_config,
+                is_first=index == 0,
+                is_last=index == len(paragraphs) - 1,
+            )
+            paragraph.paragraph_format.space_before = Pt(0)
+            paragraph.paragraph_format.space_after = Pt(0)
+            if index in spacer_indexes:
+                paragraph.paragraph_format.line_spacing = Pt(
+                    quote_config.get('paragraph_spacing', 6)
+                )
+        paragraphs[0].paragraph_format.space_before = Pt(
+            quote_config.get('space_before', 6)
+        )
+        paragraphs[-1].paragraph_format.space_after = Pt(
+            quote_config.get('space_after', 6)
+        )
+    return paragraphs
 
 
 def add_code_block(doc, code_lines, language):
@@ -305,6 +412,7 @@ def add_code_block(doc, code_lines, language):
     - border_color / border_size：段落边框，相邻代码行边框在 Word 中自动连成完整框
     - no_proofread：关闭拼写检查（代码不应被拼写纠正）
     - left_indent / line_spacing：缩进与行距
+    - space_before / space_after：代码框与相邻正文的外部间距（仅首/末行）
     未配置 background_color / border 时行为同旧版。
     """
     config = get_config()
@@ -330,8 +438,10 @@ def add_code_block(doc, code_lines, language):
     border_color = content_config.get('border_color')    # None → 不加边框
     border_size = content_config.get('border_size', 4)   # 1/8 pt 单位
     no_proof = content_config.get('no_proofread', True)
+    space_before = content_config.get('space_before', 0)
+    space_after = content_config.get('space_after', 0)
 
-    for code_line in code_lines:
+    for index, code_line in enumerate(code_lines):
         p = doc.add_paragraph()
         run = p.add_run(code_line if code_line else ' ')
         # 等宽字体（ASCII/CS 用 font_name，东亚字符用 east_asia_font）
@@ -374,8 +484,8 @@ def add_code_block(doc, code_lines, language):
         pf = p.paragraph_format
         pf.left_indent = Pt(left_indent)
         pf.line_spacing = line_spacing
-        pf.space_before = Pt(0)
-        pf.space_after = Pt(0)
+        pf.space_before = Pt(space_before if index == 0 else 0)
+        pf.space_after = Pt(space_after if index == len(code_lines) - 1 else 0)
         pf.first_line_indent = Pt(0)
 
 
@@ -513,6 +623,108 @@ def debug_quotes_in_file(file_path):
 # 全书合并工具（--book 模式）
 # ============================================================================
 
+_MARKDOWN_IMAGE_RE = re.compile(
+    r'(?P<prefix>!\[[^\]\n]*\]\()'
+    r'(?P<leading>[ \t]*)'
+    r'(?P<destination><[^>\n]+>|(?:\\.|[^()\s]|\([^()\n]*\))+?)'
+    r'(?P<title>[ \t]+(?:"[^"\n]*"|\'[^\'\n]*\'|\([^\)\n]*\)))?'
+    r'(?P<trailing>[ \t]*)\)'
+)
+_HTML_IMG_QUOTED_SRC_RE = re.compile(
+    r'(?P<prefix><img\b[^>]*?\bsrc\s*=\s*)'
+    r'(?P<quote>["\'])(?P<src>.*?)(?P=quote)',
+    flags=re.IGNORECASE | re.DOTALL,
+)
+_HTML_IMG_UNQUOTED_SRC_RE = re.compile(
+    r'(?P<prefix><img\b[^>]*?\bsrc\s*=\s*)'
+    r'(?P<src>(?!["\'])[^\s>]+)',
+    flags=re.IGNORECASE | re.DOTALL,
+)
+
+
+def _book_local_image_target(raw_path, source_dir, *, html_src=False):
+    """Return a merged-book-safe target for one local relative image path."""
+    raw_path = raw_path.strip()
+    if not raw_path or raw_path.startswith('#'):
+        return None
+
+    decoded = urllib.parse.unquote(html.unescape(raw_path) if html_src else raw_path)
+    decoded = re.sub(r'\\([\\ ()])', r'\1', decoded)
+    parsed = urllib.parse.urlsplit(decoded)
+    if parsed.scheme or decoded.startswith('//') or os.path.isabs(decoded):
+        return None
+
+    absolute = os.path.abspath(os.path.normpath(os.path.join(source_dir, decoded)))
+    encoded = urllib.parse.quote(absolute, safe="/:@-._~!$&'()*+,;=")
+    return f'file://{encoded}' if html_src else encoded
+
+
+def _rewrite_book_local_image_paths(content, source_path):
+    """Relocate local relative image references before --book concatenation.
+
+    Each chapter's paths are resolved against that chapter, then serialized in
+    a form the existing single-document image loaders can consume from the
+    temporary merged Markdown file. Fenced code is deliberately left literal.
+    """
+    source_dir = os.path.dirname(os.path.abspath(source_path))
+
+    def rewrite_outside_fence(text):
+        def markdown_replacement(match):
+            token = match.group('destination')
+            raw_path = token[1:-1] if token.startswith('<') and token.endswith('>') else token
+            relocated = _book_local_image_target(raw_path, source_dir)
+            if relocated is None:
+                return match.group(0)
+            return ''.join((
+                match.group('prefix'), match.group('leading'), relocated,
+                match.group('title') or '', match.group('trailing'), ')',
+            ))
+
+        def quoted_html_replacement(match):
+            relocated = _book_local_image_target(
+                match.group('src'), source_dir, html_src=True
+            )
+            if relocated is None:
+                return match.group(0)
+            quote = match.group('quote')
+            return f"{match.group('prefix')}{quote}{relocated}{quote}"
+
+        def unquoted_html_replacement(match):
+            relocated = _book_local_image_target(
+                match.group('src'), source_dir, html_src=True
+            )
+            if relocated is None:
+                return match.group(0)
+            return f"{match.group('prefix')}{relocated}"
+
+        text = _MARKDOWN_IMAGE_RE.sub(markdown_replacement, text)
+        text = _HTML_IMG_QUOTED_SRC_RE.sub(quoted_html_replacement, text)
+        return _HTML_IMG_UNQUOTED_SRC_RE.sub(unquoted_html_replacement, text)
+
+    output = []
+    outside = []
+    fence = None
+    for line in content.splitlines(keepends=True):
+        fence_match = re.match(r'^[ \t]{0,3}(`{3,}|~{3,})', line)
+        if fence_match:
+            if outside:
+                output.append(rewrite_outside_fence(''.join(outside)))
+                outside = []
+            marker = fence_match.group(1)
+            if fence is None:
+                fence = (marker[0], len(marker))
+            elif marker[0] == fence[0] and len(marker) >= fence[1]:
+                fence = None
+            output.append(line)
+        elif fence is None:
+            outside.append(line)
+        else:
+            output.append(line)
+    if outside:
+        output.append(rewrite_outside_fence(''.join(outside)))
+    return ''.join(output)
+
+
 def rename_footnote_ids(content, ch):
     """全书合并预处理：给脚注 id 加章节前缀，避免跨章 [^id] 冲突。
     [^1] → [^1-1]（第 1 章的 1）；[^note] → [^2-note]（第 2 章的 note）。
@@ -562,7 +774,7 @@ def add_book_header(section, title):
 
 def create_book(md_files, output_path, config, notes_mode='footnote'):
     """全书合并：多章 md → 单 docx。
-    预处理：脚注 id 加章前缀防冲突；章间用 '---' 分隔（book_mode 下每个 --- 触发分页）。
+    预处理：脚注 id 加章前缀防冲突；章间使用内部 marker 分隔。
     """
     print(f"📚 全书合并 {len(md_files)} 个文件 → {output_path}")
     merged = []
@@ -576,13 +788,14 @@ def create_book(md_files, output_path, config, notes_mode='footnote'):
         except UnicodeDecodeError:
             with open(f, 'r', encoding='gbk') as fh:
                 content = fh.read()
+        content = _rewrite_book_local_image_paths(content, f)
         content = rename_footnote_ids(content, ch_idx)
         merged.append(content)
         print(f"  第 {ch_idx} 章: {os.path.basename(f)}")
     if not merged:
         print("❌ 无可合并的章节")
         return
-    full = '\n\n---\n\n'.join(merged)
+    full = f'\n\n{BOOK_CHAPTER_BREAK_MARKER}\n\n'.join(merged)
     tmp_md = output_path + '.merged.md'
     with open(tmp_md, 'w', encoding='utf-8') as fh:
         fh.write(full)
@@ -700,7 +913,6 @@ def create_word_document(md_file_path, output_path, template_file=None, config: 
     _active_fn_manager = fn_manager
     has_body_before_first_h2 = False
     has_seen_h2 = False
-    has_seen_first_hr = False  # 追踪第一个分隔符
     i = 0
     svg_counter = [0]  # 内联 SVG 计数（用于命名输出文件）
 
@@ -772,9 +984,9 @@ def create_word_document(md_file_path, output_path, template_file=None, config: 
             if i < len(lines):
                 i += 1
             add_code_block(doc, code_lines, language)
+            print("✅ 处理代码块")
             if not has_seen_h2:
                 has_body_before_first_h2 = True
-            print("✅ 处理代码块")
             continue
         
         # HTML 表格
@@ -826,24 +1038,27 @@ def create_word_document(md_file_path, output_path, template_file=None, config: 
                     set_paragraph_format(p)
                     if alignment is not None:
                         p.paragraph_format.alignment = alignment
+                        # 只清理显式居中的表题缩进；普通居中 div 仍沿用正文设置。
+                        if (alignment == WD_PARAGRAPH_ALIGNMENT.CENTER
+                                and is_table_caption_line(text_line)):
+                            p.paragraph_format.first_line_indent = Pt(0)
+                            p.paragraph_format.left_indent = Pt(0)
                     if not has_seen_h2:
                         has_body_before_first_h2 = True
             i += 1
             continue
 
-        # 分割线（必须在 Markdown 表格检测之前，避免 --- 被误判为表格分隔行）
+        # 全书内部章间边界：只有 create_book() 注入的 marker 才创建新 section。
+        if book_mode and line == BOOK_CHAPTER_BREAK_MARKER:
+            # 使用 section break 而非 page break，配合 sectPr footnotePr
+            # numRestart=eachSec 实现每章脚注从 1 重置编号。
+            doc.add_section(WD_SECTION.NEW_PAGE)
+            i += 1
+            continue
+
+        # Markdown 分割线（必须在表格检测之前，避免 --- 被误判为表格分隔行）
         if line in ['---', '***', '___']:
-            if book_mode:
-                # 全书合并：每个分隔符 = 章间断点（用 section break 而非 page break，
-                # 配合 sectPr footnotePr numRestart=eachSec 实现每章脚注从 1 重置编号）
-                doc.add_section(WD_SECTION.NEW_PAGE)
-            elif not has_seen_first_hr:
-                # 第一个分隔符视为封面与正文的分界，渲染为分页符
-                has_seen_first_hr = True
-                doc.add_page_break()
-                print("✅ 封面分隔符 → 分页符")
-            else:
-                add_horizontal_line(doc)
+            add_horizontal_line(doc)
             i += 1
             continue
 
@@ -951,28 +1166,34 @@ def create_word_document(md_file_path, output_path, template_file=None, config: 
             p = doc.add_paragraph()
             parse_text_formatting(p, title, title_level=1)
             set_paragraph_format(p, title_level=1)
+            _apply_heading_pagination(p, title, config)
         elif line.startswith('## '):
             title = convert_quotes_to_chinese(line[3:].strip())
             p = doc.add_paragraph()
             parse_text_formatting(p, title, title_level=2)
             set_paragraph_format(p, title_level=2)
+            _apply_heading_pagination(p, title, config)
             has_seen_h2 = True
         elif line.startswith('### '):
             title = convert_quotes_to_chinese(line[4:].strip())
             p = doc.add_paragraph()
             parse_text_formatting(p, title, title_level=3)
             set_paragraph_format(p, title_level=3)
+            _apply_heading_pagination(p, title, config)
         elif line.startswith('#### '):
             title = convert_quotes_to_chinese(line[5:].strip())
             p = doc.add_paragraph()
             parse_text_formatting(p, title, title_level=4)
             set_paragraph_format(p, title_level=4)
+            _apply_heading_pagination(p, title, config)
         else:
             if line:
                 p = doc.add_paragraph()
                 parse_text_with_footnotes(p, line)
-                # 图注（**图 X-X：...** / 图 X-X：...）居中、无首行缩进、小一号字
-                if re.match(r'^\*{0,2}图\s*\d+[-－]?\d*\s*[:：]', line):
+                # 图注与表题都居中、无首行缩进；图注另沿用既有小一号样式。
+                is_figure_caption = re.match(r'^\*{0,2}图\s*\d+[-－]?\d*\s*[:：]', line)
+                is_table_caption = is_table_caption_line(line)
+                if is_figure_caption:
                     p.alignment = WD_PARAGRAPH_ALIGNMENT.CENTER
                     pf = p.paragraph_format
                     pf.first_line_indent = Pt(0)
@@ -982,6 +1203,13 @@ def create_word_document(md_file_path, output_path, template_file=None, config: 
                     pf.line_spacing = 1.2
                     for r in p.runs:
                         r.font.size = Pt(10)
+                elif is_table_caption:
+                    # 先保持普通正文的字号、粗体和间距，再只覆盖表题对齐/缩进。
+                    set_paragraph_format(p)
+                    p.alignment = WD_PARAGRAPH_ALIGNMENT.CENTER
+                    pf = p.paragraph_format
+                    pf.first_line_indent = Pt(0)
+                    pf.left_indent = Pt(0)
                 else:
                     set_paragraph_format(p)
                 if not has_seen_h2:

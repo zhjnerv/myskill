@@ -2,6 +2,174 @@
 
 本文件记录 md2word 技能的所有重要变更。
 
+## [1.3.5] - 2026-08-26
+
+### 修复
+- **全书模式保留各章本地图片基准（DEC-022）**：`create_book()` 在读取每个章节后、重命名脚注与串联合并前，将 Markdown 图片目标和 HTML `<img src>` 的本地相对路径按该源文件父目录重定位。合并稿不再错误地按 DOCX 输出目录查找 `../../figures/...`，避免整书导出出现“图片未能加载”占位。
+- **路径语法与作用域保持**：含空格、URL 编码、尖括号路径和 Markdown 可选 title 均保留可读语义；HTTP/HTTPS、data URI、锚点、绝对路径与 fenced code 原样保留。改写只在 `--book` 合并预处理调用，单章转换路径不变。
+
+### 文档完善
+- 更新 `SKILL.md`、md2word README、使用示例和根 README，新增 DEC-022 / Task-015，并把 md2word 版本同步为 v1.3.5。
+
+### 验证
+- 完整回归 24/24 通过。新增端到端 fixture 覆盖两个不同章节目录共享 `../../figures` 图片、同目录图片、子目录含空格/中文图片、URL 编码与 Markdown 可选 title、HTML `<img src>`；整书 DOCX 得到 5 个 `w:drawing` 且无本地图片警告或占位。HTTP/HTTPS、data URI、锚点、绝对路径和 fenced code 负例保持，单章 fixture 仍按源文件目录嵌入 1 图且输入不变。
+- 真实 ch12 + ch13 `--book` 转换得到 31 个 `w:drawing` / 31 个 media parts、37 张数据表、2 个 section 和 0 个图片占位；16 个 XML 全部 well-formed，DOCX ZIP 完整，临时 merged Markdown 已删除，SHA-256 为 `708c5cd4c3a396968645a81ed57e8e3e67d1b0ddf4d944841522333f8599b7bc`。`py_compile`、7/7 YAML 解析与 `git diff --check` 通过；未打开 Word、不做 GUI 验收。
+- 官方 `quick_validate.py` 仍因本仓要求保留的 `author`、`homepage`、`version` frontmatter 键退出 1，记为 `NOT_VERIFIED`；未删除仓库要求字段。
+
+## [1.3.4] - 2026-08-26
+
+### 新增
+- **书籍尾部模块原生分页（DEC-021）**：新增 `pagination.page_break_before_headings` 精确标题列表。`book-publish` 默认配置“本章小结”“动手练习”，单章和 `--book` 均在命中标题段自身写入 `w:pageBreakBefore`；其他预设、硬编码 fallback、配置模板和模板提取基底默认空列表。
+- **精确且隔离的匹配**：只对 Markdown `#` 至 `####` 标题去除首尾空白后完整匹配。正文、HTML 表题、代码块和“本章小结与展望”等包含或近似文字不触发；命中不插入空段、分页 run 或新 section，标题既有字号、粗体、缩进与段间距保持。
+
+### 文档完善
+- 更新 `SKILL.md`、README、配置参考和样式映射，新增 DEC-021 / Task-014，并把根 README 的 md2word 版本与最近更新摘要同步为 v1.3.4。
+
+### 验证
+- 完整回归 23/23、`py_compile`、7/7 YAML 解析与 `git diff --check` 通过。端到端 fixture 覆盖 H2“本章小结”、H2/H3“动手练习”以及正文/HTML 表题/代码块/近似标题负例；book-publish 恰好 3 个 `w:pageBreakBefore`、0 个分页 `w:br`、1 个 section、0 个额外空段，legal 与自定义空列表均为 0，H2/H3 原格式不变。
+- 全书 15 章静态扫描得到 15 个 H2“本章小结”与 12 个“动手练习”（H2 11、ch14 H3 1），共 27 个精确目标标题。真实 ch12 得到 2 个原生标题分页、0 个分页 `w:br`、1 个 section；同时保留 10 张表 + 10 个表后 spacer、6 个 quote 段（含 2 个同底色 spacer）、11 组图片/图注和 1 个脚注。DOCX 包完整、15 个 XML well-formed，SHA-256 为 `e1121d10d206b4466d86264f5c57a679f6b8401f081f447cef0ff21f74d57be5`。按用户要求不打开 Word、不做逐页 GUI 验收。
+- 官方 `quick_validate.py` 仍因本仓要求保留的 `author`、`homepage`、`version` frontmatter 键退出 1，记为 `NOT_VERIFIED`；未删除仓库要求字段。
+
+## [1.3.3] - 2026-08-26
+
+### 修复
+- **引用框与代码框背景完全同色（DEC-020）**：根据用户视觉确认后的颜色纠偏，全部内置预设、fallback config、配置模板和模板提取基底把 `quote.background_color` 从 `#EDF2F7` 统一为 fenced code block 同款中性浅灰 `#F5F5F5`；承载 padding 的不可见同色 paragraph border 与缺省 fallback 同步。
+- **连续 callout 结构保持**：v1.3.2 的 paragraph callout、同底色 6pt exact 内部 spacer、连续空行折叠、无引用 `w:tbl`、首尾 padding/块外间距全部不变；数据表 6pt exact spacer 与图片/图注链路不变。
+
+### 文档完善
+- 更新 `SKILL.md`、README、配置参考和样式映射，明确引用框复用 `code_block.content.background_color` 的视觉 token；两项仍分别显式配置，允许高级用户独立覆盖。新增 Task-013 / DEC-020，DEC-020 仅 supersede DEC-019 的颜色选择，不回退其连续 shaded spacer 决策。
+
+### 验证
+- 完整回归 22/22、`py_compile`、7/7 YAML 解析与 `git diff --check` 通过；测试额外断言 `book-publish` / `legal` 的 quote 背景均等于各自 `code_block.content.background_color`，且值为 `#F5F5F5`。多段引用、灰底 exact spacer、脚注/粗体/列表与无引用表格断言继续通过。
+- 真实 ch12 得到 10 张数据表 + 10 个表后 spacer、6 个 quote 段（4 个内容段 + 2 个同底色 exact spacer）、11 组图片/图注和 1 个脚注；全部 quote shading/border 为 `F5F5F5`，无引用表格，图注既有 `3pt/8pt + 1.2` 节奏不变。DOCX 包完整、15 个 XML well-formed，SHA-256 为 `75dc5691c7676602e837a6e7b7b2f87289190918184238429b8c50724b590baa`。按用户要求不打开 Word、不做逐页 GUI 验收。
+- 官方 `quick_validate.py` 仍因本仓要求保留的 `author`、`homepage`、`version` frontmatter 键退出 1，记为 `NOT_VERIFIED`；未删除仓库要求字段。
+
+## [1.3.2] - 2026-08-26
+
+### 修复
+- **多段引用灰底不再出现白缝（DEC-019）**：内部空引用行不再写成上一内容段的 `space_after`，改为同底色空白 callout paragraph。该 spacer 段前/段后为 0、行高读取 `quote.paragraph_spacing`（默认 6pt exact），只带左右同色 padding border，不重复 top/bottom padding；普通内容段内部间距保持 0，整个框只在首/末段保留块外 6pt。
+- **连续空行确定性归一**：连续多个内部 `>` 空行折叠为一个 shaded spacer；首尾空引用行忽略，由首尾 padding 提供留白。脚注、粗体、列表 marker 和引用不生成 `w:tbl` 的规则保持。
+- **引用灰统一为 confirmed token**：全部内置预设、fallback config、配置模板和模板提取基底把 `quote.background_color` 统一为 `#EDF2F7`，同色不可见 paragraph border 同步，避免引用框与本书 confirmed 状态出现两级浅灰。
+
+### 文档完善
+- 更新 `SKILL.md`、配置参考、样式映射和使用说明，明确 shaded exact spacer 的 OOXML 语义与连续空行折叠规则；Task-010 补记已合并 PR #97 / merge `2c3ff091`。
+
+### 验证
+- 完整回归 22/22、`py_compile` 与 7/7 YAML 解析通过。fixture 端到端断言连续空引用行折叠为 1 个 shaded spacer，多段案例为 3 个内容段 + 2 个 `EDF2F7` exact spacer；整个 quote body 每段均有同色 shading/border，内容段内部间距为 0，spacer 只有左右 border，脚注/粗体/列表保持且不产生引用表格。
+- 真实 ch12 得到 10 张数据表 + 10 个既有表后 spacer、6 个 quote 段（导读内容 1 + 案例内容 3 + 案例灰底 spacer 2）、11 组图片/图注和 1 个导读脚注；全部 quote shading/border 为 `EDF2F7`，图注既有 `3pt/8pt + 1.2` 节奏不变。DOCX 包完整、15 个 XML well-formed，SHA-256 为 `80216357de8e5c4b4b6f7f5c0cb908aad658fa71afa40b5566ed9a4c51aa8527`。用户明确自行核实桌面示例视觉，本轮不打开 Word、不做逐页 GUI 验收。
+- 官方 `quick_validate.py` 仍因本仓要求保留的 `author`、`homepage`、`version` frontmatter 键退出 1，记为 `NOT_VERIFIED`；未删除仓库要求字段。
+
+## [1.3.1] - 2026-08-26
+
+### 修复
+- **引用框不再显示 Word 表格虚线（DEC-018）**：所有 Markdown `>` 导读/案例继续共用同一视觉语义，但由单单元格表格改为正文流中的段落灰底，输出不再为引用内容创建 `w:tbl`。Word 即使开启“查看网格线”也不会出现引用框虚线轮廓。
+- **多段灰底只在整块首尾留垂直 padding**：每段保留左右 6pt；首段独占上 5pt、末段独占下 5pt，中间段不重复累计上下留白。空引用行才折算为 6pt `paragraph_spacing`；脚注、粗体、列表 marker、正文 12pt/1.5 倍行距继续保留。
+- **数据表自行承载表后留白**：Markdown 与 HTML 表格统一读取 `table.space_after`，默认在表后追加一个 6pt exact 空段。随后正文仍为普通正文的段前/段后 0、1.5 倍自动行距；图片和图注不受影响。
+
+### 文档完善
+- 全部内置预设、fallback config、配置模板与模板提取基底改用 `quote.padding` 并加入 `table.space_after`；v1.3.0 自定义 `quote.cell_margin` 按 `20 twips = 1pt` 兼容迁移。配置参考与样式映射明确表格时代字段不再控制引用框。
+
+### 验证
+- 新增/更新端到端回归，精确断言引用内容不产生 Word 表格、浅灰底连续语义、同色 `single` 边界无可见轮廓、首/中/尾 padding、脚注/粗体/列表保持，并覆盖 v1.3.0 `cell_margin` 迁移；Markdown/HTML 数据表后各恰好一个 6pt exact spacer，下一正文样式不变，图片/图注链路未插入该 spacer。完整 `unittest` 22/22 通过。
+- 真实 ch12 临时转换得到 10 张数据表及 10 个 exact 6pt spacer、4 个 paragraph callout 段（导读 1 + 案例 3）、0 个引用表格、11 组图片/图注和 1 个导读脚注；首/中/尾 padding、`pBdr → shd → spacing → ind` OOXML 顺序和图注既有 `3pt/8pt + 1.2` 节奏均通过结构断言。临时 DOCX SHA-256 为 `ded0d635396796918f1c3f08c816a7f81addf2f059b9fde77414cb917801630e`。用户明确由其自行核实桌面示例视觉，本轮不打开 Word、不做逐页 GUI 验收。
+- 官方 `quick_validate.py` 因本仓规范要求的 `author`、`homepage`、`version` frontmatter 键退出 1，记为 `NOT_VERIFIED`；未删除这些仓库要求字段。
+
+## [1.3.0] - 2026-08-26
+
+### 改进
+- **统一 Markdown 引用框（DEC-017）**：所有连续 `>` 引用块不再按“本章导读”“案例”等文字标签分流，统一渲染为单单元格 callout 表格。`legal` 与 `book-publish` 默认采用正文全宽、无边框 `#F5F5F5` 浅灰底；`tblW`、`tblGrid` 与 `tcW` 共用正文可用宽度，`tblInd=0`。
+- **真实内边距与紧凑垂直节奏**：新增 `cell_margin`、`space_before`、`space_after`、`paragraph_spacing`、`first_line_indent`、`align` 等明确配置。左右/上下留白由真实 cell margins 承载；块外间距用 6pt exact spacer，引用空行折算为 6pt 段距，避免默认空段放大留白。
+- **长案例可跨页**：引用表格不写 `w:cantSplit`，保留 Word 对单行长内容的跨页拆分能力；脚注、Markdown 粗体及正文 12pt / 1.5 倍行距继续保留。
+
+### 文档完善
+- `book-publish`、`legal`、其余内置预设、fallback config、配置模板和模板提取基底统一迁移到新的 `quote` 配置语义；配置参考明确旧 `left_indent_inches` 不再用于缩窄灰底块。
+
+### 验证
+- 新增同一 fixture 覆盖单段导读 + 页面脚注、多段案例 + 空引用行及普通正文；端到端断言两个 callout 的容器/样式一致、全宽、灰底、无边框、四边内边距、块外 exact 间距、块内段距、0 首行缩进、粗体和脚注保留，普通正文仍为 24pt 首行缩进、12pt / 1.5 倍行距；另保留最小引用列表回归，核对 bullet marker 与脚注均留在 callout 内。与 v1.2.9 回归合并后的完整 `unittest` 20/20 通过。
+- 真实 ch12 临时转换得到 2 个 `md2word-quote` callout（导读 1 段、案例 3 段）和 10 张数据表；两个 callout 均为 `tblW/gridW/tcW=8504 twips`、`tblInd=0`、四边框 `nil`、灰底 `F5F5F5`、cell margins `100/120/100/120`，且 row 未写 `cantSplit`。导读脚注 1 个、两类标题粗体均保留。
+
+## [1.2.9] - 2026-08-26
+
+### 修复
+- **普通技术标识内部下划线不再误解析为强调（DEC-016）**：underscore 斜体、粗体和粗斜体分隔符必须位于单词边界。正文与 Markdown 表格中的 `payment_instance_id`、`dispute_amount_band`、`manual_review_required`、`audit_log_summary`、`API_SERVER_KEY`、`main_chart_type`、`matter_id` 及 `foo__bar__baz` 均按字面量保留下划线，不产生意外斜体或粗体。
+- **正文与表格规则统一**：把生产行内格式规则集中到 `formatter.py`，正文解析、Markdown 表格解析与表格格式预判共用同一规则源，避免表格继续以宽泛的 `_.*?_` / `__.*?__` 预判技术标识。星号强调、数学、HTML、脚注和图片路径不变，未引入第三方 Markdown 依赖。
+- **明确的下划线强调保持兼容**：`_正常斜体_`、`__正常粗体__` 与 `___正常粗斜体___` 仍分别生成斜体、粗体与粗斜体；单词内部的 `foo__bar__baz` 不触发粗体。
+
+### 验证
+- RED：新增正文与 Markdown 表格两项回归后，v1.2.8 分别复现“下划线被吞并”和“表格格式预判误报”两类失败；GREEN：修复后 `python3 -m unittest discover -s skills/md2word/scripts -p 'test_*.py' -v` 为 19/19 通过。
+- 真实书稿转换：ch14 的四个表格字段均各自构成 exact run，另有正文中的 `manual_review_required` 完整存在于一个可能包含相邻正文的普通 run；ch12 的 `main_chart_type` 与 ch04 的 `API_SERVER_KEY` 也分别完整存在于一个可能包含相邻正文的普通 run。所有匹配 run 的 `run.italic` 均为 `None`，OOXML 均无 `w:i`。
+- `/tmp/md2word-v1.2.9-intraword-fixture.docx` 已生成，QuickLook 首屏缩略图 `/tmp/md2word-v1.2.9-quicklook/md2word-v1.2.9-intraword-fixture.docx.png` 经目检确认表格字段下划线完整，明确的斜体、粗体与粗斜体仍可见。
+
+## [1.2.8] - 2026-08-25
+
+### 改进
+- **代码框外部垂直间距（DEC-015）**：为所有 fenced code block 的既有 `code_block.content` 配置新增 `space_before` / `space_after`。`book-publish` 预设均为 6pt，且只应用于单个框的首行段前与末行段后；多行框内部继续为 0 间距、1.2 倍行距。
+- 不改变代码框的等宽字体、9pt 字号、浅灰底、边框策略、左右缩进或框内行距。
+
+### 验证
+- 端到端回归断言三行 `text` 代码框的首行段前 6pt、末行段后 6pt、中间行上下均为 0；同时保持 Courier New、9pt、1.2 倍行距与 `#F5F5F5` 底纹。
+
+## [1.2.6] - 2026-08-25
+
+### 修复
+- **多列长表头不再把表格撑出正文区（DEC-013）**：保留既有 P80 分配逻辑，并增加总宽硬预算；当各列表头期望宽合计超过正文可用宽度时，每列先保留动态可读下限，再按相对需求压缩并允许表头换行。最终整数列宽总和不超过且铺满页面宽减左右页边距，不针对特定表格硬编码。
+- **表格 OOXML 宽度统一**：Markdown 表格固定布局下，`tblW`、`tblGrid/gridCol` 与每行 `tcW` 使用同一组整数 twips，舍入余数确定性分配，避免 Word 在固定布局中按冲突宽度二次解释。
+- **Markdown 与显式居中表题统一取消缩进**：`**表 X-Y：...**` 与不带粗体标记的同类表题自动水平居中、取消首行和左缩进；`<div align="center">**表 X-Y：...**</div>` 同样清除表题缩进。只在表题语义下覆盖段落对齐与缩进，普通居中 `<div>` 仍沿用正文缩进，表题字号/粗体与图注既有小一号样式不变。
+- **引用块脚注不再显示字面标记（DEC-014）**：Markdown `>` 引用块的正文内容改走与普通正文相同的脚注解析入口；有效 `[^label]` 会生成原生 `w:footnoteReference` 与对应定义，不再把标签留在 `document.xml`。引用段落格式、导读加粗和引用块内列表 marker 保持不变。
+
+### 验证
+- 测试先行复现六列长表头合计 `17.84 cm > 15.00 cm`、表格 `tblW=auto/0` 与 grid/tcW 不同源、普通表题两端对齐且首行缩进三类失败；集成验收又复现显式居中表题虽有 `jc=center`、却仍继承 `firstLine=480`。修复后全量 15 项测试通过，并以普通居中 `<div>` 仍保留 24 pt 正文缩进作为反例，证明清零范围仅限表题。
+- 真实第 7 章临时转换中，表 7-15 的 grid 总宽由 `10115 twips（17.8417 cm）` 收敛为 `8503 twips（14.9982 cm）`；`tblW=8503 dxa`、6 列 grid 与每行 6 个 `tcW` 完全一致，布局保持 `fixed`。
+- 用已合并为 `<div align="center">**表 10-5：...**</div>` 的 canonical 第 10 章重新转换，修复后的表题为 `jc=center / firstLine=0 / left=0`，粗体与 `24 half-points（12 pt）` 字号保持不变。临时 DOCX 均保存在 `/tmp`，未提交仓库。
+- 引用块脚注回归先复现“无 `footnotes.xml`、marker 原样进入正文”，修复后端到端断言正文无 marker、存在 `footnoteReference` 和定义，并验证导读加粗、引用段落缩进及列表 marker 未退化；全量由 15 项增至 16 项并全部通过。
+- 真实 canonical ch10 转换后 `[^ch10-skills]` 为 0，导读段含 1 个脚注引用，全文引用/定义均为 `21/21`；真实 15 章合并转换的任意 `[^...]` 字面 marker 为 0，引用/定义/唯一引用 ID 均为 `131/131/131`，集合完全一致，保持 15 sections 与 118 张表。全书临时输出因位于 `/tmp`，既有相对截图路径降级为占位符，因此只作为脚注与结构证据，不作为视觉交付稿。
+
+## [1.2.5] - 2026-08-25
+
+### 修复
+- **行内代码下划线不再误触发斜体（DEC-012）**：正文格式解析先识别反引号代码范围，并忽略起止标记落在代码范围内的非代码匹配。连续出现 `` `law_keyword` ``、`` `case_vector` `` 等标识时，下划线不再跨代码段配成 `_斜体_`，反引号会按行内代码语义移除，代码文本与样式完整保留。
+- **既有外层格式行为保持**：仅阻止格式标记从代码范围内部起止；完整包围代码段的外层格式继续沿用现有解析结果，普通 `_正常斜体_` 不受影响。
+
+### 验证
+- RED：v1.2.4 将四个元典 Tool 名称转成 5 个正文 run，吞掉全部下划线、残留反引号，并把 `keyword…case`、`detail…case` 两段写成斜体。
+- GREEN：新增正文级回归后，`law_keyword`、`case_vector`、`law_detail`、`case_detail` 均成为独立 Courier New 代码 run，无斜体；普通下划线斜体仍通过。完整回归由 11 项增至 12 项，全部通过。
+- 真实 ch06 临时转换成功，目标四个 Word run 均为 Courier New、浅灰底且不含 `w:i`；`document.xml` 中异常字面反引号文本节点为 0。临时 DOCX SHA-256 为 `cdf81fb56861597313ea4bb42b809af67baa0719b4dea3ede8a6f0aee0e8b927`，仅保存在 `/tmp`，未覆盖交付稿。
+
+## [1.2.4] - 2026-08-24
+
+### 修复
+- **相邻原生脚注编号可辨（DEC-011）**：仅当两个 Markdown 脚注标记在源码中直接相邻时，在两个 `w:footnoteReference` 之间插入一个 9pt 上标 NBSP；源码已有空格、逗号、顿号等字符时不额外插入，`endnote` 行为不变。
+- **页面脚注段落收紧**：每个正数脚注段落显式写入段前 0、段后 0、单倍自动行距，避免脚注 34–40 一类连续脚注受默认段落间距影响而显得松散；separator 与 continuationSeparator 不变。
+
+### 验证
+- 测试先行准确复现旧行为：相邻引用之间没有 NBSP，正数脚注段落没有显式 spacing；修复后新增两项回归连同既有测试共 11 项全部通过。
+- 真实 ch06 转换中，企查查段的脚注结构为 `ref 9 / NBSP / ref 10`，NBSP 仅 1 个且为上标 9pt；40 个正数脚注段落全部具有目标 spacing，引用 / 定义 / 唯一 ID 仍为 `40/40/40`、重复 ID 为 0，表 / 图 / 占位符维持 `0/13/0`。
+- QuickLook 成功生成首屏缩略图与 HTML 预览，首屏未见明显异常；目标企查查段及脚注 34–40 不在缩略图可见范围，本机无 `soffice`，因此目标区域标记为 `NOT_VISUALLY_RENDERED`，未安装依赖或打开 Word。
+
+## [1.2.3] - 2026-08-24
+
+### 修复
+- **重复原生脚注不再漏失（DEC-010）**：同一 Markdown `[^label]` 多次出现时，`footnote` 模式为每次引用分配独立 `w:id`，并在 `footnotes.xml` 写入内容相同的独立定义，避免多个 `w:footnoteReference` 复用同一 ID 时后续位置不显示脚注。
+- **尾注兼容语义保持不变**：`endnote` 模式仍按 label 复用同一编号与一条尾注定义。
+
+### 验证
+- 测试先行准确复现旧行为：重复 footnote 的 2 个引用实际只有 1 个唯一 `w:id`；修复后新增的 footnote 与 endnote 端到端回归连同既有测试共 9 项全部通过。
+- 真实 ch03 / ch04 / ch05 / ch06 单章转换的“引用 / 定义 / 唯一 ID”分别为 `6/6/6`、`22/22/22`、`16/16/16`、`40/40/40`，重复引用 ID 均为 0。
+- 真实 15 章全书转换保持 15 sections、9 条水平线、118 表、180 图、0 图片占位符；源稿 128 个引用标记中，已解析的 121 个引用对应 121 条定义与 121 个唯一 ID，重复 ID 为 0。另 7 个章节导读引用块标记仍为既有字面文本缺口，不属于本次重复脚注修复。
+
+## [1.2.2] - 2026-08-24
+
+### 修复
+- **全书章间边界与 Markdown 水平线解耦（DEC-009）**：`create_book()` 改用带固定高熵后缀的内部章间 marker 拼接章节，book parser 只对该 marker 创建 `WD_SECTION.NEW_PAGE`。章节正文中的 `---`、`***`、`___` 不再被误判为新 section，仍由 `add_horizontal_line()` 渲染。
+- **移除单章首条水平线分页启发式**：单章模式不再把第一条 `---` 当作“封面分页”；三种 Markdown 水平线从第一条起均按原语义保留。
+
+### 技术优化
+- `scripts/test_regressions.py` 新增两项端到端回归：两章合并同时含章内水平线时必须恰好 2 个 section，并保留脚注分节重置、TOC 与页眉；单章首条 `---` 及后续 `***` / `___` 均须保留且不能产生 page break。
+
+### 验证
+- 测试先行红灯准确复现旧行为：两章输出 3 sections（预期 2），单章只保留 2/3 条水平线；修复后 `python3 -m unittest discover -s skills/md2word/scripts -p 'test_*.py' -v` 共 7 项全部通过。
+- 真实 15 章书稿只读前向验证：15 sections、9 条水平线（ch12=1、ch13=8）、118 表、180 图、0 图片占位符，均符合预期。源稿共有 128 个脚注引用标记，其中 121 个生成 Word 脚注引用，7 个位于章节导读引用块内并保留为字面标记；该引用块解析缺口来自既有实现，本次章间边界修复未改该路径。
+
 ## [1.2.1] - 2026-08-11
 
 ### 回退

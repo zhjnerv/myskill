@@ -181,6 +181,9 @@ def get_fallback_config() -> Config:
                 'indent': 24,
             },
         },
+        'pagination': {
+            'page_break_before_headings': [],
+        },
         'paragraph': {
             'line_spacing': 1.5,
             'first_line_indent': 24,
@@ -201,6 +204,7 @@ def get_fallback_config() -> Config:
             'border_color': '#CBD5E0',
             'border_width': 4,
             'line_spacing': 1.2,
+            'space_after': 6,
             'rounded_corners': True,
             'row_height_cm': 0.8,
             'alignment': 'center',
@@ -258,11 +262,20 @@ def get_fallback_config() -> Config:
             'background_color': '#F0F0F0',
         },
         'quote': {
-            'background_color': None,
-            'left_indent_inches': 0,
-            'border_color': None,
+            'background_color': '#F5F5F5',
+            'padding': {
+                'top': 5,
+                'bottom': 5,
+                'left': 6,
+                'right': 6,
+            },
+            'space_before': 6,
+            'space_after': 6,
+            'paragraph_spacing': 6,
             'font_size': None,
             'line_spacing': None,
+            'first_line_indent': 0,
+            'align': 'justify',
         },
         'math': {
             'font': 'Times New Roman',

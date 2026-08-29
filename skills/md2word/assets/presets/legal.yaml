@@ -48,6 +48,9 @@ titles:
     align: "justify"
     indent: 24
 
+pagination:
+  page_break_before_headings: []
+
 # 段落设置
 paragraph:
   line_spacing: 1.5
@@ -73,6 +76,7 @@ table:
   border_color: "#CBD5E0"          # 边框：浅灰细线
   border_width: 4
   line_spacing: 1.2
+  space_after: 6                  # 表格组件后的固定留白（pt，exact）
   row_height_cm: 0.8
   alignment: "center"
   cell_margin:
@@ -134,13 +138,21 @@ inline_code:
   color: "#333333"
   background_color: "#F0F0F0"
 
-# 引用块设置（无视觉样式：与正文一致，不加底纹/边框/缩进）
+# 引用块设置（正文全宽的段落灰底，导读/案例共用；不使用表格容器）
 quote:
-  background_color: null
-  left_indent_inches: 0
-  border_color: null
+  background_color: "#F5F5F5"
+  padding:                         # 文字到灰底边缘的留白（pt）
+    top: 5
+    bottom: 5
+    left: 6
+    right: 6
+  space_before: 6
+  space_after: 6
+  paragraph_spacing: 6
   font_size: null   # null = 继承正文
   line_spacing: null
+  first_line_indent: 0
+  align: justify
 
 # 数学公式设置
 math:

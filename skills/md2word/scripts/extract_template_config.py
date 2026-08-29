@@ -61,6 +61,9 @@ BASE_CONFIG: Dict[str, Any] = {
             "indent": 24,
         },
     },
+    "pagination": {
+        "page_break_before_headings": [],
+    },
     "paragraph": {
         "line_spacing": 1.5,
         "first_line_indent": 24,
@@ -81,6 +84,7 @@ BASE_CONFIG: Dict[str, Any] = {
         "border_color": "#000000",
         "border_width": 4,
         "line_spacing": 1.2,
+        "space_after": 6,
         "row_height_cm": 0.8,
         "alignment": "center",
         "cell_margin": {
@@ -122,10 +126,15 @@ BASE_CONFIG: Dict[str, Any] = {
         "color": "#333333",
     },
     "quote": {
-        "background_color": "#EAEAEA",
-        "left_indent_inches": 0.2,
-        "font_size": 9,
-        "line_spacing": 1.5,
+        "background_color": "#F5F5F5",
+        "padding": {"top": 5, "bottom": 5, "left": 6, "right": 6},
+        "space_before": 6,
+        "space_after": 6,
+        "paragraph_spacing": 6,
+        "font_size": None,
+        "line_spacing": None,
+        "first_line_indent": 0,
+        "align": "justify",
     },
     "math": {
         "font": "Times New Roman",
@@ -399,9 +408,8 @@ def extract_template_config(template_path: Path) -> Dict[str, Any]:
             if isinstance(quote_para.line_spacing, (int, float))
             else config["quote"]["line_spacing"]
         )
-        left_indent_pt = _pt(quote_para.left_indent)
-        if left_indent_pt is not None:
-            config["quote"]["left_indent_inches"] = round(left_indent_pt / 72.0, 3)
+        # 引用块容器固定与正文同宽；模板 Block Quote 的段落左缩进
+        # 不再映射为外部缩进，避免灰底块被缩窄。
 
     return config
 
