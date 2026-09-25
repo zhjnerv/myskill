@@ -35,7 +35,8 @@ if ($FromUpstream) {
     if ($Name) { $fsArgs['Name'] = $Name }
     if ($DryRun) { $fsArgs['DryRun'] = $true }
     & "$PSScriptRoot\skill-fork-sync.ps1" @fsArgs
-    if ($LASTEXITCODE -ne 0) { throw 'fork 追平原作者未完成，先处理掉再同步' }
+    $forkSyncExitCode = $LASTEXITCODE
+    if ($forkSyncExitCode -ne 0) { throw 'fork 追平原作者未完成，先处理掉再同步' }
     Write-Host ''
 }
 
@@ -51,12 +52,12 @@ if ($targets.Count -eq 0) {
     return
 }
 
+$resumingMerge = $false
+$resumeSkillName = $null
+
 if (-not $DryRun) {
     # 检查是否在继续解决上一次的冲突
     $mergeHeadPath = Join-Path (Get-RepoRoot) '.git\MERGE_HEAD'
-    $resumingMerge = $false
-    $resumeSkillName = $null
-
     if (Test-Path $mergeHeadPath) {
         # 检查最近一次 commit 是否是 subtree sync
         $lastMsg = Invoke-Git @('log', '-1', '--format=%s') -AllowFail
