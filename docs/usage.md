@@ -81,6 +81,23 @@ git commit
 
 脚本遇到冲突会停止处理后面的 skill——工作区已经脏了，接着往下走会把几个 skill 的冲突搅在一起。
 
+### 自动同步（GitHub Actions）
+
+`.github/workflows/sync-upstream-skills.yml` 每周一 08:00（北京时间）在 GitHub 上跑，也可以在 Actions 页手动 Run workflow。
+
+它从每个 skill 的 `upstream` 拉进本仓库，再推到 `origin/main`。不更新你的 fork，也不给原作者开 PR。
+
+已经提交进本仓库的修改会留下来：
+
+- 只有上游改过的文件，照单更新。
+- 只有你改过的文件，保持不动。
+- 同一个文件两边都改了、对不上时，保留你这边的整份文件。上游对这个文件的改动不会自动混进来，日志里会列出被保留的文件。
+
+所以 gzh-design 里的公众号二维码不会被上游盖掉。哪个冲突文件真要吸收上游改动，仍用上面的手工解冲突。
+
+这个任务更新的是 GitHub 上的 `zhjnerv/myskill`。本机的 skill 入口是指向本地工作区的 junction，要在这台电脑上看到新内容，需要本地 `git pull`。
+
+
 ---
 
 ## 3. 我改了 skill，想提 PR 给原作者
