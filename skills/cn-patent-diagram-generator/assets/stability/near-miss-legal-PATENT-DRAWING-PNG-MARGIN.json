@@ -1,0 +1,118 @@
+{
+  "schema_id": "cn-patent-drawing-verification/v4",
+  "status": "PASS",
+  "errors": [],
+  "brief_validation": {
+    "status": "PASS",
+    "errors": [],
+    "figures": [
+      {
+        "figure_number": 1,
+        "method_claim_number": 8,
+        "bound_step_ids": [
+          "S1",
+          "S2",
+          "S3"
+        ]
+      },
+      {
+        "figure_number": 2,
+        "method_claim_number": 9,
+        "bound_step_ids": [
+          "S4"
+        ]
+      }
+    ]
+  },
+  "figures": [
+    {
+      "figure_number": 1,
+      "drawio": {
+        "passed": true,
+        "drawio_skill_lint": {
+          "exit_code": 0
+        }
+      },
+      "png": {
+        "maximum_margin": 20,
+        "margins": {
+          "top": 20,
+          "left": 20,
+          "bottom": 20,
+          "right": 20
+        },
+        "observations": {
+          "note": "白边恰等于 maximum_margin_pixels 上限"
+        }
+      },
+      "official_reexport": {
+        "matched": true
+      },
+      "visual_review": {
+        "approved": true,
+        "checks": {
+          "text_legible": true,
+          "no_text_overlap": true,
+          "no_edge_crossing": true,
+          "no_edge_through_node": true,
+          "no_arrow_ambiguity": true,
+          "labels_adjacent": true,
+          "no_unnecessary_detours": true,
+          "consistent_typography": true,
+          "balanced_spacing": true,
+          "clear_visual_hierarchy": true,
+          "formal_patent_style": true,
+          "grayscale_safe": true,
+          "no_figure_number_on_canvas": true,
+          "node_text_proportionate": true,
+          "no_text_overflow": true,
+          "no_excessive_canvas_margin": true,
+          "monochrome": true
+        }
+      }
+    },
+    {
+      "figure_number": 2,
+      "drawio": {
+        "passed": true,
+        "drawio_skill_lint": {
+          "exit_code": 0
+        }
+      },
+      "png": {
+        "maximum_margin": 10,
+        "margins": {
+          "left": 10,
+          "top": 10,
+          "right": 10,
+          "bottom": 10
+        }
+      },
+      "official_reexport": {
+        "matched": true
+      },
+      "visual_review": {
+        "approved": true,
+        "checks": {
+          "text_legible": true,
+          "no_text_overlap": true,
+          "no_edge_crossing": true,
+          "no_edge_through_node": true,
+          "no_arrow_ambiguity": true,
+          "labels_adjacent": true,
+          "no_unnecessary_detours": true,
+          "consistent_typography": true,
+          "balanced_spacing": true,
+          "clear_visual_hierarchy": true,
+          "formal_patent_style": true,
+          "grayscale_safe": true,
+          "no_figure_number_on_canvas": true,
+          "node_text_proportionate": true,
+          "no_text_overflow": true,
+          "no_excessive_canvas_margin": true,
+          "monochrome": true
+        }
+      }
+    }
+  ]
+}

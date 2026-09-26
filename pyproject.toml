@@ -1,0 +1,37 @@
+[project]
+name = "claude-patent-creator-cn"
+version = "0.3.0"
+description = "Lightweight Chinese patent drafting, review, drawing, and delivery skill package"
+readme = "README.md"
+requires-python = ">=3.10,<3.15"
+license = "MIT"
+authors = [{ name = "zhjnerv" }]
+keywords = ["patent", "cnipa", "chinese-patent", "skills", "drawio"]
+dependencies = []
+
+[project.optional-dependencies]
+docx = [
+  "python-docx>=1.2.0",
+  "lxml>=6.0.2",
+  "Pillow>=12.0.0",
+  "pywin32>=311; platform_system == 'Windows'",
+]
+dev = ["pytest>=7.0.0"]
+
+[build-system]
+requires = ["setuptools>=82.0.1", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+# 本仓库分发 Skill、脚本和法源，不发布可导入 Python 包。显式关闭自动包发现，
+# 使 `pip install .[docx]` 只安装运行依赖而不会误收 assets/skills/references。
+packages = []
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+addopts = "-ra"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"

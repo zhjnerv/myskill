@@ -1,0 +1,28 @@
+{
+  "schema_id": "cn-patent-drawing-verification/v4",
+  "status": "FAIL",
+  "errors": [
+    {
+      "code": "BRIEF-STEP-ISOMORPHISM"
+    }
+  ],
+  "brief_validation": {
+    "status": "FAIL",
+    "errors": [
+      {
+        "code": "BRIEF-STEP-ISOMORPHISM"
+      }
+    ],
+    "figures": [
+      {
+        "figure_number": 1,
+        "method_claim_number": 8,
+        "bound_step_ids": [
+          "S1",
+          "S2"
+        ]
+      }
+    ]
+  },
+  "figures": []
+}

@@ -1,0 +1,1534 @@
+{
+  "schema_version": 1,
+  "skill": {
+    "name": "cn-patent-diagram-generator",
+    "version": "4.7.0"
+  },
+  "producer": {
+    "id": "patent-drawing-domain-adapter",
+    "implementation_paths": [
+      "SKILL.md",
+      "scripts/validate_drawing_brief.py",
+      "scripts/export_patent_drawio.py",
+      "scripts/verify_patent_drawings.py",
+      "scripts/analyze_drawing_reference.py",
+      "scripts/validate_drawing_style_brief.py",
+      "scripts/sanitize_drawing_reference.py",
+      "scripts/verify_drawing_docx_delivery.py"
+    ]
+  },
+  "artifacts": [
+    {
+      "id": "verification-report",
+      "stage": "final",
+      "required": true
+    }
+  ],
+  "checkers": [
+    {
+      "id": "source-binding-check",
+      "kind": "active",
+      "modality": "schema",
+      "artifact_stages": [
+        "final"
+      ],
+      "independent_from_producer": true,
+      "runtime": "python3",
+      "implementation": "scripts/check_stability_evidence.py",
+      "args": [
+        "--report",
+        "{artifact:verification-report}",
+        "--constraint",
+        "PATENT-DRAWING-SOURCE-BINDING",
+        "--observable",
+        "source-binding-observable",
+        "--measurement",
+        "source-binding-pass"
+      ],
+      "timeout_seconds": 30
+    },
+    {
+      "id": "tech-coverage-check",
+      "kind": "active",
+      "modality": "schema",
+      "artifact_stages": [
+        "final"
+      ],
+      "independent_from_producer": true,
+      "runtime": "python3",
+      "implementation": "scripts/check_stability_evidence.py",
+      "args": [
+        "--report",
+        "{artifact:verification-report}",
+        "--constraint",
+        "PATENT-DRAWING-TECH-COVERAGE",
+        "--observable",
+        "tech-coverage-observable",
+        "--measurement",
+        "tech-coverage-pass"
+      ],
+      "timeout_seconds": 30
+    },
+    {
+      "id": "step-isomorphism-check",
+      "kind": "active",
+      "modality": "schema",
+      "artifact_stages": [
+        "final"
+      ],
+      "independent_from_producer": true,
+      "runtime": "python3",
+      "implementation": "scripts/check_stability_evidence.py",
+      "args": [
+        "--report",
+        "{artifact:verification-report}",
+        "--constraint",
+        "PATENT-DRAWING-STEP-ISOMORPHISM",
+        "--observable",
+        "step-isomorphism-observable",
+        "--measurement",
+        "step-isomorphism-pass"
+      ],
+      "timeout_seconds": 30
+    },
+    {
+      "id": "direct-connector-check",
+      "kind": "active",
+      "modality": "geometry",
+      "artifact_stages": [
+        "final"
+      ],
+      "independent_from_producer": true,
+      "runtime": "python3",
+      "implementation": "scripts/check_stability_evidence.py",
+      "args": [
+        "--report",
+        "{artifact:verification-report}",
+        "--constraint",
+        "PATENT-DRAWING-DIRECT-CONNECTOR",
+        "--observable",
+        "direct-connector-observable",
+        "--measurement",
+        "direct-connector-pass"
+      ],
+      "timeout_seconds": 30
+    },
+    {
+      "id": "node-shape-check",
+      "kind": "active",
+      "modality": "geometry",
+      "artifact_stages": [
+        "final"
+      ],
+      "independent_from_producer": true,
+      "runtime": "python3",
+      "implementation": "scripts/check_stability_evidence.py",
+      "args": [
+        "--report",
+        "{artifact:verification-report}",
+        "--constraint",
+        "PATENT-DRAWING-NODE-SHAPE",
+        "--observable",
+        "node-shape-observable",
+        "--measurement",
+        "node-shape-pass"
+      ],
+      "timeout_seconds": 30
+    },
+    {
+      "id": "edge-label-readability-check",
+      "kind": "active",
+      "modality": "geometry",
+      "artifact_stages": [
+        "final"
+      ],
+      "independent_from_producer": true,
+      "runtime": "python3",
+      "implementation": "scripts/check_stability_evidence.py",
+      "args": [
+        "--report",
+        "{artifact:verification-report}",
+        "--constraint",
+        "PATENT-DRAWING-EDGE-LABEL-READABILITY",
+        "--observable",
+        "edge-label-readability-observable",
+        "--measurement",
+        "edge-label-readability-pass"
+      ],
+      "timeout_seconds": 30
+    },
+    {
+      "id": "node-text-fit-check",
+      "kind": "active",
+      "modality": "geometry",
+      "artifact_stages": [
+        "final"
+      ],
+      "independent_from_producer": true,
+      "runtime": "python3",
+      "implementation": "scripts/check_stability_evidence.py",
+      "args": [
+        "--report",
+        "{artifact:verification-report}",
+        "--constraint",
+        "PATENT-DRAWING-NODE-TEXT-FIT",
+        "--observable",
+        "node-text-fit-observable",
+        "--measurement",
+        "node-text-fit-pass"
+      ],
+      "timeout_seconds": 30
+    },
+    {
+      "id": "vertical-spacing-check",
+      "kind": "active",
+      "modality": "geometry",
+      "artifact_stages": [
+        "final"
+      ],
+      "independent_from_producer": true,
+      "runtime": "python3",
+      "implementation": "scripts/check_stability_evidence.py",
+      "args": [
+        "--report",
+        "{artifact:verification-report}",
+        "--constraint",
+        "PATENT-DRAWING-VERTICAL-SPACING",
+        "--observable",
+        "vertical-spacing-observable",
+        "--measurement",
+        "vertical-spacing-pass"
+      ],
+      "timeout_seconds": 30
+    },
+    {
+      "id": "color-check",
+      "kind": "active",
+      "modality": "render",
+      "artifact_stages": [
+        "final"
+      ],
+      "independent_from_producer": true,
+      "runtime": "python3",
+      "implementation": "scripts/check_stability_evidence.py",
+      "args": [
+        "--report",
+        "{artifact:verification-report}",
+        "--constraint",
+        "PATENT-DRAWING-COLOR",
+        "--observable",
+        "color-observable",
+        "--measurement",
+        "color-pass"
+      ],
+      "timeout_seconds": 30
+    },
+    {
+      "id": "official-export-check",
+      "kind": "active",
+      "modality": "render",
+      "artifact_stages": [
+        "final"
+      ],
+      "independent_from_producer": true,
+      "runtime": "python3",
+      "implementation": "scripts/check_stability_evidence.py",
+      "args": [
+        "--report",
+        "{artifact:verification-report}",
+        "--constraint",
+        "PATENT-DRAWING-OFFICIAL-EXPORT",
+        "--observable",
+        "official-export-observable",
+        "--measurement",
+        "official-export-pass"
+      ],
+      "timeout_seconds": 30
+    },
+    {
+      "id": "visual-binding-check",
+      "kind": "active",
+      "modality": "render",
+      "artifact_stages": [
+        "final"
+      ],
+      "independent_from_producer": true,
+      "runtime": "python3",
+      "implementation": "scripts/check_stability_evidence.py",
+      "args": [
+        "--report",
+        "{artifact:verification-report}",
+        "--constraint",
+        "PATENT-DRAWING-VISUAL-BINDING",
+        "--observable",
+        "visual-binding-observable",
+        "--measurement",
+        "visual-binding-pass"
+      ],
+      "timeout_seconds": 30
+    },
+    {
+      "id": "style-reference-check",
+      "kind": "active",
+      "modality": "schema",
+      "artifact_stages": [
+        "final"
+      ],
+      "independent_from_producer": true,
+      "runtime": "python3",
+      "implementation": "scripts/check_stability_evidence.py",
+      "args": [
+        "--report",
+        "{artifact:verification-report}",
+        "--constraint",
+        "PATENT-DRAWING-STYLE-REFERENCE",
+        "--observable",
+        "style-reference-observable",
+        "--measurement",
+        "style-reference-pass"
+      ],
+      "timeout_seconds": 30
+    },
+    {
+      "id": "png-margin-check",
+      "kind": "active",
+      "modality": "render",
+      "artifact_stages": [
+        "final"
+      ],
+      "independent_from_producer": true,
+      "runtime": "python3",
+      "implementation": "scripts/check_stability_evidence.py",
+      "args": [
+        "--report",
+        "{artifact:verification-report}",
+        "--constraint",
+        "PATENT-DRAWING-PNG-MARGIN",
+        "--observable",
+        "png-margin-observable",
+        "--measurement",
+        "png-margin-pass"
+      ],
+      "timeout_seconds": 30
+    }
+  ],
+  "constraints": [
+    {
+      "id": "PATENT-DRAWING-SOURCE-BINDING",
+      "severity": "hard",
+      "requirement_type": "schema",
+      "stage": "final",
+      "source_refs": [
+        "references/quality-gates.md#PATENT-DRAWING-SOURCE-BINDING"
+      ],
+      "checker_ids": [
+        "source-binding-check"
+      ],
+      "case_ids": [
+        "positive-source-binding-check",
+        "stale-source"
+      ],
+      "historical_failure_known": false
+    },
+    {
+      "id": "PATENT-DRAWING-TECH-COVERAGE",
+      "severity": "hard",
+      "requirement_type": "coverage",
+      "stage": "final",
+      "source_refs": [
+        "references/quality-gates.md#PATENT-DRAWING-TECH-COVERAGE"
+      ],
+      "checker_ids": [
+        "tech-coverage-check"
+      ],
+      "case_ids": [
+        "positive-tech-coverage-check",
+        "missing-element"
+      ],
+      "historical_failure_known": false
+    },
+    {
+      "id": "PATENT-DRAWING-STEP-ISOMORPHISM",
+      "severity": "hard",
+      "requirement_type": "schema",
+      "stage": "final",
+      "source_refs": [
+        "references/quality-gates.md#PATENT-DRAWING-STEP-ISOMORPHISM"
+      ],
+      "checker_ids": [
+        "step-isomorphism-check"
+      ],
+      "case_ids": [
+        "positive-step-isomorphism",
+        "step-isomorphism-mutation",
+        "step-isomorphism-mismatch"
+      ],
+      "historical_failure_known": true
+    },
+    {
+      "id": "PATENT-DRAWING-DIRECT-CONNECTOR",
+      "severity": "hard",
+      "requirement_type": "geometry",
+      "stage": "final",
+      "source_refs": [
+        "references/quality-gates.md#PATENT-DRAWING-DIRECT-CONNECTOR"
+      ],
+      "checker_ids": [
+        "direct-connector-check"
+      ],
+      "case_ids": [
+        "positive-direct-connector-check",
+        "detached-edge-label",
+        "text-waypoint-mutation"
+      ],
+      "historical_failure_known": true
+    },
+    {
+      "id": "PATENT-DRAWING-NODE-SHAPE",
+      "severity": "hard",
+      "requirement_type": "geometry",
+      "stage": "final",
+      "source_refs": [
+        "references/quality-gates.md#PATENT-DRAWING-NODE-SHAPE"
+      ],
+      "checker_ids": [
+        "node-shape-check"
+      ],
+      "case_ids": [
+        "positive-node-shape-check",
+        "cylinder-semantics-mismatch",
+        "cylinder-semantics-mismatch-historical"
+      ],
+      "historical_failure_known": true
+    },
+    {
+      "id": "PATENT-DRAWING-EDGE-LABEL-READABILITY",
+      "severity": "hard",
+      "requirement_type": "geometry",
+      "stage": "final",
+      "source_refs": [
+        "references/quality-gates.md#PATENT-DRAWING-EDGE-LABEL-READABILITY"
+      ],
+      "checker_ids": [
+        "edge-label-readability-check"
+      ],
+      "case_ids": [
+        "positive-edge-label-readability-check",
+        "edge-label-readability-mismatch",
+        "edge-label-readability-mismatch-historical",
+        "near-miss-legal-PATENT-DRAWING-EDGE-LABEL-READABILITY"
+      ],
+      "historical_failure_known": true
+    },
+    {
+      "id": "PATENT-DRAWING-NODE-TEXT-FIT",
+      "severity": "hard",
+      "requirement_type": "geometry",
+      "stage": "final",
+      "source_refs": [
+        "references/quality-gates.md#PATENT-DRAWING-NODE-TEXT-FIT"
+      ],
+      "checker_ids": [
+        "node-text-fit-check"
+      ],
+      "case_ids": [
+        "positive-node-text-fit-check",
+        "node-text-mismatch",
+        "node-height-mismatch",
+        "chinese-wrap-mismatch",
+        "node-text-mismatch-historical",
+        "near-miss-legal-PATENT-DRAWING-NODE-TEXT-FIT"
+      ],
+      "historical_failure_known": true
+    },
+    {
+      "id": "PATENT-DRAWING-VERTICAL-SPACING",
+      "severity": "hard",
+      "requirement_type": "geometry",
+      "stage": "final",
+      "source_refs": [
+        "references/quality-gates.md#PATENT-DRAWING-VERTICAL-SPACING"
+      ],
+      "checker_ids": [
+        "vertical-spacing-check"
+      ],
+      "case_ids": [
+        "positive-vertical-spacing-check",
+        "vertical-spacing-mismatch",
+        "vertical-spacing-mismatch-historical",
+        "near-miss-legal-PATENT-DRAWING-VERTICAL-SPACING"
+      ],
+      "historical_failure_known": true
+    },
+    {
+      "id": "PATENT-DRAWING-COLOR",
+      "severity": "hard",
+      "requirement_type": "appearance",
+      "stage": "final",
+      "source_refs": [
+        "references/quality-gates.md#PATENT-DRAWING-COLOR"
+      ],
+      "checker_ids": [
+        "color-check"
+      ],
+      "case_ids": [
+        "positive-color-check",
+        "flashy-color"
+      ],
+      "historical_failure_known": false
+    },
+    {
+      "id": "PATENT-DRAWING-OFFICIAL-EXPORT",
+      "severity": "hard",
+      "requirement_type": "appearance",
+      "stage": "final",
+      "source_refs": [
+        "references/quality-gates.md#PATENT-DRAWING-OFFICIAL-EXPORT"
+      ],
+      "checker_ids": [
+        "official-export-check"
+      ],
+      "case_ids": [
+        "positive-official-export-check",
+        "forged-export"
+      ],
+      "historical_failure_known": false
+    },
+    {
+      "id": "PATENT-DRAWING-VISUAL-BINDING",
+      "severity": "hard",
+      "requirement_type": "appearance",
+      "stage": "final",
+      "source_refs": [
+        "references/quality-gates.md#PATENT-DRAWING-VISUAL-BINDING"
+      ],
+      "checker_ids": [
+        "visual-binding-check"
+      ],
+      "case_ids": [
+        "positive-visual-binding-check",
+        "unapproved-visual"
+      ],
+      "historical_failure_known": false
+    },
+    {
+      "id": "PATENT-DRAWING-STYLE-REFERENCE",
+      "severity": "hard",
+      "requirement_type": "schema",
+      "stage": "final",
+      "source_refs": [
+        "references/quality-gates.md#PATENT-DRAWING-STYLE-REFERENCE"
+      ],
+      "checker_ids": [
+        "style-reference-check"
+      ],
+      "case_ids": [
+        "positive-style-reference-check",
+        "stale-style-reference",
+        "unsafe-style-sanitization",
+        "stale-style-reference-historical"
+      ],
+      "historical_failure_known": true
+    },
+    {
+      "id": "PATENT-DRAWING-PNG-MARGIN",
+      "severity": "hard",
+      "requirement_type": "appearance",
+      "stage": "final",
+      "source_refs": [
+        "references/quality-gates.md#PATENT-DRAWING-PNG-MARGIN"
+      ],
+      "checker_ids": [
+        "png-margin-check"
+      ],
+      "case_ids": [
+        "positive-png-margin-check",
+        "excessive-margin",
+        "excessive-margin-historical",
+        "near-miss-legal-PATENT-DRAWING-PNG-MARGIN"
+      ],
+      "historical_failure_known": true
+    }
+  ],
+  "cases": [
+    {
+      "id": "positive-source-binding-check",
+      "kind": "positive",
+      "constraint_ids": [
+        "PATENT-DRAWING-SOURCE-BINDING"
+      ],
+      "checker_ids": [
+        "source-binding-check"
+      ],
+      "artifacts": [
+        {
+          "artifact_id": "verification-report",
+          "path": "assets/stability/positive-final-verification-v4.json"
+        }
+      ],
+      "expected": "pass",
+      "expected_exit_code": 0
+    },
+    {
+      "id": "stale-source",
+      "kind": "mutation",
+      "constraint_ids": [
+        "PATENT-DRAWING-SOURCE-BINDING"
+      ],
+      "checker_ids": [
+        "source-binding-check"
+      ],
+      "artifacts": [
+        {
+          "artifact_id": "verification-report",
+          "path": "assets/stability/stale-source.json"
+        }
+      ],
+      "expected": "blocked",
+      "expected_exit_code": 3
+    },
+    {
+      "id": "positive-tech-coverage-check",
+      "kind": "positive",
+      "constraint_ids": [
+        "PATENT-DRAWING-TECH-COVERAGE"
+      ],
+      "checker_ids": [
+        "tech-coverage-check"
+      ],
+      "artifacts": [
+        {
+          "artifact_id": "verification-report",
+          "path": "assets/stability/positive-final-verification-v4.json"
+        }
+      ],
+      "expected": "pass",
+      "expected_exit_code": 0
+    },
+    {
+      "id": "missing-element",
+      "kind": "mutation",
+      "constraint_ids": [
+        "PATENT-DRAWING-TECH-COVERAGE"
+      ],
+      "checker_ids": [
+        "tech-coverage-check"
+      ],
+      "artifacts": [
+        {
+          "artifact_id": "verification-report",
+          "path": "assets/stability/missing-element.json"
+        }
+      ],
+      "expected": "blocked",
+      "expected_exit_code": 3
+    },
+    {
+      "id": "positive-direct-connector-check",
+      "kind": "positive",
+      "constraint_ids": [
+        "PATENT-DRAWING-DIRECT-CONNECTOR"
+      ],
+      "checker_ids": [
+        "direct-connector-check"
+      ],
+      "artifacts": [
+        {
+          "artifact_id": "verification-report",
+          "path": "assets/stability/positive-final-verification-v4.json"
+        }
+      ],
+      "expected": "pass",
+      "expected_exit_code": 0
+    },
+    {
+      "id": "detached-edge-label",
+      "kind": "historical",
+      "constraint_ids": [
+        "PATENT-DRAWING-DIRECT-CONNECTOR"
+      ],
+      "checker_ids": [
+        "direct-connector-check"
+      ],
+      "artifacts": [
+        {
+          "artifact_id": "verification-report",
+          "path": "assets/stability/detached-edge-label.json"
+        }
+      ],
+      "expected": "blocked",
+      "expected_exit_code": 3
+    },
+    {
+      "id": "positive-node-text-fit-check",
+      "kind": "positive",
+      "constraint_ids": [
+        "PATENT-DRAWING-NODE-TEXT-FIT"
+      ],
+      "checker_ids": [
+        "node-text-fit-check"
+      ],
+      "artifacts": [
+        {
+          "artifact_id": "verification-report",
+          "path": "assets/stability/positive-final-verification-v4.json"
+        }
+      ],
+      "expected": "pass",
+      "expected_exit_code": 0
+    },
+    {
+      "id": "node-text-mismatch",
+      "kind": "mutation",
+      "constraint_ids": [
+        "PATENT-DRAWING-NODE-TEXT-FIT"
+      ],
+      "checker_ids": [
+        "node-text-fit-check"
+      ],
+      "artifacts": [
+        {
+          "artifact_id": "verification-report",
+          "path": "assets/stability/node-text-mismatch.json"
+        }
+      ],
+      "expected": "blocked",
+      "expected_exit_code": 3
+    },
+    {
+      "id": "node-text-mismatch-historical",
+      "kind": "historical",
+      "constraint_ids": [
+        "PATENT-DRAWING-NODE-TEXT-FIT"
+      ],
+      "checker_ids": [
+        "node-text-fit-check"
+      ],
+      "artifacts": [
+        {
+          "artifact_id": "verification-report",
+          "path": "assets/stability/node-text-mismatch.json"
+        }
+      ],
+      "expected": "blocked",
+      "expected_exit_code": 3
+    },
+    {
+      "id": "positive-color-check",
+      "kind": "positive",
+      "constraint_ids": [
+        "PATENT-DRAWING-COLOR"
+      ],
+      "checker_ids": [
+        "color-check"
+      ],
+      "artifacts": [
+        {
+          "artifact_id": "verification-report",
+          "path": "assets/stability/positive-final-verification-v4.json"
+        }
+      ],
+      "expected": "pass",
+      "expected_exit_code": 0
+    },
+    {
+      "id": "flashy-color",
+      "kind": "mutation",
+      "constraint_ids": [
+        "PATENT-DRAWING-COLOR"
+      ],
+      "checker_ids": [
+        "color-check"
+      ],
+      "artifacts": [
+        {
+          "artifact_id": "verification-report",
+          "path": "assets/stability/flashy-color.json"
+        }
+      ],
+      "expected": "blocked",
+      "expected_exit_code": 3
+    },
+    {
+      "id": "positive-official-export-check",
+      "kind": "positive",
+      "constraint_ids": [
+        "PATENT-DRAWING-OFFICIAL-EXPORT"
+      ],
+      "checker_ids": [
+        "official-export-check"
+      ],
+      "artifacts": [
+        {
+          "artifact_id": "verification-report",
+          "path": "assets/stability/positive-final-verification-v4.json"
+        }
+      ],
+      "expected": "pass",
+      "expected_exit_code": 0
+    },
+    {
+      "id": "forged-export",
+      "kind": "mutation",
+      "constraint_ids": [
+        "PATENT-DRAWING-OFFICIAL-EXPORT"
+      ],
+      "checker_ids": [
+        "official-export-check"
+      ],
+      "artifacts": [
+        {
+          "artifact_id": "verification-report",
+          "path": "assets/stability/forged-export.json"
+        }
+      ],
+      "expected": "blocked",
+      "expected_exit_code": 3
+    },
+    {
+      "id": "positive-visual-binding-check",
+      "kind": "positive",
+      "constraint_ids": [
+        "PATENT-DRAWING-VISUAL-BINDING"
+      ],
+      "checker_ids": [
+        "visual-binding-check"
+      ],
+      "artifacts": [
+        {
+          "artifact_id": "verification-report",
+          "path": "assets/stability/positive-final-verification-v4.json"
+        }
+      ],
+      "expected": "pass",
+      "expected_exit_code": 0
+    },
+    {
+      "id": "unapproved-visual",
+      "kind": "mutation",
+      "constraint_ids": [
+        "PATENT-DRAWING-VISUAL-BINDING"
+      ],
+      "checker_ids": [
+        "visual-binding-check"
+      ],
+      "artifacts": [
+        {
+          "artifact_id": "verification-report",
+          "path": "assets/stability/unapproved-visual.json"
+        }
+      ],
+      "expected": "blocked",
+      "expected_exit_code": 3
+    },
+    {
+      "id": "text-waypoint-mutation",
+      "kind": "mutation",
+      "constraint_ids": [
+        "PATENT-DRAWING-DIRECT-CONNECTOR"
+      ],
+      "checker_ids": [
+        "direct-connector-check"
+      ],
+      "artifacts": [
+        {
+          "artifact_id": "verification-report",
+          "path": "assets/stability/detached-edge-label.json"
+        }
+      ],
+      "expected": "blocked",
+      "expected_exit_code": 3
+    },
+    {
+      "id": "positive-step-isomorphism",
+      "kind": "positive",
+      "constraint_ids": [
+        "PATENT-DRAWING-STEP-ISOMORPHISM"
+      ],
+      "checker_ids": [
+        "step-isomorphism-check"
+      ],
+      "artifacts": [
+        {
+          "artifact_id": "verification-report",
+          "path": "assets/stability/positive-step-isomorphism.json"
+        }
+      ],
+      "expected": "pass",
+      "expected_exit_code": 0
+    },
+    {
+      "id": "step-isomorphism-mutation",
+      "kind": "mutation",
+      "constraint_ids": [
+        "PATENT-DRAWING-STEP-ISOMORPHISM"
+      ],
+      "checker_ids": [
+        "step-isomorphism-check"
+      ],
+      "artifacts": [
+        {
+          "artifact_id": "verification-report",
+          "path": "assets/stability/step-isomorphism-mismatch.json"
+        }
+      ],
+      "expected": "blocked",
+      "expected_exit_code": 3
+    },
+    {
+      "id": "step-isomorphism-mismatch",
+      "kind": "historical",
+      "constraint_ids": [
+        "PATENT-DRAWING-STEP-ISOMORPHISM"
+      ],
+      "checker_ids": [
+        "step-isomorphism-check"
+      ],
+      "artifacts": [
+        {
+          "artifact_id": "verification-report",
+          "path": "assets/stability/step-isomorphism-mismatch.json"
+        }
+      ],
+      "expected": "blocked",
+      "expected_exit_code": 3
+    },
+    {
+      "id": "positive-style-reference-check",
+      "kind": "positive",
+      "constraint_ids": [
+        "PATENT-DRAWING-STYLE-REFERENCE"
+      ],
+      "checker_ids": [
+        "style-reference-check"
+      ],
+      "artifacts": [
+        {
+          "artifact_id": "verification-report",
+          "path": "assets/stability/positive-final-verification-v4.json"
+        }
+      ],
+      "expected": "pass",
+      "expected_exit_code": 0
+    },
+    {
+      "id": "stale-style-reference",
+      "kind": "mutation",
+      "constraint_ids": [
+        "PATENT-DRAWING-STYLE-REFERENCE"
+      ],
+      "checker_ids": [
+        "style-reference-check"
+      ],
+      "artifacts": [
+        {
+          "artifact_id": "verification-report",
+          "path": "assets/stability/stale-style-reference.json"
+        }
+      ],
+      "expected": "blocked",
+      "expected_exit_code": 3
+    },
+    {
+      "id": "stale-style-reference-historical",
+      "kind": "historical",
+      "constraint_ids": [
+        "PATENT-DRAWING-STYLE-REFERENCE"
+      ],
+      "checker_ids": [
+        "style-reference-check"
+      ],
+      "artifacts": [
+        {
+          "artifact_id": "verification-report",
+          "path": "assets/stability/stale-style-reference.json"
+        }
+      ],
+      "expected": "blocked",
+      "expected_exit_code": 3
+    },
+    {
+      "id": "positive-png-margin-check",
+      "kind": "positive",
+      "constraint_ids": [
+        "PATENT-DRAWING-PNG-MARGIN"
+      ],
+      "checker_ids": [
+        "png-margin-check"
+      ],
+      "artifacts": [
+        {
+          "artifact_id": "verification-report",
+          "path": "assets/stability/positive-final-verification-v4.json"
+        }
+      ],
+      "expected": "pass",
+      "expected_exit_code": 0
+    },
+    {
+      "id": "excessive-margin",
+      "kind": "mutation",
+      "constraint_ids": [
+        "PATENT-DRAWING-PNG-MARGIN"
+      ],
+      "checker_ids": [
+        "png-margin-check"
+      ],
+      "artifacts": [
+        {
+          "artifact_id": "verification-report",
+          "path": "assets/stability/excessive-margin.json"
+        }
+      ],
+      "expected": "blocked",
+      "expected_exit_code": 3
+    },
+    {
+      "id": "excessive-margin-historical",
+      "kind": "historical",
+      "constraint_ids": [
+        "PATENT-DRAWING-PNG-MARGIN"
+      ],
+      "checker_ids": [
+        "png-margin-check"
+      ],
+      "artifacts": [
+        {
+          "artifact_id": "verification-report",
+          "path": "assets/stability/excessive-margin.json"
+        }
+      ],
+      "expected": "blocked",
+      "expected_exit_code": 3
+    },
+    {
+      "id": "node-height-mismatch",
+      "kind": "mutation",
+      "constraint_ids": [
+        "PATENT-DRAWING-NODE-TEXT-FIT"
+      ],
+      "checker_ids": [
+        "node-text-fit-check"
+      ],
+      "artifacts": [
+        {
+          "artifact_id": "verification-report",
+          "path": "assets/stability/node-height-mismatch.json"
+        }
+      ],
+      "expected": "blocked",
+      "expected_exit_code": 3
+    },
+    {
+      "id": "chinese-wrap-mismatch",
+      "kind": "mutation",
+      "constraint_ids": [
+        "PATENT-DRAWING-NODE-TEXT-FIT"
+      ],
+      "checker_ids": [
+        "node-text-fit-check"
+      ],
+      "artifacts": [
+        {
+          "artifact_id": "verification-report",
+          "path": "assets/stability/chinese-wrap-mismatch.json"
+        }
+      ],
+      "expected": "blocked",
+      "expected_exit_code": 3
+    },
+    {
+      "id": "positive-vertical-spacing-check",
+      "kind": "positive",
+      "constraint_ids": [
+        "PATENT-DRAWING-VERTICAL-SPACING"
+      ],
+      "checker_ids": [
+        "vertical-spacing-check"
+      ],
+      "artifacts": [
+        {
+          "artifact_id": "verification-report",
+          "path": "assets/stability/positive-final-verification-v4.json"
+        }
+      ],
+      "expected": "pass",
+      "expected_exit_code": 0
+    },
+    {
+      "id": "vertical-spacing-mismatch",
+      "kind": "mutation",
+      "constraint_ids": [
+        "PATENT-DRAWING-VERTICAL-SPACING"
+      ],
+      "checker_ids": [
+        "vertical-spacing-check"
+      ],
+      "artifacts": [
+        {
+          "artifact_id": "verification-report",
+          "path": "assets/stability/vertical-spacing-mismatch.json"
+        }
+      ],
+      "expected": "blocked",
+      "expected_exit_code": 3
+    },
+    {
+      "id": "vertical-spacing-mismatch-historical",
+      "kind": "historical",
+      "constraint_ids": [
+        "PATENT-DRAWING-VERTICAL-SPACING"
+      ],
+      "checker_ids": [
+        "vertical-spacing-check"
+      ],
+      "artifacts": [
+        {
+          "artifact_id": "verification-report",
+          "path": "assets/stability/vertical-spacing-mismatch.json"
+        }
+      ],
+      "expected": "blocked",
+      "expected_exit_code": 3
+    },
+    {
+      "id": "unsafe-style-sanitization",
+      "kind": "mutation",
+      "constraint_ids": [
+        "PATENT-DRAWING-STYLE-REFERENCE"
+      ],
+      "checker_ids": [
+        "style-reference-check"
+      ],
+      "artifacts": [
+        {
+          "artifact_id": "verification-report",
+          "path": "assets/stability/unsafe-style-sanitization.json"
+        }
+      ],
+      "expected": "blocked",
+      "expected_exit_code": 3
+    },
+    {
+      "id": "positive-node-shape-check",
+      "kind": "positive",
+      "constraint_ids": [
+        "PATENT-DRAWING-NODE-SHAPE"
+      ],
+      "checker_ids": [
+        "node-shape-check"
+      ],
+      "artifacts": [
+        {
+          "artifact_id": "verification-report",
+          "path": "assets/stability/positive-final-verification-v4.json"
+        }
+      ],
+      "expected": "pass",
+      "expected_exit_code": 0
+    },
+    {
+      "id": "cylinder-semantics-mismatch",
+      "kind": "mutation",
+      "constraint_ids": [
+        "PATENT-DRAWING-NODE-SHAPE"
+      ],
+      "checker_ids": [
+        "node-shape-check"
+      ],
+      "artifacts": [
+        {
+          "artifact_id": "verification-report",
+          "path": "assets/stability/cylinder-semantics-mismatch.json"
+        }
+      ],
+      "expected": "blocked",
+      "expected_exit_code": 3
+    },
+    {
+      "id": "positive-edge-label-readability-check",
+      "kind": "positive",
+      "constraint_ids": [
+        "PATENT-DRAWING-EDGE-LABEL-READABILITY"
+      ],
+      "checker_ids": [
+        "edge-label-readability-check"
+      ],
+      "artifacts": [
+        {
+          "artifact_id": "verification-report",
+          "path": "assets/stability/positive-final-verification-v4.json"
+        }
+      ],
+      "expected": "pass",
+      "expected_exit_code": 0
+    },
+    {
+      "id": "edge-label-readability-mismatch",
+      "kind": "mutation",
+      "constraint_ids": [
+        "PATENT-DRAWING-EDGE-LABEL-READABILITY"
+      ],
+      "checker_ids": [
+        "edge-label-readability-check"
+      ],
+      "artifacts": [
+        {
+          "artifact_id": "verification-report",
+          "path": "assets/stability/edge-label-readability-mismatch.json"
+        }
+      ],
+      "expected": "blocked",
+      "expected_exit_code": 3
+    },
+    {
+      "id": "cylinder-semantics-mismatch-historical",
+      "kind": "historical",
+      "constraint_ids": [
+        "PATENT-DRAWING-NODE-SHAPE"
+      ],
+      "checker_ids": [
+        "node-shape-check"
+      ],
+      "artifacts": [
+        {
+          "artifact_id": "verification-report",
+          "path": "assets/stability/cylinder-semantics-mismatch.json"
+        }
+      ],
+      "expected": "blocked",
+      "expected_exit_code": 3
+    },
+    {
+      "id": "edge-label-readability-mismatch-historical",
+      "kind": "historical",
+      "constraint_ids": [
+        "PATENT-DRAWING-EDGE-LABEL-READABILITY"
+      ],
+      "checker_ids": [
+        "edge-label-readability-check"
+      ],
+      "artifacts": [
+        {
+          "artifact_id": "verification-report",
+          "path": "assets/stability/edge-label-readability-mismatch.json"
+        }
+      ],
+      "expected": "blocked",
+      "expected_exit_code": 3
+    },
+    {
+      "id": "near-miss-legal-PATENT-DRAWING-EDGE-LABEL-READABILITY",
+      "kind": "positive",
+      "constraint_ids": [
+        "PATENT-DRAWING-EDGE-LABEL-READABILITY"
+      ],
+      "checker_ids": [
+        "edge-label-readability-check"
+      ],
+      "artifacts": [
+        {
+          "artifact_id": "verification-report",
+          "path": "assets/stability/near-miss-legal-PATENT-DRAWING-EDGE-LABEL-READABILITY.json"
+        }
+      ],
+      "expected": "pass",
+      "expected_exit_code": 0
+    },
+    {
+      "id": "near-miss-legal-PATENT-DRAWING-NODE-TEXT-FIT",
+      "kind": "positive",
+      "constraint_ids": [
+        "PATENT-DRAWING-NODE-TEXT-FIT"
+      ],
+      "checker_ids": [
+        "node-text-fit-check"
+      ],
+      "artifacts": [
+        {
+          "artifact_id": "verification-report",
+          "path": "assets/stability/near-miss-legal-PATENT-DRAWING-NODE-TEXT-FIT.json"
+        }
+      ],
+      "expected": "pass",
+      "expected_exit_code": 0
+    },
+    {
+      "id": "near-miss-legal-PATENT-DRAWING-VERTICAL-SPACING",
+      "kind": "positive",
+      "constraint_ids": [
+        "PATENT-DRAWING-VERTICAL-SPACING"
+      ],
+      "checker_ids": [
+        "vertical-spacing-check"
+      ],
+      "artifacts": [
+        {
+          "artifact_id": "verification-report",
+          "path": "assets/stability/near-miss-legal-PATENT-DRAWING-VERTICAL-SPACING.json"
+        }
+      ],
+      "expected": "pass",
+      "expected_exit_code": 0
+    },
+    {
+      "id": "near-miss-legal-PATENT-DRAWING-PNG-MARGIN",
+      "kind": "positive",
+      "constraint_ids": [
+        "PATENT-DRAWING-PNG-MARGIN"
+      ],
+      "checker_ids": [
+        "png-margin-check"
+      ],
+      "artifacts": [
+        {
+          "artifact_id": "verification-report",
+          "path": "assets/stability/near-miss-legal-PATENT-DRAWING-PNG-MARGIN.json"
+        }
+      ],
+      "expected": "pass",
+      "expected_exit_code": 0
+    }
+  ],
+  "stability": {
+    "minimum_runs": 3,
+    "measurements": [
+      {
+        "id": "source-binding-pass",
+        "checker_id": "source-binding-check",
+        "constraint_id": "PATENT-DRAWING-SOURCE-BINDING",
+        "value_type": "boolean",
+        "condition": "equals",
+        "expected": true
+      },
+      {
+        "id": "tech-coverage-pass",
+        "checker_id": "tech-coverage-check",
+        "constraint_id": "PATENT-DRAWING-TECH-COVERAGE",
+        "value_type": "boolean",
+        "condition": "equals",
+        "expected": true
+      },
+      {
+        "id": "step-isomorphism-pass",
+        "checker_id": "step-isomorphism-check",
+        "constraint_id": "PATENT-DRAWING-STEP-ISOMORPHISM",
+        "value_type": "boolean",
+        "condition": "equals",
+        "expected": true
+      },
+      {
+        "id": "direct-connector-pass",
+        "checker_id": "direct-connector-check",
+        "constraint_id": "PATENT-DRAWING-DIRECT-CONNECTOR",
+        "value_type": "boolean",
+        "condition": "equals",
+        "expected": true
+      },
+      {
+        "id": "node-shape-pass",
+        "checker_id": "node-shape-check",
+        "constraint_id": "PATENT-DRAWING-NODE-SHAPE",
+        "value_type": "boolean",
+        "condition": "equals",
+        "expected": true
+      },
+      {
+        "id": "edge-label-readability-pass",
+        "checker_id": "edge-label-readability-check",
+        "constraint_id": "PATENT-DRAWING-EDGE-LABEL-READABILITY",
+        "value_type": "boolean",
+        "condition": "equals",
+        "expected": true
+      },
+      {
+        "id": "node-text-fit-pass",
+        "checker_id": "node-text-fit-check",
+        "constraint_id": "PATENT-DRAWING-NODE-TEXT-FIT",
+        "value_type": "boolean",
+        "condition": "equals",
+        "expected": true
+      },
+      {
+        "id": "vertical-spacing-pass",
+        "checker_id": "vertical-spacing-check",
+        "constraint_id": "PATENT-DRAWING-VERTICAL-SPACING",
+        "value_type": "boolean",
+        "condition": "equals",
+        "expected": true
+      },
+      {
+        "id": "color-pass",
+        "checker_id": "color-check",
+        "constraint_id": "PATENT-DRAWING-COLOR",
+        "value_type": "boolean",
+        "condition": "equals",
+        "expected": true
+      },
+      {
+        "id": "official-export-pass",
+        "checker_id": "official-export-check",
+        "constraint_id": "PATENT-DRAWING-OFFICIAL-EXPORT",
+        "value_type": "boolean",
+        "condition": "equals",
+        "expected": true
+      },
+      {
+        "id": "visual-binding-pass",
+        "checker_id": "visual-binding-check",
+        "constraint_id": "PATENT-DRAWING-VISUAL-BINDING",
+        "value_type": "boolean",
+        "condition": "equals",
+        "expected": true
+      },
+      {
+        "id": "style-reference-pass",
+        "checker_id": "style-reference-check",
+        "constraint_id": "PATENT-DRAWING-STYLE-REFERENCE",
+        "value_type": "boolean",
+        "condition": "equals",
+        "expected": true
+      },
+      {
+        "id": "png-margin-pass",
+        "checker_id": "png-margin-check",
+        "constraint_id": "PATENT-DRAWING-PNG-MARGIN",
+        "value_type": "boolean",
+        "condition": "equals",
+        "expected": true
+      }
+    ],
+    "observables": [
+      {
+        "id": "source-binding-observable",
+        "checker_id": "source-binding-check",
+        "constraint_ids": [
+          "PATENT-DRAWING-SOURCE-BINDING"
+        ],
+        "comparison": "set_equal",
+        "required": true,
+        "tolerance": null
+      },
+      {
+        "id": "tech-coverage-observable",
+        "checker_id": "tech-coverage-check",
+        "constraint_ids": [
+          "PATENT-DRAWING-TECH-COVERAGE"
+        ],
+        "comparison": "set_equal",
+        "required": true,
+        "tolerance": null
+      },
+      {
+        "id": "step-isomorphism-observable",
+        "checker_id": "step-isomorphism-check",
+        "constraint_ids": [
+          "PATENT-DRAWING-STEP-ISOMORPHISM"
+        ],
+        "comparison": "set_equal",
+        "required": true,
+        "tolerance": null
+      },
+      {
+        "id": "direct-connector-observable",
+        "checker_id": "direct-connector-check",
+        "constraint_ids": [
+          "PATENT-DRAWING-DIRECT-CONNECTOR"
+        ],
+        "comparison": "set_equal",
+        "required": true,
+        "tolerance": null
+      },
+      {
+        "id": "node-shape-observable",
+        "checker_id": "node-shape-check",
+        "constraint_ids": [
+          "PATENT-DRAWING-NODE-SHAPE"
+        ],
+        "comparison": "set_equal",
+        "required": true,
+        "tolerance": null
+      },
+      {
+        "id": "edge-label-readability-observable",
+        "checker_id": "edge-label-readability-check",
+        "constraint_ids": [
+          "PATENT-DRAWING-EDGE-LABEL-READABILITY"
+        ],
+        "comparison": "set_equal",
+        "required": true,
+        "tolerance": null
+      },
+      {
+        "id": "node-text-fit-observable",
+        "checker_id": "node-text-fit-check",
+        "constraint_ids": [
+          "PATENT-DRAWING-NODE-TEXT-FIT"
+        ],
+        "comparison": "set_equal",
+        "required": true,
+        "tolerance": null
+      },
+      {
+        "id": "vertical-spacing-observable",
+        "checker_id": "vertical-spacing-check",
+        "constraint_ids": [
+          "PATENT-DRAWING-VERTICAL-SPACING"
+        ],
+        "comparison": "set_equal",
+        "required": true,
+        "tolerance": null
+      },
+      {
+        "id": "color-observable",
+        "checker_id": "color-check",
+        "constraint_ids": [
+          "PATENT-DRAWING-COLOR"
+        ],
+        "comparison": "set_equal",
+        "required": true,
+        "tolerance": null
+      },
+      {
+        "id": "official-export-observable",
+        "checker_id": "official-export-check",
+        "constraint_ids": [
+          "PATENT-DRAWING-OFFICIAL-EXPORT"
+        ],
+        "comparison": "set_equal",
+        "required": true,
+        "tolerance": null
+      },
+      {
+        "id": "visual-binding-observable",
+        "checker_id": "visual-binding-check",
+        "constraint_ids": [
+          "PATENT-DRAWING-VISUAL-BINDING"
+        ],
+        "comparison": "set_equal",
+        "required": true,
+        "tolerance": null
+      },
+      {
+        "id": "style-reference-observable",
+        "checker_id": "style-reference-check",
+        "constraint_ids": [
+          "PATENT-DRAWING-STYLE-REFERENCE"
+        ],
+        "comparison": "set_equal",
+        "required": true,
+        "tolerance": null
+      },
+      {
+        "id": "png-margin-observable",
+        "checker_id": "png-margin-check",
+        "constraint_ids": [
+          "PATENT-DRAWING-PNG-MARGIN"
+        ],
+        "comparison": "set_equal",
+        "required": true,
+        "tolerance": null
+      }
+    ]
+  }
+}

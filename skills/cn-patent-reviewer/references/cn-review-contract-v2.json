@@ -1,0 +1,1001 @@
+{
+  "schema_version": "cn-patent-review-contract/v2",
+  "jurisdiction": "CN",
+  "legal_effect": "ADVISORY_ONLY",
+  "schema_ids": {
+    "contract": "cn-patent-review-contract/v2",
+    "raw_report": "cn-patent-review-raw-report/v2",
+    "subreport": "cn-patent-review-subreport/v2",
+    "bundle": "cn-patent-review-bundle/v2",
+    "verifier_output": "cn-patent-review-verification/v2"
+  },
+  "scope": {
+    "included": [
+      "direct_cn_invention_application"
+    ],
+    "excluded": [
+      "pct_national_phase"
+    ],
+    "excluded_handling": "REJECT_OR_ROUTE_TO_FUTURE_CONDITIONAL_MODULE"
+  },
+  "enums": {
+    "coverage": [
+      "FULL",
+      "PARTIAL",
+      "NONE",
+      "NOT_APPLICABLE"
+    ],
+    "result_atomic": [
+      "ISSUE_FOUND",
+      "NO_ISSUE_FOUND",
+      "INCONCLUSIVE",
+      "NOT_APPLICABLE"
+    ],
+    "result_aggregate_extra": [
+      "MIXED"
+    ],
+    "evidence_mode": [
+      "DETERMINISTIC",
+      "DOCUMENTARY_SEMANTIC",
+      "PRIOR_ART_COMPARISON",
+      "EXPERT_TECHNICAL",
+      "HEURISTIC",
+      "NONE"
+    ],
+    "evidence_sufficiency": [
+      "ADEQUATE_FOR_SCOPED_ASSESSMENT",
+      "LIMITED",
+      "MISSING"
+    ],
+    "severity": [
+      "BLOCKER",
+      "HIGH",
+      "MEDIUM",
+      "LOW",
+      "NONE"
+    ],
+    "review_type": [
+      "claims",
+      "specification",
+      "formalities"
+    ],
+    "raw_check_status": [
+      "COMPLETED",
+      "PARTIAL",
+      "SKIPPED",
+      "NOT_VERIFIED"
+    ],
+    "raw_finding_status": [
+      "DETERMINISTIC_FAIL",
+      "REVIEW_REQUIRED",
+      "WARNING",
+      "NOT_VERIFIED"
+    ],
+    "gap_category": [
+      "INPUT_UNAVAILABLE",
+      "PARSE_UNRESOLVED",
+      "CAPABILITY_LIMIT",
+      "SEARCH_EVIDENCE_MISSING",
+      "CONDITIONAL_APPLICABILITY_UNRESOLVED",
+      "SEMANTIC_REVIEW_NOT_PERFORMED"
+    ],
+    "disposition": [
+      "NOT_ASSESSED",
+      "BLOCKING_ISSUE_FOUND",
+      "REVIEW_INCOMPLETE",
+      "REMEDIATION_REQUIRED",
+      "NO_BLOCKING_ISSUE_FOUND_IN_SCOPE"
+    ],
+    "verification_error_kind": [
+      "CONTRACT_ERROR",
+      "TOOL_ERROR",
+      "RESOURCE_ERROR"
+    ]
+  },
+  "exact_fields": {
+    "dimension": [
+      "id",
+      "group",
+      "citation",
+      "applicability",
+      "required_evidence",
+      "non_inference_boundary"
+    ],
+    "atomic_assessment": [
+      "assessment_id",
+      "rule_id",
+      "target_id",
+      "coverage",
+      "result",
+      "evidence",
+      "severity",
+      "finding_ids",
+      "gap_ids"
+    ],
+    "evidence": [
+      "mode",
+      "sufficiency",
+      "artifact_ids",
+      "source_locations"
+    ],
+    "raw_report": [
+      "schema_version",
+      "jurisdiction",
+      "review_type",
+      "legal_effect",
+      "report_id",
+      "input_artifacts",
+      "rule_sources",
+      "tool_identity",
+      "evidence_binding",
+      "resource_limits",
+      "resource_usage",
+      "checks_performed",
+      "findings",
+      "gaps"
+    ],
+    "raw_check": [
+      "check_id",
+      "rule_id",
+      "target_id",
+      "status",
+      "finding_ids",
+      "gap_ids"
+    ],
+    "raw_finding": [
+      "finding_id",
+      "check_id",
+      "rule_id",
+      "target_id",
+      "location",
+      "status",
+      "evidence",
+      "problem",
+      "remedy",
+      "manual_review_required"
+    ],
+    "raw_gap": [
+      "gap_id",
+      "check_id",
+      "rule_id",
+      "target_id",
+      "category",
+      "reason",
+      "evidence",
+      "blocks_assessment"
+    ],
+    "raw_evidence": [
+      "artifact_id",
+      "location",
+      "excerpt"
+    ],
+    "review_input": [
+      "schema_version",
+      "prepare_id",
+      "evidence_binding",
+      "assessments",
+      "semantic_gaps",
+      "provenance_artifacts"
+    ],
+    "artifact": [
+      "artifact_id",
+      "path",
+      "sha256",
+      "byte_length",
+      "media_type",
+      "encoding"
+    ],
+    "tool_identity": [
+      "tool_id",
+      "tool_version",
+      "tool_sha256",
+      "contract_schema_version"
+    ],
+    "raw_evidence_binding": [
+      "input_set_sha256",
+      "rule_set_sha256",
+      "tool_set_sha256"
+    ],
+    "bundle_evidence_binding": [
+      "input_set_sha256",
+      "provenance_set_sha256",
+      "rule_set_sha256",
+      "tool_set_sha256",
+      "raw_report_set_sha256"
+    ],
+    "resource_usage": [
+      "input_bytes_total",
+      "output_bytes",
+      "finding_count",
+      "gap_count",
+      "check_count",
+      "elapsed_milliseconds"
+    ],
+    "downstream_origin": [
+      "origin_raw_finding_id",
+      "origin_raw_gap_id"
+    ],
+    "subreport": [
+      "schema_version",
+      "jurisdiction",
+      "legal_effect",
+      "review_type",
+      "subreport_id",
+      "raw_report_id",
+      "raw_report_sha256",
+      "findings",
+      "gaps"
+    ],
+    "downstream_finding": [
+      "finding_id",
+      "origin",
+      "review_type",
+      "rule_id",
+      "dimension_id",
+      "target_id",
+      "location",
+      "status",
+      "evidence",
+      "problem",
+      "remedy",
+      "manual_review_required"
+    ],
+    "downstream_gap": [
+      "gap_id",
+      "origin",
+      "review_type",
+      "rule_id",
+      "dimension_id",
+      "target_id",
+      "category",
+      "reason",
+      "evidence",
+      "blocks_assessment"
+    ],
+    "semantic_gap": [
+      "gap_id",
+      "dimension_id",
+      "category",
+      "reason",
+      "evidence",
+      "blocks_assessment"
+    ],
+    "bundle": [
+      "schema_version",
+      "jurisdiction",
+      "legal_effect",
+      "bundle_id",
+      "prepare_id",
+      "input_artifacts",
+      "provenance_artifacts",
+      "rule_sources",
+      "tool_identity",
+      "evidence_binding",
+      "resource_usage",
+      "subreports",
+      "assessments",
+      "semantic_gaps"
+    ],
+    "verification": [
+      "schema_version",
+      "jurisdiction",
+      "legal_effect",
+      "verification_id",
+      "bundle_id",
+      "prepare_id",
+      "recomputed_binding",
+      "errors",
+      "coverage_summary",
+      "conservation_summary",
+      "aggregate",
+      "disposition",
+      "resource_usage"
+    ],
+    "verification_error": [
+      "kind",
+      "rule_id",
+      "message"
+    ],
+    "coverage_summary": [
+      "dimension_count",
+      "assessed_dimension_count",
+      "not_assessed_dimension_ids",
+      "conditional_dimension_ids",
+      "blocking_dimension_ids"
+    ],
+    "conservation_summary": [
+      "raw_finding_count",
+      "raw_gap_count",
+      "downstream_finding_count",
+      "downstream_gap_count",
+      "semantic_gap_count"
+    ]
+  },
+  "optional_fields": {
+    "bundle": [
+      "provenance_artifacts"
+    ],
+    "bundle_evidence_binding": [
+      "provenance_set_sha256"
+    ]
+  },
+  "field_relationships": {
+    "raw_report.schema_version": "schema_ids.raw_report",
+    "raw_report.jurisdiction": "jurisdiction",
+    "raw_report.legal_effect": "legal_effect",
+    "raw_report.input_artifacts[]": "exact_fields.artifact",
+    "raw_report.rule_sources[]": "exact_fields.artifact",
+    "raw_report.tool_identity": "exact_fields.tool_identity",
+    "raw_report.evidence_binding": "exact_fields.raw_evidence_binding",
+    "raw_report.resource_usage": "exact_fields.resource_usage",
+    "raw_report.checks_performed[]": "exact_fields.raw_check",
+    "raw_report.findings[]": "exact_fields.raw_finding",
+    "raw_report.gaps[]": "exact_fields.raw_gap",
+    "raw_finding.evidence[]": "exact_fields.raw_evidence",
+    "raw_gap.evidence[]": "exact_fields.raw_evidence",
+    "atomic_assessment.evidence": "exact_fields.evidence",
+    "subreport.schema_version": "schema_ids.subreport",
+    "subreport.jurisdiction": "jurisdiction",
+    "subreport.legal_effect": "legal_effect",
+    "subreport.findings[]": "exact_fields.downstream_finding",
+    "subreport.gaps[]": "exact_fields.downstream_gap",
+    "downstream_finding.origin": "exact_fields.downstream_origin",
+    "downstream_finding.evidence[]": "exact_fields.raw_evidence",
+    "downstream_gap.origin": "exact_fields.downstream_origin",
+    "downstream_gap.evidence[]": "exact_fields.raw_evidence",
+    "semantic_gap.evidence[]": "exact_fields.raw_evidence",
+    "bundle.schema_version": "schema_ids.bundle",
+    "bundle.jurisdiction": "jurisdiction",
+    "bundle.legal_effect": "legal_effect",
+    "bundle.input_artifacts[]": "exact_fields.artifact",
+    "bundle.provenance_artifacts[]": "exact_fields.artifact",
+    "bundle.rule_sources[]": "exact_fields.artifact",
+    "bundle.tool_identity": "exact_fields.tool_identity",
+    "bundle.evidence_binding": "exact_fields.bundle_evidence_binding",
+    "bundle.resource_usage": "exact_fields.resource_usage",
+    "bundle.subreports[]": "exact_fields.subreport",
+    "bundle.assessments[]": "exact_fields.atomic_assessment",
+    "bundle.semantic_gaps[]": "exact_fields.semantic_gap",
+    "verification.schema_version": "schema_ids.verifier_output",
+    "verification.jurisdiction": "jurisdiction",
+    "verification.legal_effect": "legal_effect",
+    "verification.recomputed_binding": "exact_fields.bundle_evidence_binding",
+    "verification.errors[]": "exact_fields.verification_error",
+    "verification.coverage_summary": "exact_fields.coverage_summary",
+    "verification.conservation_summary": "exact_fields.conservation_summary",
+    "verification.resource_usage": "exact_fields.resource_usage"
+  },
+  "exact_field_policy": {
+    "required_fields_equal_allowed_fields": true,
+    "reject_unknown_fields": true,
+    "reject_missing_fields": true
+  },
+  "enum_bindings": {
+    "raw_report.review_type": "review_type",
+    "raw_check.status": "raw_check_status",
+    "raw_finding.status": "raw_finding_status",
+    "raw_gap.category": "gap_category",
+    "atomic_assessment.coverage": "coverage",
+    "atomic_assessment.result": "result_atomic",
+    "atomic_assessment.severity": "severity",
+    "evidence.mode": "evidence_mode",
+    "evidence.sufficiency": "evidence_sufficiency",
+    "subreport.review_type": "review_type",
+    "downstream_finding.review_type": "review_type",
+    "downstream_finding.status": "raw_finding_status",
+    "downstream_gap.review_type": "review_type",
+    "downstream_gap.category": "gap_category",
+    "semantic_gap.category": "gap_category",
+    "verification_error.kind": "verification_error_kind"
+  },
+  "id_integrity": {
+    "unique_within_raw_report": [
+      "check_id",
+      "finding_id",
+      "gap_id"
+    ],
+    "requirements": [
+      "Every raw_finding.check_id and raw_gap.check_id references exactly one checks_performed.check_id.",
+      "Every atomic finding_id and gap_id references an existing ID in the bound raw report set.",
+      "Every downstream item has exactly one non-null origin raw finding or raw gap reference; two non-null or two null origins are forbidden.",
+      "Dangling, duplicate, merged, or fabricated origin references are contract errors."
+    ]
+  },
+  "state_invariants": [
+    {
+      "id": "coverage_not_applicable_iff_result_not_applicable",
+      "rule": "coverage=NOT_APPLICABLE iff result=NOT_APPLICABLE"
+    },
+    {
+      "id": "none_requires_missing_evidence",
+      "rule": "coverage=NONE requires result=INCONCLUSIVE, evidence.mode=NONE, evidence.sufficiency=MISSING"
+    },
+    {
+      "id": "partial_cannot_clear",
+      "rule": "coverage=PARTIAL permits only ISSUE_FOUND or INCONCLUSIVE"
+    },
+    {
+      "id": "none_mode_iff_missing",
+      "rule": "evidence.mode=NONE iff evidence.sufficiency=MISSING"
+    },
+    {
+      "id": "heuristic_is_inconclusive",
+      "rule": "evidence.mode=HEURISTIC requires evidence.sufficiency=LIMITED and result=INCONCLUSIVE"
+    },
+    {
+      "id": "limited_or_missing_is_inconclusive",
+      "rule": "LIMITED or MISSING sufficiency requires result=INCONCLUSIVE"
+    },
+    {
+      "id": "no_issue_requires_full_adequate_nonheuristic",
+      "rule": "NO_ISSUE_FOUND requires FULL coverage, ADEQUATE_FOR_SCOPED_ASSESSMENT, non-HEURISTIC/non-NONE mode, severity=NONE, and no finding_ids or gap_ids"
+    },
+    {
+      "id": "issue_requires_evidence_and_severity",
+      "rule": "ISSUE_FOUND requires FULL or PARTIAL coverage, ADEQUATE_FOR_SCOPED_ASSESSMENT, non-HEURISTIC/non-NONE mode, severity other than NONE, and at least one finding_id"
+    },
+    {
+      "id": "inconclusive_requires_gap",
+      "rule": "INCONCLUSIVE requires severity=NONE and at least one gap_id"
+    },
+    {
+      "id": "not_applicable_nonpunitive",
+      "rule": "NOT_APPLICABLE requires severity=NONE and no finding_ids; documentary applicability evidence may be ADEQUATE_FOR_SCOPED_ASSESSMENT"
+    },
+    {
+      "id": "atomic_mixed_forbidden",
+      "rule": "MIXED is forbidden in atomic result and allowed only in aggregate result"
+    }
+  ],
+  "aggregation": {
+    "input_order": "Sort child assessment_id lexicographically before aggregation and preserve the sorted child_ids.",
+    "coverage_priority": [
+      "NONE",
+      "PARTIAL",
+      "FULL",
+      "NOT_APPLICABLE"
+    ],
+    "severity_priority": [
+      "BLOCKER",
+      "HIGH",
+      "MEDIUM",
+      "LOW",
+      "NONE"
+    ],
+    "result": "If present_results has one member return it; otherwise return MIXED.",
+    "retained_fields": [
+      "child_ids",
+      "present_results",
+      "coverage",
+      "severity",
+      "finding_ids",
+      "gap_ids"
+    ]
+  },
+  "disposition": [
+    {
+      "priority": 1,
+      "when": "all_required_assessments_have_coverage_NONE",
+      "value": "NOT_ASSESSED"
+    },
+    {
+      "priority": 2,
+      "when": "any_ISSUE_FOUND_with_severity_BLOCKER",
+      "value": "BLOCKING_ISSUE_FOUND"
+    },
+    {
+      "priority": 3,
+      "when": "any_INCONCLUSIVE_or_gap_or_LIMITED_or_MISSING_evidence",
+      "value": "REVIEW_INCOMPLETE"
+    },
+    {
+      "priority": 4,
+      "when": "any_nonblocking_ISSUE_FOUND",
+      "value": "REMEDIATION_REQUIRED"
+    },
+    {
+      "priority": 5,
+      "when": "otherwise",
+      "value": "NO_BLOCKING_ISSUE_FOUND_IN_SCOPE"
+    }
+  ],
+  "verifier_error_handling": {
+    "error_kinds": [
+      "CONTRACT_ERROR",
+      "TOOL_ERROR",
+      "RESOURCE_ERROR"
+    ],
+    "application_disposition": null,
+    "legal_finding_allowed": false,
+    "legal_citation_allowed": false,
+    "rule": "An invalid contract, tool, or resource state has no application disposition and cannot be converted into a Chinese-law finding."
+  },
+  "finding_conservation": {
+    "required_raw_reports": [
+      "claims",
+      "specification",
+      "formalities"
+    ],
+    "requirements": [
+      "Each raw finding appears exactly once downstream.",
+      "Raw DETERMINISTIC_FAIL and REVIEW_REQUIRED findings cannot be omitted, duplicated, merged, or downgraded.",
+      "rule_id, target_id/location, problem, and remedy are conserved exactly.",
+      "Each skipped or not-verified raw check becomes one stable structured gap.",
+      "The verifier compares raw reports directly with downstream reports.",
+      "Tool, resource, and contract errors use tool or verifier rule IDs and never fabricated Chinese-law citations."
+    ]
+  },
+  "resource_limits": {
+    "claims_input_bytes": 4194304,
+    "claims_max_count": 20000,
+    "claims_max_number": 1000000,
+    "claims_max_reference_edges": 100000,
+    "claims_max_ancestor_depth": 2048,
+    "claims_max_single_text_bytes": 262144,
+    "specification_input_bytes": 8388608,
+    "specification_features_input_bytes": 4194304,
+    "specification_max_paragraphs": 100000,
+    "specification_max_feature_candidates": 20000,
+    "specification_max_variants_per_feature": 32,
+    "specification_max_matches_per_feature": 1000,
+    "specification_max_total_matches": 100000,
+    "formalities_input_bytes_total": 25165824,
+    "formalities_manifest_bytes": 4194304,
+    "formalities_max_documents": 256,
+    "formalities_max_single_document_bytes": 8388608,
+    "formalities_max_string_bytes": 1048576,
+    "verifier_referenced_bytes": 134217728,
+    "verifier_max_artifacts": 512,
+    "provenance_max_artifacts": 64,
+    "verifier_max_rule_sources": 256,
+    "verifier_max_raw_reports": 3,
+    "verifier_max_subreports": 3,
+    "verifier_max_single_artifact_bytes": 25165824,
+    "json_max_depth": 64,
+    "max_findings": 5000,
+    "max_gaps": 5000,
+    "max_checks": 10000,
+    "max_report_output_bytes": 16777216,
+    "max_summary_output_bytes": 8388608,
+    "orchestration_deadline_seconds": 180,
+    "failure_exit_code": 4,
+    "failure_rule": "A resource failure is a tool error and must not create a legal finding."
+  },
+  "search_manifest_compatibility": {
+    "accepted_schema": "cn-patent-search-manifest/v1",
+    "mode": "READ_ONLY_CONSUMER",
+    "does_not_establish": [
+      "novelty",
+      "inventiveness",
+      "single_reference_completeness",
+      "conflicting_application_status",
+      "claim_effective_date",
+      "search_completeness"
+    ],
+    "required_incomplete_results": [
+      "novelty",
+      "inventiveness"
+    ]
+  },
+  "provenance": {
+    "input_field": "provenance_artifacts",
+    "declaration_fields": [
+      "artifact_id",
+      "path"
+    ],
+    "artifact_id_pattern": "^[A-Za-z][A-Za-z0-9_-]{0,127}$",
+    "scope": "prepare_input_parent_or_descendant",
+    "recommended_artifact_ids": [
+      "search-query",
+      "template-candidates",
+      "template-selection",
+      "stage2-gate",
+      "feature-ledger",
+      "claim-architecture"
+    ],
+    "purpose": "将检索、范本选择、阶段门、特征台账和权利要求架构等前置流程证据纳入综合审查的可复算来源链；不改变其只读和非法律结论边界。"
+  },
+  "prohibited_producer_fields": [
+    "overall_status",
+    "overallResult",
+    "decision",
+    "verdict",
+    "score",
+    "complianceScore",
+    "ready_to_file",
+    "filingReadiness"
+  ],
+  "dimensions": [
+    {
+      "id": "article_5",
+      "group": "substantive_core",
+      "citation": "专利法第五条",
+      "applicability": "所有申请均审查；第二款在遗传资源获取、利用事实存在时适用。",
+      "required_evidence": "技术来源、完成过程、遗传资源获取利用许可及其他客观事实。",
+      "non_inference_boundary": "不得由技术领域、检索未命中或一般文书缺陷推定违法。"
+    },
+    {
+      "id": "article_25",
+      "group": "substantive_core",
+      "citation": "专利法第二十五条",
+      "applicability": "所有权利要求主题均需排查法定不授予专利权客体。",
+      "required_evidence": "逐项权利要求主题、技术内容及排除客体对应事实。",
+      "non_inference_boundary": "标题、分类号或关键词不足以替代逐项主题判断。"
+    },
+    {
+      "id": "technical_solution",
+      "group": "substantive_core",
+      "citation": "专利法第二条第二款",
+      "applicability": "所有发明权利要求均适用。",
+      "required_evidence": "权利要求整体采用的技术手段、解决的技术问题和产生的技术效果。",
+      "non_inference_boundary": "出现计算机、数据或设备名词不当然构成技术方案。"
+    },
+    {
+      "id": "utility",
+      "group": "substantive_core",
+      "citation": "专利法第二十二条第四款",
+      "applicability": "所有发明权利要求均适用。",
+      "required_evidence": "可制造或使用事实、积极效果及与自然规律一致的技术证据。",
+      "non_inference_boundary": "商业价值、市场需求或申请人陈述不能单独证明实用性。"
+    },
+    {
+      "id": "disclosure",
+      "group": "substantive_core",
+      "citation": "专利法第二十六条第三款；指南第二部分第二章",
+      "applicability": "对说明书公开的全部要求适用。",
+      "required_evidence": "说明书全文、附图、实施例、实验数据和本领域技术人员可实施性分析。",
+      "non_inference_boundary": "章节齐全、字数充足或术语命中不能推出充分公开。"
+    },
+    {
+      "id": "novelty",
+      "group": "substantive_core",
+      "citation": "专利法第二十二条第二款；指南第二部分第三章",
+      "applicability": "逐项权利要求并按有效日适用。",
+      "required_evidence": "单一现有技术方案或抵触申请全文、时序、在华申请身份及逐特征对应。",
+      "non_inference_boundary": "不得拼接多篇文献；搜索清单、摘要或自由文本映射不证明新颖性。"
+    },
+    {
+      "id": "inventiveness",
+      "group": "substantive_core",
+      "citation": "专利法第二十二条第三款；指南第二部分第四章",
+      "applicability": "逐项权利要求并在新颖性证据基础上适用。",
+      "required_evidence": "最接近现有技术、区别特征、技术效果、实际技术问题、技术启示和反事后分析。",
+      "non_inference_boundary": "不得把区别特征写入技术问题，也不得由多文献命中直接推出显而易见。"
+    },
+    {
+      "id": "claim_clarity",
+      "group": "substantive_core",
+      "citation": "专利法第二十六条第四款；实施细则第二十二条至第二十五条；指南第二部分第二章",
+      "applicability": "每项权利要求均适用。",
+      "required_evidence": "权利要求全文、术语含义、引用关系、保护范围、说明书定义，以及高复杂度独权的载体分工和父从权继承拓扑记录。",
+      "non_inference_boundary": "编号、引用形式或节点名称正确不等于保护范围清楚、表述简要或继承后的连接关系自洽。"
+    },
+    {
+      "id": "claim_support",
+      "group": "substantive_core",
+      "citation": "专利法第二十六条第四款；指南第二部分第二章",
+      "applicability": "每项权利要求及其概括均适用。",
+      "required_evidence": "逐特征说明书依据、实施方式、可概括范围和反例。",
+      "non_inference_boundary": "文字命中或关键词相同不等于得到说明书支持。"
+    },
+    {
+      "id": "essential_features",
+      "group": "substantive_core",
+      "citation": "实施细则第二十三条第二款；指南第二部分第二章",
+      "applicability": "每项独立权利要求适用。",
+      "required_evidence": "解决技术问题所需的全部必要技术特征及其因果关系。",
+      "non_inference_boundary": "脚本不得仅凭句式、长度或从属关系作最终法律判断。"
+    },
+    {
+      "id": "unity",
+      "group": "substantive_core",
+      "citation": "专利法第三十一条第一款；实施细则第三十九条；指南第二部分第六章",
+      "applicability": "含多个发明或发明构思的申请适用。",
+      "required_evidence": "各权利要求的特别技术特征、共同发明构思及技术关联。",
+      "non_inference_boundary": "主题名称不同、分类号不同或权利要求数量多不当然缺乏单一性。"
+    },
+    {
+      "id": "amendment_scope",
+      "group": "substantive_core",
+      "citation": "专利法第三十三条；指南第二部分第八章",
+      "applicability": "存在修改文本时适用。",
+      "required_evidence": "原始申请文件、历次修改文本、修改说明及逐项直接明确依据。",
+      "non_inference_boundary": "现文本内部自洽不能证明修改未超出原始记载范围。"
+    },
+    {
+      "id": "divisional_scope",
+      "group": "substantive_core",
+      "citation": "实施细则第四十八条、第四十九条；指南第二部分第六章",
+      "applicability": "分案申请适用。",
+      "required_evidence": "原申请全文、分案全文、原申请程序状态及逐项内容依据。",
+      "non_inference_boundary": "原申请号和日期填写正确不证明分案内容未超范围。"
+    },
+    {
+      "id": "same_invention",
+      "group": "substantive_core",
+      "citation": "专利法第九条；实施细则第四十七条；指南第二部分第三章第六节",
+      "applicability": "存在同日或相关申请、专利时适用。",
+      "required_evidence": "相关申请全文、申请人、申请日或优先权日、同日声明及权利状态。",
+      "non_inference_boundary": "标题、IPC 或技术领域相同不足以认定同样的发明创造。"
+    },
+    {
+      "id": "foreign_filing_confidentiality",
+      "group": "substantive_core",
+      "citation": "专利法第十九条；实施细则第八条、第九条；指南第五部分第五章",
+      "applicability": "技术方案实质内容在中国完成且向外国申请时适用。",
+      "required_evidence": "完成地点事实、外国或国际申请时间及保密审查请求和结论。",
+      "non_inference_boundary": "外国申请人、外国地址或中国发明人不能单独证明适用或违反。"
+    },
+    {
+      "id": "genetic_resource_disclosure",
+      "group": "substantive_core",
+      "citation": "专利法第二十六条第五款；实施细则第二十九条",
+      "applicability": "依赖遗传资源完成的发明适用。",
+      "required_evidence": "依赖关系、直接来源、原始来源及无法说明时的理由。",
+      "non_inference_boundary": "生物、植物、动物或微生物关键词不能单独证明依赖遗传资源。"
+    },
+    {
+      "id": "good_faith",
+      "group": "substantive_core",
+      "citation": "实施细则第十一条；专利法第二十条；实施细则第五十条、第五十九条（程序后果）",
+      "applicability": "申请和专利权行使全过程适用。",
+      "required_evidence": "真实发明活动、申请行为、证明材料及虚构或异常申请的客观事实。",
+      "non_inference_boundary": "撰写质量差、方案简单或检索未命中不能推定不诚信。"
+    },
+    {
+      "id": "priority_entitlement_effective_date",
+      "group": "priority_and_grace",
+      "citation": "专利法第二十九条、第三十条；实施细则第三十四条至第三十七条；指南第二部分第三章第四节",
+      "applicability": "主张本国或外国优先权时适用。",
+      "required_evidence": "基础申请、申请人链条、时限、同一主题披露及程序状态。",
+      "non_inference_boundary": "手续存在不等于任一权利要求获得所主张日期。"
+    },
+    {
+      "id": "claim_level_priority",
+      "group": "priority_and_grace",
+      "citation": "指南第二部分第三章第四节",
+      "applicability": "逐项权利要求或其中可分技术方案主张优先权时适用。",
+      "required_evidence": "基础申请全文与每项权利要求技术方案的直接对应。",
+      "non_inference_boundary": "整件申请享有优先权不能替代逐项有效日判断。"
+    },
+    {
+      "id": "partial_multiple_priority",
+      "group": "priority_and_grace",
+      "citation": "指南第二部分第三章第四节，特别是4.1.4",
+      "applicability": "同一权利要求含多个可分方案或多个优先权基础时适用。",
+      "required_evidence": "各可分方案、各基础申请披露及分别对应的有效日。",
+      "non_inference_boundary": "不得任意拼接分别披露的特征后继续给予优先权。"
+    },
+    {
+      "id": "article_24_grace_period",
+      "group": "priority_and_grace",
+      "citation": "专利法第二十四条；实施细则第三十三条；指南第二部分第三章第五节",
+      "applicability": "申请日前六个月内存在主张不丧失新颖性的公开事件时适用。",
+      "required_evidence": "逐公开事件的日期、方式、内容、法定情形及声明证明。",
+      "non_inference_boundary": "提交证明不等于法定情形、首次公开、期间和内容同一性均成立。"
+    },
+    {
+      "id": "form_core_documents_and_application_type",
+      "group": "formalities",
+      "citation": "专利法第二十六条第一款；实施细则第四十三条、第四十四条",
+      "applicability": "直接中国发明申请的受理层文件适用。",
+      "required_evidence": "请求书、说明书、权利要求书、摘要、申请类型和真实文件清单。",
+      "non_inference_boundary": "本轮未收到材料只能形成缺口；不得据此断言官方申请包实际缺件。"
+    },
+    {
+      "id": "form_request_fields_and_party_identity",
+      "group": "formalities",
+      "citation": "实施细则第十七条、第十九条；指南第一部分第一章4.1",
+      "applicability": "请求书及委托事项适用。",
+      "required_evidence": "名称、申请人、发明人、地址、代理、优先权字段、签章和文件清单。",
+      "non_inference_boundary": "主体字段完整不证明权属、职务发明归属或实际创造贡献。"
+    },
+    {
+      "id": "form_language_format_and_execution",
+      "group": "formalities",
+      "citation": "实施细则第二条、第三条、第四十四条、第一百四十六条；指南第五部分第一章",
+      "applicability": "提交文件语言、介质、格式和签章适用。",
+      "required_evidence": "原始语言、提交介质、签字盖章、译文和官方格式材料。",
+      "non_inference_boundary": "UTF-8 无 BOM 是产品输入规范，不等同全部法定电子提交格式。"
+    },
+    {
+      "id": "form_title_consistency_and_quality",
+      "group": "formalities",
+      "citation": "实施细则第二十条；指南第一部分第一章4.1.1、4.2及第二部分第二章2.2.1",
+      "applicability": "请求书、说明书和摘要标题适用。",
+      "required_evidence": "三个真实文书中的标题及其技术内容。",
+      "non_inference_boundary": "文字一致不证明标题准确，也不证明保护主题充分公开。"
+    },
+    {
+      "id": "form_specification_structure_and_drafting",
+      "group": "formalities",
+      "citation": "实施细则第二十条；指南第一部分第一章4.2及第二部分第二章2.2",
+      "applicability": "说明书结构和撰写适用。",
+      "required_evidence": "技术领域、背景技术、发明内容、附图说明、具体实施方式及例外理由。",
+      "non_inference_boundary": "章节或顺序缺陷不自动等同专利法第二十六条第三款公开不足。"
+    },
+    {
+      "id": "form_claim_presentation_and_reference_form",
+      "group": "formalities",
+      "citation": "实施细则第二十二条至第二十五条；指南第一部分第一章4.4及第二部分第二章3.3",
+      "applicability": "权利要求书编号、主题、独立/从属结构和引用形式适用。",
+      "required_evidence": "权利要求全文、编号、独立从属结构、引用部分和图号括注。",
+      "non_inference_boundary": "形式正确不推出清楚、支持、必要技术特征或单一性；一项发明一个独立权利要求不等于整件申请只能有一个独立权利要求。"
+    },
+    {
+      "id": "form_abstract_content_and_length",
+      "group": "formalities",
+      "citation": "实施细则第二十六条第一款；指南第一部分第一章4.5.1",
+      "applicability": "摘要内容和长度适用。",
+      "required_evidence": "摘要全文、名称、技术领域、问题、方案要点、用途、字数和宣传语。",
+      "non_inference_boundary": "不超过300字或无宣传语不证明摘要准确，也不证明充分公开。"
+    },
+    {
+      "id": "form_abstract_figure_designation",
+      "group": "formalities",
+      "citation": "实施细则第二十六条第二款；指南第一部分第一章4.5.2",
+      "applicability": "说明书存在附图时条件适用。",
+      "required_evidence": "请求书指定图号、被指定图和全部说明书附图。",
+      "non_inference_boundary": "无附图或无适宜附图不能机械认定缺陷；图号存在不证明图最具代表性。"
+    },
+    {
+      "id": "form_drawings_requiredness_and_presence",
+      "group": "formalities",
+      "citation": "专利法第二十六条第三款；实施细则第二十条、第二十一条、第四十六条",
+      "applicability": "说明书需要附图或正文引用附图时适用。",
+      "required_evidence": "申请类型、说明书引用、附图文件及补交或取消记录。",
+      "non_inference_boundary": "发明申请并非一律必须附图，不得套用实用新型规则。"
+    },
+    {
+      "id": "form_drawing_numbering_reference_signs_and_graphic_form",
+      "group": "formalities",
+      "citation": "实施细则第二十一条；指南第一部分第一章4.3及第二部分第二章2.3",
+      "applicability": "存在说明书附图时适用。",
+      "required_evidence": "真实图像、图号、附图说明、实施方式图号和附图标记。",
+      "non_inference_boundary": "manifest 声明不能证明图面清晰、标记真实存在或图形质量合格。"
+    },
+    {
+      "id": "form_sequence_listing",
+      "group": "formalities",
+      "citation": "实施细则第二十条第四款；指南第一部分第一章4.2及第二部分第二章2.2",
+      "applicability": "包含核苷酸或氨基酸序列时条件适用。",
+      "required_evidence": "说明书序列表、计算机可读序列表、二者一致性和适用性事实。",
+      "non_inference_boundary": "出现“序列”字样不等于法定序列表申请；适用性不明必须形成缺口。"
+    },
+    {
+      "id": "form_biological_material_deposit",
+      "group": "formalities",
+      "citation": "实施细则第二十七条；指南第一部分第一章5.2",
+      "applicability": "新生物材料公众不可得且文字不足以实施时条件适用。",
+      "required_evidence": "公众可得性、可实施性、保藏单位、日期、编号、证明和存活证明。",
+      "non_inference_boundary": "生物技术或微生物主题不当然需要保藏，证明存在也不自动证明充分公开。"
+    },
+    {
+      "id": "form_genetic_resource_statement",
+      "group": "formalities",
+      "citation": "专利法第二十六条第五款；实施细则第二十九条；指南第一部分第一章5.3",
+      "applicability": "依赖遗传资源完成时条件适用。",
+      "required_evidence": "依赖关系、请求书说明、法定表格、直接及原始来源或理由。",
+      "non_inference_boundary": "自然来源或生物领域标签不足以证明适用；来源披露也不证明获取利用合法。"
+    },
+    {
+      "id": "form_priority_declaration_and_documents",
+      "group": "formalities",
+      "citation": "专利法第二十九条、第三十条；实施细则第三十四条至第三十七条；指南第一部分第一章6.2",
+      "applicability": "主张优先权时条件适用。",
+      "required_evidence": "请求书声明、基础申请信息、证明副本、转让证明、费用和恢复记录。",
+      "non_inference_boundary": "手续表面完整不等于每项权利要求实际享有优先权。"
+    },
+    {
+      "id": "form_article_24_declaration_and_proof",
+      "group": "formalities",
+      "citation": "实施细则第三十三条；指南第一部分第一章6.3",
+      "applicability": "主张专利法第二十四条相关公开例外时条件适用。",
+      "required_evidence": "请求书声明、公开日期方式、展会会议或泄露证明及知悉时间。",
+      "non_inference_boundary": "已提交声明证明不等于实体宽限期条件均成立。"
+    },
+    {
+      "id": "form_divisional_filing_procedure",
+      "group": "formalities",
+      "citation": "实施细则第四十八条、第四十九条；指南第一部分第一章5.1",
+      "applicability": "分案申请条件适用。",
+      "required_evidence": "原申请类型、申请号、申请日、递交时间、程序状态和分案请求书。",
+      "non_inference_boundary": "字段正确不证明分案内容未超范围，也不证明单一性。"
+    },
+    {
+      "id": "form_substantive_examination_request_procedure",
+      "group": "formalities",
+      "citation": "专利法第三十五条、第三十六条；实施细则第五十五条；指南第一部分第一章6.4",
+      "applicability": "直接中国发明申请的实质审查请求阶段适用。",
+      "required_evidence": "实审请求、申请日或有效优先权日、费用及申请日前参考资料。",
+      "non_inference_boundary": "提出请求或缴费不证明新颖性、创造性、检索完整或官方期限状态。"
+    },
+    {
+      "id": "computer_and_ai",
+      "group": "conditional_special_domain",
+      "citation": "指南第二部分第九章第2、5、6节",
+      "applicability": "权利要求实质涉及计算机程序、算法、人工智能或大数据时条件适用。",
+      "required_evidence": "技术问题、技术手段、技术效果、数据与具体场景或计算机内部性能关联。",
+      "non_inference_boundary": "算法标签、外部场景或缺少源码权重均不能单独决定技术性、公开或创造性。"
+    },
+    {
+      "id": "chemical_and_biotech",
+      "group": "conditional_special_domain",
+      "citation": "指南第二部分第十章",
+      "applicability": "实质涉及化合物、用途、序列、微生物、生物技术或马库什结构时条件适用。",
+      "required_evidence": "结构或组成、制备和用途、实验数据、序列保藏及本领域技术证据。",
+      "non_inference_boundary": "“化学”或“生物”关键词不能替代专业证据，也不能直接推出公开或创造性结论。"
+    },
+    {
+      "id": "traditional_chinese_medicine",
+      "group": "conditional_special_domain",
+      "citation": "指南第二部分第十一章第2至5节",
+      "applicability": "实质涉及中药材、组合物、制备或医疗用途时条件适用。",
+      "required_evidence": "药材名称、组成用量、用途、实验数据及病证与疾病对应。",
+      "non_inference_boundary": "传统使用、古方名称或药材名称本身不直接决定新颖性、公开或创造性。"
+    }
+  ],
+  "rule_dimension_map": {
+    "CN-CLAIM-INPUT-001": "claim_clarity",
+    "CN-CLAIM-NUM-001": "form_claim_presentation_and_reference_form",
+    "CN-CLAIM-LENGTH-001": "form_claim_presentation_and_reference_form",
+    "CN-CLAIM-LENGTH-002": "form_claim_presentation_and_reference_form",
+    "CN-CLAIM-LENGTH-003": "form_claim_presentation_and_reference_form",
+    "CN-CLAIM-CORE-001": "form_claim_presentation_and_reference_form",
+    "CN-CLAIM-REF-PARSE-001": "form_claim_presentation_and_reference_form",
+    "CN-CLAIM-REF-001": "form_claim_presentation_and_reference_form",
+    "CN-CLAIM-MULTI-001": "form_claim_presentation_and_reference_form",
+    "CN-CLAIM-DRAFT-001": "form_language_format_and_execution",
+    "CN-CLAIM-TERM-001": "claim_clarity",
+    "CN-CLAIM-CLEAR-001": "claim_clarity",
+    "CN-CLAIM-SUPPORT-001": "claim_support",
+    "CN-CLAIM-FUNCTION-001": "claim_support",
+    "CN-CLAIM-ESSENTIAL-001": "essential_features",
+    "CN-CLAIM-DEPENDENT-001": "claim_clarity",
+    "CN-CLAIM-UNITY-001": "unity",
+    "CN-CLAIM-AMEND-001": "amendment_scope",
+    "CN-SPEC-INPUT-001": "disclosure",
+    "CN-SPEC-FEATURE-001": "claim_support",
+    "CN-SPEC-PARAGRAPH-001": "form_specification_structure_and_drafting",
+    "CN-SPEC-MATCH-001": "claim_support",
+    "CN-SPEC-DISCLOSURE-001": "disclosure",
+    "CN-SPEC-STRUCTURE-001": "form_specification_structure_and_drafting",
+    "CN-SPEC-DRAWING-001": "form_drawing_numbering_reference_signs_and_graphic_form",
+    "CN-SPEC-SUPPORT-001": "claim_support",
+    "CN-SPEC-FUNCTION-001": "claim_support",
+    "CN-SPEC-RANGE-001": "claim_support",
+    "CN-SPEC-EFFECT-001": "disclosure",
+    "CN-SPEC-AI-001": "computer_and_ai",
+    "CN-SPEC-AMEND-001": "amendment_scope",
+    "form_core_documents_and_application_type": "form_core_documents_and_application_type",
+    "form_request_fields_and_party_identity": "form_request_fields_and_party_identity",
+    "form_language_format_and_execution": "form_language_format_and_execution",
+    "form_title_consistency_and_quality": "form_title_consistency_and_quality",
+    "form_specification_structure_and_drafting": "form_specification_structure_and_drafting",
+    "form_claim_presentation_and_reference_form": "form_claim_presentation_and_reference_form",
+    "form_abstract_content_and_length": "form_abstract_content_and_length",
+    "form_abstract_figure_designation": "form_abstract_figure_designation",
+    "form_drawings_requiredness_and_presence": "form_drawings_requiredness_and_presence",
+    "form_drawing_numbering_reference_signs_and_graphic_form": "form_drawing_numbering_reference_signs_and_graphic_form",
+    "form_sequence_listing": "form_sequence_listing",
+    "form_biological_material_deposit": "form_biological_material_deposit",
+    "form_genetic_resource_statement": "form_genetic_resource_statement",
+    "form_priority_declaration_and_documents": "form_priority_declaration_and_documents",
+    "form_article_24_declaration_and_proof": "form_article_24_declaration_and_proof",
+    "form_divisional_filing_procedure": "form_divisional_filing_procedure",
+    "form_substantive_examination_request_procedure": "form_substantive_examination_request_procedure"
+  },
+  "tool_only_rules": [
+    "CN-CLAIM-OUTPUT-001",
+    "CN-CLAIM-RESOURCE-001",
+    "CN-SPEC-OUTPUT-001",
+    "CN-SPEC-RESOURCE-001",
+    "CN-VERIFY-BINDING-001",
+    "CN-VERIFY-CONTRACT-001",
+    "CN-VERIFY-CONSERVATION-001",
+    "CN-VERIFY-COVERAGE-001",
+    "CN-VERIFY-SEARCH-001",
+    "CN-VERIFY-RESOURCE-001",
+    "CN-VERIFY-INPUT-001"
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "schema_id": "cn-patent-drawing-visual-review/v2",
+  "reviewed_at": "2026-08-28T00:00:00+08:00",
+  "reviewer": "人工复核者",
+  "figures": [
+    {
+      "figure_number": 1,
+      "png_path": "02-申请文件/说明书附图/图1-条件处理流程图.png",
+      "png_sha256": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+      "checks": {
+        "text_legible": true,
+        "no_text_overlap": true,
+        "no_edge_crossing": true,
+        "no_edge_through_node": true,
+        "no_arrow_ambiguity": true,
+        "labels_adjacent": true,
+        "monochrome": false,
+        "restrained_color": true,
+        "grayscale_safe": true,
+        "no_figure_number_on_canvas": true,
+        "no_unnecessary_detours": true,
+        "consistent_typography": true,
+        "balanced_spacing": true,
+        "clear_visual_hierarchy": true,
+        "formal_patent_style": true,
+        "node_text_proportionate": true,
+        "no_text_overflow": true,
+        "no_excessive_canvas_margin": true
+      },
+      "approved": true,
+      "notes": "已查看 Draw.io 官方 CLI 导出的最终 PNG。",
+      "export_report_path": "03-审查工作区/附图/export/图1-export.json",
+      "export_report_sha256": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "inspection": {
+        "viewed_at": "2026-08-28T00:00:00+08:00",
+        "full_scale_percent": 100,
+        "reduced_scale_percent": 50,
+        "observations": {
+          "text_legible": "已在最终 PNG 中逐项观察，未发现该类缺陷。",
+          "no_text_overlap": "已在最终 PNG 中逐项观察，未发现该类缺陷。",
+          "no_edge_crossing": "已在最终 PNG 中逐项观察，未发现该类缺陷。",
+          "no_edge_through_node": "已在最终 PNG 中逐项观察，未发现该类缺陷。",
+          "no_arrow_ambiguity": "已在最终 PNG 中逐项观察，未发现该类缺陷。",
+          "labels_adjacent": "已在最终 PNG 中逐项观察，未发现该类缺陷。",
+          "monochrome": "已在最终 PNG 中逐项观察，未发现该类缺陷。",
+          "restrained_color": "已在最终 PNG 中逐项观察，未发现该类缺陷。",
+          "grayscale_safe": "已在最终 PNG 中逐项观察，未发现该类缺陷。",
+          "no_figure_number_on_canvas": "已在最终 PNG 中逐项观察，未发现该类缺陷。",
+          "no_unnecessary_detours": "已在最终 PNG 中逐项观察，未发现该类缺陷。",
+          "consistent_typography": "已在最终 PNG 中逐项观察，未发现该类缺陷。",
+          "balanced_spacing": "已在最终 PNG 中逐项观察，未发现该类缺陷。",
+          "clear_visual_hierarchy": "已在最终 PNG 中逐项观察，未发现该类缺陷。",
+          "formal_patent_style": "已在最终 PNG 中逐项观察，未发现该类缺陷。",
+          "node_text_proportionate": "节点尺寸与字号比例协调，不存在大框小字。",
+          "no_text_overflow": "节点文字均完整位于边界内，无裁切或溢出。",
+          "no_excessive_canvas_margin": "最终PNG按实际图形边界导出，四边仅保留合同允许的必要边距。"
+        }
+      }
+    }
+  ],
+  "review_method": "在图像查看器中查看 Draw.io Desktop CLI 最终 PNG",
+  "brief_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+}

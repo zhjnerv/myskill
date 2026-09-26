@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "cn-patent-stage2-gate/v2",
+  "title": "中国发明专利起草阶段门 v2",
+  "description": "在 v1 基础上增加目标 IPC 判定、候选 IPC 来源和 IPC 加权范本选择证据。",
+  "type": "object",
+  "required": ["schema_id", "case_id", "cnipa_manual_search", "template_selection", "style_brief_path", "feature_ledger_path"],
+  "properties": {
+    "schema_id": {"const": "cn-patent-stage2-gate/v2"},
+    "case_id": {"type": "string", "minLength": 1},
+    "cnipa_manual_search": {"type": "object"},
+    "template_selection": {
+      "type": "object",
+      "required": ["status"],
+      "properties": {
+        "status": {"enum": ["confirmed", "declined", "pending"]},
+        "style_guides": {"type": "array", "items": {"type": "string", "minLength": 1}},
+        "search_query_path": {"type": "string", "minLength": 1},
+        "candidate_manifest_path": {"type": "string", "minLength": 1},
+        "selection_report_path": {"type": "string", "minLength": 1},
+        "user_authorization": {"type": "object"}
+      },
+      "additionalProperties": true
+    },
+    "style_brief_path": {"type": "string", "minLength": 1},
+    "feature_ledger_path": {"type": "string", "minLength": 1}
+  },
+  "additionalProperties": true
+}

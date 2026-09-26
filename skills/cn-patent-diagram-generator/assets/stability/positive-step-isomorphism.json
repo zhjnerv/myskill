@@ -1,0 +1,34 @@
+{
+  "schema_id": "cn-patent-drawing-verification/v4",
+  "status": "PASS",
+  "errors": [],
+  "brief_validation": {
+    "status": "PASS",
+    "errors": [],
+    "figures": [
+      {
+        "figure_number": 1,
+        "method_claim_number": 8,
+        "bound_step_ids": [
+          "S1",
+          "S2",
+          "S3"
+        ]
+      }
+    ]
+  },
+  "figures": [
+    {
+      "figure_number": 1,
+      "png": {
+        "maximum_margin": 10,
+        "margins": {
+          "left": 10,
+          "top": 10,
+          "right": 10,
+          "bottom": 10
+        }
+      }
+    }
+  ]
+}

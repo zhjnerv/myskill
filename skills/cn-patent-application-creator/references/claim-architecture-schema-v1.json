@@ -1,0 +1,480 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "cn-patent-claim-architecture/v1",
+  "title": "中国发明专利权利要求架构合同 v1",
+  "description": "在权利要求定稿后冻结独立权利要求载体分工、父从权继承拓扑和方法步骤边界。合同只将客观结构错误设为硬失败；简要性属于语义判断，但高复杂度独权必须留下人工复核决定。",
+  "type": "object",
+  "required": [
+    "schema_id",
+    "case_id",
+    "generated_at",
+    "legal_effect",
+    "source_artifacts",
+    "independent_claims",
+    "topology_nodes",
+    "claim_topologies",
+    "method_claims",
+    "core_protection_point"
+  ],
+  "properties": {
+    "schema_id": {
+      "const": "cn-patent-claim-architecture/v1"
+    },
+    "case_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "generated_at": {
+      "type": "string",
+      "minLength": 1
+    },
+    "legal_effect": {
+      "const": "ADVISORY_ONLY"
+    },
+    "source_artifacts": {
+      "type": "array",
+      "minItems": 3,
+      "items": {
+        "type": "object",
+        "required": [
+          "artifact_id",
+          "path",
+          "sha256"
+        ],
+        "properties": {
+          "artifact_id": {
+            "enum": [
+              "claims",
+              "specification",
+              "feature_ledger"
+            ]
+          },
+          "path": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "independent_claims": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "claim_number",
+          "claim_type",
+          "complexity_metrics",
+          "carrier_allocations",
+          "conciseness_review"
+        ],
+        "properties": {
+          "claim_number": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "claim_type": {
+            "enum": [
+              "method",
+              "system",
+              "device",
+              "medium",
+              "other"
+            ]
+          },
+          "complexity_metrics": {
+            "type": "object",
+            "required": [
+              "formula_block_count",
+              "symbol_definition_count",
+              "execution_phases"
+            ],
+            "properties": {
+              "formula_block_count": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "symbol_definition_count": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "execution_phases": {
+                "type": "array",
+                "items": {
+                  "enum": [
+                    "preconfigured",
+                    "runtime_input",
+                    "runtime_processing",
+                    "runtime_output",
+                    "postprocessing"
+                  ]
+                },
+                "uniqueItems": true
+              }
+            },
+            "additionalProperties": false
+          },
+          "carrier_allocations": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "content_id",
+                "kind",
+                "placement",
+                "rationale",
+                "source_feature_ids"
+              ],
+              "properties": {
+                "content_id": {
+                  "type": "string",
+                  "pattern": "^[A-Za-z0-9_.:-]+$"
+                },
+                "kind": {
+                  "enum": [
+                    "core_action",
+                    "formula",
+                    "symbol_definition",
+                    "implementation_detail",
+                    "control_sequence"
+                  ]
+                },
+                "placement": {
+                  "enum": [
+                    "independent_claim",
+                    "dependent_claim",
+                    "specification"
+                  ]
+                },
+                "rationale": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "source_feature_ids": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "pattern": "^F[0-9]{3}$"
+                  },
+                  "uniqueItems": true
+                },
+                "duplicate_claim_numbers": {
+                  "type": "array",
+                  "items": {
+                    "type": "integer",
+                    "minimum": 1
+                  },
+                  "uniqueItems": true
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "conciseness_review": {
+            "type": "object",
+            "required": [
+              "status",
+              "statement",
+              "reviewed_at"
+            ],
+            "properties": {
+              "status": {
+                "enum": [
+                  "pending",
+                  "approved",
+                  "revise"
+                ]
+              },
+              "statement": {
+                "type": "string",
+                "minLength": 1
+              },
+              "reviewed_at": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "topology_nodes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "node_id",
+          "label"
+        ],
+        "properties": {
+          "node_id": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9_.:-]+$"
+          },
+          "label": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "claim_topologies": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "claim_number",
+          "parent_claim_numbers",
+          "declared_relations"
+        ],
+        "properties": {
+          "claim_number": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "parent_claim_numbers": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "uniqueItems": true
+          },
+          "declared_relations": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "relation_id",
+                "source_node_id",
+                "target_node_id",
+                "relation_type",
+                "target_port",
+                "exclusive_target_port"
+              ],
+              "properties": {
+                "relation_id": {
+                  "type": "string",
+                  "pattern": "^[A-Za-z0-9_.:-]+$"
+                },
+                "source_node_id": {
+                  "type": "string",
+                  "pattern": "^[A-Za-z0-9_.:-]+$"
+                },
+                "target_node_id": {
+                  "type": "string",
+                  "pattern": "^[A-Za-z0-9_.:-]+$"
+                },
+                "relation_type": {
+                  "enum": [
+                    "connects",
+                    "provides",
+                    "controls",
+                    "contains",
+                    "data_flow",
+                    "other"
+                  ]
+                },
+                "target_port": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "exclusive_target_port": {
+                  "type": "boolean"
+                },
+                "source_anchor": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "method_claims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "claim_number",
+          "steps",
+          "decisions",
+          "loops"
+        ],
+        "properties": {
+          "claim_number": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "steps": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": [
+                "step_id",
+                "order",
+                "action",
+                "specification_anchor"
+              ],
+              "properties": {
+                "step_id": {
+                  "type": "string",
+                  "pattern": "^S[0-9]+$"
+                },
+                "order": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "action": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "specification_anchor": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "decisions": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "decision_id",
+                "after_step_id",
+                "condition",
+                "true_target_step_id",
+                "false_target_step_id"
+              ],
+              "properties": {
+                "decision_id": {
+                  "type": "string",
+                  "pattern": "^[A-Za-z0-9_.:-]+$"
+                },
+                "after_step_id": {
+                  "type": "string",
+                  "pattern": "^S[0-9]+$"
+                },
+                "condition": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "true_target_step_id": {
+                  "type": "string",
+                  "pattern": "^S[0-9]+$"
+                },
+                "false_target_step_id": {
+                  "type": "string",
+                  "pattern": "^S[0-9]+$"
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "loops": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "from_step_id",
+                "to_step_id",
+                "condition"
+              ],
+              "properties": {
+                "from_step_id": {
+                  "type": "string",
+                  "pattern": "^S[0-9]+$"
+                },
+                "to_step_id": {
+                  "type": "string",
+                  "pattern": "^S[0-9]+$"
+                },
+                "condition": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "core_protection_point": {
+      "type": "object",
+      "description": "撰写策略机器状态位：全案最核心的保护点必须放在直接从属于权利要求1的权利要求2。登记承载该保护点的区别特征编号（须为台账中 classification=distinguishing 且 claim_sites 落在权利要求2的特征），并留下人工复核决定。字数上限由 cn-patent-claims-analyzer 的 CN-CLAIM-LENGTH-003 判定。",
+      "required": [
+        "claim_number",
+        "parent_claim_number",
+        "feature_ids",
+        "statement",
+        "review"
+      ],
+      "properties": {
+        "claim_number": {
+          "const": 2
+        },
+        "parent_claim_number": {
+          "const": 1
+        },
+        "feature_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^F[0-9]{3}$"
+          }
+        },
+        "statement": {
+          "type": "string",
+          "minLength": 1,
+          "description": "对照区别特征表与检索结论，说明为什么这些特征是全案最核心的保护点。"
+        },
+        "review": {
+          "type": "object",
+          "required": [
+            "status",
+            "statement",
+            "reviewed_at"
+          ],
+          "properties": {
+            "status": {
+              "enum": [
+                "pending",
+                "approved",
+                "revise"
+              ]
+            },
+            "statement": {
+              "type": "string",
+              "minLength": 1
+            },
+            "reviewed_at": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

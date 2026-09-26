@@ -1,0 +1,195 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "cn-patent-template-style/v1",
+  "title": "中国专利范本风格指南",
+  "description": "范本专利的句法、结构和布局特征；不得承载或复制范本技术内容。",
+  "type": "object",
+  "required": [
+    "schema_id",
+    "template_patent",
+    "extraction_timestamp",
+    "claims_style",
+    "specification_style",
+    "drawing_style",
+    "abstract_style",
+    "extraction_methodology",
+    "usage_notes"
+  ],
+  "properties": {
+    "schema_id": {"const": "cn-patent-template-style/v1"},
+    "template_patent": {"type": "string", "minLength": 1},
+    "extraction_timestamp": {"type": "string", "format": "date-time"},
+    "claims_style": {
+      "type": "object",
+      "required": [
+        "independent_claims_count",
+        "dependent_claims_count",
+        "total_claims",
+        "dependency_pattern",
+        "avg_independent_claim_chars",
+        "avg_dependent_claim_chars",
+        "max_independent_claim_chars",
+        "min_independent_claim_chars",
+        "claim_preamble_style",
+        "feature_introduction_pattern"
+      ],
+      "properties": {
+        "independent_claims_count": {"type": "integer", "minimum": 1},
+        "dependent_claims_count": {"type": "integer", "minimum": 0},
+        "total_claims": {"type": "integer", "minimum": 1},
+        "dependency_pattern": {"enum": ["tree", "linear", "mixed"]},
+        "avg_independent_claim_chars": {"type": "number", "minimum": 0},
+        "avg_dependent_claim_chars": {"type": "number", "minimum": 0},
+        "max_independent_claim_chars": {"type": "number", "minimum": 0},
+        "min_independent_claim_chars": {"type": "number", "minimum": 0},
+        "claim_preamble_style": {"type": "array", "items": {"type": "string"}},
+        "feature_introduction_pattern": {"type": "string"},
+        "claim_structure_notes": {"type": "string"}
+      },
+      "additionalProperties": false
+    },
+    "specification_style": {
+      "type": "object",
+      "required": [
+        "embodiments_count",
+        "embodiment_organization",
+        "avg_paragraph_chars",
+        "max_paragraph_chars",
+        "min_paragraph_chars",
+        "technical_field_chars",
+        "background_chars",
+        "invention_content_chars",
+        "implementation_chars",
+        "drawings_description_chars",
+        "description_mode",
+        "terminology_samples",
+        "sentence_patterns"
+      ],
+      "properties": {
+        "embodiments_count": {"type": "integer", "minimum": 0},
+        "embodiment_organization": {
+          "enum": ["sectioned", "single_flow", "none"],
+          "description": "实施例组织方式：sectioned=独立标题分节平行展开；single_flow=单一实施方式贯穿，编号仅在行文中提及；none=无实施例编号。实施例数量回答不了说明书形态，必须与本字段一并消费。"
+        },
+        "embodiment_detection_notes": {"type": "string"},
+        "avg_paragraph_chars": {"type": "number", "minimum": 0},
+        "max_paragraph_chars": {"type": "number", "minimum": 0},
+        "min_paragraph_chars": {"type": "number", "minimum": 0},
+        "technical_field_chars": {"type": "number", "minimum": 0},
+        "background_chars": {"type": "number", "minimum": 0},
+        "invention_content_chars": {"type": "number", "minimum": 0},
+        "implementation_chars": {"type": "number", "minimum": 0},
+        "drawings_description_chars": {"type": "number", "minimum": 0},
+        "description_mode": {"enum": ["process_oriented", "structure_oriented", "mixed"]},
+        "embodiment_description_pattern": {"type": "string"},
+        "terminology_samples": {"type": "array", "items": {"type": "string"}},
+        "sentence_patterns": {"type": "array", "items": {"type": "string"}},
+        "paragraph_structure_notes": {"type": "string"}
+      },
+      "additionalProperties": false
+    },
+    "drawing_style": {
+      "type": "object",
+      "required": [
+        "total_drawings",
+        "drawing_types",
+        "reference_sign_pattern",
+        "reference_sign_count"
+      ],
+      "properties": {
+        "total_drawings": {"type": "integer", "minimum": 0},
+        "drawing_types": {"type": "array", "items": {"type": "string"}},
+        "reference_sign_pattern": {"type": "string"},
+        "reference_sign_count": {"type": "integer", "minimum": 0},
+        "reference_sign_distribution": {"type": "object"},
+        "drawing_notes": {"type": "string"}
+      },
+      "additionalProperties": false
+    },
+    "abstract_style": {
+      "oneOf": [
+        {"type": "object", "maxProperties": 0},
+        {
+          "type": "object",
+          "required": ["chars_count", "structure_pattern", "opening_phrase", "abstract_notes"],
+          "properties": {
+            "chars_count": {"type": "integer", "minimum": 0},
+            "structure_pattern": {
+              "enum": [
+                "technical_problem+technical_solution+technical_effect",
+                "technical_field+technical_solution+technical_effect",
+                "technical_solution+technical_effect",
+                "unknown"
+              ]
+            },
+            "opening_phrase": {"type": "string"},
+            "abstract_notes": {"type": "string"}
+          },
+          "additionalProperties": false
+        }
+      ]
+    },
+    "special_formatting": {"type": "object"},
+    "terminology_consistency": {"type": "object"},
+    "quality_indicators": {"type": "object"},
+    "provenance": {
+      "type": "object",
+      "description": "合成来源与人工覆盖审计。单份范本的分析输出可以省略；由多份范本合成或经人工修正的指南必须提供。",
+      "required": ["mode"],
+      "properties": {
+        "mode": {"enum": ["analyzer", "composite", "manual_revision"]},
+        "source_guides": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["template_patent", "path", "sha256"],
+            "properties": {
+              "template_patent": {"type": "string", "minLength": 1},
+              "path": {"type": "string", "minLength": 1},
+              "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+            },
+            "additionalProperties": false
+          }
+        },
+        "manual_overrides": {
+          "type": "array",
+          "description": "每一处偏离机器分析值的人工修正。字段路径、机器值、人工值和依据缺一不可——手改数字而不留审计，正是实施例数被填成附图数的通道。",
+          "items": {
+            "type": "object",
+            "required": ["field_path", "machine_value", "manual_value", "justification", "evidence"],
+            "properties": {
+              "field_path": {"type": "string", "minLength": 1},
+              "machine_value": {},
+              "manual_value": {},
+              "justification": {"type": "string", "minLength": 1},
+              "evidence": {"type": "string", "minLength": 1}
+            },
+            "additionalProperties": false
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "extraction_methodology": {
+      "type": "object",
+      "required": ["tools_used", "confidence_level", "limitations"],
+      "properties": {
+        "tools_used": {"type": "string"},
+        "confidence_level": {"enum": ["high", "medium", "low"]},
+        "limitations": {"type": "string"}
+      },
+      "additionalProperties": false
+    },
+    "usage_notes": {
+      "type": "object",
+      "required": ["applicable_scope", "mimicry_boundary", "disclaimer"],
+      "properties": {
+        "applicable_scope": {"type": "string"},
+        "mimicry_boundary": {"type": "string", "minLength": 1},
+        "disclaimer": {"type": "string", "minLength": 1}
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
