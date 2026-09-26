@@ -36,6 +36,18 @@
       "lastSync": "2026-09-25T09:12:11Z",
       "lastSyncTree": "2d0e48d6d3df0c805943e58ced4fd94fbd79e0d6",
       "notes": ""
+    },
+    {
+      "name": "gzh-design",
+      "origin": "vendored",
+      "fork": "https://github.com/zhjnerv/gzh-design-skill",
+      "upstream": "https://github.com/isjiamu/gzh-design-skill",
+      "branch": "main",
+      "subpath": null,
+      "vendoredAt": "2026-09-26T08:55:28Z",
+      "lastSync": "2026-09-26T08:55:28Z",
+      "lastSyncTree": "2d6ac9a556bc4ae5aad86429c554b63800e493b6",
+      "notes": ""
     }
   ]
 }
