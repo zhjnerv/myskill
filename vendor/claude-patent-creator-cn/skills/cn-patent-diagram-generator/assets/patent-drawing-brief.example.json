@@ -1,0 +1,290 @@
+{
+  "schema_id": "cn-patent-drawing-brief/v4",
+  "case_id": "示例案件",
+  "generated_at": "2026-08-28",
+  "source_artifacts": [
+    {
+      "artifact_id": "claims",
+      "path": "../权利要求书.md",
+      "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    },
+    {
+      "artifact_id": "specification",
+      "path": "../说明书.md",
+      "sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+    },
+    {
+      "artifact_id": "feature_ledger",
+      "path": "../../01-检索/feature-ledger.json",
+      "sha256": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+    },
+    {
+      "artifact_id": "claim_architecture",
+      "path": "../../03-审查工作区/claim-architecture.json",
+      "sha256": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
+    }
+  ],
+  "output_root": "../说明书附图",
+  "global_constraints": {
+    "figure_number_on_canvas": false,
+    "edge_labels_allowed": true,
+    "annotation_nodes_may_be_edge_endpoints": false,
+    "official_drawio_export_required": true,
+    "visual_review_required": true,
+    "minimum_png_dpi": 300,
+    "color_policy": {
+      "mode": "restrained_color",
+      "grayscale_safe": true,
+      "color_semantics_redundant": true,
+      "max_nonwhite_fills": 3,
+      "allowed_fill_colors": [
+        "#FFFFFF",
+        "#EAF2F8",
+        "#EEF4EA",
+        "#F8F2E6",
+        "#F4F4F4"
+      ],
+      "allowed_stroke_colors": [
+        "#202020",
+        "#405F73",
+        "#52634E",
+        "#706347",
+        "#4A4A4A",
+        "#666666"
+      ],
+      "palette_asset": "assets/patent-restrained-color.json"
+    },
+    "single_primary_question_required": true,
+    "independent_route_channels_required": true,
+    "final_png_visual_review_required": true,
+    "method_step_isomorphism_required": true,
+    "source_text_binding_required": true,
+    "native_edge_labels_required": true,
+    "separate_relation_label_nodes_allowed": false,
+    "node_text_policy": {
+      "reference_page_width": 827,
+      "reference_page_height": 1169,
+      "minimum_font_size": 14,
+      "maximum_width_to_font_size_ratio": 20,
+      "horizontal_padding": 8,
+      "vertical_padding": 4,
+      "line_height_factor": 1.2,
+      "maximum_wrapped_lines": 4,
+      "wrap_required": true,
+      "font_autoshrink_allowed": false,
+      "maximum_frame_to_text_height_ratio": 2,
+      "maximum_chinese_characters_per_line": 12
+    },
+    "png_margin_policy": {
+      "crop_to_diagram_required": true,
+      "target_border_pixels": 10,
+      "maximum_margin_pixels": 20,
+      "white_threshold": 245
+    },
+    "vertical_spacing_policy": {
+      "minimum_effective_blank_to_font_height_ratio": 2,
+      "maximum_effective_blank_to_font_height_ratio": 3,
+      "subtract_native_edge_label_text_height": true,
+      "subtract_arrowhead_height": true,
+      "default_edge_label_font_size": 12,
+      "default_arrowhead_height": 6
+    },
+    "node_shape_policy": {
+      "cylinder_requires_data_store_kind": true,
+      "cylinder_label_pattern": "存储|记录|数据库|数据表|缓存|仓库"
+    },
+    "relation_label_policy": {
+      "minimum_font_to_node_font_ratio": 0.6666666666666666,
+      "minimum_vertical_clearance_in_arrowhead_heights": 1,
+      "default_arrowhead_height": 6,
+      "centered_vertical_label_required": true,
+      "vertical_label_center_tolerance": 0.1
+    }
+  },
+  "visual_review_path": "visual-review.json",
+  "figures": [
+    {
+      "figure_number": 1,
+      "title": "条件处理流程图",
+      "file_stem": "图1-条件处理流程图",
+      "diagram_type": "method_flowchart",
+      "orientation": "portrait",
+      "purpose": "表示条件校验和处理分支",
+      "claim_numbers": [
+        1
+      ],
+      "spec_anchors": [
+        "条件校验"
+      ],
+      "elements": [
+        {
+          "id": "STEP1",
+          "label": "S1 开始处理",
+          "kind": "step",
+          "reference_sign": "S1",
+          "source_anchor": "开始处理",
+          "layer_id": "L1",
+          "source_feature_ids": [
+            "F001"
+          ]
+        },
+        {
+          "id": "DECIDE",
+          "label": "条件满足？",
+          "kind": "decision",
+          "source_anchor": "条件校验",
+          "layer_id": "L2",
+          "source_feature_ids": [
+            "F001"
+          ]
+        },
+        {
+          "id": "STEP2",
+          "label": "S2 执行处理",
+          "kind": "step",
+          "reference_sign": "S2",
+          "source_anchor": "执行处理",
+          "layer_id": "L3",
+          "source_feature_ids": [
+            "F001"
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "id": "R1",
+          "source": "STEP1",
+          "target": "DECIDE",
+          "kind": "control",
+          "preferred_direction": "vertical",
+          "direct_connection_required": true,
+          "source_anchor": "条件校验",
+          "route_channel": "C1",
+          "source_feature_ids": [
+            "F001"
+          ]
+        },
+        {
+          "id": "R2",
+          "source": "DECIDE",
+          "target": "STEP2",
+          "label": "是",
+          "kind": "control",
+          "preferred_direction": "vertical",
+          "direct_connection_required": true,
+          "source_anchor": "条件满足时",
+          "route_channel": "C2",
+          "source_feature_ids": [
+            "F001"
+          ]
+        },
+        {
+          "id": "R3",
+          "source": "DECIDE",
+          "target": "STEP1",
+          "label": "否",
+          "kind": "control",
+          "preferred_direction": "vertical",
+          "direct_connection_required": true,
+          "source_anchor": "条件不满足时返回开始处理",
+          "route_channel": "C3",
+          "source_feature_ids": [
+            "F001"
+          ]
+        }
+      ],
+      "outputs": {
+        "drawio": "../说明书附图/图1-条件处理流程图.drawio",
+        "preview_png": "preview/图1-条件处理流程图.png",
+        "final_png": "../说明书附图/图1-条件处理流程图.png",
+        "export_report": "export/图1-export.json",
+        "drawio_lint_report": "lint/图1.json"
+      },
+      "style_profile": "patent_restrained_color",
+      "primary_question": "输入条件满足时如何进入处理步骤？",
+      "reading_direction": "top_to_bottom",
+      "layers": [
+        {
+          "id": "L1",
+          "title": "入口",
+          "order": 1
+        },
+        {
+          "id": "L2",
+          "title": "判断",
+          "order": 2
+        },
+        {
+          "id": "L3",
+          "title": "处理",
+          "order": 3
+        }
+      ],
+      "complexity_budget": {
+        "max_technical_elements": 6,
+        "max_relations": 3,
+        "max_decisions": 2
+      },
+      "normal_exit_ids": [
+        "STEP2"
+      ],
+      "exception_exit_ids": [],
+      "spec_assertions": [
+        {
+          "anchor": "条件满足时",
+          "element_ids": [
+            "STEP1",
+            "DECIDE",
+            "STEP2"
+          ],
+          "relation_ids": [
+            "R1",
+            "R2",
+            "R3"
+          ]
+        }
+      ],
+      "method_claim_number": 1,
+      "step_bindings": [
+        {
+          "step_id": "S1",
+          "element_id": "STEP1",
+          "claim_action": "开始处理",
+          "specification_anchor": "开始处理"
+        },
+        {
+          "step_id": "S2",
+          "element_id": "STEP2",
+          "claim_action": "执行处理",
+          "specification_anchor": "执行处理"
+        }
+      ],
+      "decision_bindings": [
+        {
+          "decision_id": "D1",
+          "element_id": "DECIDE",
+          "condition": "条件满足？",
+          "true_branch": {
+            "relation_id": "R2",
+            "target_step_id": "S2",
+            "label": "是"
+          },
+          "false_branch": {
+            "relation_id": "R3",
+            "target_step_id": "S1",
+            "label": "否"
+          }
+        }
+      ],
+      "loop_bindings": [
+        {
+          "relation_id": "R3",
+          "from_step_id": "S1",
+          "to_step_id": "S1",
+          "condition": "条件不满足"
+        }
+      ]
+    }
+  ],
+  "production_skill": "drawio-skill"
+}

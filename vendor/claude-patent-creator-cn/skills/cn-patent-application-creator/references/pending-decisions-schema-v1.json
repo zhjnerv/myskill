@@ -1,0 +1,126 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "schema_id": {
+      "type": "string",
+      "const": "cn-patent-pending-decisions/v1"
+    },
+    "case_id": {
+      "type": "string"
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "legal_effect": {
+      "type": "string",
+      "const": "ADVISORY_ONLY"
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "tool_id": { "type": "string" },
+          "report_path": { "type": "string" },
+          "sha256": { "type": "string" },
+          "count": { "type": "integer" }
+        },
+        "required": ["report_path"],
+        "additionalProperties": false
+      }
+    },
+    "decisions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^D\\d{3}$"
+          },
+          "key": {
+            "type": "string"
+          },
+          "source": {
+            "type": "object",
+            "properties": {
+              "tool_id": { "type": "string" },
+              "rule_id": { "type": "string" }
+            },
+            "required": ["tool_id", "rule_id"],
+            "additionalProperties": false
+          },
+          "target": {
+            "type": "object",
+            "properties": {
+              "kind": {
+                "type": "string",
+                "enum": ["process", "ledger", "claim", "specification", "abstract", "drawing", "review"]
+              },
+              "locator": {
+                "type": "string"
+              }
+            },
+            "required": ["kind", "locator"],
+            "additionalProperties": false
+          },
+          "question": {
+            "type": "string"
+          },
+          "adopted_default": {
+            "type": "string"
+          },
+          "options": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "impact": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": ["protection_scope", "grant_risk", "formality", "delivery", "evidence"]
+            }
+          },
+          "decider": {
+            "type": "string",
+            "enum": ["inventor", "attorney", "both"]
+          },
+          "duplicates_of": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "tool_id": { "type": "string" },
+                "rule_id": { "type": "string" }
+              },
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": [
+          "id", "key", "source", "target", "question",
+          "adopted_default", "options", "impact", "decider"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "summary": {
+      "type": "object",
+      "properties": {
+        "decider": {
+          "type": "object",
+          "additionalProperties": { "type": "integer" }
+        },
+        "impact": {
+          "type": "object",
+          "additionalProperties": { "type": "integer" }
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "required": ["schema_id", "case_id", "generated_at", "legal_effect", "sources", "decisions", "summary"],
+  "additionalProperties": false
+}

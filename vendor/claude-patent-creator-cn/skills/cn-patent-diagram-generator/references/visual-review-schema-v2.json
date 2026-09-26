@@ -1,0 +1,274 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "cn-patent-drawing-visual-review/v2",
+  "title": "中国专利附图视觉复核记录 v2",
+  "type": "object",
+  "required": [
+    "schema_id",
+    "reviewed_at",
+    "reviewer",
+    "review_method",
+    "brief_sha256",
+    "figures"
+  ],
+  "properties": {
+    "schema_id": {
+      "const": "cn-patent-drawing-visual-review/v2"
+    },
+    "reviewed_at": {
+      "type": "string",
+      "minLength": 1
+    },
+    "reviewer": {
+      "type": "string",
+      "minLength": 1
+    },
+    "figures": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "figure_number",
+          "png_path",
+          "png_sha256",
+          "checks",
+          "approved",
+          "export_report_path",
+          "export_report_sha256",
+          "inspection"
+        ],
+        "properties": {
+          "figure_number": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "png_path": {
+            "type": "string",
+            "minLength": 1
+          },
+          "png_sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          },
+          "checks": {
+            "type": "object",
+            "required": [
+              "text_legible",
+              "no_text_overlap",
+              "no_edge_crossing",
+              "no_edge_through_node",
+              "no_arrow_ambiguity",
+              "labels_adjacent",
+              "grayscale_safe",
+              "no_figure_number_on_canvas",
+              "no_unnecessary_detours",
+              "consistent_typography",
+              "balanced_spacing",
+              "clear_visual_hierarchy",
+              "formal_patent_style",
+              "node_text_proportionate",
+              "no_text_overflow",
+              "no_excessive_canvas_margin"
+            ],
+            "properties": {
+              "text_legible": {
+                "const": true
+              },
+              "no_text_overlap": {
+                "const": true
+              },
+              "no_edge_crossing": {
+                "const": true
+              },
+              "no_edge_through_node": {
+                "const": true
+              },
+              "no_arrow_ambiguity": {
+                "const": true
+              },
+              "labels_adjacent": {
+                "const": true
+              },
+              "no_figure_number_on_canvas": {
+                "const": true
+              },
+              "monochrome": {
+                "type": "boolean"
+              },
+              "restrained_color": {
+                "type": "boolean"
+              },
+              "grayscale_safe": {
+                "const": true
+              },
+              "no_unnecessary_detours": {
+                "const": true
+              },
+              "consistent_typography": {
+                "const": true
+              },
+              "balanced_spacing": {
+                "const": true
+              },
+              "clear_visual_hierarchy": {
+                "const": true
+              },
+              "formal_patent_style": {
+                "const": true
+              },
+              "node_text_proportionate": {
+                "const": true
+              },
+              "no_text_overflow": {
+                "const": true
+              },
+              "no_excessive_canvas_margin": {
+                "const": true
+              }
+            },
+            "additionalProperties": true
+          },
+          "approved": {
+            "const": true
+          },
+          "notes": {
+            "type": "string"
+          },
+          "export_report_path": {
+            "type": "string",
+            "minLength": 1
+          },
+          "export_report_sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          },
+          "inspection": {
+            "type": "object",
+            "required": [
+              "viewed_at",
+              "full_scale_percent",
+              "reduced_scale_percent",
+              "observations"
+            ],
+            "properties": {
+              "viewed_at": {
+                "type": "string",
+                "minLength": 1
+              },
+              "full_scale_percent": {
+                "type": "integer",
+                "minimum": 100
+              },
+              "reduced_scale_percent": {
+                "type": "integer",
+                "minimum": 20,
+                "maximum": 80
+              },
+              "observations": {
+                "type": "object",
+                "required": [
+                  "text_legible",
+                  "no_text_overlap",
+                  "no_edge_crossing",
+                  "no_edge_through_node",
+                  "no_arrow_ambiguity",
+                  "labels_adjacent",
+                  "grayscale_safe",
+                  "no_figure_number_on_canvas",
+                  "no_unnecessary_detours",
+                  "consistent_typography",
+                  "balanced_spacing",
+                  "clear_visual_hierarchy",
+                  "formal_patent_style",
+                  "node_text_proportionate",
+                  "no_text_overflow",
+                  "no_excessive_canvas_margin"
+                ],
+                "properties": {
+                  "text_legible": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "no_text_overlap": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "no_edge_crossing": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "no_edge_through_node": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "no_arrow_ambiguity": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "labels_adjacent": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "grayscale_safe": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "no_figure_number_on_canvas": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "no_unnecessary_detours": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "consistent_typography": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "balanced_spacing": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "clear_visual_hierarchy": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "formal_patent_style": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "node_text_proportionate": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "no_text_overflow": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "no_excessive_canvas_margin": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                },
+                "additionalProperties": true
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "review_method": {
+      "type": "string",
+      "minLength": 1,
+      "description": "实际查看最终 PNG 的软件、显示设备或审阅方式。"
+    },
+    "brief_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    }
+  },
+  "additionalProperties": false
+}

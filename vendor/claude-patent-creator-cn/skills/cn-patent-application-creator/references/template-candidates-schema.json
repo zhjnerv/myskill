@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "cn-patent-template-candidates/v1",
+  "title": "中国专利范本候选清单",
+  "description": "范本候选的检索证据、技术相关性评分与撰写主体著录。IPC 可暂缺，由排序脚本优先通过 EPO OPS 补全；applicant/agency 用于申请人质量与代理机构质量评分。",
+  "type": "object",
+  "required": [
+    "schema_id",
+    "candidates"
+  ],
+  "properties": {
+    "schema_id": {
+      "const": "cn-patent-template-candidates/v1"
+    },
+    "searched_at": {
+      "type": "string",
+      "minLength": 1
+    },
+    "database": {
+      "type": "string",
+      "minLength": 1
+    },
+    "candidates": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "publication_number",
+          "title",
+          "technical_relevance_score",
+          "technical_relevance_reason"
+        ],
+        "properties": {
+          "publication_number": {
+            "type": "string",
+            "minLength": 3
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "assignee": {
+            "type": "string"
+          },
+          "search_rank": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "search_query": {
+            "type": "string"
+          },
+          "technical_relevance_score": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "technical_relevance_reason": {
+            "type": "string",
+            "minLength": 1
+          },
+          "ipc_codes": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "classification_source": {
+            "type": "string"
+          },
+          "applicant": {
+            "type": "string",
+            "minLength": 1,
+            "description": "申请人名称，用于主体质量评分"
+          },
+          "agency": {
+            "type": "string",
+            "minLength": 1,
+            "description": "专利代理机构名称，用于主体质量评分"
+          }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}

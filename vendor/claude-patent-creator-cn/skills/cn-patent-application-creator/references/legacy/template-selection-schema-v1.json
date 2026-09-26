@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "cn-patent-template-selection/v1",
+  "title": "中国专利范本 IPC 加权选择报告",
+  "description": "以技术相关性和 IPC 相似度共同选择范本，候选 IPC 优先由 EPO OPS 获取。",
+  "type": "object",
+  "required": ["schema_id", "target_ipc", "weights", "classification_policy", "candidates", "recommended", "selected", "inputs"],
+  "properties": {
+    "schema_id": {"const": "cn-patent-template-selection/v1"},
+    "target_ipc": {
+      "type": "object",
+      "required": ["status", "ipc_codes", "source"],
+      "properties": {
+        "status": {"const": "determined"},
+        "ipc_codes": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
+        "source": {"type": "string", "minLength": 1}
+      },
+      "additionalProperties": true
+    },
+    "weights": {
+      "type": "object",
+      "required": ["technical_relevance", "ipc_similarity"],
+      "properties": {
+        "technical_relevance": {"type": "number", "exclusiveMinimum": 0, "maximum": 1},
+        "ipc_similarity": {"type": "number", "exclusiveMinimum": 0, "maximum": 1}
+      },
+      "additionalProperties": false
+    },
+    "classification_policy": {
+      "type": "object",
+      "required": ["preferred_provider", "fallback_order"],
+      "properties": {
+        "preferred_provider": {"const": "epo_ops"},
+        "fallback_order": {"type": "array", "items": {"type": "string"}}
+      },
+      "additionalProperties": true
+    },
+    "candidates": {"type": "array", "minItems": 1, "items": {"type": "object"}},
+    "recommended": {"type": "object"},
+    "selected": {"type": "object"},
+    "inputs": {
+      "type": "object",
+      "required": ["search_query_path", "search_query_sha256", "candidate_manifest_path", "candidate_manifest_sha256"],
+      "properties": {
+        "search_query_path": {"type": "string", "minLength": 1},
+        "search_query_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "candidate_manifest_path": {"type": "string", "minLength": 1},
+        "candidate_manifest_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": true
+}

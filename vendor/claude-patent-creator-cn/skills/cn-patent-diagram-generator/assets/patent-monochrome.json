@@ -1,0 +1,66 @@
+{
+  "name": "patent_monochrome",
+  "purpose": "中国专利说明书附图的黑白线图方案",
+  "background": "#FFFFFF",
+  "fontColor": "#111111",
+  "edgeColor": "#000000",
+  "roles": {
+    "primary": {
+      "fillColor": "#FFFFFF",
+      "strokeColor": "#000000"
+    },
+    "secondary": {
+      "fillColor": "#F5F5F5",
+      "strokeColor": "#333333"
+    },
+    "decision": {
+      "fillColor": "#FFFFFF",
+      "strokeColor": "#000000"
+    },
+    "neutral": {
+      "fillColor": "#F5F5F5",
+      "strokeColor": "#555555"
+    },
+    "external": {
+      "fillColor": "#FFFFFF",
+      "strokeColor": "#555555",
+      "dashed": true
+    }
+  },
+  "rules": {
+    "maximum_nonwhite_fills_per_figure": 1,
+    "gradients": false,
+    "shadows": false,
+    "transparency": false,
+    "dark_background": false,
+    "color_must_not_be_only_semantic_carrier": true
+  },
+  "typography": {
+    "fontFamily": "Noto Sans CJK SC, Microsoft YaHei, Arial, sans-serif",
+    "primaryFontSize": 15,
+    "annotationFontSize": 13,
+    "minimumFontSize": 12,
+    "fontColor": "#111111",
+    "maximumChineseCharactersPerLine": 12
+  },
+  "geometry": {
+    "grid": 10,
+    "defaultNodeWidth": 200,
+    "defaultNodeHeight": 70,
+    "minimumHorizontalGap": 80,
+    "routingCorridor": 80,
+    "pageMargin": 40,
+    "maximumFrameToTextHeightRatio": 2,
+    "maximumVerticalBlankToSmallerNodeHeightRatio": 0.5,
+    "subtractNativeEdgeLabelTextHeight": true
+  },
+  "connectors": {
+    "edgeStyle": "orthogonalEdgeStyle",
+    "rounded": false,
+    "strokeWidth": 1.4,
+    "endArrow": "blockThin",
+    "singleDirectEdge": true,
+    "nativeEdgeLabels": true,
+    "separateLabelNodes": false
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "cn-patent-feature-ledger/v1",
+  "title": "中国发明专利区别特征表",
+  "description": "全案唯一的技术特征台账。每一个特征在此登记一次，并绑定它在权利要求书、说明书和说明书附图中的落点；三份法定文件由本台账派生，而不是各自持有一份事实副本。台账本身不做法律判断，只保证四向可对账。",
+  "type": "object",
+  "required": ["schema_id", "case_id", "generated_at", "closest_prior_art", "features"],
+  "properties": {
+    "schema_id": {"const": "cn-patent-feature-ledger/v1"},
+    "case_id": {"type": "string", "minLength": 1},
+    "generated_at": {"type": "string", "minLength": 1},
+    "legal_effect": {"const": "ADVISORY_ONLY"},
+    "closest_prior_art": {
+      "type": "array",
+      "description": "最接近的现有技术。为空是合法状态，但必须在 search_status 中说明检索尚未完成——空数组不等于不存在现有技术。",
+      "items": {
+        "type": "object",
+        "required": ["doc_id", "title", "role"],
+        "properties": {
+          "doc_id": {"type": "string", "minLength": 1},
+          "title": {"type": "string", "minLength": 1},
+          "role": {
+            "enum": ["closest", "combination", "background", "conflicting_application_risk"],
+            "description": "closest=三步法第一步的最接近现有技术；combination=用于结合启示；background=仅背景技术引用；conflicting_application_risk=抵触申请残余风险标注"
+          },
+          "date": {"type": "string"},
+          "note": {"type": "string"}
+        },
+        "additionalProperties": false
+      }
+    },
+    "search_status": {
+      "type": "object",
+      "required": ["cnipa_manual_search", "statement"],
+      "properties": {
+        "cnipa_manual_search": {"enum": ["completed", "not_completed", "partial"]},
+        "statement": {"type": "string", "minLength": 1},
+        "as_of_date": {"type": "string"}
+      },
+      "additionalProperties": false
+    },
+    "features": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["feature_id", "name", "statement", "classification", "evidence", "claim_sites", "spec_sites"],
+        "properties": {
+          "feature_id": {
+            "type": "string",
+            "pattern": "^F[0-9]{3}$",
+            "description": "全案唯一编号。检索报告、权利要求映射、说明书支持矩阵和附图登记必须共用这一套编号，禁止另起 F1/F2 之类的平行编号体系。"
+          },
+          "name": {"type": "string", "minLength": 1, "description": "技术对象或步骤的规范名称。说明书首次出现处必须逐字使用该名称。"},
+          "statement": {"type": "string", "minLength": 1, "description": "该特征做什么（机制），不是它属于什么功能。"},
+          "classification": {
+            "enum": ["preamble", "distinguishing", "fallback_only"],
+            "description": "preamble=与最接近现有技术共有，写入独权前序；distinguishing=区别特征，写入独权特征部分或从属权利要求；fallback_only=不进入权利要求、仅作为专利法第三十三条弹药写入说明书"
+          },
+          "prior_art_status": {
+            "type": "object",
+            "required": ["verdict"],
+            "properties": {
+              "verdict": {
+                "enum": ["disclosed", "not_found_in_searched_outlets", "partially_disclosed", "not_searched"],
+                "description": "不存在 novel 这个取值。检索只能支持“截至某日在已检索出口中未发现”，不能支持“不存在现有技术”。"
+              },
+              "cited_docs": {"type": "array", "items": {"type": "string"}},
+              "note": {"type": "string"}
+            },
+            "additionalProperties": false
+          },
+          "technical_effect": {"type": "string", "description": "该区别特征实际带来的技术效果。三步法第二步据此重述实际解决的技术问题；distinguishing 特征缺此项将被标记。"},
+          "evidence": {
+            "type": "array",
+            "minItems": 1,
+            "description": "特征来自实现本身的证据位置（代码路径、交底书章节、实测数据）。没有实现证据的限定不得写进权利要求。",
+            "items": {
+              "type": "object",
+              "required": ["source", "locator"],
+              "properties": {
+                "source": {"type": "string", "minLength": 1},
+                "locator": {"type": "string", "minLength": 1},
+                "excerpt": {"type": "string"}
+              },
+              "additionalProperties": false
+            }
+          },
+          "claim_sites": {
+            "type": "array",
+            "description": "该特征出现在哪些权利要求项。fallback_only 必须为空数组；preamble 与 distinguishing 必须非空。",
+            "items": {
+              "type": "object",
+              "required": ["claim_number", "part"],
+              "properties": {
+                "claim_number": {"type": "integer", "minimum": 1},
+                "part": {"enum": ["preamble", "characterizing"]},
+                "verbatim": {"type": "string", "description": "权利要求中承载该特征的原文片段，用于逐字比对术语一致性。"}
+              },
+              "additionalProperties": false
+            }
+          },
+          "spec_sites": {
+            "type": "array",
+            "minItems": 1,
+            "description": "说明书中记载该特征的位置。任何特征都必须在说明书有落点——被砍出权利要求的方案没有落点即等于永久丢弃。",
+            "items": {
+              "type": "object",
+              "required": ["section", "anchor"],
+              "properties": {
+                "section": {"enum": ["技术领域", "背景技术", "发明内容", "附图说明", "具体实施方式"]},
+                "anchor": {"type": "string", "minLength": 1, "description": "可在说明书文本中检索到的定位串。"},
+                "role": {"enum": ["definition", "embodiment", "alternative", "boundary", "effect"]}
+              },
+              "additionalProperties": false
+            }
+          },
+          "drawing_sites": {
+            "type": "array",
+            "description": "该特征在附图中的呈现。部件用 component 标记，方法步骤用 step 标记——两者共用同一数字空间正是上一轮无法自动对账的原因。",
+            "items": {
+              "type": "object",
+              "required": ["figure", "mark_kind", "mark"],
+              "properties": {
+                "figure": {"type": "integer", "minimum": 1},
+                "mark_kind": {
+                  "enum": ["component", "step", "none"],
+                  "description": "component=附图标记（须进附图标记清单）；step=步骤号（不进附图标记清单）；none=在图中出现但不带标记"
+                },
+                "mark": {"type": "string", "minLength": 1},
+                "label": {"type": "string", "description": "图面上的文字。留空时按 name 逐字校验。"}
+              },
+              "additionalProperties": false
+            }
+          },
+          "notes": {"type": "string"}
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
