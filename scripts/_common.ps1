@@ -14,15 +14,21 @@ function Get-RepoRoot {
     return (Resolve-Path (Join-Path $PSScriptRoot '..')).Path
 }
 
-function Get-SkillPath {
+function Get-SkillPrefix {
+    <# git subtree --prefix 必须是相对仓库根的正斜杠路径。
+       registry 里写了 localPrefix 时用它（整仓包放在 vendor/，不放 skills/）。 #>
     param([Parameter(Mandatory)][string]$Name)
-    return (Join-Path (Join-Path (Get-RepoRoot) 'skills') $Name)
+    $entry = Get-SkillEntry -Registry (Read-Registry) -Name $Name
+    if ($entry -and ($entry.PSObject.Properties.Name -contains 'localPrefix') -and $entry.localPrefix) {
+        return (($entry.localPrefix -replace '\\','/').Trim('/'))
+    }
+    return "skills/$Name"
 }
 
-function Get-SkillPrefix {
-    <# git subtree --prefix 必须是相对仓库根的正斜杠路径 #>
+function Get-SkillPath {
     param([Parameter(Mandatory)][string]$Name)
-    return "skills/$Name"
+    $prefix = (Get-SkillPrefix $Name) -replace '/','\'
+    return (Join-Path (Get-RepoRoot) $prefix)
 }
 
 function Get-MirrorCacheRoot {

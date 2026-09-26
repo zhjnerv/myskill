@@ -46,8 +46,12 @@ def unmerged_files() -> list[str]:
     return [line for line in result.stdout.splitlines() if line.strip()]
 
 
-def skill_tree(name: str) -> str:
-    result = git("rev-parse", f"HEAD:skills/{name}")
+def skill_prefix(entry: dict) -> str:
+    return (entry.get("localPrefix") or f"skills/{entry['name']}").strip("/")
+
+
+def skill_tree(prefix: str) -> str:
+    result = git("rev-parse", f"HEAD:{prefix}")
     return result.stdout.strip()
 
 
@@ -91,7 +95,7 @@ def sync_skill(entry: dict, cache: dict[tuple[str, str], Path], mirror_root: Pat
     if not upstream:
         print(f"[skip] {name} has no upstream")
         return "skipped"
-    prefix = f"skills/{name}"
+    prefix = skill_prefix(entry)
     before = git("rev-parse", "HEAD").stdout.strip()
     mirror = mirror_for(upstream, branch, cache, mirror_root)
     ref = split_ref(mirror, subpath, branch, name) if subpath else branch
@@ -125,7 +129,7 @@ def sync_skill(entry: dict, cache: dict[tuple[str, str], Path], mirror_root: Pat
         print(f"[current] {name}", flush=True)
         return "current"
     entry["lastSync"] = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-    entry["lastSyncTree"] = skill_tree(name)
+    entry["lastSyncTree"] = skill_tree(prefix)
     print(f"[updated] {name}", flush=True)
     return "updated"
 

@@ -44,6 +44,9 @@ fork 地址默认按「你的 GitHub 账号 + 原仓库名」推导，不用填�
 
 同一个合集 fork 供多个 skill 用时，`-CreateFork` 只在第一条命令上加。
 
+技能如果共用仓库根上的法源、脚本或模板，不要按子目录拆开引入。整仓放到 `vendor/<仓库名>`，并在 `registry.json` 写 `localPrefix`。`skill-deploy.ps1` 会把包里的每个 skill 接到 Agent，并把包根本身接到 `~\.codex\vendor\<仓库名>`。`claude-patent-creator-cn` 就是这种。
+
+
 ### 部署
 
 ```powershell

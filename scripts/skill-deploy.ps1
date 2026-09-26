@@ -101,6 +101,56 @@ foreach ($src in $sources) {
     Write-Ok "$($src.Name)"
 }
 
+
+# 整仓包（registry.localPrefix）不在 skills/ 顶层。把包内每个含 SKILL.md 的子目录
+# 接到 Agent 的 skills 目录，并把包根本身接到 ~/.codex/vendor/<目录名>，
+# 因为这套技能按 CODEX_HOME/vendor 找法源和脚本，而不是按单个 skill 目录。
+$registry = Read-Registry
+foreach ($entry in @($registry.skills)) {
+    if (-not ($entry.PSObject.Properties.Name -contains 'localPrefix') -or -not $entry.localPrefix) { continue }
+    $packageRoot = Join-Path (Get-RepoRoot) (($entry.localPrefix -replace '/','\'))
+    $nested = Join-Path $packageRoot 'skills'
+    if (-not (Test-Path -LiteralPath $nested)) { continue }
+    $nestedSkills = @(Get-ChildItem -LiteralPath $nested -Directory | Where-Object {
+        Test-Path -LiteralPath (Join-Path $_.FullName 'SKILL.md')
+    })
+    if ($Name) { $nestedSkills = @($nestedSkills | Where-Object { $_.Name -eq $Name }) }
+    foreach ($src in $nestedSkills) {
+        $link = Join-Path $TargetRoot $src.Name
+        if (Test-Path -LiteralPath $link) {
+            $item = Get-Item -LiteralPath $link -Force
+            if ((Test-IsReparse $item) -and ((Get-LinkTarget $item).TrimEnd('\') -ieq $src.FullName.TrimEnd('\'))) {
+                Write-Host "  --  $($src.Name) 已就位" -ForegroundColor DarkGray
+                continue
+            }
+            Write-Warn2 "$($src.Name) 已存在且不是指向这个包，未替换。"
+            continue
+        }
+        if ($DryRun) { Write-Host "[dry-run] junction $link -> $($src.FullName)"; continue }
+        New-Item -ItemType Junction -Path $link -Value $src.FullName | Out-Null
+        Write-Ok $src.Name
+    }
+    if (-not $Name) {
+        $vendorRoot = Join-Path $env:USERPROFILE '.codex\vendor'
+        $vendorLink = Join-Path $vendorRoot (Split-Path $packageRoot -Leaf)
+        if (-not (Test-Path -LiteralPath $vendorRoot)) { New-Item -ItemType Directory -Force -Path $vendorRoot | Out-Null }
+        if (Test-Path -LiteralPath $vendorLink) {
+            $item = Get-Item -LiteralPath $vendorLink -Force
+            if ((Test-IsReparse $item) -and ((Get-LinkTarget $item).TrimEnd('\') -ieq $packageRoot.TrimEnd('\'))) {
+                Write-Host "  --  vendor/$(Split-Path $packageRoot -Leaf) 已就位" -ForegroundColor DarkGray
+            } else {
+                Write-Warn2 "vendor 入口已存在且不指向本仓库：$vendorLink"
+            }
+        } else {
+            if ($DryRun) { Write-Host "[dry-run] junction $vendorLink -> $packageRoot" }
+            else {
+                New-Item -ItemType Junction -Path $vendorLink -Value $packageRoot | Out-Null
+                Write-Ok "vendor/$(Split-Path $packageRoot -Leaf)"
+            }
+        }
+    }
+}
+
 if (-not $Prune) { return }
 
 Write-Step '清理指向本仓库的失效链接'
