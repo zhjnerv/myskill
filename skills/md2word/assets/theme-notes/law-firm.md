@@ -117,3 +117,13 @@ brew install --cask font-source-han-serif
 **律师**: 张三
 **日期**: 2025 年 1 月 21 日
 ```
+
+---
+
+## 斯可睿抬头（myskill 个人定制，2026-09-27）
+
+`legal` 预设默认套用 `assets/letterhead/斯可睿抬头.docx` 的页眉/页脚：首页是整幅抬头（横线分隔），后续页是右上角小 logo；页脚为地址、联系方式与 PAGE/NUMPAGES 页码。正文、字体、段落、标题、表格仍按本预设生成。
+
+- 关闭：`--no-letterhead`；换模板：`--letterhead <docx>`
+- 实现：`scripts/letterhead.py`（只搬运页眉页脚部件、媒体、被引用样式与 sectPr 的 header/footer 距离）
+- 上文提到的 `--template` 整份模板模式与它互不影响；两者同时给出时 letterhead 让位

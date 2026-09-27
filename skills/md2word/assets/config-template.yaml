@@ -77,6 +77,11 @@ page_number:
   size: 10.5           # 页码字号 (pt)
   position: "center"   # 页码位置 (left/center/right)
 
+# ==================== 页眉页脚模板 ====================
+letterhead:
+  enabled: false                  # true 时把 template 指向 docx 的页眉/页脚套到产物上
+  template: ""                    # 模板路径（相对 skill 根目录或绝对路径）；留空用内置默认模板
+
 # ==================== 引号设置 ====================
 quotes:
   convert_to_chinese: true   # 是否自动转换英文引号为中文引号

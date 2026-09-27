@@ -2,6 +2,26 @@
 
 本文件记录 md2word 技能的所有重要变更。
 
+## [1.3.9-skr.1] - 2026-09-27
+
+> myskill 个人定制版：相对上游 1.3.8 的个人改动，不向上游提 PR。
+
+### 新增
+- **页眉页脚模板（letterhead）**：新增 `--letterhead [DOCX]` / `--no-letterhead` 与配置段 `letterhead.enabled/template`，只把指定 DOCX 的页眉/页脚（保留首页 `first` 与后续页 `default` 的差异）套到产物上；正文、字体、段落、标题、表格等排版完全沿用当前预设/配置。`legal` 预设默认启用内置 `assets/letterhead/斯可睿抬头.docx`。
+- 实现（`scripts/letterhead.py`）：按类型替换目标的页眉页脚部件，搬运其 `.rels` 与媒体（去重改名、rId 冲突重编号），补 `[Content_Types].xml`，将页眉页脚引用的样式按 basedOn/link 闭包并入目标 `styles.xml`（基底样式按样式名映射回目标的 Normal/TableNormal/Default Paragraph Font），并对齐 sectPr 的 `w:header`/`w:footer` 距离与 `titlePg`。
+- 启用 letterhead 时不再叠加 skill 自带页码页脚（模板页脚自带 PAGE/NUMPAGES 域）；与 `--template`（整份模板当基底）同时给出时 letterhead 让位。
+
+### 修复（恢复 2026-08-09 被上游同步覆盖的本地修复）
+- **Windows GBK 控制台输出**：恢复 `scripts/console_output.py`（stdout/stderr `errors="backslashreplace"`）并在 `config.py`、`footnote_handler.py`、`svg_handler.py` 引入；旧代码页下状态图标不再中断转换（对应 `7597b03`）。
+
+### 验证
+- `python -X utf8 -m unittest test_regressions`：34/34 通过（新增 letterhead 7 例 + GBK 控制台 1 例），UTF-8 与 `PYTHONIOENCODING=gbk:strict` 两轮均 OK。
+- 端到端（Word 导出 PDF 目检）：两页法律文书首页为整幅抬头＋横线、后续页为右上角小 logo，页脚地址/联系方式/页码正确；正文段落 XML 与不开 letterhead 的版本逐字一致。
+- 默认值：`legal.yaml` 启用、`config-template.yaml` 默认关闭；`--no-letterhead` 输出与旧行为一致。
+
+### 文档
+- `SKILL.md`（用法 + 两种模板模式对照）、`references/config-reference.md`（letterhead 配置键）、`assets/theme-notes/law-firm.md`、`README.md` 使用示例同步更新。
+
 ## [1.3.8] - 2026-09-23
 
 ### 修复

@@ -101,6 +101,20 @@ page_number:
   position: "center"       # 位置 (left/center/right)
 ```
 
+### 页眉页脚模板 (letterhead)
+
+把指定 DOCX 的页眉/页脚（保留首页 `first` 与后续页 `default` 的差异）套到产物上；正文、字体、段落、标题等排版仍完全由本配置决定。
+
+```yaml
+letterhead:
+  enabled: false                        # 是否套用页眉页脚模板（legal 预设默认 true）
+  template: ""                          # 模板路径（相对 skill 根目录或绝对路径）；留空用内置默认模板
+```
+
+- CLI 覆盖：`--letterhead [DOCX]` 本次启用（不带值时用上面配置的模板）、`--no-letterhead` 本次关闭。
+- 启用后不会再叠加 `page_number` 的自带页码页脚——模板页脚里通常自带 PAGE/NUMPAGES 域；`page_number` 只在关闭 letterhead 时生效。
+- 实现上只搬运页眉页脚部件、其 `.rels`/媒体、被引用样式（basedOn/link 闭包）与 sectPr 的 header/footer 距离；与 `--template`（整份模板当基底）互斥，同时给出时 letterhead 让位。
+
 ### 表格格式 (table)
 
 ```yaml

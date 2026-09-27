@@ -68,6 +68,10 @@ python scripts/md2word.py input.md output.docx --config my-config.yaml
 
 # 合并多章；每章的本地相对图片仍按该章文件所在目录解析
 python scripts/md2word.py --book ch01.md ch02.md -o book.docx --preset book-publish
+
+# 页眉页脚模板：legal 预设默认套用斯可睿抬头（只改页眉页脚，正文排版不变）
+python scripts/md2word.py input.md output.docx --preset legal --no-letterhead      # 本次关闭
+python scripts/md2word.py input.md output.docx --letterhead other.docx             # 换模板
 ```
 
 也可以直接让 Agent 帮你选择预设：

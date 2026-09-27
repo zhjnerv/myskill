@@ -5,6 +5,9 @@ from pathlib import Path
 from tempfile import TemporaryDirectory
 from contextlib import redirect_stdout
 import io
+import os
+import re
+import subprocess
 import sys
 import unittest
 import zipfile
@@ -1226,6 +1229,233 @@ class Md2WordRegressionTest(unittest.TestCase):
                     f"{name} 空列表不得触发标题分页",
                 )
 
+
+class ConsoleOutputRegressionTest(unittest.TestCase):
+    """旧 Windows 代码页（GBK）下状态图标不得中断转换（7597b03 历史修复的回归）。"""
+
+    def test_gbk_console_output_does_not_abort_conversion_helpers(self):
+        script = f"""
+from pathlib import Path
+from tempfile import TemporaryDirectory
+import sys
+sys.path.insert(0, {str(HERE)!r})
+from docx import Document
+from formatter import convert_quotes_to_chinese
+from footnote_handler import _inject_footnotes_into_docx
+
+convert_quotes_to_chinese("标注'需律师现场确认'")
+with TemporaryDirectory() as temp:
+    path = Path(temp) / "footnotes.docx"
+    Document().save(path)
+    _inject_footnotes_into_docx(str(path), [(1, "脚注")])
+"""
+        env = os.environ.copy()
+        env["PYTHONIOENCODING"] = "gbk:strict"
+        result = subprocess.run(
+            [sys.executable, "-c", script],
+            capture_output=True,
+            env=env,
+            check=False,
+        )
+        self.assertEqual(
+            result.returncode,
+            0,
+            result.stderr.decode("gbk", errors="replace"),
+        )
+        self.assertIn(b"\\u2705", result.stdout)
+
+
+class LetterheadRegressionTest(unittest.TestCase):
+    """页眉页脚模板（letterhead）：只取模板页眉页脚，正文排版保持预设。"""
+
+    SKILL_ROOT = HERE.parent
+    LETTERHEAD = SKILL_ROOT / "assets" / "letterhead" / "斯可睿抬头.docx"
+    SAMPLE_MD = "# 测试标题\n\n正文第一段，含“引号”。\n\n## 一、小节\n\n- 事项一\n- 事项二\n"
+
+    def _write_md(self, tmp, text=None):
+        source = Path(tmp) / "input.md"
+        source.write_text(text or self.SAMPLE_MD, encoding="utf-8")
+        return source
+
+    def _convert(self, source, output, config, **kwargs):
+        stdout = io.StringIO()
+        with redirect_stdout(stdout):
+            md2word.set_config(config)
+            md2word.create_word_document(
+                str(source), str(output), config=config, **kwargs
+            )
+        return stdout.getvalue()
+
+    @staticmethod
+    def _sectpr_refs(archive):
+        """解析文档 sectPr 的页眉页脚引用 -> {(kind, type): 部件名}。"""
+        document_xml = archive.read("word/document.xml").decode("utf-8")
+        rels_xml = archive.read("word/_rels/document.xml.rels").decode("utf-8")
+        sect = re.search(r"<w:sectPr.*?</w:sectPr>", document_xml, re.S).group(0)
+        refs = {}
+        for match in re.finditer(r"<w:(header|footer)Reference[^>]*/>", sect):
+            element = match.group(0)
+            kind = match.group(1)
+            typ = re.search(r'w:type="(\w+)"', element).group(1)
+            rid = re.search(r'r:id="(\w+)"', element).group(1)
+            target = re.search(
+                r'Id="%s"[^>]*Target="([^"]+)"' % rid, rels_xml
+            ).group(1)
+            refs[(kind, typ)] = "word/" + target
+        return document_xml, refs
+
+    def test_legal_preset_enables_letterhead_by_default(self):
+        config = md2word.get_preset("legal")
+        self.assertTrue(config.get("letterhead.enabled"))
+        self.assertEqual(
+            config.get("letterhead.template"),
+            "assets/letterhead/斯可睿抬头.docx",
+        )
+        resolved = md2word.resolve_letterhead_path(config.get("letterhead.template"))
+        self.assertTrue(Path(resolved).exists())
+        self.assertTrue(self.LETTERHEAD.exists())
+
+    def test_letterhead_flag_resolution(self):
+        config = md2word.get_preset("legal")
+        args = md2word.argparse.Namespace(letterhead=None, no_letterhead=False)
+        self.assertTrue(Path(md2word.resolve_letterhead_file(config, args)).exists())
+        args = md2word.argparse.Namespace(letterhead=None, no_letterhead=True)
+        self.assertIsNone(md2word.resolve_letterhead_file(config, args))
+        args = md2word.argparse.Namespace(letterhead="__default__", no_letterhead=False)
+        self.assertTrue(Path(md2word.resolve_letterhead_file(config, args)).exists())
+        self.assertIsNone(md2word.resolve_letterhead_path("none"))
+
+    def test_letterhead_copies_first_and_default_header_footer(self):
+        config = md2word.get_preset("legal")
+        with TemporaryDirectory() as tmp:
+            tmp = Path(tmp)
+            source = self._write_md(tmp)
+            output = tmp / "out.docx"
+            self._convert(source, output, config, letterhead_file=str(self.LETTERHEAD))
+
+            with zipfile.ZipFile(output) as archive:
+                document_xml, refs = self._sectpr_refs(archive)
+                self.assertIn("<w:titlePg", document_xml)
+                self.assertEqual(
+                    set(refs),
+                    {
+                        ("header", "first"),
+                        ("header", "default"),
+                        ("footer", "first"),
+                        ("footer", "default"),
+                    },
+                )
+                first_header = archive.read(refs[("header", "first")]).decode("utf-8")
+                default_header = archive.read(refs[("header", "default")]).decode("utf-8")
+                # 首页是整幅横幅（宽 5267960 EMU），后续页是右侧小 logo（819509 EMU）
+                self.assertIn('cx="5267960"', first_header)
+                self.assertIn('cx="819509"', default_header)
+                self.assertIn('r:embed="rId1"', first_header)
+                self.assertIn('r:embed="rId1"', default_header)
+
+                footer = archive.read(refs[("footer", "default")]).decode("utf-8")
+                footer_text = "".join(re.findall(r"<w:t[^>]*>([^<]*)</w:t>", footer))
+                self.assertIn("地址：杭州市余杭区五常街道文一西路", footer_text)
+                self.assertIn("周豪靖", footer_text)
+                self.assertIn("PAGE", footer)
+                self.assertIn("NUMPAGES", footer)
+
+                # 媒体与模板逐字节一致，且 `.rels` 指向复制后的图片
+                with zipfile.ZipFile(self.LETTERHEAD) as template:
+                    template_images = {
+                        template.read(name)
+                        for name in template.namelist()
+                        if name.startswith("word/media/")
+                    }
+                output_images = {
+                    archive.read(name)
+                    for name in archive.namelist()
+                    if name.startswith("word/media/letterhead_")
+                }
+                self.assertEqual(output_images, template_images)
+                self.assertEqual(len(output_images), 2)
+
+                for part in {refs[("header", "first")], refs[("header", "default")]}:
+                    rels_name = "word/_rels/%s.rels" % Path(part).name
+                    self.assertIn(rels_name, archive.namelist())
+
+                # 页眉页脚引用的样式已带入；正文 Normal 仍是预设字体，而不是模板的宋体-简
+                styles = archive.read("word/styles.xml").decode("utf-8")
+                for style_id in ("a5", "a7", "a9"):
+                    self.assertIn('w:styleId="%s"' % style_id, styles)
+                normal = re.search(
+                    r'<w:style [^>]*w:styleId="Normal".*?</w:style>', styles, re.S
+                ).group(0)
+                self.assertIn('w:eastAsia="仿宋"', normal)
+                self.assertNotIn("宋体-简", normal)
+                self.assertEqual(styles.count('w:default="1"'), 4)
+
+    def test_letterhead_keeps_body_paragraphs_identical(self):
+        config = md2word.get_preset("legal")
+        with TemporaryDirectory() as tmp:
+            tmp = Path(tmp)
+            source = self._write_md(tmp)
+            plain = tmp / "plain.docx"
+            letterhead = tmp / "letterhead.docx"
+            self._convert(source, plain, config)
+            self._convert(source, letterhead, config, letterhead_file=str(self.LETTERHEAD))
+
+            def paragraphs(path):
+                with zipfile.ZipFile(path) as archive:
+                    document_xml = archive.read("word/document.xml").decode("utf-8")
+                return re.findall(r"<w:p\b.*?</w:p>", document_xml, re.S)
+
+            self.assertEqual(paragraphs(plain), paragraphs(letterhead))
+
+    def test_no_letterhead_keeps_page_number_footer_only(self):
+        config = md2word.get_preset("legal")
+        with TemporaryDirectory() as tmp:
+            tmp = Path(tmp)
+            source = self._write_md(tmp)
+            output = tmp / "plain.docx"
+            stdout = self._convert(source, output, config, letterhead_file=None)
+            self.assertNotIn("已套用页眉页脚模板", stdout)
+
+            with zipfile.ZipFile(output) as archive:
+                document_xml = archive.read("word/document.xml").decode("utf-8")
+                self.assertNotIn("headerReference", document_xml)
+                self.assertNotIn("<w:titlePg", document_xml)
+                footers = sorted(
+                    name
+                    for name in archive.namelist()
+                    if re.match(r"word/footer\d*\.xml$", name)
+                )
+                self.assertEqual(footers, ["word/footer1.xml"])
+                footer = archive.read(footers[0]).decode("utf-8")
+                self.assertIn("PAGE", footer)
+                self.assertNotIn("地址：", footer)
+
+    def test_missing_letterhead_template_raises(self):
+        config = md2word.get_preset("legal")
+        with TemporaryDirectory() as tmp:
+            tmp = Path(tmp)
+            source = self._write_md(tmp)
+            with self.assertRaises(FileNotFoundError):
+                self._convert(
+                    source,
+                    tmp / "out.docx",
+                    config,
+                    letterhead_file=str(tmp / "missing.docx"),
+                )
+
+    def test_letterhead_keeps_footnote_part(self):
+        config = md2word.get_preset("legal")
+        text = "# 标题\n\n正文[^1]。\n\n[^1]: 脚注内容。\n"
+        with TemporaryDirectory() as tmp:
+            tmp = Path(tmp)
+            source = self._write_md(tmp, text)
+            output = tmp / "out.docx"
+            self._convert(source, output, config, letterhead_file=str(self.LETTERHEAD))
+            with zipfile.ZipFile(output) as archive:
+                document_xml = archive.read("word/document.xml").decode("utf-8")
+                self.assertIn("footnoteReference", document_xml)
+                self.assertIn("word/footnotes.xml", archive.namelist())
+                self.assertIn("<w:titlePg", document_xml)
 
 if __name__ == "__main__":
     unittest.main(verbosity=2)

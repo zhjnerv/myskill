@@ -65,6 +65,12 @@ page_number:
   size: 10.5    # pt (五号)
   position: "center"
 
+# 页眉页脚模板（斯可睿抬头：只套用模板的页眉页脚，正文排版不受影响）
+# --no-letterhead 可临时关闭；--letterhead 可换别的模板
+letterhead:
+  enabled: true
+  template: assets/letterhead/斯可睿抬头.docx
+
 # 引号设置
 quotes:
   convert_to_chinese: true

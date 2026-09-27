@@ -49,6 +49,10 @@ python scripts/md2word.py input.md --config=my-config.yaml
 # 脚注/尾注模式（默认 footnote 页面脚注；endnote=文档末注释+上标编号）
 python scripts/md2word.py input.md --notes=endnote
 
+# 页眉页脚模板（legal 预设默认套用斯可睿抬头，只影响页眉页脚，正文排版不变）
+python scripts/md2word.py input.md --no-letterhead          # 本次关闭
+python scripts/md2word.py input.md --letterhead other.docx  # 换成别的抬头
+
 # 全书合并：多章 md → 单 docx（目录+按输入文件分章+页眉，配合 -o 指定输出）
 python scripts/md2word.py --book ch01.md ch02.md ch03.md -o book.docx --preset=book-publish
 ```
@@ -109,7 +113,10 @@ cp assets/config-template.yaml my-config.yaml
 
 ### Word 模板文件
 
-将 `.docx` 模板放入 `assets/templates/` 目录，或使用 `--template` 指定。
+两种模板用法，互不影响：
+
+- **`--template <DOCX>`（整份模板当基底）**：直接打开模板、清空正文后写入内容，模板的样式、页面设置、页眉页脚全部保留；也支持把模板放进 `assets/templates/` 后用 `--auto-template` 自动加载。
+- **`--letterhead [DOCX]`（只取页眉页脚）**：正文排版完全按当前预设/配置，只把模板的页眉页脚（含首页/后续页差异）套上去。`legal` 预设默认启用内置的 `assets/letterhead/斯可睿抬头.docx`，`--no-letterhead` 关闭、`--letterhead other.docx` 换模板。
 
 **Word 模板 vs 配置文件**：
 - **Word 模板**：控制视觉元素（页眉、页脚、Logo）
@@ -144,7 +151,7 @@ cp assets/config-template.yaml my-config.yaml
 
 ### 文件访问
 
-- 读取用户指定的 Markdown 输入文件、`assets/templates/` 下的 Word 模板与 `assets/presets/` 下的 YAML 配置。
+- 读取用户指定的 Markdown 输入文件、`assets/templates/` 与 `assets/letterhead/` 下的 Word 模板、`assets/presets/` 下的 YAML 配置。
 - 在输出目录生成 Word 文档（`--book` 模式会生成临时合并 Markdown，转换结束后自动删除；章节本地相对图片会先按各自源文件目录重定位）。
 
 ## 错误处理
