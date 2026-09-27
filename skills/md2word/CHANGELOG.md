@@ -2,6 +2,20 @@
 
 本文件记录 md2word 技能的所有重要变更。
 
+## [1.3.9-skr.2] - 2026-09-27
+
+### 修复
+- **页脚被撑高、占用正文范围**：md2word 产物（python-docx 基底）的 docDefaults 带 `spacing after=200 / line=276`，而模板没有；搬运页眉页脚样式后它们继承目标 docDefaults，两行页脚被拉高并整体上移（实测「地址」行 y=739.9pt，模板为 775.5pt）。现在复制段落样式时把模板样式链上的 `w:spacing` 物化进样式自身，模板没有则显式写 Word 默认 `after="0" / line="240" / lineRule="auto"` 挡住目标 docDefaults；插入位置按 OOXML pPr 顺序（`snapToGrid` 之后、`ind`/`jc` 之前）。
+- **模板部件改名后取错 rels**：`_copy_part_relationships` 原先用目标部件名去查模板的 `.rels`。旧模板与目标恰好同名（header1/header2、footer1/footer2）所以没暴露；新版模板为 default=header2/footer2、first=header3/footer3，导致后续页 logo 丢图（空框）、首页横幅取到另一张图。现按模板部件名取 rels，媒体与 rId 重编号映射一并修正。
+
+### 变更
+- 资产同步为更新后的 `assets/letterhead/斯可睿抬头.docx`（SHA256 `70720D0DB0BE279A…`，2026-09-27 16:11）：首页页脚改为「浙江省杭州市余杭区金恒路18号博多森谷2号楼4楼D-16」，对应单元格宽度调整为 6663/1950。模板新增的 even 页页眉页脚为空部件；目标文档不创建 even 部件且未开启 `evenAndOddHeaders`，注入时按现有类型忽略。
+- 该模板的 default（后续页）页脚仍为旧地址（文一西路998号1幢601A室，列宽 6204/2409）——注入忠实照搬模板现状，是否统一由模板决定。
+
+### 验证
+- `python -X utf8 -m unittest test_regressions`：35/35 通过（新增：部件与媒体逐字节对照、模板部件改名映射、页眉页脚样式 spacing 屏蔽断言），UTF-8 与 `PYTHONIOENCODING=gbk:strict` 双轮均 OK。
+- Word 导 PDF 几何对照（A4 842pt）：模板与产物「地址」行 y=775.5pt、「周豪靖」行 y=789.1pt 完全一致；首页横幅 22.7–88.2pt、后续页小 logo 17.95–71.55pt 与模板一致。
+
 ## [1.3.9-skr.1] - 2026-09-27
 
 > myskill 个人定制版：相对上游 1.3.8 的个人改动，不向上游提 PR。

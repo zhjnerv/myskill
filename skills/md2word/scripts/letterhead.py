@@ -42,6 +42,22 @@ _LINK_RE = re.compile(r"<w:link\s+w:val=\"([^\"]+)\"\s*/>")
 _RFONTS_RE = re.compile(r"<w:rFonts\b[^>]*/>")
 _RPR_OPEN_RE = re.compile(r"<w:rPr>")
 
+# pPr 子元素顺序（OOXML 序列，插入 spacing 时需要）
+_P_PR_ORDER = [
+    "w:pStyle", "w:keepNext", "w:keepLines", "w:pageBreakBefore", "w:framePr",
+    "w:widowControl", "w:numPr", "w:suppressLineNumbers", "w:pBdr", "w:shd",
+    "w:tabs", "w:suppressAutoHyphens", "w:kinsoku", "w:wordWrap", "w:overflowPunct",
+    "w:topLinePunct", "w:autoSpaceDE", "w:autoSpaceDN", "w:bidi", "w:adjustRightInd",
+    "w:snapToGrid", "w:spacing", "w:ind", "w:contextualSpacing", "w:mirrorIndents",
+    "w:suppressOverlap", "w:jc", "w:textDirection", "w:textAlignment",
+    "w:textboxTightWrap", "w:outlineLvl", "w:divId", "w:cnfStyle", "w:rPr",
+    "w:sectPr", "w:pPrChange",
+]
+
+# 目标文档（python-docx 基底）的 docDefaults 通常带 after=200/line=276 的间距，
+# 模板没有的话必须显式写回 Word 默认值，否则页眉页脚会被撑高。
+_DEFAULT_SPACING = '<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>'
+
 _IMAGE_CONTENT_TYPES = {
     "png": "image/png",
     "jpg": "image/jpeg",
@@ -151,10 +167,12 @@ def _parse_styles(styles_xml):
         sid_m = _STYLE_ID_RE.search(el)
         if not sid_m:
             continue
+        type_m = re.search(r'w:type="([^"]+)"', el)
         name_m = _STYLE_NAME_RE.search(el)
         based_m = _BASED_ON_RE.search(el)
         link_m = _LINK_RE.search(el)
         out[sid_m.group(1)] = {
+            "type": type_m.group(1) if type_m else None,
             "name": name_m.group(1) if name_m else None,
             "xml": el,
             "basedOn": based_m.group(1) if based_m else None,
@@ -197,6 +215,37 @@ def _materialize_rfonts(style_xml, rfonts):
     if _RPR_OPEN_RE.search(style_xml):
         return _RPR_OPEN_RE.sub("<w:rPr>" + rfonts, style_xml, count=1)
     return style_xml.replace("</w:style>", "<w:rPr>" + rfonts + "</w:rPr></w:style>")
+
+
+def _effective_spacing(sid, src_styles, depth=0):
+    """沿 basedOn 链找模板样式链上的 spacing；模板没写就返回 None。"""
+    if not sid or sid not in src_styles or depth > 10:
+        return None
+    st = src_styles[sid]
+    m = re.search(r"<w:spacing\b[^>]*/>", st["xml"])
+    if m:
+        return m.group(0)
+    return _effective_spacing(st["basedOn"], src_styles, depth + 1)
+
+
+def _insert_into_pPr(p_pr_xml, element, tag):
+    """按 OOXML 顺序把 element 插进 pPr（spacing 要排在 snapToGrid 之后、ind/jc 之前）。"""
+    order = _P_PR_ORDER.index(tag)
+    for other in _P_PR_ORDER[order + 1:]:
+        m = re.search("<" + re.escape(other) + r"(?=[\s/>])", p_pr_xml)
+        if m:
+            return p_pr_xml[:m.start()] + element + p_pr_xml[m.start():]
+    return p_pr_xml.replace("</w:pPr>", element + "</w:pPr>", 1)
+
+
+def _materialize_spacing(style_xml, spacing):
+    """把有效 spacing 写进样式自身，挡住目标 docDefaults 的段后距/行距。"""
+    if re.search(r"<w:spacing\b", style_xml):
+        return style_xml
+    m = re.search(r"<w:pPr>.*?</w:pPr>", style_xml, re.S)
+    if m:
+        return style_xml.replace(m.group(0), _insert_into_pPr(m.group(0), spacing, "w:spacing"), 1)
+    return style_xml.replace("</w:style>", "<w:pPr>" + spacing + "</w:pPr></w:style>")
 
 
 def _remap_style_refs(style_xml, src_styles, dst_by_id, dst_by_name, copied_ids):
@@ -247,6 +296,9 @@ def _apply_styles(tgt_styles_xml, src_styles_xml, copied_parts):
     for sid in to_copy:
         st = src_styles[sid]
         xml = _materialize_rfonts(st["xml"], _effective_rfonts(st["basedOn"], src_styles))
+        if st.get("type") == "paragraph":
+            spacing = _effective_spacing(st["basedOn"], src_styles) or _DEFAULT_SPACING
+            xml = _materialize_spacing(xml, spacing)
         xml = _remap_style_refs(xml, src_styles, dst_by_id, dst_by_name, copied_ids)
         # 样式本体不携带默认标记，避免目标里出现第二个默认样式
         xml = xml.replace(' w:default="1"', "").replace(' w:default="true"', "")
@@ -259,18 +311,22 @@ def _apply_styles(tgt_styles_xml, src_styles_xml, copied_parts):
 
 # ---------------------------------------------------------------- 部件搬运
 
-def _copy_part_relationships(part_name, src_data, tgt_data, added, media_cache, counter):
-    """复制模板部件的 .rels 与内部目标（媒体等）。
+def _copy_part_relationships(src_part, tgt_part, src_data, tgt_data, added, media_cache, counter):
+    """复制模板部件（src_part）的 .rels 与内部目标（媒体等）到目标部件（tgt_part）。
+
+    注意两端部件名可能不同（例如模板 header2.xml 对应目标 header1.xml），
+    源 rels 必须按模板部件名查找。
 
     返回 (新的 .rels 内容或 None, {旧 rId: 新 rId})；重编号映射由调用方
     回写到部件 XML 的 r:embed/r:link/r:id 引用上。
     """
-    rels_name = f"word/_rels/{posixpath.basename(part_name)}.rels"
-    if rels_name not in src_data:
+    src_rels_name = f"word/_rels/{posixpath.basename(src_part)}.rels"
+    tgt_rels_name = f"word/_rels/{posixpath.basename(tgt_part)}.rels"
+    if src_rels_name not in src_data:
         return None, {}
 
-    src_rels_xml = _text(src_data, rels_name)
-    tgt_rels_xml = _text(tgt_data, rels_name) if rels_name in tgt_data else None
+    src_rels_xml = _text(src_data, src_rels_name)
+    tgt_rels_xml = _text(tgt_data, tgt_rels_name) if tgt_rels_name in tgt_data else None
     used_ids = set(re.findall(r'Id="([^"]+)"', tgt_rels_xml or ""))
 
     new_rels, id_map = [], {}
@@ -284,17 +340,17 @@ def _copy_part_relationships(part_name, src_data, tgt_data, added, media_cache, 
         if mode == "External":
             new_rels.append(el)
             continue
-        src_part = _resolve_part(part_name, target)
-        if src_part not in src_data:
+        media_part = _resolve_part(src_part, target)
+        if media_part not in src_data:
             continue
-        ext = posixpath.splitext(src_part)[1]
-        if src_part in media_cache:
-            new_target = media_cache[src_part]
+        ext = posixpath.splitext(media_part)[1]
+        if media_part in media_cache:
+            new_target = media_cache[media_part]
         else:
             counter[0] += 1
             new_target = f"media/letterhead_{counter[0]}{ext}"
-            added[f"word/{new_target}"] = src_data[src_part]
-            media_cache[src_part] = new_target
+            added[f"word/{new_target}"] = src_data[media_part]
+            media_cache[media_part] = new_target
         new_rid = rid
         if new_rid in used_ids:
             while True:
@@ -434,7 +490,7 @@ def apply_letterhead(docx_path, template_path):
         part_xml = _text(src, src_part)
         style_sources.append(part_xml)
         rels_xml, id_map = _copy_part_relationships(
-            tgt_part, src, tgt, added, media_cache, counter
+            src_part, tgt_part, src, tgt, added, media_cache, counter
         )
         if id_map:
             part_xml = _rewrite_rel_refs(part_xml, id_map)
