@@ -36,6 +36,12 @@ allowed-tools: Bash, Read, Write
 5. 中国法结论只能来自本项目法源和对应 CN Skill，不借用 MPEP、USPTO、EPO 或 PCT 实体规则。
 6. 法源先读取 `references/cn-legal-sources/source-index.json`，只加载当前主题列出的分章；不得默认加载审查指南全文。
 
+## 执行计划
+
+动手前先把本次全部步骤写入案件目录，并按顺序告诉用户。没有计划文件，不读取子 Skill 正文，也不跑阶段命令。中断后先看计划，从第一个没做完的步骤继续。`running` 必须重做。规则和命令见 `references/workflow-plan.md`。
+
+完整申请使用 `workflow_plan.py init --profile full-application`。单阶段用重复的 `--step` 把本次步骤一次列全。每步开始执行 `start`，结束立刻 `complete`、`skip` 或 `block`，然后再进下一步。
+
 ## 路由
 
 - 完整起草、区别特征表、阶段门、范本风格：调用 `cn-patent-application-creator`。
@@ -66,7 +72,7 @@ allowed-tools: Bash, Read, Write
 → 附图—DOCX最终交付绑定验证
 ```
 
-各阶段的入口、必需输入、输出和停止条件见 `references/stage-map.md`。
+各阶段的入口、必需输入、输出和停止条件见 `references/stage-map.md`。这段顺序只是路由提要。可续跑的完整步骤以 `full-application` 计划为准，里面还包括受理、挖掘、待决文件和第二轮回读。实际执行只看 `流程计划.json` 的下一步。
 
 ## 依赖边界
 

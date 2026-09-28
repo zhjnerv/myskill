@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "cn-patent-pending-resolutions/v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_id", "source_path", "source_sha256", "parsed_at", "legal_effect", "items", "retired", "summary"],
+  "properties": {
+    "schema_id": {"const": "cn-patent-pending-resolutions/v1"},
+    "source_path": {"type": "string"},
+    "source_sha256": {"type": "string"},
+    "parsed_at": {"type": "string"},
+    "legal_effect": {"const": "ADVISORY_ONLY"},
+    "items": {"type": "array"},
+    "retired": {"type": "array"},
+    "summary": {"type": "object"}
+  }
+}

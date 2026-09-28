@@ -201,5 +201,5 @@ skills/cn-patent-diagram-generator/references/drawing-terminology.md
 - 用户修改的 Draw.io 范例只传递紧凑布局和视觉规则；正式图须从原始母版安全重建，恢复真实关系端点和原生线条文字，禁止传播手工断连、自连接或独立标签。
 - 新案件使用 `cn-patent-feature-ledger/v2`、`cn-patent-claim-architecture/v1`、`cn-patent-drawing-brief/v4` 和 `cn-patent-drawing-visual-review/v2`；存在用户范例时增加已批准的 `cn-patent-drawing-style-brief/v1`。
 - 区别特征按六种形态（耦合/时序条件/绑定/参数配比/反默认/失败驱动）发现并通过抽象层级测试；权 1 攻防按换特征→重述问题→降层级→加特征顺序，不得直接加字。
-- 进入撰写后流程不因判断题停止：检索/范本/IPC/复核/公知常识等待决事项按保守默认继续并写入 `cn-patent-pending-decisions/v1` 与《待决事项清单.md》，审稿版 DOCX 以 `【待决-Dnnn】` 黄色高亮标出，提交副本机械剥离；只有产物无效或不安全的门保留硬阻断。
+- 进入撰写后流程不因判断题停止：检索/范本/IPC/复核/公知常识等待决事项按保守默认继续并写入 `cn-patent-pending-decisions/v1` 与最终申请文件同目录的 `待决文件.md`。人可以直接改这份文件；第二轮读取决定和标注后再改申请文件。审稿版 DOCX 仍以 `【待决-Dnnn】` 黄色高亮标出，提交副本机械剥离。只有产物无效或不安全的门保留硬阻断。
 - 创造性防御地图 `cn-patent-inventive-step-map/v1`：区别特征 × 对比文件（含公知常识虚拟条目）矩阵，复算凑齐全部区别特征所需最少对比文件数、作用一致性与说明书可定位的耦合证据，按 novelty_risk / weak / defensible 分级；权 1 允许 weak，权 1+2 须 defensible，核心保护点须为最小 defensible 特征集。

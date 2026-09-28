@@ -45,6 +45,10 @@ ROOT="${CN_PATENT_CREATOR_ROOT:-${CLAUDE_PATENT_CREATOR_CN_ROOT:-${CLAUDE_PLUGIN
 - **发明人必须是自然人。** AI 不是发明人，用户才是。AI 负责挖掘、检索、撰写和验证。
 - **本技能不输出授权前景。** 形式与结构检查通过不代表实体条件通过，任何交付物都是 `ADVISORY_ONLY`，最终必须经专利代理师复核。
 
+## 动手前的计划
+
+完整战役开始前，先按 `$ROOT/skills/cn-patent-workflow/references/workflow-plan.md` 在案件目录生成 `full-application` 计划，把全部步骤按顺序告诉用户，再进入阶段 0。每走完一步立刻回写。目录里已有计划时，只从 `workflow_plan.py next` 给出的步骤继续；进行中的步骤要重做，不要另起一份对话清单。
+
 ## 阶段 0——受理与法定日期审计
 
 原样接受粗略的请求。如果材料是代码库，不要索要交底书——挖掘是阶段 1 的工作。本技能的交付范围固定为权利要求书、说明书、说明书摘要和说明书附图四类技术文书，申请人、发明人、联系电话、地址、联系人及代理机构等请求书主体字段不作为起草输入，也不得阻断四文书生成。只问无法从材料推导且会影响技术文书合法性的日期事实：
@@ -199,7 +203,7 @@ python3 "$ROOT/scripts/run_python.py" "$ROOT/skills/cn-patent-reviewer/scripts/v
 必须跑两支独立红队：一支攻击权利要求的保护范围与创造性，一支攻击组装好的文件包（形式、支持、附图、DOCX）。攻击清单、常见漏攻项与处置规则见 `references/red-team-and-packaging.md`。红队结论写入审查报告并绑定产物哈希。
 ## 阶段 6——打包
 
-先汇总待决事项再出待决清单与两种副本：一旦进入撰写，流程不因判断题停下，各脚本遇到需人拍板的事项一律采用保守默认继续并在 `pending_decisions` 留痕；打包前由 `collect_pending_decisions.py` 汇总为 `cn-patent-pending-decisions/v1` 与《待决事项清单.md》。交付范围、审稿版/提交副本差异与打包门禁见 `references/red-team-and-packaging.md`。
+先汇总待决事项，再出两种副本。判断题不让流程停下：各脚本采用保守默认，并在 `pending_decisions` 留痕。打包前用 `collect_pending_decisions.py --docx <最终申请文件.docx>` 汇总；人读文件只能是该 docx 同目录的 `待决文件.md`。审稿版继续黄底标出 `【待决-Dnnn】`。交付范围和打包门禁见 `references/red-team-and-packaging.md`，回读规则见 `references/pending-decisions.md`。
 ### Word 模板组装（用户要求单一 Word 文件时）
 
 用户要求单一 Word 文件时，读取 `references/docx-assembly.md`（含阶段 6 组装门禁、待决标记与两种副本）并运行 `scripts/assemble_application_docx.py`。默认模板是仓库根目录 `模版.docx`，不读取案件目录的 `输出模版.docx`；只有显式 `--template` 才替换。随后必须运行 `scripts/verify_docx_assembly.py`，附图属于交付范围时再运行 `cn-patent-diagram-generator/scripts/verify_drawing_docx_delivery.py`。DOCX 是交付容器，不是第五类法定技术文书。
