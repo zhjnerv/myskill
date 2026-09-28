@@ -25,7 +25,7 @@
 
 ## 阶段 6——打包
 
-**先汇总待决事项，再出两种副本。** 一旦进入撰写，流程不因任何判断题停下：阶段门、台账、架构门、创造性防御地图、附图复核等脚本遇到需要人拍板的事项时，一律采用保守默认继续，并在各自报告的 `pending_decisions` 中留痕（形状见 `references/pending-decisions.md`）。打包前把全部报告交给收集器，得到 `pending-decisions.json` 与《待决事项清单.md》：
+**先汇总待决事项，再出两种副本。** 一旦进入撰写，流程不因任何判断题停下：阶段门、台账、架构门、创造性防御地图、附图复核等脚本遇到需要人拍板的事项时，一律采用保守默认继续，并在各自报告的 `pending_decisions` 中留痕（形状见 `references/pending-decisions.md`）。先确定审稿版 docx 的输出路径，收集器和组装器都用这一路径。人读的待决文件只能是它同目录下的 `待决文件.md`：
 
 ```bash
 python3 "$ROOT/scripts/run_python.py" "$ROOT/skills/cn-patent-application-creator/scripts/collect_pending_decisions.py" \
@@ -33,10 +33,10 @@ python3 "$ROOT/scripts/run_python.py" "$ROOT/skills/cn-patent-application-creato
   --report "<stage2-gate-report.json>" --report "<feature-ledger-report.json>" \
   --report "<inventive-step-map-validation.json>" --report "<claim-architecture-validation.json>" \
   --report "<drawing-verification.json>" \
-  --output "<pending-decisions.json>" --table "<待决事项清单.md>"
+  --output "<pending-decisions.json>" --docx "<审稿版.docx>"
 ```
 
-与权利要求、说明书或摘要正文直接相关的待决项，在工作副本对应位置写入 `【待决-D001】` 标记（编号取自清单）。DOCX 组装用 `--copy review` 生成客户审稿版：标记保留、所在段落黄色高亮；用 `--copy submission` 生成提交副本：标记机械剥离、不得残留高亮，`verify_docx_assembly.py` 以 `DOCX-PENDING-MARKS` 复核。待决清单与审稿版一起交付，提交副本永远不带待决信息。
+`--docx` 还没生成也可以先传预定路径。不要改用别的 Markdown 文件名。与权利要求、说明书或摘要正文直接相关的待决项，在工作副本对应位置写入 `【待决-D001】` 标记（编号取自 `待决文件.md`）。DOCX 组装用 `--copy review` 生成客户审稿版：标记保留、所在段落黄色高亮；用 `--copy submission` 生成提交副本：标记机械剥离、不得残留高亮，`verify_docx_assembly.py` 以 `DOCX-PENDING-MARKS` 复核。`待决文件.md` 与审稿版一起交付，提交副本永远不带待决信息。用户改过待决文件后的第二轮按 `references/pending-decisions.md` 执行，组装器自己不会读取那份 Markdown。
 
 **工作副本和提交副本是分开的文件，提交副本是机械生成的。** 提交文件只包含法定内容——零括号策略笔记、零检查器分数、零"与现有技术对比"评注、零后续步骤章节。背景技术部分不做关于现有技术的绝对性承认（写"发明人已知的"，不写"没有任何系统做 X"）。用脚本从工作副本剥离提交副本，然后 diff 核对没有任何残留。
 
