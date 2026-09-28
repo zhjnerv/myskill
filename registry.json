@@ -9,8 +9,8 @@
       "branch": "main",
       "subpath": "skills/md2word",
       "vendoredAt": "2026-08-09T15:01:01Z",
-      "lastSync": "2026-09-25T09:14:00Z",
-      "lastSyncTree": "567107df34a12c8426977111ebaf9c632721edd7",
+      "lastSync": "2026-09-28T05:02:46Z",
+      "lastSyncTree": "1cc3a47ec12825af8471d717557e68981b9b9ac7",
       "notes": ""
     },
     {
@@ -58,8 +58,8 @@
       "subpath": null,
       "localPrefix": "vendor/claude-patent-creator-cn",
       "vendoredAt": "2026-09-26T09:23:38Z",
-      "lastSync": "2026-09-26T09:23:38Z",
-      "lastSyncTree": "e8a919d13a207961ec13348236d7263de2a137bc",
+      "lastSync": "2026-09-28T05:02:55Z",
+      "lastSyncTree": "5a9eaef5c7c0b8323f081863c72dd4d7461c234a",
       "notes": "Own package, not a third-party fork. Shared legal sources and scripts live at the package root; do not vendor the seven skills separately."
     }
   ]
