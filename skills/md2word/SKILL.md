@@ -4,7 +4,7 @@ homepage: https://github.com/cat-xierluo/legal-skills
 author: 杨卫薪律师（微信ywxlaw）
 version: "1.3.8"
 license: MIT
-description: Markdown转Word文档技能。将Markdown文档转换为符合中文排版标准的专业格式Word文档，支持多种预设格式。适用于正式文档、论文、报告等需要规范排版的文档转换。
+description: "Markdown转Word文档技能。将Markdown文档转换为符合中文排版标准的专业格式Word文档，支持多种预设格式。适用于正式文档、论文、报告等需要规范排版的文档转换。用户说出精确唤起词 2word 时，也必须优先调用本 skill；此时将 2word 视为显式要求使用 md2word，并按当前任务把内容转换为 Word。"
 ---
 
 # Markdown转Word文档Skill
