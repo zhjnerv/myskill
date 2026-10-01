@@ -121,8 +121,9 @@ git commit
 ## 4. 看状态
 
 ```powershell
-.\scripts\skill-status.ps1            # 离线，秒回
-.\scripts\skill-status.ps1 -Remote    # 联网，逐个对比
+.\scripts\skill-status.ps1                 # 离线，秒回
+.\scripts\skill-status.ps1 -Remote         # 联网，默认走 GitHub API
+.\scripts\skill-status.ps1 -Remote -Full   # 联网，改走 git subtree split（慢，兜底用）
 ```
 
 两者回答的问题不同，别混。状态查询默认只读；只有显式 `-Fix` 才会改写 `registry.json`：
@@ -130,7 +131,22 @@ git commit
 | | 回答什么 | 什么时候用 |
 |---|---|---|
 | 离线 | 上次同步之后我动过哪些 | 想知道有没有未提交/未推送的改动 |
-| `-Remote` | 本地 vs fork 差什么、fork 落后原作者多少 | 决定要不要提 PR、要不要追平 |
+| `-Remote` | 本地 vs fork 差什么、上游改了哪些文件、fork 落后原作者多少 | 决定要不要提 PR、要不要追平、要不要同步 |
+
+`-Remote` 默认用 GitHub API：每个 skill 取 fork 与上游对应目录的 tree object，
+和本地 `HEAD:<prefix>` 的 tree 对照。tree 是内容寻址的，相等即逐字节相同；
+一旦不等就递归列两侧 blob，直接把改了 / 只本地有 / 只远端有的文件列出来。
+全量约 1 分钟（地区网络下每次 API 调用数秒），对合集仓库尤其划算。
+
+`-Full` 是同一件事的 git 实现（`git subtree split` + `git diff`）：合集仓库
+（skill 位于 `skills/<name>` 子目录，如 `md2word`、`patent-download`）每次都要
+重放整个仓库历史，单次可能十几分钟。它的价值是 gh 不可用时兜底，以及核对
+API 路径的结论。
+
+```powershell
+# 只看某一个 skill
+.\scripts\skill-status.ps1 -Name md2word -Remote
+```
 
 离线显示「同步态」不代表和 fork 一致——如果你改完之后已经 sync 过一次，离线就看不出来了，只有 `-Remote` 能查出来。
 
