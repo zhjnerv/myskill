@@ -48,7 +48,7 @@ python3 "$ROOT/scripts/run_python.py" "$ROOT/skills/cn-patent-application-creato
   --output "<style-brief.json>"
 ```
 
-未选择范本时省略 `--style-guide`，仍生成默认 `style-brief.json`。输入计数必须大于等于 1；风格指南缺字段、枚举非法或权利要求总数不守恒时必须失败，不得带病回退到默认风格。
+已经检索到、但用户尚未确认的范本，仍把对应 `template-style-guide.json` 传给 `--style-guide`。只有尚未检索到范本，或用户明确拒绝使用范本时，才省略 `--style-guide` 并生成默认 `style-brief.json`。不得等用户确认之后才开始学习风格。输入计数必须大于等于 1；风格指南缺字段、枚举非法或权利要求总数不守恒时必须失败，不得带病回退到默认风格。技术内容不得从范本抄入。
 
 `style-brief.json` 固定使用 `cn-patent-style-brief/v1`，只允许影响结构、篇幅和句法偏好。执行优先级不可倒置：
 

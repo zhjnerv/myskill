@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 import hashlib
+import html
 import json
 import os
 import tempfile
@@ -240,27 +241,66 @@ def check_docx_package(path: Path, errors: list[dict[str, str]]) -> None:
             "message": f"mc:Ignorable 引用了未声明的命名空间前缀：{missing_ignored}；Microsoft Word 会提示恢复文档",
         })
 
+def _document_plain_text(document_xml: str) -> str:
+    parts = re.findall(r"<w:t\b[^>]*>(.*?)</w:t>", document_xml, flags=re.DOTALL)
+    return "".join(html.unescape(part) for part in parts)
+
+
 def check_pending_marks(path: Path, copy_kind: str, pending_marks: list | None, errors: list[dict[str, str]]) -> None:
     if pending_marks is None:
         pending_marks = []
     try:
         with ZipFile(path) as archive:
-            if "word/document.xml" not in archive.namelist():
-                return
-            document_text = archive.read("word/document.xml").decode("utf-8")
-    except Exception:
+            names = set(archive.namelist())
+            document_text = archive.read("word/document.xml").decode("utf-8") if "word/document.xml" in names else ""
+            core_text = archive.read("docProps/core.xml").decode("utf-8") if "docProps/core.xml" in names else ""
+    except (OSError, UnicodeError, KeyError):
         return
 
+    document_plain = _document_plain_text(document_text)
+    title_match = re.search(r"<dc:title[^>]*>(.*?)</dc:title>", core_text, re.DOTALL)
+    core_title = html.unescape(title_match.group(1)) if title_match else ""
+    if "【待决" in core_title:
+        errors.append({"code": "DOCX-PENDING-MARKS", "message": "核心属性标题不得保留待决标记"})
+
     if copy_kind == "submission":
-        if "【待决" in document_text:
+        if "【待决" in document_plain:
             errors.append({"code": "DOCX-PENDING-MARKS", "message": "提交副本存在残缺待决标记"})
         if re.search(r'<w:highlight[^>]*w:val="yellow"[^>]*>', document_text):
             errors.append({"code": "DOCX-PENDING-MARKS", "message": "提交副本存在黄色高亮"})
     elif copy_kind == "review":
         for pm in pending_marks:
+            if not isinstance(pm, dict):
+                continue
+            question = pm.get("question")
+            if isinstance(question, str) and question.strip():
+                missing: list[str] = []
+                if question not in document_plain:
+                    missing.append("问题")
+                adopted = pm.get("adopted_default")
+                if not isinstance(adopted, str) or not adopted.strip() or adopted not in document_plain:
+                    missing.append("当前稿做法")
+                options = pm.get("options")
+                if not isinstance(options, list) or not options:
+                    missing.append("备选")
+                else:
+                    for option in options:
+                        if not isinstance(option, str) or not option.strip() or option not in document_plain:
+                            missing.append("备选")
+                            break
+                if "【/待决】" not in document_plain:
+                    missing.append("结束标记")
+                if missing:
+                    label = pm.get("id") or "未编号"
+                    errors.append({
+                        "code": "DOCX-PENDING-MARKS",
+                        "message": f"客户审稿版的待决说明不完整（{label}）：缺少{'、'.join(dict.fromkeys(missing))}",
+                    })
+                continue
             pm_id = pm.get("id")
-            if pm_id and f"【待决-{pm_id}】" not in document_text:
+            if pm_id and f"【待决-{pm_id}】" not in document_plain:
                 errors.append({"code": "DOCX-PENDING-MARKS", "message": f"客户审稿版丢失待决标记 {pm_id}"})
+
 
 def verify(report_path: Path) -> dict[str, Any]:
     report_path = report_path.resolve()

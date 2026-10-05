@@ -234,7 +234,7 @@ python scripts/verify_patent_drawings.py \
 
 退出码非零或报告 `status != PASS` 时，不得把附图交回专利起草流程。
 
-若交付包含DOCX，全部附图通过后必须重新组装DOCX、运行 `verify_docx_assembly.py`，并使用 `verify_drawing_docx_delivery.py` 证明DOCX报告中的每幅图片路径与SHA-256等于当前最终PNG。只有用户明确要求Word逐页视觉检查时，才导出PDF/逐页PNG，并提供 `cn-patent-docx-visual-review/v1` 记录。
+若交付包含DOCX，全部附图通过后必须重新组装DOCX、运行 `verify_docx_assembly.py`，并使用 `verify_drawing_docx_delivery.py` 证明DOCX报告中的每幅图片路径与SHA-256等于当前最终PNG。机械零件图若 drawing brief 的 `production.kind` 为 `mechanical_dxf` 且 `production.drawio` 为 `skipped`，交付核验只核对 PNG 与 DOCX 图片哈希，不要求 Draw.io；再提供 drawio 路径或哈希则记 `DELIVERY-DRAWING-FORGED-DRAWIO`。只有用户明确要求Word逐页视觉检查时，才导出PDF/逐页PNG，并提供 `cn-patent-docx-visual-review/v1` 记录。
 
 ## 约束追踪与回归证据
 

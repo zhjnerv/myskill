@@ -3,6 +3,7 @@
 import argparse
 import hashlib
 import json
+import re
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -41,6 +42,114 @@ def sha256_file(path: Path) -> str:
         for chunk in iter(lambda: handle.read(8192), b""):
             digest.update(chunk)
     return digest.hexdigest()
+
+
+
+CNIPA_PENDING_KEY = "search.cnipa_manual_search_pending_authorization"
+CNIPA_LOCATOR = "cnipa_manual_search"
+_CNIPA_GAP = ("CNIPA", "官方库")
+_SEARCH_GAP = ("检索", "未检索", "没有检索", "还没有检索")
+_GAP_CLAUSE = re.compile(
+    r"(?:^|[，,；;])\s*(?:但|并且|所以)?"
+    r"(?:本案)?(?:还没有完成|尚未完成|未完成)?\s*(?:CNIPA|官方库)[^。；]*"
+    r"|(?:^|[，,；;])\s*新颖性和创造性(?:都|仍)?不能(?:下结论|写成已经成立)"
+    r"|(?:^|[，,；;])\s*新颖性和创造性仍不下结论"
+    r"|(?:^|[，,；;])\s*新颖性/创造性维度保持\s*INCONCLUSIVE"
+    r"|(?:^|[，,；;])\s*按官方库穷举未完成继续"
+)
+
+
+def _mentions_search_gap(value: str) -> bool:
+    return any(token in value for token in _CNIPA_GAP) and any(token in value for token in _SEARCH_GAP)
+
+
+def _user_stated_publication_or_priority(question: str) -> bool:
+    stated = (
+        "用户已说明",
+        "用户说明",
+        "用户写明",
+        "在先申请号",
+        "优先权日",
+        "公开日为",
+    )
+    return any(token in question for token in stated)
+
+
+def _is_unsolicited_publication_priority(decision: dict[str, Any]) -> bool:
+    """材料没写公开或优先权时，不向审稿人主动提这个问题。"""
+    target = decision.get("target") if isinstance(decision.get("target"), dict) else {}
+    locator = str(target.get("locator") or "")
+    key = str(decision.get("key") or "")
+    question = str(decision.get("question") or "")
+    if _user_stated_publication_or_priority(question):
+        return False
+    if locator in {"publication-priority", "publication_priority", "priority"}:
+        return True
+    if "publication" in key and "priority" in key:
+        return True
+    silent = any(
+        token in question
+        for token in ("没有写明", "未写明", "是否已经公开", "是否按尚未公开", "不主张优先权")
+    )
+    return silent and "优先权" in question and "公开" in question
+
+
+def _strip_repeated_search_gap(value: str) -> str:
+    if not isinstance(value, str) or not value:
+        return value
+    if not (_mentions_search_gap(value) or "新颖性和创造性" in value or "INCONCLUSIVE" in value):
+        return value
+    cleaned = _GAP_CLAUSE.sub("", value)
+    cleaned = re.sub(r"[，,；;]{2,}", "，", cleaned)
+    cleaned = re.sub(r"^[，,；;。？！\s]+", "", cleaned)
+    cleaned = re.sub(r"[，,；;]+([。？！])", r"\1", cleaned)
+    cleaned = re.sub(r"。{2,}", "。", cleaned).strip()
+    if cleaned and cleaned[-1] not in "。？！":
+        cleaned += "。"
+    return cleaned
+
+
+def _is_dedicated_cnipa(decision: dict[str, Any]) -> bool:
+    target = decision.get("target") if isinstance(decision.get("target"), dict) else {}
+    if decision.get("key") == CNIPA_PENDING_KEY or target.get("locator") == CNIPA_LOCATOR:
+        return True
+    return target.get("kind") == "process" and _mentions_search_gap(str(decision.get("question") or ""))
+
+
+def suppress_routine_prompts(decisions: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """公开/优先权不主动问；CNIPA 人工检索未完成只保留一条。"""
+    kept = [item for item in decisions if not _is_unsolicited_publication_priority(item)]
+    keeper_index = next((index for index, item in enumerate(kept) if _is_dedicated_cnipa(item)), None)
+    if keeper_index is None:
+        keeper_index = next(
+            (
+                index for index, item in enumerate(kept)
+                if _mentions_search_gap(
+                    str(item.get("question") or "") + str(item.get("adopted_default") or "")
+                )
+            ),
+            None,
+        )
+    if keeper_index is None:
+        return kept
+    result: list[dict[str, Any]] = []
+    for index, item in enumerate(kept):
+        if index == keeper_index:
+            result.append(item)
+            continue
+        question_raw = str(item.get("question") or "")
+        default_raw = str(item.get("adopted_default") or "")
+        if not _mentions_search_gap(question_raw + default_raw):
+            result.append(item)
+            continue
+        question = _strip_repeated_search_gap(question_raw)
+        if not question:
+            continue
+        updated = dict(item)
+        updated["question"] = question
+        updated["adopted_default"] = _strip_repeated_search_gap(default_raw)
+        result.append(updated)
+    return result
 
 
 def validate_decision(decision: dict, report_path: Path) -> None:
@@ -196,7 +305,9 @@ def main() -> int:
                 "sha256": sha256_file(report_path),
                 "count": count,
             })
-        decisions, notes, retired = assign_ids(list(collected.values()), existing)
+        decisions, notes, retired = assign_ids(
+            suppress_routine_prompts(list(collected.values())), existing,
+        )
     except PendingFileError as exc:
         print(str(exc), file=sys.stderr)
         return EXIT_INPUT_ERROR

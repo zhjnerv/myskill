@@ -721,6 +721,34 @@ def read_semantic_input(path: Path, manifest: dict[str, Any], contract) -> dict[
     return payload
 
 
+
+CLEAR_RESULTS_NOT_VETOED_BY_CAPABILITY_GAPS = {"NO_ISSUE_FOUND", "NOT_APPLICABLE"}
+CAPABILITY_GAP_CATEGORIES = {"SEMANTIC_REVIEW_NOT_PERFORMED"}
+
+
+def visible_gap_ids(
+    dimension_id: str,
+    state: dict[str, Any],
+    by_dimension_gaps: dict[str, list[str]],
+    gap_categories: dict[str, str],
+) -> list[str]:
+    """能力缺口不否决审查者已经作出的无问题或不适用结论。
+
+    DETERMINISTIC_FAIL 仍通过 finding_ids 触发状态不变量。
+    INPUT_UNAVAILABLE、CAPABILITY_LIMIT、PARSE_UNRESOLVED、
+    SEARCH_EVIDENCE_MISSING 以及条件适用未解的缺口继续留下。
+    """
+
+    merged = set(by_dimension_gaps.get(dimension_id, [])) | set(state.get("gap_ids", []))
+    if state.get("result") in CLEAR_RESULTS_NOT_VETOED_BY_CAPABILITY_GAPS:
+        merged = {
+            gap_id
+            for gap_id in merged
+            if gap_categories.get(gap_id) not in CAPABILITY_GAP_CATEGORIES
+        }
+    return sorted(merged)
+
+
 def build_assessments(
     semantic_input: dict[str, Any], subreports: list[dict[str, Any]], contract
 ) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
@@ -728,11 +756,13 @@ def build_assessments(
 
     by_dimension_findings: dict[str, list[str]] = {}
     by_dimension_gaps: dict[str, list[str]] = {}
+    gap_categories: dict[str, str] = {}
     for subreport in subreports:
         for item in subreport["findings"]:
             by_dimension_findings.setdefault(item["dimension_id"], []).append(item["finding_id"])
         for item in subreport["gaps"]:
             by_dimension_gaps.setdefault(item["dimension_id"], []).append(item["gap_id"])
+            gap_categories[item["gap_id"]] = item.get("category", "")
 
     semantic_gaps = semantic_input["semantic_gaps"]
     semantic_gap_ids = [item["gap_id"] for item in semantic_gaps]
@@ -740,6 +770,7 @@ def build_assessments(
         raise OrchestrationError("语义审查输入的 gap_id 必须唯一")
     for item in semantic_gaps:
         by_dimension_gaps.setdefault(item["dimension_id"], []).append(item["gap_id"])
+        gap_categories[item["gap_id"]] = item.get("category", "")
 
     declared = {}
     for item in semantic_input["assessments"]:
@@ -768,7 +799,12 @@ def build_assessments(
             "severity": state["severity"],
             # 原始 finding/gap 由工具机械并入，审查者无法通过省略把它们清掉。
             "finding_ids": sorted(set(by_dimension_findings.get(dimension_id, [])) | set(state.get("finding_ids", []))),
-            "gap_ids": sorted(set(by_dimension_gaps.get(dimension_id, [])) | set(state.get("gap_ids", []))),
+            "gap_ids": visible_gap_ids(
+                dimension_id,
+                state,
+                by_dimension_gaps,
+                gap_categories,
+            ),
         }
         problems = contract.validate_atomic_assessment(assessment, f"assessments.{dimension_id}")
         if problems:

@@ -56,6 +56,15 @@ GAP_CATEGORIES = {
 CLAIM_START_RE = re.compile(r"^\s*([0-9０-９]+)\s*[\.．、:：]\s*(.*)$")
 REFERENCE_LEAD_RE = re.compile(r"(?:根据|按照|如)\s*权利要求")
 REFERENCE_CLAUSE_RE = re.compile(r"(?:根据|按照|如)\s*(?P<clause>权利要求.+?)\s*所述")
+CONFIRMED_REFERENCE_RE = re.compile(
+    r"^(?:根据|按照|如)\s*权利要求\s*"
+    r"(?:\d+\s*(?:[、，,]|或者|或|以及|和|与|及)\s*)*\d+"
+    r"(?:\s*(?:至|到|—|–|-|~|～)\s*\d+)?"
+    r"(?:\s*中(?:的)?)?"
+    r"(?:\s*(?:任意一项|任一项|任一|之一))?"
+    r"\s*所述$"
+)
+MOTION_TAIL_RE = re.compile(r"^(?P<noun>.+?)(?:往复运动|往复移动|往复滑动)$")
 RANGE_RE = re.compile(r"(\d+)\s*(?:-|—|~|～|至|到)\s*(\d+)")
 PLACEHOLDER_RE = re.compile(r"【[^】]*(?:待填|待补|占位|内部备注|TODO|TBD)[^】]*】|<[^>\r\n]*(?:待填|待补|占位|TODO|TBD)[^>\r\n]*>", re.IGNORECASE)
 WEAK_DRAFT_RE = re.compile(r"(?<![A-Za-z0-9_])(?:TODO|TBD|XXX)(?![A-Za-z0-9_])|待补充|待完善|待填写|待填", re.IGNORECASE)
@@ -245,6 +254,26 @@ def parse_reference_clause(clause: str, budget: Budget) -> tuple[tuple[int, ...]
     return numbers, f"引用子句包含无法识别的文本：{residue}" if residue else None
 
 
+def antecedent_term(term: str) -> str:
+    """所述后的谓语不并入先行词。单独的“往复运动”仍保留。"""
+
+    match = MOTION_TAIL_RE.fullmatch(term)
+    if match and match.group("noun"):
+        return match.group("noun")
+    return term
+
+
+def confirmed_dependent_reference(claim_text: str, clauses: list[re.Match[str]], references: set[int], errors: list[str]) -> bool:
+    """句首“根据权利要求 N 所述”且无残留文本时，确认为从属引用。"""
+
+    if errors or len(clauses) != 1 or not references:
+        return False
+    if clauses[0].start() != 0:
+        return False
+    matched = claim_text[clauses[0].start():clauses[0].end()]
+    return CONFIRMED_REFERENCE_RE.fullmatch(matched) is not None
+
+
 def classify_reference_mode(expression: str, references: tuple[int, ...]) -> str:
     if len(references) <= 1:
         return "not_applicable"
@@ -261,7 +290,7 @@ def classify_reference_mode(expression: str, references: tuple[int, ...]) -> str
 
 
 def split_claims(text: str, budget: Budget) -> tuple[list[Claim], list[tuple[str, str, str]]]:
-    """解析文本；引用引导语只能形成 candidate 或 unresolved，不确认从属关系。"""
+    """解析文本。句首干净的从属引导语确认为 dependent_confirmed，其余只形成 candidate 或 unresolved。"""
 
     raw: list[tuple[int, str]] = []
     current_number: int | None = None
@@ -309,6 +338,8 @@ def split_claims(text: str, budget: Budget) -> tuple[list[Claim], list[tuple[str
             kind, parse_status = "independent_candidate", "not_applicable"
         elif errors:
             kind, parse_status = "dependent_unresolved", "unresolved"
+        elif confirmed_dependent_reference(claim_text, clauses, references, errors):
+            kind, parse_status = "dependent_confirmed", "confirmed"
         else:
             kind, parse_status = "dependent_candidate", "candidate"
             errors.append("引用引导语仅形成从属候选，尚未确认该项不是独立权利要求")
@@ -561,6 +592,15 @@ def analyze_claims(text: str, source_name: str = "<memory>", source_bytes: bytes
                     add_limited(findings, item, MAX_FINDINGS, "finding 数量")
                     graph_findings.append(item["finding_id"])
         confirmed_graph: dict[int, tuple[int, ...]] = {}
+        for claim in claims:
+            if claim.reference_parse_status != "confirmed":
+                continue
+            valid_refs = tuple(
+                ref for ref in claim.references
+                if ref in existing_numbers and 0 < ref < claim.number
+            )
+            if valid_refs:
+                confirmed_graph[claim.number] = valid_refs
         for cycle in detect_cycles_iterative(confirmed_graph, budget):
             item = new_finding(
                 "claim-reference-graph",
@@ -574,21 +614,22 @@ def analyze_claims(text: str, source_name: str = "<memory>", source_bytes: bytes
             )
             add_limited(findings, item, MAX_FINDINGS, "finding 数量")
             graph_findings.append(item["finding_id"])
-        graph_gap = new_gap(
-            "claim-reference-graph",
-            "CN-CLAIM-REF-001",
-            "claims-document",
-            "PARSE_UNRESOLVED",
-            "直接从属边尚未独立确认，循环引用的图算法未对候选边执行。",
-            "引用引导语保持 candidate/unresolved；集合级目标检查已执行。",
-        )
-        add_limited(gaps, graph_gap, MAX_GAPS, "gap 数量")
-        graph_gaps.append(graph_gap["gap_id"])
+        if any(claim.reference_parse_status in {"candidate", "unresolved"} for claim in claims):
+            graph_gap = new_gap(
+                "claim-reference-graph",
+                "CN-CLAIM-REF-001",
+                "claims-document",
+                "PARSE_UNRESOLVED",
+                "仍有引用引导语未被确认为直接从属边，循环引用的图算法未对候选边执行。",
+                "candidate/unresolved 不得当作已确认从属边；集合级目标检查已执行。",
+            )
+            add_limited(gaps, graph_gap, MAX_GAPS, "gap 数量")
+            graph_gaps.append(graph_gap["gap_id"])
         check(
             "claim-reference-graph",
             "CN-CLAIM-REF-001",
             "claims-document",
-            "PARTIAL",
+            "PARTIAL" if graph_gaps else "COMPLETED",
             graph_findings,
             graph_gaps,
         )
@@ -670,10 +711,10 @@ def analyze_claims(text: str, source_name: str = "<memory>", source_bytes: bytes
                 )
                 add_limited(findings, item, MAX_FINDINGS, "finding 数量")
                 core_findings.append(item["finding_id"])
-            elif claim_2.kind == "dependent_candidate" and claim_2.references == (1,):
+            elif claim_2.kind in {"dependent_candidate", "dependent_confirmed"} and claim_2.references == (1,):
                 # 权利要求2直接引用权利要求1，无issue
                 pass
-            elif claim_2.kind == "dependent_candidate":
+            elif claim_2.kind in {"dependent_candidate", "dependent_confirmed"}:
                 # 引用不是(1,)
                 item = new_finding(
                     "claim-2-core-dependency",
@@ -770,7 +811,7 @@ def analyze_claims(text: str, source_name: str = "<memory>", source_bytes: bytes
             prefix = ""
             for match in TERM_RE.finditer(claim.text):
                 budget.check_deadline()
-                term = normalize_text(match.group("term"))
+                term = antecedent_term(normalize_text(match.group("term")))
                 prefix += claim.text[len(prefix):match.start()]
                 if term and term not in seen and term not in prefix:
                     seen.add(term)

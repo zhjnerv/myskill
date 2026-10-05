@@ -57,7 +57,7 @@
             "properties": {
               "kind": {
                 "type": "string",
-                "enum": ["process", "ledger", "claim", "specification", "abstract", "drawing", "review"]
+                "enum": ["process", "ledger", "claim", "specification", "abstract", "drawing", "review", "application"]
               },
               "locator": {
                 "type": "string"

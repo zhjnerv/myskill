@@ -36,7 +36,7 @@ python3 "$ROOT/scripts/run_python.py" "$ROOT/skills/cn-patent-application-creato
   --output "<pending-decisions.json>" --docx "<审稿版.docx>"
 ```
 
-`--docx` 还没生成也可以先传预定路径。不要改用别的 Markdown 文件名。与权利要求、说明书或摘要正文直接相关的待决项，在工作副本对应位置写入 `【待决-D001】` 标记（编号取自 `待决文件.md`）。DOCX 组装用 `--copy review` 生成客户审稿版：标记保留、所在段落黄色高亮；用 `--copy submission` 生成提交副本：标记机械剥离、不得残留高亮，`verify_docx_assembly.py` 以 `DOCX-PENDING-MARKS` 复核。`待决文件.md` 与审稿版一起交付，提交副本永远不带待决信息。用户改过待决文件后的第二轮按 `references/pending-decisions.md` 执行，组装器自己不会读取那份 Markdown。
+`--docx` 还没生成也可以先传预定路径。不要改用别的 Markdown 文件名，也不要把 `【待决-D001】` 写进工作副本。DOCX 组装用 `--copy review --pending-decisions` 生成客户审稿版：在对应位置插入黄底段落，段落内直接写问题、当前稿做法和备选，审稿人不必对照编号查阅其他文件。用 `--copy submission` 生成提交副本：不插入待决段，并剥离残留标记，不得残留高亮。`verify_docx_assembly.py` 以 `DOCX-PENDING-MARKS` 复核。`待决文件.md` 可以和审稿版一起交付，但审稿版本身必须能独立决定。提交副本永远不带待决信息。用户改过待决文件后的第二轮按 `references/pending-decisions.md` 执行，组装器自己不会读取那份 Markdown。
 
 **工作副本和提交副本是分开的文件，提交副本是机械生成的。** 提交文件只包含法定内容——零括号策略笔记、零检查器分数、零"与现有技术对比"评注、零后续步骤章节。背景技术部分不做关于现有技术的绝对性承认（写"发明人已知的"，不写"没有任何系统做 X"）。用脚本从工作副本剥离提交副本，然后 diff 核对没有任何残留。
 
@@ -59,4 +59,13 @@ python3 "$ROOT/scripts/run_python.py" "$ROOT/skills/cn-patent-application-creato
 攻击奏效时按字数代价**强制顺序**响应：①**换特征**——用作用不同或耦合型特征替换被击中的特征；②**重述技术问题**——改发明内容使技术问题对应区别特征的实际作用，权利要求零字数变化；③**降抽象层级**——把机制名改写为条件/绑定，通常更短；④**加特征**——只允许加到权 2 或后续从权；向权 1 加字必须书面说明前三步为何不可行并重新通过 `CN-CLAIM-LENGTH-002`。**然后对被改动的权利要求重新跑阶段 4**，并对幸存下来的保护范围最后一次跑值不值得做。同时把每一次收窄的落脚点回写进说明书（第三十三条弹药）。
 
 **5b. 文件包红队（整个工件）。** 只攻击权利要求不够：四文书交付包可以有完美的权利要求却仍然不能作为最终技术文书。把**组装好的四文书交付包**——权利要求书、说明书、说明书摘要和说明书附图，别的都没有——交给一个零战役上下文的全新对抗性审查者，任务是找出：四文书之间的内部矛盾（发明名称是否一致、权利要求项数与技术方案是否对得上、摘要是否准确概括且未扩大、附图说明的图号与实施方式引用是否逐号对应、附图标记与正文名称是否逐字一致）；与工件本身矛盾的验证陈述；早于最后一次编辑的印章；日期错误；不得提交的策略性评注；大而化之的现有技术定性；无依据的权利要求用语。申请人、发明人、联系电话、地址、联系人、代理机构等请求书主体字段不在本红队和本技能交付范围内。
+
+红队结论写成 `cn-patent-red-team-report/v1`，不要另写一份补丁报告，也不要给审查合同的 `exact_fields` 增加字段。主会话可以按同一份攻击清单写报告。报告必须绑定权利要求书、说明书、说明书摘要、说明书附图四份文书的 SHA-256；`scripts/validate_red_team_report.py` 按案件目录重算字节，不一致即失败。每条攻击的 `result` 只允许「攻击奏效」「攻击未奏效」「证据不足」。只有存在「攻击奏效」时，`disposition` 才能是 `RETURN_TO_DRAFTING`，并打回撰写；另外两种结果保持 `NO_RETURN`。需要人决定的事项放在同一报告顶层的 `pending_decisions`，字段与 `collect_pending_decisions.py` 已能读取的条目相同，不预写 `Dnnn` 编号。没有 CNIPA 逐项比对时，新颖性和创造性保持 `INCONCLUSIVE`。这条状态只留在审查包和那一条流程待决里，不要写进每项权利要求的待决问题。
+
+```bash
+python3 "$ROOT/scripts/run_python.py" "$ROOT/skills/cn-patent-application-creator/scripts/validate_red_team_report.py" \
+  --case-dir "<案件根目录>" \
+  --report "<red-team-report.json>" \
+  --output "<red-team-validation.json>"
+```
 

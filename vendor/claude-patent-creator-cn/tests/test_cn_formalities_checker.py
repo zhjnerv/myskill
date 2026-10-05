@@ -117,6 +117,25 @@ class FormalitiesCheckerV2Tests(unittest.TestCase):
         report = json.loads(path.read_text(encoding="utf-8"))
         self.assertTrue(any(item["status"] == "DETERMINISTIC_FAIL" and item["rule_id"] == "form_core_documents_and_application_type" for item in report["findings"]))
 
+    def test_unknown_request_without_title_or_applicant_does_not_fail_closed(self):
+        manifest = complete_manifest()
+        manifest["documents"]["request"] = {"status": "unknown"}
+        manifest["titles"]["request"] = ""
+        manifest["request_fields"]["applicant"] = ""
+        code, path = self.run_checker(manifest)
+        self.assertNotEqual(code, 2)
+        report = json.loads(path.read_text(encoding="utf-8"))
+        self.assertFalse(any(item["status"] == "DETERMINISTIC_FAIL" and item["rule_id"] in {
+            "form_title_consistency_and_quality", "form_request_fields_and_party_identity",
+        } for item in report["findings"]))
+        self.assertTrue(any(item["category"] == "INPUT_UNAVAILABLE" and item["rule_id"] == "form_request_fields_and_party_identity" for item in report["gaps"]))
+
+        provided = complete_manifest()
+        provided["titles"]["request"] = ""
+        provided["request_fields"]["applicant"] = ""
+        code, _path = self.run_checker(provided)
+        self.assertEqual(code, 2)
+
     def test_unreadable_path_is_a_structured_gap_not_a_missing_document_finding(self):
         manifest = complete_manifest()
         manifest["documents"]["request"] = {"status": "provided", "path": "missing-request.txt"}

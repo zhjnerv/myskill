@@ -632,12 +632,23 @@ def analyse(manifest: dict[str, Any], manifest_path: Path, manifest_raw: bytes) 
     # 2. 请求书字段和主体身份：字段存在只能证明声明，不证明权属或真实性。
     request_fields = manifest.get("request_fields")
     required_fields = ("applicant", "inventor", "address")
+    request_status = metadata.get("request", {}).get("status", "unknown")
+    request_outside_delivery = request_status in {"unknown", "not_applicable"}
     if not isinstance(request_fields, dict):
         gap = collector.gap("form_request_fields_and_party_identity", "request", "INPUT_UNAVAILABLE", "没有提供结构化请求书主体字段。", evidence=evidence("application-manifest", "request_fields"))
         register("form_request_fields_and_party_identity", "request", "NOT_VERIFIED", gap_ids=[gap])
     else:
         missing = [field for field in required_fields if not isinstance(request_fields.get(field), str) or not request_fields[field].strip()]
-        if missing:
+        if missing and request_outside_delivery:
+            gap = collector.gap(
+                "form_request_fields_and_party_identity",
+                "request",
+                "INPUT_UNAVAILABLE",
+                "请求书不在四文书交付范围内，申请人等主体字段不阻断准备：" + ", ".join(missing),
+                evidence=evidence("application-manifest", "request_fields"),
+            )
+            register("form_request_fields_and_party_identity", "request", "NOT_VERIFIED", gap_ids=[gap])
+        elif missing:
             finding = collector.finding("form_request_fields_and_party_identity", "request", "request_fields", "结构化请求书缺少主体字段：" + ", ".join(missing), "补齐字段并核对官方请求书。", status="DETERMINISTIC_FAIL", evidence=evidence("application-manifest", "request_fields"))
             register("form_request_fields_and_party_identity", "request", "COMPLETED", finding_ids=[finding])
         else:
@@ -679,7 +690,12 @@ def analyse(manifest: dict[str, Any], manifest_path: Path, manifest_raw: bytes) 
             register("form_language_format_and_execution", "application", "PARTIAL", execution_findings, [gap])
 
     # 4. 名称优先从真实文书提取；manifest 仅作为人工声明回退。
-    title_values = [titles.get(key, "").strip() for key in ("request", "specification", "abstract")]
+    title_values: list[str] = []
+    for key in ("request", "specification", "abstract"):
+        value = titles.get(key, "").strip()
+        if key == "request" and request_outside_delivery and not value:
+            continue
+        title_values.append(value)
     title_findings: list[str] = []
     if any(not value for value in title_values):
         title_findings.append(collector.finding("form_title_consistency_and_quality", "titles", "titles", "一个或多个文书标题声明为空。", "补齐标题并从真实文书独立核验。", status="DETERMINISTIC_FAIL", evidence=evidence("application-manifest", "titles")))

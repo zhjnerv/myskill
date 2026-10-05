@@ -175,17 +175,30 @@ def check_template(state: dict[str, Any], gate: Gate, workspace: Path) -> list[P
         )
 
     if status == "pending":
+        guides = resolve_listed_style_guides(template, gate, workspace)
+        retrieved = retrieved_template_candidates(template, workspace)
+        if retrieved and not guides:
+            gate.block(
+                "GATE-TEMPLATE-006",
+                "已经检索到范本，但没有可用的 template-style-guide.json",
+                "先对已检索范本运行 analyze_template_style.py。用户还没确认时，这些范本也要作为风格参照，"
+                "不得退回默认风格，也不得停下来等确认。",
+            )
         gate.pending({
             "key": "template.selection_pending",
             "source": {"tool_id": "check_stage_gate", "rule_id": "GATE-TEMPLATE-001"},
             "target": {"kind": "process", "locator": "template_selection"},
-            "question": "是否确认使用范本？",
-            "adopted_default": "不加载范本，用默认起草策略",
-            "options": ["确认范本", "不使用范本"],
+            "question": "是否确认把已检索范本作为选定范本？确认前它们只作为风格参照。",
+            "adopted_default": (
+                "已检索范本仅作风格参照，确认前不视为用户选定"
+                if guides else
+                "尚未检索到范本，用默认起草策略"
+            ),
+            "options": ["确认范本", "继续只作风格参照", "不使用范本"],
             "impact": ["formality"],
             "decider": "attorney"
         })
-        return []
+        return guides
 
     if status == "declined":
         quote = require_authorization(
@@ -207,8 +220,8 @@ def check_template(state: dict[str, Any], gate: Gate, workspace: Path) -> list[P
             })
         return []
 
-    guides = template.get("style_guides")
-    if not isinstance(guides, list) or not guides:
+    listed = template.get("style_guides")
+    if not isinstance(listed, list) or not listed:
         gate.block(
             "GATE-TEMPLATE-003",
             "范本状态为 confirmed，却没有列出任何 template-style-guide.json",
@@ -225,6 +238,15 @@ def check_template(state: dict[str, Any], gate: Gate, workspace: Path) -> list[P
     else:
         gate.note("GATE-TEMPLATE-004", "范本状态为 confirmed，但未提供用户原话；按已确认范本继续")
 
+    return resolve_listed_style_guides(template, gate, workspace)
+
+
+def resolve_listed_style_guides(template: dict[str, Any], gate: Gate, workspace: Path) -> list[Path]:
+    """解析已经列出的风格指南。路径无效则阻断该项，不把缺文件当成默认风格。"""
+
+    guides = template.get("style_guides")
+    if not isinstance(guides, list) or not guides:
+        return []
     resolved: list[Path] = []
     for index, item in enumerate(guides, start=1):
         if not isinstance(item, str) or not item.strip():
@@ -244,6 +266,23 @@ def check_template(state: dict[str, Any], gate: Gate, workspace: Path) -> list[P
             continue
         resolved.append(path)
     return resolved
+
+
+def retrieved_template_candidates(template: dict[str, Any], workspace: Path) -> bool:
+    """候选清单里已经有范本时，风格参照不再等待用户确认。"""
+
+    raw = template.get("candidate_manifest_path")
+    if not isinstance(raw, str) or not raw.strip():
+        return False
+    path = (workspace / raw).resolve()
+    if not path.is_file():
+        return False
+    try:
+        payload, _ = load_json(path, "范本候选清单")
+    except GateError:
+        return False
+    candidates = payload.get("candidates") if isinstance(payload, dict) else None
+    return isinstance(candidates, list) and bool(candidates)
 
 
 def check_template_ipc_selection(
@@ -667,15 +706,15 @@ def check_style_brief(state: dict[str, Any], gate: Gate, workspace: Path, guides
     if guides and source_mode != "template":
         gate.block(
             "GATE-BRIEF-003",
-            "已确认范本，但 style-brief.json 的来源模式是默认策略",
-            "用确认的 template-style-guide.json 重新生成简报；确认过范本却按默认策略起草，"
-            "等于范本学习结果没有进入起草",
+            "已有范本风格指南，但 style-brief.json 的来源模式是默认策略",
+            "用这些 template-style-guide.json 重新生成简报。用户尚未确认时，已检索范本仍然是风格参照，"
+            "不得退回默认策略。",
         )
     if not guides and source_mode == "template":
         gate.block(
             "GATE-BRIEF-003",
-            "未确认范本，style-brief.json 却声明来源于范本",
-            "核对范本确认状态与简报来源；两者必须一致",
+            "没有可参照的范本风格指南，style-brief.json 却声明来源于范本",
+            "核对范本清单与简报来源；没有已检索范本时才能使用默认策略。",
         )
 
     embodiments = (brief.get("specification") or {}).get("embodiments") or {}

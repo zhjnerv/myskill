@@ -12,7 +12,7 @@ SCHEMA_ID = "cn-patent-pending-decisions/v1"
 RESOLUTIONS_SCHEMA_ID = "cn-patent-pending-resolutions/v1"
 
 TARGET_KINDS = {
-    "process", "ledger", "claim", "specification", "abstract", "drawing", "review",
+    "process", "ledger", "claim", "specification", "abstract", "drawing", "review", "application",
 }
 DECISION_PLACEHOLDER = "未决"
 ANNOTATION_PLACEHOLDER = "（在此填写。留空表示这一条仍未决定。）"
@@ -278,7 +278,7 @@ def render_pending_file(
         "",
         "本文件与最终专利申请文件放在同一目录。请只改每条的「决定」和「标注」。",
         "不要改编号、键、位置，也不要删除条目边界。第二轮只读这两节，再修订申请文件。",
-        "审稿版申请文件仍会把对应段落标成黄底；改这个文件不会自动改 docx。",
+        "审稿版会在对应位置另起黄底段落，写明问题、当前稿做法和备选；只看审稿版就能选择。改这个文件不会自动改 docx。",
         "",
         f"- 案号：{_machine_text(case_id)}",
         f"- 申请文件：{_machine_text(application_name)}",

@@ -299,3 +299,101 @@ def test_read_pending_file_classifies_user_edits(tmp_path):
     assert by_id["D004"]["option_unmatched"] is True
     assert payload["legal_effect"] == "ADVISORY_ONLY"
     assert "INSTRUCT=2" in read.stdout
+
+
+def test_routine_publication_and_repeated_cnipa_prompts(tmp_path):
+    claim_1 = _decision(
+        "inventive.assessment_review_pending",
+        "claim",
+        "权利要求1",
+        "脚本把仅含权利要求1的方案评为defensible，但CNIPA官方库还没有检索，新颖性和创造性都不能下结论。是否批准先按这个复算结果保留权利要求1？",
+    )
+    claim_1["adopted_default"] = "不改权利要求1；分级保持脚本复算的defensible，新颖性和创造性仍不下结论。"
+    claim_10 = _decision(
+        "inventive.assessment_review_pending",
+        "claim",
+        "权利要求10",
+        "脚本把仅含权利要求10的冷镦机方案评为defensible，但CNIPA官方库还没有检索，新颖性和创造性都不能下结论。是否批准先按这个复算结果保留权利要求10？",
+    )
+    claim_10["adopted_default"] = "不改权利要求10；分级保持脚本复算的defensible，新颖性和创造性仍不下结论。"
+    claim_2 = _decision(
+        "inventive.assessment_review_pending",
+        "claim",
+        "权利要求2",
+        "脚本把权利要求1加权利要求2评为defensible，但CNIPA官方库还没有检索，新颖性和创造性都不能下结论。是否批准先按这个复算结果保留这组权利要求？",
+    )
+    claim_2["adopted_default"] = "不改权利要求1和权利要求2；分级保持脚本复算的defensible，新颖性和创造性仍不下结论。"
+    partial = _decision(
+        "inventive.partial_disclosure_heavy",
+        "claim",
+        "权利要求1",
+        "脚本没有把这种更具体算作对比文件已经公开。是补充区别特征，还是确认接受这个风险？",
+    )
+    publication = _decision(
+        "case.publication_and_priority",
+        "application",
+        "publication-priority",
+        "现有材料没有写明这项技术是否已经公开，也没有写明要主张优先权。是否按尚未公开、并且不主张优先权继续？",
+    )
+    stated = _decision(
+        "case.priority_documents",
+        "application",
+        "publication-priority",
+        "用户已说明要主张优先权，在先申请号为 CN202410000001.1。优先权文件是否已备齐？",
+    )
+    cnipa = _decision(
+        "search.cnipa_manual_search_pending_authorization",
+        "process",
+        "cnipa_manual_search",
+        "本案还没有完成CNIPA官方库的人工检索，所以新颖性和创造性都不能写成已经成立。是否授权在官方库没有查完时继续使用本稿？",
+    )
+    cnipa["adopted_default"] = "继续使用本稿，新颖性和创造性保持不能下结论。"
+    docx = tmp_path / "申请文件.docx"
+    res, out_json = _run_collect(
+        tmp_path,
+        [publication, claim_1, claim_10, claim_2, partial, cnipa, stated],
+        docx=docx,
+    )
+    assert res.returncode == 0, res.stderr
+    payload = json.loads(out_json.read_text(encoding="utf-8"))
+    by_locator = {(item["key"], item["target"]["locator"]): item for item in payload["decisions"]}
+    assert ("case.publication_and_priority", "publication-priority") not in by_locator
+    assert "CNIPA" not in by_locator[("inventive.assessment_review_pending", "权利要求1")]["question"]
+    assert by_locator[("inventive.assessment_review_pending", "权利要求1")]["question"] == (
+        "脚本把仅含权利要求1的方案评为defensible。是否批准先按这个复算结果保留权利要求1？"
+    )
+    assert by_locator[("inventive.assessment_review_pending", "权利要求1")]["adopted_default"] == (
+        "不改权利要求1；分级保持脚本复算的defensible。"
+    )
+    assert "CNIPA" not in by_locator[("inventive.assessment_review_pending", "权利要求10")]["question"]
+    assert "CNIPA" not in by_locator[("inventive.assessment_review_pending", "权利要求2")]["question"]
+    assert "新颖性和创造性仍不下结论" not in by_locator[("inventive.assessment_review_pending", "权利要求2")]["adopted_default"]
+    assert by_locator[("inventive.partial_disclosure_heavy", "权利要求1")]["question"] == partial["question"]
+    assert by_locator[("search.cnipa_manual_search_pending_authorization", "cnipa_manual_search")]["question"] == cnipa["question"]
+    assert by_locator[("case.priority_documents", "publication-priority")]["question"] == stated["question"]
+    pending = (tmp_path / "待决文件.md").read_text(encoding="utf-8")
+    assert "是否已经公开" not in pending
+    assert pending.count("CNIPA官方库") == 1
+
+
+def test_without_dedicated_cnipa_item_only_one_claim_keeps_the_gap(tmp_path):
+    first = _decision(
+        "inventive.assessment_review_pending",
+        "claim",
+        "权利要求1",
+        "脚本把权利要求1评为defensible，但CNIPA官方库还没有检索。是否保留？",
+    )
+    second = _decision(
+        "inventive.assessment_review_pending",
+        "claim",
+        "权利要求2",
+        "脚本把权利要求2评为defensible，但CNIPA官方库还没有检索。是否保留？",
+    )
+    docx = tmp_path / "申请文件.docx"
+    res, out_json = _run_collect(tmp_path, [first, second], docx=docx)
+    assert res.returncode == 0, res.stderr
+    payload = json.loads(out_json.read_text(encoding="utf-8"))
+    by_locator = {item["target"]["locator"]: item["question"] for item in payload["decisions"]}
+    assert "CNIPA" in by_locator["权利要求1"]
+    assert "CNIPA" not in by_locator["权利要求2"]
+    assert by_locator["权利要求2"] == "脚本把权利要求2评为defensible。是否保留？"
