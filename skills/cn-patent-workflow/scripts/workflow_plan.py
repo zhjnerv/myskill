@@ -30,7 +30,7 @@ STATUS_LABEL = {
 
 # 完整申请的步骤一次列全。可选步骤不自动消失，不适用时必须显式 skip。
 FULL_APPLICATION: tuple[tuple[str, str, str, bool, str], ...] = (
-    ("intake", "受理与法定日期审计", "cn-patent-application-creator", False, "pending"),
+    ("intake", "受理", "cn-patent-application-creator", False, "pending"),
     ("mining", "发明挖掘", "cn-patent-application-creator", False, "pending"),
     ("history-mining", "历史挖掘", "cn-patent-application-creator", True, "pending"),
     ("search-template", "检索与范本", "cn-patent-application-creator", False, "pending"),

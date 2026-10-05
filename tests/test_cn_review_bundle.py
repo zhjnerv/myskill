@@ -766,5 +766,95 @@ class ProhibitedConclusionTests(ChainTestCase):
                 with self.subTest(artifact=path.name):
                     self.assertFalse(path.read_bytes().startswith(b"\xef\xbb\xbf"), f"{path.name} 含 BOM")
 
+
+class CapabilityGapVetoTests(unittest.TestCase):
+    """脚本未做语义判断，不得否决审查者已经作出的清楚结论。"""
+
+    def setUp(self):
+        self.orchestrator = fx.load_module("orchestrator", "capability_gap_orchestrator")
+        self.contract = CONTRACT
+        self.template = self.orchestrator.build_semantic_template(self.contract, "prepare-test", {
+            "claims": "a" * 64,
+            "specification": "b" * 64,
+            "abstract": "c" * 64,
+            "formalities_manifest": "d" * 64,
+        })
+
+    def clear(self, dimension_id: str, result: str = "NO_ISSUE_FOUND") -> None:
+        assessment = next(item for item in self.template["assessments"] if item["rule_id"] == dimension_id)
+        if result == "NOT_APPLICABLE":
+            assessment.update({
+                "coverage": "NOT_APPLICABLE",
+                "result": "NOT_APPLICABLE",
+                "severity": "NONE",
+                "evidence": {
+                    "mode": "DOCUMENTARY_SEMANTIC",
+                    "sufficiency": "ADEQUATE_FOR_SCOPED_ASSESSMENT",
+                    "artifact_ids": [],
+                    "source_locations": [],
+                },
+                "finding_ids": [],
+                "gap_ids": [],
+            })
+            return
+        assessment.update({
+            "coverage": "FULL",
+            "result": "NO_ISSUE_FOUND",
+            "severity": "NONE",
+            "evidence": {
+                "mode": "DOCUMENTARY_SEMANTIC",
+                "sufficiency": "ADEQUATE_FOR_SCOPED_ASSESSMENT",
+                "artifact_ids": [],
+                "source_locations": [],
+            },
+            "finding_ids": [],
+            "gap_ids": [],
+        })
+
+    def assessment_for(self, dimension_id: str, subreports=None):
+        assessments, _gaps = self.orchestrator.build_assessments(
+            self.template, subreports or [], self.contract,
+        )
+        return next(item for item in assessments if item["rule_id"] == dimension_id)
+
+    def test_semantic_capability_gap_does_not_veto_clear_results(self):
+        self.clear("claim_clarity")
+        assessment = self.assessment_for("claim_clarity")
+        self.assertEqual(assessment["gap_ids"], [])
+        self.assertTrue(any(
+            item["dimension_id"] == "claim_clarity" and item["category"] == "SEMANTIC_REVIEW_NOT_PERFORMED"
+            for item in self.template["semantic_gaps"]
+        ))
+        self.clear("claim_support", "NOT_APPLICABLE")
+        self.assertEqual(self.assessment_for("claim_support")["gap_ids"], [])
+
+    def test_input_unavailable_and_deterministic_fail_still_veto(self):
+        self.clear("claim_clarity")
+        self.template["semantic_gaps"].append({
+            "gap_id": "SG-INPUT",
+            "dimension_id": "claim_clarity",
+            "category": "INPUT_UNAVAILABLE",
+            "reason": "缺少输入",
+            "evidence": [],
+            "blocks_assessment": True,
+        })
+        with self.assertRaises(self.orchestrator.OrchestrationError):
+            self.assessment_for("claim_clarity")
+
+        self.template["semantic_gaps"] = [
+            item for item in self.template["semantic_gaps"] if item["gap_id"] != "SG-INPUT"
+        ]
+        subreports = [{
+            "findings": [{
+                "dimension_id": "claim_clarity",
+                "finding_id": "F-DETERMINISTIC",
+                "status": "DETERMINISTIC_FAIL",
+            }],
+            "gaps": [],
+        }]
+        with self.assertRaises(self.orchestrator.OrchestrationError):
+            self.assessment_for("claim_clarity", subreports)
+
+
 if __name__ == "__main__":
     unittest.main()

@@ -142,12 +142,23 @@ def _collect_drawing_bindings(
     return out
 
 
+def _drawio_skipped(figure: dict[str, Any]) -> bool:
+    """机械 DXF 且计划已跳过 Draw.io 时，不要求也不接受伪造的 drawio。"""
+
+    production = figure.get("production")
+    if not isinstance(production, dict):
+        return False
+    return production.get("kind") == "mechanical_dxf" and production.get("drawio") == "skipped"
+
+
 def _verify_figure_binding(
     figure_number: int,
     brief_outputs: dict[str, Any],
     drawing_figure: dict[str, Any],
     case_dir: Path,
     errors: list[dict[str, str]],
+    *,
+    drawio_skipped: bool = False,
 ) -> None:
     """逐图核对 PNG/Draw.io 路径与 SHA-256 与当前文件一致。"""
     png_info = drawing_figure.get("png") or {}
@@ -219,6 +230,17 @@ def _verify_figure_binding(
 
     drawio_info = drawing_figure.get("drawio") or {}
     brief_drawio_value = brief_outputs.get("drawio")
+    if drawio_skipped:
+        forged = (
+            (isinstance(brief_drawio_value, str) and brief_drawio_value.strip())
+            or (isinstance(drawio_info, dict) and (drawio_info.get("path") or drawio_info.get("sha256")))
+        )
+        if forged:
+            errors.append({
+                "code": "DELIVERY-DRAWING-FORGED-DRAWIO",
+                "message": f"figure {figure_number} 已声明跳过 Draw.io，不得再提供 drawio 路径或哈希",
+            })
+        return
     if not isinstance(brief_drawio_value, str) or not brief_drawio_value:
         errors.append({
             "code": "DELIVERY-DRAWING-BINDING",
@@ -355,13 +377,20 @@ def verify(args: argparse.Namespace) -> dict[str, Any]:
             continue
         brief_figure_numbers.add(number)
         brief_by_number[number] = figure
-        for output_key in ("final_png", "drawio"):
+        skipped_drawio = _drawio_skipped(figure)
+        output_keys = ("final_png",) if skipped_drawio else ("final_png", "drawio")
+        for output_key in output_keys:
             raw_output = outputs.get(output_key)
             if not isinstance(raw_output, str) or not raw_output:
                 errors.append({"code": "DELIVERY-DRAWING-BINDING", "message": f"figure {number} brief 缺少 outputs.{output_key}"})
+        if skipped_drawio and isinstance(outputs.get("drawio"), str) and outputs.get("drawio").strip():
+            errors.append({
+                "code": "DELIVERY-DRAWING-FORGED-DRAWIO",
+                "message": f"figure {number} 已声明跳过 Draw.io，不得在 brief 中填写 outputs.drawio",
+            })
         try:
             png = resolve(case_dir, outputs["final_png"])
-            drawio = resolve(case_dir, outputs["drawio"])
+            drawio = None if skipped_drawio else resolve(case_dir, outputs["drawio"])
         except (KeyError, TypeError, ValueError) as exc:
             errors.append({"code": "DELIVERY-DRAWING-BINDING", "message": f"figure {number} 产物路径无法解析：{exc}"})
             continue
@@ -369,7 +398,7 @@ def verify(args: argparse.Namespace) -> dict[str, Any]:
             errors.append({"code": "DELIVERY-DRAWING-EVIDENCE", "message": f"figure {number} 当前 PNG 不存在：{png}"})
         else:
             expected[f"figure_{number}"] = {"path": str(png), "sha256": sha256(png)}
-        if not drawio.is_file():
+        if drawio is not None and not drawio.is_file():
             errors.append({"code": "DELIVERY-DRAWING-EVIDENCE", "message": f"figure {number} 当前 Draw.io 不存在：{drawio}"})
     for artifact_id, item in expected.items():
         actual = artifacts.get(artifact_id)
@@ -406,6 +435,7 @@ def verify(args: argparse.Namespace) -> dict[str, Any]:
                     drawing_figures.get(number, {}),
                     case_dir,
                     errors,
+                    drawio_skipped=_drawio_skipped(figure),
                 )
 
     render = docx_report.get("render") or {}

@@ -89,14 +89,33 @@ class ClaimsCheckerV2Tests(unittest.TestCase):
         report = checker.analyze_claims("999999. " + "甲" * 600)
         self.assertFalse(any(item["rule_id"] == "CN-CLAIM-LENGTH-001" for item in report["findings"]))
 
-    def test_reference_leads_only_create_candidate_or_unresolved_states(self):
-        candidate = checker.analyze_claims("1. 一种装置。\n2. 根据权利要求1所述的装置。")
+    def test_clean_opening_reference_is_confirmed_and_residue_stays_unresolved(self):
+        confirmed = checker.analyze_claims("1. 一种装置。\n2. 根据权利要求1所述的装置。")
+        self.assertFalse(any(item["rule_id"] == "CN-CLAIM-REF-PARSE-001" for item in confirmed["findings"]))
+        self.assertFalse(any(
+            item["rule_id"] == "CN-CLAIM-REF-001" and item["category"] == "PARSE_UNRESOLVED"
+            for item in confirmed["gaps"]
+        ))
+        graph = next(item for item in confirmed["checks_performed"] if item["check_id"] == "claim-reference-graph")
+        self.assertEqual(graph["status"], "COMPLETED")
+        candidate = checker.analyze_claims("1. 一种装置。\n2. 一种根据权利要求1所述的装置。")
         candidate_finding = next(item for item in candidate["findings"] if item["rule_id"] == "CN-CLAIM-REF-PARSE-001")
         self.assertEqual(candidate_finding["status"], "REVIEW_REQUIRED")
-        self.assertIn("PARSE_UNRESOLVED", {item["category"] for item in candidate["gaps"]})
         unresolved = checker.analyze_claims("1. 一种装置。\n2. 根据权利要求甲所述的装置。")
-        self.assertIn("PARSE_UNRESOLVED", {item["category"] for item in unresolved["gaps"]})
-        self.assertFalse(any(item["rule_id"] == "CN-CLAIM-REF-001" and item["status"] == "DETERMINISTIC_FAIL" for item in candidate["findings"]))
+        self.assertTrue(any(
+            item["rule_id"] == "CN-CLAIM-REF-PARSE-001" and item["category"] == "PARSE_UNRESOLVED"
+            for item in unresolved["gaps"]
+        ))
+        self.assertFalse(any(item["rule_id"] == "CN-CLAIM-REF-001" and item["status"] == "DETERMINISTIC_FAIL" for item in confirmed["findings"]))
+
+    def test_motion_predicate_is_stripped_from_antecedent_but_bare_motion_remains(self):
+        stripped = checker.analyze_claims("1. 一种滑台，所述床身往复运动。")
+        excerpts = {item["evidence"][0]["excerpt"] for item in stripped["findings"] if item["rule_id"] == "CN-CLAIM-TERM-001"}
+        self.assertIn("所述床身", excerpts)
+        self.assertNotIn("所述床身往复运动", excerpts)
+        bare = checker.analyze_claims("1. 一种滑台，所述往复运动。")
+        bare_excerpts = {item["evidence"][0]["excerpt"] for item in bare["findings"] if item["rule_id"] == "CN-CLAIM-TERM-001"}
+        self.assertIn("所述往复运动", bare_excerpts)
 
     def test_multiple_dependent_conjunctive_and_nested_multi_fail(self):
         report = checker.analyze_claims(
@@ -134,8 +153,9 @@ class ClaimsCheckerV2Tests(unittest.TestCase):
         self.assertIn("向后引用", problems)
         self.assertIn("不存在", problems)
         ref_check = next(item for item in report["checks_performed"] if item["check_id"] == "claim-reference-graph")
-        self.assertEqual(ref_check["status"], "PARTIAL")
+        self.assertEqual(ref_check["status"], "COMPLETED")
         self.assertTrue(ref_check["finding_ids"])
+        self.assertFalse(any(item["rule_id"] == "CN-CLAIM-REF-001" and item["category"] == "PARSE_UNRESOLVED" for item in report["gaps"]))
 
     def test_function_and_dependent_semantic_rules_emit_fixed_gaps(self):
         report = checker.analyze_claims("1. 一种装置。")

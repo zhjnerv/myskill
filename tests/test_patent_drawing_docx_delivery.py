@@ -248,3 +248,27 @@ def test_old_freshness_report_with_replaced_docx_is_rejected(tmp_path):
     assert result.returncode == 2, result.stdout + result.stderr
     # 旧 freshness 必须被视为历史证据，不再阻断；当前复算失败即拒绝。
     assert payload["docx_assembly_reverified_status"] == "FAIL"
+
+
+def test_mechanical_dxf_skips_drawio_and_rejects_forged_drawio(tmp_path):
+    brief, drawing, report, verification, _png, drawio, _docx = fixture(tmp_path)
+    brief_payload = json.loads(brief.read_text(encoding="utf-8"))
+    brief_payload["figures"][0]["production"] = {"kind": "mechanical_dxf", "drawio": "skipped"}
+    brief_payload["figures"][0]["outputs"].pop("drawio")
+    write_json(brief, brief_payload)
+    drawing_payload = json.loads(drawing.read_text(encoding="utf-8"))
+    drawing_payload["brief_sha256"] = digest(brief)
+    drawing_payload["figures"][0].pop("drawio")
+    write_json(drawing, drawing_payload)
+    result, payload = run(tmp_path, brief, drawing, report, verification)
+    assert result.returncode == 0, result.stdout + result.stderr
+    assert payload["status"] == "PASS"
+
+    brief_payload["figures"][0]["outputs"]["drawio"] = "drawings/图1.drawio"
+    write_json(brief, brief_payload)
+    drawing_payload["brief_sha256"] = digest(brief)
+    drawing_payload["figures"][0]["drawio"] = {"path": str(drawio), "sha256": digest(drawio)}
+    write_json(drawing, drawing_payload)
+    result, payload = run(tmp_path, brief, drawing, report, verification)
+    assert result.returncode == 2, result.stdout + result.stderr
+    assert any(item["code"] == "DELIVERY-DRAWING-FORGED-DRAWIO" for item in payload["errors"])

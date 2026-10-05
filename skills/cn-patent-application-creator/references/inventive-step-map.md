@@ -35,9 +35,9 @@
 | 待决键 (Key) | 描述 |
 | --- | --- |
 | `inventive.core_set_not_defensible` | 核心特征集不足以支持 defensible，建议补充机理链或更换 |
-| `inventive.assessment_review_pending` | review.status 非 approved |
+| `inventive.assessment_review_pending` | review.status 非 approved。问题只问是否批准该组复算结果，不重复 CNIPA 未检索 |
 | `inventive.core_point_not_minimal` | 架构中登记的核心保护点并非使该组特征 defensible 的最小子集之一 |
-| `inventive.partial_disclosure_heavy` | `disclosed=partial` 特征数大于或等于区别特征总数一半 |
+| `inventive.partial_disclosure_heavy` | `disclosed=partial` 特征数大于或等于区别特征总数一半 | 待决问题必须写明文献号和未公开的限定，不得把 partial 写成“比对比文件更具体”，也不得据此要求缩小权利要求。
 | `inventive.common_knowledge_medium` | 公知常识判定为 medium，程序将其保守视同 high，交人工定夺 |
 | `inventive.core_dependent_missing` | 缺失引独权的第一直接从权，无核心保护点 |
 

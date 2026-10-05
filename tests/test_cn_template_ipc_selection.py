@@ -485,7 +485,23 @@ def test_stage_gate_pending_template_is_cleared_with_pending(tmp_path):
     state_payload["template_selection"]["status"] = "pending"
     _write_json(state, state_payload)
 
-    # Also update style-brief.json to match "pending" template selection
+    result = _run(GATE, "--state", str(state), "--workspace", str(tmp_path), "--output", str(output))
+    assert result.returncode == 0, result.stdout + result.stderr
+    report = json.loads(output.read_text(encoding="utf-8"))
+    assert report["decision"] == "CLEARED_WITH_PENDING"
+    pending = next(item for item in report["pending_decisions"] if item["key"] == "template.selection_pending")
+    assert pending["adopted_default"] == "已检索范本仅作风格参照，确认前不视为用户选定"
+    brief = json.loads((tmp_path / "style-brief.json").read_text(encoding="utf-8"))
+    assert brief["source"]["mode"] == "template"
+
+
+def test_stage_gate_pending_without_candidates_uses_default_style(tmp_path):
+    state, output = _gate_fixture(tmp_path)
+    state_payload = json.loads(state.read_text(encoding="utf-8"))
+    state_payload["template_selection"]["status"] = "pending"
+    state_payload["template_selection"]["style_guides"] = []
+    state_payload["template_selection"].pop("candidate_manifest_path")
+    _write_json(state, state_payload)
     brief_path = tmp_path / "style-brief.json"
     brief_payload = json.loads(brief_path.read_text(encoding="utf-8"))
     brief_payload["source"]["mode"] = "default"
@@ -494,8 +510,25 @@ def test_stage_gate_pending_template_is_cleared_with_pending(tmp_path):
     result = _run(GATE, "--state", str(state), "--workspace", str(tmp_path), "--output", str(output))
     assert result.returncode == 0, result.stdout + result.stderr
     report = json.loads(output.read_text(encoding="utf-8"))
-    assert report["decision"] == "CLEARED_WITH_PENDING"
-    assert any(p["key"] == "template.selection_pending" for p in report["pending_decisions"])
+    pending = next(item for item in report["pending_decisions"] if item["key"] == "template.selection_pending")
+    assert pending["adopted_default"] == "尚未检索到范本，用默认起草策略"
+
+
+def test_stage_gate_retrieved_candidates_without_style_guide_are_blocked(tmp_path):
+    state, output = _gate_fixture(tmp_path)
+    state_payload = json.loads(state.read_text(encoding="utf-8"))
+    state_payload["template_selection"]["status"] = "pending"
+    state_payload["template_selection"]["style_guides"] = []
+    _write_json(state, state_payload)
+    brief_path = tmp_path / "style-brief.json"
+    brief_payload = json.loads(brief_path.read_text(encoding="utf-8"))
+    brief_payload["source"]["mode"] = "default"
+    _write_json(brief_path, brief_payload)
+
+    result = _run(GATE, "--state", str(state), "--workspace", str(tmp_path), "--output", str(output))
+    assert result.returncode == 2, result.stdout + result.stderr
+    report = json.loads(output.read_text(encoding="utf-8"))
+    assert any(block["gate_id"] == "GATE-TEMPLATE-006" for block in report["blocks"])
 
 def test_stage_gate_search_not_completed_no_quote_is_cleared_with_pending(tmp_path):
     state, output = _gate_fixture(tmp_path)

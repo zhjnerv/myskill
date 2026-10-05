@@ -35,6 +35,7 @@ allowed-tools: Bash, Read, Write
 4. 没有被当前任务消费的资料不进入上下文。
 5. 中国法结论只能来自本项目法源和对应 CN Skill，不借用 MPEP、USPTO、EPO 或 PCT 实体规则。
 6. 法源先读取 `references/cn-legal-sources/source-index.json`，只加载当前主题列出的分章；不得默认加载审查指南全文。
+7. 材料没有写明公开或优先权时，按尚未公开、不主张优先权继续，不提问、不生成待决。CNIPA 人工检索未完成只保留一条流程待决，不得在各权利要求待决里重复。
 
 ## 执行计划
 
