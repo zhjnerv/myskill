@@ -10,8 +10,8 @@
       "subpath": null,
       "localPrefix": "vendor/claude-patent-creator-cn",
       "vendoredAt": "2026-09-26T09:23:38Z",
-      "lastSync": "2026-09-28T05:02:55Z",
-      "lastSyncTree": "5a9eaef5c7c0b8323f081863c72dd4d7461c234a",
+      "lastSync": "2026-10-05T05:16:23Z",
+      "lastSyncTree": "91bf4c45728721ce5f643d27b4f4ce73fd1fc47a",
       "notes": "Own package, not a third-party fork. Shared legal sources and scripts live at the package root; do not vendor the seven skills separately."
     },
     {
@@ -22,8 +22,8 @@
       "branch": "main",
       "subpath": null,
       "vendoredAt": "2026-09-26T08:55:28Z",
-      "lastSync": "2026-09-26T08:55:28Z",
-      "lastSyncTree": "2d6ac9a556bc4ae5aad86429c554b63800e493b6",
+      "lastSync": "2026-10-05T05:16:24Z",
+      "lastSyncTree": "0243961530d131c0ba21ee2a0a47b0ceb039f3aa",
       "notes": ""
     },
     {
