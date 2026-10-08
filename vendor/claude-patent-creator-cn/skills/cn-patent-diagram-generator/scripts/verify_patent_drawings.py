@@ -788,6 +788,80 @@ def reproduce_official_export(drawio_path: Path, final_png: Path, export: dict[s
         }
 
 
+
+
+def _visual_evidence_scope(visual_statuses: list[str], brief_figures: list[Any], errors: list[dict[str, str]]) -> dict[str, list[str]]:
+    """只有全部图都复核通过时，才声称逐项视觉检查已经完成。"""
+    proves = [
+        "绘图合同和来源哈希有效",
+        "当前 Draw.io 母版可复算得到当前最终 PNG",
+        "技术节点字号、框字比例、显式中文换行、节点形状、关系标签字号与净空、估算文本容量和纵向空白间距满足合同",
+    ]
+    does_not = [
+        "图示技术方案具备新颖性或创造性",
+        "说明书和权利要求的法律支持关系已经成立",
+        "未由复核者实际观察到的视觉事实",
+    ]
+    visual_errors = [item for item in errors if str(item.get("code", "")).startswith("DRAWING-VISUAL")]
+    complete = (
+        len(visual_statuses) == len(brief_figures)
+        and bool(visual_statuses)
+        and all(status == "passed" for status in visual_statuses)
+        and not visual_errors
+    )
+    if complete:
+        proves.append("视觉复核记录绑定当前合同、导出报告和最终 PNG")
+        proves.append("逐项视觉检查均已复核通过")
+    else:
+        does_not.append("尚未复核、明确失败或已经陈旧的视觉结论")
+    return {"proves": proves, "does_not_prove": does_not}
+
+
+def classify_visual_check_value(value: Any) -> str | None:
+    """True 为已通过；False 为明确失败；缺项或其他值都只是尚未复核。"""
+    if value is True:
+        return None
+    if value is False:
+        return "DRAWING-VISUAL-FAILED"
+    return "DRAWING-VISUAL"
+
+
+def resolve_visual_gate(figure_visual_errors: list[dict[str, str]], machine_error_count: int) -> dict[str, Any]:
+    """区分尚未复核、已通过、明确失败和证据陈旧。
+
+    明确失败和陈旧证据进入 errors，不能再降成可交付的待决。
+    只有机器部分没有错误、且没有明确失败或陈旧时，尚未复核才保留审稿待决。
+    """
+    stales = [item for item in figure_visual_errors if item.get("code") == "DRAWING-VISUAL-STALE"]
+    failed = [item for item in figure_visual_errors if item.get("code") == "DRAWING-VISUAL-FAILED"]
+    unreviewed = [item for item in figure_visual_errors if item.get("code") == "DRAWING-VISUAL"]
+    hard = [*stales, *failed]
+    pending = None
+    if stales:
+        status = "stale"
+        hard.extend(unreviewed)
+    elif failed:
+        status = "failed"
+        hard.extend(unreviewed)
+    elif unreviewed:
+        status = "not_reviewed"
+        if machine_error_count == 0:
+            pending = {
+                "key": "drawing.visual_review_pending",
+                "source": {"tool_id": "verify_patent_drawings", "rule_id": "DRAWING-VISUAL"},
+                "question": "视觉复核尚未完成",
+                "adopted_default": "机器指标达标，先按当前 PNG 形成审稿件，视觉复核仍待人工",
+                "options": ["批准", "不批准"],
+                "impact": ["delivery"],
+                "decider": "attorney",
+            }
+        else:
+            hard.extend(unreviewed)
+    else:
+        status = "passed"
+    return {"status": status, "errors": hard, "pending": pending}
+
+
 def verify(brief_path: Path, case_dir: Path, drawio_skill_dir: Path | None) -> dict[str, Any]:
     brief_report = brief_validator.validate_brief(brief_path, case_dir)
     errors = list(brief_report.get("errors", []))
@@ -825,6 +899,7 @@ def verify(brief_path: Path, case_dir: Path, drawio_skill_dir: Path | None) -> d
         errors.append({"code": "DRAWING-VISUAL", "message": "visual-review.json 含重复图号"})
     pending_decisions = []
     figures = []
+    visual_statuses: list[str] = []
     for figure in brief["figures"]:
         machine_error_start = len(errors)
         number = figure["figure_number"]
@@ -875,27 +950,33 @@ def verify(brief_path: Path, case_dir: Path, drawio_skill_dir: Path | None) -> d
         machine_error_count = len(errors) - machine_error_start
         review = visual_by_number.get(number)
         figure_visual_errors = []
-        if not isinstance(review, dict) or review.get("approved") is not True:
+        if not isinstance(review, dict):
             figure_visual_errors.append({"code": "DRAWING-VISUAL", "message": f"图{number} 缺少批准的视觉复核"})
         else:
-            try:
-                reviewed_png = resolve_under(case_dir, review.get("png_path", ""), f"图{number} visual png_path")
-            except ValueError as exc:
-                figure_visual_errors.append({"code": "DRAWING-VISUAL", "message": str(exc)})
-            else:
-                if reviewed_png != paths["final_png"]:
-                    figure_visual_errors.append({"code": "DRAWING-VISUAL-STALE", "message": f"图{number} 视觉复核指向的不是当前最终 PNG"})
-            if review.get("png_sha256") != sha256(paths["final_png"]):
-                figure_visual_errors.append({"code": "DRAWING-VISUAL-STALE", "message": f"图{number} 视觉复核绑定的 PNG 已陈旧"})
-            if brief_schema in {"cn-patent-drawing-brief/v3", "cn-patent-drawing-brief/v4"}:
+            approval_error = classify_visual_check_value(review.get("approved"))
+            if approval_error is not None:
+                message = "视觉复核被明确拒绝" if approval_error == "DRAWING-VISUAL-FAILED" else "视觉复核尚未批准"
+                figure_visual_errors.append({"code": approval_error, "message": f"图{number} {message}"})
+            if review.get("approved") is True or (isinstance(review.get("png_path"), str) and review.get("png_path")):
                 try:
-                    reviewed_export = resolve_under(case_dir, review.get("export_report_path", ""), f"图{number} visual export_report_path")
+                    reviewed_png = resolve_under(case_dir, review.get("png_path", ""), f"图{number} visual png_path")
                 except ValueError as exc:
                     figure_visual_errors.append({"code": "DRAWING-VISUAL", "message": str(exc)})
                 else:
-                    if reviewed_export != paths["export_report"]:
-                        figure_visual_errors.append({"code": "DRAWING-VISUAL-STALE", "message": f"图{number} 视觉复核指向的不是当前导出报告"})
-                if review.get("export_report_sha256") != sha256(paths["export_report"]):
+                    if reviewed_png != paths["final_png"]:
+                        figure_visual_errors.append({"code": "DRAWING-VISUAL-STALE", "message": f"图{number} 视觉复核指向的不是当前最终 PNG"})
+            if (review.get("approved") is True or isinstance(review.get("png_sha256"), str)) and review.get("png_sha256") != sha256(paths["final_png"]):
+                figure_visual_errors.append({"code": "DRAWING-VISUAL-STALE", "message": f"图{number} 视觉复核绑定的 PNG 已陈旧"})
+            if brief_schema in {"cn-patent-drawing-brief/v3", "cn-patent-drawing-brief/v4"}:
+                if review.get("approved") is True or (isinstance(review.get("export_report_path"), str) and review.get("export_report_path")):
+                    try:
+                        reviewed_export = resolve_under(case_dir, review.get("export_report_path", ""), f"图{number} visual export_report_path")
+                    except ValueError as exc:
+                        figure_visual_errors.append({"code": "DRAWING-VISUAL", "message": str(exc)})
+                    else:
+                        if reviewed_export != paths["export_report"]:
+                            figure_visual_errors.append({"code": "DRAWING-VISUAL-STALE", "message": f"图{number} 视觉复核指向的不是当前导出报告"})
+                if (review.get("approved") is True or isinstance(review.get("export_report_sha256"), str)) and review.get("export_report_sha256") != sha256(paths["export_report"]):
                     figure_visual_errors.append({"code": "DRAWING-VISUAL-STALE", "message": f"图{number} 视觉复核绑定的导出报告已陈旧"})
                 inspection = review.get("inspection")
                 if not isinstance(inspection, dict):
@@ -920,8 +1001,11 @@ def verify(brief_path: Path, case_dir: Path, drawio_skill_dir: Path | None) -> d
             required_checks.append(mode_check)
             checks = review.get("checks") or {}
             for check in required_checks:
-                if checks.get(check) is not True:
-                    figure_visual_errors.append({"code": "DRAWING-VISUAL", "message": f"图{number} 视觉检查未通过：{check}"})
+                outcome = classify_visual_check_value(checks.get(check))
+                if outcome == "DRAWING-VISUAL-FAILED":
+                    figure_visual_errors.append({"code": "DRAWING-VISUAL-FAILED", "message": f"图{number} 视觉检查明确失败：{check}"})
+                elif outcome == "DRAWING-VISUAL":
+                    figure_visual_errors.append({"code": "DRAWING-VISUAL", "message": f"图{number} 视觉检查尚未复核：{check}"})
             if brief_schema in {"cn-patent-drawing-brief/v3", "cn-patent-drawing-brief/v4"}:
                 observations = (review.get("inspection") or {}).get("observations")
                 if not isinstance(observations, dict):
@@ -933,25 +1017,15 @@ def verify(brief_path: Path, case_dir: Path, drawio_skill_dir: Path | None) -> d
             if bool(checks.get("monochrome")) == bool(checks.get("restrained_color")):
                 figure_visual_errors.append({"code": "DRAWING-VISUAL", "message": f"图{number} 黑白/克制彩色模式必须且只能确认一种"})
 
-        visual_stales = [e for e in figure_visual_errors if e["code"] == "DRAWING-VISUAL-STALE"]
-        visual_missings = [e for e in figure_visual_errors if e["code"] == "DRAWING-VISUAL"]
-        errors.extend(visual_stales)
-        final_visual_status = review
-        if visual_missings:
-            if machine_error_count == 0 and not visual_stales:
-                pending_decisions.append({
-                    "key": "drawing.visual_review_pending",
-                    "source": {"tool_id": "verify_patent_drawings", "rule_id": "DRAWING-VISUAL"},
-                    "target": {"kind": "drawing", "locator": f"图{number}"},
-                    "question": "视觉复核未批准或有未通过项",
-                    "adopted_default": "机器指标达标，按当前 PNG 交付，视觉复核待人工",
-                    "options": ["批准", "不批准"],
-                    "impact": ["delivery"],
-                    "decider": "attorney"
-                })
-                final_visual_status = "pending"
-            else:
-                errors.extend(visual_missings)
+        gate = resolve_visual_gate(figure_visual_errors, machine_error_count)
+        errors.extend(gate["errors"])
+        if gate["pending"] is not None:
+            pending_decisions.append({**gate["pending"], "target": {"kind": "drawing", "locator": f"图{number}"}})
+        if isinstance(review, dict):
+            final_visual_status = {**review, "status": gate["status"]}
+        else:
+            final_visual_status = {"status": gate["status"]}
+        visual_statuses.append(gate["status"])
         figures.append({"figure_number": number, "drawio": drawio_report, "png": {"path": str(paths["final_png"]), **png}, "export_report": str(paths["export_report"]), "official_reexport": reproduced, "visual_review": final_visual_status})
     expected_numbers = [item["figure_number"] for item in brief["figures"]]
     if sorted(visual_by_number) != expected_numbers:
@@ -964,10 +1038,7 @@ def verify(brief_path: Path, case_dir: Path, drawio_skill_dir: Path | None) -> d
         "status": "PASS" if not errors else "FAIL",
         "errors": errors,
         "pending_decisions": pending_decisions,
-        "evidence_scope": {
-            "proves": ["绘图合同和来源哈希有效", "当前 Draw.io 母版可复算得到当前最终 PNG", "技术节点字号、框字比例、显式中文换行、节点形状、关系标签字号与净空、估算文本容量和纵向空白间距满足合同", "视觉复核记录绑定当前合同、导出报告和最终 PNG", "逐项视觉检查均有观察记录"],
-            "does_not_prove": ["图示技术方案具备新颖性或创造性", "说明书和权利要求的法律支持关系已经成立", "未由复核者实际观察到的视觉事实"],
-        },
+        "evidence_scope": _visual_evidence_scope(visual_statuses, brief["figures"], errors),
         "brief_validation": brief_report,
         "figures": figures,
     }

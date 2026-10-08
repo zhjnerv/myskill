@@ -320,12 +320,12 @@ def validate_map(
             if any(cells.get((f, r), {}).get("disclosed") == "partial" for r in ref_ids) and not any(covers(f, r) for r in ref_ids)
         )
         if fset and len(partial_features) * 2 >= len(fset):
-            review("ISM-PARTIAL-001", f"claim_set=[{label}]", f"仅被部分公开的特征 {partial_features} 占区别特征一半以上，易被“部分公开 + 公知常识”补齐")
+            review("ISM-PARTIAL-001", f"claim_set=[{label}]", f"仅被部分对应的特征 {partial_features} 占区别特征一半以上。部分对应不是已经公开，不得写成更具体。")
             add_pending(_pending(
                 "inventive.partial_disclosure_heavy", "ISM-PARTIAL-001", "claim", f"权利要求{claim_set[-1]}",
-                f"权利要求组 [{label}] 半数以上区别特征仅比对比文件更具体一点",
-                "partial 不计入覆盖，按当前分级交付",
-                ["补充耦合/条件型区别特征", "确认接受该风险"], ["grant_risk"], "attorney",
+                f"权利要求组 [{label}] 有半数以上区别特征只被某篇对比文件部分对应，且没有任何一篇完全公开。部分对应不是已经公开，不能写成把对比文件写得更具体。应核对每条 partial 的文献号和未公开的限定；未核对前不得据此缩小权利要求。",
+                "不把部分对应当成公开，不据此缩小权利要求。",
+                ["核对每条 partial 的文献号和未公开限定", "维持权利要求，不因该提示缩小"], ["grant_risk"], "attorney",
             ))
         result = grade_feature_set(fset)
         for f in result["uncovered"]:

@@ -1,0 +1,25 @@
+{
+  "schema_id": "cn-patent-drawing-domain-manifest/v1",
+  "sources": [
+    {
+      "artifact_id": "specification",
+      "path": "technical-source.txt"
+    },
+    {
+      "artifact_id": "claims",
+      "path": "claims-source.txt"
+    }
+  ],
+  "figures": [
+    {
+      "figure_number": 1,
+      "drawio": "figure-1.drawio.txt",
+      "png": "figure-1-margin-20.png"
+    },
+    {
+      "figure_number": 2,
+      "drawio": "figure-2.drawio.txt",
+      "png": "figure-2-margin-20.png"
+    }
+  ]
+}

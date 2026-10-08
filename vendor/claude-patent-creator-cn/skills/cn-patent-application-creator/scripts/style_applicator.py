@@ -375,7 +375,7 @@ def build_style_brief(
 
 def _build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="生成中国专利起草风格简报")
-    parser.add_argument("--style-guide", help="template-style-guide.json；省略时使用默认策略")
+    parser.add_argument("--style-guide", help="template-style-guide.json；仅在尚未检索到范本或用户明确拒绝时省略，省略后使用默认策略")
     parser.add_argument("--available-features", type=int, required=True, help="可用于权利要求布局的技术特征数")
     parser.add_argument("--available-variations", type=int, default=1, help="已披露的技术方案变体数")
     parser.add_argument("--available-components", type=int, default=1, help="可视化的组件或流程数")

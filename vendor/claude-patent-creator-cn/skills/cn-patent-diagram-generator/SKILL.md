@@ -234,11 +234,11 @@ python scripts/verify_patent_drawings.py \
 
 退出码非零或报告 `status != PASS` 时，不得把附图交回专利起草流程。
 
-若交付包含DOCX，全部附图通过后必须重新组装DOCX、运行 `verify_docx_assembly.py`，并使用 `verify_drawing_docx_delivery.py` 证明DOCX报告中的每幅图片路径与SHA-256等于当前最终PNG。只有用户明确要求Word逐页视觉检查时，才导出PDF/逐页PNG，并提供 `cn-patent-docx-visual-review/v1` 记录。
+若交付包含DOCX，全部附图通过后必须重新组装DOCX、运行 `verify_docx_assembly.py`，并使用 `verify_drawing_docx_delivery.py` 证明DOCX报告中的每幅图片路径与SHA-256等于当前最终PNG。机械零件图若 drawing brief 的 `production.kind` 为 `mechanical_dxf` 且 `production.drawio` 为 `skipped`，交付核验只核对 PNG 与 DOCX 图片哈希，不要求 Draw.io；再提供 drawio 路径或哈希则记 `DELIVERY-DRAWING-FORGED-DRAWIO`。只有用户明确要求Word逐页视觉检查时，才导出PDF/逐页PNG，并提供 `cn-patent-docx-visual-review/v1` 记录。
 
 ## 约束追踪与回归证据
 
-`config/instruction-stability-contract.json` 将来源绑定、范例样式、技术覆盖、步骤同构、直接连接、节点文字适配、纵向节点间距、PNG白边、克制配色、官方导出和视觉绑定十三类硬约束，逐项映射到主动 checker、正例和最小违规反例。`assets/stability/` 中的样本只用于 Skill 自身回归，不得作为客户案件的最终验收结果。正式声明多轮稳定性时，仍需由候选外评估者提供签名硬约束基线、至少三轮独立运行证据和 Skill Lint 回执。
+`config/instruction-stability-contract.json` 将来源绑定、范例样式、技术覆盖、步骤同构、直接连接、节点文字适配、纵向节点间距、PNG白边、克制配色、官方导出和视觉绑定十三类硬约束，逐项映射到主动 checker、正例和最小违规反例。`assets/stability/` 中的样本只用于 Skill 自身回归，不得作为客户案件的最终验收结果。几何和最终外观类 checker 读取调用时传入的领域清单，按整组来源和每一幅附图各自的母版、PNG、导出记录或视觉记录重算或核对当前哈希。`assets/stability/domain/` 只保存可分发的文本测试模板、像素参数和清单。`figure-1.drawio.txt` 与 `figure-2.drawio.txt` 是 Draw.io XML 文本，不是正式交付附图；真实 PNG 由测试在临时目录生成，并同时复制这两份文本模板。检查器不会补造缺失产物。报告字段本身只够做 schema 解释。正式声明多轮稳定性时，仍需由候选外评估者提供签名硬约束基线、至少三轮独立运行证据和 Skill Lint 回执。
 
 ## 硬失败与回炉
 

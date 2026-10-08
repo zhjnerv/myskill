@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""读取人工修改过的待决文件，整理成第二轮可消费的决议。不改申请文件。"""
+"""读取人工修改过的待决文件，整理成第二轮可消费的决议。不改申请文件，也不把决定标成已落实。"""
 import argparse
 import hashlib
 import json
@@ -47,6 +47,7 @@ def main() -> int:
         "accept_default": 0,
         "choose": 0,
         "instruct": 0,
+        "defer": 0,
         "retired": len(retired),
     }
     for item in items:
@@ -70,6 +71,7 @@ def main() -> int:
     print(f"ACCEPT_DEFAULT={summary['accept_default']}")
     print(f"CHOOSE={summary['choose']}")
     print(f"INSTRUCT={summary['instruct']}")
+    print(f"DEFER={summary['defer']}")
     print(f"RETIRED={summary['retired']}")
     return EXIT_SUCCESS
 

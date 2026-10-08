@@ -37,7 +37,8 @@
           "box_height_ratio": 2.0,
           "node_text": "温度传感单元工作过程监控",
           "note": "某节点每行恰 12 个汉字、外框高度恰等于文字块高度的 2 倍"
-        }
+        },
+        "sha256": "b6f3f2a226bd86d28515040e031174540677768e6af475be60c39d64e65f2c6f"
       },
       "png": {
         "maximum_margin": 10,
@@ -80,7 +81,8 @@
         "passed": true,
         "drawio_skill_lint": {
           "exit_code": 0
-        }
+        },
+        "sha256": "98fe22c7395b6e2af21e71c771b83beed3a4683597f4b01b24df79a5f5c9119c"
       },
       "png": {
         "maximum_margin": 10,

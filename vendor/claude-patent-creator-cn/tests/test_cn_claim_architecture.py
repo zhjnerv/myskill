@@ -369,3 +369,152 @@ def test_core_protection_point_review_does_not_block_when_pending(tmp_path):
     assert report["status"] == "PASS"
     keys = [item["key"] for item in report.get("pending_decisions", [])]
     assert "architecture.core_point_review_pending" in keys
+
+
+def _relation(relation_id: str, source: str) -> dict:
+    return {
+        "relation_id": relation_id,
+        "source_node_id": source,
+        "target_node_id": "P",
+        "relation_type": "provides",
+        "target_port": "temperature",
+        "exclusive_target_port": True,
+    }
+
+
+def _write_alternative_case(tmp_path: Path, topologies: list[dict], claims_text: str) -> tuple[Path, Path, Path, Path]:
+    claims = tmp_path / "权利要求书.md"
+    specification = tmp_path / "说明书.md"
+    ledger = tmp_path / "feature-ledger.json"
+    contract = tmp_path / "claim-architecture.json"
+    write(claims, claims_text)
+    write(specification, "热电偶A与红外传感器B是择一实施方式。\n")
+    write_json(ledger, {
+        "schema_id": "cn-patent-feature-ledger/v2",
+        "features": [{
+            "feature_id": "F001",
+            "classification": "distinguishing",
+            "claim_sites": [{"claim_number": 2}],
+        }],
+    })
+    write_json(contract, {
+        "schema_id": "cn-patent-claim-architecture/v1",
+        "case_id": "x",
+        "generated_at": "2026-10-04",
+        "legal_effect": "ADVISORY_ONLY",
+        "source_artifacts": [
+            {"artifact_id": role, "path": path.name, "sha256": digest(path)}
+            for role, path in (
+                ("claims", claims), ("specification", specification), ("feature_ledger", ledger),
+            )
+        ],
+        "independent_claims": [{
+            "claim_number": 1,
+            "complexity_metrics": {
+                "formula_block_count": 0,
+                "symbol_definition_count": 0,
+                "execution_phases": [],
+            },
+            "carrier_allocations": [],
+            "conciseness_review": {"status": "approved", "statement": "已核对", "reviewed_at": "today"},
+        }],
+        "topology_nodes": [
+            {"node_id": "A", "label": "热电偶A"},
+            {"node_id": "B", "label": "红外传感器B"},
+            {"node_id": "P", "label": "控制器"},
+        ],
+        "claim_topologies": topologies,
+        "method_claims": [],
+        "core_protection_point": {
+            "claim_number": 2,
+            "parent_claim_number": 1,
+            "feature_ids": ["F001"],
+            "statement": "已披露特征",
+            "review": {"status": "approved", "statement": "已核对", "reviewed_at": "today"},
+        },
+    })
+    return contract, claims, specification, tmp_path / "validation.json"
+
+
+def test_alternative_parent_branches_are_not_merged(tmp_path):
+    claims_text = (
+        "1. 一种温度监测系统，包括控制器和温度传感单元。\n"
+        "2. 根据权利要求1所述的温度监测系统，其特征在于，热电偶A向控制器唯一温度输入端提供信号。\n"
+        "3. 根据权利要求1所述的温度监测系统，其特征在于，红外传感器B向控制器唯一温度输入端提供信号。\n"
+        "4. 根据权利要求2或3所述的温度监测系统，其特征在于，还包括显示器。\n"
+        "5. 根据权利要求4所述的温度监测系统，其特征在于，显示器显示温度。\n"
+    )
+    topologies = [
+        {"claim_number": 1, "parent_claim_numbers": [], "declared_relations": []},
+        {"claim_number": 2, "parent_claim_numbers": [1], "declared_relations": [_relation("R2", "A")]},
+        {"claim_number": 3, "parent_claim_numbers": [1], "declared_relations": [_relation("R3", "B")]},
+        {"claim_number": 4, "parent_claim_numbers": [2, 3], "declared_relations": []},
+        {"claim_number": 5, "parent_claim_numbers": [4], "declared_relations": []},
+    ]
+    contract, claims, specification, output = _write_alternative_case(tmp_path, topologies, claims_text)
+    result = run(contract, claims, specification, output)
+    assert result.returncode == 0, result.stdout + result.stderr
+    assert "ARCH-TOPOLOGY-CONFLICT" not in codes(output)
+
+    payload = json.loads(contract.read_text(encoding="utf-8"))
+    payload["claim_topologies"][3]["parent_combination"] = "alternative"
+    write_json(contract, payload)
+    result = run(contract, claims, specification, output)
+    assert result.returncode == 0, result.stdout + result.stderr
+
+    payload["claim_topologies"][3]["parent_combination"] = "simultaneous"
+    write_json(contract, payload)
+    result = run(contract, claims, specification, output)
+    assert result.returncode == 2
+    assert "ARCH-TOPOLOGY-CONFLICT" in codes(output)
+
+
+def test_same_branch_exclusive_port_conflict_still_blocks(tmp_path):
+    claims_text = (
+        "1. 一种温度监测系统，包括控制器。\n"
+        "2. 根据权利要求1所述的温度监测系统，其特征在于，热电偶A和红外传感器B同时向控制器唯一温度输入端提供信号。\n"
+    )
+    topologies = [
+        {"claim_number": 1, "parent_claim_numbers": [], "declared_relations": []},
+        {
+            "claim_number": 2,
+            "parent_claim_numbers": [1],
+            "declared_relations": [_relation("R2", "A"), _relation("R3", "B")],
+        },
+    ]
+    contract, claims, specification, output = _write_alternative_case(tmp_path, topologies, claims_text)
+    result = run(contract, claims, specification, output)
+    assert result.returncode == 2
+    assert "ARCH-TOPOLOGY-CONFLICT" in codes(output)
+    assert "ARCH-TOPOLOGY-LIMIT" not in codes(output)
+
+
+def test_multilevel_alternative_expansion_stops_at_resource_limit(tmp_path):
+    claims = [
+        "1. 一种监测系统，包括控制器。\n",
+        "2. 根据权利要求1所述的监测系统，其特征在于，还包括传感器。\n",
+    ]
+    topologies = [
+        {"claim_number": 1, "parent_claim_numbers": [], "declared_relations": []},
+        {"claim_number": 2, "parent_claim_numbers": [1], "declared_relations": []},
+    ]
+    previous = [1, 1]
+    for number in range(3, 13):
+        left, right = number - 2, number - 1
+        claims.append(
+            f"{number}. 根据权利要求{left}或{right}所述的监测系统，其特征在于，还包括模块{number}。\n"
+        )
+        topologies.append({
+            "claim_number": number,
+            "parent_claim_numbers": [left, right],
+            "parent_combination": "alternative",
+            "declared_relations": [],
+        })
+        previous.append(previous[-2] + previous[-1])
+    assert previous[-1] > 128
+    contract, claims_path, specification, output = _write_alternative_case(tmp_path, topologies, "".join(claims))
+    result = run(contract, claims_path, specification, output)
+    assert result.returncode == 2, result.stdout + result.stderr
+    found = codes(output)
+    assert "ARCH-TOPOLOGY-LIMIT" in found
+    assert "ARCH-TOPOLOGY-CONFLICT" not in found

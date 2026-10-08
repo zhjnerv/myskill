@@ -36,7 +36,8 @@
           "vertical_clearance": 30.0,
           "smaller_line_height": 15.0,
           "note": "直接上下相连节点有效空白恰等于较小字体行高的 2 倍"
-        }
+        },
+        "sha256": "b6f3f2a226bd86d28515040e031174540677768e6af475be60c39d64e65f2c6f"
       },
       "png": {
         "maximum_margin": 10,
@@ -79,7 +80,8 @@
         "passed": true,
         "drawio_skill_lint": {
           "exit_code": 0
-        }
+        },
+        "sha256": "98fe22c7395b6e2af21e71c771b83beed3a4683597f4b01b24df79a5f5c9119c"
       },
       "png": {
         "maximum_margin": 10,

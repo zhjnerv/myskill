@@ -63,7 +63,7 @@ Manifest 版本为 `cn-patent-application-manifest/v2`。本检查器只使用 `
 
 字段级约束：
 
-- `titles` 仅允许 `request`、`specification`、`abstract`，但这些值只是 manifest 人工声明。脚本会先尝试从请求书、说明书和摘要文本中提取真实名称，再把 manifest 声明作为回退与比对线索；提取不到或无法仅凭文本证明正式栏位填写正确时，仍保留结构化 gap；
+- `titles` 仅允许 `request`、`specification`、`abstract`，但这些值只是 manifest 人工声明。脚本会先尝试从请求书、说明书和摘要文本中提取真实名称，再把 manifest 声明作为回退与比对线索；提取不到或无法仅凭文本证明正式栏位填写正确时，仍保留结构化 gap。请求书状态为 `unknown` 或 `not_applicable` 时，空的请求书标题和缺少的申请人等主体字段改为 `INPUT_UNAVAILABLE`，不以退出码 2 阻断四文书；请求书已提供时，这些空项仍是 `DETERMINISTIC_FAIL`；
 - `drawing_figures` 只能在 `drawings.status=provided` 时出现，但仍是未经过图面视觉提取核验的 manifest 声明；
 - `reference_signs.drawings` 只能在 `drawings.status=provided` 时出现，同样不能代替对真实附图标记的视觉核验。附图未提供或状态未知时，不得用图号、标记清单把未知状态确定化；
 - 违反以上 manifest 契约属于输入错误，CLI 返回 `3`，不生成业务 finding。
@@ -93,6 +93,8 @@ CLI 退出码：`0` 表示检查器成功执行且没有确定性失败（不表
 - `REVIEW_REQUIRED`：规则例外、图面或语义需要人工判断；
 - `WARNING`：可补正的格式候选或低风险草稿问题；
 - `NOT_VERIFIED`：未提供、未知、无法读取或脚本能力未覆盖。
+
+文书状态为 `unknown` 或 `not_applicable` 时，标题、章节和摘要不得根据空字符串输出申请缺陷；这些检查记 `INPUT_UNAVAILABLE` 且状态为 `SKIPPED`。`provided` 的空文书和 `confirmed_absent` 仍按对应规则给出确定性失败。
 
 不得输出合规分、总体通过或 `ready_to_file`。
 

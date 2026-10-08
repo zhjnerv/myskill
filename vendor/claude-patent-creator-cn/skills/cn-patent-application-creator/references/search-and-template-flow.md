@@ -75,7 +75,7 @@ IPC 相似度按“完全相同 → 同主组 → 同小类 → 同大类 → �
 
 仓库没有 CNIPA 官方检索接口。人工检索未完成时必须写“未完成”，不得静默继续或声称检索穷尽。
 
-**范本由用户确认，不由本技能替用户选定。** `template-selection.json` 只是带 IPC 证据的机器推荐；哪几篇作为撰写范本，仍须用户明确指定。用户未指定前，阶段门把 `template_selection.status=pending` 写入待决清单并按默认起草策略继续（见 2-E）；只有文件缺失、哈希不一致或 schema 错误才阻断。新案件必须使用 `cn-patent-stage2-gate/v2`，登记 `search_query_path`、`candidate_manifest_path` 和 `selection_report_path`；阶段门会核对输入哈希、EPO 优先尝试、候选 IPC、四项权重与四项加权得分、主体著录与候选清单一一致性，以及已确认风格指南是否指向同一公开号。
+**范本由用户确认，不由本技能替用户选定。** `template-selection.json` 只是带 IPC 证据的机器推荐；哪几篇作为选定范本，仍须用户明确指定。用户未指定前，阶段门把 `template_selection.status=pending` 写入待决清单。已经检索到并生成风格指南的范本，确认前继续作为风格参照，不得退回默认风格，也不得停下来等确认。用户明确拒绝，或尚未检索到范本时，才按默认起草策略继续。已经有候选却没有风格指南、文件缺失、哈希不一致或 schema 错误才阻断。技术内容不得从范本抄入。新案件必须使用 `cn-patent-stage2-gate/v2`，登记 `search_query_path`、`candidate_manifest_path` 和 `selection_report_path`；阶段门会核对输入哈希、EPO 优先尝试、候选 IPC、四项权重与四项加权得分、主体著录与候选清单一一致性，以及已确认风格指南是否指向同一公开号。
 
 完整字段、评分算法、EPO 降级规则和 v2 阶段门示例见 `references/template-ipc-selection.md`。
 

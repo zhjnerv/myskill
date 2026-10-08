@@ -6,6 +6,7 @@
     freshness 校验；任何陈旧 output/output_sha256/inputs.artifacts 哈希都会
     触发失败。
   * ``docx-report.output_sha256`` 必须等于当前 DOCX 文件 SHA-256。
+  * 最终 DOCX 还要沿 document.xml 的图片引用读出实际媒体字节；整包哈希一致不能代替图号和摘要附图核对。
   * ``drawing-verification`` 必须以 ``figures[]`` 数组逐图给出
     ``png.path``/``png.sha256``/``drawio.path``/``drawio.sha256``，并且
     这些路径与 SHA-256 必须与当前 brief 的对应产物字节一致；缺少字段
@@ -21,6 +22,7 @@ import re
 import sys
 from pathlib import Path
 from typing import Any
+from zipfile import BadZipFile
 
 
 SCRIPT_DIR = Path(__file__).resolve().parent
@@ -66,7 +68,7 @@ def _verify_current_docx_assembly(docx_report_path: Path) -> dict[str, Any]:
     """
     try:
         return _docx_assembly.verify(docx_report_path)
-    except (OSError, UnicodeError, json.JSONDecodeError, ValueError) as exc:
+    except (OSError, UnicodeError, json.JSONDecodeError, ValueError, BadZipFile) as exc:
         return {
             "schema_id": _docx_assembly.RESULT_SCHEMA_ID,
             "status": "FAIL",
@@ -142,12 +144,23 @@ def _collect_drawing_bindings(
     return out
 
 
+def _drawio_skipped(figure: dict[str, Any]) -> bool:
+    """机械 DXF 且计划已跳过 Draw.io 时，不要求也不接受伪造的 drawio。"""
+
+    production = figure.get("production")
+    if not isinstance(production, dict):
+        return False
+    return production.get("kind") == "mechanical_dxf" and production.get("drawio") == "skipped"
+
+
 def _verify_figure_binding(
     figure_number: int,
     brief_outputs: dict[str, Any],
     drawing_figure: dict[str, Any],
     case_dir: Path,
     errors: list[dict[str, str]],
+    *,
+    drawio_skipped: bool = False,
 ) -> None:
     """逐图核对 PNG/Draw.io 路径与 SHA-256 与当前文件一致。"""
     png_info = drawing_figure.get("png") or {}
@@ -219,6 +232,17 @@ def _verify_figure_binding(
 
     drawio_info = drawing_figure.get("drawio") or {}
     brief_drawio_value = brief_outputs.get("drawio")
+    if drawio_skipped:
+        forged = (
+            (isinstance(brief_drawio_value, str) and brief_drawio_value.strip())
+            or (isinstance(drawio_info, dict) and (drawio_info.get("path") or drawio_info.get("sha256")))
+        )
+        if forged:
+            errors.append({
+                "code": "DELIVERY-DRAWING-FORGED-DRAWIO",
+                "message": f"figure {figure_number} 已声明跳过 Draw.io，不得再提供 drawio 路径或哈希",
+            })
+        return
     if not isinstance(brief_drawio_value, str) or not brief_drawio_value:
         errors.append({
             "code": "DELIVERY-DRAWING-BINDING",
@@ -282,6 +306,54 @@ def _verify_figure_binding(
                                 ),
                             }
                         )
+
+
+
+def _check_displayed_images(
+    docx_report: dict[str, Any],
+    artifacts: dict[Any, Any],
+    expected: dict[str, dict[str, Any]],
+    args: argparse.Namespace,
+    errors: list[dict[str, str]],
+) -> None:
+    """独立打开最终 DOCX，核对实际显示的图片，而不是只看组装报告里的路径哈希。"""
+    figures: dict[int, str] = {}
+    for artifact_id, item in expected.items():
+        match = re.fullmatch(r"figure_(\d+)", artifact_id)
+        if match and isinstance(item.get("sha256"), str):
+            figures[int(match.group(1))] = item["sha256"]
+    if not figures:
+        return
+    output_value = docx_report.get("output")
+    if not isinstance(output_value, str) or not output_value:
+        errors.append({"code": "DELIVERY-DOCX-EMBEDDED", "message": "缺少 DOCX output，无法核对内嵌图片"})
+        return
+    raw_output = Path(output_value)
+    output_path = raw_output if raw_output.is_absolute() else args.docx_report.resolve().parent / raw_output
+    if not output_path.is_file():
+        errors.append({"code": "DELIVERY-DOCX-EMBEDDED", "message": f"DOCX不存在，无法核对内嵌图片：{output_path}"})
+        return
+    abstract_number = None
+    abstract = artifacts.get("abstract") if isinstance(artifacts.get("abstract"), dict) else None
+    if abstract is not None:
+        raw_abstract = Path(str(abstract.get("path") or ""))
+        abstract_path = raw_abstract if raw_abstract.is_absolute() else args.docx_report.resolve().parent / raw_abstract
+        if abstract_path.is_file():
+            abstract_number = _docx_assembly.parse_abstract_figure_number(
+                abstract_path.read_text(encoding="utf-8", errors="replace")
+            )
+    reported = docx_report.get("abstract_figure")
+    if isinstance(reported, int) and not isinstance(reported, bool):
+        if abstract_number is not None and reported != abstract_number:
+            errors.append({
+                "code": "DELIVERY-DOCX-EMBEDDED",
+                "message": f"组装报告摘要附图图{reported} 与摘要正文图{abstract_number} 不一致",
+            })
+        elif abstract_number is None:
+            abstract_number = reported
+    _docx_assembly.check_embedded_figures(
+        output_path, figures, abstract_number, errors, code="DELIVERY-DOCX-EMBEDDED",
+    )
 
 
 def verify(args: argparse.Namespace) -> dict[str, Any]:
@@ -355,13 +427,20 @@ def verify(args: argparse.Namespace) -> dict[str, Any]:
             continue
         brief_figure_numbers.add(number)
         brief_by_number[number] = figure
-        for output_key in ("final_png", "drawio"):
+        skipped_drawio = _drawio_skipped(figure)
+        output_keys = ("final_png",) if skipped_drawio else ("final_png", "drawio")
+        for output_key in output_keys:
             raw_output = outputs.get(output_key)
             if not isinstance(raw_output, str) or not raw_output:
                 errors.append({"code": "DELIVERY-DRAWING-BINDING", "message": f"figure {number} brief 缺少 outputs.{output_key}"})
+        if skipped_drawio and isinstance(outputs.get("drawio"), str) and outputs.get("drawio").strip():
+            errors.append({
+                "code": "DELIVERY-DRAWING-FORGED-DRAWIO",
+                "message": f"figure {number} 已声明跳过 Draw.io，不得在 brief 中填写 outputs.drawio",
+            })
         try:
             png = resolve(case_dir, outputs["final_png"])
-            drawio = resolve(case_dir, outputs["drawio"])
+            drawio = None if skipped_drawio else resolve(case_dir, outputs["drawio"])
         except (KeyError, TypeError, ValueError) as exc:
             errors.append({"code": "DELIVERY-DRAWING-BINDING", "message": f"figure {number} 产物路径无法解析：{exc}"})
             continue
@@ -369,7 +448,7 @@ def verify(args: argparse.Namespace) -> dict[str, Any]:
             errors.append({"code": "DELIVERY-DRAWING-EVIDENCE", "message": f"figure {number} 当前 PNG 不存在：{png}"})
         else:
             expected[f"figure_{number}"] = {"path": str(png), "sha256": sha256(png)}
-        if not drawio.is_file():
+        if drawio is not None and not drawio.is_file():
             errors.append({"code": "DELIVERY-DRAWING-EVIDENCE", "message": f"figure {number} 当前 Draw.io 不存在：{drawio}"})
     for artifact_id, item in expected.items():
         actual = artifacts.get(artifact_id)
@@ -406,7 +485,10 @@ def verify(args: argparse.Namespace) -> dict[str, Any]:
                     drawing_figures.get(number, {}),
                     case_dir,
                     errors,
+                    drawio_skipped=_drawio_skipped(figure),
                 )
+
+    _check_displayed_images(docx_report, artifacts, expected, args, errors)
 
     render = docx_report.get("render") or {}
     docx_visual = None
@@ -453,7 +535,7 @@ def verify(args: argparse.Namespace) -> dict[str, Any]:
                 "drawing verification 通过 figures[] 数组绑定当前 PNG/Draw.io 路径与 SHA-256",
                 "DOCX 组装报告与所有 inputs.artifacts 重新核验通过",
                 "DOCX 实际字节与 docx-report.output_sha256 一致",
-                "DOCX 嵌入图片路径与 SHA-256 与当前最终 PNG 一致",
+                "DOCX 按说明书附图图号和摘要附图引用实际显示的媒体字节与当前最终 PNG 一致",
             ],
             "does_not_prove": [
                 "未明确请求时的 DOCX 逐页视觉效果",

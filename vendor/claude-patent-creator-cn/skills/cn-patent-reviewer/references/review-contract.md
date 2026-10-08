@@ -14,7 +14,14 @@
 
 ## 原始报告与守恒
 
-三个原始检查器均输出 `raw_report` schema。每一个 finding 和 gap 有稳定 ID；下游报告只通过 `origin_raw_finding_id` 或 `origin_raw_gap_id` 引用它们。一个原始 finding 必须在下游恰好出现一次，且不得改变其 `rule_id`、目标/位置、问题或补救建议。原始 `DETERMINISTIC_FAIL` 与 `REVIEW_REQUIRED` 不得被丢失、合并或降级。检查器 `rule_id` 必须出现在规范 `rule_dimension_map` 中，或明确列入 `tool_only_rules`；缺映射是规范错误，不允许猜测归属。
+三个原始检查器均输出 `raw_report` schema。每一个 finding 和 gap 有稳定 ID；下游报告只通过 `origin_raw_finding_id` 或 `origin_raw_gap_id` 引用它们。一个原始 finding 必须在下游恰好出现一次，且不得改变其 `rule_id`、目标/位置、问题或补救建议。原始 `DETERMINISTIC_FAIL` 与 `REVIEW_REQUIRED` 不得被丢失、合并或降级。
+
+评估层同样保持问题守恒。verifier 按 `rule_id → dimension_id` 复算每个维度必须引用的 `DETERMINISTIC_FAIL`、`REVIEW_REQUIRED` 和 `blocks_assessment=true` 的硬 gap。漏引、跨维挪用，或在这些项目仍存在时给出 `NO_ISSUE_FOUND` / `NOT_APPLICABLE`，都是合同错误。`SEMANTIC_REVIEW_NOT_PERFORMED` 与 `CAPABILITY_LIMIT` 只有写入 `resolved_capability_gaps` 后才能从已关闭维度拿掉；不能靠类别名称做一揽子豁免。
+
+独立语义审查使用 `semantic_findings`。每条至少包含维度、对象、事实、证据位置、判断理由、本地法源和修正建议，标识使用 `SEM-` 前缀。它与原始 finding 分开，assessment 可以同时引用两类标识，但不能伪造原始来源，也不能用语义项抵消原始失败。语义审查实际引用的本地法源章节写入 `bound_legal_sources`，verifier 只从 `references/cn-legal-sources/` 重读这些章节。
+
+prepare 冻结的输入是各检查器实际读过的传递读集，而不只是调用者手写的四个路径。同一角色的文书内容必须一致。finalize 和 verifier 从固定路径重算检查器与编排器字节；只改报告里的哈希字符串不能让旧报告继续通过。
+检查器 `rule_id` 必须出现在规范 `rule_dimension_map` 中，或明确列入 `tool_only_rules`；缺映射是规范错误，不允许猜测归属。
 
 原始报告固定使用 `cn-patent-review-raw-report/v2`，并记录生效的 `resource_limits` 与实际 `resource_usage`。finding/gap 的证据项只允许工件 ID、位置和原文摘录；三个检查器不得各自扩展 schema。
 

@@ -321,6 +321,14 @@ class ContractV2Tests(unittest.TestCase):
         integrity = self.contract["id_integrity"]
         self.assertEqual(integrity["unique_within_raw_report"], ["check_id", "finding_id", "gap_id"])
         self.assertTrue(any("Dangling" in rule for rule in integrity["requirements"]))
+        self.assertIn("semantic_findings", self.contract["exact_fields"]["bundle"])
+        self.assertIn("semantic_finding", self.contract["exact_fields"])
+        self.assertEqual(
+            self.contract["assessment_conservation"]["resolvable_gap_categories"],
+            ["SEMANTIC_REVIEW_NOT_PERFORMED", "CAPABILITY_LIMIT"],
+        )
+        self.assertEqual(self.contract["assessment_conservation"]["auto_resolve_categories"], ["SEMANTIC_REVIEW_NOT_PERFORMED"])
+        self.assertTrue(any("cannot" in rule and "offset" in rule for rule in integrity["requirements"]))
         self.assertEqual(
             self.contract["prohibited_producer_fields"],
             ["overall_status", "overallResult", "decision", "verdict", "score", "complianceScore", "ready_to_file", "filingReadiness"],

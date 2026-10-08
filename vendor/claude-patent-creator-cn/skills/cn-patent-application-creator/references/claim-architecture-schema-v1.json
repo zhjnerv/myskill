@@ -297,6 +297,13 @@
               },
               "additionalProperties": false
             }
+          },
+          "parent_combination": {
+            "enum": [
+              "alternative",
+              "simultaneous"
+            ],
+            "description": "多个父项的组合方式。alternative 表示择一继承；simultaneous 表示同时继承。省略时，多个父项按 alternative，单个父项按 simultaneous。"
           }
         },
         "additionalProperties": false

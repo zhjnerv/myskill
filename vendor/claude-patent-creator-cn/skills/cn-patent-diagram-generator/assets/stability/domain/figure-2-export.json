@@ -1,0 +1,17 @@
+{
+  "schema_id": "cn-patent-drawio-export/v1",
+  "status": "PASS",
+  "source": {
+    "path": "figure-2.drawio.txt",
+    "sha256": "98fe22c7395b6e2af21e71c771b83beed3a4683597f4b01b24df79a5f5c9119c"
+  },
+  "outputs": {
+    "png": {
+      "path": "figure-2-margin-10.png",
+      "sha256": "66ab07fbe69fc054439c1eef645b6d1b21f328d1dc7fc8ed658b220f3e7931e0"
+    }
+  },
+  "parameters": {
+    "size": "diagram"
+  }
+}

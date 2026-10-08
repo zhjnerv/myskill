@@ -49,16 +49,13 @@ ROOT="${CN_PATENT_CREATOR_ROOT:-${CLAUDE_PATENT_CREATOR_CN_ROOT:-${CLAUDE_PLUGIN
 
 完整战役开始前，先按 `$ROOT/skills/cn-patent-workflow/references/workflow-plan.md` 在案件目录生成 `full-application` 计划，把全部步骤按顺序告诉用户，再进入阶段 0。每走完一步立刻回写。目录里已有计划时，只从 `workflow_plan.py next` 给出的步骤继续；进行中的步骤要重做，不要另起一份对话清单。
 
-## 阶段 0——受理与法定日期审计
+## 阶段 0——受理
 
-原样接受粗略的请求。如果材料是代码库，不要索要交底书——挖掘是阶段 1 的工作。本技能的交付范围固定为权利要求书、说明书、说明书摘要和说明书附图四类技术文书，申请人、发明人、联系电话、地址、联系人及代理机构等请求书主体字段不作为起草输入，也不得阻断四文书生成。只问无法从材料推导且会影响技术文书合法性的日期事实：
+原样接受粗略的请求。如果材料是代码库，不要索要交底书——挖掘是阶段 1 的工作。本技能的交付范围固定为权利要求书、说明书、说明书摘要和说明书附图四类技术文书，申请人、发明人、联系电话、地址、联系人及代理机构等请求书主体字段不作为起草输入，也不得阻断四文书生成。
 
-1. 该技术是否已经公开、销售、展出、发表或交付第三方，以及最早发生日期；
-2. 是否存在可主张优先权的在先申请（专利法第二十九条、第三十条；实施细则第三十四条至第三十七条）。
+公开和优先权不主动问。材料没有写明已经公开、销售、展出、发表或交付第三方，也没有写明要主张优先权时，按尚未公开、不主张优先权继续。不要向用户提问，不要写进待决文件，也不要为此审计公开足迹。只有用户自己说明已经公开，或自己说明要主张优先权时，才记录用户给出的事实并处理。没有用户原话，不得编造公开日、在先申请号或优先权日。
 
-然后审计申请人自身的公开足迹——已发布产品、演示、公开仓库、营销页面、论文、招标文件——并记录首次公开日。**这一步在中国的分量远大于美国**：专利法第二十四条的宽限期只覆盖四种情形（为公共利益目的在紧急状态或非常情况下首次公开、在中国政府主办或承认的国际展览会上首次展出、在规定的学术会议或技术会议上首次发表、他人未经申请人同意泄露），各为 6 个月，且需按实施细则第三十三条声明并提交证明。**自己把产品上线、把仓库开源、把方案写进公开文档，都不在这四种之内**，公开之日该方案在中国即丧失新颖性。
-
-审计结论若为"核心机制已公开且不属于第二十四条情形"，直接写放弃报告并停止。那份报告就是交付物。
+用户说明自行公开时，再核对专利法第二十四条。宽限期只覆盖四种情形，各为 6 个月，且须按实施细则第三十三条声明并提交证明。自行上线、开源或写入公开文档不在这四种之内。只有用户已经说明核心机制因此丧失新颖性时，才写放弃报告并停止。
 
 ## 阶段 1——发明挖掘
 
@@ -102,7 +99,7 @@ python3 "$ROOT/scripts/run_python.py" "$ROOT/skills/cn-patent-application-creato
 
 技术相关性与 IPC 决定“能不能借鉴”，很容易同时满足；申请人/代理机构决定“文本质量值不值得学”，默认合计占一半权重。主体质量分来自 `references/notable-entities.txt` 名单命中（Tier 1 = 1.00、Tier 2 = 0.70、未上榜 = 0.30、缺著录 = 0.00）。改权重必须四项同时给出且和为 1；技术相关性与 IPC 必须保持正权重。
 
-**范本由用户确认，不由本技能替用户选定**；未确认前阶段门记 `pending` 并写入待决清单，按默认起草策略继续，只有文件缺失、哈希不一致或 schema 错误才阻断。检索清单生成、候选门槛与排序命令的完整说明见 `references/search-and-template-flow.md`；评分算法、IPC 相似度分层与 EPO 降级规则见 `references/template-ipc-selection.md`。
+**范本由用户确认，不由本技能替用户选定**；未确认前阶段门记 `pending` 并写入待决清单。已经检索到并写出 `template-style-guide.json` 的范本，确认前仍作为风格参照进入 `style-brief.json`，不得退回默认风格，也不得停下来等确认。只有用户明确拒绝，或尚未检索到范本时，才用默认起草策略。已经有候选却没有风格指南、文件缺失、哈希不一致或 schema 错误才阻断。技术内容不得从范本抄入。检索清单生成、候选门槛与排序命令的完整说明见 `references/search-and-template-flow.md`；评分算法、IPC 相似度分层与 EPO 降级规则见 `references/template-ipc-selection.md`。
 ### 2-B：提取范本风格并生成起草简报
 
 范本全文优先用现有 BigQuery 专利全文工具获取，否则由用户提供 UTF-8 文本。每篇范本运行 `analyze_template_style.py` 生成 `cn-patent-template-style/v1` 风格指南；多篇必须用 `merge_template_styles.py` 合成（禁止手写，组织方式取最保守值）；再由 `style_applicator.py` 生成 `cn-patent-style-brief/v1` 起草简报。
@@ -150,7 +147,7 @@ python3 "$ROOT/scripts/run_python.py" "$ROOT/skills/cn-patent-application-creato
   --selection "<template-selection.json>" --output "<stage2-gate.json>"
 ```
 
-判断题类门（检索未完成、范本未确认、IPC 缺用户原话等）**不阻断**：按保守默认继续并写入待决清单（`CLEARED_WITH_PENDING`）。只有文件缺失、哈希不一致或 schema 错误才以退出码 2 阻断。状态位表、`cn-patent-stage2-gate/v2` 字段与待决形状见 `references/stage2-gate.md`。
+判断题类门（检索未完成、范本尚未选定、IPC 缺用户原话等）**不阻断**：按保守默认继续并写入待决清单（`CLEARED_WITH_PENDING`）。范本的保守默认不是丢掉已检索范本：有风格指南时继续按该风格起草。只有文件缺失、哈希不一致、已检索候选却没有风格指南，或 schema 错误才以退出码 2 阻断。状态位表、`cn-patent-stage2-gate/v2` 字段与待决形状见 `references/stage2-gate.md`。
 ## 阶段 3——权利要求优先的撰写
 
 先写权利要求再写说明书：权利要求决定保护边界，说明书负责支持与解释。**权利要求书、说明书、说明书摘要、说明书附图必须由同一张特征台账派生**，不得各自维护一套编号。
@@ -194,16 +191,16 @@ python3 "$ROOT/scripts/run_python.py" "$ROOT/skills/cn-patent-reviewer/scripts/v
 
 若申请目录已经产生检索清单、范本候选与选择、阶段门、区别特征台账或权利要求架构合同，应在 `prepare-input.json` 的可选 `provenance_artifacts` 中逐项声明相对路径。审查链会把这些前置工件的字节和集合哈希冻结到 `prepare-manifest`、语义输入和 bundle；任一工件变化都必须从 prepare 重新开始。该绑定只证明流程来源可复算，不替代新颖性、创造性或其他法律判断。
 
-迭代到零个确定性失败：每个被标记的权利要求要素都要逐字织进说明书；人工核实每一条 `REVIEW_REQUIRED` 并记录判定——人工这一轮是工作流的一部分，不是可选项。没有做过现有技术检索时，新颖性与创造性维度按契约必须保持 `INCONCLUSIVE`，这是设计上的 fail-closed，不要试图绕过。
+迭代到零个确定性失败：每个被标记的权利要求要素都要逐字织进说明书；人工核实每一条 `REVIEW_REQUIRED` 并记录判定——人工这一轮是工作流的一部分，不是可选项。没有做过现有技术检索时，新颖性与创造性维度按契约必须保持 `INCONCLUSIVE`，这是设计上的 fail-closed，不要试图绕过。审查包里的 `INCONCLUSIVE` 只表示这一维还不能下法律结论。CNIPA 人工检索未完成只在流程待决里写一次，不要写进每一项权利要求的待决问题，也不要在权项问题里重复“新颖性和创造性不能下结论”。
 
 **验证印章携带内容哈希，编辑会使它们失效。** 每条记录的检查结果必须声明其所检查工件文本的 SHA-256。之后任何编辑——加一项权利要求、动一句话——都会使该工件上的所有印章失效，打包前必须从 prepare 整链重跑。一份 README 对验证后又被编辑过的工件说"已验证"，是文件包能携带的最具破坏性的谎言。
 
 ## 阶段 5——两支红队，而不是一支
 
-必须跑两支独立红队：一支攻击权利要求的保护范围与创造性，一支攻击组装好的文件包（形式、支持、附图、DOCX）。攻击清单、常见漏攻项与处置规则见 `references/red-team-and-packaging.md`。红队结论写入审查报告并绑定产物哈希。
+必须跑两支独立红队：一支攻击权利要求的保护范围与创造性，一支攻击组装好的文件包（形式、支持、附图、DOCX）。攻击清单、常见漏攻项与处置规则见 `references/red-team-and-packaging.md`。报告使用 `cn-patent-red-team-report/v1`，由 `scripts/validate_red_team_report.py` 对照权利要求书、说明书、摘要、附图四份字节复核。结果只允许「攻击奏效 / 攻击未奏效 / 证据不足」；只有「攻击奏效」记 `RETURN_TO_DRAFTING` 并打回撰写。待决项放在同一报告的 `pending_decisions`，形状必须能被 `collect_pending_decisions.py` 直接读取。不要手写补丁报告，也不要给审查合同另加字段。权项待决只问这一项本身是否保留，不要附带“CNIPA 未检索”。
 ## 阶段 6——打包
 
-先汇总待决事项，再出两种副本。判断题不让流程停下：各脚本采用保守默认，并在 `pending_decisions` 留痕。打包前用 `collect_pending_decisions.py --docx <最终申请文件.docx>` 汇总；人读文件只能是该 docx 同目录的 `待决文件.md`。审稿版继续黄底标出 `【待决-Dnnn】`。交付范围和打包门禁见 `references/red-team-and-packaging.md`，回读规则见 `references/pending-decisions.md`。
+先汇总待决事项，再出两种副本。判断题不让流程停下：各脚本采用保守默认，并在 `pending_decisions` 留痕。汇总时删掉材料未写明的公开和优先权问题。CNIPA 人工检索未完成只保留 `search.cnipa_manual_search_pending_authorization` 这一条；其他问题里重复的“CNIPA未检索”，以及据此写的“新颖性、创造性不能下结论”，一并删掉。打包前用 `collect_pending_decisions.py --docx <最终申请文件.docx>` 汇总；人可读的清单仍是该 docx 同目录的 `待决文件.md`。审稿版不把编号插进正文，而是在对应位置直接写入可独立决定的黄底段落：问题、当前稿做法和全部备选都在这一段里，不用再打开其他文件。源稿和审查包不写这段，提交版不插入并继续剥离残留标记。交付范围和打包门禁见 `references/red-team-and-packaging.md`，回读规则见 `references/pending-decisions.md`。
 ### Word 模板组装（用户要求单一 Word 文件时）
 
 用户要求单一 Word 文件时，读取 `references/docx-assembly.md`（含阶段 6 组装门禁、待决标记与两种副本）并运行 `scripts/assemble_application_docx.py`。默认模板是仓库根目录 `模版.docx`，不读取案件目录的 `输出模版.docx`；只有显式 `--template` 才替换。随后必须运行 `scripts/verify_docx_assembly.py`，附图属于交付范围时再运行 `cn-patent-diagram-generator/scripts/verify_drawing_docx_delivery.py`。DOCX 是交付容器，不是第五类法定技术文书。

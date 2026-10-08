@@ -36,7 +36,8 @@
           "edge_label_font_size": 10.0,
           "adjacent_node_font_size": 15.0,
           "note": "关系标签字号恰等于相邻节点字号的 2/3（边界值，合法）"
-        }
+        },
+        "sha256": "b6f3f2a226bd86d28515040e031174540677768e6af475be60c39d64e65f2c6f"
       },
       "png": {
         "maximum_margin": 10,
@@ -79,7 +80,8 @@
         "passed": true,
         "drawio_skill_lint": {
           "exit_code": 0
-        }
+        },
+        "sha256": "98fe22c7395b6e2af21e71c771b83beed3a4683597f4b01b24df79a5f5c9119c"
       },
       "png": {
         "maximum_margin": 10,
