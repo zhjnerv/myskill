@@ -106,6 +106,65 @@
         "additionalProperties": false
       }
     },
+    "resolutions": {
+      "description": "已决定和已落实分开。resolved 表示人写了决定；applied 为 true 才表示可以移出 decisions。不同于当前默认的 choose，以及 instruct，不能只凭决定文本变成 applied。",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id", "key", "target", "resolution", "selected_option", "decision_text",
+          "annotation", "question", "adopted_default", "options", "content_version",
+          "current_content_version", "status", "resolved", "applied",
+          "application_binding", "application_binding_note", "application_sources"
+        ],
+        "properties": {
+          "id": {"type": "string", "pattern": "^D\\d{3}$"},
+          "key": {"type": "string"},
+          "target": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["kind", "locator"],
+            "properties": {
+              "kind": {"type": "string"},
+              "locator": {"type": "string"}
+            }
+          },
+          "resolution": {"type": "string"},
+          "selected_option": {"type": ["string", "null"]},
+          "decision_text": {"type": "string"},
+          "annotation": {"type": "string"},
+          "question": {"type": "string"},
+          "adopted_default": {"type": "string"},
+          "options": {"type": "array", "items": {"type": "string"}},
+          "content_version": {"type": "string"},
+          "current_content_version": {"type": "string"},
+          "status": {
+            "description": "applied 已落实；resolved 已决定但未落实；pending 尚未形成可执行决定；reopened 内容已变，旧决定失效。",
+            "enum": ["applied", "resolved", "pending", "reopened"]
+          },
+          "resolved": {"type": "boolean"},
+          "applied": {"type": "boolean"},
+          "application_binding": {
+            "description": "accept_default_current_draft 只说明当前稿仍是已采用默认。source_hash_bound 只说明应用声明绑定了当前源稿路径和哈希，不证明语义上已经改对。decision_only 是尚未落实的决定。",
+            "enum": ["accept_default_current_draft", "source_hash_bound", "decision_only", "reopened", "none"]
+          },
+          "application_binding_note": {"type": "string"},
+          "application_sources": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["path", "sha256"],
+              "properties": {
+                "path": {"type": "string"},
+                "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+              }
+            }
+          }
+        }
+      }
+    },
     "summary": {
       "type": "object",
       "properties": {

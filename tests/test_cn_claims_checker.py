@@ -330,5 +330,21 @@ class ClaimsCheckerV2Tests(unittest.TestCase):
         self.assertIsNotNone(length_003_check)
 
 
+    def test_unconfirmed_parallel_reference_is_review_required_not_multiple_dependent_fail(self):
+        report = checker.analyze_claims(
+            "1. 一种插座，包括第一连接件。\n"
+            "2. 根据权利要求1所述的插座，其特征在于，第一连接件为导电片。\n"
+            "3. 一种插头，包括第二连接件。\n"
+            "4. 一种连接组件，其特征在于，包括根据权利要求1所述的插座和根据权利要求3所述的插头，第一连接件与第二连接件可拆卸连接。\n"
+        )
+        multi = [item for item in report["findings"] if item["rule_id"] == "CN-CLAIM-MULTI-001"]
+        self.assertFalse(any(item["status"] == "DETERMINISTIC_FAIL" for item in multi))
+        pending = [item for item in multi if item["target_id"] == "claim-4"]
+        self.assertEqual(len(pending), 1)
+        self.assertEqual(pending[0]["status"], "REVIEW_REQUIRED")
+        self.assertIn("尚未确认为从属权利要求", pending[0]["problem"])
+
+
+
 if __name__ == "__main__":
     unittest.main()

@@ -38,6 +38,8 @@ python3 "${CN_PATENT_CREATOR_ROOT:-${CLAUDE_PATENT_CREATOR_CN_ROOT:-${CLAUDE_PLU
 
 引用引导语只能产生 `dependent_candidate` 或 `dependent_unresolved`。脚本不得仅因“根据/按照/如 + 权利要求”确认从属关系，也不得把候选引用纳入确定性自引用、向后引用或循环结论。
 
+多项从属的确定性结论只在 `dependent_confirmed` 上作出。句中并列引用另一项独立技术方案、但尚未确认该项本身是从属权利要求时，只输出 `REVIEW_REQUIRED`，不直接判多项从属违法。
+
 每一项权利要求按 [分项字数约束](references/claim-length-policy.md) 进行检查：权利要求 1 ≤ 400 字（`CN-CLAIM-LENGTH-002`）、权利要求 2 ≤ 500 字（`CN-CLAIM-LENGTH-003`）、其余各项 ≤ 600 字（`CN-CLAIM-LENGTH-001`）。Word 中文字数口径不含行首编号，完整公式或特殊公式变量整体计 1；超过上限输出 `DETERMINISTIC_FAIL`。权利要求 2 必须直接从属于权利要求 1（`CN-CLAIM-CORE-001`）以承载最核心的保护点。
 
 ## 资源和退出码

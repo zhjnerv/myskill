@@ -175,6 +175,8 @@
       "evidence_binding",
       "assessments",
       "semantic_gaps",
+      "semantic_findings",
+      "resolved_capability_gaps",
       "provenance_artifacts"
     ],
     "artifact": [
@@ -269,12 +271,16 @@
       "input_artifacts",
       "provenance_artifacts",
       "rule_sources",
+      "bound_legal_sources",
+      "legal_source_set_sha256",
       "tool_identity",
       "evidence_binding",
       "resource_usage",
       "subreports",
       "assessments",
-      "semantic_gaps"
+      "semantic_gaps",
+      "semantic_findings",
+      "resolved_capability_gaps"
     ],
     "verification": [
       "schema_version",
@@ -308,7 +314,29 @@
       "raw_gap_count",
       "downstream_finding_count",
       "downstream_gap_count",
-      "semantic_gap_count"
+      "semantic_gap_count",
+      "semantic_finding_count"
+    ],
+    "semantic_finding": [
+      "finding_id",
+      "dimension_id",
+      "target_id",
+      "fact",
+      "evidence",
+      "reasoning",
+      "legal_sources",
+      "remedy"
+    ],
+    "legal_source_ref": [
+      "source_id",
+      "path",
+      "location"
+    ],
+    "resolved_capability_gap": [
+      "gap_id",
+      "dimension_id",
+      "category",
+      "reason"
     ]
   },
   "optional_fields": {
@@ -363,7 +391,12 @@
     "verification.errors[]": "exact_fields.verification_error",
     "verification.coverage_summary": "exact_fields.coverage_summary",
     "verification.conservation_summary": "exact_fields.conservation_summary",
-    "verification.resource_usage": "exact_fields.resource_usage"
+    "verification.resource_usage": "exact_fields.resource_usage",
+    "semantic_finding.evidence[]": "exact_fields.raw_evidence",
+    "semantic_finding.legal_sources[]": "exact_fields.legal_source_ref",
+    "bundle.bound_legal_sources[]": "exact_fields.artifact",
+    "bundle.semantic_findings[]": "exact_fields.semantic_finding",
+    "bundle.resolved_capability_gaps[]": "exact_fields.resolved_capability_gap"
   },
   "exact_field_policy": {
     "required_fields_equal_allowed_fields": true,
@@ -386,7 +419,8 @@
     "downstream_gap.review_type": "review_type",
     "downstream_gap.category": "gap_category",
     "semantic_gap.category": "gap_category",
-    "verification_error.kind": "verification_error_kind"
+    "verification_error.kind": "verification_error_kind",
+    "resolved_capability_gap.category": "gap_category"
   },
   "id_integrity": {
     "unique_within_raw_report": [
@@ -396,9 +430,12 @@
     ],
     "requirements": [
       "Every raw_finding.check_id and raw_gap.check_id references exactly one checks_performed.check_id.",
-      "Every atomic finding_id and gap_id references an existing ID in the bound raw report set.",
+      "Every atomic finding_id references either one downstream raw finding or one semantic_finding, never both and never a dangling id.",
+      "semantic_finding identifiers use the SEM- prefix and cannot reuse a raw finding_id or carry a raw origin.",
+      "Every atomic gap_id references an existing downstream gap or semantic gap.",
       "Every downstream item has exactly one non-null origin raw finding or raw gap reference; two non-null or two null origins are forbidden.",
-      "Dangling, duplicate, merged, or fabricated origin references are contract errors."
+      "Dangling, duplicate, merged, fabricated, or cross-dimension origin references are contract errors.",
+      "A semantic finding cannot satisfy, replace, or offset a raw DETERMINISTIC_FAIL or REVIEW_REQUIRED finding."
     ]
   },
   "state_invariants": [
@@ -522,7 +559,9 @@
       "rule_id, target_id/location, problem, and remedy are conserved exactly.",
       "Each skipped or not-verified raw check becomes one stable structured gap.",
       "The verifier compares raw reports directly with downstream reports.",
-      "Tool, resource, and contract errors use tool or verifier rule IDs and never fabricated Chinese-law citations."
+      "Tool, resource, and contract errors use tool or verifier rule IDs and never fabricated Chinese-law citations.",
+      "Each DETERMINISTIC_FAIL and REVIEW_REQUIRED downstream finding must be cited by the assessment of its rule_dimension_map dimension, and cannot be moved to another dimension or cleared.",
+      "Each blocks_assessment gap remains on its dimension unless it is an explicitly listed resolvable capability gap. Semantic findings and blanket category exemptions cannot remove it."
     ]
   },
   "resource_limits": {
@@ -997,5 +1036,29 @@
     "CN-VERIFY-SEARCH-001",
     "CN-VERIFY-RESOURCE-001",
     "CN-VERIFY-INPUT-001"
-  ]
+  ],
+  "assessment_conservation": {
+    "required_finding_statuses": [
+      "DETERMINISTIC_FAIL",
+      "REVIEW_REQUIRED"
+    ],
+    "clear_results": [
+      "NO_ISSUE_FOUND",
+      "NOT_APPLICABLE"
+    ],
+    "resolvable_gap_categories": [
+      "SEMANTIC_REVIEW_NOT_PERFORMED",
+      "CAPABILITY_LIMIT"
+    ],
+    "auto_resolve_categories": [
+      "SEMANTIC_REVIEW_NOT_PERFORMED"
+    ],
+    "semantic_finding_id_pattern": "^SEM-[A-Za-z0-9][A-Za-z0-9_-]{0,63}$",
+    "requirements": [
+      "Recompute the required finding and hard-gap set from rule_id to dimension_id.",
+      "Reject omission, cross-dimension citation, and clearance while a required finding or hard gap remains.",
+      "Only gaps named in resolved_capability_gaps, whose actual category is resolvable, may leave the assessment.",
+      "semantic_findings are a separate channel and cannot forge a raw origin or cancel a raw failure."
+    ]
+  }
 }

@@ -13,6 +13,7 @@ import xml.etree.ElementTree as ET
 from pathlib import Path
 from zipfile import BadZipFile, ZipFile
 from typing import Any
+from posixpath import normpath
 
 SCHEMA_ID = "cn-patent-docx-assembly/v2"
 RESULT_SCHEMA_ID = "cn-patent-docx-assembly-verification/v1"
@@ -241,6 +242,206 @@ def check_docx_package(path: Path, errors: list[dict[str, str]]) -> None:
             "message": f"mc:Ignorable 引用了未声明的命名空间前缀：{missing_ignored}；Microsoft Word 会提示恢复文档",
         })
 
+A_NS = "http://schemas.openxmlformats.org/drawingml/2006/main"
+R_NS = "http://schemas.openxmlformats.org/officeDocument/2006/relationships"
+A = "{" + A_NS + "}"
+R_EMBED = "{" + R_NS + "}embed"
+R_ID = "{" + R_NS + "}id"
+ABSTRACT_FIGURE_RE = re.compile(r"摘要附图：图\s*(\d+)")
+CAPTION_RE = re.compile(r"图\s*(\d+)\s*$")
+PACKAGE_UNREADABLE = {"DOCX-PACKAGE-ZIP", "DOCX-PACKAGE-CRC", "DOCX-PACKAGE-MISSING"}
+
+
+def package_is_unreadable(errors: list[dict[str, str]]) -> bool:
+    """坏包之后不再依赖 ZIP 成员内容做后续检查。"""
+    return any(item.get("code") in PACKAGE_UNREADABLE for item in errors)
+
+
+def parse_abstract_figure_number(text: str) -> int | None:
+    match = ABSTRACT_FIGURE_RE.search(text)
+    if match is None:
+        return None
+    return int(match.group(1))
+
+
+def _rels_map(rels_xml: bytes) -> dict[str, str]:
+    root = ET.fromstring(rels_xml)
+    found: dict[str, str] = {}
+    for rel in root:
+        rel_id = rel.get("Id")
+        target = rel.get("Target")
+        if rel_id and target:
+            found[rel_id] = target
+    return found
+
+
+def _word_target(target: str) -> str:
+    """把 document.xml.rels 的相对目标解析成 ZIP 内路径。"""
+    raw = normpath(str(Path("word") / target)).replace("\\", "/")
+    if raw == ".." or raw.startswith("../"):
+        raise ValueError(f"DOCX 关系目标越出 word 目录：{target}")
+    return raw
+
+
+def _header_text(archive: ZipFile, rels: dict[str, str], sect: ET.Element) -> str:
+    for ref in sect.findall(W + "headerReference"):
+        if ref.get(W + "type") not in {None, "default"}:
+            continue
+        target = rels.get(ref.get(R_ID) or "")
+        if not target:
+            continue
+        name = _word_target(target)
+        if name not in set(archive.namelist()):
+            continue
+        return _document_plain_text(archive.read(name).decode("utf-8")).strip()
+    return ""
+
+
+def _section_blocks(body: ET.Element) -> list[tuple[ET.Element | None, list[ET.Element]]]:
+    """按分节符切分正文。段落内 sectPr 结束当前节，body 直接子级 sectPr 结束最后一节。"""
+    sections: list[tuple[ET.Element | None, list[ET.Element]]] = []
+    current: list[ET.Element] = []
+    for child in list(body):
+        if child.tag == W + "sectPr":
+            sections.append((child, current))
+            current = []
+            continue
+        current.append(child)
+        ppr = child.find(W + "pPr")
+        sect = None if ppr is None else ppr.find(W + "sectPr")
+        if sect is not None:
+            sections.append((sect, current))
+            current = []
+    if current:
+        sections.append((None, current))
+    return sections
+
+
+def _block_text(block: ET.Element) -> str:
+    return "".join(part.text or "" for part in block.iter(W + "t")).strip()
+
+
+def _block_embeds(block: ET.Element) -> list[str]:
+    return [blip.get(R_EMBED) or "" for blip in block.iter(A + "blip")]
+
+
+def check_embedded_figures(
+    path: Path,
+    figures: dict[int, str],
+    abstract_figure: int | None,
+    errors: list[dict[str, str]],
+    *,
+    code: str = "DOCX-EMBEDDED",
+) -> None:
+    """沿文档显示顺序读取实际媒体字节。同图允许复用，不能只比较媒体文件数。"""
+    if not figures:
+        return
+    if abstract_figure is None:
+        errors.append({"code": code, "message": "有附图时必须能确定摘要附图图号"})
+        return
+    if abstract_figure not in figures:
+        errors.append({"code": code, "message": f"摘要附图图号不在附图集合中：图{abstract_figure}"})
+        return
+    try:
+        with ZipFile(path) as archive:
+            names = set(archive.namelist())
+            if "word/document.xml" not in names or "word/_rels/document.xml.rels" not in names:
+                errors.append({"code": code, "message": "DOCX 缺少 document.xml 或文档关系，无法核对内嵌图片"})
+                return
+            document = ET.fromstring(archive.read("word/document.xml"))
+            rels = _rels_map(archive.read("word/_rels/document.xml.rels"))
+            body = document.find(W + "body")
+            if body is None:
+                errors.append({"code": code, "message": "word/document.xml 缺少 w:body"})
+                return
+            digests: dict[str, str | None] = {}
+
+            def media_digest(rel_id: str) -> str | None:
+                if rel_id in digests:
+                    return digests[rel_id]
+                target = rels.get(rel_id)
+                if not rel_id or target is None:
+                    errors.append({"code": code, "message": f"图片引用 {rel_id or '空'} 没有对应关系"})
+                    digests[rel_id] = None
+                    return None
+                try:
+                    member = _word_target(target)
+                except ValueError as exc:
+                    errors.append({"code": code, "message": str(exc)})
+                    digests[rel_id] = None
+                    return None
+                if member not in names:
+                    errors.append({"code": code, "message": f"图片关系指向缺失的媒体：{member}"})
+                    digests[rel_id] = None
+                    return None
+                digests[rel_id] = hashlib.sha256(archive.read(member)).hexdigest()
+                return digests[rel_id]
+
+            parsed: list[tuple[str, list[tuple[str, list[str | None]]]]] = []
+            for sect, blocks in _section_blocks(body):
+                header = "" if sect is None else _header_text(archive, rels, sect)
+                rendered: list[tuple[str, list[str | None]]] = []
+                for block in blocks:
+                    rendered.append((_block_text(block), [media_digest(rel_id) for rel_id in _block_embeds(block)]))
+                parsed.append((header, rendered))
+    except BadZipFile:
+        errors.append({"code": "DOCX-PACKAGE-ZIP", "message": "输出文件不是有效 DOCX ZIP 包，已停止读取内嵌图片"})
+        return
+    except (OSError, UnicodeError, ET.ParseError, KeyError, ValueError) as exc:
+        errors.append({"code": code, "message": f"无法读取 DOCX 内嵌图片：{type(exc).__name__}: {exc}"})
+        return
+
+    spec_sections = [blocks for header, blocks in parsed if header == "说明书附图"]
+    abstract_sections = [blocks for header, blocks in parsed if header == "摘要附图"]
+    if len(spec_sections) != 1 or len(abstract_sections) != 1:
+        errors.append({"code": code, "message": "DOCX 的说明书附图与摘要附图分节必须且只能各有一个，不能遗漏或重复"})
+        return
+    spec_blocks = spec_sections[0]
+    abstract_blocks = abstract_sections[0]
+    for header, blocks in parsed:
+        if header not in {"说明书附图", "摘要附图"} and any(embeds for _text, embeds in blocks):
+            errors.append({"code": code, "message": f"{header or '未命名分节'} 出现了不应显示的内嵌图片"})
+
+    pairs: list[tuple[int, str | None]] = []
+    pending: list[str | None] = []
+    for text, embeds in spec_blocks:
+        caption = CAPTION_RE.fullmatch(text)
+        if embeds:
+            if pending:
+                errors.append({"code": code, "message": "说明书附图中有图片缺少紧随的图号"})
+                pending = []
+            pending.extend(embeds)
+            continue
+        if caption:
+            if len(pending) != 1:
+                errors.append({"code": code, "message": f"图号“{text}”没有唯一对应的内嵌图片"})
+            else:
+                pairs.append((int(caption.group(1)), pending[0]))
+            pending = []
+            continue
+        if text and pending:
+            errors.append({"code": code, "message": f"图号之前出现了无法配对的文字：{text[:40]}"})
+    if pending:
+        errors.append({"code": code, "message": "说明书附图末尾的图片没有图号"})
+
+    shown_numbers = [number for number, _digest in pairs]
+    if shown_numbers != sorted(figures):
+        errors.append({
+            "code": code,
+            "message": f"说明书附图的图号顺序与当前附图不一致：文档={shown_numbers}，当前={sorted(figures)}",
+        })
+    for number, digest in pairs:
+        if digest is None or digest != figures.get(number):
+            errors.append({"code": code, "message": f"图{number} 实际显示的图片不是当前最终 PNG"})
+
+    abstract_digests = [digest for _text, embeds in abstract_blocks for digest in embeds if digest is not None]
+    abstract_slots = [digest for _text, embeds in abstract_blocks for digest in embeds]
+    if len(abstract_slots) != 1 or len(abstract_digests) != 1:
+        errors.append({"code": code, "message": f"摘要附图应有且仅有一幅可显示图片，当前为 {len(abstract_slots)} 幅"})
+    elif abstract_digests[0] != figures[abstract_figure]:
+        errors.append({"code": code, "message": f"摘要附图实际字节不是图{abstract_figure} 的当前最终 PNG"})
+
+
 def _document_plain_text(document_xml: str) -> str:
     parts = re.findall(r"<w:t\b[^>]*>(.*?)</w:t>", document_xml, flags=re.DOTALL)
     return "".join(html.unescape(part) for part in parts)
@@ -254,6 +455,10 @@ def check_pending_marks(path: Path, copy_kind: str, pending_marks: list | None, 
             names = set(archive.namelist())
             document_text = archive.read("word/document.xml").decode("utf-8") if "word/document.xml" in names else ""
             core_text = archive.read("docProps/core.xml").decode("utf-8") if "docProps/core.xml" in names else ""
+    except BadZipFile:
+        if not any(item.get("code") == "DOCX-PACKAGE-ZIP" for item in errors):
+            errors.append({"code": "DOCX-PACKAGE-ZIP", "message": "输出文件不是有效 DOCX ZIP 包，已停止检查待决标记"})
+        return
     except (OSError, UnicodeError, KeyError):
         return
 
@@ -336,10 +541,12 @@ def verify(report_path: Path) -> dict[str, Any]:
     check_file(report.get("output"), report.get("output_sha256"), "output_docx")
     output_value = report.get("output")
     output_path = resolve_evidence_path(output_value)
+    output_readable = False
     if output_path is not None and output_path.is_file():
         check_docx_package(output_path, errors)
+        output_readable = not package_is_unreadable(errors)
         copy_kind = report.get("copy_kind")
-        if copy_kind in {"review", "submission"}:
+        if copy_kind in {"review", "submission"} and output_readable:
             check_pending_marks(output_path, copy_kind, report.get("pending_marks"), errors)
     inputs = report.get("inputs") or {}
     check_file(inputs.get("template"), inputs.get("template_sha256"), "template")
@@ -362,6 +569,32 @@ def verify(report_path: Path) -> dict[str, Any]:
         if required not in seen:
             errors.append({"code": "DOCX-EVIDENCE-INPUTS", "message": f"缺少必需输入：{required}"})
 
+    figure_hashes: dict[int, str] = {}
+    if output_readable and output_path is not None:
+        for artifact_id in sorted(seen):
+            match = re.fullmatch(r"figure_(\d+)", artifact_id)
+            if match is None:
+                continue
+            item = next(entry for entry in artifacts if isinstance(entry, dict) and entry.get("artifact_id") == artifact_id)
+            figure_path = resolve_evidence_path(item.get("path"))
+            if figure_path is None or not figure_path.is_file():
+                continue
+            figure_hashes[int(match.group(1))] = sha256(figure_path)
+        if figure_hashes:
+            abstract_path = None
+            abstract_item = next((entry for entry in artifacts if isinstance(entry, dict) and entry.get("artifact_id") == "abstract"), None)
+            if abstract_item is not None:
+                abstract_path = resolve_evidence_path(abstract_item.get("path"))
+            abstract_number = None
+            if abstract_path is not None and abstract_path.is_file():
+                abstract_number = parse_abstract_figure_number(abstract_path.read_text(encoding="utf-8", errors="replace"))
+            reported = report.get("abstract_figure")
+            if isinstance(reported, int) and not isinstance(reported, bool):
+                if abstract_number is not None and reported != abstract_number:
+                    errors.append({"code": "DOCX-EMBEDDED", "message": f"组装报告摘要附图图{reported} 与摘要正文图{abstract_number} 不一致"})
+                abstract_number = reported if abstract_number is None else abstract_number
+            check_embedded_figures(output_path, figure_hashes, abstract_number, errors)
+
     return {
         "schema_id": RESULT_SCHEMA_ID,
         "report": str(report_path),
@@ -369,7 +602,7 @@ def verify(report_path: Path) -> dict[str, Any]:
         "status": "PASS" if not errors else "FAIL",
         "errors": errors,
         "evidence_scope": {
-            "proves": ["组装报告绑定的模板、源文件、图片和输出 DOCX 当前仍为同一字节版本"],
+            "proves": [] if errors else ["组装报告绑定的模板、源文件、图片和输出 DOCX 当前仍为同一字节版本", "有附图时，说明书附图图号顺序和摘要附图引用显示的是当前图片字节"],
             "does_not_prove": ["DOCX 法律内容正确", "未执行的视觉复核已经完成"],
         },
     }
@@ -398,8 +631,16 @@ def main(argv: list[str] | None = None) -> int:
     args = parser.parse_args(argv)
     try:
         result = verify(args.report.resolve())
-    except (OSError, UnicodeError, json.JSONDecodeError, ValueError) as exc:
-        result = {"schema_id": RESULT_SCHEMA_ID, "status": "FAIL", "errors": [{"code": "DOCX-EVIDENCE-INPUT", "message": str(exc)}]}
+    except (OSError, UnicodeError, json.JSONDecodeError, ValueError, BadZipFile, ET.ParseError) as exc:
+        result = {
+            "schema_id": RESULT_SCHEMA_ID,
+            "status": "FAIL",
+            "errors": [{"code": "DOCX-EVIDENCE-INPUT", "message": f"{type(exc).__name__}: {exc}"}],
+            "evidence_scope": {
+                "proves": [],
+                "does_not_prove": ["损坏或不完整的输入没有通过组装复验"],
+            },
+        }
     payload = json.dumps(result, ensure_ascii=False, indent=2).encode("utf-8") + b"\n"
     if args.output:
         write_atomic(args.output.resolve(), payload)

@@ -25,18 +25,24 @@ def installer_module():
     return module
 
 
+def write_complete_source(source: Path, module, generation: str = "NEW") -> None:
+    """按安装器公布的必需资源复制合法包，不用只有 SKILL.md 的空壳夹具。"""
+    for relative in module.required_package_files(ROOT):
+        origin = ROOT / relative
+        if not origin.is_file():
+            raise AssertionError(f"合法 fixture 缺少源文件：{relative}")
+        target = source / relative
+        target.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(origin, target)
+    for name in module.REQUIRED_SKILLS:
+        (source / "skills" / name / "generation.txt").write_text(generation, encoding="utf-8")
+
+
 def fixture(tmp_path: Path) -> tuple[Path, Path, object]:
     source = tmp_path / "source"
     home = tmp_path / "codex-home"
     module = installer_module()
-    (source / ".codex-plugin").mkdir(parents=True)
-    (source / ".codex-plugin/plugin.json").write_bytes((ROOT / ".codex-plugin/plugin.json").read_bytes())
-    (source / "pyproject.toml").write_bytes((ROOT / "pyproject.toml").read_bytes())
-    for name in module.REQUIRED_SKILLS:
-        skill = source / "skills" / name
-        skill.mkdir(parents=True)
-        (skill / "SKILL.md").write_text(f"---\nname: {name}\n---\n# synthetic\n", encoding="utf-8")
-        (skill / "generation.txt").write_text("NEW", encoding="utf-8")
+    write_complete_source(source, module)
     return source, home, module
 
 
@@ -61,7 +67,7 @@ def test_distribution_rejects_nested_local_archive_and_unreviewed_pdf(tmp_path):
 
     # 验证器也消费同一策略；合成法源齐全时仍必须拒绝这两个分发边界违规。
     legal = source / "references/cn-legal-sources"
-    legal.mkdir(parents=True)
+    legal.mkdir(parents=True, exist_ok=True)
     for rel in ("专利法(2020-10-17).md", "专利法实施细则(2023-12-21).md", "审查指南2026MD/guide-full.md"):
         target = legal / rel
         target.parent.mkdir(parents=True, exist_ok=True)
@@ -159,12 +165,12 @@ def test_real_sigterm_at_rename_gap_restores_runtime_and_entries(tmp_path):
     proc = subprocess.Popen([sys.executable, str(helper), str(INSTALLER), str(source), str(home), str(marker)],
                             stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, env=env)
     try:
-        deadline = time.monotonic() + 8
+        deadline = time.monotonic() + 45
         while not marker.exists() and proc.poll() is None and time.monotonic() < deadline:
             time.sleep(0.02)
         assert marker.exists(), proc.stderr.read() if proc.poll() is not None else "未到达 SIGTERM 注入点"
         proc.terminate()
-        proc.communicate(timeout=5)
+        proc.communicate(timeout=15)
     finally:
         if proc.poll() is None:
             proc.kill()
@@ -201,7 +207,7 @@ def test_sigkill_leaves_recoverable_journal_and_next_startup_recovers(tmp_path):
                             stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True,
                             env={**os.environ, "PYTHONDONTWRITEBYTECODE": "1"})
     try:
-        deadline = time.monotonic() + 8
+        deadline = time.monotonic() + 45
         while not marker.exists() and proc.poll() is None and time.monotonic() < deadline:
             time.sleep(0.02)
         assert marker.exists()

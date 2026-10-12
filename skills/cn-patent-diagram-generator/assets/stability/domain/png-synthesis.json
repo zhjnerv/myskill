@@ -1,0 +1,50 @@
+{
+  "schema_id": "cn-patent-domain-png-synthesis/v1",
+  "note": "测试按 width、height、margin、rgb 在临时目录生成真实 PNG。figure-1.drawio.txt 与 figure-2.drawio.txt 是 Draw.io XML 文本测试模板，不是正式交付附图。正式检查器不读取本文件，也不会在产物缺失时补造图片或母版。",
+  "images": [
+    {
+      "filename": "figure-1-margin-10.png",
+      "width": 32,
+      "height": 32,
+      "margin": 10,
+      "rgb": [
+        32,
+        32,
+        32
+      ]
+    },
+    {
+      "filename": "figure-2-margin-10.png",
+      "width": 36,
+      "height": 34,
+      "margin": 10,
+      "rgb": [
+        24,
+        24,
+        24
+      ]
+    },
+    {
+      "filename": "figure-1-margin-20.png",
+      "width": 52,
+      "height": 52,
+      "margin": 20,
+      "rgb": [
+        32,
+        32,
+        32
+      ]
+    },
+    {
+      "filename": "figure-2-margin-20.png",
+      "width": 56,
+      "height": 54,
+      "margin": 20,
+      "rgb": [
+        24,
+        24,
+        24
+      ]
+    }
+  ]
+}

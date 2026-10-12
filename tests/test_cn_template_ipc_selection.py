@@ -603,3 +603,60 @@ def test_stage_gate_blocks_entity_attribution_tampering(tmp_path):
     assert result.returncode == 2
     report = json.loads(output.read_text(encoding="utf-8"))
     assert any(block["gate_id"] == "GATE-IPC-014" for block in report["blocks"])
+
+
+def test_pending_stale_candidate_manifest_is_blocked(tmp_path):
+    """未确认不能绕过已经采用的候选清单哈希。"""
+
+    state, output = _gate_fixture(tmp_path)
+    candidates = tmp_path / "template-candidates.json"
+    payload = json.loads(candidates.read_text(encoding="utf-8"))
+    payload["candidates"][0]["title"] = "已变化"
+    _write_json(candidates, payload)
+    state_payload = json.loads(state.read_text(encoding="utf-8"))
+    state_payload["template_selection"]["status"] = "pending"
+    _write_json(state, state_payload)
+
+    result = _run(GATE, "--state", str(state), "--workspace", str(tmp_path), "--output", str(output))
+    assert result.returncode == 2, result.stdout + result.stderr
+    report = json.loads(output.read_text(encoding="utf-8"))
+    assert any(block["gate_id"] == "GATE-IPC-003" for block in report["blocks"])
+
+
+def test_pending_corrupt_selection_report_is_blocked(tmp_path):
+    state, output = _gate_fixture(tmp_path)
+    (tmp_path / "template-selection.json").write_text("{", encoding="utf-8")
+    state_payload = json.loads(state.read_text(encoding="utf-8"))
+    state_payload["template_selection"]["status"] = "pending"
+    _write_json(state, state_payload)
+
+    result = _run(GATE, "--state", str(state), "--workspace", str(tmp_path), "--output", str(output))
+    assert result.returncode == 2, result.stdout + result.stderr
+    report = json.loads(output.read_text(encoding="utf-8"))
+    assert any(block["gate_id"] == "GATE-IPC-002" for block in report["blocks"])
+
+
+def test_pending_can_exclude_stale_template_evidence(tmp_path):
+    """没有范本，或明确排除陈旧证据时，pending 仍可按默认策略继续。"""
+
+    state, output = _gate_fixture(tmp_path)
+    candidates = tmp_path / "template-candidates.json"
+    payload = json.loads(candidates.read_text(encoding="utf-8"))
+    payload["candidates"][0]["title"] = "已变化"
+    _write_json(candidates, payload)
+    state_payload = json.loads(state.read_text(encoding="utf-8"))
+    state_payload["template_selection"]["status"] = "pending"
+    state_payload["template_selection"]["style_guides"] = []
+    state_payload["template_selection"]["evidence_disposition"] = "excluded"
+    _write_json(state, state_payload)
+    brief_path = tmp_path / "style-brief.json"
+    brief_payload = json.loads(brief_path.read_text(encoding="utf-8"))
+    brief_payload["source"]["mode"] = "default"
+    _write_json(brief_path, brief_payload)
+
+    result = _run(GATE, "--state", str(state), "--workspace", str(tmp_path), "--output", str(output))
+    assert result.returncode == 0, result.stdout + result.stderr
+    report = json.loads(output.read_text(encoding="utf-8"))
+    assert report["blocks"] == []
+    pending = next(item for item in report["pending_decisions"] if item["key"] == "template.selection_pending")
+    assert pending["adopted_default"] == "尚未检索到范本，用默认起草策略"

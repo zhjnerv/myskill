@@ -47,7 +47,9 @@ source_node_id
 → exclusive_target_port
 ```
 
-验证器递归合并全部父项关系，再加入本项关系。若同一 `exclusive_target_port` 在继承后出现两个不同来源，输出 `ARCH-TOPOLOGY-CONFLICT`。
+`parent_combination` 表示多个父项如何同时进入拓扑。`alternative` 是择一：多项从属按《专利法实施细则》第二十五条，每次只继承一个父项分支，再汇总各分支的冲突。`simultaneous` 才是同时继承。字段省略时，多个父项按 `alternative`，单个父项按 `simultaneous`。验证器不会把 `parent_claim_numbers` 的并集当成这些父项同时成立。
+
+任一允许分支里，同一 `exclusive_target_port` 出现两个不同来源时，输出 `ARCH-TOPOLOGY-CONFLICT`。择一分支各自无冲突时不阻断。展开分支数超过验证器资源上限时输出 `ARCH-TOPOLOGY-LIMIT`，不用残缺结果冒充冲突。
 
 例如父项限定：
 

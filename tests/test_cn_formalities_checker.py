@@ -370,5 +370,49 @@ class FormalitiesCheckerV2Tests(unittest.TestCase):
         self.assertEqual([item for item in report["findings"] if item["location"] == "specification.附图说明"], [])
 
 
+    def test_all_unknown_documents_do_not_invent_empty_title_or_missing_section_defects(self):
+        manifest = {
+            "schema_version": "cn-patent-application-manifest/v2",
+            "application_scope": "direct_cn_invention_application",
+            "application_type": "invention",
+            "filing_medium": "unknown",
+            "documents": {key: {"status": "unknown"} for key in ("request", "specification", "claims", "abstract", "drawings")},
+            "titles": {},
+        }
+        code, path = self.run_checker(manifest)
+        self.assertNotEqual(code, 2)
+        report = json.loads(path.read_text(encoding="utf-8"))
+        problems = " ".join(item["problem"] for item in report["findings"])
+        self.assertNotIn("标题声明为空", problems)
+        self.assertNotIn("未识别到", problems)
+        self.assertFalse(any(item["status"] == "DETERMINISTIC_FAIL" for item in report["findings"]))
+        for rule_id in ("form_title_consistency_and_quality", "form_specification_structure_and_drafting", "form_abstract_content_and_length"):
+            check = next(item for item in report["checks_performed"] if item["rule_id"] == rule_id)
+            self.assertEqual(check["status"], "SKIPPED")
+            self.assertTrue(any(
+                item["gap_id"] in check["gap_ids"] and item["category"] == "INPUT_UNAVAILABLE"
+                for item in report["gaps"]
+            ))
+
+    def test_confirmed_absent_and_empty_provided_documents_still_fail(self):
+        absent = complete_manifest()
+        absent["documents"]["abstract"] = {"status": "confirmed_absent"}
+        code, path = self.run_checker(absent)
+        self.assertEqual(code, 2)
+        report = json.loads(path.read_text(encoding="utf-8"))
+        self.assertTrue(any(
+            item["rule_id"] == "form_abstract_content_and_length" and item["status"] == "DETERMINISTIC_FAIL"
+            for item in report["findings"]
+        ))
+
+        empty = complete_manifest()
+        empty["documents"]["abstract"] = {"status": "provided", "content": "   "}
+        code, path = self.run_checker(empty)
+        self.assertEqual(code, 2)
+        report = json.loads(path.read_text(encoding="utf-8"))
+        self.assertTrue(any(item["status"] == "DETERMINISTIC_FAIL" and "为空" in item["problem"] for item in report["findings"]))
+
+
+
 if __name__ == "__main__":
     unittest.main()

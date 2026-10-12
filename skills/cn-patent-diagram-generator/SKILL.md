@@ -238,7 +238,7 @@ python scripts/verify_patent_drawings.py \
 
 ## 约束追踪与回归证据
 
-`config/instruction-stability-contract.json` 将来源绑定、范例样式、技术覆盖、步骤同构、直接连接、节点文字适配、纵向节点间距、PNG白边、克制配色、官方导出和视觉绑定十三类硬约束，逐项映射到主动 checker、正例和最小违规反例。`assets/stability/` 中的样本只用于 Skill 自身回归，不得作为客户案件的最终验收结果。正式声明多轮稳定性时，仍需由候选外评估者提供签名硬约束基线、至少三轮独立运行证据和 Skill Lint 回执。
+`config/instruction-stability-contract.json` 将来源绑定、范例样式、技术覆盖、步骤同构、直接连接、节点文字适配、纵向节点间距、PNG白边、克制配色、官方导出和视觉绑定十三类硬约束，逐项映射到主动 checker、正例和最小违规反例。`assets/stability/` 中的样本只用于 Skill 自身回归，不得作为客户案件的最终验收结果。几何和最终外观类 checker 读取调用时传入的领域清单，按整组来源和每一幅附图各自的母版、PNG、导出记录或视觉记录重算或核对当前哈希。`assets/stability/domain/` 只保存可分发的文本测试模板、像素参数和清单。`figure-1.drawio.txt` 与 `figure-2.drawio.txt` 是 Draw.io XML 文本，不是正式交付附图；真实 PNG 由测试在临时目录生成，并同时复制这两份文本模板。检查器不会补造缺失产物。报告字段本身只够做 schema 解释。正式声明多轮稳定性时，仍需由候选外评估者提供签名硬约束基线、至少三轮独立运行证据和 Skill Lint 回执。
 
 ## 硬失败与回炉
 

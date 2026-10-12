@@ -30,33 +30,17 @@ FORBIDDEN_DEPENDENCIES = {
 }
 
 
-def main() -> int:
-    files, errors = collect_source_files(ROOT, distribution_only=False)
-
-    for name in sorted(REQUIRED_SKILLS):
-        if not (ROOT / "skills" / name / "SKILL.md").is_file():
-            errors.append(f"缺少 Skill：{name}")
+def verify_tree(root: Path) -> list[str]:
+    """与依赖安装无关的包完整性。root 可以是仓库，也可以是尚未替换旧安装的暂存树。"""
+    files, errors = collect_source_files(root, distribution_only=False)
+    errors.extend(_policy.check_package_integrity(root))
 
     for name in sorted(FORBIDDEN_TOP_LEVEL):
-        if (ROOT / name).exists():
+        if (root / name).exists():
             errors.append(f"存在禁止的重型目录：{name}")
 
-    legal_root = ROOT / "references" / "cn-legal-sources"
-    for relative in (
-        "专利法(2020-10-17).md",
-        "专利法实施细则(2023-12-21).md",
-        "审查指南2026MD/guide-full.md",
-        "source-index.json",
-    ):
-        path = legal_root / relative
-        try:
-            if path.is_symlink() or not path.is_file() or not path.read_bytes():
-                errors.append(f"法源缺失或为空：{relative}")
-        except OSError as exc:
-            errors.append(f"无法读取法源：{relative}：{exc}")
-
     try:
-        pyproject = (ROOT / "pyproject.toml").read_text(encoding="utf-8").lower()
+        pyproject = (root / "pyproject.toml").read_text(encoding="utf-8").lower()
     except (OSError, UnicodeDecodeError) as exc:
         errors.append(f"无法读取 pyproject.toml：{exc}")
         pyproject = ""
@@ -65,7 +49,7 @@ def main() -> int:
             errors.append(f"不应引入主项目重型依赖：{dependency}")
 
     for path in files:
-        relative = path.relative_to(ROOT)
+        relative = path.relative_to(root)
         try:
             raw = path.read_bytes()
         except OSError as exc:
@@ -87,11 +71,17 @@ def main() -> int:
                 json.loads(raw.decode("utf-8"))
             except (UnicodeDecodeError, json.JSONDecodeError) as exc:
                 errors.append(f"JSON 无效：{relative}：{exc}")
-        if path.suffix in {".py", ".md"} and path.resolve() != Path(__file__).resolve():
+        if path.suffix in {".py", ".md"}:
             text = raw.decode("utf-8", errors="replace")
-            if "from mcp_server" in text or "import mcp_server" in text:
+            # 检测字面量会把验证器的暂存副本误报成反向依赖，先去掉再扫描。
+            scrubbed = text.replace('"import mcp_server"', "").replace('"from mcp_server"', "")
+            if "from mcp_server" in scrubbed or "import mcp_server" in scrubbed:
                 errors.append(f"存在对主项目 mcp_server 的反向依赖：{relative}")
+    return errors
 
+
+def main() -> int:
+    errors = verify_tree(ROOT)
     report = {
         "schema_id": "cn-patent-skill-package-verification/v1",
         "status": "PASS" if not errors else "FAIL",

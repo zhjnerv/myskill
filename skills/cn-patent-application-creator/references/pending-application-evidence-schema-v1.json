@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "cn-patent-pending-application-evidence/v1",
+  "description": "把 choose 或 instruct 绑定到当前源稿。校验案号、决定、内容版本和文件哈希。通过只说明声明指向这些字节，不证明备选或指示已经在语义上写入文书。不要用 applied:true 自报。",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_id", "case_id", "items"],
+  "properties": {
+    "schema_id": {"const": "cn-patent-pending-application-evidence/v1"},
+    "case_id": {"type": "string", "minLength": 1},
+    "binding_note": {"type": "string"},
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["key", "target", "resolution", "decision_text", "content_version", "sources"],
+        "properties": {
+          "key": {"type": "string", "minLength": 1},
+          "target": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["kind", "locator"],
+            "properties": {
+              "kind": {"type": "string"},
+              "locator": {"type": "string", "minLength": 1}
+            }
+          },
+          "resolution": {"enum": ["choose", "instruct"]},
+          "selected_option": {"type": ["string", "null"]},
+          "decision_text": {"type": "string"},
+          "annotation": {"type": "string"},
+          "content_version": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+          "sources": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["path", "sha256"],
+              "properties": {
+                "path": {"type": "string", "minLength": 1},
+                "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

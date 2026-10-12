@@ -690,8 +690,12 @@ def analyse(manifest: dict[str, Any], manifest_path: Path, manifest_raw: bytes) 
             register("form_language_format_and_execution", "application", "PARTIAL", execution_findings, [gap])
 
     # 4. 名称优先从真实文书提取；manifest 仅作为人工声明回退。
+    # 文书本身不可用时，空标题声明不能被当成已经提交的空名称。
     title_values: list[str] = []
     for key in ("request", "specification", "abstract"):
+        status = metadata.get(key, {}).get("status", "unknown")
+        if status in {"unknown", "not_applicable"}:
+            continue
         value = titles.get(key, "").strip()
         if key == "request" and request_outside_delivery and not value:
             continue
@@ -759,32 +763,53 @@ def analyse(manifest: dict[str, Any], manifest_path: Path, manifest_raw: bytes) 
                     evidence=title_evidence(artifact_ids, document_name, location, value),
                 )
             )
-    if extracted_titles:
+    if not title_values and not extracted_titles:
         title_gap = collector.gap(
             "form_title_consistency_and_quality",
             "titles",
-            "CAPABILITY_LIMIT",
-            "脚本已尝试从真实文书提取名称，但仍不能仅凭文本提取结果证明请求书正式栏位中的名称已经正确填写。",
+            "INPUT_UNAVAILABLE",
+            "请求书、说明书或摘要不在可核验范围内，不能根据空标题声明推定名称缺陷。",
             evidence=evidence("application-manifest", "titles"),
         )
+        register("form_title_consistency_and_quality", "titles", "SKIPPED", gap_ids=[title_gap])
     else:
-        title_gap = collector.gap(
-            "form_title_consistency_and_quality",
-            "titles",
-            "CAPABILITY_LIMIT",
-            "manifest 标题声明和 SHA-256 不能证明实际文书标题已被正确提取。",
-            evidence=evidence("application-manifest", "titles"),
-        )
-    register("form_title_consistency_and_quality", "titles", "PARTIAL", title_findings, [title_gap])
+        if extracted_titles:
+            title_gap = collector.gap(
+                "form_title_consistency_and_quality",
+                "titles",
+                "CAPABILITY_LIMIT",
+                "脚本已尝试从真实文书提取名称，但仍不能仅凭文本提取结果证明请求书正式栏位中的名称已经正确填写。",
+                evidence=evidence("application-manifest", "titles"),
+            )
+        else:
+            title_gap = collector.gap(
+                "form_title_consistency_and_quality",
+                "titles",
+                "CAPABILITY_LIMIT",
+                "manifest 标题声明和 SHA-256 不能证明实际文书标题已被正确提取。",
+                evidence=evidence("application-manifest", "titles"),
+            )
+        register("form_title_consistency_and_quality", "titles", "PARTIAL", title_findings, [title_gap])
 
-    # 5. 说明书结构。
-    required_sections = ["技术领域", "背景技术", "发明内容", "具体实施方式"]
-    if metadata["drawings"]["status"] == "provided" or "附图说明" in found_sections:
-        required_sections.insert(3, "附图说明")
-    missing_sections = [section for section in required_sections if section not in found_sections]
-    section_findings = [collector.finding("form_specification_structure_and_drafting", "specification", "说明书", f"未识别到“{section}”章节。", "核对真实说明书结构和例外理由。", status="REVIEW_REQUIRED", evidence=document_evidence(artifact_ids, "specification", "sections", section)) for section in missing_sections]
-    section_gap = collector.gap("form_specification_structure_and_drafting", "specification", "SEMANTIC_REVIEW_NOT_PERFORMED", "章节存在性可筛查，但撰写质量和公开充分性不在形式检查器范围。", evidence=document_evidence(artifact_ids, "specification", "sections"))
-    register("form_specification_structure_and_drafting", "specification", "PARTIAL", section_findings, [section_gap])
+    # 5. 说明书结构。不可用文本不按空字符串推定缺章节。
+    spec_status = metadata["specification"]["status"]
+    if spec_status in {"unknown", "not_applicable"}:
+        section_gap = collector.gap(
+            "form_specification_structure_and_drafting",
+            "specification",
+            "INPUT_UNAVAILABLE",
+            "说明书不可用，不能根据空文本推定缺少章节。",
+            evidence=evidence("application-manifest", "documents.specification"),
+        )
+        register("form_specification_structure_and_drafting", "specification", "SKIPPED", gap_ids=[section_gap])
+    else:
+        required_sections = ["技术领域", "背景技术", "发明内容", "具体实施方式"]
+        if metadata["drawings"]["status"] == "provided" or "附图说明" in found_sections:
+            required_sections.insert(3, "附图说明")
+        missing_sections = [section for section in required_sections if section not in found_sections]
+        section_findings = [collector.finding("form_specification_structure_and_drafting", "specification", "说明书", f"未识别到“{section}”章节。", "核对真实说明书结构和例外理由。", status="REVIEW_REQUIRED", evidence=document_evidence(artifact_ids, "specification", "sections", section)) for section in missing_sections]
+        section_gap = collector.gap("form_specification_structure_and_drafting", "specification", "SEMANTIC_REVIEW_NOT_PERFORMED", "章节存在性可筛查，但撰写质量和公开充分性不在形式检查器范围。", evidence=document_evidence(artifact_ids, "specification", "sections"))
+        register("form_specification_structure_and_drafting", "specification", "PARTIAL", section_findings, [section_gap])
 
     # 6. 权利要求编号和引用形式仅作结构筛查。
     claim_gap = collector.gap("form_claim_presentation_and_reference_form", "claims", "SEMANTIC_REVIEW_NOT_PERFORMED", "权利要求清楚、支持和必要技术特征由 claims checker 独立审查。", evidence=document_evidence(artifact_ids, "claims", "claims"))
@@ -794,15 +819,26 @@ def analyse(manifest: dict[str, Any], manifest_path: Path, manifest_raw: bytes) 
     body = abstract_body(abstract)
     count = len(re.sub(r"\s+", "", body))
     abstract_findings: list[str] = []
-    if metadata["abstract"]["status"] in {"unknown", "confirmed_absent", "not_applicable"}:
-        abstract_findings.append(collector.finding("form_abstract_content_and_length", "abstract", "abstract", "摘要文书未提供或已确认缺失。", "补齐摘要并重新检查。", status="DETERMINISTIC_FAIL" if metadata["abstract"]["status"] != "unknown" else "REVIEW_REQUIRED", evidence=evidence("application-manifest", "documents.abstract")))
+    abstract_status = metadata["abstract"]["status"]
+    if abstract_status in {"unknown", "not_applicable"}:
+        abstract_gap = collector.gap(
+            "form_abstract_content_and_length",
+            "abstract",
+            "INPUT_UNAVAILABLE",
+            "摘要文书不可用，不能根据空文本推定摘要缺陷。",
+            evidence=evidence("application-manifest", "documents.abstract"),
+        )
+        register("form_abstract_content_and_length", "abstract", "SKIPPED", gap_ids=[abstract_gap])
+    elif abstract_status == "confirmed_absent":
+        abstract_findings.append(collector.finding("form_abstract_content_and_length", "abstract", "abstract", "摘要文书未提供或已确认缺失。", "补齐摘要并重新检查。", status="DETERMINISTIC_FAIL", evidence=evidence("application-manifest", "documents.abstract")))
     elif count > 300:
         abstract_findings.append(collector.finding("form_abstract_content_and_length", "abstract", "abstract", f"摘要文字部分包括标点共 {count} 字，超过 300 字。", "压缩摘要至法定长度。", status="DETERMINISTIC_FAIL", evidence=document_evidence(artifact_ids, "abstract", "abstract", str(count))))
     for term in PROMOTIONAL_TERMS:
         if term in body:
             abstract_findings.append(collector.finding("form_abstract_content_and_length", "abstract", "abstract", "摘要中存在可能具有商业宣传性质的用语。", "结合上下文改为客观技术表述。", status="WARNING", evidence=document_evidence(artifact_ids, "abstract", "abstract", term)))
-    abstract_gap = collector.gap("form_abstract_content_and_length", "abstract", "SEMANTIC_REVIEW_NOT_PERFORMED", "摘要内容是否完整准确仍需人工复核。", evidence=document_evidence(artifact_ids, "abstract", "abstract"))
-    register("form_abstract_content_and_length", "abstract", "PARTIAL", abstract_findings, [abstract_gap])
+    if abstract_status not in {"unknown", "not_applicable"}:
+        abstract_gap = collector.gap("form_abstract_content_and_length", "abstract", "SEMANTIC_REVIEW_NOT_PERFORMED", "摘要内容是否完整准确仍需人工复核。", evidence=document_evidence(artifact_ids, "abstract", "abstract"))
+        register("form_abstract_content_and_length", "abstract", "PARTIAL", abstract_findings, [abstract_gap])
 
     # 8-10. 摘要附图、附图存在性和图号/标记。
     drawing_state = metadata["drawings"]["status"]

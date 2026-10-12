@@ -28,18 +28,24 @@ def load_module(path: Path, name: str):
     return module
 
 
+def write_complete_source(source: Path, module, generation: str = "NEW") -> None:
+    """按安装器公布的必需资源复制合法包，不用只有 SKILL.md 的空壳夹具。"""
+    for relative in module.required_package_files(ROOT):
+        origin = ROOT / relative
+        if not origin.is_file():
+            raise AssertionError(f"合法 fixture 缺少源文件：{relative}")
+        target = source / relative
+        target.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(origin, target)
+    for name in module.REQUIRED_SKILLS:
+        (source / "skills" / name / "generation.txt").write_text(generation, encoding="utf-8")
+
+
 def fixture(tmp_path: Path):
     source = tmp_path / "source"
     home = tmp_path / "codex-home"
     module = load_module(INSTALLER, f"installer_{id(tmp_path)}")
-    (source / ".codex-plugin").mkdir(parents=True)
-    (source / ".codex-plugin/plugin.json").write_bytes((ROOT / ".codex-plugin/plugin.json").read_bytes())
-    (source / "pyproject.toml").write_bytes((ROOT / "pyproject.toml").read_bytes())
-    for name in module.REQUIRED_SKILLS:
-        skill = source / "skills" / name
-        skill.mkdir(parents=True)
-        (skill / "SKILL.md").write_text(f"---\nname: {name}\n---\n# synthetic\n", encoding="utf-8")
-        (skill / "generation.txt").write_text("NEW", encoding="utf-8")
+    write_complete_source(source, module)
     return source, home, module
 
 

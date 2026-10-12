@@ -11,7 +11,9 @@
 编排器本身不作任何法律判断，也不产生总体结论。处置状态只能由独立 verifier 派生。
 
 守恒的实现要点：finalize 机械地把原始 finding/gap 并入其所属维度的评估，语义审查者
-无法通过省略来"清掉"一个仍有确定性失败的维度——规范状态不变量会直接拒绝该组合。
+无法通过省略来"清掉"一个仍有确定性失败或硬 gap 的维度。独立语义 finding 单独登记，
+不能冒充原始来源，也不能抵消原始失败。传递读集、当前工具字节和被引用的本地法源
+都要在 finalize 时按固定路径复算。
 """
 
 from __future__ import annotations
@@ -290,6 +292,163 @@ def write_json_atomic(path: Path, payload: bytes, protected: list[Path]) -> None
 # prepare
 # --------------------------------------------------------------------------
 
+
+COMPARABLE_READ_ROLES = {"claims", "specification", "features", "formalities_manifest"}
+READ_ROLE_ALIASES = {"application-manifest": "formalities_manifest"}
+
+
+def _read_role(artifact_id: str) -> str:
+    return READ_ROLE_ALIASES.get(artifact_id, artifact_id)
+
+
+def extend_transitive_reads(
+    input_artifacts: list[dict[str, Any]], reports: dict[str, dict[str, Any]]
+) -> list[dict[str, Any]]:
+    """把检查器实际读过的文件并入顶层冻结清单，并核对同角色内容一致。"""
+
+    frozen = list(input_artifacts)
+    by_path = {str(Path(item["path"]).resolve()): item for item in frozen}
+    role_digest: dict[str, str] = {}
+    for item in frozen:
+        role = _read_role(item["artifact_id"])
+        if role in COMPARABLE_READ_ROLES:
+            role_digest[role] = item["sha256"]
+    seen_ids = {item["artifact_id"] for item in frozen}
+
+    for review_type, report in sorted(reports.items()):
+        for item in report.get("input_artifacts", []):
+            if not isinstance(item, dict):
+                raise OrchestrationError(f"{review_type} 原始报告的 input_artifacts 含非对象条目")
+            artifact_id = item.get("artifact_id")
+            path_value = item.get("path")
+            expected_sha = item.get("sha256")
+            if not isinstance(artifact_id, str) or not isinstance(path_value, str) or not isinstance(expected_sha, str):
+                raise OrchestrationError(f"{review_type} 读集条目缺少 artifact_id、path 或 sha256")
+            role = _read_role(artifact_id)
+            if path_value.startswith("inline://"):
+                if role in role_digest and role_digest[role] != expected_sha:
+                    raise OrchestrationError(f"同角色内容不一致：{role} 的内联文本与已冻结文件不同")
+                role_digest.setdefault(role, expected_sha)
+                continue
+            path = Path(path_value)
+            if not path.is_file():
+                raise OrchestrationError(f"{review_type} 实际读取的文件不存在：{path_value}")
+            raw = path.read_bytes()
+            digest = sha256_bytes(raw)
+            if digest != expected_sha:
+                raise OrchestrationError(f"{review_type} 读集 {artifact_id} 与磁盘字节不一致")
+            if role in role_digest and role_digest[role] != digest:
+                raise OrchestrationError(f"同角色文件不一致：{role}")
+            role_digest.setdefault(role, digest)
+            resolved = str(path.resolve())
+            if resolved in by_path:
+                if by_path[resolved]["sha256"] != digest:
+                    raise OrchestrationError(f"同一路径的冻结哈希不一致：{path}")
+                continue
+            new_id = artifact_id if artifact_id not in seen_ids else f"{review_type}-{artifact_id}"
+            if new_id in seen_ids:
+                raise OrchestrationError(f"传递读集出现重复 artifact_id：{new_id}")
+            media_type = item.get("media_type") if isinstance(item.get("media_type"), str) else "text/plain"
+            created = make_artifact(new_id, path.resolve(), raw, media_type)
+            seen_ids.add(new_id)
+            by_path[resolved] = created
+            frozen.append(created)
+    return frozen
+
+
+def assert_current_tools_match(manifest: dict[str, Any], reports: dict[str, dict[str, Any]]) -> None:
+    """从固定路径重算工具哈希。报告里自报的哈希字符串不能单独充当当前实现。"""
+
+    trusted = cn_contract.trusted_tool_paths()
+    declared: dict[str, str] = {}
+    identities = manifest.get("checker_identities")
+    if not isinstance(identities, list):
+        raise OrchestrationError("prepare 清单缺少 checker_identities，无法复算工具身份")
+    for index, item in enumerate(identities):
+        if not isinstance(item, dict) or not isinstance(item.get("tool_id"), str) or not isinstance(item.get("tool_sha256"), str):
+            raise OrchestrationError(f"checker_identities[{index}] 缺少有效 tool_id/tool_sha256")
+        declared[item["tool_id"]] = item["tool_sha256"]
+    tool = manifest.get("tool_identity")
+    if not isinstance(tool, dict) or not isinstance(tool.get("tool_id"), str) or not isinstance(tool.get("tool_sha256"), str):
+        raise OrchestrationError("prepare 清单缺少有效 tool_identity")
+    declared[tool["tool_id"]] = tool["tool_sha256"]
+    if set(declared) != set(trusted):
+        raise OrchestrationError(
+            "冻结工具集合与当前固定路径不一致：" + ", ".join(sorted(set(declared) ^ set(trusted)))
+        )
+    current: dict[str, str] = {}
+    for tool_id, path in sorted(trusted.items()):
+        if not path.is_file():
+            raise OrchestrationError(f"固定路径工具不存在：{tool_id}：{path}")
+        digest = sha256_bytes(path.read_bytes())
+        current[tool_id] = digest
+        if digest != declared[tool_id]:
+            raise OrchestrationError(f"工具 {tool_id} 的当前字节与冻结哈希不一致，必须重新运行 prepare")
+    for review_type, report in reports.items():
+        identity = report.get("tool_identity") if isinstance(report.get("tool_identity"), dict) else {}
+        tool_id = identity.get("tool_id")
+        if tool_id in current and identity.get("tool_sha256") != current[tool_id]:
+            raise OrchestrationError(
+                f"{review_type} 原始报告记录的工具哈希与当前实现不一致，必须重新运行 prepare"
+            )
+
+
+def resolve_legal_source(relative: str) -> Path:
+    """只解析本地法源根目录下的相对路径。"""
+
+    root = cn_contract.legal_source_root().resolve()
+    if not root.is_dir():
+        raise OrchestrationError(f"本地法源目录不存在：{root}")
+    if not isinstance(relative, str) or not relative.strip():
+        raise OrchestrationError("法源路径为空")
+    candidate = Path(relative)
+    if candidate.is_absolute() or any(part == ".." for part in candidate.parts):
+        raise OrchestrationError(f"法源路径必须位于本地法源目录内：{relative}")
+    path = (root / candidate).resolve()
+    try:
+        path.relative_to(root)
+    except ValueError as exc:
+        raise OrchestrationError(f"法源路径越出本地法源目录：{relative}") from exc
+    if not path.is_file():
+        raise OrchestrationError(f"法源文件不存在：{relative}")
+    return path
+
+
+def bind_legal_sources(
+    findings: list[dict[str, Any]], existing_ids: set[str]
+) -> tuple[list[dict[str, Any]], str]:
+    """把语义审查实际引用的法源章节冻结为工件。重复引用同一章节只绑定一次。"""
+
+    chosen: dict[str, str] = {}
+    for finding in findings:
+        finding_id = finding.get("finding_id", "")
+        for source in finding.get("legal_sources", []):
+            if not isinstance(source, dict):
+                raise OrchestrationError(f"语义 finding {finding_id} 的法源必须是对象")
+            source_id = source.get("source_id")
+            relative = source.get("path")
+            if not isinstance(source_id, str) or not source_id:
+                raise OrchestrationError(f"语义 finding {finding_id} 的法源缺少 source_id")
+            if not isinstance(relative, str) or not relative.strip():
+                raise OrchestrationError(f"语义 finding {finding_id} 的法源缺少 path")
+            previous = chosen.get(source_id)
+            if previous is not None and previous != relative:
+                raise OrchestrationError(f"法源 {source_id} 指向了两个不同路径")
+            chosen[source_id] = relative
+    artifacts: list[dict[str, Any]] = []
+    for source_id, relative in sorted(chosen.items()):
+        if source_id in existing_ids:
+            raise OrchestrationError(f"法源标识与已有工件冲突：{source_id}")
+        path = resolve_legal_source(relative)
+        raw = path.read_bytes()
+        if raw.startswith(b"\xef\xbb\xbf"):
+            raise OrchestrationError(f"法源 {source_id} 必须是 UTF-8 无 BOM")
+        media_type = "text/markdown" if path.suffix.lower() == ".md" else "text/plain"
+        artifacts.append(make_artifact(source_id, path, raw, media_type))
+        existing_ids.add(source_id)
+    return artifacts, collection_digest(artifacts)
+
+
 def run_checkers(paths: dict[str, Path], contract) -> dict[str, dict[str, Any]]:
     """在进程内调用三个真实检查器；任何一份不合规都立即失败。"""
 
@@ -377,6 +536,8 @@ def build_semantic_template(
         "evidence_binding": binding,
         "assessments": assessments,
         "semantic_gaps": semantic_gaps,
+        "semantic_findings": [],
+        "resolved_capability_gaps": [],
     }
     # provenance 数组与哈希同时传给独立语义审查者，避免其只能看到不可解释的摘要值。
     # 旧版无 provenance 的 prepare 仍保持 v2 兼容，不强行增加空字段。
@@ -424,6 +585,7 @@ def command_prepare(args: argparse.Namespace) -> int:
             for key, path in sorted(paths.items())
         ),
     ]
+    input_artifacts = extend_transitive_reads(input_artifacts, reports)
     rule_sources: list[dict[str, Any]] = []
     seen_rules: set[str] = set()
     for report in reports.values():
@@ -633,6 +795,7 @@ def load_frozen_state(workspace: Path, contract) -> tuple[dict[str, Any], dict[s
             contract,
             Path(prepare_input["path"]).resolve().parent,
         )
+    assert_current_tools_match(manifest, reports)
     return manifest, reports
 
 
@@ -715,7 +878,7 @@ def read_semantic_input(path: Path, manifest: dict[str, Any], contract) -> dict[
         raise OrchestrationError(
             "语义审查输入的 provenance_artifacts 与 prepare 清单不一致"
         )
-    for key in ("assessments", "semantic_gaps"):
+    for key in ("assessments", "semantic_gaps", "semantic_findings", "resolved_capability_gaps"):
         if not isinstance(payload.get(key), list):
             raise OrchestrationError(f"语义审查输入的 {key} 必须是数组")
     return payload
@@ -726,33 +889,29 @@ CLEAR_RESULTS_NOT_VETOED_BY_CAPABILITY_GAPS = {"NO_ISSUE_FOUND", "NOT_APPLICABLE
 CAPABILITY_GAP_CATEGORIES = {"SEMANTIC_REVIEW_NOT_PERFORMED"}
 
 
-def visible_gap_ids(
-    dimension_id: str,
-    state: dict[str, Any],
-    by_dimension_gaps: dict[str, list[str]],
-    gap_categories: dict[str, str],
-) -> list[str]:
-    """能力缺口不否决审查者已经作出的无问题或不适用结论。
-
-    DETERMINISTIC_FAIL 仍通过 finding_ids 触发状态不变量。
-    INPUT_UNAVAILABLE、CAPABILITY_LIMIT、PARSE_UNRESOLVED、
-    SEARCH_EVIDENCE_MISSING 以及条件适用未解的缺口继续留下。
-    """
-
-    merged = set(by_dimension_gaps.get(dimension_id, [])) | set(state.get("gap_ids", []))
-    if state.get("result") in CLEAR_RESULTS_NOT_VETOED_BY_CAPABILITY_GAPS:
-        merged = {
-            gap_id
-            for gap_id in merged
-            if gap_categories.get(gap_id) not in CAPABILITY_GAP_CATEGORIES
-        }
-    return sorted(merged)
+def _resolution_entry(gap_id: str, dimension_id: str, category: str, reason: str) -> dict[str, str]:
+    return {
+        "gap_id": gap_id,
+        "dimension_id": dimension_id,
+        "category": category,
+        "reason": reason,
+    }
 
 
 def build_assessments(
     semantic_input: dict[str, Any], subreports: list[dict[str, Any]], contract
-) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
-    """构造 41 维原子评估：语义状态来自审查者，ID 归属由工具机械并入。"""
+) -> tuple[list[dict[str, Any]], list[dict[str, Any]], list[dict[str, str]]]:
+    """构造 41 维原子评估。
+
+    原始 finding/gap 按维度机械并入。语义 finding 只进入自己的维度。
+    只有已经明确列出的可消除能力缺口，才能从关闭结论的 gap_ids 中拿掉。
+    """
+
+    policy = contract.data["assessment_conservation"]
+    auto_categories = set(policy["auto_resolve_categories"])
+    resolvable = set(policy["resolvable_gap_categories"])
+    clear_results = set(policy["clear_results"])
+    finding_pattern = policy["semantic_finding_id_pattern"]
 
     by_dimension_findings: dict[str, list[str]] = {}
     by_dimension_gaps: dict[str, list[str]] = {}
@@ -772,6 +931,32 @@ def build_assessments(
         by_dimension_gaps.setdefault(item["dimension_id"], []).append(item["gap_id"])
         gap_categories[item["gap_id"]] = item.get("category", "")
 
+    semantic_findings = semantic_input["semantic_findings"]
+    by_dimension_semantic: dict[str, list[str]] = {}
+    seen_semantic: set[str] = set()
+    for item in semantic_findings:
+        if not isinstance(item, dict):
+            raise OrchestrationError("semantic_findings 的条目必须是对象")
+        finding_id = item.get("finding_id")
+        dimension_id = item.get("dimension_id")
+        if not isinstance(finding_id, str) or re.fullmatch(finding_pattern, finding_id) is None:
+            raise OrchestrationError(f"语义 finding_id 不符合规范：{finding_id!r}")
+        if finding_id in seen_semantic:
+            raise OrchestrationError(f"语义 finding_id 重复：{finding_id}")
+        if dimension_id not in contract.dimension_ids:
+            raise OrchestrationError(f"语义 finding {finding_id} 的维度未定义：{dimension_id!r}")
+        seen_semantic.add(finding_id)
+        by_dimension_semantic.setdefault(dimension_id, []).append(finding_id)
+
+    supplied: dict[str, dict[str, Any]] = {}
+    for item in semantic_input["resolved_capability_gaps"]:
+        if not isinstance(item, dict) or set(item) != set(contract.exact_fields["resolved_capability_gap"]):
+            raise OrchestrationError("resolved_capability_gaps 的字段与规范不一致")
+        gap_id = item["gap_id"]
+        if gap_id in supplied:
+            raise OrchestrationError(f"重复消解能力缺口：{gap_id}")
+        supplied[gap_id] = item
+
     declared = {}
     for item in semantic_input["assessments"]:
         rule_id = item.get("rule_id")
@@ -782,6 +967,7 @@ def build_assessments(
     if unknown:
         raise OrchestrationError(f"语义审查输入出现规范未定义的维度：{unknown}")
 
+    resolutions: dict[str, dict[str, str]] = {}
     assessments: list[dict[str, Any]] = []
     for dimension_id in contract.dimension_ids:
         provided = declared.get(dimension_id)
@@ -789,6 +975,23 @@ def build_assessments(
         for key in ("coverage", "result", "severity", "evidence"):
             if key not in state:
                 raise OrchestrationError(f"维度 {dimension_id} 的语义评估缺少字段 {key}")
+        gap_ids = set(by_dimension_gaps.get(dimension_id, [])) | set(state.get("gap_ids", []))
+        if state["result"] in clear_results:
+            retained: set[str] = set()
+            for gap_id in gap_ids:
+                category = gap_categories.get(gap_id, "")
+                if category in auto_categories:
+                    resolutions[gap_id] = _resolution_entry(
+                        gap_id, dimension_id, category,
+                        "独立语义审查已完成，该能力缺口不再阻断本维度。",
+                    )
+                    continue
+                entry = supplied.get(gap_id)
+                if entry is not None and entry["dimension_id"] == dimension_id and entry["category"] == category and category in resolvable:
+                    resolutions[gap_id] = _resolution_entry(gap_id, dimension_id, category, entry["reason"])
+                    continue
+                retained.add(gap_id)
+            gap_ids = retained
         assessment = {
             "assessment_id": f"A-{dimension_id}",
             "rule_id": dimension_id,
@@ -797,14 +1000,13 @@ def build_assessments(
             "result": state["result"],
             "evidence": state["evidence"],
             "severity": state["severity"],
-            # 原始 finding/gap 由工具机械并入，审查者无法通过省略把它们清掉。
-            "finding_ids": sorted(set(by_dimension_findings.get(dimension_id, [])) | set(state.get("finding_ids", []))),
-            "gap_ids": visible_gap_ids(
-                dimension_id,
-                state,
-                by_dimension_gaps,
-                gap_categories,
+            # 原始 finding 与本维度语义 finding 都机械并入，审查者不能靠省略把它们清掉。
+            "finding_ids": sorted(
+                set(by_dimension_findings.get(dimension_id, []))
+                | set(by_dimension_semantic.get(dimension_id, []))
+                | set(state.get("finding_ids", []))
             ),
+            "gap_ids": sorted(gap_ids),
         }
         problems = contract.validate_atomic_assessment(assessment, f"assessments.{dimension_id}")
         if problems:
@@ -812,7 +1014,13 @@ def build_assessments(
                 f"维度 {dimension_id} 的评估违反规范状态不变量：" + "；".join(problems[:3])
             )
         assessments.append(assessment)
-    return assessments, semantic_gaps
+
+    for gap_id, entry in supplied.items():
+        if gap_id not in resolutions:
+            raise OrchestrationError(f"不能消除 gap {gap_id}：它不存在、类别不可消除，或所属维度尚未完成可关闭的语义复核")
+        if resolutions[gap_id]["dimension_id"] != entry["dimension_id"]:
+            raise OrchestrationError(f"gap {gap_id} 的消解维度与实际归属不一致")
+    return assessments, semantic_gaps, [resolutions[key] for key in sorted(resolutions)]
 
 
 def command_finalize(args: argparse.Namespace) -> int:
@@ -827,7 +1035,7 @@ def command_finalize(args: argparse.Namespace) -> int:
         conserve(reports[review_type], evidence_digest(reports[review_type]), contract)
         for review_type in sorted(reports)
     ]
-    assessments, semantic_gaps = build_assessments(semantic_input, subreports, contract)
+    assessments, semantic_gaps, resolutions = build_assessments(semantic_input, subreports, contract)
 
     bundle = {
         "schema_version": contract.schema_ids["bundle"],
@@ -837,6 +1045,8 @@ def command_finalize(args: argparse.Namespace) -> int:
         "prepare_id": manifest["prepare_id"],
         "input_artifacts": manifest["input_artifacts"],
         "rule_sources": manifest["rule_sources"],
+        "bound_legal_sources": [],
+        "legal_source_set_sha256": "",
         "tool_identity": manifest["tool_identity"],
         "evidence_binding": manifest["evidence_binding"],
         "resource_usage": {
@@ -850,11 +1060,22 @@ def command_finalize(args: argparse.Namespace) -> int:
         "subreports": subreports,
         "assessments": assessments,
         "semantic_gaps": semantic_gaps,
+        "semantic_findings": semantic_input["semantic_findings"],
+        "resolved_capability_gaps": resolutions,
     }
     if "provenance_artifacts" in manifest:
         bundle["provenance_artifacts"] = manifest["provenance_artifacts"]
         # 新 manifest 已由 prepare 生成该绑定；旧 manifest 无此字段时保持 v2 兼容。
         bundle["evidence_binding"]["provenance_set_sha256"] = manifest["evidence_binding"]["provenance_set_sha256"]
+    existing_ids = {
+        item["artifact_id"]
+        for key in ("input_artifacts", "provenance_artifacts", "rule_sources")
+        for item in bundle.get(key, [])
+        if isinstance(item, dict) and isinstance(item.get("artifact_id"), str)
+    }
+    bound_sources, legal_hash = bind_legal_sources(bundle["semantic_findings"], existing_ids)
+    bundle["bound_legal_sources"] = bound_sources
+    bundle["legal_source_set_sha256"] = legal_hash
 
     problems = contract.validate_bundle(bundle)
     problems += contract.check_finding_conservation(reports, bundle)

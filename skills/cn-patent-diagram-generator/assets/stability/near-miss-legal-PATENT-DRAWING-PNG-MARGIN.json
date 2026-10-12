@@ -36,14 +36,15 @@
       "png": {
         "maximum_margin": 20,
         "margins": {
-          "top": 20,
           "left": 20,
-          "bottom": 20,
-          "right": 20
+          "top": 20,
+          "right": 20,
+          "bottom": 20
         },
         "observations": {
           "note": "白边恰等于 maximum_margin_pixels 上限"
-        }
+        },
+        "sha256": "d8b1ad60d56f46850773d36726348d063a8fd8c50e207ec223e39b2d1a2792da"
       },
       "official_reexport": {
         "matched": true
@@ -80,13 +81,14 @@
         }
       },
       "png": {
-        "maximum_margin": 10,
+        "maximum_margin": 20,
         "margins": {
-          "left": 10,
-          "top": 10,
-          "right": 10,
-          "bottom": 10
-        }
+          "left": 20,
+          "top": 20,
+          "right": 20,
+          "bottom": 20
+        },
+        "sha256": "50a8fde8c328c8d79b31bf389891ec81b3f652a704df550f329a846b3de60f96"
       },
       "official_reexport": {
         "matched": true

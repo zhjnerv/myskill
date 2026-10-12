@@ -29,11 +29,39 @@ def _build_minimal_docx(path: Path) -> None:
     document.save(path)
 
 
+def _write_figure_docx(path: Path, image: Path) -> None:
+    """把当前 PNG 放进说明书附图，并在摘要附图复用同一字节。"""
+    from docx import Document
+    from docx.enum.section import WD_SECTION
+
+    document = Document()
+    headers = ["权利要求书", "说明书", "说明书附图", "说明书摘要", "摘要附图"]
+    document.sections[0].header.paragraphs[0].text = headers[0]
+    document.add_paragraph("权利要求")
+    for header in headers[1:]:
+        section = document.add_section(WD_SECTION.NEW_PAGE)
+        section.header.is_linked_to_previous = False
+        section.header.paragraphs[0].text = header
+        if header == "说明书附图":
+            document.add_paragraph().add_run().add_picture(str(image))
+            document.add_paragraph("图1")
+        elif header == "摘要附图":
+            document.add_paragraph().add_run().add_picture(str(image))
+        else:
+            document.add_paragraph(header)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    document.save(path)
+
+
 def fixture(tmp_path: Path):
     """Construct a fully-bound fixture that the hardened delivery verifier accepts."""
+    from PIL import Image, ImageDraw
+
     png = tmp_path / "drawings/图1.png"
     png.parent.mkdir(parents=True)
-    png.write_bytes(b"current-png")
+    image = Image.new("RGB", (80, 40), "white")
+    ImageDraw.Draw(image).rectangle((6, 6, 73, 33), outline="black")
+    image.save(png)
     drawio = tmp_path / "drawings/图1.drawio"
     drawio.write_bytes(b"<mxfile>current</mxfile>")
     brief = tmp_path / "drawing-brief.json"
@@ -58,13 +86,16 @@ def fixture(tmp_path: Path):
         }],
     })
     docx = tmp_path / "output.docx"
-    _build_minimal_docx(docx)
+    _write_figure_docx(docx, png)
     template = tmp_path / "template.docx"
     _build_minimal_docx(template)
     artifact_inputs = []
     for aid in ("claims", "specification", "abstract", "figure_index"):
         artifact_path = tmp_path / f"{aid}.md"
-        artifact_path.write_text(f"# {aid}\n", encoding="utf-8")
+        if aid == "abstract":
+            artifact_path.write_text("# 摘要\n\n摘要附图：图1。\n", encoding="utf-8")
+        else:
+            artifact_path.write_text(f"# {aid}\n", encoding="utf-8")
         artifact_inputs.append({
             "artifact_id": aid,
             "path": str(artifact_path),
@@ -81,6 +112,7 @@ def fixture(tmp_path: Path):
         "status": "STRUCTURE_VERIFIED",
         "output": str(docx),
         "output_sha256": digest(docx),
+        "abstract_figure": 1,
         "inputs": {
             "template": str(template),
             "template_sha256": digest(template),

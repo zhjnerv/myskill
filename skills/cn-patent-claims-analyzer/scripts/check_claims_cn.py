@@ -634,8 +634,13 @@ def analyze_claims(text: str, source_name: str = "<memory>", source_bytes: bytes
             graph_gaps,
         )
 
-        # 多项从属：择一方式与“多项不得作为另一多项基础”可在编号集合上机判。
-        multi_numbers = {claim.number for claim in claims if len(claim.references) > 1}
+        # 多项从属的确定性规则只适用于已确认的从属权利要求。
+        # 尚未确认从属属性时，并列引用只进入待复核，不能直接判违法。
+        multi_numbers = {
+            claim.number
+            for claim in claims
+            if claim.kind == "dependent_confirmed" and len(claim.references) > 1
+        }
         multi_findings: list[str] = []
         for claim in claims:
             budget.check_deadline()
@@ -644,6 +649,20 @@ def analyze_claims(text: str, source_name: str = "<memory>", source_bytes: bytes
             location = f"权利要求{claim.number}"
             target = f"claim-{claim.number}"
             ref_text = "、".join(map(str, claim.references))
+            if claim.kind != "dependent_confirmed":
+                item = new_finding(
+                    "claim-multiple-dependent",
+                    "CN-CLAIM-MULTI-001",
+                    target,
+                    location,
+                    "REVIEW_REQUIRED",
+                    ref_text,
+                    f"权利要求{claim.number} 引用了多项在前权利要求，但该项尚未确认为从属权利要求。",
+                    "先确认该项是独立权利要求还是从属权利要求；确认从属后，才检查是否以择一方式引用，以及是否把多项从属作为另一项多项从属的基础。",
+                )
+                add_limited(findings, item, MAX_FINDINGS, "finding 数量")
+                multi_findings.append(item["finding_id"])
+                continue
             if claim.reference_mode == "conjunctive":
                 item = new_finding(
                     "claim-multiple-dependent",

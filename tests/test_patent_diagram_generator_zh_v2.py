@@ -13,6 +13,8 @@ from pathlib import Path
 
 import pytest
 
+import domain_fixture_materialize as domain_fixtures
+
 ROOT = Path(__file__).resolve().parents[1]
 SKILL = ROOT / "skills" / "cn-patent-diagram-generator"
 BRIEF_VALIDATOR = SKILL / "scripts" / "validate_drawing_brief.py"
@@ -719,27 +721,43 @@ def test_official_cli_export_and_final_verifier_pass(tmp_path):
         ("PATENT-DRAWING-VISUAL-BINDING", "visual-binding-observable", "visual-binding-pass", "unapproved-visual.json"),
     ],
 )
-def test_stability_checker_has_positive_and_negative_evidence(constraint_id, observable, measurement, negative_fixture):
-    positive_fixture = "positive-step-isomorphism.json" if constraint_id == "PATENT-DRAWING-STEP-ISOMORPHISM" else "positive-final-verification-v4.json"
-    positive = run(
-        STABILITY_CHECKER,
-        "--report", str(STABILITY_ASSETS / positive_fixture),
-        "--constraint", constraint_id,
-        "--observable", observable,
-        "--measurement", measurement,
-    )
+def test_stability_checker_has_positive_and_negative_evidence(constraint_id, observable, measurement, negative_fixture, tmp_path):
+    contract = json.loads((SKILL / "config/instruction-stability-contract.json").read_text(encoding="utf-8"))
+    checkers = {item["id"]: item for item in contract["checkers"]}
+    materialized = domain_fixtures.materialize_domain(tmp_path / "domain")
+
+    def expand(case):
+        checker = checkers[case["checker_ids"][0]]
+        artifact_paths = {
+            item["artifact_id"]: domain_fixtures.remap_domain_path(SKILL / item["path"], materialized)
+            for item in case["artifacts"]
+        }
+        args = []
+        for arg in checker["args"]:
+            if arg.startswith("{artifact:") and arg.endswith("}"):
+                args.append(str(artifact_paths[arg[10:-1]]))
+            else:
+                args.append(arg)
+        return args
+
+    positives = [
+        case for case in contract["cases"]
+        if case["kind"] == "positive" and not case["id"].startswith("near-miss")
+        and constraint_id in case["constraint_ids"]
+    ]
+    negatives = [
+        case for case in contract["cases"]
+        if any(item["path"].endswith(negative_fixture) for item in case["artifacts"])
+        and constraint_id in case["constraint_ids"]
+    ]
+    assert positives and negatives
+    positive = run(STABILITY_CHECKER, *expand(positives[0]))
     assert positive.returncode == 0, positive.stdout + positive.stderr
     positive_payload = json.loads(positive.stdout.splitlines()[-1])
     assert positive_payload["passed_constraint_ids"] == [constraint_id]
     assert positive_payload["measurements"][constraint_id][measurement] is True
 
-    negative = run(
-        STABILITY_CHECKER,
-        "--report", str(STABILITY_ASSETS / negative_fixture),
-        "--constraint", constraint_id,
-        "--observable", observable,
-        "--measurement", measurement,
-    )
+    negative = run(STABILITY_CHECKER, *expand(negatives[0]))
     assert negative.returncode == 3, negative.stdout + negative.stderr
     negative_payload = json.loads(negative.stdout.splitlines()[-1])
     assert negative_payload["failed_constraint_ids"] == [constraint_id]
@@ -775,3 +793,82 @@ def test_skill_is_domain_adapter_for_drawio_skill():
         assert required in skill
     assert "不得改用 Pillow" in skill
     assert "from PIL" not in skill
+
+
+def test_explicit_visual_failure_is_not_downgraded_to_pending():
+    """明确失败不能再变成待决 PASS。这是控制流回归，不代表真实看图。"""
+    verifier = load_module(VERIFIER, "patent_drawing_visual_gate")
+    failed = [{"code": "DRAWING-VISUAL-FAILED", "message": "图1 视觉检查明确失败：no_edge_crossing"}]
+    gate = verifier.resolve_visual_gate(failed, machine_error_count=0)
+    assert gate["status"] == "failed"
+    assert gate["pending"] is None
+    assert gate["errors"] == failed
+    assert verifier.classify_visual_check_value(False) == "DRAWING-VISUAL-FAILED"
+
+
+def test_unreviewed_visual_can_stay_pending_and_stale_blocks():
+    verifier = load_module(VERIFIER, "patent_drawing_visual_gate_pending")
+    pending = verifier.resolve_visual_gate(
+        [{"code": "DRAWING-VISUAL", "message": "图1 视觉检查尚未复核：no_edge_crossing"}],
+        machine_error_count=0,
+    )
+    assert pending["status"] == "not_reviewed"
+    assert pending["errors"] == []
+    assert pending["pending"]["question"] == "视觉复核尚未完成"
+    stale = verifier.resolve_visual_gate(
+        [{"code": "DRAWING-VISUAL-STALE", "message": "图1 视觉复核绑定的 PNG 已陈旧"}],
+        machine_error_count=0,
+    )
+    assert stale["status"] == "stale"
+    assert stale["pending"] is None
+    assert stale["errors"][0]["code"] == "DRAWING-VISUAL-STALE"
+    passed = verifier.resolve_visual_gate([], machine_error_count=0)
+    assert passed["status"] == "passed"
+    scope = verifier._visual_evidence_scope(["passed"], [{"figure_number": 1}], [])
+    assert "逐项视觉检查均已复核通过" in scope["proves"]
+    withheld = verifier._visual_evidence_scope(["not_reviewed"], [{"figure_number": 1}], [])
+    assert "逐项视觉检查均已复核通过" not in withheld["proves"]
+    assert any("尚未复核" in item for item in withheld["does_not_prove"])
+
+
+def test_explicit_approval_rejection_fails_actual_visual_path(tmp_path, monkeypatch):
+    """上游机器检查用受控桩；真实 verify 路径不能把 approved=False 当未审阅。"""
+    verifier = load_module(VERIFIER, "patent_drawing_rejected_approval")
+    for name in ("figure.drawio", "preview.png", "final.png"):
+        (tmp_path / name).write_bytes(b"synthetic-upstream-fixture")
+    export = {
+        "schema_id": "cn-patent-drawio-export/v1", "status": "PASS",
+        "renderer": {"kind": "drawio_desktop_cli"}, "parameters": {"size": "diagram"},
+        "source": {"sha256": digest(tmp_path / "figure.drawio")},
+        "outputs": {"png": {"sha256": digest(tmp_path / "final.png")}},
+    }
+    write(tmp_path / "export.json", json.dumps(export))
+    brief = {
+        "schema_id": "cn-patent-drawing-brief/v4", "visual_review_path": "visual.json",
+        "global_constraints": {
+            "color_policy": {"mode": "monochrome"}, "node_text_policy": {},
+            "vertical_spacing_policy": {}, "node_shape_policy": {}, "relation_label_policy": {},
+            "png_margin_policy": {"white_threshold": 245, "maximum_margin_pixels": 20},
+        },
+        "figures": [{"figure_number": 1, "outputs": {
+            "drawio": "figure.drawio", "preview_png": "preview.png",
+            "final_png": "final.png", "export_report": "export.json",
+        }}],
+    }
+    write(tmp_path / "brief.json", json.dumps(brief))
+    visual = {
+        "schema_id": "cn-patent-drawing-visual-review/v2",
+        "brief_sha256": digest(tmp_path / "brief.json"), "review_method": "合成控制流测试",
+        "reviewer": "test-reviewer", "reviewed_at": "2026-10-04",
+        "figures": [{"figure_number": 1, "approved": False}],
+    }
+    write(tmp_path / "visual.json", json.dumps(visual))
+    monkeypatch.setattr(verifier.brief_validator, "validate_brief", lambda *_: {"status": "PASS", "errors": []})
+    monkeypatch.setattr(verifier, "find_drawio_skill", lambda *_: tmp_path)
+    monkeypatch.setattr(verifier, "verify_drawio", lambda *_, **__: {"passed": True, "errors": []})
+    monkeypatch.setattr(verifier, "png_info", lambda *_: {"dpi": [300, 300], "maximum_margin": 10})
+    monkeypatch.setattr(verifier, "reproduce_official_export", lambda *_: {"exit_code": 0, "matched": True})
+    result = verifier.verify(tmp_path / "brief.json", tmp_path, None)
+    assert result["status"] == "FAIL"
+    assert result["pending_decisions"] == []
+    assert any(item["code"] == "DRAWING-VISUAL-FAILED" for item in result["errors"])
