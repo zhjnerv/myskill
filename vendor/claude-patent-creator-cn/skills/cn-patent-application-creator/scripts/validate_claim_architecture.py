@@ -20,6 +20,8 @@ STEP_RE = re.compile(r"^S[0-9]+$")
 CLAIM_RE = re.compile(r"^\s*([0-9０-９]+)\s*[.．、:：]\s*(.*)$")
 REFERENCE_CLAUSE_RE = re.compile(r"(?:根据|按照|如)\s*权利要求(?P<clause>.+?)所述")
 STEP_IN_CLAIM_RE = re.compile(r"(?<![A-Za-z0-9])S([0-9]+)(?=\s*[，,:：])")
+# 择一展开可能呈指数增长。超过这个分支数就停止，并报告限额，不用残缺并集冒充冲突。
+MAX_TOPOLOGY_BRANCHES = 128
 
 
 class ArchitectureError(ValueError):
@@ -428,11 +430,53 @@ def validate_contract(
                 error("ARCH-CORE-REVIEW", "core_protection_point", "review 必须是对象")
 
     visiting: set[int] = set()
-    accumulated_cache: dict[int, list[dict[str, Any]]] = {}
+    branch_cache: dict[int, list[list[dict[str, Any]]]] = {}
+    limit_hit = False
 
-    def accumulated(number: int) -> list[dict[str, Any]]:
-        if number in accumulated_cache:
-            return accumulated_cache[number]
+    def relation_signature(relation: dict[str, Any]) -> tuple[str, str, str, str]:
+        return (
+            str(relation.get("source_node_id")),
+            str(relation.get("target_node_id")),
+            str(relation.get("target_port")),
+            str(relation.get("relation_type")),
+        )
+
+    def merge_relations(*groups: list[dict[str, Any]]) -> list[dict[str, Any]]:
+        unique: dict[tuple[str, str, str, str], dict[str, Any]] = {}
+        for group in groups:
+            for relation in group:
+                if isinstance(relation, dict):
+                    unique[relation_signature(relation)] = relation
+        return list(unique.values())
+
+    def combination_mode(topo: dict[str, Any], parents: list[int]) -> str:
+        raw = topo.get("parent_combination")
+        if raw is None:
+            # 专利法实施细则第二十五条：多项从属应当择一引用，不能把父项并集当成同时成立。
+            return "alternative" if len(parents) > 1 else "simultaneous"
+        if raw not in {"alternative", "simultaneous"}:
+            error(
+                "ARCH-TOPOLOGY-SHAPE",
+                f"claim{topo.get('claim_number')}",
+                "parent_combination只能是alternative或simultaneous",
+            )
+            return "alternative"
+        return str(raw)
+
+    def mark_limit(number: int) -> None:
+        nonlocal limit_hit
+        if limit_hit:
+            return
+        limit_hit = True
+        error(
+            "ARCH-TOPOLOGY-LIMIT",
+            f"claim{number}",
+            f"择一或同时继承的分支数超过{MAX_TOPOLOGY_BRANCHES}，已停止展开",
+        )
+
+    def branches(number: int) -> list[list[dict[str, Any]]]:
+        if number in branch_cache:
+            return branch_cache[number]
         if number in visiting:
             error("ARCH-TOPOLOGY-CYCLE", f"claim{number}", "父从权继承关系形成循环")
             return []
@@ -442,34 +486,67 @@ def validate_contract(
             visiting.remove(number)
             error("ARCH-TOPOLOGY-PARENT", f"claim{number}", "缺少父项或本项的拓扑记录")
             return []
-        merged: list[dict[str, Any]] = []
-        for parent in topo.get("parent_claim_numbers") or []:
+        own = [item for item in topo.get("declared_relations") or [] if isinstance(item, dict)]
+        parents = [parent for parent in (topo.get("parent_claim_numbers") or []) if isinstance(parent, int)]
+        parent_sets: list[list[list[dict[str, Any]]]] = []
+        for parent in parents:
             if parent not in topologies:
                 error("ARCH-TOPOLOGY-PARENT", f"claim{number}", f"缺少父权利要求{parent}的拓扑记录")
                 continue
-            merged.extend(accumulated(parent))
-        merged.extend([item for item in topo.get("declared_relations") or [] if isinstance(item, dict)])
+            parent_sets.append(branches(parent))
+        mode = combination_mode(topo, parents)
+        result: list[list[dict[str, Any]]] = []
+        if limit_hit:
+            result = []
+        elif not parent_sets:
+            result = [merge_relations(own)]
+        elif mode == "alternative":
+            for group in parent_sets:
+                for branch in group:
+                    result.append(merge_relations(branch, own))
+                    if len(result) > MAX_TOPOLOGY_BRANCHES:
+                        mark_limit(number)
+                        result = []
+                        break
+                if limit_hit:
+                    break
+        else:
+            combined: list[list[dict[str, Any]]] = [[]]
+            for group in parent_sets:
+                nxt: list[list[dict[str, Any]]] = []
+                for left in combined:
+                    for right in group:
+                        nxt.append(merge_relations(left, right))
+                        if len(nxt) > MAX_TOPOLOGY_BRANCHES:
+                            mark_limit(number)
+                            nxt = []
+                            break
+                    if limit_hit:
+                        break
+                combined = nxt
+                if limit_hit:
+                    break
+            result = [] if limit_hit else [merge_relations(branch, own) for branch in combined]
         visiting.remove(number)
-        unique: dict[tuple[str, str, str, str], dict[str, Any]] = {}
-        for relation in merged:
-            signature = (
-                str(relation.get("source_node_id")), str(relation.get("target_node_id")),
-                str(relation.get("target_port")), str(relation.get("relation_type")),
-            )
-            unique[signature] = relation
-        accumulated_cache[number] = list(unique.values())
-        return accumulated_cache[number]
+        branch_cache[number] = result
+        return result
 
     for number in sorted(topologies):
-        relations = accumulated(number)
-        by_port: dict[tuple[str, str], list[dict[str, Any]]] = {}
-        for relation in relations:
-            if relation.get("exclusive_target_port") is True:
-                by_port.setdefault((str(relation.get("target_node_id")), str(relation.get("target_port"))), []).append(relation)
-        for (target, port), items in by_port.items():
-            source_nodes = {str(item.get("source_node_id")) for item in items}
-            if len(source_nodes) > 1:
-                error("ARCH-TOPOLOGY-CONFLICT", f"claim{number}", f"继承后排他端口{target}.{port}出现不兼容来源：{sorted(source_nodes)}")
+        for index, relations in enumerate(branches(number), start=1):
+            by_port: dict[tuple[str, str], set[str]] = {}
+            for relation in relations:
+                if relation.get("exclusive_target_port") is True:
+                    by_port.setdefault(
+                        (str(relation.get("target_node_id")), str(relation.get("target_port"))),
+                        set(),
+                    ).add(str(relation.get("source_node_id")))
+            for (target, port), source_nodes in by_port.items():
+                if len(source_nodes) > 1:
+                    error(
+                        "ARCH-TOPOLOGY-CONFLICT",
+                        f"claim{number}",
+                        f"分支{index}的排他端口{target}.{port}出现不兼容来源：{sorted(source_nodes)}",
+                    )
 
     method_numbers: set[int] = set()
     for index, method in enumerate(contract["method_claims"], start=1):
@@ -555,7 +632,7 @@ def validate_contract(
         "evidence_scope": {
             "proves": [
                 "高复杂度独权已留下人工载体分工决定",
-                "父从权继承后的登记拓扑不存在确定性的排他端口冲突",
+                "父从权按择一或显式同时方式继承后，任一允许分支都不存在确定性的排他端口冲突",
                 "方法权利要求步骤编号、顺序及动作与合同一致",
             ],
             "does_not_prove": [

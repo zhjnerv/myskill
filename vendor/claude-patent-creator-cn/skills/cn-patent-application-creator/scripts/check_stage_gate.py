@@ -268,9 +268,17 @@ def resolve_listed_style_guides(template: dict[str, Any], gate: Gate, workspace:
     return resolved
 
 
+def template_evidence_excluded(template: dict[str, Any]) -> bool:
+    """用户明确排除现有范本证据。未决定本身不等于排除。"""
+
+    return template.get("evidence_disposition") == "excluded"
+
+
 def retrieved_template_candidates(template: dict[str, Any], workspace: Path) -> bool:
     """候选清单里已经有范本时，风格参照不再等待用户确认。"""
 
+    if template_evidence_excluded(template):
+        return False
     raw = template.get("candidate_manifest_path")
     if not isinstance(raw, str) or not raw.strip():
         return False
@@ -297,7 +305,30 @@ def check_template_ipc_selection(
         )
         return
     template = state.get("template_selection") or {}
-    if template.get("status") != "confirmed":
+    if not isinstance(template, dict):
+        return
+    status = template.get("status")
+    listed = template.get("style_guides")
+    has_listed_guides = isinstance(listed, list) and any(
+        isinstance(item, str) and item.strip() for item in listed
+    )
+    # 确认状态不能代替证据新鲜度。pending 只表示人还没选定，不表示可以跳过哈希。
+    if template_evidence_excluded(template):
+        if status == "confirmed" or has_listed_guides or guides:
+            gate.block(
+                "GATE-IPC-003",
+                "已明确排除范本选择证据时，不能再确认该范本或继续引用其风格指南",
+                "删除风格指南并改回默认风格，或重新运行 rank_template_candidates.py 后取消排除。",
+            )
+            return
+        gate.note(
+            "GATE-IPC-003",
+            "范本选择证据已明确排除，不核验也不采用现有候选、排名或风格参照。",
+        )
+        return
+    if status == "declined":
+        return
+    if status != "confirmed" and not guides and not retrieved_template_candidates(template, workspace):
         return
 
     required_paths = {

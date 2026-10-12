@@ -97,3 +97,74 @@ def test_reopen_cascades_only_completed_later_steps(tmp_path):
     assert by_id["drawings"]["status"] == "skipped"
     nxt = run_plan(tmp_path, "next")
     assert "NEXT_STEP=review" in nxt.stdout
+
+
+def _plan(tmp_path):
+    return json.loads((tmp_path / "流程计划.json").read_text(encoding="utf-8"))
+
+
+def test_reopen_upstream_while_later_step_is_running(tmp_path):
+    """回读进行中时重开上游，next 推荐的步骤必须能够 start，并留下完成记录。"""
+
+    init = run_plan(
+        tmp_path, "init", "--objective", "重开进行中的下游",
+        "--step", "drafting|撰写|cn-patent-application-creator|required",
+        "--step", "pending-round|待决回读|cn-patent-application-creator|optional|waiting",
+    )
+    assert init.returncode == 0, init.stderr
+    assert run_plan(tmp_path, "start", "--step", "drafting").returncode == 0
+    done = run_plan(
+        tmp_path, "complete", "--step", "drafting", "--note", "已验证", "--output", "权利要求书.md",
+    )
+    assert done.returncode == 0, done.stderr
+    assert run_plan(tmp_path, "start", "--step", "pending-round").returncode == 0
+    reopened = run_plan(tmp_path, "reopen", "--step", "drafting", "--cascade", "--note", "人工决定修改源稿")
+    assert reopened.returncode == 0, reopened.stderr
+    payload = _plan(tmp_path)
+    by_id = {step["id"]: step for step in payload["steps"]}
+    assert by_id["drafting"]["status"] == "pending"
+    assert by_id["pending-round"]["status"] == "pending"
+    assert by_id["drafting"]["history"][0]["status"] == "done"
+    assert by_id["drafting"]["history"][0]["note"] == "已验证"
+    assert by_id["drafting"]["history"][0]["outputs"] == ["权利要求书.md"]
+    assert by_id["pending-round"]["history"][0]["status"] == "running"
+    nxt = run_plan(tmp_path, "next")
+    assert "NEXT_ACTION=start" in nxt.stdout
+    assert "NEXT_STEP=drafting" in nxt.stdout
+    started = run_plan(tmp_path, "start", "--step", "drafting")
+    assert started.returncode == 0, started.stderr
+
+
+def test_reopen_without_running_and_multiple_done_steps_keep_history(tmp_path):
+    init = run_plan(
+        tmp_path, "init", "--objective", "多个下游",
+        "--step", "review|审查|cn-patent-reviewer|required",
+        "--step", "docx|组装|cn-patent-application-creator|required",
+        "--step", "drawings|附图|cn-patent-diagram-generator|optional",
+    )
+    assert init.returncode == 0, init.stderr
+    for step_id, note in (("review", "审查完成"), ("docx", "已组装"), ("drawings", "附图完成")):
+        assert run_plan(tmp_path, "start", "--step", step_id).returncode == 0
+        assert run_plan(tmp_path, "complete", "--step", step_id, "--note", note).returncode == 0
+    reopened = run_plan(tmp_path, "reopen", "--step", "review", "--note", "只重开审查")
+    assert reopened.returncode == 0, reopened.stderr
+    by_id = {step["id"]: step for step in _plan(tmp_path)["steps"]}
+    assert by_id["review"]["status"] == "pending"
+    assert by_id["review"]["history"][0]["status"] == "done"
+    assert by_id["review"]["history"][0]["note"] == "审查完成"
+    assert by_id["docx"]["status"] == "done"
+    assert "history" not in by_id["docx"]
+    cascaded = run_plan(tmp_path, "reopen", "--step", "review", "--cascade", "--note", "下游也要重做")
+    assert cascaded.returncode == 3
+    # review 已经是 pending，先把它做完再级联，覆盖多个已完成下游。
+    assert run_plan(tmp_path, "start", "--step", "review").returncode == 0
+    assert run_plan(tmp_path, "complete", "--step", "review", "--note", "再次审查").returncode == 0
+    cascaded = run_plan(tmp_path, "reopen", "--step", "review", "--cascade", "--note", "下游也要重做")
+    assert cascaded.returncode == 0, cascaded.stderr
+    by_id = {step["id"]: step for step in _plan(tmp_path)["steps"]}
+    assert [by_id[item]["status"] for item in ("review", "docx", "drawings")] == ["pending", "pending", "pending"]
+    assert by_id["docx"]["history"][-1]["status"] == "done"
+    assert by_id["docx"]["history"][-1]["note"] == "已组装"
+    assert by_id["drawings"]["history"][-1]["note"] == "附图完成"
+    started = run_plan(tmp_path, "start", "--step", "review")
+    assert started.returncode == 0, started.stderr

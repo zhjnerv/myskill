@@ -246,18 +246,44 @@ def recompute_binding(
 
     if not isinstance(checker_identities, list):
         raise VerificationInputError("checker_identities 必须是数组")
-    tool_set: list[tuple[str, str]] = []
+    declared: dict[str, str] = {}
     for index, item in enumerate(checker_identities):
         if not isinstance(item, dict) or not isinstance(item.get("tool_id"), str) \
                 or not isinstance(item.get("tool_sha256"), str):
             raise VerificationInputError(f"checker_identities[{index}] 缺少有效 tool_id/tool_sha256")
-        tool_set.append((item["tool_id"], item["tool_sha256"]))
+        declared[item["tool_id"]] = item["tool_sha256"]
     bundle_tool = bundle.get("tool_identity")
     if not isinstance(bundle_tool, dict) or not isinstance(bundle_tool.get("tool_id"), str) \
             or not isinstance(bundle_tool.get("tool_sha256"), str):
         raise VerificationInputError("bundle.tool_identity 缺少有效 tool_id/tool_sha256")
-    tool_set.append((bundle_tool["tool_id"], bundle_tool["tool_sha256"]))
-    tool_set.sort()
+    declared[bundle_tool["tool_id"]] = bundle_tool["tool_sha256"]
+    trusted = cn_contract.trusted_tool_paths()
+    if set(declared) != set(trusted):
+        raise VerificationInputError(
+            "冻结工具集合与当前固定路径不一致：" + ", ".join(sorted(set(declared) ^ set(trusted)))
+        )
+    tool_set: list[tuple[str, str]] = []
+    current: dict[str, str] = {}
+    for tool_id, path in sorted(trusted.items()):
+        raw = verifier.read_bytes(path, f"工具 {tool_id}")
+        digest = sha256_bytes(raw)
+        current[tool_id] = digest
+        tool_set.append((tool_id, digest))
+        if declared[tool_id] != digest:
+            verifier.error(
+                CONTRACT_ERROR, "binding",
+                f"工具 {tool_id} 的当前字节与冻结哈希不一致，旧报告已失效",
+            )
+    for review_type, report in raw_reports.items():
+        identity = report.get("tool_identity") if isinstance(report, dict) else None
+        if not isinstance(identity, dict):
+            continue
+        tool_id = identity.get("tool_id")
+        if tool_id in current and identity.get("tool_sha256") != current[tool_id]:
+            verifier.error(
+                CONTRACT_ERROR, "binding",
+                f"{review_type} 原始报告记录的工具哈希与当前实现不一致，旧报告已失效",
+            )
     return {
         "input_set_sha256": collection_digest(input_artifacts),
         **({"provenance_set_sha256": collection_digest(provenance_artifacts)}
@@ -269,6 +295,73 @@ def recompute_binding(
             for review_type, report in sorted(raw_reports.items())
         ]),
     }
+
+
+
+def check_bound_legal_sources(verifier: Verifier, bundle: dict[str, Any]) -> None:
+    """按本地法源根目录重读语义审查实际引用的章节，不采信调用者改写后的绝对路径。"""
+
+    sources = bundle.get("bound_legal_sources")
+    if not isinstance(sources, list):
+        verifier.error(CONTRACT_ERROR, "binding", "bound_legal_sources 必须是数组")
+        return
+    root = cn_contract.legal_source_root().resolve()
+    if not root.is_dir():
+        verifier.error(CONTRACT_ERROR, "binding", f"本地法源目录不存在：{root}")
+        return
+    actual_items: list[dict[str, str]] = []
+    bound_paths: dict[str, Path] = {}
+    for index, artifact in enumerate(sources):
+        if not isinstance(artifact, dict):
+            verifier.error(CONTRACT_ERROR, "binding", f"bound_legal_sources[{index}] 必须是对象")
+            continue
+        artifact_id = artifact.get("artifact_id")
+        path_value = artifact.get("path")
+        expected_sha = artifact.get("sha256")
+        if not isinstance(artifact_id, str) or not isinstance(path_value, str) or not isinstance(expected_sha, str):
+            verifier.error(CONTRACT_ERROR, "binding", f"法源工件[{index}] 缺少标识、路径或哈希")
+            continue
+        path = Path(path_value).resolve()
+        try:
+            path.relative_to(root)
+        except ValueError:
+            verifier.error(CONTRACT_ERROR, "binding", f"法源 {artifact_id} 越出本地法源目录")
+            continue
+        try:
+            raw = verifier.read_bytes(path, f"法源 {artifact_id}")
+        except VerificationInputError as exc:
+            verifier.error(TOOL_ERROR, "binding", str(exc))
+            continue
+        digest = sha256_bytes(raw)
+        if digest != expected_sha or len(raw) != artifact.get("byte_length"):
+            verifier.error(CONTRACT_ERROR, "binding", f"法源 {artifact_id} 的当前字节与冻结绑定不一致，旧报告已失效")
+        actual_items.append({"artifact_id": artifact_id, "sha256": digest})
+        bound_paths[artifact_id] = path
+    if bundle.get("legal_source_set_sha256") != collection_digest(actual_items):
+        verifier.error(CONTRACT_ERROR, "binding", "法源集合哈希与当前章节字节不一致，旧报告已失效")
+    for finding in bundle.get("semantic_findings") or []:
+        if not isinstance(finding, dict):
+            continue
+        finding_id = finding.get("finding_id")
+        for source in finding.get("legal_sources") or []:
+            if not isinstance(source, dict):
+                verifier.error(CONTRACT_ERROR, "binding", f"语义 finding {finding_id} 的法源必须是对象")
+                continue
+            source_id = source.get("source_id")
+            relative = source.get("path")
+            if not isinstance(source_id, str) or not isinstance(relative, str):
+                verifier.error(CONTRACT_ERROR, "binding", f"语义 finding {finding_id} 的法源缺少标识或路径")
+                continue
+            candidate = Path(relative)
+            if candidate.is_absolute() or any(part == ".." for part in candidate.parts):
+                verifier.error(CONTRACT_ERROR, "binding", f"语义 finding {finding_id} 的法源路径越界")
+                continue
+            resolved = (root / candidate).resolve()
+            if bound_paths.get(source_id) != resolved:
+                verifier.error(
+                    CONTRACT_ERROR, "binding",
+                    f"语义 finding {finding_id} 引用的法源 {source_id} 没有绑定到当前本地章节",
+                )
 
 
 def check_search_evidence_boundary(verifier: Verifier, bundle: dict[str, Any]) -> None:
@@ -447,6 +540,11 @@ def verify(verifier: Verifier, workspace: Path, bundle_path: Path) -> dict[str, 
                     )
     if bundle.get("prepare_id") != manifest.get("prepare_id"):
         verifier.error(CONTRACT_ERROR, "binding", "bundle 绑定的 prepare_id 与冻结清单不一致")
+    if isinstance(bundle.get("bound_legal_sources"), list) or "legal_source_set_sha256" in bundle:
+        try:
+            check_bound_legal_sources(verifier, bundle)
+        except (VerificationInputError, KeyError, TypeError, ValueError) as exc:
+            verifier.error(CONTRACT_ERROR, "binding", f"法源绑定无法独立复算：{exc}")
 
     coverage = (
         build_coverage_summary(contract, bundle)
@@ -465,6 +563,7 @@ def verify(verifier: Verifier, workspace: Path, bundle_path: Path) -> dict[str, 
         "downstream_finding_count": sum(len(item.get("findings", [])) for item in bundle.get("subreports", [])),
         "downstream_gap_count": sum(len(item.get("gaps", [])) for item in bundle.get("subreports", [])),
         "semantic_gap_count": len(bundle.get("semantic_gaps", [])),
+        "semantic_finding_count": len(bundle.get("semantic_findings", [])),
     }
 
     aggregate: dict[str, Any] = {
@@ -582,8 +681,10 @@ def render_summary(verification: dict[str, Any]) -> str:
         f"| finding | {conservation['raw_finding_count']} | {conservation['downstream_finding_count']} |",
         f"| gap | {conservation['raw_gap_count']} | {conservation['downstream_gap_count']} |",
         f"| 语义缺口 | — | {conservation['semantic_gap_count']} |",
+        f"| 独立语义 finding | — | {conservation['semantic_finding_count']} |",
         "",
         "验证器已逐条比较原始报告与专项报告；原始 finding 和 gap 未被丢弃、合并或降级。",
+        "独立语义 finding 与原始 finding 分开登记，不能抵消确定性失败或硬 gap。",
         "",
         "## 边界声明",
         "",

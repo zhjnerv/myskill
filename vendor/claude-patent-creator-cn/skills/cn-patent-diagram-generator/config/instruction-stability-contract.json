@@ -22,6 +22,21 @@
       "id": "verification-report",
       "stage": "final",
       "required": true
+    },
+    {
+      "id": "drawing-brief",
+      "stage": "source",
+      "required": true
+    },
+    {
+      "id": "visual-record",
+      "stage": "final",
+      "required": true
+    },
+    {
+      "id": "domain-manifest",
+      "stage": "source",
+      "required": true
     }
   ],
   "checkers": [
@@ -96,6 +111,7 @@
       "kind": "active",
       "modality": "geometry",
       "artifact_stages": [
+        "source",
         "final"
       ],
       "independent_from_producer": true,
@@ -104,6 +120,10 @@
       "args": [
         "--report",
         "{artifact:verification-report}",
+        "--brief",
+        "{artifact:drawing-brief}",
+        "--manifest",
+        "{artifact:domain-manifest}",
         "--constraint",
         "PATENT-DRAWING-DIRECT-CONNECTOR",
         "--observable",
@@ -118,6 +138,7 @@
       "kind": "active",
       "modality": "geometry",
       "artifact_stages": [
+        "source",
         "final"
       ],
       "independent_from_producer": true,
@@ -126,6 +147,10 @@
       "args": [
         "--report",
         "{artifact:verification-report}",
+        "--brief",
+        "{artifact:drawing-brief}",
+        "--manifest",
+        "{artifact:domain-manifest}",
         "--constraint",
         "PATENT-DRAWING-NODE-SHAPE",
         "--observable",
@@ -140,6 +165,7 @@
       "kind": "active",
       "modality": "geometry",
       "artifact_stages": [
+        "source",
         "final"
       ],
       "independent_from_producer": true,
@@ -148,6 +174,10 @@
       "args": [
         "--report",
         "{artifact:verification-report}",
+        "--brief",
+        "{artifact:drawing-brief}",
+        "--manifest",
+        "{artifact:domain-manifest}",
         "--constraint",
         "PATENT-DRAWING-EDGE-LABEL-READABILITY",
         "--observable",
@@ -162,6 +192,7 @@
       "kind": "active",
       "modality": "geometry",
       "artifact_stages": [
+        "source",
         "final"
       ],
       "independent_from_producer": true,
@@ -170,6 +201,10 @@
       "args": [
         "--report",
         "{artifact:verification-report}",
+        "--brief",
+        "{artifact:drawing-brief}",
+        "--manifest",
+        "{artifact:domain-manifest}",
         "--constraint",
         "PATENT-DRAWING-NODE-TEXT-FIT",
         "--observable",
@@ -184,6 +219,7 @@
       "kind": "active",
       "modality": "geometry",
       "artifact_stages": [
+        "source",
         "final"
       ],
       "independent_from_producer": true,
@@ -192,6 +228,10 @@
       "args": [
         "--report",
         "{artifact:verification-report}",
+        "--brief",
+        "{artifact:drawing-brief}",
+        "--manifest",
+        "{artifact:domain-manifest}",
         "--constraint",
         "PATENT-DRAWING-VERTICAL-SPACING",
         "--observable",
@@ -206,6 +246,7 @@
       "kind": "active",
       "modality": "render",
       "artifact_stages": [
+        "source",
         "final"
       ],
       "independent_from_producer": true,
@@ -214,6 +255,10 @@
       "args": [
         "--report",
         "{artifact:verification-report}",
+        "--brief",
+        "{artifact:drawing-brief}",
+        "--manifest",
+        "{artifact:domain-manifest}",
         "--constraint",
         "PATENT-DRAWING-COLOR",
         "--observable",
@@ -228,6 +273,8 @@
       "kind": "active",
       "modality": "render",
       "artifact_stages": [
+        "source",
+        "intermediate",
         "final"
       ],
       "independent_from_producer": true,
@@ -236,6 +283,10 @@
       "args": [
         "--report",
         "{artifact:verification-report}",
+        "--brief",
+        "{artifact:drawing-brief}",
+        "--manifest",
+        "{artifact:domain-manifest}",
         "--constraint",
         "PATENT-DRAWING-OFFICIAL-EXPORT",
         "--observable",
@@ -258,6 +309,10 @@
       "args": [
         "--report",
         "{artifact:verification-report}",
+        "--manifest",
+        "{artifact:domain-manifest}",
+        "--visual-review",
+        "{artifact:visual-record}",
         "--constraint",
         "PATENT-DRAWING-VISUAL-BINDING",
         "--observable",
@@ -294,6 +349,7 @@
       "kind": "active",
       "modality": "render",
       "artifact_stages": [
+        "source",
         "final"
       ],
       "independent_from_producer": true,
@@ -302,6 +358,10 @@
       "args": [
         "--report",
         "{artifact:verification-report}",
+        "--brief",
+        "{artifact:drawing-brief}",
+        "--manifest",
+        "{artifact:domain-manifest}",
         "--constraint",
         "PATENT-DRAWING-PNG-MARGIN",
         "--observable",
@@ -636,6 +696,14 @@
         {
           "artifact_id": "verification-report",
           "path": "assets/stability/positive-final-verification-v4.json"
+        },
+        {
+          "artifact_id": "drawing-brief",
+          "path": "assets/stability/domain/legal-brief.json"
+        },
+        {
+          "artifact_id": "domain-manifest",
+          "path": "assets/stability/domain/legal-manifest.json"
         }
       ],
       "expected": "pass",
@@ -654,6 +722,14 @@
         {
           "artifact_id": "verification-report",
           "path": "assets/stability/detached-edge-label.json"
+        },
+        {
+          "artifact_id": "drawing-brief",
+          "path": "assets/stability/domain/legal-brief.json"
+        },
+        {
+          "artifact_id": "domain-manifest",
+          "path": "assets/stability/domain/legal-manifest.json"
         }
       ],
       "expected": "blocked",
@@ -672,6 +748,14 @@
         {
           "artifact_id": "verification-report",
           "path": "assets/stability/positive-final-verification-v4.json"
+        },
+        {
+          "artifact_id": "drawing-brief",
+          "path": "assets/stability/domain/legal-brief.json"
+        },
+        {
+          "artifact_id": "domain-manifest",
+          "path": "assets/stability/domain/legal-manifest.json"
         }
       ],
       "expected": "pass",
@@ -690,6 +774,14 @@
         {
           "artifact_id": "verification-report",
           "path": "assets/stability/node-text-mismatch.json"
+        },
+        {
+          "artifact_id": "drawing-brief",
+          "path": "assets/stability/domain/legal-brief.json"
+        },
+        {
+          "artifact_id": "domain-manifest",
+          "path": "assets/stability/domain/legal-manifest.json"
         }
       ],
       "expected": "blocked",
@@ -708,6 +800,14 @@
         {
           "artifact_id": "verification-report",
           "path": "assets/stability/node-text-mismatch.json"
+        },
+        {
+          "artifact_id": "drawing-brief",
+          "path": "assets/stability/domain/legal-brief.json"
+        },
+        {
+          "artifact_id": "domain-manifest",
+          "path": "assets/stability/domain/legal-manifest.json"
         }
       ],
       "expected": "blocked",
@@ -726,6 +826,14 @@
         {
           "artifact_id": "verification-report",
           "path": "assets/stability/positive-final-verification-v4.json"
+        },
+        {
+          "artifact_id": "drawing-brief",
+          "path": "assets/stability/domain/legal-brief.json"
+        },
+        {
+          "artifact_id": "domain-manifest",
+          "path": "assets/stability/domain/legal-manifest.json"
         }
       ],
       "expected": "pass",
@@ -744,6 +852,14 @@
         {
           "artifact_id": "verification-report",
           "path": "assets/stability/flashy-color.json"
+        },
+        {
+          "artifact_id": "drawing-brief",
+          "path": "assets/stability/domain/legal-brief.json"
+        },
+        {
+          "artifact_id": "domain-manifest",
+          "path": "assets/stability/domain/legal-manifest.json"
         }
       ],
       "expected": "blocked",
@@ -762,6 +878,14 @@
         {
           "artifact_id": "verification-report",
           "path": "assets/stability/positive-final-verification-v4.json"
+        },
+        {
+          "artifact_id": "drawing-brief",
+          "path": "assets/stability/domain/legal-brief.json"
+        },
+        {
+          "artifact_id": "domain-manifest",
+          "path": "assets/stability/domain/legal-manifest.json"
         }
       ],
       "expected": "pass",
@@ -780,6 +904,14 @@
         {
           "artifact_id": "verification-report",
           "path": "assets/stability/forged-export.json"
+        },
+        {
+          "artifact_id": "drawing-brief",
+          "path": "assets/stability/domain/legal-brief.json"
+        },
+        {
+          "artifact_id": "domain-manifest",
+          "path": "assets/stability/domain/legal-manifest.json"
         }
       ],
       "expected": "blocked",
@@ -798,6 +930,14 @@
         {
           "artifact_id": "verification-report",
           "path": "assets/stability/positive-final-verification-v4.json"
+        },
+        {
+          "artifact_id": "visual-record",
+          "path": "assets/stability/domain/legal-visual.json"
+        },
+        {
+          "artifact_id": "domain-manifest",
+          "path": "assets/stability/domain/legal-manifest.json"
         }
       ],
       "expected": "pass",
@@ -816,6 +956,14 @@
         {
           "artifact_id": "verification-report",
           "path": "assets/stability/unapproved-visual.json"
+        },
+        {
+          "artifact_id": "visual-record",
+          "path": "assets/stability/domain/legal-visual.json"
+        },
+        {
+          "artifact_id": "domain-manifest",
+          "path": "assets/stability/domain/legal-manifest.json"
         }
       ],
       "expected": "blocked",
@@ -834,6 +982,14 @@
         {
           "artifact_id": "verification-report",
           "path": "assets/stability/detached-edge-label.json"
+        },
+        {
+          "artifact_id": "drawing-brief",
+          "path": "assets/stability/domain/legal-brief.json"
+        },
+        {
+          "artifact_id": "domain-manifest",
+          "path": "assets/stability/domain/legal-manifest.json"
         }
       ],
       "expected": "blocked",
@@ -960,6 +1116,14 @@
         {
           "artifact_id": "verification-report",
           "path": "assets/stability/positive-final-verification-v4.json"
+        },
+        {
+          "artifact_id": "drawing-brief",
+          "path": "assets/stability/domain/legal-brief.json"
+        },
+        {
+          "artifact_id": "domain-manifest",
+          "path": "assets/stability/domain/legal-manifest.json"
         }
       ],
       "expected": "pass",
@@ -978,6 +1142,14 @@
         {
           "artifact_id": "verification-report",
           "path": "assets/stability/excessive-margin.json"
+        },
+        {
+          "artifact_id": "drawing-brief",
+          "path": "assets/stability/domain/legal-brief.json"
+        },
+        {
+          "artifact_id": "domain-manifest",
+          "path": "assets/stability/domain/legal-manifest.json"
         }
       ],
       "expected": "blocked",
@@ -996,6 +1168,14 @@
         {
           "artifact_id": "verification-report",
           "path": "assets/stability/excessive-margin.json"
+        },
+        {
+          "artifact_id": "drawing-brief",
+          "path": "assets/stability/domain/legal-brief.json"
+        },
+        {
+          "artifact_id": "domain-manifest",
+          "path": "assets/stability/domain/legal-manifest.json"
         }
       ],
       "expected": "blocked",
@@ -1014,6 +1194,14 @@
         {
           "artifact_id": "verification-report",
           "path": "assets/stability/node-height-mismatch.json"
+        },
+        {
+          "artifact_id": "drawing-brief",
+          "path": "assets/stability/domain/legal-brief.json"
+        },
+        {
+          "artifact_id": "domain-manifest",
+          "path": "assets/stability/domain/legal-manifest.json"
         }
       ],
       "expected": "blocked",
@@ -1032,6 +1220,14 @@
         {
           "artifact_id": "verification-report",
           "path": "assets/stability/chinese-wrap-mismatch.json"
+        },
+        {
+          "artifact_id": "drawing-brief",
+          "path": "assets/stability/domain/legal-brief.json"
+        },
+        {
+          "artifact_id": "domain-manifest",
+          "path": "assets/stability/domain/legal-manifest.json"
         }
       ],
       "expected": "blocked",
@@ -1050,6 +1246,14 @@
         {
           "artifact_id": "verification-report",
           "path": "assets/stability/positive-final-verification-v4.json"
+        },
+        {
+          "artifact_id": "drawing-brief",
+          "path": "assets/stability/domain/legal-brief.json"
+        },
+        {
+          "artifact_id": "domain-manifest",
+          "path": "assets/stability/domain/legal-manifest.json"
         }
       ],
       "expected": "pass",
@@ -1068,6 +1272,14 @@
         {
           "artifact_id": "verification-report",
           "path": "assets/stability/vertical-spacing-mismatch.json"
+        },
+        {
+          "artifact_id": "drawing-brief",
+          "path": "assets/stability/domain/legal-brief.json"
+        },
+        {
+          "artifact_id": "domain-manifest",
+          "path": "assets/stability/domain/legal-manifest.json"
         }
       ],
       "expected": "blocked",
@@ -1086,6 +1298,14 @@
         {
           "artifact_id": "verification-report",
           "path": "assets/stability/vertical-spacing-mismatch.json"
+        },
+        {
+          "artifact_id": "drawing-brief",
+          "path": "assets/stability/domain/legal-brief.json"
+        },
+        {
+          "artifact_id": "domain-manifest",
+          "path": "assets/stability/domain/legal-manifest.json"
         }
       ],
       "expected": "blocked",
@@ -1122,6 +1342,14 @@
         {
           "artifact_id": "verification-report",
           "path": "assets/stability/positive-final-verification-v4.json"
+        },
+        {
+          "artifact_id": "drawing-brief",
+          "path": "assets/stability/domain/legal-brief.json"
+        },
+        {
+          "artifact_id": "domain-manifest",
+          "path": "assets/stability/domain/legal-manifest.json"
         }
       ],
       "expected": "pass",
@@ -1140,6 +1368,14 @@
         {
           "artifact_id": "verification-report",
           "path": "assets/stability/cylinder-semantics-mismatch.json"
+        },
+        {
+          "artifact_id": "drawing-brief",
+          "path": "assets/stability/domain/legal-brief.json"
+        },
+        {
+          "artifact_id": "domain-manifest",
+          "path": "assets/stability/domain/legal-manifest.json"
         }
       ],
       "expected": "blocked",
@@ -1158,6 +1394,14 @@
         {
           "artifact_id": "verification-report",
           "path": "assets/stability/positive-final-verification-v4.json"
+        },
+        {
+          "artifact_id": "drawing-brief",
+          "path": "assets/stability/domain/legal-brief.json"
+        },
+        {
+          "artifact_id": "domain-manifest",
+          "path": "assets/stability/domain/legal-manifest.json"
         }
       ],
       "expected": "pass",
@@ -1176,6 +1420,14 @@
         {
           "artifact_id": "verification-report",
           "path": "assets/stability/edge-label-readability-mismatch.json"
+        },
+        {
+          "artifact_id": "drawing-brief",
+          "path": "assets/stability/domain/legal-brief.json"
+        },
+        {
+          "artifact_id": "domain-manifest",
+          "path": "assets/stability/domain/legal-manifest.json"
         }
       ],
       "expected": "blocked",
@@ -1194,6 +1446,14 @@
         {
           "artifact_id": "verification-report",
           "path": "assets/stability/cylinder-semantics-mismatch.json"
+        },
+        {
+          "artifact_id": "drawing-brief",
+          "path": "assets/stability/domain/legal-brief.json"
+        },
+        {
+          "artifact_id": "domain-manifest",
+          "path": "assets/stability/domain/legal-manifest.json"
         }
       ],
       "expected": "blocked",
@@ -1212,6 +1472,14 @@
         {
           "artifact_id": "verification-report",
           "path": "assets/stability/edge-label-readability-mismatch.json"
+        },
+        {
+          "artifact_id": "drawing-brief",
+          "path": "assets/stability/domain/legal-brief.json"
+        },
+        {
+          "artifact_id": "domain-manifest",
+          "path": "assets/stability/domain/legal-manifest.json"
         }
       ],
       "expected": "blocked",
@@ -1230,6 +1498,14 @@
         {
           "artifact_id": "verification-report",
           "path": "assets/stability/near-miss-legal-PATENT-DRAWING-EDGE-LABEL-READABILITY.json"
+        },
+        {
+          "artifact_id": "drawing-brief",
+          "path": "assets/stability/domain/legal-brief.json"
+        },
+        {
+          "artifact_id": "domain-manifest",
+          "path": "assets/stability/domain/legal-manifest.json"
         }
       ],
       "expected": "pass",
@@ -1248,6 +1524,14 @@
         {
           "artifact_id": "verification-report",
           "path": "assets/stability/near-miss-legal-PATENT-DRAWING-NODE-TEXT-FIT.json"
+        },
+        {
+          "artifact_id": "drawing-brief",
+          "path": "assets/stability/domain/legal-brief.json"
+        },
+        {
+          "artifact_id": "domain-manifest",
+          "path": "assets/stability/domain/legal-manifest.json"
         }
       ],
       "expected": "pass",
@@ -1266,6 +1550,14 @@
         {
           "artifact_id": "verification-report",
           "path": "assets/stability/near-miss-legal-PATENT-DRAWING-VERTICAL-SPACING.json"
+        },
+        {
+          "artifact_id": "drawing-brief",
+          "path": "assets/stability/domain/legal-brief.json"
+        },
+        {
+          "artifact_id": "domain-manifest",
+          "path": "assets/stability/domain/legal-manifest.json"
         }
       ],
       "expected": "pass",
@@ -1284,6 +1576,14 @@
         {
           "artifact_id": "verification-report",
           "path": "assets/stability/near-miss-legal-PATENT-DRAWING-PNG-MARGIN.json"
+        },
+        {
+          "artifact_id": "drawing-brief",
+          "path": "assets/stability/domain/boundary-png-brief.json"
+        },
+        {
+          "artifact_id": "domain-manifest",
+          "path": "assets/stability/domain/boundary-manifest.json"
         }
       ],
       "expected": "pass",

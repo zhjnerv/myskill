@@ -2,6 +2,15 @@
 
 ## Unreleased
 
+- DOCX 复验沿实际图片引用检查图号顺序、摘要附图和媒体字节，拒绝重复同名附图分节；坏 ZIP 保留结构化错误，失败时不签发图片已验证声明。见[组装规范](skills/cn-patent-application-creator/references/docx-assembly.md)。
+- 附图显式拒绝或检查失败不再转成普通待决；稳定性适配器按多图清单复核全部来源、母版与 PNG，合成图片仅由测试在临时目录生成。见[附图门禁](skills/cn-patent-diagram-generator/references/quality-gates.md)。
+- [安装器](scripts/install_codex_skill.py)在恢复旧目录前终止并核对受跟踪的依赖进程；无法证明停止时保留事务现场而不盲目恢复。必需资源预检与 pip 解耦，`--skip-deps` 不跳过模板、脚本、合同和法源检查；拒绝绝对路径、驱动器路径与目录逃逸。
+
+- 综合审查新增独立 `semantic_findings` 与逐项能力缺口消解，原始 finding/gap 必须守恒进入其所属 assessment；冻结实际文书读集、当前工具与点名法源。详见[审查合同](skills/cn-patent-reviewer/references/review-contract.md)。
+- 待决回读区分“已决定”与“已落实”：采纳当前默认可收起；其他选择或指示需绑定当前源稿的[落实证据](skills/cn-patent-application-creator/references/pending-application-evidence-schema-v1.json)。部分条目边界损坏时拒绝覆盖，内容版本变化重新待决。
+- 范本 pending 不再绕过已采用证据的完整性检查；工作流重开上游时同步挂起下游运行步骤并保留历史；架构拓扑按择一继承分支检查，不把“或”合并为同时成立。见[阶段门](skills/cn-patent-application-creator/references/stage2-gate.md)与[架构规则](skills/cn-patent-application-creator/references/claim-architecture.md)。
+- 未知文书不再由空字符串推定标题/章节缺陷；尚未确认从属属性的引用只提示复核，不直接判多项从属违规。见[形式规则](skills/cn-patent-formalities-reviewer/references/formalities-rule-matrix.md)与[权利要求规则](skills/cn-patent-claims-analyzer/references/claims-rule-matrix.md)。
+
 - 材料未写明公开或优先权时，不再主动提问或生成待决，按尚未公开、不主张优先权继续。CNIPA 人工检索未完成只保留一条流程待决；汇总时删掉其他问题里重复的“未检索”和据此写的“新颖性、创造性不能下结论”。
 - 审稿版不再只插入 `【待决-Dnnn】`。对应位置直接写入问题、当前稿做法和全部备选，审稿人不必打开其他文件即可决定。缺这些字段则组装失败。提交版不插入，并剥离残留待决段。
 - 人工待决改为与最终申请文件同目录的 `待决文件.md`。`collect_pending_decisions.py` 必须接收 `--docx`；刷新时保留同一键和位置上的决定、标注与原编号，消失编号不再复用。`read_pending_file.py` 把人的修改收成 `cn-patent-pending-resolutions/v1`，第二轮据此修订源稿，审稿版黄底标记保持不变。

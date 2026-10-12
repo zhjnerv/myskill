@@ -14,8 +14,8 @@
 | `form_core_documents_and_application_type` | 专利法第二十六条第一款；实施细则第四十三条、第四十四条 | 请求书、说明书、权利要求书、摘要和直接发明申请类型；未知文件只能形成 gap，确认缺件才是确定性 finding。 |
 | `form_request_fields_and_party_identity` | 实施细则第十七条、第十九条；指南第一部分第一章4.1 | 请求书名称、申请人、发明人、地址、代理及签章字段；字段存在不证明权属或身份真实性。 |
 | `form_language_format_and_execution` | 实施细则第二条、第三条、第四十四条、第一百四十六条；指南第五部分第一章 | 语言、译文、电子/纸件介质、签字盖章和官方格式；UTF-8 无 BOM 是产品输入规范，不等同全部法定电子格式。 |
-| `form_title_consistency_and_quality` | 实施细则第二十条；指南第一部分第一章4.1.1、4.2及第二部分第二章2.2.1 | 三份真实文书名称应一致、清楚、简要；manifest 自报标题最多形成人工复核 gap。 |
-| `form_specification_structure_and_drafting` | 实施细则第二十条；指南第一部分第一章4.2及第二部分第二章2.2 | 技术领域、背景技术、发明内容、附图说明、具体实施方式；章节缺失不自动等同充分公开不足。 |
+| `form_title_consistency_and_quality` | 实施细则第二十条；指南第一部分第一章4.1.1、4.2及第二部分第二章2.2.1 | 三份真实文书名称应一致、清楚、简要；manifest 自报标题最多形成人工复核 gap。文书为 unknown 或 not_applicable 时不因空标题声明给出确定性失败。 |
+| `form_specification_structure_and_drafting` | 实施细则第二十条；指南第一部分第一章4.2及第二部分第二章2.2 | 技术领域、背景技术、发明内容、附图说明、具体实施方式；章节缺失不自动等同充分公开不足。说明书不可用时记 INPUT_UNAVAILABLE / SKIPPED，不按空文本罗列缺章节。 |
 | `form_claim_presentation_and_reference_form` | 实施细则第二十二条至第二十五条；指南第一部分第一章4.4及第二部分第二章3.3 | 编号、主题、独立/从属结构和引用形式（含多项从属择一与基础限制）；形式筛查不替代清楚、支持和必要技术特征审查；一项发明一个独立权利要求不等于整件申请只能有一个独立权利要求。 |
 | `form_abstract_content_and_length` | 实施细则第二十六条第一款；指南第一部分第一章4.5.1 | 摘要名称、技术领域、问题、方案要点、用途和不超过300字；内容准确性仍需人工复核。 |
 | `form_abstract_figure_designation` | 实施细则第二十六条第二款；指南第一部分第一章4.5.2 | 有附图时的摘要附图指定；无附图或适用性不明时输出条件 gap。 |

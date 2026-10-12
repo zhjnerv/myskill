@@ -26,7 +26,22 @@
           "note": {"type": "string"},
           "outputs": {"type": "array", "items": {"type": "string"}},
           "started_at": {"type": ["string", "null"]},
-          "finished_at": {"type": ["string", "null"]}
+          "finished_at": {"type": ["string", "null"]},
+          "history": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["status", "note", "outputs", "started_at", "finished_at"],
+              "properties": {
+                "status": {"enum": ["pending", "running", "done", "skipped", "waiting", "blocked"]},
+                "note": {"type": "string"},
+                "outputs": {"type": "array", "items": {"type": "string"}},
+                "started_at": {"type": ["string", "null"]},
+                "finished_at": {"type": ["string", "null"]}
+              }
+            }
+          }
         }
       }
     }

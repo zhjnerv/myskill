@@ -31,7 +31,8 @@
         "passed": true,
         "drawio_skill_lint": {
           "exit_code": 0
-        }
+        },
+        "sha256": "b6f3f2a226bd86d28515040e031174540677768e6af475be60c39d64e65f2c6f"
       },
       "png": {
         "maximum_margin": 10,
@@ -40,7 +41,8 @@
           "top": 10,
           "right": 10,
           "bottom": 10
-        }
+        },
+        "sha256": "f95d0bbc0c0c69c39987f53230bb28c91e55f409e030383307e99cf624009010"
       },
       "official_reexport": {
         "matched": true
@@ -74,7 +76,8 @@
         "passed": true,
         "drawio_skill_lint": {
           "exit_code": 0
-        }
+        },
+        "sha256": "98fe22c7395b6e2af21e71c771b83beed3a4683597f4b01b24df79a5f5c9119c"
       },
       "png": {
         "maximum_margin": 10,
@@ -83,7 +86,8 @@
           "top": 10,
           "right": 10,
           "bottom": 10
-        }
+        },
+        "sha256": "66ab07fbe69fc054439c1eef645b6d1b21f328d1dc7fc8ed658b220f3e7931e0"
       },
       "official_reexport": {
         "matched": true

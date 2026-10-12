@@ -94,6 +94,8 @@ CLI 退出码：`0` 表示检查器成功执行且没有确定性失败（不表
 - `WARNING`：可补正的格式候选或低风险草稿问题；
 - `NOT_VERIFIED`：未提供、未知、无法读取或脚本能力未覆盖。
 
+文书状态为 `unknown` 或 `not_applicable` 时，标题、章节和摘要不得根据空字符串输出申请缺陷；这些检查记 `INPUT_UNAVAILABLE` 且状态为 `SKIPPED`。`provided` 的空文书和 `confirmed_absent` 仍按对应规则给出确定性失败。
+
 不得输出合规分、总体通过或 `ready_to_file`。
 
 ## 17 个形式/程序维度

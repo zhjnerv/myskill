@@ -12,6 +12,7 @@ from __future__ import annotations
 import hashlib
 import importlib.util
 import json
+import re
 import subprocess
 import sys
 from pathlib import Path
@@ -388,3 +389,255 @@ def test_stale_docx_verification_with_real_docx_mismatch_fails(tmp_path):
     # 旧 freshness 不再被当作新鲜度证据；当前独立复算失败即可拒绝。
     codes = {item["code"] for item in payload["errors"]}
     assert "DELIVERY-DOCX-OUTPUT-STALE" in codes or "DELIVERY-DOCX-STALE" in codes
+
+
+def _rewrite_docx(docx: Path, transform) -> None:
+    with ZipFile(docx) as archive:
+        stored = [(info, archive.read(info.filename)) for info in archive.infolist()]
+    with ZipFile(docx, "w", compression=ZIP_DEFLATED) as archive:
+        for info, value in stored:
+            archive.writestr(info, transform(info.filename, value))
+
+
+def _rebind_output_hash(report_path: Path, docx: Path) -> None:
+    report = json.loads(report_path.read_text(encoding="utf-8"))
+    report["output_sha256"] = _sha(docx)
+    _write_json(report_path, report)
+
+
+def _different_png(path: Path) -> bytes:
+    from PIL import Image, ImageDraw
+
+    image = Image.new("RGB", (90, 50), "white")
+    ImageDraw.Draw(image).ellipse((5, 5, 84, 44), outline="red", width=4)
+    image.save(path)
+    return path.read_bytes()
+
+
+def test_rebound_hash_still_rejects_replaced_embedded_png(tmp_path):
+    """只更新整包哈希、替换内嵌 PNG 时，交付门禁仍必须失败。"""
+    env = _build_realistic_docx_evidence(tmp_path)
+    wrong = _different_png(tmp_path / "wrong.png")
+
+    def transform(name, value):
+        if name.startswith("word/media/") and name.endswith(".png"):
+            return wrong
+        return value
+
+    _rewrite_docx(env["docx"], transform)
+    _rebind_output_hash(env["docx_report"], env["docx"])
+    result, payload = _run_delivery(
+        env["case_dir"], env["brief"], env["drawing"], env["docx_report"], env["docx_verification"],
+    )
+    assert result.returncode == 2, result.stdout + result.stderr
+    codes = {item["code"] for item in payload["errors"]}
+    assert "DELIVERY-DOCX-EMBEDDED" in codes
+    assert payload["status"] == "FAIL"
+
+
+def _build_two_figure_evidence(tmp_path: Path) -> dict:
+    from PIL import Image, ImageDraw
+
+    case_dir = tmp_path / "case"
+    case_dir.mkdir(parents=True, exist_ok=True)
+    source = case_dir / "02-申请文件"
+    source.mkdir(parents=True, exist_ok=True)
+    (source / "权利要求书.md").write_text(
+        "# 权利要求书\n\n1. 一种方法，其特征在于，包括：S101：执行第一步骤；S102：执行第二步骤。\n",
+        encoding="utf-8",
+    )
+    (source / "说明书.md").write_text(
+        "# 示例方法\n\n## 技术领域\n涉及示例技术。\n\n## 背景技术\n现有方案不足。\n\n"
+        "## 发明内容\n提供示例方案。\n\n## 附图说明\n图1为本申请一实施方式中的流程图。\n\n"
+        "图2为本申请一实施方式中的结构图。\n\n图中：S101-第一步骤；S102-第二步骤。\n\n"
+        "## 具体实施方式\n以下结合附图说明本发明的具体实施例。\n\n### 实施例1\n"
+        "如图1所示，先执行步骤S101。如图2所示，再执行步骤S102。\n",
+        encoding="utf-8",
+    )
+    (source / "说明书摘要.md").write_text(
+        "# 示例方法\n\n本发明提供一种示例方法。\n\n摘要附图：图1。\n",
+        encoding="utf-8",
+    )
+    (source / "说明书附图.md").write_text(
+        "# 说明书附图\n\n## 图1 流程图\n\n![图1](说明书附图/图1.png)\n\n## 图2 结构图\n\n![图2](说明书附图/图2.png)\n",
+        encoding="utf-8",
+    )
+    figure_dir = source / "说明书附图"
+    figure_dir.mkdir(parents=True, exist_ok=True)
+    paths = []
+    for number, color in ((1, "black"), (2, "blue")):
+        image_path = figure_dir / f"图{number}.png"
+        image = Image.new("RGB", (160, 80), "white")
+        ImageDraw.Draw(image).rectangle((12, 12, 147, 67), outline=color, width=3)
+        image.save(image_path)
+        paths.append(image_path)
+    drawio_paths = []
+    for number in (1, 2):
+        drawio_path = case_dir / f"drawings/图{number}.drawio"
+        drawio_path.parent.mkdir(parents=True, exist_ok=True)
+        drawio_path.write_bytes(f"<mxfile>figure-{number}</mxfile>".encode("utf-8"))
+        drawio_paths.append(drawio_path)
+    template = case_dir / "template.docx"
+    docx = case_dir / "output.docx"
+    _write_test_template(template)
+    report = _assemble(source, template, docx)
+    report_path = case_dir / "docx-report.json"
+    _write_json(report_path, report)
+    freshness = _verify_assembly(report_path)
+    freshness_path = case_dir / "docx-verification.json"
+    _write_json(freshness_path, json.loads(freshness["stdout"]))
+    assert freshness["returncode"] == 0, freshness
+    brief = case_dir / "brief.json"
+    _write_json(brief, {
+        "figures": [
+            {
+                "figure_number": number,
+                "outputs": {
+                    "final_png": str(image_path.relative_to(case_dir)),
+                    "drawio": str(drawio_path.relative_to(case_dir)),
+                },
+            }
+            for number, image_path, drawio_path in zip((1, 2), paths, drawio_paths)
+        ],
+    })
+    drawing = case_dir / "drawing-verification.json"
+    _write_json(drawing, {
+        "status": "PASS",
+        "errors": [],
+        "brief_sha256": _sha(brief),
+        "figures": [
+            {
+                "figure_number": number,
+                "png": {"path": str(image_path), "sha256": _sha(image_path)},
+                "drawio": {"path": str(drawio_path), "sha256": _sha(drawio_path)},
+            }
+            for number, image_path, drawio_path in zip((1, 2), paths, drawio_paths)
+        ],
+    })
+    return {
+        "case_dir": case_dir,
+        "docx": docx,
+        "docx_report": report_path,
+        "docx_verification": freshness_path,
+        "brief": brief,
+        "drawing": drawing,
+    }
+
+
+def test_same_figure_reused_by_abstract_passes(tmp_path):
+    env = _build_two_figure_evidence(tmp_path)
+    with ZipFile(env["docx"]) as archive:
+        xml = archive.read("word/document.xml").decode("utf-8")
+        media = [name for name in archive.namelist() if name.startswith("word/media/")]
+    references = xml.count("r:embed=")
+    assert references == 3
+    assert len(media) < references
+    result, payload = _run_delivery(
+        env["case_dir"], env["brief"], env["drawing"], env["docx_report"], env["docx_verification"],
+    )
+    assert result.returncode == 0, result.stdout + result.stderr + json.dumps(payload, ensure_ascii=False)
+    assert payload["status"] == "PASS"
+    assert payload["figure_count"] == 2
+
+
+def test_swapped_same_count_images_fail_after_rebind(tmp_path):
+    env = _build_two_figure_evidence(tmp_path)
+    with ZipFile(env["docx"]) as archive:
+        media = [(info.filename, archive.read(info.filename)) for info in archive.infolist() if info.filename.startswith("word/media/") and info.filename.endswith(".png")]
+    assert len(media) == 2
+    swapped = {media[0][0]: media[1][1], media[1][0]: media[0][1]}
+
+    def rewrite(name, value):
+        return swapped.get(name, value)
+
+    _rewrite_docx(env["docx"], rewrite)
+    _rebind_output_hash(env["docx_report"], env["docx"])
+    result, payload = _run_delivery(
+        env["case_dir"], env["brief"], env["drawing"], env["docx_report"], env["docx_verification"],
+    )
+    assert result.returncode == 2, result.stdout + result.stderr
+    assert any(item["code"] == "DELIVERY-DOCX-EMBEDDED" for item in payload["errors"])
+
+
+def test_deleted_image_reference_fails_after_rebind(tmp_path):
+    env = _build_two_figure_evidence(tmp_path)
+
+    def rewrite(name, value):
+        if name != "word/document.xml":
+            return value
+        text = value.decode("utf-8")
+        start = text.find("<a:blip")
+        end = text.find("/>", start)
+        assert start != -1 and end != -1
+        return (text[:start] + text[end + 2:]).encode("utf-8")
+
+    _rewrite_docx(env["docx"], rewrite)
+    _rebind_output_hash(env["docx_report"], env["docx"])
+    result, payload = _run_delivery(
+        env["case_dir"], env["brief"], env["drawing"], env["docx_report"], env["docx_verification"],
+    )
+    assert result.returncode == 2, result.stdout + result.stderr
+    assert any(item["code"] == "DELIVERY-DOCX-EMBEDDED" for item in payload["errors"])
+
+
+def test_wrong_abstract_figure_fails_after_rebind(tmp_path):
+    env = _build_two_figure_evidence(tmp_path)
+
+    def rewrite(name, value):
+        if name != "word/document.xml":
+            return value
+        text = value.decode("utf-8")
+        matches = list(re.finditer(r'r:embed="(rId\d+)"', text))
+        assert len(matches) >= 3
+        figure_two = matches[1].group(1)
+        last = matches[-1]
+        text = text[:last.start(1)] + figure_two + text[last.end(1):]
+        return text.encode("utf-8")
+
+    _rewrite_docx(env["docx"], rewrite)
+    _rebind_output_hash(env["docx_report"], env["docx"])
+    result, payload = _run_delivery(
+        env["case_dir"], env["brief"], env["drawing"], env["docx_report"], env["docx_verification"],
+    )
+    assert result.returncode == 2, result.stdout + result.stderr
+    messages = " ".join(item["message"] for item in payload["errors"])
+    assert "摘要附图" in messages
+
+
+def test_duplicate_figure_section_is_rejected_after_rebind(tmp_path):
+    """不能只核对第一个同名分节而放过后续显示的图片。"""
+    from copy import deepcopy
+    from lxml import etree
+
+    env = _build_realistic_docx_evidence(tmp_path)
+    verifier = _load_module("duplicate_section_verifier", VERIFY_ASSEMBLY_PATH)
+
+    def rewrite(name, value):
+        if name != "word/document.xml":
+            return value
+        root = etree.fromstring(value)
+        body = root.find(verifier.W + "body")
+        blocks = verifier._section_blocks(body)[2][1]
+        insertion = body.index(blocks[-1]) + 1
+        for offset, block in enumerate(blocks):
+            body.insert(insertion + offset, deepcopy(block))
+        return etree.tostring(root, encoding="utf-8", xml_declaration=True, standalone=True)
+
+    _rewrite_docx(env["docx"], rewrite)
+    _rebind_output_hash(env["docx_report"], env["docx"])
+    result, payload = _run_delivery(
+        env["case_dir"], env["brief"], env["drawing"], env["docx_report"], env["docx_verification"],
+    )
+    assert result.returncode == 2, result.stdout + result.stderr
+    assert any("各有一个" in item["message"] for item in payload["errors"])
+
+
+def test_corrupt_package_does_not_claim_verified_images(tmp_path):
+    env = _build_realistic_docx_evidence(tmp_path)
+    env["docx"].write_bytes(b"not-a-docx")
+    _rebind_output_hash(env["docx_report"], env["docx"])
+    result = _verify_assembly(env["docx_report"])
+    assert result["returncode"] == 2
+    payload = json.loads(result["stdout"])
+    assert payload["evidence_scope"]["proves"] == []
+    assert any(item["code"] == "DOCX-PACKAGE-ZIP" for item in payload["errors"])

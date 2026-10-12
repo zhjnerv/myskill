@@ -101,7 +101,9 @@ PDF、DOCX、扫描件和仅含图片的附图不在本轮范围，必须 fail-f
 
    finalize 逐字节核对冻结证据的新鲜度；申请文件、规则矩阵、原始报告或工具身份中任何一项变化，都会使本轮证据失效并要求重新 prepare。review-input 顶层字段必须与规范 `exact_fields.review_input` 完全一致，多出或缺少字段以退出码 3 拒绝。
 
-   全部原始 finding 和 gap 由工具机械并入其所属法律维度。审查者无法通过省略把仍有确定性失败的维度签为无问题——该组合会被状态不变量直接拒绝且不产出 bundle。审查者给出 `NO_ISSUE_FOUND` 或 `NOT_APPLICABLE` 时，类别为 `SEMANTIC_REVIEW_NOT_PERFORMED` 的能力缺口不并入该维 `gap_ids`，避免“脚本未做语义判断”否决已经作出的结论；缺口记录仍留在 `semantic_gaps` 或子报告里。`INPUT_UNAVAILABLE`、`DETERMINISTIC_FAIL` 以及其他硬缺口继续留下并触发原有不变量。
+   全部原始 finding 和 gap 由工具机械并入其所属法律维度。审查者无法通过省略把仍有确定性失败或硬 gap 的维度签为无问题；独立 verifier 会按 `rule_id` 再复算一遍，漏引或跨维挪用都会拒绝。审查者给出 `NO_ISSUE_FOUND` 或 `NOT_APPLICABLE` 时，`SEMANTIC_REVIEW_NOT_PERFORMED` 会写入 `resolved_capability_gaps` 而不再阻断该维；`CAPABILITY_LIMIT` 只有审查者逐条列入消解清单才可以拿掉。`INPUT_UNAVAILABLE` 和其他硬缺口不能靠这份清单消除。
+
+   新发现的实体问题写入 `semantic_findings`，不要塞进原始报告。标识使用 `SEM-` 前缀，并写明维度、对象、事实、证据位置、理由、本地法源章节和修改建议。它不能冒充原始 finding，也不能抵消原始失败。被引用的法源章节会冻结字节；检查器实际读过的请求书、摘要等文书进入顶层读集；工具身份从固定路径重算。这些字节一旦变化，旧 bundle 失效。
 
 4. **独立验证与摘要**：
 

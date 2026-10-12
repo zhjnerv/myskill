@@ -12,6 +12,7 @@ ID 完整性、状态不变量、聚合与处置全部由规范数据驱动，�
 from __future__ import annotations
 
 import json
+import re
 from pathlib import Path
 from typing import Any, Callable, Iterable
 
@@ -24,6 +25,31 @@ _MAX_VALIDATION_DEPTH = 32
 
 class ContractError(Exception):
     """规范本身不可用或与实现不一致；属于工具错误，不得转为法律 finding。"""
+
+
+
+PACKAGE_ROOT = Path(__file__).resolve().parents[3]
+SKILLS_ROOT = Path(__file__).resolve().parents[2]
+REVIEWER_ROOT = Path(__file__).resolve().parents[1]
+
+
+def trusted_tool_paths() -> dict[str, Path]:
+    """当前实现的固定路径。工具身份必须从这些文件重算，不能采信报告里的哈希字符串。"""
+
+    return {
+        "cn-patent-claims-analyzer": SKILLS_ROOT / "cn-patent-claims-analyzer" / "scripts" / "check_claims_cn.py",
+        "cn-patent-formalities-reviewer": SKILLS_ROOT / "cn-patent-formalities-reviewer" / "scripts" / "check_formalities_cn.py",
+        "cn-patent-reviewer-orchestrator": REVIEWER_ROOT / "scripts" / "build_review_bundle.py",
+        "cn-patent-specification-reviewer": SKILLS_ROOT / "cn-patent-specification-reviewer" / "scripts" / "build_support_matrix_cn.py",
+    }
+
+
+def legal_source_root() -> Path:
+    """语义审查可绑定的本地法源根目录。只接受该目录内的章节文件，不加载整本指南以外的任意路径。"""
+
+    return PACKAGE_ROOT / "references" / "cn-legal-sources"
+
+
 
 
 # --------------------------------------------------------------------------
@@ -608,9 +634,16 @@ class Contract:
             problems.append(f"{path}.assessments: 出现规范未定义的维度：{unknown}")
 
         # 评估引用的 finding/gap 必须在 bundle 内真实存在。
-        available_findings = {
+        raw_finding_ids = {
             item["finding_id"] for subreport in bundle["subreports"] for item in subreport["findings"]
         }
+        semantic_finding_ids = {
+            item["finding_id"] for item in bundle["semantic_findings"] if isinstance(item, dict)
+        }
+        overlap = sorted(raw_finding_ids & semantic_finding_ids)
+        if overlap:
+            problems.append(f"{path}: 语义 finding 与原始 finding 标识冲突：{overlap}")
+        available_findings = raw_finding_ids | semantic_finding_ids
         available_gaps = {
             item["gap_id"] for subreport in bundle["subreports"] for item in subreport["gaps"]
         } | {item["gap_id"] for item in bundle["semantic_gaps"]}
@@ -621,6 +654,7 @@ class Contract:
             for value in assessment.get("gap_ids", []):
                 if value not in available_gaps:
                     problems.append(f"{path}.assessments[{index}]: 引用了不存在的 gap_id {value}")
+        problems += [f"{path}: {item}" for item in self.check_assessment_conservation(bundle)]
 
         # 三份必需的专项报告缺一不可，且每种审查类型只能出现一次。
         required = self.data["finding_conservation"]["required_raw_reports"]
@@ -635,7 +669,7 @@ class Contract:
 
         for limit_key, actual, label in (
             ("verifier_max_subreports", len(bundle["subreports"]), "subreports"),
-            ("max_findings", sum(len(item["findings"]) for item in bundle["subreports"]), "findings"),
+            ("max_findings", sum(len(item["findings"]) for item in bundle["subreports"]) + len(bundle["semantic_findings"]), "findings"),
             ("max_gaps", sum(len(item["gaps"]) for item in bundle["subreports"]) + len(bundle["semantic_gaps"]), "gaps"),
         ):
             if actual > self.limits[limit_key]:
@@ -717,6 +751,231 @@ class Contract:
                         problems.append(f"守恒：原始 {label} {raw_item[id_field]} 的证据来源被改写")
         return problems
 
+
+
+    def check_assessment_conservation(self, bundle: dict[str, Any]) -> list[str]:
+        """独立复算每个维度必须保留的 finding/gap，拒绝遗漏、跨维挪用和无依据降级。
+
+        语义 finding 与原始 finding 分开登记。语义项不能冒充原始来源，也不能把
+        确定性失败或硬 gap 从所属维度的评估中抹掉。
+        """
+
+        policy = self.data.get("assessment_conservation", {})
+        required_statuses = set(policy.get("required_finding_statuses", []))
+        clear_results = set(policy.get("clear_results", []))
+        resolvable = set(policy.get("resolvable_gap_categories", []))
+        pattern = policy.get("semantic_finding_id_pattern", r"^SEM-[A-Za-z0-9][A-Za-z0-9_-]{0,63}$")
+        problems: list[str] = []
+
+        assessments = bundle.get("assessments")
+        subreports = bundle.get("subreports")
+        if not isinstance(assessments, list) or not isinstance(subreports, list):
+            return ["评估守恒：bundle 缺少可复算的 assessments 或 subreports"]
+        by_dimension: dict[str, dict[str, Any]] = {}
+        cited_findings: dict[str, set[str]] = {}
+        cited_gaps: dict[str, set[str]] = {}
+        for item in assessments:
+            if not isinstance(item, dict) or not isinstance(item.get("rule_id"), str):
+                continue
+            dimension_id = item["rule_id"]
+            by_dimension[dimension_id] = item
+            cited_findings[dimension_id] = set(item.get("finding_ids") or [])
+            cited_gaps[dimension_id] = set(item.get("gap_ids") or [])
+
+        raw_findings: list[dict[str, Any]] = []
+        raw_gaps: list[dict[str, Any]] = []
+        raw_finding_ids: set[str] = set()
+        for subreport in subreports:
+            if not isinstance(subreport, dict):
+                continue
+            for item in subreport.get("findings") or []:
+                if isinstance(item, dict):
+                    raw_findings.append(item)
+                    if isinstance(item.get("finding_id"), str):
+                        raw_finding_ids.add(item["finding_id"])
+            for item in subreport.get("gaps") or []:
+                if isinstance(item, dict):
+                    raw_gaps.append(item)
+
+        def mapped_dimension(rule_id: object, label: str) -> str | None:
+            if not isinstance(rule_id, str) or not rule_id:
+                problems.append(f"评估守恒：{label} 缺少 rule_id，无法复算维度")
+                return None
+            try:
+                return self.dimension_for_rule(rule_id)
+            except ContractError as exc:
+                problems.append(f"评估守恒：{label} 的维度映射无效：{exc}")
+                return None
+
+        finding_dimension: dict[str, str] = {}
+        for item in raw_findings:
+            finding_id = item.get("finding_id")
+            dimension_id = mapped_dimension(item.get("rule_id"), f"finding {finding_id}")
+            if not isinstance(finding_id, str) or dimension_id is None:
+                continue
+            finding_dimension[finding_id] = dimension_id
+            if item.get("dimension_id") != dimension_id:
+                problems.append(
+                    f"评估守恒：finding {finding_id} 的 dimension_id {item.get('dimension_id')!r} "
+                    f"与 rule_id 映射 {dimension_id} 不一致"
+                )
+            if item.get("status") not in required_statuses:
+                continue
+            owners = sorted(dim for dim, ids in cited_findings.items() if finding_id in ids)
+            if dimension_id not in owners:
+                problems.append(
+                    f"评估守恒：{item.get('status')} finding {finding_id} 未进入维度 {dimension_id}"
+                )
+            for owner in owners:
+                if owner != dimension_id:
+                    problems.append(f"评估守恒：finding {finding_id} 被挪用到维度 {owner}")
+            assessment = by_dimension.get(dimension_id)
+            if assessment is not None and assessment.get("result") in clear_results:
+                problems.append(
+                    f"评估守恒：维度 {dimension_id} 在仍有 {item.get('status')} finding {finding_id} 时"
+                    f"被降级为 {assessment.get('result')}"
+                )
+
+        gap_index: dict[str, dict[str, Any]] = {}
+        for item in raw_gaps:
+            gap_id = item.get("gap_id")
+            dimension_id = mapped_dimension(item.get("rule_id"), f"gap {gap_id}")
+            if not isinstance(gap_id, str) or dimension_id is None:
+                continue
+            if gap_id in gap_index:
+                problems.append(f"评估守恒：gap {gap_id} 在下游重复")
+                continue
+            gap_index[gap_id] = {**item, "dimension_id": dimension_id, "source": "raw"}
+            if item.get("dimension_id") != dimension_id:
+                problems.append(
+                    f"评估守恒：gap {gap_id} 的 dimension_id {item.get('dimension_id')!r} "
+                    f"与 rule_id 映射 {dimension_id} 不一致"
+                )
+        for item in bundle.get("semantic_gaps") or []:
+            if not isinstance(item, dict) or not isinstance(item.get("gap_id"), str):
+                continue
+            gap_id = item["gap_id"]
+            if gap_id in gap_index:
+                problems.append(f"评估守恒：语义 gap {gap_id} 与原始 gap 标识冲突")
+                continue
+            dimension_id = item.get("dimension_id")
+            if dimension_id not in self.dimension_ids:
+                continue
+            gap_index[gap_id] = {**item, "source": "semantic"}
+
+        resolutions = bundle.get("resolved_capability_gaps")
+        if not isinstance(resolutions, list):
+            problems.append("评估守恒：resolved_capability_gaps 必须是数组")
+            resolutions = []
+        resolved_ids: dict[str, dict[str, Any]] = {}
+        for index, item in enumerate(resolutions):
+            if not isinstance(item, dict):
+                problems.append(f"评估守恒：resolved_capability_gaps[{index}] 必须是对象")
+                continue
+            gap_id = item.get("gap_id")
+            if not isinstance(gap_id, str) or gap_id in resolved_ids:
+                problems.append(f"评估守恒：能力缺口消解标识重复或无效：{gap_id!r}")
+                continue
+            actual = gap_index.get(gap_id)
+            if actual is None:
+                problems.append(f"评估守恒：消解了不存在的 gap {gap_id}")
+                continue
+            if item.get("dimension_id") != actual.get("dimension_id") or item.get("category") != actual.get("category"):
+                problems.append(f"评估守恒：gap {gap_id} 的消解记录与实际维度或类别不一致")
+                continue
+            if actual.get("category") not in resolvable:
+                problems.append(
+                    f"评估守恒：gap {gap_id} 的类别 {actual.get('category')} 不能被语义复核消除"
+                )
+                continue
+            assessment = by_dimension.get(actual.get("dimension_id"))
+            if assessment is None or assessment.get("result") not in clear_results:
+                problems.append(f"评估守恒：gap {gap_id} 在对应维度尚未完成可关闭的语义复核")
+                continue
+            if assessment.get("evidence", {}).get("mode") in {"NONE", "HEURISTIC"}:
+                problems.append(f"评估守恒：gap {gap_id} 不能凭缺失或启发式证据消除")
+                continue
+            resolved_ids[gap_id] = item
+
+        for gap_id, item in gap_index.items():
+            if not item.get("blocks_assessment") or gap_id in resolved_ids:
+                continue
+            dimension_id = item.get("dimension_id")
+            if not isinstance(dimension_id, str):
+                continue
+            owners = sorted(dim for dim, ids in cited_gaps.items() if gap_id in ids)
+            if dimension_id not in owners:
+                problems.append(f"评估守恒：硬 gap {gap_id} 未进入维度 {dimension_id}")
+            for owner in owners:
+                if owner != dimension_id:
+                    problems.append(f"评估守恒：gap {gap_id} 被挪用到维度 {owner}")
+            assessment = by_dimension.get(dimension_id)
+            if assessment is not None and assessment.get("result") in clear_results:
+                problems.append(
+                    f"评估守恒：维度 {dimension_id} 在仍有硬 gap {gap_id} 时被降级为 {assessment.get('result')}"
+                )
+
+        semantic_findings = bundle.get("semantic_findings")
+        if not isinstance(semantic_findings, list):
+            return problems + ["评估守恒：semantic_findings 必须是数组"]
+        known_artifacts = {
+            artifact.get("artifact_id")
+            for key in ("input_artifacts", "provenance_artifacts", "rule_sources", "bound_legal_sources")
+            for artifact in (bundle.get(key) or [])
+            if isinstance(artifact, dict)
+        }
+        seen_semantic: set[str] = set()
+        for index, item in enumerate(semantic_findings):
+            if not isinstance(item, dict):
+                problems.append(f"评估守恒：semantic_findings[{index}] 必须是对象")
+                continue
+            finding_id = item.get("finding_id")
+            dimension_id = item.get("dimension_id")
+            label = f"semantic_findings[{index}]"
+            if not isinstance(finding_id, str) or re.fullmatch(pattern, finding_id) is None:
+                problems.append(f"评估守恒：{label} 的 finding_id 必须匹配 {pattern}")
+                continue
+            if finding_id in seen_semantic:
+                problems.append(f"评估守恒：语义 finding {finding_id} 重复")
+            seen_semantic.add(finding_id)
+            if finding_id in raw_finding_ids or finding_id in finding_dimension:
+                problems.append(f"评估守恒：语义 finding {finding_id} 伪造了原始 finding 标识")
+            if "origin" in item or "origin_raw_finding_id" in item or "origin_raw_gap_id" in item:
+                problems.append(f"评估守恒：语义 finding {finding_id} 不得携带原始来源")
+            if dimension_id not in self.dimension_ids:
+                problems.append(f"评估守恒：语义 finding {finding_id} 的维度 {dimension_id!r} 未定义")
+                continue
+            owners = sorted(dim for dim, ids in cited_findings.items() if finding_id in ids)
+            if dimension_id not in owners:
+                problems.append(f"评估守恒：语义 finding {finding_id} 未进入维度 {dimension_id}")
+            for owner in owners:
+                if owner != dimension_id:
+                    problems.append(f"评估守恒：语义 finding {finding_id} 被跨维引用到 {owner}")
+            evidence = item.get("evidence")
+            if not isinstance(evidence, list) or not evidence:
+                problems.append(f"评估守恒：语义 finding {finding_id} 缺少证据位置")
+            else:
+                for evidence_index, entry in enumerate(evidence):
+                    if not isinstance(entry, dict):
+                        continue
+                    artifact_id = entry.get("artifact_id")
+                    location = entry.get("location")
+                    if artifact_id not in known_artifacts:
+                        problems.append(
+                            f"评估守恒：语义 finding {finding_id} 的证据[{evidence_index}] "
+                            f"指向不存在的工件 {artifact_id!r}"
+                        )
+                    if not isinstance(location, str) or not location.strip():
+                        problems.append(f"评估守恒：语义 finding {finding_id} 的证据位置为空")
+            for source_index, source in enumerate(item.get("legal_sources") or []):
+                if not isinstance(source, dict):
+                    continue
+                source_path = source.get("path")
+                if not isinstance(source_path, str) or not source_path.strip() or source_path.startswith(("/", "\\")) or ".." in Path(source_path).parts:
+                    problems.append(
+                        f"评估守恒：语义 finding {finding_id} 的法源[{source_index}] 不是本地法源相对路径"
+                    )
+        return problems
 
     def validate_verification(self, verification: Any, path: str = "verification") -> list[str]:
         """校验验证器自身的输出；存在错误时不得出现申请处置。"""

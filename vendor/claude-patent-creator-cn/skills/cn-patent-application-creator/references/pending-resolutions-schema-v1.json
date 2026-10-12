@@ -1,6 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "cn-patent-pending-resolutions/v1",
+  "description": "回读人的决定。items 里的 applied 恒为 false；resolved 只表示写了决定，不证明源稿已按决定修改。",
   "type": "object",
   "additionalProperties": false,
   "required": ["schema_id", "source_path", "source_sha256", "parsed_at", "legal_effect", "items", "retired", "summary"],

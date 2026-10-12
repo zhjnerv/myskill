@@ -812,7 +812,7 @@ class CapabilityGapVetoTests(unittest.TestCase):
         })
 
     def assessment_for(self, dimension_id: str, subreports=None):
-        assessments, _gaps = self.orchestrator.build_assessments(
+        assessments, _gaps, _resolutions = self.orchestrator.build_assessments(
             self.template, subreports or [], self.contract,
         )
         return next(item for item in assessments if item["rule_id"] == dimension_id)
@@ -854,6 +854,265 @@ class CapabilityGapVetoTests(unittest.TestCase):
         }]
         with self.assertRaises(self.orchestrator.OrchestrationError):
             self.assessment_for("claim_clarity", subreports)
+
+
+
+class AssessmentAndReadSetClosureTests(ChainTestCase):
+    """F05/F06/F07：评估层不能丢掉原始问题，读集和工具必须按当前字节失效。"""
+
+    def test_clearing_one_dimension_with_prior_art_evidence_is_not_blocked(self):
+        self.run_quiet(self.chain.prepare)
+        review = self._novelty_review("PRIOR_ART_COMPARISON", ["claims"])
+        self.assertEqual(self.run_quiet(self.chain.finalize, review_input=review)[0], 0)
+        self.assertEqual(self.run_quiet(self.chain.verify)[0], 0)
+        self.assertEqual(self.chain.verification()["errors"], [])
+
+    def test_omitting_one_deterministic_failure_or_hard_gap_is_rejected(self):
+        self.chain = fx.Chain(
+            self.chain.root,
+            claims=fx.CLAIMS_TEXT.replace("包括控制器", "包括【待填：参数】控制器"),
+        )
+        self.assertIn(self.run_quiet(self.chain.prepare)[0], (0, 2))
+        self.assertEqual(self.run_quiet(self.chain.finalize)[0], 2)
+        bundle = fx.read_json(self.chain.bundle_path)
+        deterministic = [
+            item for subreport in bundle["subreports"] for item in subreport["findings"]
+            if item["status"] == "DETERMINISTIC_FAIL"
+        ]
+        self.assertGreaterEqual(len(deterministic), 1)
+        target = deterministic[0]
+        assessment = next(item for item in bundle["assessments"] if item["rule_id"] == target["dimension_id"])
+        assessment["finding_ids"].remove(target["finding_id"])
+        fx.write_json(self.chain.bundle_path, bundle)
+        self.assertNotEqual(self.run_quiet(self.chain.verify)[0], 0)
+        self.assertTrue(any("未进入维度" in item["message"] for item in self.chain.verification()["errors"]))
+
+        bundle = fx.read_json(self.chain.bundle_path)
+        # 上面已改过 bundle；重新 finalize 取得干净副本后再拆一条硬 gap。
+        self.assertEqual(self.run_quiet(self.chain.finalize)[0], 2)
+        bundle = fx.read_json(self.chain.bundle_path)
+        hard = next(
+            item for subreport in bundle["subreports"] for item in subreport["gaps"]
+            if item["blocks_assessment"]
+        )
+        assessment = next(item for item in bundle["assessments"] if item["rule_id"] == hard["dimension_id"])
+        self.assertIn(hard["gap_id"], assessment["gap_ids"])
+        assessment["gap_ids"].remove(hard["gap_id"])
+        fx.write_json(self.chain.bundle_path, bundle)
+        self.assertNotEqual(self.run_quiet(self.chain.verify)[0], 0)
+        self.assertTrue(any(hard["gap_id"] in item["message"] for item in self.chain.verification()["errors"]))
+
+    def test_rewriting_every_assessment_to_no_issue_cannot_hide_raw_failures(self):
+        self.chain = fx.Chain(
+            self.chain.root,
+            claims=fx.CLAIMS_TEXT.replace("包括控制器", "包括【待填：参数】控制器"),
+        )
+        self.run_quiet(self.chain.prepare)
+        self.run_quiet(self.chain.finalize)
+        bundle = fx.read_json(self.chain.bundle_path)
+        for assessment in bundle["assessments"]:
+            assessment.update(
+                coverage="FULL", result="NO_ISSUE_FOUND", severity="NONE",
+                finding_ids=[], gap_ids=[],
+                evidence={
+                    "mode": "PRIOR_ART_COMPARISON" if assessment["rule_id"] in {"novelty", "inventiveness"} else "DOCUMENTARY_SEMANTIC",
+                    "sufficiency": "ADEQUATE_FOR_SCOPED_ASSESSMENT",
+                    "artifact_ids": ["claims"],
+                    "source_locations": ["claim-1"],
+                },
+            )
+        fx.write_json(self.chain.bundle_path, bundle)
+        self.assertNotEqual(self.run_quiet(self.chain.verify)[0], 0)
+        self.assertNotEqual(self.chain.verification()["disposition"], "NO_BLOCKING_ISSUE_FOUND_IN_SCOPE")
+
+    def test_semantic_finding_can_be_recorded_without_a_raw_finding(self):
+        self.run_quiet(self.chain.prepare)
+        review = self._novelty_review("PRIOR_ART_COMPARISON", ["claims"], semantic=True)
+        self.assertEqual(self.run_quiet(self.chain.finalize, review_input=review)[0], 0)
+        self.assertEqual(self.run_quiet(self.chain.verify)[0], 2)
+        verification = self.chain.verification()
+        self.assertEqual(verification["errors"], [])
+        self.assertEqual(verification["disposition"], "BLOCKING_ISSUE_FOUND")
+        bundle = fx.read_json(self.chain.bundle_path)
+        self.assertEqual(bundle["semantic_findings"][0]["finding_id"], "SEM-NOVELTY-001")
+        self.assertTrue(bundle["bound_legal_sources"])
+        novelty = next(item for item in bundle["assessments"] if item["rule_id"] == "novelty")
+        self.assertIn("SEM-NOVELTY-001", novelty["finding_ids"])
+        self.assertEqual(novelty["result"], "ISSUE_FOUND")
+
+    def test_forged_raw_origin_cross_dimension_and_dangling_evidence_are_rejected(self):
+        self.run_quiet(self.chain.prepare)
+        review = fx.read_json(self._novelty_review("PRIOR_ART_COMPARISON", ["claims"], semantic=True))
+        review["semantic_findings"][0]["origin_raw_finding_id"] = "F-RAW"
+        fx.write_json(self.chain.template_path, review)
+        code, stderr = self.run_quiet(self.chain.finalize, review_input=self.chain.template_path)
+        self.assertEqual(code, 3)
+        self.assertTrue("未定义的字段" in stderr or "原始来源" in stderr)
+
+        review = fx.read_json(self._novelty_review("PRIOR_ART_COMPARISON", ["claims"], semantic=True))
+        review["assessments"] = [
+            {**item, "finding_ids": ["SEM-NOVELTY-001"]} if item["rule_id"] == "inventiveness" else item
+            for item in review["assessments"]
+        ]
+        path = self.chain.workspace / "cross-dimension.json"
+        fx.write_json(path, review)
+        code, stderr = self.run_quiet(self.chain.finalize, review_input=path)
+        self.assertEqual(code, 3)
+        self.assertIn("跨维", stderr)
+
+        review = fx.read_json(self._novelty_review("PRIOR_ART_COMPARISON", ["claims"], semantic=True))
+        review["semantic_findings"][0]["evidence"][0]["artifact_id"] = "不存在的工件"
+        path = self.chain.workspace / "dangling-evidence.json"
+        fx.write_json(path, review)
+        code, stderr = self.run_quiet(self.chain.finalize, review_input=path)
+        self.assertEqual(code, 3)
+        self.assertIn("不存在", stderr)
+
+    def test_semantic_finding_does_not_offset_a_raw_deterministic_failure(self):
+        self.chain = fx.Chain(
+            self.chain.root,
+            claims=fx.CLAIMS_TEXT.replace("包括控制器", "包括【待填：参数】控制器"),
+        )
+        self.run_quiet(self.chain.prepare)
+        self.run_quiet(self.chain.finalize)
+        bundle = fx.read_json(self.chain.bundle_path)
+        target = next(
+            item for subreport in bundle["subreports"] for item in subreport["findings"]
+            if item["status"] == "DETERMINISTIC_FAIL"
+        )
+        for assessment in bundle["assessments"]:
+            if assessment["rule_id"] == target["dimension_id"]:
+                assessment.update(
+                    coverage="FULL", result="NO_ISSUE_FOUND", severity="NONE",
+                    finding_ids=["SEM-OFFSET-001"], gap_ids=[],
+                    evidence={
+                        "mode": "DOCUMENTARY_SEMANTIC",
+                        "sufficiency": "ADEQUATE_FOR_SCOPED_ASSESSMENT",
+                        "artifact_ids": ["claims"],
+                        "source_locations": ["claim-1"],
+                    },
+                )
+        bundle["semantic_findings"] = [{
+            "finding_id": "SEM-OFFSET-001",
+            "dimension_id": target["dimension_id"],
+            "target_id": target["target_id"],
+            "fact": "尝试用语义意见替换原始确定性失败。",
+            "evidence": [{"artifact_id": "claims", "location": "claim-1", "excerpt": "待填"}],
+            "reasoning": "语义意见不能冲销原始失败。",
+            "legal_sources": [],
+            "remedy": "先处理原始确定性失败。",
+        }]
+        fx.write_json(self.chain.bundle_path, bundle)
+        self.assertNotEqual(self.run_quiet(self.chain.verify)[0], 0)
+        messages = " ".join(item["message"] for item in self.chain.verification()["errors"])
+        self.assertIn(target["finding_id"], messages)
+        self.assertNotEqual(self.chain.verification()["disposition"], "NO_BLOCKING_ISSUE_FOUND_IN_SCOPE")
+
+    def test_nested_request_abstract_checker_and_legal_source_changes_invalidate_old_report(self):
+        manifest = fx.formalities_manifest()
+        manifest["documents"]["request"] = {"status": "provided", "path": "request.txt"}
+        manifest["documents"]["abstract"] = {"status": "provided", "path": "abstract.txt"}
+        self.chain = fx.Chain(self.chain.root, manifest=manifest)
+        request = self.chain.application_directory / "request.txt"
+        abstract = self.chain.application_directory / "abstract.txt"
+        request.write_text("发明名称：一种数据处理装置\n申请人：甲公司\n发明人：张三\n", encoding="utf-8")
+        abstract.write_text("一种数据处理装置，包括控制器和存储器，用于降低访问延迟。", encoding="utf-8")
+        self.assertEqual(self.run_quiet(self.chain.prepare)[0], 0)
+        frozen = fx.read_json(self.chain.workspace / "prepare-manifest.json")
+        self.assertTrue(any(item["path"] == str(request.resolve()) for item in frozen["input_artifacts"]))
+        self.assertTrue(any(item["path"] == str(abstract.resolve()) for item in frozen["input_artifacts"]))
+        self.assertEqual(self.run_quiet(self.chain.finalize)[0], 0)
+        self.assertEqual(self.run_quiet(self.chain.verify)[0], 0)
+
+        request.write_text("发明名称：另一种系统\n【待填写：申请人】\n", encoding="utf-8")
+        self.assertNotEqual(self.run_quiet(self.chain.finalize)[0], 0)
+        self.assertNotEqual(self.run_quiet(self.chain.verify)[0], 0)
+        request.write_text("发明名称：一种数据处理装置\n申请人：甲公司\n发明人：张三\n", encoding="utf-8")
+        self.assertEqual(self.run_quiet(self.chain.finalize)[0], 0)
+        self.assertEqual(self.run_quiet(self.chain.verify)[0], 0)
+
+        abstract.write_text("一种完全不同的摘要，并且包含【待填写】。", encoding="utf-8")
+        self.assertNotEqual(self.run_quiet(self.chain.finalize)[0], 0)
+        self.assertNotEqual(self.run_quiet(self.chain.verify)[0], 0)
+        abstract.write_text("一种数据处理装置，包括控制器和存储器，用于降低访问延迟。", encoding="utf-8")
+        self.assertEqual(self.run_quiet(self.chain.verify)[0], 0)
+
+        contract = self.chain.orchestrator.cn_contract
+        original_tools = contract.trusted_tool_paths
+        drifted = self.chain.root / "drifted-checker.py"
+        current = original_tools()
+        drifted.write_bytes(current["cn-patent-claims-analyzer"].read_bytes() + "\n# 临时检查器身份变化\n".encode("utf-8"))
+
+        def drifted_paths():
+            paths = original_tools()
+            paths["cn-patent-claims-analyzer"] = drifted
+            return paths
+
+        with mock.patch.object(contract, "trusted_tool_paths", drifted_paths):
+            self.assertNotEqual(self.run_quiet(self.chain.finalize)[0], 0)
+            self.assertNotEqual(self.run_quiet(self.chain.verify)[0], 0)
+        self.assertEqual(self.run_quiet(self.chain.verify)[0], 0)
+
+        legal_root = self.chain.root / "legal-root"
+        chapter = legal_root / "chapter.md"
+        chapter.parent.mkdir()
+        chapter.write_text("多项从属权利要求只能以择一方式引用。\n", encoding="utf-8")
+        with mock.patch.object(contract, "legal_source_root", lambda: legal_root):
+            review = self._novelty_review("PRIOR_ART_COMPARISON", ["claims"], semantic=True, legal_path="chapter.md")
+            self.assertEqual(self.run_quiet(self.chain.finalize, review_input=review)[0], 0)
+            self.assertEqual(self.run_quiet(self.chain.verify)[0], 2)
+            self.assertEqual(self.chain.verification()["errors"], [])
+            chapter.write_text("多项从属权利要求只能以择一方式引用。\n补充句子。\n", encoding="utf-8")
+            self.assertNotEqual(self.run_quiet(self.chain.verify)[0], 0)
+            self.assertTrue(any("法源" in item["message"] for item in self.chain.verification()["errors"]))
+
+    def test_same_role_documents_with_different_bytes_are_rejected(self):
+        manifest = fx.formalities_manifest()
+        manifest["documents"]["claims"] = {"status": "provided", "content": "1. 一种完全不同的装置。"}
+        self.chain = fx.Chain(self.chain.root, manifest=manifest)
+        code, stderr = self.run_quiet(self.chain.prepare)
+        self.assertEqual(code, 3)
+        self.assertIn("同角色", stderr)
+
+    def _novelty_review(self, mode: str, artifact_ids: list[str], semantic: bool = False, legal_path: str | None = None) -> Path:
+        template = fx.read_json(self.chain.template_path)
+        for assessment in template["assessments"]:
+            if assessment["rule_id"] == "novelty":
+                assessment.update({
+                    "coverage": "FULL",
+                    "result": "ISSUE_FOUND" if semantic else "NO_ISSUE_FOUND",
+                    "severity": "BLOCKER" if semantic else "NONE",
+                    "evidence": {
+                        "mode": mode,
+                        "sufficiency": "ADEQUATE_FOR_SCOPED_ASSESSMENT",
+                        "artifact_ids": artifact_ids,
+                        "source_locations": ["claim-1"],
+                    },
+                    "finding_ids": ["SEM-NOVELTY-001"] if semantic else [],
+                    "gap_ids": [],
+                })
+        template["semantic_gaps"] = [
+            item for item in template["semantic_gaps"] if item["dimension_id"] != "novelty"
+        ]
+        relative = legal_path or "审查指南2026MD/chapters/第二部分-第二章 说明书和权利要求书.md"
+        template["semantic_findings"] = [] if not semantic else [{
+            "finding_id": "SEM-NOVELTY-001",
+            "dimension_id": "novelty",
+            "target_id": "claim-1",
+            "fact": "权利要求 1 的控制器与存储器耦合已被对比文件公开。",
+            "evidence": [{"artifact_id": "claims", "location": "claim-1", "excerpt": "控制器与存储器"}],
+            "reasoning": "单独对比后，该技术方案与权利要求 1 的区别没有留下。",
+            "legal_sources": [{
+                "source_id": "guide-part2-ch2",
+                "path": relative,
+                "location": "新颖性比对",
+            }],
+            "remedy": "改写权利要求 1，使控制器与存储器的耦合关系区别于该对比文件。",
+        }]
+        path = self.chain.workspace / f"review-novelty-{mode}-{semantic}-{len(artifact_ids)}.json"
+        fx.write_json(path, template)
+        return path
+
 
 
 if __name__ == "__main__":

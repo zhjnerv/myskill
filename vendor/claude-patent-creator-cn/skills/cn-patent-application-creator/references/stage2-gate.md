@@ -16,11 +16,11 @@ python3 "$ROOT/scripts/run_python.py" "$ROOT/skills/cn-patent-application-creato
 | 状态位 | 放行条件 |
 |---|---|
 | `cnipa_manual_search.status` | `completed` 须附逐条检索记录；`partial`／`not_completed` 无用户原话时按保守默认继续，并只写入一条流程待决，不得在各权利要求待决中重复 |
-| `template_selection.status` | `confirmed` 须列出已生成的 style-guide；`declined` 才改回默认风格；`pending` 在已有风格指南时，确认前仍按这些指南起草，并写入待决清单 |
+| `template_selection.status` | `confirmed` 须列出已生成的 style-guide；`declined` 才改回默认风格；`pending` 在已有风格指南或已检索候选时，确认前仍可临时参照，但必须先通过与 `confirmed` 相同的新鲜度检查。没有范本时按默认策略继续。`evidence_disposition` 为 `excluded` 才表示明确排除现有证据 |
 | 范本选择报告 | `cn-patent-template-selection/v2`，四项权重之和为 1、技术/IPC 正权重、四项加权得分可复算、选定范本主体著录与候选清单一一致 |
 | 选定范本主体著录 | 缺申请人或代理机构时按 0 分计并写入待决清单，指向技术+IPC 退化风险 |
 | `style_brief_path` | 存在、schema 正确、来源模式与是否已有风格指南一致（有指南必须是 `template`，没有指南才能是 `default`）、含 `organization` |
 | `feature_ledger_path` | 存在、schema 正确、至少有一个区别特征 |
 
-对于缺少用户原话的情况，阶段门不再停下来等人，而是按保守默认继续并写入待决清单。范本的保守默认是：已经检索到的范本继续作风格参照；用户明确拒绝，或根本没有检索到范本时，才用默认风格。已经形成候选清单却没有 `template-style-guide.json`，以及文件缺失、哈希不一致、schema 错误，才阻断。这确保在保证产物有效性的前提下，不因子环节等待人为确认而中断撰写。待决事项详情参见 `references/pending-decisions.md`。退出码 `2` 表示未过门（遇文件/哈希/schema级硬阻断），此时不得开始撰写权利要求与说明书。
+对于缺少用户原话的情况，阶段门不再停下来等人，而是按保守默认继续并写入待决清单。范本的保守默认是：已经检索到的范本继续作风格参照；用户明确拒绝，或根本没有检索到范本时，才用默认风格。`pending` 只说明人还没确认，不能跳过已经提供、并且将被采用的候选清单或排名报告。这些证据陈旧、损坏或哈希不一致时，必须重跑 `rank_template_candidates.py`，或者把 `template_selection.evidence_disposition` 写成 `excluded` 并不再引用对应风格指南。已经形成候选清单却没有 `template-style-guide.json`，以及文件缺失、哈希不一致、schema 错误，才阻断。这确保在保证产物有效性的前提下，不因子环节等待人为确认而中断撰写。待决事项详情参见 [pending-decisions.md](pending-decisions.md)。退出码 `2` 表示未过门（遇文件/哈希/schema级硬阻断），此时不得开始撰写权利要求与说明书。
 

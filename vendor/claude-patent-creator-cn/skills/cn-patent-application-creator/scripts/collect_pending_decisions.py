@@ -13,8 +13,10 @@ from cn_drafting_io import DraftingOutputGuard
 from pending_file import (
     PENDING_FILENAME,
     PendingFileError,
+    index_application_evidence,
     load_existing,
     render_pending_file,
+    split_resolved,
     stable_key,
 )
 
@@ -226,6 +228,16 @@ def assign_ids(
             notes[key] = {
                 "decision": previous.get("decision", ""),
                 "annotation": previous.get("annotation", ""),
+                "content_version": previous.get("content_version", ""),
+                "stale_decision": previous.get("stale_decision", ""),
+                "question": previous.get("question", ""),
+                "adopted_default": previous.get("adopted_default", ""),
+                "options": list(previous.get("options") or []),
+                "application_binding": previous.get("application_binding", ""),
+                "application_decision": previous.get("application_decision", ""),
+                "application_sources": [
+                    dict(item) for item in (previous.get("application_sources") or [])
+                ],
             }
         else:
             decision["id"] = ""
@@ -252,6 +264,11 @@ def main() -> int:
     parser.add_argument("--docx", help="最终申请文件路径。待决文件固定写到同目录的 待决文件.md")
     parser.add_argument("--table", help="仅在 --allow-detached 时指定脱离交付目录的路径")
     parser.add_argument("--allow-detached", action="store_true", help="仅测试可把待决文件写到非交付目录")
+    parser.add_argument(
+        "--application-evidence",
+        type=Path,
+        help="可选。把 choose 或 instruct 绑定到当前源稿哈希后才标为已落实；不证明语义上已经改对",
+    )
     args = parser.parse_args()
 
     try:
@@ -262,6 +279,8 @@ def main() -> int:
         return EXIT_INPUT_ERROR
 
     input_paths = [Path(item) for item in args.report]
+    if args.application_evidence:
+        input_paths.append(Path(args.application_evidence))
     output_paths = [Path(args.output), table_path]
     try:
         guard = DraftingOutputGuard(input_paths, output_paths)
@@ -308,6 +327,18 @@ def main() -> int:
         decisions, notes, retired = assign_ids(
             suppress_routine_prompts(list(collected.values())), existing,
         )
+        evidence_index, evidence_sources = index_application_evidence(
+            Path(args.application_evidence) if args.application_evidence else None,
+            case_dir=Path(args.case_dir),
+            case_id=Path(args.case_dir).name,
+            decisions=decisions,
+            notes=notes,
+            forbidden_outputs=[Path(args.output), table_path],
+        )
+        guard.protect_inputs(evidence_sources)
+        decisions, applied, resolutions = split_resolved(
+            decisions, notes, evidence_index, Path(args.case_dir),
+        )
     except PendingFileError as exc:
         print(str(exc), file=sys.stderr)
         return EXIT_INPUT_ERROR
@@ -344,6 +375,7 @@ def main() -> int:
         "legal_effect": "ADVISORY_ONLY",
         "sources": sources,
         "decisions": decisions,
+        "resolutions": resolutions,
         "summary": summary,
     }
     try:
@@ -356,6 +388,7 @@ def main() -> int:
             decisions=decisions,
             notes=notes,
             retired=retired,
+            applied=applied,
         )
         guard.write_texts((
             json.dumps(payload, ensure_ascii=False, indent=2) + "\n",

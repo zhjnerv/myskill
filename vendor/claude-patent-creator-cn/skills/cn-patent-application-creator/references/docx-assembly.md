@@ -221,7 +221,7 @@ python skills/cn-patent-application-creator/scripts/verify_docx_assembly.py \
   --output "<案件>/03-审查工作区/docx组装-*/docx-assembly-verification.json"
 ```
 
-验证器只证明报告绑定的模板、四文书、嵌入图片和 DOCX 当前仍是同一字节版本；不证明法律实体条件或未执行的视觉检查。附图流程还必须运行 `cn-patent-diagram-generator/scripts/verify_drawing_docx_delivery.py`，交叉核对最终附图验证、DOCX报告中的逐图路径/SHA-256和DOCX新鲜度。若用户明确要求Word视觉检查，记录应符合 `references/docx-visual-review-schema.json`。
+验证器证明报告绑定的模板、四文书、嵌入图片和 DOCX 当前仍是同一字节版本，并沿文档图片引用核对说明书附图图号顺序和摘要附图实际显示的字节。同图可以在正文和摘要中复用。它不证明法律实体条件或未执行的视觉检查。只改整包哈希不能代替这项比对。附图流程还必须运行 `cn-patent-diagram-generator/scripts/verify_drawing_docx_delivery.py`，交叉核对最终附图验证、DOCX报告中的逐图路径/SHA-256和DOCX新鲜度。若用户明确要求Word视觉检查，记录应符合 `references/docx-visual-review-schema.json`。
 
 
 ### 编号与路径边界（审计修复）

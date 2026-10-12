@@ -58,6 +58,10 @@ def now() -> str:
     return datetime.now(timezone.utc).isoformat()
 
 
+def _optional_timestamp(value: Any) -> bool:
+    return value is None or isinstance(value, str)
+
+
 def plan_paths(case_dir: Path) -> tuple[Path, Path]:
     return case_dir / PLAN_JSON, case_dir / PLAN_MD
 
@@ -118,6 +122,20 @@ def validate_plan(plan: dict[str, Any]) -> None:
             raise PlanError(f"步骤输出损坏：{step.get('id')}")
         if step["status"] == "running":
             running += 1
+        history = step.get("history", [])
+        if "history" in step and not isinstance(history, list):
+            raise PlanError(f"步骤历史损坏：{step.get('id')}")
+        for record in history:
+            if (
+                not isinstance(record, dict)
+                or record.get("status") not in STATUSES
+                or not isinstance(record.get("note"), str)
+                or not isinstance(record.get("outputs"), list)
+                or any(not isinstance(item, str) for item in record["outputs"])
+                or not _optional_timestamp(record.get("started_at"))
+                or not _optional_timestamp(record.get("finished_at"))
+            ):
+                raise PlanError(f"步骤历史损坏：{step.get('id')}")
     if running > 1:
         raise PlanError("流程计划里有多个进行中的步骤")
 
@@ -177,6 +195,11 @@ def render_markdown(plan: dict[str, Any], nxt: dict[str, str]) -> str:
             lines.append(f"  - 备注：{step['note']}")
         if step["outputs"]:
             lines.append("  - 输出：" + "；".join(step["outputs"]))
+        history = step.get("history") or []
+        if history:
+            last = history[-1]
+            label = STATUS_LABEL.get(str(last.get("status")), str(last.get("status")))
+            lines.append(f"  - 历史：曾为{label}" + (f"，备注：{last.get('note')}" if last.get("note") else ""))
     lines.append("")
     return "\n".join(lines)
 
@@ -348,11 +371,24 @@ def cmd_block(args: argparse.Namespace) -> int:
     return with_plan(args, mutate)
 
 
-def reopen_step(step: dict[str, Any], note: str) -> None:
-    if step["status"] == "running":
-        raise PlanError(f"{step['id']} 正在进行，不能直接重开")
-    if step["status"] == "pending":
-        raise PlanError(f"{step['id']} 还没开始，不必重开")
+def archive_step(step: dict[str, Any]) -> None:
+    """把当前完成或进行记录留下，再改状态。历史不随本次备注被抹掉。"""
+
+    history = step.get("history")
+    if not isinstance(history, list):
+        history = []
+    history.append({
+        "status": step["status"],
+        "note": step.get("note") or "",
+        "outputs": list(step.get("outputs") or []),
+        "started_at": step.get("started_at"),
+        "finished_at": step.get("finished_at"),
+    })
+    step["history"] = history
+
+
+def reset_pending(step: dict[str, Any], note: str) -> None:
+    archive_step(step)
     step["status"] = "pending"
     step["note"] = note
     step["outputs"] = []
@@ -366,17 +402,24 @@ def cmd_reopen(args: argparse.Namespace) -> int:
         raise PlanError("重开步骤时必须写明原因")
 
     def mutate(plan: dict[str, Any]) -> None:
-        find_step(plan, args.step)
+        target = find_step(plan, args.step)
+        if target["status"] == "running":
+            raise PlanError(f"{target['id']} 正在进行，不能直接重开")
+        if target["status"] == "pending":
+            raise PlanError(f"{target['id']} 还没开始，不必重开")
         found = False
         for step in plan["steps"]:
             if step["id"] == args.step:
-                reopen_step(step, note)
+                reset_pending(step, note)
                 found = True
-                if not args.cascade:
-                    break
                 continue
-            if found and args.cascade and step["status"] == "done":
-                reopen_step(step, note)
+            if not found:
+                continue
+            # 后面的进行中步骤会挡住 start，必须和本次重开一起退回。
+            if step["status"] == "running":
+                reset_pending(step, note)
+            elif args.cascade and step["status"] == "done":
+                reset_pending(step, note)
     return with_plan(args, mutate)
 
 
