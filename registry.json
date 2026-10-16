@@ -22,8 +22,20 @@
       "branch": "main",
       "subpath": null,
       "vendoredAt": "2026-09-26T08:55:28Z",
-      "lastSync": "2026-09-26T08:55:28Z",
-      "lastSyncTree": "2d6ac9a556bc4ae5aad86429c554b63800e493b6",
+      "lastSync": "2026-10-16T07:28:40Z",
+      "lastSyncTree": "ba6f805318a27ab4c7c13c33dab9069b4cce4d19",
+      "notes": ""
+    },
+    {
+      "name": "legal-skill-alignment",
+      "origin": "vendored",
+      "fork": "https://github.com/zhjnerv/legal-skills",
+      "upstream": "https://github.com/cat-xierluo/legal-skills",
+      "branch": "main",
+      "subpath": "skills/legal-skill-alignment",
+      "vendoredAt": "2026-10-02T10:01:10Z",
+      "lastSync": "2026-10-02T10:01:10Z",
+      "lastSyncTree": "04e08d8f561427840516f650b736777e12596d5a",
       "notes": ""
     },
     {
@@ -60,18 +72,6 @@
       "vendoredAt": "2026-08-08T17:43:02Z",
       "lastSync": "2026-09-25T09:12:11Z",
       "lastSyncTree": "2d0e48d6d3df0c805943e58ced4fd94fbd79e0d6",
-      "notes": ""
-    },
-    {
-      "name": "legal-skill-alignment",
-      "origin": "vendored",
-      "fork": "https://github.com/zhjnerv/legal-skills",
-      "upstream": "https://github.com/cat-xierluo/legal-skills",
-      "branch": "main",
-      "subpath": "skills/legal-skill-alignment",
-      "vendoredAt": "2026-10-02T10:01:10Z",
-      "lastSync": "2026-10-02T10:01:10Z",
-      "lastSyncTree": "04e08d8f561427840516f650b736777e12596d5a",
       "notes": ""
     }
   ]
