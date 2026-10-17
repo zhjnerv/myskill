@@ -103,3 +103,4 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - `skills/<name>/` 目录名必须与该 skill `SKILL.md` frontmatter 的 `name` 一致。
 - 改 vendored skill 前先跑 `skill-status.ps1 -Remote -Name <name>` 看清相对 fork 的差异，
   以及 fork 有没有落后原作者——避免把上游已经修过的问题再修一遍。
+- 记账规则在 [docs/skills/README.md](docs/skills/README.md)。引入的 skill 不要把本地需求写进上游的 `CHANGELOG.md`、`TASKS.md`、`DECISIONS.md`，写到 `docs/skills/<name>.md`。自研 skill 用目录里的这三份文件。个性化改动默认不向上游开 PR。

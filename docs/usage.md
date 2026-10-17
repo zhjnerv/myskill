@@ -103,7 +103,22 @@ git commit
 
 ---
 
+## 改 skill 时怎么记账
+
+完整规则在 [skills/README.md](skills/README.md)。
+
+引入的 skill：先 `skill-status.ps1 -Remote -Name <name>`，把问题、范围、非目标和验收写进 `docs/skills/<name>.md`，改完再补证据。不要改上游的 `CHANGELOG.md`、`TASKS.md`、`DECISIONS.md`。
+
+自研 skill：记在该目录的 `TASKS.md`、`DECISIONS.md`、`CHANGELOG.md`。`skill-new.ps1` 会放好这三份空账。
+
+个性化改动默认不向上游开 PR。
+
+---
+
 ## 3. 我改了 skill，想提 PR 给原作者
+
+只有用户明确说要推上游时才走本节。平时的本地改动停在本仓库，并按上一节记账。
+
 
 ```powershell
 .\scripts\skill-status.ps1 -Remote -Name <skill>   # 先看清改了什么

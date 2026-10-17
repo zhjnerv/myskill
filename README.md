@@ -27,7 +27,8 @@ myskill/
 ├── scripts/               # 引入 / 同步 / 提 PR / 部署
 └── docs/
     ├── usage.md           # 按场景查的操作手册 ← 日常看这个
-    └── fork-workflow.md   # 设计理由、取舍、已知坑
+    ├── fork-workflow.md   # 设计理由、取舍、已知坑
+    └── skills/            # 引入 skill 的本地改动账，规则在该目录 README.md
 ```
 
 ## 命令速查

@@ -178,3 +178,5 @@ gh auth refresh -s workflow
 
 **skill 目录名 = SKILL.md 的 name**：Claude Code 按目录发现 skill，两者不一致时行为容易误判。
 `-Name` 可以和上游目录名不同，但改了就要同步改 `SKILL.md`。
+
+**不要改上游的记账文件**：`CHANGELOG.md`、`TASKS.md`、`DECISIONS.md` 一旦和上游 diverge，自动同步会整份保留本仓库版本，这个文件以后的上游说明就进不来。本地需求写在 [`docs/skills/<name>.md`](skills/README.md)。

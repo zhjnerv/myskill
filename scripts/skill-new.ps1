@@ -69,6 +69,37 @@ description: $Description
     [System.IO.File]::WriteAllText((Join-Path $skillPath 'SKILL.md'), $skillMd,
                                    (New-Object System.Text.UTF8Encoding($false)))
     Write-Ok "已创建 skills/$Name/SKILL.md"
+
+    $today = Get-Date -Format 'yyyy-MM-dd'
+    $ledgers = @{
+        'TASKS.md' = @"
+# $Name 任务清单
+
+## 未完成
+
+## 已完成
+"@
+        'DECISIONS.md' = @"
+# $Name 决策
+
+只在有取舍时追加一条。每条写背景、决定、放弃的方案、影响与回退。
+"@
+        'CHANGELOG.md' = @"
+# CHANGELOG
+
+## [0.1.0] - $today
+
+### 新增
+- 初版骨架。
+"@
+    }
+    $utf8 = New-Object System.Text.UTF8Encoding($false)
+    foreach ($file in $ledgers.Keys) {
+        $body = ($ledgers[$file] -replace "`r`n", "`n")
+        if (-not $body.EndsWith("`n")) { $body += "`n" }
+        [System.IO.File]::WriteAllText((Join-Path $skillPath $file), $body, $utf8)
+    }
+    Write-Ok "已创建 skills/$Name/TASKS.md、DECISIONS.md、CHANGELOG.md"
 }
 
 $entry = New-SkillEntry -Name $Name -Origin 'own'
