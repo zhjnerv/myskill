@@ -1,0 +1,124 @@
+{
+  "schema_id": "cn-patent-claim-architecture/v1",
+  "case_id": "示例案件",
+  "generated_at": "2026-09-03",
+  "legal_effect": "ADVISORY_ONLY",
+  "source_artifacts": [
+    {
+      "artifact_id": "claims",
+      "path": "../权利要求书.md",
+      "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    },
+    {
+      "artifact_id": "specification",
+      "path": "../说明书.md",
+      "sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+    },
+    {
+      "artifact_id": "feature_ledger",
+      "path": "../../01-检索/feature-ledger.json",
+      "sha256": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+    }
+  ],
+  "independent_claims": [
+    {
+      "claim_number": 1,
+      "claim_type": "method",
+      "complexity_metrics": {
+        "formula_block_count": 0,
+        "symbol_definition_count": 0,
+        "execution_phases": [
+          "runtime_processing"
+        ]
+      },
+      "carrier_allocations": [
+        {
+          "content_id": "action-start",
+          "kind": "core_action",
+          "placement": "independent_claim",
+          "rationale": "必要处理起点。",
+          "source_feature_ids": [
+            "F001"
+          ]
+        },
+        {
+          "content_id": "action-execute",
+          "kind": "core_action",
+          "placement": "independent_claim",
+          "rationale": "必要输出动作。",
+          "source_feature_ids": [
+            "F001"
+          ]
+        }
+      ],
+      "conciseness_review": {
+        "status": "approved",
+        "statement": "独权只保留必要处理、判断和输出动作。",
+        "reviewed_at": "2026-09-03"
+      }
+    }
+  ],
+  "topology_nodes": [],
+  "claim_topologies": [
+    {
+      "claim_number": 1,
+      "parent_claim_numbers": [],
+      "declared_relations": []
+    },
+    {
+      "claim_number": 2,
+      "parent_claim_numbers": [
+        1
+      ],
+      "declared_relations": []
+    }
+  ],
+  "method_claims": [
+    {
+      "claim_number": 1,
+      "steps": [
+        {
+          "step_id": "S1",
+          "order": 1,
+          "action": "开始处理",
+          "specification_anchor": "开始处理"
+        },
+        {
+          "step_id": "S2",
+          "order": 2,
+          "action": "执行处理",
+          "specification_anchor": "执行处理"
+        }
+      ],
+      "decisions": [
+        {
+          "decision_id": "D1",
+          "after_step_id": "S1",
+          "condition": "条件满足？",
+          "true_target_step_id": "S2",
+          "false_target_step_id": "S1"
+        }
+      ],
+      "loops": [
+        {
+          "from_step_id": "S1",
+          "to_step_id": "S1",
+          "condition": "条件不满足"
+        }
+      ]
+    }
+  ],
+  "core_protection_point": {
+    "claim_number": 2,
+    "parent_claim_number": 1,
+    "feature_ids": [
+      "F002"
+    ],
+    "statement": "特征 F002 是在前期检索基础上确定的最具区别性的技术创新点，落在权利要求 2 作为权利要求 1 的直接从属项，确保独权失守时仍有紧密的第一退守位。",
+    "review": {
+      "status": "approved",
+      "statement": "已对标检索结论，确认 F002 的核心创新不存在于已知现有技术组合。",
+      "reviewed_at": "2026-09-03"
+    }
+  }
+}

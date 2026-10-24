@@ -1,0 +1,150 @@
+{
+  "schema_id": "cn-patent-drawing-style-brief/v1",
+  "case_id": "示例案件",
+  "generated_at": "2026-09-09T00:00:00+08:00",
+  "baseline_drawio": {
+    "path": "03-审查工作区/附图/style-input/原图.drawio",
+    "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+  },
+  "reference_drawio": {
+    "path": "03-审查工作区/附图/style-input/用户范例.drawio",
+    "sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+  },
+  "analysis_status": "REVIEW_REQUIRED",
+  "matching": {
+    "strategy": "stable_id_then_reference_sign_then_visible_label",
+    "matched_nodes": [],
+    "unmatched_baseline_nodes": [],
+    "unmatched_reference_nodes": []
+  },
+  "technical_diff": {
+    "added_nodes": [],
+    "removed_nodes": [],
+    "renamed_nodes": [],
+    "added_relations": [],
+    "removed_relations": [],
+    "endpoint_changes": []
+  },
+  "visual_diff": {
+    "page": {
+      "from": {
+        "width": "1600",
+        "height": "2280",
+        "grid_size": "1"
+      },
+      "to": {
+        "width": "827",
+        "height": "1169",
+        "grid_size": "10"
+      }
+    },
+    "changed_nodes": []
+  },
+  "structural_anomalies": [
+    {
+      "code": "STYLE-REFERENCE-ABSOLUTE-ENDPOINT",
+      "severity": "hard",
+      "subject": "R1",
+      "message": "范例边被拖成绝对端点；仅学习视觉位置。"
+    }
+  ],
+  "reusable_style": {
+    "page": {
+      "width": 827,
+      "height": 1169
+    },
+    "grid_size": 10,
+    "layout": {
+      "reading_direction": "top_to_bottom",
+      "main_flow_alignment": "center",
+      "sibling_layout": "horizontal",
+      "convergence": "return_to_main_axis"
+    },
+    "typography": {
+      "font_family": "Times New Roman",
+      "font_size": 24,
+      "all_font_sizes": [
+        24
+      ]
+    },
+    "node_geometry": {
+      "width": {
+        "minimum": 245,
+        "median": 374,
+        "maximum": 440
+      },
+      "height": {
+        "minimum": 90,
+        "median": 101,
+        "maximum": 168
+      },
+      "same_level_similar_size": true,
+      "fit_text_before_shrinking_font": true
+    },
+    "palette": {
+      "fill_colors": [
+        "#EAF2F8",
+        "#EEF4EA",
+        "#F4F4F4",
+        "#FFFFFF"
+      ],
+      "stroke_colors": [
+        "#405F73",
+        "#52634E",
+        "#4A4A4A",
+        "#666666"
+      ]
+    },
+    "edge_style": {
+      "edge_style": "orthogonalEdgeStyle",
+      "rounded": "1",
+      "end_arrow": "block",
+      "stroke_width": "1.4",
+      "native_edge_labels": true
+    }
+  },
+  "application_policy": {
+    "visual_only": true,
+    "preserve_stable_ids": true,
+    "preserve_element_labels": true,
+    "preserve_relation_ids": true,
+    "preserve_relation_endpoints": true,
+    "preserve_method_topology": true,
+    "rebuild_from_baseline": true,
+    "drop_reference_only_nodes": true,
+    "drop_reference_only_edges": true,
+    "restore_native_edge_labels": true
+  },
+  "approval": {
+    "status": "approved",
+    "approved_visual_only": true,
+    "approved_by": "用户",
+    "approved_at": "2026-09-09T00:00:00+08:00",
+    "acknowledged_anomaly_codes": [
+      "STYLE-REFERENCE-ABSOLUTE-ENDPOINT"
+    ]
+  },
+  "sanitization_plan": {
+    "required": false,
+    "strategy": "rebuild_from_baseline_apply_reference_geometry",
+    "baseline_topology_authority": true,
+    "copy_matched_node_geometry": true,
+    "copy_only_whitelisted_styles": true,
+    "reference_edges_are_style_only": true,
+    "restore_baseline_relation_ids": true,
+    "restore_baseline_relation_endpoints": true,
+    "restore_native_edge_labels": true,
+    "drop_reference_only_nodes": true,
+    "drop_reference_only_edges": true,
+    "reject_self_loops_not_in_baseline": true,
+    "repair_anomaly_codes": [],
+    "excluded_reference_node_ids": [],
+    "expected_postconditions": [
+      "technical_diff_empty",
+      "all_edges_have_source_and_target",
+      "no_unregistered_self_loops",
+      "no_detached_edge_labels",
+      "baseline_relation_labels_restored"
+    ]
+  }
+}

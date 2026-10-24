@@ -1,0 +1,70 @@
+{
+  "schema_id": "cn-patent-drawing-verification/v2",
+  "status": "FAIL",
+  "errors": [
+    {
+      "code": "DRAWING-VISUAL"
+    }
+  ],
+  "brief_validation": {
+    "status": "PASS",
+    "errors": []
+  },
+  "figures": [
+    {
+      "figure_number": 1,
+      "drawio": {
+        "passed": true,
+        "errors": [],
+        "nonwhite_fill_colors": [],
+        "drawio_skill_lint": {
+          "exit_code": 0,
+          "report": {
+            "errors": 0,
+            "warnings": 0
+          }
+        }
+      },
+      "official_reexport": {
+        "matched": true,
+        "exit_code": 0
+      },
+      "visual_review": {
+        "approved": false,
+        "checks": {
+          "text_legible": true,
+          "no_text_overlap": true,
+          "no_edge_crossing": false,
+          "no_edge_through_node": true,
+          "no_arrow_ambiguity": true,
+          "labels_adjacent": true,
+          "grayscale_safe": true,
+          "no_figure_number_on_canvas": true,
+          "monochrome": true,
+          "restrained_color": false,
+          "no_unnecessary_detours": true,
+          "consistent_typography": true,
+          "balanced_spacing": false,
+          "clear_visual_hierarchy": true,
+          "formal_patent_style": true,
+          "node_text_proportionate": true,
+          "no_text_overflow": true,
+          "no_excessive_canvas_margin": true
+        }
+      },
+      "png": {
+        "dpi": [
+          300.0,
+          300.0
+        ],
+        "maximum_margin": 10,
+        "margins": {
+          "left": 10,
+          "top": 10,
+          "right": 10,
+          "bottom": 10
+        }
+      }
+    }
+  ]
+}

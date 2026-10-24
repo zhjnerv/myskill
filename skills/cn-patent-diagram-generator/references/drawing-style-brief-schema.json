@@ -1,0 +1,344 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "cn-patent-drawing-style-brief/v1",
+  "title": "中国专利附图用户范例样式合同 v1",
+  "type": "object",
+  "required": [
+    "schema_id",
+    "case_id",
+    "generated_at",
+    "baseline_drawio",
+    "reference_drawio",
+    "analysis_status",
+    "matching",
+    "technical_diff",
+    "visual_diff",
+    "structural_anomalies",
+    "reusable_style",
+    "sanitization_plan",
+    "application_policy",
+    "approval"
+  ],
+  "properties": {
+    "schema_id": {
+      "const": "cn-patent-drawing-style-brief/v1"
+    },
+    "case_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "generated_at": {
+      "type": "string",
+      "minLength": 1
+    },
+    "baseline_drawio": {
+      "$ref": "#/$defs/artifact"
+    },
+    "reference_drawio": {
+      "$ref": "#/$defs/artifact"
+    },
+    "analysis_status": {
+      "enum": [
+        "CLEAN_VISUAL_ONLY",
+        "REVIEW_REQUIRED"
+      ]
+    },
+    "matching": {
+      "type": "object",
+      "required": [
+        "strategy",
+        "matched_nodes",
+        "unmatched_baseline_nodes",
+        "unmatched_reference_nodes"
+      ],
+      "properties": {
+        "strategy": {
+          "const": "stable_id_then_reference_sign_then_visible_label"
+        },
+        "matched_nodes": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        },
+        "unmatched_baseline_nodes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "unmatched_reference_nodes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": true
+    },
+    "technical_diff": {
+      "type": "object",
+      "required": [
+        "added_nodes",
+        "removed_nodes",
+        "renamed_nodes",
+        "added_relations",
+        "removed_relations",
+        "endpoint_changes"
+      ],
+      "properties": {
+        "added_nodes": {
+          "type": "array"
+        },
+        "removed_nodes": {
+          "type": "array"
+        },
+        "renamed_nodes": {
+          "type": "array"
+        },
+        "added_relations": {
+          "type": "array"
+        },
+        "removed_relations": {
+          "type": "array"
+        },
+        "endpoint_changes": {
+          "type": "array"
+        }
+      },
+      "additionalProperties": false
+    },
+    "visual_diff": {
+      "type": "object"
+    },
+    "structural_anomalies": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "code",
+          "severity",
+          "subject",
+          "message"
+        ],
+        "properties": {
+          "code": {
+            "type": "string",
+            "minLength": 1
+          },
+          "severity": {
+            "enum": [
+              "warning",
+              "hard"
+            ]
+          },
+          "subject": {
+            "type": "string"
+          },
+          "message": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "reusable_style": {
+      "type": "object",
+      "required": [
+        "page",
+        "grid_size",
+        "layout",
+        "typography",
+        "node_geometry",
+        "palette",
+        "edge_style"
+      ],
+      "additionalProperties": true
+    },
+    "application_policy": {
+      "type": "object",
+      "required": [
+        "visual_only",
+        "preserve_stable_ids",
+        "preserve_element_labels",
+        "preserve_relation_ids",
+        "preserve_relation_endpoints",
+        "preserve_method_topology",
+        "rebuild_from_baseline",
+        "drop_reference_only_nodes",
+        "drop_reference_only_edges",
+        "restore_native_edge_labels"
+      ],
+      "properties": {
+        "visual_only": {
+          "const": true
+        },
+        "preserve_stable_ids": {
+          "const": true
+        },
+        "preserve_element_labels": {
+          "const": true
+        },
+        "preserve_relation_ids": {
+          "const": true
+        },
+        "preserve_relation_endpoints": {
+          "const": true
+        },
+        "preserve_method_topology": {
+          "const": true
+        },
+        "rebuild_from_baseline": {
+          "const": true
+        },
+        "drop_reference_only_nodes": {
+          "const": true
+        },
+        "drop_reference_only_edges": {
+          "const": true
+        },
+        "restore_native_edge_labels": {
+          "const": true
+        }
+      },
+      "additionalProperties": false
+    },
+    "approval": {
+      "type": "object",
+      "required": [
+        "status",
+        "approved_visual_only",
+        "acknowledged_anomaly_codes"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "pending",
+            "approved",
+            "rejected"
+          ]
+        },
+        "approved_visual_only": {
+          "type": "boolean"
+        },
+        "approved_by": {
+          "type": "string"
+        },
+        "approved_at": {
+          "type": "string"
+        },
+        "acknowledged_anomaly_codes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        }
+      },
+      "additionalProperties": false
+    },
+    "sanitization_plan": {
+      "type": "object",
+      "required": [
+        "required",
+        "strategy",
+        "baseline_topology_authority",
+        "copy_matched_node_geometry",
+        "copy_only_whitelisted_styles",
+        "reference_edges_are_style_only",
+        "restore_baseline_relation_ids",
+        "restore_baseline_relation_endpoints",
+        "restore_native_edge_labels",
+        "drop_reference_only_nodes",
+        "drop_reference_only_edges",
+        "reject_self_loops_not_in_baseline",
+        "repair_anomaly_codes",
+        "excluded_reference_node_ids",
+        "expected_postconditions"
+      ],
+      "properties": {
+        "required": {
+          "type": "boolean"
+        },
+        "strategy": {
+          "const": "rebuild_from_baseline_apply_reference_geometry"
+        },
+        "baseline_topology_authority": {
+          "const": true
+        },
+        "copy_matched_node_geometry": {
+          "const": true
+        },
+        "copy_only_whitelisted_styles": {
+          "const": true
+        },
+        "reference_edges_are_style_only": {
+          "const": true
+        },
+        "restore_baseline_relation_ids": {
+          "const": true
+        },
+        "restore_baseline_relation_endpoints": {
+          "const": true
+        },
+        "restore_native_edge_labels": {
+          "const": true
+        },
+        "drop_reference_only_nodes": {
+          "const": true
+        },
+        "drop_reference_only_edges": {
+          "const": true
+        },
+        "reject_self_loops_not_in_baseline": {
+          "const": true
+        },
+        "repair_anomaly_codes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "excluded_reference_node_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "expected_postconditions": {
+          "type": "array",
+          "minItems": 5,
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "$defs": {
+    "artifact": {
+      "type": "object",
+      "required": [
+        "path",
+        "sha256"
+      ],
+      "properties": {
+        "path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

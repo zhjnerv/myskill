@@ -1,0 +1,598 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "cn-patent-drawing-brief/v2",
+  "title": "中国专利附图绘制交接合同 v2",
+  "description": "由专利起草工作流冻结技术事实，由 drawio-skill 负责制图和官方导出。",
+  "type": "object",
+  "required": [
+    "schema_id",
+    "case_id",
+    "production_skill",
+    "source_artifacts",
+    "output_root",
+    "global_constraints",
+    "visual_review_path",
+    "figures"
+  ],
+  "properties": {
+    "schema_id": {
+      "const": "cn-patent-drawing-brief/v2"
+    },
+    "case_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "generated_at": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_artifacts": {
+      "type": "array",
+      "minItems": 3,
+      "items": {
+        "type": "object",
+        "required": [
+          "artifact_id",
+          "path",
+          "sha256"
+        ],
+        "properties": {
+          "artifact_id": {
+            "enum": [
+              "claims",
+              "specification",
+              "feature_ledger",
+              "figure_index",
+              "other"
+            ]
+          },
+          "path": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "output_root": {
+      "type": "string",
+      "minLength": 1
+    },
+    "global_constraints": {
+      "type": "object",
+      "required": [
+        "color_policy",
+        "figure_number_on_canvas",
+        "edge_labels_allowed",
+        "annotation_nodes_may_be_edge_endpoints",
+        "separate_relation_label_nodes_allowed",
+        "native_edge_labels_required",
+        "official_drawio_export_required",
+        "visual_review_required",
+        "node_text_policy",
+        "vertical_spacing_policy",
+        "relation_label_policy",
+        "node_shape_policy",
+        "png_margin_policy"
+      ],
+      "properties": {
+        "figure_number_on_canvas": {
+          "const": false
+        },
+        "edge_labels_allowed": {
+          "const": true
+        },
+        "annotation_nodes_may_be_edge_endpoints": {
+          "const": false
+        },
+        "official_drawio_export_required": {
+          "const": true
+        },
+        "visual_review_required": {
+          "const": true
+        },
+        "minimum_png_dpi": {
+          "type": "number",
+          "minimum": 150,
+          "default": 300
+        },
+        "component_mark_pattern": {
+          "type": "string",
+          "default": "^[0-9]+$"
+        },
+        "step_mark_pattern": {
+          "type": "string",
+          "default": "^S[0-9]+$"
+        },
+        "color_policy": {
+          "type": "object",
+          "required": [
+            "mode",
+            "grayscale_safe",
+            "color_semantics_redundant",
+            "max_nonwhite_fills",
+            "allowed_fill_colors",
+            "allowed_stroke_colors"
+          ],
+          "properties": {
+            "mode": {
+              "enum": [
+                "monochrome",
+                "restrained_color"
+              ]
+            },
+            "grayscale_safe": {
+              "const": true
+            },
+            "color_semantics_redundant": {
+              "const": true
+            },
+            "max_nonwhite_fills": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 3
+            },
+            "allowed_fill_colors": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "string",
+                "pattern": "^#[0-9A-Fa-f]{6}$"
+              }
+            },
+            "allowed_stroke_colors": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "string",
+                "pattern": "^#[0-9A-Fa-f]{6}$"
+              }
+            },
+            "palette_asset": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": false
+        },
+        "native_edge_labels_required": {
+          "const": true
+        },
+        "separate_relation_label_nodes_allowed": {
+          "const": false
+        },
+        "node_text_policy": {
+          "type": "object",
+          "required": [
+            "reference_page_width",
+            "reference_page_height",
+            "minimum_font_size",
+            "maximum_width_to_font_size_ratio",
+            "maximum_frame_to_text_height_ratio",
+            "maximum_chinese_characters_per_line",
+            "horizontal_padding",
+            "vertical_padding",
+            "line_height_factor",
+            "maximum_wrapped_lines",
+            "wrap_required",
+            "font_autoshrink_allowed"
+          ],
+          "properties": {
+            "reference_page_width": {
+              "type": "number",
+              "exclusiveMinimum": 0,
+              "default": 827
+            },
+            "reference_page_height": {
+              "type": "number",
+              "exclusiveMinimum": 0,
+              "default": 1169
+            },
+            "minimum_font_size": {
+              "type": "number",
+              "minimum": 12,
+              "default": 14
+            },
+            "maximum_width_to_font_size_ratio": {
+              "type": "number",
+              "minimum": 8,
+              "maximum": 30,
+              "default": 20
+            },
+            "maximum_frame_to_text_height_ratio": {
+              "type": "number",
+              "minimum": 1,
+              "maximum": 2,
+              "default": 2
+            },
+            "maximum_chinese_characters_per_line": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 12,
+              "default": 12
+            },
+            "horizontal_padding": {
+              "type": "number",
+              "minimum": 0,
+              "default": 8
+            },
+            "vertical_padding": {
+              "type": "number",
+              "minimum": 0,
+              "default": 4
+            },
+            "line_height_factor": {
+              "type": "number",
+              "minimum": 1,
+              "maximum": 1.2,
+              "default": 1.2
+            },
+            "maximum_wrapped_lines": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 6,
+              "default": 4
+            },
+            "wrap_required": {
+              "const": true
+            },
+            "font_autoshrink_allowed": {
+              "const": false
+            }
+          },
+          "additionalProperties": false
+        },
+        "png_margin_policy": {
+          "type": "object",
+          "required": [
+            "crop_to_diagram_required",
+            "target_border_pixels",
+            "maximum_margin_pixels",
+            "white_threshold"
+          ],
+          "properties": {
+            "crop_to_diagram_required": {
+              "const": true
+            },
+            "target_border_pixels": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 30,
+              "default": 10
+            },
+            "maximum_margin_pixels": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 60,
+              "default": 20
+            },
+            "white_threshold": {
+              "type": "integer",
+              "minimum": 220,
+              "maximum": 255,
+              "default": 245
+            }
+          },
+          "additionalProperties": false
+        },
+        "vertical_spacing_policy": {
+          "type": "object",
+          "required": [
+            "minimum_effective_blank_to_font_height_ratio",
+            "maximum_effective_blank_to_font_height_ratio",
+            "subtract_native_edge_label_text_height",
+            "subtract_arrowhead_height",
+            "default_edge_label_font_size",
+            "default_arrowhead_height"
+          ],
+          "properties": {
+            "minimum_effective_blank_to_font_height_ratio": {
+              "const": 2
+            },
+            "maximum_effective_blank_to_font_height_ratio": {
+              "const": 3
+            },
+            "subtract_native_edge_label_text_height": {
+              "const": true
+            },
+            "subtract_arrowhead_height": {
+              "const": true
+            },
+            "default_edge_label_font_size": {
+              "const": 12
+            },
+            "default_arrowhead_height": {
+              "const": 6
+            }
+          },
+          "additionalProperties": false
+        },
+        "node_shape_policy": {
+          "type": "object",
+          "required": [
+            "cylinder_requires_data_store_kind",
+            "cylinder_label_pattern"
+          ],
+          "properties": {
+            "cylinder_requires_data_store_kind": {
+              "const": true
+            },
+            "cylinder_label_pattern": {
+              "const": "存储|记录|数据库|数据表|缓存|仓库"
+            }
+          },
+          "additionalProperties": false
+        },
+        "relation_label_policy": {
+          "type": "object",
+          "required": [
+            "minimum_font_to_node_font_ratio",
+            "minimum_vertical_clearance_in_arrowhead_heights",
+            "default_arrowhead_height",
+            "centered_vertical_label_required",
+            "vertical_label_center_tolerance"
+          ],
+          "properties": {
+            "minimum_font_to_node_font_ratio": {
+              "type": "number",
+              "minimum": 0.6666666666666666,
+              "maximum": 1,
+              "default": 0.6666666666666666
+            },
+            "minimum_vertical_clearance_in_arrowhead_heights": {
+              "type": "number",
+              "minimum": 1,
+              "maximum": 3,
+              "default": 1
+            },
+            "default_arrowhead_height": {
+              "type": "number",
+              "minimum": 6,
+              "maximum": 24,
+              "default": 6
+            },
+            "centered_vertical_label_required": {
+              "const": true
+            },
+            "vertical_label_center_tolerance": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 0.1,
+              "default": 0.1
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": true
+    },
+    "visual_review_path": {
+      "type": "string",
+      "minLength": 1
+    },
+    "figures": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "figure_number",
+          "title",
+          "file_stem",
+          "diagram_type",
+          "orientation",
+          "style_profile",
+          "purpose",
+          "claim_numbers",
+          "spec_anchors",
+          "elements",
+          "relations",
+          "outputs"
+        ],
+        "properties": {
+          "figure_number": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "file_stem": {
+            "type": "string",
+            "minLength": 1
+          },
+          "diagram_type": {
+            "enum": [
+              "system_block",
+              "method_flowchart",
+              "interaction_sequence",
+              "state_machine",
+              "data_flow",
+              "internal_structure",
+              "cross_functional_flow",
+              "network_topology",
+              "data_structure"
+            ]
+          },
+          "orientation": {
+            "enum": [
+              "portrait",
+              "landscape"
+            ]
+          },
+          "purpose": {
+            "type": "string",
+            "minLength": 1
+          },
+          "claim_numbers": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "minimum": 1
+            }
+          },
+          "spec_anchors": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "elements": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": [
+                "id",
+                "label",
+                "kind",
+                "source_anchor"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "pattern": "^[A-Za-z0-9_.:-]+$"
+                },
+                "label": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "kind": {
+                  "enum": [
+                    "component",
+                    "step",
+                    "actor",
+                    "data_store",
+                    "annotation",
+                    "start_end",
+                    "decision"
+                  ]
+                },
+                "reference_sign": {
+                  "type": "string"
+                },
+                "source_feature_ids": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "source_anchor": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "preferred_shape": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": true
+            }
+          },
+          "relations": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "id",
+                "source",
+                "target",
+                "kind",
+                "preferred_direction",
+                "direct_connection_required",
+                "source_anchor"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "pattern": "^[A-Za-z0-9_.:-]+$"
+                },
+                "source": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "target": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "label": {
+                  "type": "string"
+                },
+                "kind": {
+                  "enum": [
+                    "control",
+                    "data",
+                    "authorization",
+                    "state",
+                    "association"
+                  ]
+                },
+                "preferred_direction": {
+                  "enum": [
+                    "vertical",
+                    "horizontal",
+                    "auto"
+                  ]
+                },
+                "direct_connection_required": {
+                  "const": true
+                },
+                "source_anchor": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": true
+            }
+          },
+          "outputs": {
+            "type": "object",
+            "required": [
+              "drawio",
+              "preview_png",
+              "final_png",
+              "export_report"
+            ],
+            "properties": {
+              "drawio": {
+                "type": "string",
+                "minLength": 1
+              },
+              "preview_png": {
+                "type": "string",
+                "minLength": 1
+              },
+              "final_png": {
+                "type": "string",
+                "minLength": 1
+              },
+              "export_report": {
+                "type": "string",
+                "minLength": 1
+              },
+              "drawio_lint_report": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          },
+          "style_profile": {
+            "enum": [
+              "patent_monochrome",
+              "patent_restrained_color"
+            ]
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "production_skill": {
+      "const": "drawio-skill"
+    }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,53 @@
+{
+  "schema_id": "cn-patent-drawing-visual-review/v2",
+  "figures": [
+    {
+      "figure_number": 1,
+      "approved": true,
+      "png_sha256": "f95d0bbc0c0c69c39987f53230bb28c91e55f409e030383307e99cf624009010",
+      "checks": {
+        "text_legible": true,
+        "no_text_overlap": true,
+        "no_edge_crossing": true,
+        "no_edge_through_node": true,
+        "no_arrow_ambiguity": true,
+        "labels_adjacent": true,
+        "no_unnecessary_detours": true,
+        "consistent_typography": true,
+        "balanced_spacing": true,
+        "clear_visual_hierarchy": true,
+        "formal_patent_style": true,
+        "grayscale_safe": true,
+        "no_figure_number_on_canvas": true,
+        "node_text_proportionate": true,
+        "no_text_overflow": true,
+        "no_excessive_canvas_margin": true,
+        "monochrome": true
+      }
+    },
+    {
+      "figure_number": 2,
+      "approved": true,
+      "png_sha256": "66ab07fbe69fc054439c1eef645b6d1b21f328d1dc7fc8ed658b220f3e7931e0",
+      "checks": {
+        "text_legible": true,
+        "no_text_overlap": true,
+        "no_edge_crossing": true,
+        "no_edge_through_node": true,
+        "no_arrow_ambiguity": true,
+        "labels_adjacent": true,
+        "no_unnecessary_detours": true,
+        "consistent_typography": true,
+        "balanced_spacing": true,
+        "clear_visual_hierarchy": true,
+        "formal_patent_style": true,
+        "grayscale_safe": true,
+        "no_figure_number_on_canvas": true,
+        "node_text_proportionate": true,
+        "no_text_overflow": true,
+        "no_excessive_canvas_margin": true,
+        "monochrome": true
+      }
+    }
+  ]
+}

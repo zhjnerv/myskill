@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "cn-patent-stage2-gate/v1",
+  "title": "中国发明专利起草阶段门（阶段 2 → 阶段 3）",
+  "description": "把 CNIPA 人工检索状态、范本确认状态和起草风格交接从散文变成机器状态位。未过门不得开始撰写权利要求与说明书。跳过必须携带用户原话——agent 复述的“用户已同意”不构成授权。",
+  "type": "object",
+  "required": ["schema_id", "case_id", "cnipa_manual_search", "template_selection", "style_brief_path", "feature_ledger_path"],
+  "properties": {
+    "schema_id": {"const": "cn-patent-stage2-gate/v1"},
+    "case_id": {"type": "string", "minLength": 1},
+    "cnipa_manual_search": {
+      "type": "object",
+      "required": ["status"],
+      "properties": {
+        "status": {
+          "enum": ["completed", "partial", "not_completed"],
+          "description": "仓库没有 CNIPA 官方检索接口。completed 必须附检索记录；partial 与 not_completed 必须附用户授权。"
+        },
+        "records": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["date", "query", "hits"],
+            "properties": {
+              "date": {"type": "string", "minLength": 1},
+              "query": {"type": "string", "minLength": 1},
+              "hits": {"type": "integer", "minimum": 0},
+              "screening": {"type": "string"}
+            },
+            "additionalProperties": false
+          }
+        },
+        "user_authorization": {"$ref": "#/$defs/authorization"}
+      },
+      "additionalProperties": false
+    },
+    "template_selection": {
+      "type": "object",
+      "required": ["status"],
+      "properties": {
+        "status": {
+          "enum": ["confirmed", "declined", "pending"],
+          "description": "pending 一律阻断。用户确认范本前不得起草，这正是上一轮先出稿再补范本、返工三轮的原因。"
+        },
+        "style_guides": {
+          "type": "array",
+          "items": {"type": "string", "minLength": 1},
+          "description": "已确认范本对应的 template-style-guide.json 路径，相对于工作目录。"
+        },
+        "user_authorization": {"$ref": "#/$defs/authorization"}
+      },
+      "additionalProperties": false
+    },
+    "style_brief_path": {"type": "string", "minLength": 1},
+    "feature_ledger_path": {"type": "string", "minLength": 1}
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "authorization": {
+      "type": "object",
+      "required": ["user_quote", "granted_at"],
+      "properties": {
+        "user_quote": {
+          "type": "string",
+          "minLength": 4,
+          "description": "用户原话。不接受 agent 转述或推定同意。"
+        },
+        "granted_at": {"type": "string", "minLength": 1},
+        "scope": {"type": "string"}
+      },
+      "additionalProperties": false
+    }
+  }
+}

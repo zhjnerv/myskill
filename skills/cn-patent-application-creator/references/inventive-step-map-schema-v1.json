@@ -1,0 +1,225 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "cn-patent-inventive-step-map/v1",
+  "type": "object",
+  "required": [
+    "schema_id",
+    "case_id",
+    "legal_effect",
+    "source_artifacts",
+    "references",
+    "cells",
+    "couplings",
+    "claim_assessments"
+  ],
+  "properties": {
+    "schema_id": {
+      "const": "cn-patent-inventive-step-map/v1"
+    },
+    "case_id": {
+      "type": "string"
+    },
+    "legal_effect": {
+      "const": "ADVISORY_ONLY"
+    },
+    "source_artifacts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "artifact_id",
+          "path",
+          "sha256"
+        ],
+        "properties": {
+          "artifact_id": {
+            "enum": [
+              "claims",
+              "specification",
+              "feature_ledger",
+              "claim_architecture"
+            ]
+          },
+          "path": {
+            "type": "string"
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "references": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "ref_id",
+          "role"
+        ],
+        "properties": {
+          "ref_id": {
+            "type": "string"
+          },
+          "role": {
+            "enum": [
+              "closest",
+              "combination",
+              "background",
+              "common_knowledge"
+            ]
+          },
+          "citation": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "cells": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "feature_id",
+          "ref_id"
+        ],
+        "properties": {
+          "feature_id": {
+            "type": "string",
+            "pattern": "^F[0-9]{3}$"
+          },
+          "ref_id": {
+            "type": "string"
+          },
+          "disclosed": {
+            "enum": [
+              "yes",
+              "no",
+              "partial"
+            ]
+          },
+          "locator": {
+            "type": "string"
+          },
+          "function_match": {
+            "enum": [
+              "same",
+              "different"
+            ],
+            "description": "disclosed=yes 时必填：该特征在对比文件中所起作用与本申请是否相同。公知常识覆盖一律按相同作用处理。"
+          },
+          "searched_scope": {
+            "type": "string"
+          },
+          "common_knowledge_risk": {
+            "enum": [
+              "high",
+              "medium",
+              "low"
+            ]
+          },
+          "evidence_type": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "couplings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "feature_a",
+          "feature_b",
+          "dependency",
+          "statement_anchor"
+        ],
+        "properties": {
+          "feature_a": {
+            "type": "string",
+            "pattern": "^F[0-9]{3}$"
+          },
+          "feature_b": {
+            "type": "string",
+            "pattern": "^F[0-9]{3}$"
+          },
+          "dependency": {
+            "type": "string"
+          },
+          "statement_anchor": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "claim_assessments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "claim_set",
+          "min_refs_to_cover",
+          "coupling_evidence",
+          "grade",
+          "review"
+        ],
+        "properties": {
+          "claim_set": {
+            "type": "array",
+            "items": {
+              "type": "integer"
+            }
+          },
+          "min_refs_to_cover": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "coupling_evidence": {
+            "type": "boolean"
+          },
+          "grade": {
+            "enum": [
+              "novelty_risk",
+              "weak",
+              "defensible"
+            ],
+            "description": "只能由验证器复算写回；人工修改会触发 ISM-GRADE-001。"
+          },
+          "review": {
+            "type": "object",
+            "required": [
+              "status",
+              "statement"
+            ],
+            "properties": {
+              "status": {
+                "enum": [
+                  "pending",
+                  "approved",
+                  "revise"
+                ]
+              },
+              "statement": {
+                "type": "string"
+              },
+              "reviewed_at": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false,
+  "title": "中国发明专利创造性防御地图 v1"
+}

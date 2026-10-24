@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
+.env
+.env.*
+!.env.example
+*-workspace/
+archive/
+*.docx
+# 最终专利申请文件的项目模板，不是临时产物
+!/模版.docx
+*.pdf
+*.png
+*.svg
+*.drawio
+
+# 本地客户案件与一次性迁移脚本（禁止提交）
+.local-case-archive/

@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "cn-patent-drawing-reference-sanitization/v1",
+  "title": "中国专利附图用户修改稿安全重建报告 v1",
+  "type": "object",
+  "required": [
+    "schema_id",
+    "generated_at",
+    "status",
+    "baseline",
+    "reference",
+    "output",
+    "strategy",
+    "applied_node_count",
+    "applied_nodes",
+    "copied_edge_geometry_ids",
+    "reset_edge_geometry_ids",
+    "retained_baseline_relation_ids",
+    "dropped_reference_only_node_ids",
+    "retained_unmatched_baseline_node_ids",
+    "visual_review_required",
+    "postconditions"
+  ],
+  "properties": {
+    "schema_id": {"const": "cn-patent-drawing-reference-sanitization/v1"},
+    "generated_at": {"type": "string", "minLength": 1},
+    "status": {"const": "STRUCTURE_SAFE_VISUAL_REVIEW_REQUIRED"},
+    "baseline": {"$ref": "#/$defs/artifact"},
+    "reference": {"$ref": "#/$defs/artifact"},
+    "output": {"$ref": "#/$defs/artifact"},
+    "strategy": {"const": "rebuild_from_baseline_apply_reference_geometry"},
+    "applied_node_count": {"type": "integer", "minimum": 0},
+    "applied_nodes": {"type": "array", "items": {"type": "object"}},
+    "copied_edge_geometry_ids": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "reset_edge_geometry_ids": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "retained_baseline_relation_ids": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "dropped_reference_only_node_ids": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "retained_unmatched_baseline_node_ids": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "visual_review_required": {"const": true},
+    "postconditions": {
+      "type": "object",
+      "required": [
+        "baseline_ids_preserved",
+        "baseline_relation_endpoints_preserved",
+        "baseline_relation_labels_preserved",
+        "reference_only_nodes_not_copied",
+        "reference_only_edges_not_copied",
+        "absolute_endpoints_not_propagated",
+        "self_loops_not_propagated"
+      ],
+      "properties": {
+        "baseline_ids_preserved": {"const": true},
+        "baseline_relation_endpoints_preserved": {"const": true},
+        "baseline_relation_labels_preserved": {"const": true},
+        "reference_only_nodes_not_copied": {"const": true},
+        "reference_only_edges_not_copied": {"const": true},
+        "absolute_endpoints_not_propagated": {"const": true},
+        "self_loops_not_propagated": {"const": true}
+      },
+      "additionalProperties": false
+    }
+  },
+  "$defs": {
+    "artifact": {
+      "type": "object",
+      "required": ["path", "sha256"],
+      "properties": {
+        "path": {"type": "string", "minLength": 1},
+        "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

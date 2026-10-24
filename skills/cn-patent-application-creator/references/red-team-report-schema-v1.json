@@ -1,0 +1,94 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "cn-patent-red-team-report/v1",
+  "title": "中国专利红队报告",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_id",
+    "case_id",
+    "team",
+    "legal_effect",
+    "bound_artifacts",
+    "attacks",
+    "disposition",
+    "pending_decisions"
+  ],
+  "properties": {
+    "schema_id": {"const": "cn-patent-red-team-report/v1"},
+    "case_id": {"type": "string", "minLength": 1},
+    "team": {"enum": ["claims", "package"]},
+    "legal_effect": {"const": "ADVISORY_ONLY"},
+    "bound_artifacts": {
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 4,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["role", "path", "sha256"],
+        "properties": {
+          "role": {"enum": ["claims", "specification", "abstract", "drawings"]},
+          "path": {"type": "string", "minLength": 1},
+          "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+        }
+      }
+    },
+    "attacks": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["attack_id", "checklist_item", "result", "evidence"],
+        "properties": {
+          "attack_id": {"type": "string", "pattern": "^A\\d{3}$"},
+          "checklist_item": {"type": "string", "minLength": 1},
+          "result": {"enum": ["攻击奏效", "攻击未奏效", "证据不足"]},
+          "evidence": {"type": "string", "minLength": 1}
+        }
+      }
+    },
+    "disposition": {"enum": ["RETURN_TO_DRAFTING", "NO_RETURN"]},
+    "pending_decisions": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/pending_decision"}
+    }
+  },
+  "$defs": {
+    "pending_decision": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["key", "source", "target", "question", "adopted_default", "options", "impact", "decider"],
+      "properties": {
+        "key": {"type": "string", "minLength": 1},
+        "source": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["tool_id", "rule_id"],
+          "properties": {
+            "tool_id": {"type": "string", "minLength": 1},
+            "rule_id": {"type": "string", "minLength": 1}
+          }
+        },
+        "target": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["kind", "locator"],
+          "properties": {
+            "kind": {"enum": ["process", "ledger", "claim", "specification", "abstract", "drawing", "review"]},
+            "locator": {"type": "string", "minLength": 1}
+          }
+        },
+        "question": {"type": "string", "minLength": 1},
+        "adopted_default": {"type": "string", "minLength": 1},
+        "options": {"type": "array", "items": {"type": "string", "minLength": 1}},
+        "impact": {
+          "type": "array",
+          "items": {"enum": ["protection_scope", "grant_risk", "formality", "delivery", "evidence"]}
+        },
+        "decider": {"enum": ["inventor", "attorney", "both"]}
+      }
+    }
+  }
+}

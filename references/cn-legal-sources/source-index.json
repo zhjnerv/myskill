@@ -1,0 +1,62 @@
+{
+  "schema_id": "cn-patent-legal-source-index/v1",
+  "policy": {
+    "default": "load_topic_files_only",
+    "full_guide": "only_for_full_text_search_or_cross_chapter_conflict",
+    "authoritative_root": "references/cn-legal-sources"
+  },
+  "sources": {
+    "patent_law": "专利法(2020-10-17).md",
+    "implementing_rules": "专利法实施细则(2023-12-21).md",
+    "examination_guide_full": "审查指南2026MD/guide-full.md"
+  },
+  "topics": {
+    "subject_matter_and_computer_programs": [
+      "专利法(2020-10-17).md",
+      "审查指南2026MD/chapters/第二部分-第一章 不授予专利权的申请.md",
+      "审查指南2026MD/chapters/第二部分-第九章 关于涉及计算机程序的发明专利申请审查的若干规定.md"
+    ],
+    "claims_and_support": [
+      "专利法(2020-10-17).md",
+      "专利法实施细则(2023-12-21).md",
+      "审查指南2026MD/chapters/第二部分-第二章 说明书和权利要求书.md"
+    ],
+    "novelty": [
+      "专利法(2020-10-17).md",
+      "审查指南2026MD/chapters/第二部分-第三章 新颖性.md"
+    ],
+    "inventive_step": [
+      "专利法(2020-10-17).md",
+      "审查指南2026MD/chapters/第二部分-第四章 创造性.md"
+    ],
+    "utility": [
+      "专利法(2020-10-17).md",
+      "审查指南2026MD/chapters/第二部分-第五章 实用性.md"
+    ],
+    "unity_and_divisional": [
+      "专利法(2020-10-17).md",
+      "专利法实施细则(2023-12-21).md",
+      "审查指南2026MD/chapters/第二部分-第六章 单一性和分案申请.md"
+    ],
+    "prior_art_search": [
+      "审查指南2026MD/chapters/第二部分-第七章 检索.md"
+    ],
+    "substantive_examination": [
+      "审查指南2026MD/chapters/第二部分-第八章 实质审查程序.md"
+    ],
+    "filing_formalities": [
+      "专利法实施细则(2023-12-21).md",
+      "审查指南2026MD/chapters/第一部分-第一章 发明初步审查.md",
+      "审查指南2026MD/chapters/第五部分-第一章 专利申请文件及手续.md"
+    ],
+    "pct_national_phase": [
+      "审查指南2026MD/chapters/第三部分-第一章 进入国家阶段的国际申请的初步审查和事务处理.md",
+      "审查指南2026MD/chapters/第三部分-第二章 进入国家阶段的国际申请的实质审查.md"
+    ],
+    "reexamination_and_invalidation": [
+      "审查指南2026MD/chapters/第四部分-第一章 总则.md",
+      "审查指南2026MD/chapters/第四部分-第二章 复审请求的审查.md",
+      "审查指南2026MD/chapters/第四部分-第三章 无效宣告请求的审查.md"
+    ]
+  }
+}

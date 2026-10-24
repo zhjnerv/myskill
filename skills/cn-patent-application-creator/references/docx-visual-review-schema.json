@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "cn-patent-docx-visual-review/v1",
+  "type": "object",
+  "required": ["schema_id", "reviewed_at", "reviewer", "docx_path", "docx_sha256", "page_count", "checks", "approved"],
+  "properties": {
+    "schema_id": {"const": "cn-patent-docx-visual-review/v1"},
+    "reviewed_at": {"type": "string", "minLength": 1},
+    "reviewer": {"type": "string", "minLength": 1},
+    "docx_path": {"type": "string", "minLength": 1},
+    "docx_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "page_count": {"type": "integer", "minimum": 1},
+    "checks": {
+      "type": "object",
+      "required": ["all_figures_present", "figures_legible", "figure_captions_same_page", "no_clipping", "no_abnormal_blank_pages", "abstract_figure_correct"],
+      "properties": {
+        "all_figures_present": {"const": true},
+        "figures_legible": {"const": true},
+        "figure_captions_same_page": {"const": true},
+        "no_clipping": {"const": true},
+        "no_abnormal_blank_pages": {"const": true},
+        "abstract_figure_correct": {"const": true}
+      },
+      "additionalProperties": true
+    },
+    "approved": {"const": true},
+    "notes": {"type": "string"}
+  },
+  "additionalProperties": false
+}
