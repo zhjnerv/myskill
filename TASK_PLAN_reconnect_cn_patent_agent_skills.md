@@ -19,11 +19,11 @@
 - [x] 复查链接目标、Git 状态和剩余差异。结果：Codex/Claude 各 7 个入口和 Codex vendor 包根均指向本仓库新包；旧 `.cc-switch` 源仍在；`git diff --cached --check` 通过；暂存包 tree 与远端 `7ac38cee...` 一致；未暂存改动为 0。
 - [x] 复核分支、HEAD、身份来源、暂存范围和主目录 main 门禁。结果：`main`，`HEAD` 与 `origin/main` 同为 `82dd1bd4`；生效身份 `zhjnerv <zhjwork@gmail.com>` 来自全局配置，无仓库/工作树覆盖，`identity-audit.sh whoami` 为 `IDENTITY_AUDIT_OK`；staged 245 路径，`git diff --cached --check` 通过；未安装 main-guard、无 `index.lock`。
 - [x] 运行本地隐私预检。结果：首次命中 `vendor/cn-patent-agent-skills/模版.docx` 的 `binary-content`；已按 docx 结构检查正文、页眉页脚、脚注、批注、嵌入对象、核心/应用元数据与内嵌图片，确认是虚构示例模板，且字节与已发表旧路径 `vendor/claude-patent-creator-cn/模版.docx`（blob `f61e682`）完全一致，本次仅改名；审查产物 `.git/privacy-review-artifacts/模版.docx.review.json`（sha256 `5330427c...`），登记 `.git/privacy-reviewed.json` 例外后复跑 `PRIVACY_OK`。
-- [ ] 提交暂存范围，提交后再用安全推送门禁推送 `main` 到 `origin/main`。
-- [ ] 复核本地 HEAD、远端跟踪分支、工作区剩余现场，并记录提交/推送结果。
+- [x] 提交暂存范围，提交后再用安全推送门禁推送 `main` 到 `origin/main`。结果：提交 `5f9faac`（245 路径）；首次推送时远端已前进到 `3b2d157`，门禁按预期拒绝非祖先 base；并入远端后生成合并提交 `f529685`，`registry.json` 自动合并保留双方更新；`safe-push.sh` 输出 `IDENTITY_GATE_OK`（2 commits）与 `PRIVACY_OK`，推送 `3b2d157..f529685` 成功，`SAFE_PUSH_OK`。
+- [x] 复核本地 HEAD、远端跟踪分支、工作区剩余现场，并记录提交/推送结果。结果：推送后本地 `HEAD` 与 `origin/main` 一致；工作区仅剩 7 个既有未跟踪文件与本次任务无关，保留未动。
 
 ## 当前进度
-迁移与门禁完成。245 个路径已暂存，身份与隐私门禁通过；用户已授权提交并推送；另有 7 个既有未跟踪文件与本次任务无关，保留未动。
+迁移、门禁、提交、远端合并与推送均完成；远端 `main` 已包含 `f529685`。本计划文件的结果更新作为收尾记录提交。另有 7 个既有未跟踪文件与本次任务无关，保留未动。
 
 ## 下一步动作
-提交暂存范围，然后用 `safe-push.sh` 推送 `main` 到 `origin/main`。
+无。
