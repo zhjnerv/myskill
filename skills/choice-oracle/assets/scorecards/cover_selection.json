@@ -1,0 +1,101 @@
+{
+  "name": "封面可用性判决",
+  "version": "1.0",
+  "purpose": "判断一张图片能否直接用作文章封面；需要时可用 --context 传入文章标题或主题",
+  "gate_policy": "report",
+  "questions": {
+    "is_visual": {
+      "type": "noul",
+      "instructions": "这张图是否是真实可用的图片素材，而不是纯色块、报错截图、二维码或大面积空白？",
+      "criteria": {
+        "true": "有实际画面内容可供判断",
+        "false": "纯色、空白、报错页、二维码等无法当封面的素材"
+      },
+      "pass_if_yes_at_least": 0.5
+    },
+    "has_readable_focus": {
+      "type": "noul",
+      "instructions": "缩小到手机信息流小图后，画面中心还能看出主体或明确视觉重点吗？",
+      "criteria": {
+        "true": "小图状态下仍有明确主体或重点",
+        "false": "缩小后糊成一团或只剩背景"
+      },
+      "pass_if_yes_at_least": 0.5
+    },
+    "thumbnail_legibility": {
+      "type": "score",
+      "instructions": "评估缩到手机列表小图后，主体和关键信息是否还读得出来",
+      "criteria": [
+        "缩小后完全无法辨认内容",
+        "缩小后糊成一团，元素互相粘在一起",
+        "缩小后只能看出大致轮廓，需要点开放大",
+        "缩小后仍能看清主体，次要细节丢失",
+        "缩小后主体一眼可辨，关键元素不丢"
+      ]
+    },
+    "text_overlay_space": {
+      "type": "score",
+      "instructions": "评估画面里是否有干净区域可以叠标题文字，叠字后是否还看得清",
+      "criteria": [
+        "无处可叠，任何位置叠字都会看不清",
+        "纹理杂乱，叠字会和画面互相打架",
+        "可用区域零碎，叠字位置受限",
+        "有可用区域，需要轻微压暗或加底色",
+        "有大片干净区域，叠字后对比强烈清晰"
+      ]
+    },
+    "click_appeal": {
+      "type": "score",
+      "instructions": "评估这张图在信息流里的点击吸引力：是否一眼停住、有情绪或悬念",
+      "criteria": [
+        "低质或与内容无关，会引起反感",
+        "平淡或含义不明，划过去就忘",
+        "干净但常规，划过去也不可惜",
+        "有明确看点，比同屏其他封面更抢眼",
+        "强钩子，情绪或冲突明显，让人想点开"
+      ]
+    },
+    "topic_match": {
+      "type": "score",
+      "instructions": "评估画面与文章主题的贴合度：是否如实表达主题，有无误导或标题党嫌疑。若没提供文章主题，就按画面是否自洽、信息明确来判断",
+      "criteria": [
+        "与主题无关或明显夸大",
+        "只有局部元素相关，容易误导",
+        "勉强相关，需要文字说明才联系得上",
+        "切题，用了合理的隐喻或氛围",
+        "直接呈现主题核心，看完不觉得被骗"
+      ]
+    },
+    "style_category": {
+      "type": "choice",
+      "instructions": "判断这张封面属于哪一类视觉风格",
+      "criteria": {
+        "photo": "真实照片或摄影作品",
+        "illustration": "插画、手绘或矢量图形",
+        "screenshot": "软件界面、聊天记录或网页截图",
+        "chart": "图表、数据可视化或信息图",
+        "text_driven": "以文字排版为主的设计图"
+      }
+    },
+    "pick_best": {
+      "type": "choice",
+      "mode": "compare",
+      "instructions": "从这几张候选图里选出最适合做文章封面的一张；比较小图辨识度、叠字空间、点击吸引力和与主题的贴合度",
+      "criteria": {
+        "<option>": "候选图 {id}"
+      }
+    }
+  },
+  "weights": {
+    "thumbnail_legibility": 1.5,
+    "text_overlay_space": 1.0,
+    "click_appeal": 1.5,
+    "topic_match": 1.2
+  },
+  "grade_bands": [
+    { "min": 8.5, "grade": "可直接用" },
+    { "min": 7.0, "grade": "改后可用" },
+    { "min": 5.0, "grade": "备选" },
+    { "min": 0, "grade": "弃用" }
+  ]
+}

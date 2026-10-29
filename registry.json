@@ -73,6 +73,18 @@
       "lastSync": "2026-09-25T09:12:11Z",
       "lastSyncTree": "2d0e48d6d3df0c805943e58ced4fd94fbd79e0d6",
       "notes": ""
+    },
+    {
+      "name": "choice-oracle",
+      "origin": "own",
+      "fork": null,
+      "upstream": null,
+      "branch": null,
+      "subpath": null,
+      "vendoredAt": null,
+      "lastSync": null,
+      "lastSyncTree": null,
+      "notes": ""
     }
   ]
 }

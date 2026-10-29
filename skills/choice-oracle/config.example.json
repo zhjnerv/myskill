@@ -1,0 +1,5 @@
+{
+  "base_url": "https://emrank.tech",
+  "api_key": "<your-key>",
+  "model": "cloudflare/clef-flash"
+}

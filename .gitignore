@@ -40,3 +40,5 @@ skills/**/config/.env
 
 # ---- Playwright MCP 运行日志 ----
 .playwright-mcp/
+# choice-oracle 的本地后端配置（含密钥）
+skills/**/config.local.json
