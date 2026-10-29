@@ -55,6 +55,16 @@ def skill_tree(prefix: str) -> str:
     return result.stdout.strip()
 
 
+def was_never_added(result: subprocess.CompletedProcess[str], prefix: str) -> bool:
+    detail = f"{result.stdout or ''}\n{result.stderr or ''}"
+    return f"can't squash-merge: '{prefix}' was never added." in detail
+
+
+def rejoin_subtree(prefix: str, name: str) -> None:
+    print(f"[rejoin] {name}: recording {prefix} in subtree history", flush=True)
+    git("subtree", "split", f"--prefix={prefix}", "--rejoin")
+
+
 def load_registry() -> dict:
     return json.loads(REGISTRY.read_text(encoding="utf-8"))
 
@@ -105,6 +115,15 @@ def sync_skill(entry: dict, cache: dict[tuple[str, str], Path], mirror_root: Pat
         "--squash", "-m", f"subtree: sync {name} from upstream",
         check=False,
     )
+    if pull.returncode != 0 and was_never_added(pull, prefix):
+        # A prefix renamed outside "git subtree add" has no squash metadata
+        # yet. Rejoin records that metadata without changing the current tree.
+        rejoin_subtree(prefix, name)
+        pull = git(
+            "subtree", "pull", f"--prefix={prefix}", str(mirror), ref,
+            "--squash", "-m", f"subtree: sync {name} from upstream",
+            check=False,
+        )
     if pull.returncode != 0:
         sys.stderr.write(pull.stderr)
         sys.stderr.write(pull.stdout)
