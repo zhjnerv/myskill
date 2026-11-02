@@ -10,7 +10,7 @@
       "subpath": null,
       "localPrefix": "vendor/cn-patent-agent-skills",
       "vendoredAt": "2026-09-26T09:23:38Z",
-      "lastSync": "2026-10-26T10:13:55Z",
+      "lastSync": "2026-11-02T05:40:14Z",
       "lastSyncTree": "7ac38cee95dea6056d4a94e52ce605a1175e53b1",
       "notes": "Own package, not a third-party fork. Shared legal sources and scripts live at the package root; do not vendor the seven skills separately. Package renamed from claude-patent-creator-cn."
     },
