@@ -27,18 +27,6 @@
       "notes": ""
     },
     {
-      "name": "legal-skill-alignment",
-      "origin": "vendored",
-      "fork": "https://github.com/zhjnerv/legal-skills",
-      "upstream": "https://github.com/cat-xierluo/legal-skills",
-      "branch": "main",
-      "subpath": "skills/legal-skill-alignment",
-      "vendoredAt": "2026-10-02T10:01:10Z",
-      "lastSync": "2026-10-02T10:01:10Z",
-      "lastSyncTree": "04e08d8f561427840516f650b736777e12596d5a",
-      "notes": ""
-    },
-    {
       "name": "md2word",
       "origin": "vendored",
       "fork": "https://github.com/zhjnerv/legal-skills",
