@@ -73,6 +73,42 @@
       "lastSync": null,
       "lastSyncTree": null,
       "notes": ""
+    },
+    {
+      "name": "cn-patent-fast-track-screener",
+      "origin": "own",
+      "fork": null,
+      "upstream": null,
+      "branch": null,
+      "subpath": null,
+      "vendoredAt": null,
+      "lastSync": null,
+      "lastSyncTree": null,
+      "notes": "Locally authored skill migrated from the patent-work open_skills package; scripts, data, tests and evals are self-contained."
+    },
+    {
+      "name": "cn-office-action-prior-art-collector",
+      "origin": "own",
+      "fork": null,
+      "upstream": null,
+      "branch": null,
+      "subpath": null,
+      "vendoredAt": null,
+      "lastSync": null,
+      "lastSyncTree": null,
+      "notes": "Locally authored skill migrated from the patent-work open_skills package; scripts, references, tests and evals are self-contained."
+    },
+    {
+      "name": "cn-trademark-goods-services-recommender",
+      "origin": "own",
+      "fork": null,
+      "upstream": null,
+      "branch": null,
+      "subpath": null,
+      "vendoredAt": null,
+      "lastSync": null,
+      "lastSyncTree": null,
+      "notes": "Locally authored skill migrated from the patent-work open_skills package; scripts, data, templates, tests and evals are self-contained."
     }
   ]
 }

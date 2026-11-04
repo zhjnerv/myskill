@@ -1,0 +1,44 @@
+{
+  "groupCode": "2609",
+  "groupName": "亚麻布标记用品",
+  "classCode": "26",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "亚麻织品标记用数字",
+          "code": "260045",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "亚麻织品标记用字母",
+          "code": "260069",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "竞赛者用号码",
+          "code": "260112",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "亚麻织品标记用数字或字母",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "亚麻织品标记用交织字母饰片",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:19.308Z"
+}

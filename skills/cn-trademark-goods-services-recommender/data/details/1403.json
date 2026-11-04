@@ -1,0 +1,1005 @@
+{
+  "groupCode": "1403",
+  "groupName": "珠宝，首饰，宝石及贵重金属制纪念品",
+  "classCode": "14",
+  "notes": [
+    "注：1.本类似群与第八版及以前版本1402仿金制品，镀金物品交叉检索。",
+    "2.本类似群与第十版及以前版本 1621 念珠交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "玛瑙",
+          "code": "140001",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "黄琥珀首饰",
+          "code": "140004",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "人造琥珀制珍珠（压制的琥珀）",
+          "code": "140005",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "护身符（首饰）",
+          "code": "140006",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "细银丝（银线）",
+          "code": "140008",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "银线（首饰）",
+          "code": "140009",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "手镯（首饰）",
+          "code": "140015",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "首饰用小饰物",
+          "code": "140018",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "胸针（首饰）",
+          "code": "140019",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "链（首饰）",
+          "code": "140024",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "项链（首饰）",
+          "code": "140031",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "领带夹",
+          "code": "140033",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金刚石",
+          "code": "140035",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "贵金属制丝线（首饰）",
+          "code": "140040",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "墨玉饰品",
+          "code": "140047",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "未加工或半加工墨玉",
+          "code": "140048",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铜制代币",
+          "code": "140049",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "珠宝首饰",
+          "code": "140050",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "盒式项链坠",
+          "code": "140051",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "奖章",
+          "code": "140052",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "橄榄石（宝石）",
+          "code": "140062",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "贵橄榄石",
+          "code": "140062",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金线（首饰）",
+          "code": "140064",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "饰针（首饰）",
+          "code": "140069",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "珍珠（珠宝）",
+          "code": "140070",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "半宝石",
+          "code": "140073",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "宝石",
+          "code": "140074",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "尖晶石（宝石）",
+          "code": "140095",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "贵金属制塑像",
+          "code": "140096",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "人造珠宝",
+          "code": "140097",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "戒指（首饰）",
+          "code": "140107",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "贵金属制艺术品",
+          "code": "140109",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "帽子用首饰",
+          "code": "140117",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "耳环",
+          "code": "140118",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鞋用首饰",
+          "code": "140119",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "衬衫袖扣",
+          "code": "140122",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "贵金属制半身像",
+          "code": "140123",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "贵金属制小雕像",
+          "code": "140146",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "贵金属制小塑像",
+          "code": "140146",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "别针（首饰）",
+          "code": "140150",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "领带饰针",
+          "code": "140151",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "贵金属制徽章",
+          "code": "140152",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "钥匙圈（带小饰物或短链饰物的扣环）",
+          "code": "140162",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "钥匙链（带小饰物或短链饰物的扣环）",
+          "code": "140162",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "景泰蓝首饰",
+          "code": "140165",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "制首饰用珠子",
+          "code": "140167",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "首饰用扣钩",
+          "code": "140168",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "首饰配件",
+          "code": "140169",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "弧面宝石",
+          "code": "140171",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "贵金属制钥匙圈",
+          "code": "140172",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "赞珠",
+          "code": "140175",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "绣花纺织品制手镯（首饰）",
+          "code": "140176",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "钥匙圈用小饰物",
+          "code": "140177",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "钥匙链用小饰物",
+          "code": "140177",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "念珠",
+          "code": "140178",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "伸缩式钥匙圈",
+          "code": "140181",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "伸缩式钥匙链",
+          "code": "140181",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "帽用饰针（首饰）",
+          "code": "140182",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "贵金属制雕像纪念杯",
+          "code": "140183",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "贵金属制奖杯",
+          "code": "140184",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "服装用贵金属制缝制标签",
+          "code": "140185",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "钥匙用挂绳",
+          "code": "140186",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金红石（宝石）",
+          "code": "C140001",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "人造金刚石",
+          "code": "C140002",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "翡翠",
+          "code": "C140003",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "激光宝石",
+          "code": "C140005",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "玉雕艺术品",
+          "code": "C140004",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "银制工艺品",
+          "code": "C140006",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "玉雕首饰",
+          "code": "C140007",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "角、骨、牙、介首饰及艺术品",
+          "code": "C140008",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "景泰蓝工艺品",
+          "code": "C140010",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "指环（小饰物）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "经雕琢的宝石",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "瓷制袖扣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "穿耳式耳环",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "镀金耳环",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "镀金戒指",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "耳坠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纪念币",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "脚链",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蓝宝石",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木制手串",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手串",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "项链吊坠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "环状耳环",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "头戴王冠状首饰",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "围领式项链",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工缠丝玛瑙",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工玛瑙",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "丝巾扣（首饰）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贴颈短项链",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硬币（收藏品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "景泰蓝饰针",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "玉髓（宝石）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制首饰用弧面宝石",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "带有企业标志的首饰",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "浮雕首饰",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "珠宝首饰（包括仿真珠宝首饰和塑料首饰）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "作为首饰用的钥匙链（小饰物或短链饰物）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "琥珀吊坠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人造琥珀制吊坠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人工养殖的珍珠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "作为珠宝的玛瑙",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "玉（珠宝）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "头戴首饰",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "装饰别针（首饰）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "衣领装饰徽章",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "女士首饰",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "使穿孔式耳环变为夹耳式耳环的首饰夹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "衣领饰针（首饰）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金丝珠宝",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "缠丝玛瑙",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工宝石",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "勋章",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "已切割的钻石",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "红宝石",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "黄玉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "仿真珠宝首饰",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵重宝石",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手镯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "首饰链",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "橄榄石",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人造宝石",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "夹耳式耳环",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "珠宝吊坠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "绿宝石",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "珠宝",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "耳钉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "订婚戒指",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纪念奖章",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "结婚戒指",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蛋白石",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "项链",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "合成宝石",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金刚石（未加工的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用作首饰的钥匙链",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人造珍珠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属制领带夹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "碧玺",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属徽章",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属饰针",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属塑像",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属奖杯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属制珠宝首饰",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铜纪念币",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属制装饰钥匙圈",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属制钥匙链",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属制袖扣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属制领带饰针",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "镀贵金属的首饰",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属制钥匙圈（小饰物或短链饰物）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属制半身塑像",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属及其合金制塑像",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属及其合金制小塑像",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手镯用贵金属链",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵重珠宝首饰",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属制宗教人物雕像",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属制纪念盾",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属制领口徽章",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "镀贵金属的奖章",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "首饰用贵金属制或镀有贵金属的小饰物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "塑料手镯（首饰）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "夹式耳环",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钻石首饰",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制首饰用莱茵石",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钥匙链（小饰物或短链饰物）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "戒指",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "磁性项链",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "奖牌",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "衬衫袖口链扣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钥匙圈（小饰物或短链饰物）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "瓷质袖扣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "小饰物（首饰）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "坦桑石（宝石）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "王冠（首饰）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手链",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "儿童首饰",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮革戒指（首饰）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属制雕塑纪念杯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "银制小雕像",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属制耳环",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水晶首饰",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "帽子用装饰针",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:07.601Z"
+}

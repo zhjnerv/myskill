@@ -1,0 +1,118 @@
+{
+  "groupCode": "1707",
+  "groupName": "包装、填充用材料（包括橡胶、塑料制品）",
+  "classCode": "17",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "防水包装物",
+          "code": "170011",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "橡胶或塑料制填充材料",
+          "code": "170014",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "橡胶或塑料制衬垫材料",
+          "code": "170014",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "包装用棉绒（堵缝）",
+          "code": "170032",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "膨胀接合填料",
+          "code": "170041",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "包装用橡胶袋（信封、小袋）",
+          "code": "170077",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "橡胶或塑料制（减震或填充用）包装材料",
+          "code": "170101",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "海运集装箱用塑料制衬垫材料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "橡胶制填充材料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商品包装用橡胶袋（信封、小袋）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "缠裹、填充或衬垫用塑料膜（非包装用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "缠裹用醋酸纤维薄膜（非包装用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "塑料制填充材料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "橡胶衬垫材料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "包装用橡胶袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "包装用模塑泡沫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "海运集装箱用塑料填料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "橡胶或塑料制（填充或衬垫用）包装材料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "橡胶或塑料填料",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:25.697Z"
+}

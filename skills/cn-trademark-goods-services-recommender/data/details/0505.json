@@ -1,0 +1,469 @@
+{
+  "groupCode": "0505",
+  "groupName": "杀虫剂，除莠剂，农药",
+  "classCode": "05",
+  "notes": [
+    "注：1.第一自然段与 0105 第一自然段，0109 植物生长调节剂，植物用生物刺激剂，0113 水果催熟用激素类似，与第九版及以前版本 0113 水果催熟激素交叉检索；",
+    "2.灭干朽真菌制剂，灭微生物剂，土壤消毒制剂，农业用杀菌剂与0501杀真菌剂，杀菌剂，灭菌剂，卫生消毒剂，消毒剂，0503化学盥洗室用消毒剂类似，与第八版及以前版本0503污物消毒剂，污物消毒制剂交叉检索；",
+    "3.杀寄生虫剂与0501杀寄生虫药类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "灭干朽真菌制剂",
+          "code": "050026",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "灭微生物剂",
+          "code": "050052",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "杀昆虫剂",
+          "code": "050055",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "灭鼠剂",
+          "code": "050120",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "抗隐花植物制剂",
+          "code": "050135",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "驱昆虫剂",
+          "code": "050178",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烟精（杀虫剂）",
+          "code": "050186",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "灭幼虫剂",
+          "code": "050193",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "除蛞蝓剂",
+          "code": "050195",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "除莠剂",
+          "code": "050204",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "消灭有害植物制剂",
+          "code": "050204",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "除草剂",
+          "code": "050204",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鼠药",
+          "code": "050216",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "治小麦枯萎病的化学制剂",
+          "code": "050222",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "治小麦黑穗病的化学制剂",
+          "code": "050222",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "杀寄生虫剂",
+          "code": "050238",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "治葡蚜用化学制剂",
+          "code": "050246",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "除虫菊粉",
+          "code": "050252",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "土壤消毒制剂",
+          "code": "050272",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "治疗藤蔓植物病害的化学制剂",
+          "code": "050288",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "消灭有害动物制剂",
+          "code": "050289",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蒽油（杀寄生虫用）",
+          "code": "050311",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "除藻剂",
+          "code": "050312",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "驱虫用香",
+          "code": "050386",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "杀螨剂",
+          "code": "050387",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "杀虫剂",
+          "code": "050439",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "治疗谷类植物病害的化学制剂",
+          "code": "050488",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "农业用杀菌剂",
+          "code": "C050048",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "防蛀剂",
+          "code": "050028",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "粘蝇纸",
+          "code": "050035",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "捕苍蝇用粘胶",
+          "code": "050217",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "粘蝇胶",
+          "code": "050217",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "灭蝇剂",
+          "code": "050218",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "防蛀纸",
+          "code": "050286",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "用于驱虫的杉木",
+          "code": "050379",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蚊香",
+          "code": "C050032",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "熏蚁纸",
+          "code": "C050033",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "粘蝇带",
+          "code": "C050034",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "卫生球",
+          "code": "C050035",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "除蚤喷剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "灭鼠药",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "游泳池用除藻剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "除藻剂（游泳池维护用化学品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防马蝇用油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "驱飞蛾剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "捕蝇纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防虫喷雾剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "灭害虫制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "驱蚊剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用杀虫剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "农业用杀真菌剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "农业用杀虫剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "农业用除莠剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "灭虫卵剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "除莠剂（除草剂）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生物除草剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "捕蝇粘胶剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防苍蝇液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防蝇制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "动物驱逐剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防跳蚤粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "游泳池用除海藻化学品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "消灭昆虫制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "杀线虫剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治藤蔓病化学品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于驱虫的樟木条",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "浸驱昆虫剂的薄纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "杀蟑螂剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "灭蟑螂用药",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治小麦枯萎病（黑穗病）的化学制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "驱虫用樟脑丸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "除涡虫剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "除水草剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "捕苍蝇用黏胶050217",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "农业用杀螨剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "农业用生物杀虫剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "农业用除藻剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "捕杀老鼠用胶黏剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车驱鼠剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "杀害虫制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "灭寄生虫剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蒸薰杀虫片剂",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:31.957Z"
+}

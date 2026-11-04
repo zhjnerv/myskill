@@ -1,0 +1,239 @@
+{
+  "groupCode": "2605",
+  "groupName": "缝纫用具（线除外）",
+  "classCode": "26",
+  "notes": [
+    "注：1.本类似群商品与第八版及以前版本1402贵重金属针，贵重金属针盒交叉检索；",
+    "2.本类似群与第十版及以前版本 1611 昆虫针交叉检索；",
+    "3.本类似群与第十一版及以前版本 0808 针钩穿线器，第十版及以前版本 0808 缝针穿线器交叉检索；",
+    "4.针，缝纫针与 0713 缝纫机用针类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "针*",
+          "code": "260002",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鞋匠用针",
+          "code": "260003",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "缝纫针",
+          "code": "260004",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "装订针",
+          "code": "260006",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "织补针",
+          "code": "260007",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "马具用针",
+          "code": "260008",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "编织针",
+          "code": "260009",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "针线盒",
+          "code": "260049",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "缝纫用顶针",
+          "code": "260050",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "钩针",
+          "code": "260051",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "针插",
+          "code": "260055",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "织渔网的梭",
+          "code": "260058",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "除线以外的缝纫用品*",
+          "code": "260070",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "针盒",
+          "code": "260091",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "针匣",
+          "code": "260092",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "缝纫针匣",
+          "code": "260092",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "绣花丝线或绒线用绕轴（非机器部件）",
+          "code": "260124",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "针线套装",
+          "code": "260130",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "昆虫针",
+          "code": "260131",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "绣花针",
+          "code": "260132",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "缝针穿线器",
+          "code": "260134",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "带灯饰的人造花制花环",
+          "code": "260138",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "成套编织用品",
+          "code": "260153",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "划布轮",
+          "code": "260157",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "梭编用梭",
+          "code": "260159",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "罗纹针",
+          "code": "C260015",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "双头针",
+          "code": "C260016",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "毛衣针",
+          "code": "C260020",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "编织针专用盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "带椭圆形针眼的缝纫针",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手工编织针",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "织榻榻米用针",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "缝帆布针",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属制缝纫针盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属制针盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "固定昆虫标本用金属针",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "编织用钩针",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "戳绣针",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:16.919Z"
+}

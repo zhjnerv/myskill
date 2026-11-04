@@ -1,0 +1,47 @@
+[
+  {
+    "groupCode": "3601",
+    "groupName": "保险",
+    "classCode": "36"
+  },
+  {
+    "groupCode": "3602",
+    "groupName": "金融事务",
+    "classCode": "36"
+  },
+  {
+    "groupCode": "3603",
+    "groupName": "珍品估价",
+    "classCode": "36"
+  },
+  {
+    "groupCode": "3604",
+    "groupName": "不动产事务",
+    "classCode": "36"
+  },
+  {
+    "groupCode": "3605",
+    "groupName": "海关经纪",
+    "classCode": "36"
+  },
+  {
+    "groupCode": "3606",
+    "groupName": "担保",
+    "classCode": "36"
+  },
+  {
+    "groupCode": "3607",
+    "groupName": "慈善募捐",
+    "classCode": "36"
+  },
+  {
+    "groupCode": "3608",
+    "groupName": "受托管理",
+    "classCode": "36"
+  },
+  {
+    "groupCode": "3609",
+    "groupName": "典当",
+    "classCode": "36"
+  }
+]

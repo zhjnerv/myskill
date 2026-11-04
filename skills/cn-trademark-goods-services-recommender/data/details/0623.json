@@ -1,0 +1,106 @@
+{
+  "groupCode": "0623",
+  "groupName": "矿石，矿砂",
+  "classCode": "06",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "铬矿石",
+          "code": "060081",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铁矿石",
+          "code": "060134",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "方铅矿（矿石）",
+          "code": "060145",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "褐铁矿",
+          "code": "060163",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属矿石",
+          "code": "060183",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "锡矿石",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "镍矿石",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铜矿石",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钨矿石",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "锌矿石",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "锰矿石",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "锆矿石",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铅砂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钼矿石",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铬铁矿石",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "黄铁矿砂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钴矿石",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:47.839Z"
+}

@@ -1,0 +1,179 @@
+{
+  "groupCode": "2402",
+  "groupName": "特殊用织物",
+  "classCode": "24",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "热黏合织物",
+          "code": "240001",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "航空气球用不透气织物",
+          "code": "240002",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "布棚",
+          "code": "240016",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非文具用胶布",
+          "code": "240057",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "塑料材料（织物代用品）",
+          "code": "240081",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "无纺布",
+          "code": "240098",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纺织品制标签",
+          "code": "240102",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纺织用玻璃纤维织物",
+          "code": "240104",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纺织品制过滤材料",
+          "code": "240105",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食品包装用可重复使用的涂蜡织物",
+          "code": "240132",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "服装用纺织品制缝制标签",
+          "code": "240134",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "包用纺织品制黏性标签",
+          "code": "240135",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属棉（太空棉）",
+          "code": "C240014",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "过滤布",
+          "code": "C240015",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "帘子布",
+          "code": "C240016",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "聚丙烯编织布",
+          "code": "C240017",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "滤气呢",
+          "code": "C240018",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "树脂布",
+          "code": "C240020",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "条形码用纺织品制标签",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "标识衣物用纺织品制标签",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "布制标签",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "油布",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "涂胶防水布",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "橡胶布",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺织品标签",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "印刷的纺织标签",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "熔喷布",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鉴别服装用纺织品标签",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "热黏合纤维布",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:01.738Z"
+}

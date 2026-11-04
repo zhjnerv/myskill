@@ -1,0 +1,190 @@
+{
+  "groupCode": "0751",
+  "groupName": "焊接机械",
+  "classCode": "07",
+  "notes": [
+    "注：1.本类似群与第九版及以前版本的0917交叉检索；",
+    "2.本类似群与第九版及以前版本的1102喷焊灯，热焊枪，喷灯交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "乙炔清洗装置",
+          "code": "070002",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "热喷枪（机器）",
+          "code": "070229",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电焊机",
+          "code": "070349",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "气动焊接设备",
+          "code": "070503",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "气动焊接吹管",
+          "code": "070504",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "气动焊接烙铁",
+          "code": "070505",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "气动喷灯",
+          "code": "070522",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "焊接机用电极",
+          "code": "070525",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电焊设备",
+          "code": "070526",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电焊接设备",
+          "code": "070528",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电焊烙铁",
+          "code": "070529",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电弧焊接设备",
+          "code": "070530",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电弧切割设备",
+          "code": "070531",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "喷焊灯",
+          "code": "070532",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "热焊枪",
+          "code": "C070434",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "喷灯",
+          "code": "C070435",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "气焊机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "焊丝焊接机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "焊接喷灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氧气切割设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "激光焊接设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电弧焊接机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "气动焊接机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自焊机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "激光焊接机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属加工用电焊机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "割炬",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "气动焊枪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电焊工业机器人",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "焊接机器人",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "等离子切割机器人",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:19.094Z"
+}

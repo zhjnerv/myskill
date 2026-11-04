@@ -1,0 +1,88 @@
+{
+  "groupCode": "0916",
+  "groupName": "灭火器具",
+  "classCode": "09",
+  "notes": [
+    "注：1.消防水龙带与 1704 帆布水龙带类似。",
+    "2.本类似群与第九版及以前版本 1704 消防水龙带交叉检索"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "灭火器",
+          "code": "090041",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "火灾扑打器",
+          "code": "090082",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "消防水龙带喷嘴",
+          "code": "090296",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "消防泵",
+          "code": "090298",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "消防喷淋装置",
+          "code": "090646",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "灭火用自动洒水装置",
+          "code": "090646",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "消防水龙带",
+          "code": "090708",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "灭火设备",
+          "code": "090750",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "灭火球",
+          "code": "090851",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "消防洒水装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车用灭火设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "消防水龙头",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:38.634Z"
+}

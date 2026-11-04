@@ -1,0 +1,2077 @@
+{
+  "groupCode": "0104",
+  "groupName": "用于工业、科学的化学品、化学制剂，不属于其他类别的产品用的化学制品",
+  "classCode": "01",
+  "notes": [
+    "注：本类似群各部分之间商品不类似，但所有商品与第十一版及以前版本工业用化学品，第十版及以前版本工业化学品交叉检索。",
+    "注：五倍子与0114商品类似。",
+    "注：1.陶瓷釉与 0205 瓷釉（漆），瓷漆，釉料（漆、亮面漆）类似，与第十一版及以前版本 0205 釉料（漆、清漆）交叉检索；",
+    "2.搪瓷着色化学品，玻璃着色化学品与0102第(四)部分尖晶石(氧化物矿石)类似，与第十版及以前版本0102第(四)部分尖晶石(化学制剂)交叉检索。",
+    "注：本部分与第十一版及以前版本 0108 第（一）部分过滤材料（未加工塑料）交叉检索。",
+    "材料（未加工塑料）交叉检索。",
+    "注: 防水垢剂，除水垢剂，非家用除水垢剂与第九版及以前版本0104第（十九）部分防水锈剂，除水锈剂交叉检索。",
+    "注：清漆溶剂与 0205 油漆稀释剂，亮面漆用稀释剂，松节油（涂料稀释剂），稀料，松香水，天那水，信那水，0302 去漆剂类似，与第十一版及以前版本 0205 漆稀释剂交叉检索。",
+    "注：本部分与0102第（四）部分硫化剂，0108第（二）部分类似。",
+    "注：本部分与第八版及以前版本 0205 墙纸清除剂交叉检索。",
+    "化学防腐剂与第十一版及以前版本0104第（二）部分除油漆和油外的混凝土防腐剂，除油漆和油外的水泥防腐剂，除油漆和油外的石建筑防腐剂，除油漆和油外的砖建筑防腐剂，除油漆和油外的砖瓦防腐剂，第九版及以前版本0206防腐剂交叉检索。",
+    "注：本部分与0102第（二十）部分硅胶类似。",
+    "注：1.本部分根据商品的功能、用途确定类似商品；",
+    "2.未加工醋酸纤维素与0108第（一）部分类似；",
+    "3.催化剂与0102第（十七）部分工业淀粉酶，工业用酶制剂，工业用酶，0106生物化学催化剂类似；",
+    "4.原接受的工业用化学品，工业化学品与 0104所有商品交叉检索；",
+    "5.工业用面粉与0102第（十六）部分工业用淀粉，工业用土豆粉类似；",
+    "6.制唱片用合成物与第九版及以前版本0107制唱片用混合剂交叉检索。",
+    "注：本部分与0205，1702填缝用油灰类似。"
+  ],
+  "sections": [
+    {
+      "label": "（一）",
+      "items": [
+        {
+          "name": "纺织工业用上浆料",
+          "code": "010077",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "纺织品上光化学品",
+          "code": "010091",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "长袜用防抽丝物质",
+          "code": "010105",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "漂白用润湿剂",
+          "code": "010127",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "漂白用浸湿剂",
+          "code": "010127",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "蜡漂白化学品",
+          "code": "010128",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "罩面漆和底漆上浆料",
+          "code": "010202",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "织物用防污化学品",
+          "code": "010286",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "纺织工业用漂洗剂",
+          "code": "010312",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "漂洗剂",
+          "code": "010313",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "五倍子",
+          "code": "010319",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "脂肪漂白化学品",
+          "code": "010339",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "纺织品防水化学品",
+          "code": "010362",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "纺织品浸渍化学品",
+          "code": "010363",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "染色用润湿剂",
+          "code": "010398",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "染色用浸湿剂",
+          "code": "010398",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "纺织工业用漂白土",
+          "code": "010525",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "纺织工业用润湿剂",
+          "code": "010530",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "纺织工业用浸湿剂",
+          "code": "010530",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "染料助剂",
+          "code": "C010177",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "印染用保险粉",
+          "code": "C010178",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "印染用吊白粉",
+          "code": "C010179",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "固色剂",
+          "code": "C010180",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "印染用扩散剂",
+          "code": "C010181",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "印染用溶解盐",
+          "code": "C010182",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "印染用太古油",
+          "code": "C010183",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "印染用渗透剂",
+          "code": "C010184",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "增白剂",
+          "code": "C010185",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "漂毛粉",
+          "code": "C010186",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "防染盐",
+          "code": "C010187",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "印染用净洗剂",
+          "code": "C010188",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "匀染剂",
+          "code": "C010189",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "印染用海藻酸钠",
+          "code": "C010190",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "柔软剂",
+          "code": "C010191",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "防皱剂",
+          "code": "C010192",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "印染用整理剂",
+          "code": "C010193",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "纤维润滑剂",
+          "code": "C010194",
+          "type": "marked",
+          "section": "（一）"
+        }
+      ]
+    },
+    {
+      "label": "（二）",
+      "items": [
+        {
+          "name": "混凝土用凝结剂",
+          "code": "010030",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "混凝土充气用化学品",
+          "code": "010116",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "混凝土用除油漆和油外的保护剂",
+          "code": "010117",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "除油漆外的水泥防水化学品",
+          "code": "010195",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "水泥用除油漆和油外的保护剂",
+          "code": "010196",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "石建筑用除油漆和油外的保护剂",
+          "code": "010380",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "砖建筑用除油漆和油外的保护剂",
+          "code": "010381",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "砖瓦用除油漆和油外的保护剂",
+          "code": "010540",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "除油漆外的砖石建筑防潮化学品",
+          "code": "010617",
+          "type": "standard",
+          "section": "（二）"
+        }
+      ]
+    },
+    {
+      "label": "（三）",
+      "items": [
+        {
+          "name": "易燃制剂（发动机燃料用化学添加剂）",
+          "code": "010001",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "发动机燃料化学添加剂",
+          "code": "010020",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "汽车燃料化学添加剂",
+          "code": "010020",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "汽油净化添加剂",
+          "code": "010021",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "喷雾器用气体推进剂",
+          "code": "010026",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "内燃机抗爆剂",
+          "code": "010071",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "防冻剂",
+          "code": "010072",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "引擎脱碳用化学品",
+          "code": "010089",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "液压循环用传动液",
+          "code": "010197",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "油分离化学品",
+          "code": "010233",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "燃料节省剂",
+          "code": "010257",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "制动液",
+          "code": "010315",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "刹车液",
+          "code": "010315",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "石油分散剂",
+          "code": "010351",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "油分散剂",
+          "code": "010352",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "油漂白化学品",
+          "code": "010353",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "油净化化学品",
+          "code": "010354",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "油脂分离剂",
+          "code": "010604",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "吸油用合成材料",
+          "code": "010620",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "动力转向液",
+          "code": "010643",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "传动液",
+          "code": "010644",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "引擎冷却剂用抗沸剂",
+          "code": "010645",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "运载工具引擎用冷却剂",
+          "code": "010647",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "油类用化学添加剂",
+          "code": "010654",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "传动油",
+          "code": "010706",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "起动液",
+          "code": "C010197",
+          "type": "marked",
+          "section": "（三）"
+        },
+        {
+          "name": "润闸液",
+          "code": "C010200",
+          "type": "marked",
+          "section": "（三）"
+        },
+        {
+          "name": "硅油乙基",
+          "code": "C010214",
+          "type": "marked",
+          "section": "（三）"
+        }
+      ]
+    },
+    {
+      "label": "（四）",
+      "items": [
+        {
+          "name": "除颜料外的制造搪瓷用化学品",
+          "code": "010107",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "膨润土",
+          "code": "010109",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "陶瓷釉",
+          "code": "010160",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "搪瓷遮光剂",
+          "code": "010262",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "玻璃遮光剂",
+          "code": "010263",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "搪瓷着色化学品",
+          "code": "010265",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "瓷土",
+          "code": "010370",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "高岭土",
+          "code": "010370",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "制毛玻璃用化学品",
+          "code": "010386",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "玻璃着色化学品",
+          "code": "010521",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "水玻璃（硅酸钠水溶液）",
+          "code": "010544",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "制技术陶瓷用合成物",
+          "code": "010631",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "烧结用颗粒状和粉状陶瓷物质",
+          "code": "010646",
+          "type": "standard",
+          "section": "（四）"
+        }
+      ]
+    },
+    {
+      "label": "（五）",
+      "items": [
+        {
+          "name": "蓄电池用防泡沫溶液",
+          "code": "010006",
+          "type": "standard",
+          "section": "（五）"
+        },
+        {
+          "name": "电池用防泡沫溶液",
+          "code": "010006",
+          "type": "standard",
+          "section": "（五）"
+        },
+        {
+          "name": "促进金属合金形成用化学制剂",
+          "code": "010045",
+          "type": "standard",
+          "section": "（五）"
+        },
+        {
+          "name": "镀银用银盐溶液",
+          "code": "010081",
+          "type": "standard",
+          "section": "（五）"
+        },
+        {
+          "name": "镀锌液",
+          "code": "010098",
+          "type": "standard",
+          "section": "（五）"
+        },
+        {
+          "name": "电镀液",
+          "code": "010098",
+          "type": "standard",
+          "section": "（五）"
+        },
+        {
+          "name": "蓄电池充电用酸性水",
+          "code": "010251",
+          "type": "standard",
+          "section": "（五）"
+        },
+        {
+          "name": "电池充电用酸性水",
+          "code": "010251",
+          "type": "standard",
+          "section": "（五）"
+        },
+        {
+          "name": "原电池盐",
+          "code": "010261",
+          "type": "standard",
+          "section": "（五）"
+        },
+        {
+          "name": "电镀制剂",
+          "code": "010324",
+          "type": "standard",
+          "section": "（五）"
+        },
+        {
+          "name": "蓄电池硫酸盐清除剂",
+          "code": "010500",
+          "type": "standard",
+          "section": "（五）"
+        },
+        {
+          "name": "电池硫酸盐清除剂",
+          "code": "010500",
+          "type": "standard",
+          "section": "（五）"
+        },
+        {
+          "name": "电刷镀溶液",
+          "code": "C010201",
+          "type": "marked",
+          "section": "（五）"
+        }
+      ]
+    },
+    {
+      "label": "（六）",
+      "items": [
+        {
+          "name": "气体净化剂",
+          "code": "010275",
+          "type": "standard",
+          "section": "（六）"
+        },
+        {
+          "name": "化学物质制过滤材料",
+          "code": "010611",
+          "type": "standard",
+          "section": "（六）"
+        },
+        {
+          "name": "矿物质过滤材料",
+          "code": "010612",
+          "type": "standard",
+          "section": "（六）"
+        },
+        {
+          "name": "植物质过滤材料",
+          "code": "010613",
+          "type": "standard",
+          "section": "（六）"
+        },
+        {
+          "name": "用作过滤介质的颗粒状陶瓷材料",
+          "code": "010621",
+          "type": "standard",
+          "section": "（六）"
+        },
+        {
+          "name": "未加工塑料制过滤材料",
+          "code": "010610",
+          "type": "standard",
+          "section": "（六）"
+        }
+      ]
+    },
+    {
+      "label": "（七）",
+      "items": [
+        {
+          "name": "铸造制模用制剂",
+          "code": "010307",
+          "type": "standard",
+          "section": "（七）"
+        },
+        {
+          "name": "铸造用沙",
+          "code": "010467",
+          "type": "standard",
+          "section": "（七）"
+        },
+        {
+          "name": "铸粉",
+          "code": "C010202",
+          "type": "marked",
+          "section": "（七）"
+        }
+      ]
+    },
+    {
+      "label": "（八）",
+      "items": [
+        {
+          "name": "水软化剂",
+          "code": "010023",
+          "type": "standard",
+          "section": "（八）"
+        },
+        {
+          "name": "澄清剂",
+          "code": "010254",
+          "type": "standard",
+          "section": "（八）"
+        },
+        {
+          "name": "净化剂（澄清剂）",
+          "code": "010254",
+          "type": "standard",
+          "section": "（八）"
+        },
+        {
+          "name": "离子交换剂",
+          "code": "010255",
+          "type": "standard",
+          "section": "（八）"
+        },
+        {
+          "name": "絮凝剂",
+          "code": "010587",
+          "type": "standard",
+          "section": "（八）"
+        },
+        {
+          "name": "水净化用化学品",
+          "code": "010608",
+          "type": "standard",
+          "section": "（八）"
+        },
+        {
+          "name": "工业用软化剂",
+          "code": "010609",
+          "type": "standard",
+          "section": "（八）"
+        }
+      ]
+    },
+    {
+      "label": "（九）",
+      "items": [
+        {
+          "name": "防水垢剂",
+          "code": "010073",
+          "type": "standard",
+          "section": "（九）"
+        },
+        {
+          "name": "清洁烟囱用化学品",
+          "code": "010174",
+          "type": "standard",
+          "section": "（九）"
+        },
+        {
+          "name": "生产加工用除脂剂",
+          "code": "010231",
+          "type": "standard",
+          "section": "（九）"
+        },
+        {
+          "name": "除水垢剂",
+          "code": "010240",
+          "type": "standard",
+          "section": "（九）"
+        },
+        {
+          "name": "生产加工用去污剂",
+          "code": "010241",
+          "type": "standard",
+          "section": "（九）"
+        },
+        {
+          "name": "镜头防污剂",
+          "code": "010377",
+          "type": "standard",
+          "section": "（九）"
+        },
+        {
+          "name": "工业用肥皂（含金属）",
+          "code": "010472",
+          "type": "standard",
+          "section": "（九）"
+        },
+        {
+          "name": "玻璃防污剂",
+          "code": "010522",
+          "type": "standard",
+          "section": "（九）"
+        },
+        {
+          "name": "窗玻璃防污用化学品",
+          "code": "010523",
+          "type": "standard",
+          "section": "（九）"
+        },
+        {
+          "name": "非家用除水垢剂",
+          "code": "010635",
+          "type": "standard",
+          "section": "（九）"
+        },
+        {
+          "name": "散热器清洗化学品",
+          "code": "010648",
+          "type": "standard",
+          "section": "（九）"
+        },
+        {
+          "name": "工业用洗净剂",
+          "code": "C010211",
+          "type": "marked",
+          "section": "（九）"
+        }
+      ]
+    },
+    {
+      "label": "（十）",
+      "items": [
+        {
+          "name": "制清漆用羯布罗香膏",
+          "code": "010343",
+          "type": "standard",
+          "section": "（十）"
+        },
+        {
+          "name": "制漆用化学品",
+          "code": "010575",
+          "type": "standard",
+          "section": "（十）"
+        },
+        {
+          "name": "清漆溶剂",
+          "code": "010606",
+          "type": "standard",
+          "section": "（十）"
+        }
+      ]
+    },
+    {
+      "label": "（十一）",
+      "items": [
+        {
+          "name": "硫化加速剂",
+          "code": "010005",
+          "type": "standard",
+          "section": "（十一）"
+        },
+        {
+          "name": "橡胶保护剂",
+          "code": "010145",
+          "type": "standard",
+          "section": "（十一）"
+        },
+        {
+          "name": "非家用抗静电剂",
+          "code": "010260",
+          "type": "standard",
+          "section": "（十一）"
+        },
+        {
+          "name": "工业用炭黑",
+          "code": "010597",
+          "type": "standard",
+          "section": "（十一）"
+        },
+        {
+          "name": "橡胶用化学增强剂",
+          "code": "010640",
+          "type": "standard",
+          "section": "（十一）"
+        },
+        {
+          "name": "生产用抗氧化剂",
+          "code": "010693",
+          "type": "standard",
+          "section": "（十一）"
+        },
+        {
+          "name": "促进剂",
+          "code": "C010203",
+          "type": "marked",
+          "section": "（十一）"
+        },
+        {
+          "name": "乌洛托品",
+          "code": "C010204",
+          "type": "marked",
+          "section": "（十一）"
+        },
+        {
+          "name": "抗氧剂",
+          "code": "C010206",
+          "type": "marked",
+          "section": "（十一）"
+        }
+      ]
+    },
+    {
+      "label": "（十二）",
+      "items": [
+        {
+          "name": "钻探泥浆用化学添加剂",
+          "code": "010019",
+          "type": "standard",
+          "section": "（十二）"
+        },
+        {
+          "name": "钻探泥浆",
+          "code": "010136",
+          "type": "standard",
+          "section": "（十二）"
+        }
+      ]
+    },
+    {
+      "label": "（十三）",
+      "items": [
+        {
+          "name": "和研磨剂配用的辅助液",
+          "code": "010004",
+          "type": "standard",
+          "section": "（十三）"
+        }
+      ]
+    },
+    {
+      "label": "（十四）",
+      "items": [
+        {
+          "name": "液化淀粉制剂（去胶剂）",
+          "code": "010056",
+          "type": "standard",
+          "section": "（十四）"
+        },
+        {
+          "name": "分离和脱胶用制剂",
+          "code": "010232",
+          "type": "standard",
+          "section": "（十四）"
+        },
+        {
+          "name": "脱胶制剂（分离）",
+          "code": "010232",
+          "type": "standard",
+          "section": "（十四）"
+        },
+        {
+          "name": "脱胶和分离用制剂",
+          "code": "010232",
+          "type": "standard",
+          "section": "（十四）"
+        },
+        {
+          "name": "脱胶制剂（溶胶）",
+          "code": "010234",
+          "type": "standard",
+          "section": "（十四）"
+        },
+        {
+          "name": "胶溶剂",
+          "code": "010234",
+          "type": "standard",
+          "section": "（十四）"
+        },
+        {
+          "name": "墙纸清除剂",
+          "code": "010653",
+          "type": "standard",
+          "section": "（十四）"
+        }
+      ]
+    },
+    {
+      "label": "（十五）",
+      "items": [
+        {
+          "name": "动物炭",
+          "code": "010068",
+          "type": "standard",
+          "section": "（十五）"
+        },
+        {
+          "name": "动物炭制剂",
+          "code": "010165",
+          "type": "standard",
+          "section": "（十五）"
+        },
+        {
+          "name": "骨炭",
+          "code": "010167",
+          "type": "standard",
+          "section": "（十五）"
+        },
+        {
+          "name": "血炭",
+          "code": "010168",
+          "type": "standard",
+          "section": "（十五）"
+        },
+        {
+          "name": "兽炭",
+          "code": "010568",
+          "type": "standard",
+          "section": "（十五）"
+        }
+      ]
+    },
+    {
+      "label": "（十六）",
+      "items": [
+        {
+          "name": "非食品用防腐盐",
+          "code": "010003",
+          "type": "standard",
+          "section": "（十六）"
+        },
+        {
+          "name": "耐酸化学物质",
+          "code": "010016",
+          "type": "standard",
+          "section": "（十六）"
+        },
+        {
+          "name": "防霉化学制剂",
+          "code": "010395",
+          "type": "standard",
+          "section": "（十六）"
+        },
+        {
+          "name": "化学防腐剂",
+          "code": "C010260",
+          "type": "marked",
+          "section": "（十六）"
+        }
+      ]
+    },
+    {
+      "label": "（十七）",
+      "items": [
+        {
+          "name": "活性炭",
+          "code": "010025",
+          "type": "standard",
+          "section": "（十七）"
+        },
+        {
+          "name": "过滤用炭",
+          "code": "010166",
+          "type": "standard",
+          "section": "（十七）"
+        },
+        {
+          "name": "吸气剂（化学活性物质）",
+          "code": "010332",
+          "type": "standard",
+          "section": "（十七）"
+        },
+        {
+          "name": "工业用脱色剂",
+          "code": "010580",
+          "type": "standard",
+          "section": "（十七）"
+        }
+      ]
+    },
+    {
+      "label": "（十八）",
+      "items": [
+        {
+          "name": "工业用亮色化学品",
+          "code": "010570",
+          "type": "standard",
+          "section": "（十八）"
+        },
+        {
+          "name": "制颜料用化学品",
+          "code": "010679",
+          "type": "standard",
+          "section": "（十八）"
+        }
+      ]
+    },
+    {
+      "label": "（十九）",
+      "items": [
+        {
+          "name": "未加工醋酸纤维素",
+          "code": "010008",
+          "type": "standard",
+          "section": "（十九）"
+        },
+        {
+          "name": "化学冷凝制剂",
+          "code": "010015",
+          "type": "standard",
+          "section": "（十九）"
+        },
+        {
+          "name": "钢材制造用表面处理剂",
+          "code": "010017",
+          "type": "standard",
+          "section": "（十九）"
+        },
+        {
+          "name": "铝土矿",
+          "code": "010108",
+          "type": "standard",
+          "section": "（十九）"
+        },
+        {
+          "name": "防冷凝化学品",
+          "code": "010138",
+          "type": "standard",
+          "section": "（十九）"
+        },
+        {
+          "name": "催化剂",
+          "code": "010154",
+          "type": "standard",
+          "section": "（十九）"
+        },
+        {
+          "name": "粘胶纤维",
+          "code": "010157",
+          "type": "standard",
+          "section": "（十九）"
+        },
+        {
+          "name": "节煤剂",
+          "code": "010169",
+          "type": "standard",
+          "section": "（十九）"
+        },
+        {
+          "name": "火棉胶*",
+          "code": "010206",
+          "type": "standard",
+          "section": "（十九）"
+        },
+        {
+          "name": "金属着色用盐",
+          "code": "010207",
+          "type": "standard",
+          "section": "（十九）"
+        },
+        {
+          "name": "腐蚀剂",
+          "code": "010214",
+          "type": "standard",
+          "section": "（十九）"
+        },
+        {
+          "name": "脱模制剂",
+          "code": "010237",
+          "type": "standard",
+          "section": "（十九）"
+        },
+        {
+          "name": "去光材料",
+          "code": "010238",
+          "type": "standard",
+          "section": "（十九）"
+        },
+        {
+          "name": "工业脱水制剂",
+          "code": "010239",
+          "type": "standard",
+          "section": "（十九）"
+        },
+        {
+          "name": "唱片修复制剂",
+          "code": "010246",
+          "type": "standard",
+          "section": "（十九）"
+        },
+        {
+          "name": "金属硬化剂",
+          "code": "010249",
+          "type": "standard",
+          "section": "（十九）"
+        },
+        {
+          "name": "闪光灯用制剂",
+          "code": "010256",
+          "type": "standard",
+          "section": "（十九）"
+        },
+        {
+          "name": "乳化剂",
+          "code": "010268",
+          "type": "standard",
+          "section": "（十九）"
+        },
+        {
+          "name": "加工螺纹用合成剂",
+          "code": "010295",
+          "type": "standard",
+          "section": "（十九）"
+        },
+        {
+          "name": "石灰石硬化物",
+          "code": "010301",
+          "type": "standard",
+          "section": "（十九）"
+        },
+        {
+          "name": "工业用灯黑",
+          "code": "010316",
+          "type": "standard",
+          "section": "（十九）"
+        },
+        {
+          "name": "工业用红树皮",
+          "code": "010385",
+          "type": "standard",
+          "section": "（十九）"
+        },
+        {
+          "name": "毒气中和剂",
+          "code": "010403",
+          "type": "standard",
+          "section": "（十九）"
+        },
+        {
+          "name": "工业用白雀树皮",
+          "code": "010454",
+          "type": "standard",
+          "section": "（十九）"
+        },
+        {
+          "name": "制冷剂",
+          "code": "010459",
+          "type": "standard",
+          "section": "（十九）"
+        },
+        {
+          "name": "工业用谷物加工的副产品",
+          "code": "010460",
+          "type": "standard",
+          "section": "（十九）"
+        },
+        {
+          "name": "工业或农业用煤灰",
+          "code": "010499",
+          "type": "standard",
+          "section": "（十九）"
+        },
+        {
+          "name": "工业用蒸煮激发剂",
+          "code": "010557",
+          "type": "standard",
+          "section": "（十九）"
+        },
+        {
+          "name": "木醇蒸馏剂",
+          "code": "010582",
+          "type": "standard",
+          "section": "（十九）"
+        },
+        {
+          "name": "化学用杂酚油",
+          "code": "010602",
+          "type": "standard",
+          "section": "（十九）"
+        },
+        {
+          "name": "制唱片用合成物",
+          "code": "010603",
+          "type": "standard",
+          "section": "（十九）"
+        },
+        {
+          "name": "金属腐蚀剂",
+          "code": "010633",
+          "type": "standard",
+          "section": "（十九）"
+        },
+        {
+          "name": "工业用海水",
+          "code": "010636",
+          "type": "standard",
+          "section": "（十九）"
+        },
+        {
+          "name": "纸用化学增强剂",
+          "code": "010639",
+          "type": "standard",
+          "section": "（十九）"
+        },
+        {
+          "name": "工业用磁性液",
+          "code": "010642",
+          "type": "standard",
+          "section": "（十九）"
+        },
+        {
+          "name": "汽车车身修补用膏状填充物",
+          "code": "010649",
+          "type": "standard",
+          "section": "（十九）"
+        },
+        {
+          "name": "眼镜片用化学涂层",
+          "code": "010708",
+          "type": "standard",
+          "section": "（十九）"
+        },
+        {
+          "name": "导热膏",
+          "code": "010726",
+          "type": "standard",
+          "section": "（十九）"
+        },
+        {
+          "name": "金属加工用除油以外的介电流体（化学制剂）",
+          "code": "010737",
+          "type": "standard",
+          "section": "（十九）"
+        },
+        {
+          "name": "防水浆消泡剂",
+          "code": "C010205",
+          "type": "marked",
+          "section": "（十九）"
+        },
+        {
+          "name": "荧光粉",
+          "code": "C010207",
+          "type": "marked",
+          "section": "（十九）"
+        },
+        {
+          "name": "油墨抗凝剂",
+          "code": "C010208",
+          "type": "marked",
+          "section": "（十九）"
+        },
+        {
+          "name": "固香剂",
+          "code": "C010209",
+          "type": "marked",
+          "section": "（十九）"
+        },
+        {
+          "name": "探伤气雾剂",
+          "code": "C010212",
+          "type": "marked",
+          "section": "（十九）"
+        },
+        {
+          "name": "松醇油",
+          "code": "C010213",
+          "type": "marked",
+          "section": "（十九）"
+        }
+      ]
+    },
+    {
+      "label": "（二十）",
+      "items": [
+        {
+          "name": "镶玻璃用油灰",
+          "code": "010651",
+          "type": "standard",
+          "section": "（二十）"
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "防污剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "发动机油用净化剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "挡风玻璃用化学拨水剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氧化处理用催化剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "消泡剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "吸附剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生产染料用化学试剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "融化冰雪用化学制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "热水处理系统用化学品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "燃料处理用化学添加剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "酶稳定剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸用聚合物涂布剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具冷却系统用防冻剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制造印刷电路板用掩膜化合物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用茶提取物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用除垢剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用煅烧高岭土",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防冻制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防冻液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "除冰制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "处理灌溉用水用化学品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺织品制造用乳化剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用糊精",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "光触媒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硅质软泥",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮革制造用乳化剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽油用化学添加剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "融雪剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生产聚氨酯用化学品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生产印刷电路板用化学涂层",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "石油加工工业用催化剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水软化用化学品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "药品制造用化学添加剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "油井钻井液用化学添加剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钻油井用钻探泥浆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸张制造用化学品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制清漆用工业化学品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制橡胶用催化剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "印刷电路制造用化学氧化剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "与内燃机燃料一起使用的化学添加剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "除冰用岩盐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "除冰用液体盐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "半导体制造用蚀刻剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提高燃料辛烷值的化学添加剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制造印刷纸用明胶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "吸收水分的干燥剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "印刷电路板制造用蚀刻剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "游泳池净化水用化学品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺织物防水化学合成物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "中和不锈钢、铁及各种颜色金属合金用化学品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "染料上光用化学品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防垢用化学品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "半导体生产中在半导体晶片上沉积薄膜用化工原料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蚀刻媒染剂（酸）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生产合成材料、橡胶及聚合物用催化剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水族池用化学品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硫化加速剂（化学制剂）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "污染区净化用化学品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于汽车排气系统作为腐蚀抑制剂的化学防腐剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "气雾剂用气体推进剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "脱脂剂（非家用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用废水处理化学品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "风挡玻璃除冰液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "糊精",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防水化学合成物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "除冰液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防冻化学品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水泥促凝剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氧化剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "液压制动液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用抗静电制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "消光剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防缩剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用清洁剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "发泡剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用乳化剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "撑鞋用化学喷雾",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水净化化学品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "干燥剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "润湿剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电池用防硫化剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "燃料净化添加剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "燃料用化学添加剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "处理有害废物用化学品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自动传动液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "分散剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制漆用化学制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于制造金属铸件的氧化铁基铸造用砂添加剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "光致抗蚀剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用碳化硅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电池电解液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于防止锌晶须在镀锌表面扩散的化学制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "渗碳剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用沸石",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "处理汽车尾气用尿素溶液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "尿素还原剂（汽车用尾气气体净化剂）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制油漆用化学制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "融雪和冰用化学制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "除油漆和油外的混凝土防腐剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制照片底片用合成制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "混凝土用减水剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "除油漆和油外的水泥防腐剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "除油漆和油外的石建筑防腐剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "除油漆和油外的砖建筑防腐剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "除油漆和油外的砖瓦防腐剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "橡胶防腐剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "过滤材料（植物质）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "过滤材料（化学制剂）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "过滤材料（矿物质）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "竹炭（活性炭）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制唱片用混合剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制清漆用的羯布罗香膏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车尿素（发动机燃料化学添加剂）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钢材精加工制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制塑料用催化剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "沥青脱模剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制颜料用化学制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生产加工用脱脂溶剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防止霉菌生长的抑霉化学品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "服装防皱剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "清除墙纸用合成物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "养护混凝土用化合物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "挡风玻璃清洗系统用防冻剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具散热器用防冻剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属电镀用化学成分",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生产加工中增亮染料用化学制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "玻璃纤维工业用脱模化合物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "平版印刷用化学品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制造业用粘胶纤维化学品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "石油钻探用化学品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "废水处理用细菌",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于与农业用杀虫剂相关的表面活性剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "花卉防腐剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用脱硫催化剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于生产加工的的可生物降解阴离子表面活性剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生产加工用可生物降解洗净剂",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:07.248Z"
+}

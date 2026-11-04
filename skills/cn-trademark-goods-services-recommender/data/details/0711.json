@@ -1,0 +1,33 @@
+{
+  "groupCode": "0711",
+  "groupName": "烟草工业用机械",
+  "classCode": "07",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "工业用卷烟机",
+          "code": "070103",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烟草加工机",
+          "code": "070255",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "香烟制造机",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:55.121Z"
+}

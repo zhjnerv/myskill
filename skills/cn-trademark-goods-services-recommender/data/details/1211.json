@@ -1,0 +1,549 @@
+{
+  "groupCode": "1211",
+  "groupName": "运载工具零部件",
+  "classCode": "12",
+  "notes": [
+    "注：1.本类似群与 1201,1202,1203,1204 第(一)部分,1205,1206,1207,1209,1210类似,与第十二版及以前版本0919逃生椅,第十一版及以前版本0750车辆轴承交叉检索 ；",
+    "2.运载工具防盗设备，运载工具防盗报警器与0920第一自然段商品类似；",
+    "3.运载工具防眩光装置，运载工具遮光装置与1101第（二）部分商品类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "气泵（运载工具附件）",
+          "code": "120009",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具用悬置减震器",
+          "code": "120010",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具用减震弹簧",
+          "code": "120011",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具轮胎用防滑装置",
+          "code": "120013",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具座椅头靠",
+          "code": "120015",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具用行李架",
+          "code": "120029",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具轮胎气门嘴",
+          "code": "120032",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具用扭力杆",
+          "code": "120034",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具用轮子",
+          "code": "120053",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具座椅用安全带",
+          "code": "120059",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具用轮毂",
+          "code": "120060",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具底盘",
+          "code": "120069",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具用履带（滚动带）",
+          "code": "120074",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具用履带（拖拉机型）",
+          "code": "120074",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具缓冲器",
+          "code": "120077",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具用液压回路",
+          "code": "120079",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具用卧铺",
+          "code": "120081",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "儿童安全座（运载工具用）",
+          "code": "120112",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具轮平衡器",
+          "code": "120116",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具轮胎平衡块",
+          "code": "120116",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "风挡刮水器",
+          "code": "120121",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "挡风玻璃刮水器",
+          "code": "120121",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具用行李网",
+          "code": "120123",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具用刹车",
+          "code": "120126",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具座椅套",
+          "code": "120132",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "挡风玻璃",
+          "code": "120154",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "风挡",
+          "code": "120154",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具用门",
+          "code": "120160",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具用轮辐",
+          "code": "120168",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具用悬挂弹簧",
+          "code": "120171",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具用轮圈",
+          "code": "120174",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具用座椅",
+          "code": "120177",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具底架",
+          "code": "120185",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具内装饰品",
+          "code": "120195",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具用窗户",
+          "code": "120198",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具防盗设备",
+          "code": "120200",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具防眩光装置*",
+          "code": "120204",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具遮光装置*",
+          "code": "120204",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具防盗报警器",
+          "code": "120211",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具用喇叭",
+          "code": "120212",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具用刹车垫",
+          "code": "120215",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具用制动蹄",
+          "code": "120216",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具用盖罩（成形）",
+          "code": "120224",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具用方向盘",
+          "code": "120230",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具用刹车扇形片",
+          "code": "120236",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具用油箱盖",
+          "code": "120241",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具座椅用安全束带",
+          "code": "120244",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具方向盘罩",
+          "code": "120260",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具用扰流板",
+          "code": "120261",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "前灯刮水器",
+          "code": "120262",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具用刹车盘",
+          "code": "120267",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具用侧后视镜",
+          "code": "120276",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具用操纵杆",
+          "code": "120278",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具用杯架",
+          "code": "120323",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具仪表台专用垫",
+          "code": "120334",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具用燃料箱",
+          "code": "120341",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "逃生椅",
+          "code": "120356",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具用隔断性质的宠物安全隔离栏",
+          "code": "120357",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具专用顶上帐篷",
+          "code": "120359",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "运载工具用滑雪板架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具用顶部行李箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具用挡把",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "预防事故伤害用运载工具充气气囊",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具用制动装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "儿童用运载工具座椅安全带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具座椅用儿童安全带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具专用座椅套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具用制动鼓",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具用儿童增高坐垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具用刹车片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具用手刹把手",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具用气囊",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具轮胎用防滑链",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具用刹车衬片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具座椅用儿童安全束带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具用安全带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "婴幼儿安全座（运载工具用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具用气流扰流板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具用刹车线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具方向盘专用罩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具用挡风玻璃",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具专用靠背",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具用头靠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具扶手",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具空气悬挂系统用轴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具电子防盗装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具安全警报器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具用儿童安全座椅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "轮圈盖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宠物安全座（运载工具用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具用饮料架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具用离合器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具用玻璃窗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具车顶箱",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:03.375Z"
+}

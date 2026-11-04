@@ -1,0 +1,223 @@
+{
+  "groupCode": "0753",
+  "groupName": "单一商品",
+  "classCode": "07",
+  "notes": [
+    "注：1.本类似群各部之间商品不类似；",
+    "2.本类似群第（三）部分商品根据商品的功能、用途确定类似商品；",
+    "3.第（二）部分与第七版及以前版本 0750 电动卷门机交叉检索；",
+    "4.贴标签机（机器）与第八版及以前版本的0709贴标机，0705贴标签机（机器）交叉检索；",
+    "5.自动售货机与第九版及以前版本的0902第（四）部分自动售货机交叉检索。",
+    "6.自动售票机与第十一版及以前版本0902 第（四）部分自动售票机交叉检索"
+  ],
+  "sections": [
+    {
+      "label": "（一）",
+      "items": [
+        {
+          "name": "压滤机",
+          "code": "070109",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "筛选机",
+          "code": "070133",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "工业用拣选机",
+          "code": "070143",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "过滤机",
+          "code": "070192",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "滤筛机",
+          "code": "070556",
+          "type": "standard",
+          "section": "（一）"
+        }
+      ]
+    },
+    {
+      "label": "（二）",
+      "items": [
+        {
+          "name": "电控拉窗帘装置",
+          "code": "070331",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "电动卷门机",
+          "code": "C070424",
+          "type": "marked",
+          "section": "（二）"
+        }
+      ]
+    },
+    {
+      "label": "（三）",
+      "items": [
+        {
+          "name": "滚筒（机器部件）",
+          "code": "070039",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "贴标签机（机器）",
+          "code": "070182",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "电动擦鞋机",
+          "code": "070501",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "球拍穿线机",
+          "code": "070511",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "自动售货机",
+          "code": "070537",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "3D打印机",
+          "code": "070555",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "3D打印笔",
+          "code": "070576",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "非医用机械外骨骼",
+          "code": "070582",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "3D生物打印机",
+          "code": "070596",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "自动售票机",
+          "code": "070599",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "工业用流体分配机",
+          "code": "070600",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "航空加油车接头",
+          "code": "C070423",
+          "type": "marked",
+          "section": "（三）"
+        },
+        {
+          "name": "储液器（机器部件）",
+          "code": "C070426",
+          "type": "marked",
+          "section": "（三）"
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "自动拆装轮胎装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "稻谷分选机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自动售糖果机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冰面打磨机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化学加工用拣选机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冷藏式自动售货机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制动液更换加注机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "筛分机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "轮胎平衡机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贮液器（机器部件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陶瓷3D打印机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用自动叠衣机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化学加工用压滤机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动开锁器",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:20.291Z"
+}

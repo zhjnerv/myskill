@@ -1,0 +1,1588 @@
+{
+  "groupCode": "4220",
+  "groupName": "计算机编程及相关服务",
+  "classCode": "42",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "计算机出租",
+          "code": "420083",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "计算机编程",
+          "code": "420090",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "计算机软件设计",
+          "code": "420139",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "计算机软件更新",
+          "code": "420140",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "计算机硬件设计和开发咨询",
+          "code": "420141",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "计算机软件出租",
+          "code": "420159",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "恢复计算机数据",
+          "code": "420175",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "计算机软件维护",
+          "code": "420176",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "计算机系统分析",
+          "code": "420177",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "计算机系统设计",
+          "code": "420194",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "计算机程序复制",
+          "code": "420197",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "把有形的数据或文件转换成电子媒体",
+          "code": "420198",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "为他人创建和维护网站",
+          "code": "420199",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "托管计算机网站",
+          "code": "420200",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "计算机软件安装",
+          "code": "420201",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "计算机程序和数据的数据转换（非有形转换）",
+          "code": "420203",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "计算机软件咨询",
+          "code": "420204",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "网络服务器出租",
+          "code": "420205",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "计算机病毒的防护服务",
+          "code": "420206",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "提供互联网搜索引擎",
+          "code": "420209",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "文档数字化（扫描）",
+          "code": "420210",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "通过远程访问监控计算机系统的运行",
+          "code": "420215",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "网站设计咨询",
+          "code": "420219",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "软件即服务（SaaS）",
+          "code": "420220",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "信息技术[IT]支持服务（软件的故障排除）",
+          "code": "420221",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "服务器托管",
+          "code": "420223",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "远程数据备份",
+          "code": "420225",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电子数据存储",
+          "code": "420226",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "通过网站提供计算机技术和编程信息",
+          "code": "420227",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "通过云计算提供虚拟计算机系统",
+          "code": "420229",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "计算机技术咨询",
+          "code": "420232",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "计算机安全咨询",
+          "code": "420235",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "手机解锁",
+          "code": "420238",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "为检测故障监控计算机系统",
+          "code": "420239",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "为他人创建和设计网络信息索引（信息技术服务）",
+          "code": "420240",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "互联网安全咨询",
+          "code": "420241",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "数据安全咨询",
+          "code": "420242",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "数据加密服务",
+          "code": "420243",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "为侦测非授权访问和数据外泄而进行的计算机系统监控",
+          "code": "420244",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "为侦测网络身份盗用而进行的个人身份信息电子监控",
+          "code": "420245",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "为侦测网络诈骗而进行的信用卡活动电子监控",
+          "code": "420246",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "软件出版框架下的软件开发",
+          "code": "420247",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "平台即服务（PaaS）",
+          "code": "420248",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "计算机平台的开发",
+          "code": "420249",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "通过技术手段为电子商务交易进行用户认证服务",
+          "code": "420260",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "通过单点登录技术为在线应用软件进行用户认证服务",
+          "code": "420261",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "编写计算机代码",
+          "code": "420262",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电信网络安全咨询",
+          "code": "420263",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "计算机模拟模型的设计",
+          "code": "420267",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "投影映射视频用计算机图形设计",
+          "code": "420271",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "计算机犯罪领域的数字取证调查",
+          "code": "420272",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "关于数字化转型的技术咨询服务",
+          "code": "420273",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "数据中心设施出租",
+          "code": "420274",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "使用区块链技术的用户认证服务",
+          "code": "420279",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "视频游戏和计算机游戏的开发",
+          "code": "420282",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "量子计算",
+          "code": "420283",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "用于数据处理的计算机编程服务",
+          "code": "420285",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "用于数据处理的软件工程服务",
+          "code": "420286",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "区块链即服务（BaaS）",
+          "code": "420295",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "虚拟环境托管",
+          "code": "420296",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "未配置的用户可编程拟人机器人的出租",
+          "code": "420299",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "提供在线不可下载的计算机软件",
+          "code": "420300",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "区块链上智能合约的计算机编程",
+          "code": "420302",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "基于虚拟现实工作协作的软件平台托管",
+          "code": "420303",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "照片数字化（扫描）",
+          "code": "420304",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "智能眼镜出租",
+          "code": "420305",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "人工智能即服务(AIaaS)",
+          "code": "420315",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "医疗方面的计算机编程",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人更新网站",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "上网用计算机软件维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "软件设计方面的咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "主页和网站设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "驱动及操作系统软件开发",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机网络配置服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机安全和风险防范用软件的维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "软件开发和质量改进方面的咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机软件测试",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机数据库设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机硬件设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机游戏软件的设计和开发",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手机软件更新",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手机软件设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手机应用软件的设计和开发",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数据处理软件的出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数据处理软件的更新",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "虚拟现实软件的设计和开发",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "设计和开发互联网网页",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机固件的设计和开发",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数据加密和解码服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为第三方更新计算机程序",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子数据备份服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子信息的数据转换",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "创建计算机程序",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "设计用于广告的网站",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数据处理用计算机程序的开发和创建",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有关计算机操作的技术建议",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有关计算机硬件设计的建议",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数据库重构",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数据解密服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机游戏用计算机硬件的开发",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "转换文档数据的计算机格式",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机数据数字压缩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机视频游戏编程",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为计算机网络创建主页",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为计算机网络更新主页",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人更新主页",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人设计计算机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机软件开发",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数据处理设备出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机程序安装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机设计服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机程序出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机游戏编程",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机编程咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机软件研究和开发",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "软件设计和开发",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数据迁移服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "网页设计咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机网站设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "创建互联网网站",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机软件的设计和开发",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "出租计算机软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机软件和程序出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机软件的安装和维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机软件复制",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "托管网站",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "网站设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "网站托管服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机系统集成服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为互联网提供搜索引擎",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "应用软件出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机软件更新服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机软件安装、维护和修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机软件咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机设备出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机图像设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "图像处理软件设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人提供计算机软件设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "主页和网页设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人进行网站开发",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "远程计算机备份服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机的设计和开发",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机硬件出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无线计算机网络的设计和开发",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机软件维护服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机软件维护和更新",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机软件维护和升级",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数据库设计和开发",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数据处理程序的编写",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机程序复制服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机软件的更新和维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子数据安全系统的设计和开发",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机辅助图形设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "创建、设计和维护网站",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数据库开发服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "测试计算机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机安全和计算机风险防范软件的更新",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机软件的编写和更新",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "构建和维护网站",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为制造业设计和开发计算机硬件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "关于计算机程序的技术顾问服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于电子数据归档的电子存储服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "多媒体设备编程",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "与操作灌装设备和机器有关计算机软件维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为保护数据进行计算机安全威胁分析",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机辅助模具设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "主页设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "设计用于控制自助服务终端的计算机软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子收款机系统用计算机程序开发",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "录制在数据媒体（软件）上的用于建筑和自动化生产的计算机程序开发",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "根据第三方订单开发数据处理程序",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "在互联网上托管网站",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "网站可用性测试服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人提供计算机网络设计服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "智能手机数据恢复",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机软件安装、修理和维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于安全网络操作的软件开发",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子网站编写",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机软件设计和编写",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "接入互联网的软件出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为商业分析和报告提供计算机编程",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为电动操作控制和驱动组件创建控制程序",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为第三方设计和维护计算机站",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "修复受损的计算机程序",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机程序测试",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "使用单点登录技术为在线软件应用提供用户认证服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "使用生物识别硬件和软件技术为电子商务交易提供用户认证服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机硬件检测",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "排除计算机软件故障",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机服务器存储空间出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "即时通信用软件的设计和开发",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子数据的云存储服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子文件的云存储服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机硬件开发",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机硬件和软件的设计与开发",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人设计和开发计算机软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "在线数据存储服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "网站服务器出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "向第三方出租数据库服务器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "信息技术研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "信息技术咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "与计算机安全和风险防范有关的计算机软件维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机设计和开发",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子数据储存",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数据库访问时间出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机程序更新",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机程序的设计、制作或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机程序的设计和开发",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "软件运营服务（SaaS）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "（向第三方）出租数据库服务器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算硬件设计和开发咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "虚拟专用网络（VPN）操作软件的设计与开发",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "单点登录软件的设计与开发",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供在线不可下载单点登录软件临时使用服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "添加数字水印",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "网页和网站设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为第三方设计、创建、托管和维护互联网网站",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为第三人创建、设计、开发和维护网站",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人设计、创建、托管和维护网站",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "在互联网上托管数字内容",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "云计算领域的咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数字内容形式跨平台转换",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供软件开发工具的在线非下载临时使用",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "视频游戏开发服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "多媒体应用程序编程",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机性能测试",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "使用敏捷开发模式的计算机系统设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "云计算",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "托管计算机站（网站）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机软件的修复",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电脑动画设计用计算机软件设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人设计和维护网站",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "将CD盘转换成数字格式",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人创建和设计网页",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人创建网页",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人托管网站",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人管理网站",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机动画设计用计算机软件设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人调试计算机软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人设计和创建网站",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过计算机网络、内部网和互联网提供货物跟踪用不可下载计算机软件的临时使用",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过计算机网络、内部网和互联网提供货运处理用不可下载计算机软件的临时使用",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人进行计算机代码转换",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "深度学习领域用于数据收集、分析和整理的计算机软件的出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供深度学习领域用于数据收集、分析和整理的在线不可下载计算机软件的临时使用权",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "替他人升级计算机软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人脸识别软件的设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手机地图导航软件的设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "在线社交软件的设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机游戏开发服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机游戏软件的出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "量子计算领域的科学研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机游戏程序出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "影像的数字化处理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "服务器存储空间出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "视频游戏软件的租赁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为第三方管理网站",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "边缘计算领域的研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机自然语言处理领域的研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "芯片设计软件开发",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "声音和影像的数字化",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "把音频和视频媒体数字化为电子格式",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "软件移植",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "文件和存档电子邮件的电子存储",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机硬盘数据备份服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "软件工程服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数据挖掘领域的技术研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "信息和数据的临时电子存储",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "软件和数据库系统的开发、更新和维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "文档和文件的电子存储",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数字图像的电子存储",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数字照片的电子存储",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于数据库、图像和其他电子数据归档的电子存储服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数字视频文件的电子存储",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "视频游戏软件的出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供创建和发布在线日志和博客用不可下载的计算机软件的临时使用",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "量子计算领域的咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于金融管理的计算机软件出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "增强现实（AR）游戏软件的开发",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数字音频文件的电子存储",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人创建主页",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "DNA数据存储技术研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "在线数据存储",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供用于在线期刊和博客的创建和出版的不可下载的计算机软件的临时使用权",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有关建筑学的计算机辅助设计服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机语言设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数据处理系统的设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "虚拟交互映像相关计算机软件的开发",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "分布式计算领域的研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供在线不可下载的语言翻译计算机软件的临时使用权",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子数据湖的云存储服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机数据库问题诊断型故障排查",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "移动支付软件的开发",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "隐私计算领域的研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供在线非下载的用于同步两个或多个计算机数据库的计算机软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供在线非下载的计算机游戏程序的临时使用",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "模拟实验室实验用计算机程序开发",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供用于数据迁移的在线不可下载软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "软件迁移服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供用于管理计算机网络的在线不可下载软件",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:51.200Z"
+}

@@ -1,0 +1,464 @@
+{
+  "groupCode": "1502",
+  "groupName": "乐器辅助用品及配件",
+  "classCode": "15",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "校音扳头",
+          "code": "150002",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "乐器用簧片",
+          "code": "150003",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "乐器琴弓",
+          "code": "150004",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "乐器琴弓螺帽",
+          "code": "150005",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "弦乐器用弓柄",
+          "code": "150006",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "弓用马毛（乐器用）",
+          "code": "150007",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "指挥棒",
+          "code": "150009",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鼓槌",
+          "code": "150010",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "乐器用肠线",
+          "code": "150015",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "定音鼓架",
+          "code": "150020",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "乐器弦轴",
+          "code": "150021",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "乐器键盘",
+          "code": "150024",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "乐器弦",
+          "code": "150028",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "音叉",
+          "code": "150033",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "吹奏乐器的管口",
+          "code": "150034",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "乐器盒",
+          "code": "150035",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "竖琴弦",
+          "code": "150042",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "机械钢琴用音量调节器",
+          "code": "150045",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "拨弦片",
+          "code": "150048",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "小提琴腮托",
+          "code": "150050",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "音乐盒",
+          "code": "150052",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "活页乐谱翻页器",
+          "code": "150053",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "琴码",
+          "code": "150054",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鼓面",
+          "code": "150059",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鼓皮",
+          "code": "150059",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "乐器用踏板",
+          "code": "150060",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "钢琴键盘",
+          "code": "150061",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "钢琴弦",
+          "code": "150062",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "钢琴键",
+          "code": "150063",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "乐器风管",
+          "code": "150064",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "乐器用弱音器",
+          "code": "150065",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "乐器栓塞",
+          "code": "150073",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "乐器音键",
+          "code": "150077",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "乐谱纸卷",
+          "code": "150078",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "乐谱纸卷（钢琴）",
+          "code": "150078",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "穿孔乐谱纸卷",
+          "code": "150079",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "乐谱架",
+          "code": "150080",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "乐器架",
+          "code": "150088",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "弦乐器用松香",
+          "code": "150093",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "乐器用木槌",
+          "code": "150095",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "乐器背带",
+          "code": "150096",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "校音器（定音器）",
+          "code": "C150012",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "笛膜",
+          "code": "C150013",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "风琴音节栓",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子乐器用调音器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "将开孔长笛变为闭孔长笛的塞子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "弹日式乐器用指套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "低音鼓槌",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "吉他背带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "吉他拨片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "吉他弦",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "西洋乐器用弦",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "弦乐器用指板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鼓踏板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "乐器用电子练习弱音器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "乐器用调音器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于小军鼓的响弦",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "乐器专用包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日式弦乐器用拨子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鼓垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "乐器用校音装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "音乐盒（非玩具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日式弦乐器用弦",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "西方乐器用弦",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "吉他弦桥",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "古筝架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "笛膜保护器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "二胡琴弦",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "二胡演奏弓",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "吉他变调夹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "乐器带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "乐器用松香",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "乐器双肩背带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "大提琴尾柱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "调音笛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子鼓垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "大提琴用防滑垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "吉他罩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "低音提琴尾柱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木管乐器管口用簧片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制小提琴琴弓用马毛",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:09.868Z"
+}

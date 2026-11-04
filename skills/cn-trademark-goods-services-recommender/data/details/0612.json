@@ -1,0 +1,229 @@
+{
+  "groupCode": "0612",
+  "groupName": "金属器具，金属硬件（非机器零件）",
+  "classCode": "06",
+  "notes": [
+    "注：钢滚珠与第九版及以前版本的0750滚珠，轴承滚珠交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "机器传动带用金属扣",
+          "code": "060012",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属带式铰链",
+          "code": "060039",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "丁字砧",
+          "code": "060045",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属法兰盘",
+          "code": "060054",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铁砧",
+          "code": "060097",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属制皮带张紧器",
+          "code": "060101",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属挂锅钩",
+          "code": "060103",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "钩子（金属器具）",
+          "code": "060105",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "搬运用金属货盘",
+          "code": "060175",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运输用金属货盘",
+          "code": "060176",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属虎钳爪",
+          "code": "060191",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "弹簧（金属制品）",
+          "code": "060206",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属滑轮（非机器用）",
+          "code": "060207",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属线拉伸器（张力环）",
+          "code": "060230",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铁砧（便携式）",
+          "code": "060248",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "张力环",
+          "code": "060249",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "钢滚珠",
+          "code": "060265",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "机器传动带用金属加固材料",
+          "code": "060277",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铁带拉伸器（张力环）",
+          "code": "060284",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "装卸用金属货盘",
+          "code": "060325",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "屋顶石板片用金属钩",
+          "code": "060351",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "软管用非机械式金属卷盘",
+          "code": "060357",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属带拉伸器（张力环）",
+          "code": "060383",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属制岩钉",
+          "code": "060430",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属托盘*",
+          "code": "060440",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "车辆救援用金属制牵引板",
+          "code": "060508",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "贮藏用金属货盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属层压簧片（非机器部件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属岩钉钢环",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属爬树脚蹬",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "（锻工用）型砧",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属法兰盖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "石板用钩（金属器具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属钩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "储藏用金属货盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "软管用非机械金属绕轴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "软管用非机械金属卷轴",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:41.052Z"
+}

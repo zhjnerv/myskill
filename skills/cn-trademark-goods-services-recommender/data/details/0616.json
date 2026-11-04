@@ -1,0 +1,99 @@
+{
+  "groupCode": "0616",
+  "groupName": "焊接用金属材料（不包括塑料焊丝）",
+  "classCode": "06",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "银焊料",
+          "code": "060030",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铜焊合金",
+          "code": "060053",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属焊丝",
+          "code": "060242",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铜焊金属焊条",
+          "code": "060302",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铜焊及焊接用金属棒",
+          "code": "060303",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属焊条",
+          "code": "060304",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金焊料",
+          "code": "060417",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "焊锡丝",
+          "code": "C060033",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "硬焊料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "锡条",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "焊条",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "锡线圈",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铜焊和焊接用金属棒（包括钢钛合金制）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "软焊料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属铜焊条",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:43.478Z"
+}

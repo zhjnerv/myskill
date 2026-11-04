@@ -1,0 +1,590 @@
+{
+  "groupCode": "0752",
+  "groupName": "清洁、废物处理机械",
+  "classCode": "07",
+  "notes": [
+    "注：1.本类似群与第七版及以前版本 1609 真空吸尘器的替换纸袋，第六版及以前版本 0924吸尘器，真空吸尘器交叉检索；",
+    "2.本类似群与第八版及以前版本的0753粉碎机，粉碎机（机器），工业用切碎机（机器）交叉检索；",
+    "3.跨类似群保护商品：粉碎机（0702第（二）部分，0725，0733，0752）；工业用切碎机（机器）（0702第（二）部分，0709，0752）；碾碎机（0709，0733，0752）。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "自推进式扫路机",
+          "code": "070034",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "泥浆收集机",
+          "code": "070059",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "粉碎机",
+          "code": "070153",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "污物粉碎机",
+          "code": "070162",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "清洗设备",
+          "code": "070233",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具用清洗装置",
+          "code": "070235",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电动清洁机械和设备",
+          "code": "070281",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "垃圾处理装置",
+          "code": "070414",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "废物处理装置",
+          "code": "070414",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "垃圾压实机",
+          "code": "070418",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "废料压实机",
+          "code": "070418",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "工业用切碎机（机器）",
+          "code": "070419",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "扫雪机",
+          "code": "070502",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "碾碎机",
+          "code": "070561",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "清理管道用清管器",
+          "code": "070564",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蒸汽拖把",
+          "code": "070581",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "清洗地毯用电动机器和装置",
+          "code": "070481",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "中心真空吸尘装置",
+          "code": "070483",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蒸汽清洁器械",
+          "code": "070485",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "清洁用吸尘装置",
+          "code": "070487",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "清洁用除尘装置",
+          "code": "070488",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "高压洗涤机",
+          "code": "070495",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "拼花地板电子打蜡机",
+          "code": "070500",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "真空吸尘器用喷洒香水和消毒液的附件",
+          "code": "070506",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "真空吸尘器管",
+          "code": "070507",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "真空吸尘器",
+          "code": "070508",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电动打蜡机器和设备",
+          "code": "070510",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "真空吸尘器袋",
+          "code": "070521",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "吸尘器用刷",
+          "code": "070559",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "真空吸尘器用吸嘴",
+          "code": "070563",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非接触固定式真空吸尘器",
+          "code": "070592",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "擦窗机器人",
+          "code": "070626",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "（管道）疏通挖泥车",
+          "code": "C070362",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "电动下水管道疏通器",
+          "code": "C070363",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "废弃食物处理机",
+          "code": "C070422",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "工业用电动机清洗机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用真空吸尘器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "地板抛光机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "分离可回收材料用机器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用电动打蜡机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "扫路机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "垃圾压碎机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用电动打蜡机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用真空吸尘器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "充电式扫地机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动蒸汽拖把",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用电动蒸汽拖把",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无绳电动扫地机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无线吸尘器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "真空吸尘器用纸袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸币清洗机器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自动真空吸尘器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "清理废弃材料用机械工具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "清理残骸碎片用真空切碎机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "航空引擎用清洗机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用蒸汽清洁器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "废物和垃圾分离机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水池清洁机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "垃圾处理机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "垃圾破碎机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自动推进式扫路机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "真空吸尘器用灰尘过滤器和袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "真空吸尘器用电风扇装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高压清洗机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蒸汽清洗机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手持式真空吸尘器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "洗车机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食物垃圾处理机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动真空吸尘器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动管道疏通器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "吹雪机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "除雪机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具清洗机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商业和工业用真空吸尘器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高尔夫球清洗机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动窗户清洁机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "地板擦洗机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "真空吸尘器用刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动清洗机械和设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "污泥处理装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "废物处理机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "扫路机（自动推进）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "垃圾（废物）处理装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "清洗地毯的机器和装置（电动）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用电洗涤机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蒸汽拖把（蒸汽清洁器械）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "花园用电动粉碎机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "园艺废弃物粉碎机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具轮胎清洗机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具轮子清洗机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动枝叶粉碎机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可回收材料分类机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "充电电池供电的真空吸尘器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "多用途高压洗涤机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "外科、医疗和实验室设备用自动清洗机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "真空吸尘器用滤尘器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "采用高压水的表面清洗机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "真空吸尘器用可替换集尘纸袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "管道系统清洁用机器人",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "回转式清污机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具用自动清洗装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "海滩清洁机器人",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "废弃物处理机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "清洁窗户用机械臂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "窗户清洁机器人",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "地板清洁机器人",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "具有人工智能的游泳池清洁机器人",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:19.731Z"
+}

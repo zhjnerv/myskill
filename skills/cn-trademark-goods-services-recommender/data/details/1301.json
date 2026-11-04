@@ -1,0 +1,781 @@
+{
+  "groupCode": "1301",
+  "groupName": "火器，军火及子弹",
+  "classCode": "13",
+  "notes": [
+    "注：1.除瞄准望远镜外的火器用瞄准器，除瞄准望远镜外的武器用瞄准器，枪和步枪用瞄准镜，步枪瞄准镜，枪瞄准镜与0911武器用瞄准望远镜，火器用瞄准望远镜类似；",
+    "2.本类似群与第十一版及以前版本2807发令枪交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "炮架",
+          "code": "130002",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "机动武器",
+          "code": "130007",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "催泪武器",
+          "code": "130008",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "火器",
+          "code": "130009",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "火器清洁刷",
+          "code": "130010",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "大炮",
+          "code": "130014",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "弹道导弹",
+          "code": "130015",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "弹道武器",
+          "code": "130015",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "装子弹带装置",
+          "code": "130016",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "弹壳",
+          "code": "130019",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "加农炮",
+          "code": "130020",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "枪管",
+          "code": "130021",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "步枪枪管",
+          "code": "130021",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "卡宾枪",
+          "code": "130022",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "步枪",
+          "code": "130022",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "子弹",
+          "code": "130023",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "装弹装置",
+          "code": "130024",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "子弹袋",
+          "code": "130025",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "猎枪",
+          "code": "130026",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "体育用火器",
+          "code": "130026",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "弹药",
+          "code": "130027",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "枪撞针",
+          "code": "130028",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "步枪撞针",
+          "code": "130028",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "角状火药容器",
+          "code": "130029",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "火器后膛",
+          "code": "130031",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "枪盒",
+          "code": "130033",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "步枪盒",
+          "code": "130033",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "信号火箭",
+          "code": "130035",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "枪（武器）",
+          "code": "130036",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "枪托",
+          "code": "130037",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "枪瞄准镜",
+          "code": "130038",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "枪和步枪用瞄准镜",
+          "code": "130038",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "步枪瞄准镜",
+          "code": "130038",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "步枪扳机保险",
+          "code": "130040",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "枪和步枪用扳机保险",
+          "code": "130040",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "打猎铅弹",
+          "code": "130041",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "火器弹药",
+          "code": "130042",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "火箭发射装置",
+          "code": "130043",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "机枪",
+          "code": "130046",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "迫击炮（火器）",
+          "code": "130047",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "炮弹",
+          "code": "130048",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "手枪（武器）",
+          "code": "130049",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "导弹（武器）",
+          "code": "130052",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "左轮手枪",
+          "code": "130055",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "重武器炮耳",
+          "code": "130056",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "发射平台",
+          "code": "130057",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "除瞄准望远镜外的火器用瞄准器",
+          "code": "130058",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "气枪（武器）",
+          "code": "130059",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "武器肩带",
+          "code": "130063",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "除瞄准望远镜外的武器用瞄准器",
+          "code": "130065",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "火箭（自动推进武器）",
+          "code": "130068",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "捕鲸炮",
+          "code": "130069",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "枪支用消声器",
+          "code": "130070",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "坦克车（武器）",
+          "code": "130071",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "弹药带",
+          "code": "130074",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "自动武器用弹药带",
+          "code": "130075",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鱼雷",
+          "code": "130076",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "随身武器（火器）",
+          "code": "130077",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "手榴弹",
+          "code": "130078",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "信号枪",
+          "code": "130079",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "爆炸性或烟火式救援信号弹",
+          "code": "130080",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "发令枪",
+          "code": "130081",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "捕鲸炮用鱼叉",
+          "code": "130082",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "巡航导弹",
+          "code": "130083",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "炮衣",
+          "code": "C130001",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "防暴捕网器",
+          "code": "C130007",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "捕捉网发射器",
+          "code": "C130008",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "步枪专用包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "弹药升降机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "猎枪子弹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "穿甲弹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "舰对空导弹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "远程大炮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "空对地导弹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "军用步枪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用火箭推进的弹道导弹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自动手枪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自动枪支用弹壳收集器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "红外线防御火箭用弹头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "装甲车和坦克用烟雾弹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "轻武器用装弹设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "火器专用便携箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "火箭用烟雾弹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "火箭炮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电传导武器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自动左轮手枪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "已装药的炮弹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "步枪弹药",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电击枪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制导导弹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "气弹枪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "弹丸枪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "步枪子弹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "枪械弹盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "火器保险栓",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手枪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "猎枪弹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "气枪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "气枪子弹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高射炮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自动枪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "深水炸弹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水雷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烟火发射装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "步枪背带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机枪子弹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "榴弹炮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "重炮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "枪支支架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "燃烧弹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "毒气弹（武器）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "迫击炮弹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "枪衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烟火弹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无后座力炮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "投弹器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "空投炸弹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "火器专用武器盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "枪炮噪声抑制器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制导炮弹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "火器弹匣用快速装弹器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "带弹匣袋的手枪套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "火器用两脚架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "子弹带装弹机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "枪口补偿器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "枪支专用包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "信号弹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "捕鲸炮（武器）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "枪支用清洁刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "枪支用弹托",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "左轮手枪枪柄",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "枪支用子弹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手枪收纳箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水下制导导弹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "多弹头导弹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "精确制导导弹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "反弹道导弹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机枪弹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "枪管塞",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:03.943Z"
+}

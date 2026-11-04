@@ -1,0 +1,57 @@
+{
+  "groupCode": "3711",
+  "groupName": "钟表修理",
+  "classCode": "37",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "钟表修理",
+          "code": "370051",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "时钟修理或保养",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手表修理或保养",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钟表修理服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "表针更换",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "表盘更换",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手表修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "时钟修理",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:18.551Z"
+}

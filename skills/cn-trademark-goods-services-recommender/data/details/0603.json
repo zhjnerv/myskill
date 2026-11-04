@@ -1,0 +1,1401 @@
+{
+  "groupCode": "0603",
+  "groupName": "金属建筑材料，可移动金属建筑物（不包括建筑小五金）",
+  "classCode": "06",
+  "notes": [
+    "注:1.建筑用金属盖板，建筑用金属衬板，金属隔板，建筑用金属嵌板，钢模板，建筑用金属平板等金属制板材与 0601 第二自然段类似；",
+    "2. 铝塑板与第八版及以前版本1909铝塑板(以塑料为主)交叉检索；",
+    "3. 金属门，金属固定百叶窗，金属百叶窗，金属大门，金属制楣窗，金属窗，金属折门，金属双开弹簧门，金属折扇门，金属竖铰链窗等金属制门窗与 1909 塑钢门窗类似；",
+    "4. 本类似群与第九版及以前版本0615金属鸟舍(建筑物)交叉检索；",
+    "5. 预应力锚具与0733预应力锚具张拉设备类似；",
+    "6. 本类似群与第七版及以前版本 0607 金属脚手架扣件交叉检索；",
+    "7. 金属旋转栅门与第九版及以前版本0914自动旋转栅门交叉检索；",
+    "8. 金属旗杆与第十版及以前版本2003旗杆交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "金属楼梯",
+          "code": "060124",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属格栅",
+          "code": "060152",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属火箭发射台",
+          "code": "060159",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "可移动金属建筑物",
+          "code": "060170",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属围篱",
+          "code": "060198",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "溜冰场（金属结构）",
+          "code": "060203",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属跳水板",
+          "code": "060215",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属电线杆",
+          "code": "060222",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属蓄水池",
+          "code": "060232",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属筒仓",
+          "code": "060239",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属格架",
+          "code": "060256",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鸟舍（金属结构）",
+          "code": "060263",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "不发光金属信号台",
+          "code": "060282",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "游泳池（金属结构）",
+          "code": "060290",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属制自行车停放架",
+          "code": "060293",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属制简易小屋",
+          "code": "060308",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "喷漆用金属间",
+          "code": "060310",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属制温室骨架",
+          "code": "060316",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属烟囱罩",
+          "code": "060318",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属烟囱管帽",
+          "code": "060331",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属建筑物",
+          "code": "060339",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属梯",
+          "code": "060361",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "乘客登乘用可移动金属梯",
+          "code": "060362",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电线用金属杆",
+          "code": "060365",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属栅栏",
+          "code": "060368",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "炉用金属护栏",
+          "code": "060390",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "公路防撞用金属护栏",
+          "code": "060397",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属广告栏",
+          "code": "060411",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属烟囱",
+          "code": "060413",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属烟囱柱",
+          "code": "060414",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属电话间",
+          "code": "060422",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属电话亭",
+          "code": "060422",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属鸡房",
+          "code": "060425",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "（壁炉的）柴架",
+          "code": "060431",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "凉亭（金属结构）",
+          "code": "060436",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属牲畜棚",
+          "code": "060437",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属猪圈",
+          "code": "060438",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属预制房（组装件）",
+          "code": "060439",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属旗杆（建筑物）",
+          "code": "060468",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "车辆用金属坡道",
+          "code": "060476",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属双开弹簧门",
+          "code": "060478",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属折扇门",
+          "code": "060482",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "壁炉用金属炉栅",
+          "code": "060483",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属制移动式隔音亭",
+          "code": "060484",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属制吸音板",
+          "code": "060485",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属制园艺罩骨架",
+          "code": "060486",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属制非医用户外垃圾箱",
+          "code": "060488",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属制回收箱",
+          "code": "060492",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属制浮动地板",
+          "code": "0604950",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "具有隔音效果的金属建筑材料",
+          "code": "060501",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "太阳能电池板用金属安装框",
+          "code": "060504",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属制垃圾箱（非家用）",
+          "code": "060505",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属制垃圾桶（非家用）",
+          "code": "060505",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "镀锌铁塔",
+          "code": "C060012",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "桥梁支承",
+          "code": "C060013",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "金属果皮箱",
+          "code": "C060014",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "电缆桥架",
+          "code": "C060015",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "金属护栏",
+          "code": "C060034",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "金属井盖",
+          "code": "C060035",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "预应力锚具",
+          "code": "C060036",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "金属锚具",
+          "code": "C060037",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "金属制帐篷桩",
+          "code": "C060047",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "金属跳水台",
+          "code": "C060048",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "钢制卷帘",
+          "code": "060009",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "混凝土用金属加固材料",
+          "code": "060033",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属地板砖",
+          "code": "060040",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属栅栏用杆",
+          "code": "060042",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "建筑用金属架",
+          "code": "060074",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "建筑用金属柱",
+          "code": "060090",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属制屋顶防雨板",
+          "code": "060098",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属门*",
+          "code": "060100",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "窗用铁制品",
+          "code": "060106",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "建筑用金属托架",
+          "code": "060123",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "建筑用金属附件",
+          "code": "060140",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属固定百叶窗",
+          "code": "060156",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属制室外遮帘",
+          "code": "060158",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属楼梯基（楼梯部件）",
+          "code": "060162",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属楣",
+          "code": "060165",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属台阶（梯子）",
+          "code": "060177",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "门廊（金属结构）",
+          "code": "060179",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "建筑用金属制墙包层",
+          "code": "060192",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "建筑用金属盖板",
+          "code": "060195",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属百叶窗",
+          "code": "060197",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "建筑用金属制墙衬料",
+          "code": "060201",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属天花板",
+          "code": "060209",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属地板",
+          "code": "060210",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "建筑用金属衬板",
+          "code": "060211",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属屋瓦",
+          "code": "060213",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属大门",
+          "code": "060218",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属门板",
+          "code": "060219",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属梁",
+          "code": "060224",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属搁栅",
+          "code": "060225",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "预制金属台",
+          "code": "060226",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属槛",
+          "code": "060233",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属屋顶",
+          "code": "060252",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属旋转栅门",
+          "code": "060255",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属制楣窗",
+          "code": "060260",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "钢结构建筑",
+          "code": "060266",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属护壁板",
+          "code": "060274",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "建筑用金属加固材料",
+          "code": "060276",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属建筑材料",
+          "code": "060291",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "混凝土用金属模板",
+          "code": "060292",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属铺路块料",
+          "code": "060294",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属窗框",
+          "code": "060315",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "温室用金属架",
+          "code": "060316",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属垫路板",
+          "code": "060317",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "建筑用金属砖瓦",
+          "code": "060321",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属砖地板",
+          "code": "060322",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "建筑用金属框架",
+          "code": "060328",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属门框",
+          "code": "060329",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属门框架",
+          "code": "060329",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属檐槽",
+          "code": "060332",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属隔板",
+          "code": "060336",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属檐口",
+          "code": "060343",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "檐板金属嵌条",
+          "code": "060344",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属窗",
+          "code": "060346",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "门用铁制品",
+          "code": "060347",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属检修孔盖",
+          "code": "060349",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属制屋顶覆盖物",
+          "code": "060350",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属楼梯踏板",
+          "code": "060355",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属脚手架",
+          "code": "060360",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "建筑用金属嵌板",
+          "code": "060381",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属制防昆虫纱窗",
+          "code": "060428",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属耐火建筑材料",
+          "code": "060435",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属制街道排水沟",
+          "code": "060441",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属墙砖",
+          "code": "060445",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属铺地平板",
+          "code": "060446",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "建筑用金属平板",
+          "code": "060447",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属梯凳",
+          "code": "060448",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "装有光伏电池的金属屋顶板",
+          "code": "060449",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属装甲门",
+          "code": "060450",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属波形瓦",
+          "code": "060456",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属栏杆",
+          "code": "060457",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "建筑用金属包层",
+          "code": "060458",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属折门",
+          "code": "060473",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "建筑用金属嵌条",
+          "code": "060474",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属制壁炉罩",
+          "code": "060475",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属竖铰链窗",
+          "code": "060499",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "钢模板",
+          "code": "C060016",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "金属脚手架扣件",
+          "code": "C060038",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "铝塑板",
+          "code": "C060042",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "金属制预制房屋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属排水槽",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑用金属墙砖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属窗扉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属窗栏杆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属合金制地板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属折叠门",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属制窗缘饰",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属制卷帘窗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属制帐篷支柱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属砖瓦",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "输配电线路用金属杆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属转门",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属减速带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铁或钢制搁栅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "不发光金属信号台（塔状结构）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "便携式金属堤坝",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "便携式移动金属办公楼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属天花板覆盖物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属遮篷（建筑材料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属预制车库",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "以金属为主的可移动露台",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防撞用金属护栏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铝制窗框",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属隔板支架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属门廊（建筑）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属鸟舍",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属墙板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属外门",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铁门",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铁丝栅栏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属温室",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属屋顶板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属路障",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属丝栅栏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属卷帘门",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属护墙板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属脚手架塔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属扶手",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属防火门",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属制人工鱼礁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑用金属隔板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属折梯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用可移动金属温室",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑和组装面板用金属托架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "面板和面板托梁用金属连接物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冷冻室用金属门框架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属折梯和梯子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "滑动门用金属门框",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑用钢架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属吊顶板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属干墙护角（建筑材料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "室内用金属门",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属檐槽托架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "图书馆用金属梯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属制天花板支架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属窗边框",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属制预制墙",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属制景观围边",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属制室外百叶帘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "预制金属建筑物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "主要由金属制成的预制建筑物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属门边框",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可移动金属温室060236",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属制植物吊篮架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属制雨水槽",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑用金属装甲板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属制外墙壁板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铝制外墙壁板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属制围栏立桩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属制围栏板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属制网式围栏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属制T型围栏柱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属帷幔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属天窗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "墙用金属包层（建筑）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "墙用金属衬料（建筑）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钢制百叶卷帘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "室外金属百叶窗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑用金属墙衬料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属横梁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑用金属板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属预制隔音间",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "室内金属百叶窗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "锻铁制大门",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "预制的金属建筑柱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "阳台用金属栏杆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "栅栏用金属栏杆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属制停车限位器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "楼梯用金属扶手",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车停车设施用金属大门",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "以金属材料为主的音乐表演舞台",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "由嵌板组成的金属吊顶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "预制的金属鸡舍",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "预制的金属筒仓",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "预制的金属猪圈",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "成套的金属门",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "地面和墙壁用金属制伸缩缝盖板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "公路用金属路障",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属安全门",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属纱门",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可移动的金属温室",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属预制房（成套组件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "脚手架用普通金属梁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "道路用金属路障",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属制可移动马厩",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:35.689Z"
+}

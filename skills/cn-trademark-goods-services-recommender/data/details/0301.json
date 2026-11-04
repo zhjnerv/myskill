@@ -1,0 +1,706 @@
+{
+  "groupCode": "0301",
+  "groupName": "肥皂，香皂及其他人用洗洁物品，洗衣用漂白剂及其他物料",
+  "classCode": "03",
+  "notes": [
+    "注：1.第一自然段与0306商品类似；",
+    "2. 第一自然段与0501医用洗浴制剂，药浴用海水，浴用泥浆类似，与第十版及以前版本0501药浴制剂，第九版及以前版本0501医用浴剂交叉检索；",
+    "3.非医用沐浴盐，浴盐与0501矿泉水沐浴盐类似，与第九版及以前版本矿泉水浴盐交叉检索；",
+    "4.个人清洁或祛味用下体注洗液，非医用个人私处清洗液，个人清洁或祛味用阴道洗液与0501医用下体注洗液，医用阴道清洗液类似，与第十版及以前版本0501阴道清洗液交叉检索；",
+    "5.第二自然段与0302商品类似；",
+    "6.第二自然段与0303皮革漂白制剂，皮革洗涤剂类似；",
+    "7.漂白盐，漂白碱，洗衣用漂白剂，漂白水，家用漂白剂（脱色剂）与 0503 漂白粉（消毒）类似，与第九版及以前版本0104第（一）部分漂白剂交叉检索。",
+    "8. 类似群保护商品：梳洗用制剂（0301，0306）；",
+    "9. 仁肥皂，肥皂，剃须皂，汗足皂，除臭皂，香皂，防汗皂与0501抗菌皂，消毒皂，药皂类似；",
+    "10. 洗手膏与 0501 抗菌洗手液类似；",
+    "11. 本类似群商品根据功能用途与5类含药物的相应商品类似；",
+    "12.浸清洁制剂的婴儿湿巾与0506浸卫生消毒剂的湿巾，消毒纸巾类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "杏仁肥皂",
+          "code": "030007",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "肥皂*",
+          "code": "030012",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "剃须皂",
+          "code": "030017",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "润发乳*",
+          "code": "030034",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "洗涤用皂树皮",
+          "code": "030093",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "洁肤乳液",
+          "code": "030123",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "梳洗用制剂*",
+          "code": "030125",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "洗发液*",
+          "code": "030134",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "汗足皂",
+          "code": "030143",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "除臭皂",
+          "code": "030149",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "香皂",
+          "code": "030152",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "防汗皂",
+          "code": "030163",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非医用沐浴盐",
+          "code": "030175",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "个人清洁或祛味用下体注洗液",
+          "code": "030218",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "干洗式洗发剂*",
+          "code": "030223",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非医用洗浴制剂",
+          "code": "030230",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "护发素",
+          "code": "030231",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "不含药物的个人私处清洗液",
+          "code": "030238",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非医用洗眼剂",
+          "code": "030243",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "个人清洁或祛味用阴道洗液",
+          "code": "030244",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "家用漂白剂（脱色剂）",
+          "code": "030247",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "浸清洁制剂的婴儿湿巾",
+          "code": "030251",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "洗衣用防染色片",
+          "code": "030260",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "干衣机用抗静电纸",
+          "code": "030261",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "装有洗衣剂的洗衣球",
+          "code": "030278",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "沐浴剂泡腾片",
+          "code": "030285",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "洗手膏",
+          "code": "C030001",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "洗发粉",
+          "code": "C030002",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "香波",
+          "code": "C030003",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "洗发软皂",
+          "code": "C030004",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "柔发剂",
+          "code": "C030005",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "洗面奶",
+          "code": "C030007",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "浴液",
+          "code": "C030008",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "浴盐",
+          "code": "C030009",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "洗涤上光粉",
+          "code": "030009",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "洗衣用浆粉",
+          "code": "030010",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "洗衣用淀粉",
+          "code": "030010",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纺织品上光皂",
+          "code": "030013",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "洗衣用上蓝剂",
+          "code": "030014",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "漂白盐",
+          "code": "030026",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "漂白碱",
+          "code": "030027",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "洗衣用漂白剂",
+          "code": "030028",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "洗衣上光剂",
+          "code": "030029",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "漂白水",
+          "code": "030089",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "洗衣浸泡剂",
+          "code": "030098",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "浸洗衣服制剂",
+          "code": "030098",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "洗衣剂",
+          "code": "030124",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "光滑剂（上浆）",
+          "code": "030127",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "家庭洗衣用亮色化学品",
+          "code": "030174",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "洗衣用织物柔顺剂",
+          "code": "030193",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "干洗剂",
+          "code": "030205",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "洗衣粉",
+          "code": "C030067",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "沐浴油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "沐浴乳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "美容皂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "浸有皮肤清洁液的纸巾",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "浴珠（珠状沐浴剂）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化妆用沐浴油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "护发用浴油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "个人用纸肥皂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "身体用膏状肥皂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "洁肤霜（化妆品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "个人清洁用鼻腔清洗剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含洁肤剂纸巾",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化妆用浴盐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "淋浴和沐浴用泡泡浴液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "洗衣液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "洗衣用水软化剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "衣服用合成洗涤剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "淋浴和沐浴用啫喱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "干衣机用抗静电片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "沐浴用晶盐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "洗衣用蜡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "洗面剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "肥皂粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "肥皂膏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "干洗制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "护发膏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "泡泡浴液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "沐浴啫喱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "沐浴露",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "婴儿香波",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "婴儿用护发素",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮肤清洁制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "浴皂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "织物柔软剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "液体浴皂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "婴儿用洗发剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "杏仁皂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "洗衣用肥皂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "洗衣用海藻胶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "洗衣用清洁剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "洗手液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "洁肤液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "头发干洗粉​",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "洗衣用皂液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "洗衣用衣物柔顺剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "颗粒皂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "婴儿泡泡浴液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "洁面磨砂膏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "衣服用防静电喷雾剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "洗发香波",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "淋浴啫喱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "液体肥皂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "个人用肥皂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用肥皂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "块状肥皂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "洗手和洗脸用液体肥皂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "个人用纸香皂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "香薰沐浴盐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "洗发剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "足浴用液体肥皂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "洁肤皂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "洁肤霜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "不含药物的沐浴粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "不含药物的足部洗液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "不含药物的梳洗制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "不含药物的泡泡浴液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "不含药物的沐浴盐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "浴盐球",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "固体洗发皂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "洗衣用上浆剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "去污皂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "去除皮肤上染发剂用清洁剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "浴粉",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:19.228Z"
+}

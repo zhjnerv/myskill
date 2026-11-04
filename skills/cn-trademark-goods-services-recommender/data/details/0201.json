@@ -1,0 +1,281 @@
+{
+  "groupCode": "0201",
+  "groupName": "染料，媒染剂（不包括食用）",
+  "classCode": "02",
+  "notes": [
+    "注：跨类似群保护商品：着色剂（0201，0202）。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "媒染剂",
+          "code": "020002",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "茜素染料",
+          "code": "020006",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "木材媒染剂",
+          "code": "020027",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "木材染色剂",
+          "code": "020028",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鞋染料",
+          "code": "020041",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "着色剂",
+          "code": "020047",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "苯胺染料",
+          "code": "020052",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "制革用媒染剂",
+          "code": "020057",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "皮革染色剂",
+          "code": "020057",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "染料*",
+          "code": "020058",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "姜黄（染料）",
+          "code": "020060",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "黄桑（染料）",
+          "code": "020074",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "靛青（染料）",
+          "code": "020086",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蛋用染色纸",
+          "code": "020096",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "藏红染料",
+          "code": "020099",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "染料木",
+          "code": "020111",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "染料木提取物（染料）",
+          "code": "020112",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "染色剂",
+          "code": "020139",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "硫化染料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "萘酚染料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "酸性染料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "醇溶性染料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "荧光增白剂（染料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "油溶性染料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "直接染料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "碱性染料（阳离子染料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "合成染料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "天然染料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "地板用染色剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺织品用着色剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "混凝土着色剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "塑料用染料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "造纸用着色剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制油漆用着色剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制药用着色剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制模塑料用着色剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "合成树脂染料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "快速染料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木材染料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "还原染料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "群青染料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "靛青",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "普鲁士蓝",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "苏木提取物（染料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用作染料的姜黄",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制造肥皂用染色剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "油溶染料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "藏红花（染料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制肥皂用着色剂",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:14.896Z"
+}

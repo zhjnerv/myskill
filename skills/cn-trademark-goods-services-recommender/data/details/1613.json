@@ -1,0 +1,174 @@
+{
+  "groupCode": "1613",
+  "groupName": "印章，印油",
+  "classCode": "16",
+  "notes": [
+    "注：本类似群与 1611 文具，学校用品（文具），办公文具类似，与第十一版及以前版本1611 家具除外的办公必需品交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "地址印章",
+          "code": "160004",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "印章（印）",
+          "code": "160052",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "封口印章",
+          "code": "160053",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "印台（油墨印台）",
+          "code": "160054",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "封印（印章）",
+          "code": "160149",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "手印器具",
+          "code": "160176",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "编号机",
+          "code": "160203",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "印台",
+          "code": "160247",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "图章（印）托架",
+          "code": "160258",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "图章（印）盒",
+          "code": "160259",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "印章架",
+          "code": "160261",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "印油（打印油）",
+          "code": "C160081",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "朱印油",
+          "code": "C160082",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "印台水",
+          "code": "C160083",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "印泥",
+          "code": "C160084",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "号码机",
+          "code": "C160085",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "印章用印台",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "印章（文具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "密封用红色印泥",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "号码印章",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "墨水印章",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日期印戳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "印章盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "印油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "办公室用印章",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "标记图章",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "橡皮印章",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日期滚轮印章",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:16.974Z"
+}

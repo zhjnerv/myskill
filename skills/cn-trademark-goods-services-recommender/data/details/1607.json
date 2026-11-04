@@ -1,0 +1,329 @@
+{
+  "groupCode": "1607",
+  "groupName": "照片，图片，图画",
+  "classCode": "16",
+  "notes": [
+    "注：本类似群第一自然段与 1605 第（一）部分印刷品，1606 第（一）部分印刷出版物类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "图画",
+          "code": "160014",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "水彩画",
+          "code": "160020",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "雕版版画",
+          "code": "160028",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "平版印刷工艺品",
+          "code": "160029",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "镶框或未镶框的绘画",
+          "code": "160030",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "彩色石印画片",
+          "code": "160090",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "转印用图画",
+          "code": "160119",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蚀刻版画",
+          "code": "160129",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "书画刻印作品",
+          "code": "160168",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "石版画",
+          "code": "160187",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "石印油画",
+          "code": "160204",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "肖像",
+          "code": "160228",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "年画",
+          "code": "C160053",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "宣传画",
+          "code": "C160054",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "油画",
+          "code": "C160055",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "剪纸",
+          "code": "C160056",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "邮票",
+          "code": "160260",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "照片（印制的）",
+          "code": "160147",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "镶嵌照片用装置",
+          "code": "160219",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "照相板",
+          "code": "160221",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "照相角",
+          "code": "C160057",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "印刷的艺术复制品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "平面艺术印刷品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "绘画复制品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "平版印刷品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数字艺术微喷印画",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "镶框和未镶框的照片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "照片固定装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "丝网版画",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "绘画和书法作品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "艺术画",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "美术印刷品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "装框和未装框照片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水彩画（成品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "供收集的运动员照片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "漫画（图画）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸制熨烫转印贴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "镶框或未镶框的绘画（图画）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "照片架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "石版画（印刷品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "印制的照片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "画",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "已装裱和未装裱的印制照片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "肖像（素描）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "肖像（绘画）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "肖像（打印的照片）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "图画（素描）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "彩色石印画",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "图画（打印的照片）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "图画（绘画）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "相框内衬卡纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "照片镶嵌用背板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "照片镶嵌用角贴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "镶框的照片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "摄影印刷品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "印花用图画",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "中国水墨画",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "书法作品",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:14.124Z"
+}

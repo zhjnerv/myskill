@@ -1,0 +1,21 @@
+{
+  "groupCode": "2611",
+  "groupName": "单一商品",
+  "classCode": "26",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "提胸贴片",
+          "code": "260144",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [],
+  "crawledAt": "2026-06-09T18:59:20.774Z"
+}

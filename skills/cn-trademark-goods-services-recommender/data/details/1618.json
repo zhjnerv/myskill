@@ -1,0 +1,281 @@
+{
+  "groupCode": "1618",
+  "groupName": "打字机、誊写机、油印机及其附件（包括印刷铅字、印版）",
+  "classCode": "16",
+  "notes": [
+    "注：1.本类似群与第十一版及以前版本1611 家具除外的办公必需品交叉检索；",
+    "2.凸印版，胶版，电铸版与0705印刷版，印刷胶版，胶印锌版，外文模板（印刷用）类似；",
+    "3.办公用邮资盖印机，办公用邮资计费器与第九版及以前版本0902邮件打戳器交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "姓名地址印写机",
+          "code": "160005",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "办公用邮资盖印机",
+          "code": "160009",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "办公用邮资计费器",
+          "code": "160009",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "速印机",
+          "code": "160128",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电动或非电动打字机",
+          "code": "160132",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "色带",
+          "code": "160143",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "油印器械及机器",
+          "code": "160230",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "打字机键",
+          "code": "160257",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非电的信用卡盖印机",
+          "code": "160345",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "模板（文具）",
+          "code": "160161",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "条形码碳带",
+          "code": "160388",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "钢字",
+          "code": "160001",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "印模（雕版）",
+          "code": "160015",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "凸印版",
+          "code": "160040",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "色带卷轴",
+          "code": "160043",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "印刷铅字",
+          "code": "160065",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "排字架（印刷）",
+          "code": "160084",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "数字（打字用铅字）",
+          "code": "160088",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铅字（打字）",
+          "code": "160097",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铅字（数字和字母）",
+          "code": "160097",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "排字盘",
+          "code": "160098",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "平版印刷用白垩",
+          "code": "160110",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "打字机辊",
+          "code": "160118",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "活字盘架（印刷用）",
+          "code": "160162",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电铸版",
+          "code": "160163",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "雕刻版",
+          "code": "160170",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "胶版",
+          "code": "160171",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非纺织品制印刷机垫",
+          "code": "160177",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "石印石",
+          "code": "160188",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "镂花模板",
+          "code": "160226",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蜡纸模板",
+          "code": "160227",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铅字排版嵌条",
+          "code": "160235",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "打字机带",
+          "code": "160245",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "姓名地址印写机用印版",
+          "code": "160268",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "胶滚卡盘",
+          "code": "C160101",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "家用油墨辊",
+          "code": "C160112",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "刻字蜡纸模板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电打字机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "打字机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "旋转式速印机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电脑打印机用墨带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "绘图模板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "石板印刷用白垩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "支票打字机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "打字机用印字轮",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:19.865Z"
+}

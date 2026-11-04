@@ -1,0 +1,314 @@
+{
+  "groupCode": "1208",
+  "groupName": "轮胎及轮胎修理工具",
+  "classCode": "12",
+  "notes": [
+    "注：本类似群各部分之间商品不类似。"
+  ],
+  "sections": [
+    {
+      "label": "（一）",
+      "items": [
+        {
+          "name": "充气轮胎的内胎",
+          "code": "120007",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "运载工具用轮胎",
+          "code": "120031",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "自行车车胎",
+          "code": "120084",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "充气轮胎的外胎",
+          "code": "120114",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "轮胎防滑钉",
+          "code": "120155",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "翻新轮胎用胎面",
+          "code": "120156",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "充气轮胎",
+          "code": "120157",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "补内胎用粘胶补片",
+          "code": "120194",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "汽车轮胎",
+          "code": "120206",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "自行车内胎",
+          "code": "120214",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "自行车用无内胎轮胎",
+          "code": "120234",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "运载工具用实心轮胎",
+          "code": "120288",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "轮胎内摩丝状填充物",
+          "code": "120292",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "扫雪机轮胎",
+          "code": "120321",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "飞机轮胎",
+          "code": "C120005",
+          "type": "marked",
+          "section": "（一）"
+        }
+      ]
+    },
+    {
+      "label": "（二）",
+      "items": [
+        {
+          "name": "补内胎用全套工具",
+          "code": "120008",
+          "type": "standard",
+          "section": "（二）"
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "儿童自行车用轮胎",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "管状轮胎",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "车辆轮胎用牵引垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "车轮用充气内胎",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "飞机轮胎内胎",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车轮胎内胎",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "摩托车轮胎内胎",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "摩托车轮胎",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "林业车辆用轮胎",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "林业车辆用车轮内胎",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "两轮机动车用轮胎",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "航空器轮子用轮胎",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卡车轮胎",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具轮胎用内胎",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "内胎（飞机轮胎）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "内胎（汽车轮胎）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "内胎（两轮摩托车或自行车用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "公共汽车轮胎",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "轮胎补片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "两轮车轮胎",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商用车轮胎",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "农用车轮胎",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "摩托车充气轮胎和内胎",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "轮胎修理用补片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "土木工程行业车辆轮胎翻新用胎面",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "林业车辆轮胎翻新用胎面",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "土木工程车辆轮胎翻新用胎面",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具轮胎用防滑钉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "航空器起落架用轮胎",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "补内胎或轮胎用胶黏补片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "车轮胎",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "脚踏车车胎",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自行车、脚踏车车胎",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "充气外胎（轮胎）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "轮胎（运载工具用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自行车、脚踏车用无内胎轮胎",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自行车、脚踏车内胎",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "推土机用轮胎",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "轮胎",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:01.653Z"
+}

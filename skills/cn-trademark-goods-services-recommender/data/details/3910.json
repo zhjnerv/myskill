@@ -1,0 +1,142 @@
+{
+  "groupCode": "3910",
+  "groupName": "投递服务",
+  "classCode": "39",
+  "notes": [
+    "注：本类似群与第十一版及以前版本 3901 第（一）部分货物递送交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "包裹投递",
+          "code": "390020",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "快递服务（信件或商品）",
+          "code": "390075",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "信件投递",
+          "code": "390087",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "投递报纸",
+          "code": "390088",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "邮购货物的递送",
+          "code": "390089",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鲜花递送",
+          "code": "390096",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "邮件的邮资盖印服务",
+          "code": "390097",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "货物递送",
+          "code": "390027",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "法律文件运送服务",
+          "code": "390127",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "信件快递",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "快递服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "瓶装水递送上门",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "信件的收取和投递",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "递送比萨饼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "送货",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "邮件的邮资盖章服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食品递送",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生日蛋糕递送",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "货物当日送达服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "投递杂志",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "清洗衣物的上门取送服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "邮政投递服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用电器递送",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:29.894Z"
+}

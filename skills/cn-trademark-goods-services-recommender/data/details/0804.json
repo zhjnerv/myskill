@@ -1,0 +1,61 @@
+{
+  "groupCode": "0804",
+  "groupName": "畜牧业用手工具",
+  "classCode": "08",
+  "notes": [
+    "注：跨类似群保护商品：手动的手工具（0801，0802，0803，0804，0805，0806，0807，0808，0809，0810）。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "动物剥皮用器具和工具",
+          "code": "080019",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "牲畜打记号用工具",
+          "code": "080031",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "手动的手工具",
+          "code": "080072",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "手动赶牛刺棒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电池驱动的动物趾甲打磨机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "动物趾甲电动打磨机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牲畜用耳标钳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "动物剥皮用刀",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:23.315Z"
+}

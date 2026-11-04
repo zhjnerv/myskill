@@ -1,0 +1,88 @@
+{
+  "groupCode": "0739",
+  "groupName": "风力、水力动力设备",
+  "classCode": "07",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "水轮机",
+          "code": "070215",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非陆地车辆用涡轮机",
+          "code": "070375",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "风力涡轮机",
+          "code": "070523",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "风力动力设备",
+          "code": "C070281",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "风力发电设备",
+          "code": "C070283",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "水力动力设备",
+          "code": "C070284",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "水力发电设备",
+          "code": "C070437",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "风力发电机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非陆地车辆用空气涡轮机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "风车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "燃气涡轮机（非陆地车辆用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "空气涡轮机（非陆地车辆用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非陆地车辆用燃气涡轮机",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:12.045Z"
+}

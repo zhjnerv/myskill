@@ -1,0 +1,221 @@
+{
+  "groupCode": "0105",
+  "groupName": "用于农业、园艺、林业的化学品、化学制剂",
+  "classCode": "01",
+  "notes": [
+    "注：1.第一自然段与0505第一自然段类似；",
+    "2.第一自然段与 0109 植物生长调节剂，植物用生物刺激剂，0113 水果催熟用激素类似，与第九版及以前版本 0113 水果催熟激素交叉检索；",
+    "3.植物用微量元素制剂与0109商品类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "除杀真菌剂、除草剂、杀虫剂、杀寄生虫剂外的农业化学品",
+          "code": "010031",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "花用保鲜剂",
+          "code": "010209",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "脱叶剂",
+          "code": "010236",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "杀虫剂用化学添加剂",
+          "code": "010308",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "杀真菌剂用化学添加剂",
+          "code": "010309",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "除杀真菌剂、除草剂、杀虫剂、杀寄生虫剂外的园艺化学品",
+          "code": "010347",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "预防小麦枯萎病的化学制剂",
+          "code": "010404",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "预防小麦黑穗病的化学制剂",
+          "code": "010404",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "保存种子用物质",
+          "code": "010480",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "除杀真菌剂、除草剂、杀虫剂、杀寄生虫剂外的林业用化学品",
+          "code": "010505",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "预防藤蔓植物病害的化学制剂",
+          "code": "010546",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "植物保护用蒽油",
+          "code": "010586",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "植物用微量元素制剂",
+          "code": "010637",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "预防谷类植物病害的化学制剂",
+          "code": "010719",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "防微生物剂",
+          "code": "C010215",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "赤霉素",
+          "code": "C010216",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "增润剂",
+          "code": "C010219",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "树洞填充物（林业用）",
+          "code": "010080",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "树木嫁接用蜡",
+          "code": "010198",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烟草用防霉剂",
+          "code": "C010217",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "消辣剂",
+          "code": "C010218",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "发芽抑制剂（防发芽制剂）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "切花用保鲜剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "预防植物病原感染用化学制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防止植物叶子变黄用硫酸亚铁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "除杀真菌剂、除莠剂、杀虫剂、杀寄生虫剂外的园艺化学品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "预防藤蔓病化学品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "除杀菌剂、除草剂、除莠剂、杀虫剂和杀寄生虫药外的农业化学品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "预防小麦枯萎病（黑穗病）的化学制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "除杀真菌剂、除草剂、除莠剂、杀虫剂、杀寄生虫剂外的农业化学品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "种衣剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "封闭植物伤口用化学制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抑制发芽用化学制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防止发芽用化学制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "农业和园艺用微生物接种剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "农业和园艺用生物接种剂",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:07.818Z"
+}

@@ -1,0 +1,128 @@
+{
+  "groupCode": "2512",
+  "groupName": "腰带，服装带",
+  "classCode": "25",
+  "notes": [
+    "注：腰带，皮带（服饰用）与2603皮带扣类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "衣服吊带",
+          "code": "250018",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "衣服背带",
+          "code": "250018",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "腰带",
+          "code": "250031",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "钱带（服装）",
+          "code": "250160",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "皮带（服饰用）",
+          "code": "C250027",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "皮制腰带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "和服用腰带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "束腰带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "和服带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "和服带子的衬带（带扬）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "布制腰带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "女式背带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "男式背带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺织品腰带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "腰卷（和服）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "固定和服用带（伊达缔）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺织品制腰带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无尾晚礼服带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "服装腰带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "服装吊带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "服装带（衣服）",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:13.324Z"
+}

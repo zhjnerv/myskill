@@ -1,0 +1,207 @@
+{
+  "groupCode": "0713",
+  "groupName": "缝纫、制鞋工业用机械",
+  "classCode": "07",
+  "notes": [
+    "注:1.缝纫机用针与 2605 针，缝纫针类似；",
+    "2.本类似群与第十一版及以前版本2605已接受商品缝纫机用针交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "刺绣机绷圈",
+          "code": "070067",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "缝纫机踏板传动装置",
+          "code": "070111",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "缝合机",
+          "code": "070128",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "卷边机",
+          "code": "070283",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "熨衣机",
+          "code": "070328",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鞋楦头（机器部件）",
+          "code": "070352",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "绕线轴（机器部件）",
+          "code": "070408",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "缝纫机",
+          "code": "070440",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纺织品用便携式旋转蒸汽熨压机",
+          "code": "070480",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "缝纫机用针",
+          "code": "070603",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "包缝机",
+          "code": "C070126",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "锁扣机",
+          "code": "C070127",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "撬边机",
+          "code": "C070128",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "鞋底压切机",
+          "code": "C070129",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "补鞋机",
+          "code": "C070130",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "裁布机",
+          "code": "C070131",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "下料机（缝纫机械）",
+          "code": "C070132",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "工业缝纫机台板",
+          "code": "C070133",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "刺绣机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "缝纫机用线轴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自动缝纫机械",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用缝纫机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日式木屐制造设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业缝纫机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "缝纫机械",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制鞋机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "服装用电压熨机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "不织布口罩缝合专用机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "口罩上带机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "口罩打片机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业钉珠机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "缝纫机用刀片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "断布机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动缝纫机",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:56.304Z"
+}

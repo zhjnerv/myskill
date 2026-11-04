@@ -1,0 +1,22 @@
+[
+  {
+    "groupCode": "1301",
+    "groupName": "火器，军火及子弹",
+    "classCode": "13"
+  },
+  {
+    "groupCode": "1302",
+    "groupName": "爆炸物",
+    "classCode": "13"
+  },
+  {
+    "groupCode": "1303",
+    "groupName": "烟火，爆竹",
+    "classCode": "13"
+  },
+  {
+    "groupCode": "1304",
+    "groupName": "个人防护用喷雾",
+    "classCode": "13"
+  }
+]

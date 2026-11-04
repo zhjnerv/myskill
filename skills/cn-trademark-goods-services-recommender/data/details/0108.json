@@ -1,0 +1,506 @@
+{
+  "groupCode": "0108",
+  "groupName": "未加工的人造合成树脂，未加工塑料物质（不包括未加工的天然树脂）",
+  "classCode": "01",
+  "notes": [
+    "注：1.本类似群各部分之间商品不类似；",
+    "2.第（一）部分与0104第（十九）部分未加工醋酸纤维素类似；",
+    "3.第（二）部分与0102第（四）部分硫化剂，0104第（十一）部分类似。",
+    "4.第（一）部分与第十一版及以前版本 0115 聚氨酯交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "（一）",
+      "items": [
+        {
+          "name": "未加工环氧树脂",
+          "code": "010274",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "未加工塑料",
+          "code": "010438",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "未加工合成树脂",
+          "code": "010455",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "未加工人造树脂",
+          "code": "010455",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "未加工丙烯酸树脂",
+          "code": "010461",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "硅酮",
+          "code": "010484",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "硅氧烷",
+          "code": "010484",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "未加工聚合树脂",
+          "code": "010707",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "制造药用胶囊用树枝状聚合物",
+          "code": "010718",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "未加工导电性树脂",
+          "code": "010721",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "未加工聚丙烯",
+          "code": "C010224",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "未加工赛璐珞",
+          "code": "C010225",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "未加工酚醛树脂",
+          "code": "C010226",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "未加工脲醛树脂",
+          "code": "C010227",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "未加工酪素树脂",
+          "code": "C010229",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "未加工聚氯乙烯树脂",
+          "code": "C010230",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "未加工玛脂",
+          "code": "C010231",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "未加工硅塑料",
+          "code": "C010235",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "未加工模塑料",
+          "code": "C010236",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "未加工磷酸三甲酚酯",
+          "code": "C010238",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "未加工有机硅树脂",
+          "code": "C010239",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "未加工离子交换树脂",
+          "code": "C010240",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "未加工聚氨酯",
+          "code": "C010251",
+          "type": "marked",
+          "section": "（一）"
+        }
+      ]
+    },
+    {
+      "label": "（二）",
+      "items": [
+        {
+          "name": "增塑剂",
+          "code": "010143",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "塑料分散剂",
+          "code": "010605",
+          "type": "standard",
+          "section": "（二）"
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "电木粉C010232",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "胶木粉C010233",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "塑膏C010237",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "尼龙66盐C010243",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用未加工塑料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "粉末、液体或膏状的未加工塑料材料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "粉末、液体或膏状的未加工人造树脂原材料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "丙烯酸聚合体粉末",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "聚合塑料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蛋白质塑料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用未加工人造树脂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制模塑料用未加工合成树脂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工的聚乙烯醇树脂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工的聚乙烯树脂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "塑料增塑剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "聚酰胺",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工塑料（粉状、液状或膏状）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工的聚碳酸酯树脂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工的聚丙烯树脂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工的聚氯乙烯树脂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "颗粒状或粉状未加工塑料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工的聚砜树脂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工的聚对苯二甲酸乙二醇酯树脂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工的聚丁烯树脂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未经加工的聚甲基丙烯酸甲酯树脂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工的酪蛋白树脂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工的醋酸纤维素塑料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工的丙烯腈-丁二烯-苯乙烯树脂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工的苯乙烯-丙烯腈树脂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工的间苯二甲酸二烯丙酯树脂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工塑料（初成型塑料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工的呋喃树脂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工的聚苯醚树脂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工的聚苯硫醚树脂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工的聚芳酯树脂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "离子交换树脂（化学制剂）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "离子交换树脂膜（化学制剂）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有机硅氧烷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工的聚乙酸乙烯酯树脂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "合成树脂用硬化剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "聚酰亚胺",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "尿素甲醛树脂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "尿素树脂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "聚醋酸乙烯酯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "聚氯乙烯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工粉状、液状或膏状塑料材料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "作为原材料的未加工的人造树脂（粉状、液体或膏状）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工热塑性树脂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "磷酸三甲酚酯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "聚氨酯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "酪素树脂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "赛璐珞",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "聚丙烯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硅塑料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有机硅树脂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "酚醛树脂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "脲醛树脂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "聚氯乙烯树脂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "玛脂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "模塑料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "离子交换树脂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工的初级形态塑料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "粉末状未加工塑料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "热固性塑料（未加工）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "聚偏氟乙烯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "聚乙烯",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:09.525Z"
+}

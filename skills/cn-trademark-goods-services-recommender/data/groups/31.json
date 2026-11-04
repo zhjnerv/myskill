@@ -1,0 +1,52 @@
+[
+  {
+    "groupCode": "3101",
+    "groupName": "未加工的林业产品",
+    "classCode": "31"
+  },
+  {
+    "groupCode": "3102",
+    "groupName": "未加工的谷物及农产品（不包括蔬菜，种子）",
+    "classCode": "31"
+  },
+  {
+    "groupCode": "3103",
+    "groupName": "花卉，草本植物",
+    "classCode": "31"
+  },
+  {
+    "groupCode": "3104",
+    "groupName": "活动物",
+    "classCode": "31"
+  },
+  {
+    "groupCode": "3105",
+    "groupName": "未加工的水果及干果",
+    "classCode": "31"
+  },
+  {
+    "groupCode": "3106",
+    "groupName": "新鲜蔬菜",
+    "classCode": "31"
+  },
+  {
+    "groupCode": "3107",
+    "groupName": "种子",
+    "classCode": "31"
+  },
+  {
+    "groupCode": "3108",
+    "groupName": "动物饲料",
+    "classCode": "31"
+  },
+  {
+    "groupCode": "3109",
+    "groupName": "麦芽",
+    "classCode": "31"
+  },
+  {
+    "groupCode": "3110",
+    "groupName": "动物栖息用干草等制品",
+    "classCode": "31"
+  }
+]

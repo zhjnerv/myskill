@@ -1,0 +1,115 @@
+{
+  "groupCode": "0203",
+  "groupName": "食品着色剂",
+  "classCode": "02",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "饮料色素",
+          "code": "020004",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食用色素",
+          "code": "020005",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "黄油色素",
+          "code": "020023",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "啤酒色素",
+          "code": "020024",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "焦糖（食品色素）",
+          "code": "020034",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "麦芽焦糖（食品色素）",
+          "code": "020035",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "麦芽色素",
+          "code": "020048",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "利口酒用色素",
+          "code": "020088",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食品装饰用可食用上光剂",
+          "code": "020142",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "家用食品色素",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制造食品用焦糖色素",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制造饮料用焦糖色素",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生产食物用色素",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生产饮料用色素",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用作食品色素的焦糖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食品用着色剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食品和饮料用着色剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "饮料着色剂",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:16.048Z"
+}

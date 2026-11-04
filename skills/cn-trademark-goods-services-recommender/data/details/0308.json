@@ -1,0 +1,130 @@
+{
+  "groupCode": "0308",
+  "groupName": "熏料",
+  "classCode": "03",
+  "notes": [
+    "注: 本类似群与第十二版及以前版本 0305 香薰藤条，熏香制剂（香料）交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "香木",
+          "code": "030030",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "香薰用香味水",
+          "code": "030091",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "香*",
+          "code": "030095",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "香薰用精油",
+          "code": "030118",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "熏日用织品用香囊",
+          "code": "030150",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "干花瓣与香料混合物（香料）",
+          "code": "030203",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "祭祀用香",
+          "code": "030213",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "香薰藤条",
+          "code": "030246",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "沉香木（香）",
+          "code": "030282",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "香薰用香精油",
+          "code": "030286",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "香薰用香精",
+          "code": "030289",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "熏香制剂（香料）",
+          "code": "C030075",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "干花瓣和香料的芳香混合物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "干花瓣与香料混合物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "香袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "熏香棒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "室内清新用香薰束",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "熏香",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "芳香松果（熏香用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "房间用非电香薰器的香薰剂补充装",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:23.419Z"
+}

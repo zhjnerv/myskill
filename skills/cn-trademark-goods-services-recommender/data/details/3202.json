@@ -1,0 +1,1255 @@
+{
+  "groupCode": "3202",
+  "groupName": "不含酒精饮料",
+  "classCode": "32",
+  "notes": [
+    "注：1.乳清饮料与2907乳清类似；",
+    "2.本类似群与 2907 第二自然段，3001 加奶可可饮料，加奶咖啡饮料，加奶巧克力饮料，咖啡饮料，可可饮料，巧克力饮料，3002 第（二）部分类似，与第十一版及以前版本3001 含牛奶的巧克力饮料，第十版及以前版本 2907 马或骆驼乳酒（奶饮料），乳酒（牛奶饮料），3011 豆浆，豆汁交叉检索；",
+    "3.无酒精果汁，无酒精果汁饮料，果汁，葡萄汁，柠檬水，未发酵的葡萄汁，果汁冰水(饮料)，无酒精饮料，无酒精鸡尾酒，带果肉果汁饮料，酸梅汤，植物饮料，乌梅浓汁(不含酒精)等含果汁的饮料与3013果汁刨冰类似，与第九版及以前版本3013刨冰(冰)，加果汁的碎冰(冰块)交叉检索；",
+    "4.格瓦斯与第九版及以前版本 3201 克瓦斯淡啤酒（无酒精饮料）类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "无酒精果汁",
+          "code": "320001",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "姜汁汽水",
+          "code": "320003",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "无酒精果汁饮料",
+          "code": "320006",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "乳清饮料",
+          "code": "320007",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "制饮料用无酒精原汁",
+          "code": "320009",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "果汁",
+          "code": "320010",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "水（饮料）",
+          "code": "320012",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "锂盐矿水",
+          "code": "320014",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "矿泉水（饮料）",
+          "code": "320015",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "气泡水",
+          "code": "320017",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "佐餐饮用水",
+          "code": "320018",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "葡萄汁",
+          "code": "320019",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "柠檬水",
+          "code": "320020",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蔬菜汁（饮料）",
+          "code": "320022",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "未发酵的葡萄汁",
+          "code": "320026",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "苏打水",
+          "code": "320028",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "果汁冰水（饮料）",
+          "code": "320029",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "番茄汁（饮料）",
+          "code": "320030",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "无酒精饮料",
+          "code": "320031",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "加气水",
+          "code": "320035",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "碳酸水",
+          "code": "320035",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "菝葜（无酒精饮料）",
+          "code": "320041",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "无酒精的开胃酒",
+          "code": "320042",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "无酒精鸡尾酒",
+          "code": "320043",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "带果肉果汁饮料",
+          "code": "320044",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "等渗饮料",
+          "code": "320045",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "无酒精苹果酒",
+          "code": "320047",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "格瓦斯",
+          "code": "320048",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "以蜂蜜为主的无酒精饮料",
+          "code": "320049",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "果昔",
+          "code": "320050",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "无酒精芦荟饮料",
+          "code": "320051",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "大豆为主的饮料（非奶替代品）",
+          "code": "320053",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "富含蛋白质的运动饮料",
+          "code": "320054",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "米制饮料（非奶替代品）",
+          "code": "320055",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "咖啡味非酒精饮料",
+          "code": "320056",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "茶味非酒精饮料",
+          "code": "320057",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "软饮料",
+          "code": "320058",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "能量饮料",
+          "code": "320060",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "含有水果干的无酒精饮料",
+          "code": "320061",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "以无醇啤酒为主的鸡尾酒",
+          "code": "320064",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "无酒精果醋饮料",
+          "code": "320070",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "可乐",
+          "code": "C320002",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "酸梅汤",
+          "code": "C320003",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "绿豆饮料",
+          "code": "C320004",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "果子粉",
+          "code": "C320009",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "果子晶",
+          "code": "C320010",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "蒸馏水（饮料）",
+          "code": "C320011",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "饮用蒸馏水",
+          "code": "C320012",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "纯净水（饮料）",
+          "code": "C320013",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "植物饮料",
+          "code": "C320015",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "豆类饮料",
+          "code": "C320016",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "姜汁饮料",
+          "code": "C320017",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "乌梅浓汁（不含酒精）",
+          "code": "C320018",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "豆汁",
+          "code": "C320022",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "水果制茶味软饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无酒精混合果汁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无酒精碳酸饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "椰子汁（饮料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "菠萝汁饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "不含酒精的啤酒味饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "橙汁饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "低卡路里软饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "番茄汁饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含果汁的非酒精饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加味矿泉水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加味水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "咖啡味软饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "柠檬苏打水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "苹果汁饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冰冻果汁饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "茶味无酒精苏打饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "番石榴果汁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "石榴汁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "低热量软饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "浓缩果汁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "瓶装饮用水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无酒精麦芽饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无酒精软饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制软饮料用浓缩液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制软饮料用浓缩汁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制饮料用无酒精果汁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "果汁饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "黑醋栗汁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "奶油味苏打汽水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "混合果汁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "脱醇葡萄酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "根汁汽水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未发酵的加工过的葡萄汁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蔬菜昔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蔬菜汁饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水果果昔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水果味软饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "绿蔬菜汁饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蔓越莓汁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "碳酸矿泉水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "碳酸无酒精饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "甜瓜汁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "芒果汁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运动饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可乐（软饮料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "奎宁苏打水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冷冻碳酸饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冰冻水果饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "西瓜汁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "饮用水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "以水果为主的饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冷冻水果饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "芦荟饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "芦荟汁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可乐饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "椰子水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "瓜拉那饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "瓶装水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "橘子汁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "乌梅浓汁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "葡萄汁饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "已调味的水饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含肉桂和柿饼的非酒精饮料（水正果）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无酒精米酒饮料（食醯）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "等渗无酒精饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含电解质的运动饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽水（苏打水）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加气矿泉水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无酒精潘趣酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "果昔（水果饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水果为主的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "弹珠汽水（日式柠檬汽水）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "增味水饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无酒精果汁甜饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "干姜汁汽水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加调味的矿泉水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加气果汁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "混合水果果汁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制作果汁用浓缩汁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制作水果饮料用浓缩汁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水果味的碳酸饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无酒精的葡萄酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "饮用纯净水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "枫树水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "桦树水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制作无酒精饮料用无酒精原汁（非香精油）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "能量饮料（不含酒精的饮料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供能量的软饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运动能量饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运动员专用的补充能量用不含酒精饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽水饮料（含有果汁）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "速溶豆类饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "茶味汽水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无酒精鸡尾酒饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无酒精柠檬果汁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无酒精柠檬饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无酒精起泡果汁饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含果汁无酒精浓缩饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含椰果粒的无酒精饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含有碎冰的果汁饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含橄榄果提取物的无酒精饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "柠檬等渗饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "不含酒精能量饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含有电解质的运动饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含有果汁的非酒精饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "火龙果果昔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "苦味柠檬汽水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蓝莓果汁饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "柠檬果汁饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "苏打矿泉水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "瓶装饮用纯净水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "起泡沫的果汁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "添加了苏打水的果汁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未发酵葡萄汁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无酒精的芦荟饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无酒精等渗饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无酒精果汁汽水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无酒精蔬果混合饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无醇水果饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冷藏水果汁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "没有发酵过的苹果汁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "由未发酵的水果汁制成的软饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "橙味植物饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "起泡水（饮料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "大豆饮料（非牛奶替代品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "经过调味的水（饮料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水果浓缩饮料（无酒精饮料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "甜果汁饮料（不含酒精）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "山药汁（饮料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "速溶水果饮料（不含酒精）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含有燕麦的饮料（无酒精饮料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无酒精的开胃酒（以枣为原料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无酒精饮料（含番茄汁）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "调味的矿泉水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "葡萄汁（没有发酵的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水果蔬菜汁（无酒精饮料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水蜜桃醋饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "乌梅浓汁（饮料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "碳酸饮用水（饮料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "餐用矿泉水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "橙味水果饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可以补充能量的无酒精饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "瓶装水（饮料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无酒精的能量饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水果汁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供能量的不含酒精饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供能量的无酒精饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无酒精能量饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无酒精葡萄酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "碳酸软饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无酒精碳水化合物能量饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含糖浆和香精的无酒精果汁饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无酒精饮料（含维生素）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "能量饮料（非医用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "酸梨汁（饮料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "能量饮料（无酒精）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "能量饮料（无酒精饮料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "补充能量用无酒精饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "等渗能量饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "能量饮料（不含酒精）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加调味的水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制带味矿泉水用原汁（非香精油）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制能量饮料用浓缩汁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "椰子汁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无酒精鸡尾酒基酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "青柠汽水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制运动饮料用浓缩汁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "西洋菜汁饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制作饮料用无酒精原汁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "格瓦斯（无酒精饮料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含谷物和燕麦的果昔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制饮料用青柠汁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制饮料用柠檬汁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "梨汁饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "西芹汁饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "杨梅汁饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "白桦树汁饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "酸角汁饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日式发酵大米饮料（甘酒）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "刺梨汁饮料",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:56.861Z"
+}

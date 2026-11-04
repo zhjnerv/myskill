@@ -1,0 +1,313 @@
+{
+  "groupCode": "0723",
+  "groupName": "厨房家用器具（不包括烹调、电气加热设备及厨房手工具）",
+  "classCode": "07",
+  "notes": [
+    "注:1. 本类似群与第八版及以前版本0753混合机(机器)，搅拌机，搅拌机(机器)交叉检索；",
+    "2. 本类似群与第八版及以前版本0709离心碾磨机交叉检索；",
+    "3. 跨类似群保护商品:搅动机(0709，0723，0733);搅拌机(0709，0723，0733);混合机(机器)(0709，0723，0733);离心碾磨机(0709，0723，0725)；电动榨果汁（0709，0710，0723）；电动绞肉机（0709，0723），电动碎肉机（0709，0723）。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "搅动机",
+          "code": "070007",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "搅拌机",
+          "code": "070026",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "离心碾磨机",
+          "code": "070087",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电动绞肉机",
+          "code": "070211",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电动碎肉机",
+          "code": "070211",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "洗碗机",
+          "code": "070231",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "厨房用电动轧碎机",
+          "code": "070256",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "混合机（机器）",
+          "code": "070267",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "家用非手动研磨机",
+          "code": "070277",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电动开罐器",
+          "code": "070287",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非手动胡椒研磨机",
+          "code": "070307",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电搅拌器",
+          "code": "070403",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非手动磨咖啡机",
+          "code": "070415",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "家用电动搅拌机",
+          "code": "070444",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "厨房用电动机器",
+          "code": "070445",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "家用电动打蛋器",
+          "code": "070459",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "家用电动榨水果机",
+          "code": "070460",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电动食品处理机",
+          "code": "070475",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "厨房用电动碾磨机",
+          "code": "070553",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电动榨果汁机",
+          "code": "070565",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电动螺旋切菜机",
+          "code": "070578",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电动奶酪切片机",
+          "code": "070585",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电动蔬菜削皮机",
+          "code": "070586",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电动蔬菜切片机",
+          "code": "070590",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电动蔬菜切丝机",
+          "code": "070590",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "家用电动食品真空封口机",
+          "code": "070625",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "家用切菜机",
+          "code": "C070160",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "家用切肉机",
+          "code": "C070161",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "家用洗碗机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用电动水果榨汁机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用洗碗机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用电动食品搅拌机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "洗碗机支架（洗碗机零件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用电动冲奶机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电咖啡研磨机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用电动意式面食制作机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用手持式电动搅拌机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用电榨汁机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "厨房用电动食品乳化机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用洗盘机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动胡椒研磨机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动食盐粉碎机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "洗碗机专用洗碗筐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用电动红枣去核器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动蔬菜削皮器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食品加工机（电动）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "厨房用电动搅拌器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用电动食品处理机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动切比萨饼用刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "绞肉机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动食品破壁机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鸡蛋切片机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鸡蛋切片机",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:02.453Z"
+}

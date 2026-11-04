@@ -1,0 +1,109 @@
+{
+  "groupCode": "0116",
+  "groupName": "纸浆",
+  "classCode": "01",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "木浆",
+          "code": "010132",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纸浆",
+          "code": "010156",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纤维素浆",
+          "code": "C010255",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "化学磨木浆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "亚硫酸盐纸浆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "磨木浆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业制造用木浆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "脱墨纸浆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "再生纸浆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化学机械纸浆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "破布浆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "草浆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "针茅草浆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "热磨机械浆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "韧皮纤维浆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制造用溶解木浆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "造纸用甘蔗渣浆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制造用纸浆",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:14.331Z"
+}

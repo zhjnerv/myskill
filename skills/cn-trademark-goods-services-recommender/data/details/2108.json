@@ -1,0 +1,125 @@
+{
+  "groupCode": "2108",
+  "groupName": "刷牙用具",
+  "classCode": "21",
+  "notes": [
+    "注：本类似群与第十二版及以前版本 1001 刮舌器交叉检索"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "牙刷",
+          "code": "210250",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "牙及牙床清洁用吸水器",
+          "code": "210262",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电动牙刷",
+          "code": "210276",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电动牙刷替换头",
+          "code": "210375",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "水牙线",
+          "code": "210423",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "刮舌器",
+          "code": "210479",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "牙刷盒",
+          "code": "C210056",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "手动牙刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙刷（非电动）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "清洁牙齿用牙间毛刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "舌头清洁刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "婴儿用指套牙刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非电动牙刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "假牙清洁用盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "舌苔清洁器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "舌苔刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "舌刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "舌头清洁专用刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用冲牙器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙齿护理用指套牙刷",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:51.759Z"
+}

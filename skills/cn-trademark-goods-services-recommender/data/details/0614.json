@@ -1,0 +1,135 @@
+{
+  "groupCode": "0614",
+  "groupName": "金属标牌",
+  "classCode": "06",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "运载工具用金属徽标",
+          "code": "060155",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "不发光金属门牌",
+          "code": "060196",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "不发光、非机械的金属信号板",
+          "code": "060200",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "不发光、非机械的金属路牌",
+          "code": "060228",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "不发光、非机械的金属标志",
+          "code": "060235",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属标志牌",
+          "code": "060370",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属纪念标牌",
+          "code": "060389",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属标示牌",
+          "code": "060399",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属身份牌",
+          "code": "060399",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属车牌",
+          "code": "060400",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "普通金属制字母和数字（铅字除外）",
+          "code": "060419",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属标签",
+          "code": "060465",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "服装用金属制缝制标签",
+          "code": "060493",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "包用金属制黏性标签",
+          "code": "060494",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "金属告示牌",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "普通金属制身份牌",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属门牌",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属牌照",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "不发光、非机械的金属交通标志",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属制自行车竞赛号码牌",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车用金属徽标",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:42.292Z"
+}

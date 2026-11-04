@@ -1,0 +1,271 @@
+{
+  "groupCode": "2811",
+  "groupName": "钓具",
+  "classCode": "28",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "人工材料制仿生鱼饵",
+          "code": "280002",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "钓鱼竿",
+          "code": "280035",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "钓鱼用抄网",
+          "code": "280060",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "钓鱼用浮子",
+          "code": "280069",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "钓鱼钩",
+          "code": "280076",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "狩猎或钓鱼用拟饵",
+          "code": "280082",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "狩猎或钓鱼用假饵",
+          "code": "280082",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "钓鱼用具",
+          "code": "280083",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "钓鱼线",
+          "code": "280084",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "钓鱼用绕线轮",
+          "code": "280092",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "渔篓（捕鱼陷阱）",
+          "code": "280094",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "咬钩指示器（钓具）",
+          "code": "280154",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "咬钩传感器（钓具）",
+          "code": "280155",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "狩猎或钓鱼用香味假饵",
+          "code": "280194",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "钓鱼用手钩",
+          "code": "280279",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "钓鱼用肠线280107",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钓鱼用沉锤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钓鱼竿用盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "捕鱼用渔篓",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钓鱼用大鱼钩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "飞蝇钓用钓鱼线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钓鱼用假饵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "狩猎用诱饵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钓具袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钓鱼用人造鱼饵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "装活鱼饵用鱼饵袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钓鱼用铅坠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钓鱼用旋转拟饵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钓鱼用仿型硬饵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钓鱼用肚顶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "装钓鱼假饵用盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钓鱼用转环",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钓鱼用接钩绳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钓鱼杆架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钓鱼铅坠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钓鱼用浮式钓台",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "摘钩器（钓具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钓鱼用钨泥坠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钓鱼用手套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "苍蝇形人造鱼饵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "捕猎水禽用拟饵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蠕虫形人造鱼饵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钓鱼用鱼漂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钓鱼用浮标",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钓鱼用发光鱼漂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钓鱼绕线轮用盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钓鱼竿收纳筒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鱼铃",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:29.769Z"
+}

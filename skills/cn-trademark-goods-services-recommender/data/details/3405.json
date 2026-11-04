@@ -1,0 +1,66 @@
+{
+  "groupCode": "3405",
+  "groupName": "烟纸，过滤嘴",
+  "classCode": "34",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "香烟过滤嘴",
+          "code": "340006",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "小本卷烟纸",
+          "code": "340010",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烟斗吸水纸",
+          "code": "340011",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "卷烟纸",
+          "code": "340024",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烟用过滤丝束",
+          "code": "C340006",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "香烟滤嘴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "过滤嘴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烟草过滤嘴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "香烟接装纸",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:01.046Z"
+}

@@ -1,0 +1,102 @@
+{
+  "groupCode": "1205",
+  "groupName": "缆车，架空运输设备",
+  "classCode": "12",
+  "notes": [
+    "注：1.本类似群商品与1211商品类似；",
+    "2.跨类似群保护商品：电动运载工具(1201，1202，1204第（一）部分，1205，1210)；遥控运载工具（非玩具）（1201，1202，1205，1209，1210）。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "架空运输设备",
+          "code": "120004",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "缆绳运输车辆",
+          "code": "120051",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "浇铸用车",
+          "code": "120067",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铁水包用车",
+          "code": "120067",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电动运载工具",
+          "code": "120110",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运送滑雪者上山的滑雪缆车",
+          "code": "120170",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "吊椅缆车",
+          "code": "120180",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "绳缆运输装置和设备",
+          "code": "120188",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "轨道缆车",
+          "code": "120189",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "缆车",
+          "code": "120190",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "高架缆车",
+          "code": "120190",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "遥控运载工具（非玩具）",
+          "code": "120257",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "装卸用架空缆车",
+          "code": "120349",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "缆车悬挂臂",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:59.720Z"
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "groupCode": "3501",
+    "groupName": "广告",
+    "classCode": "35"
+  },
+  {
+    "groupCode": "3502",
+    "groupName": "工商管理辅助业",
+    "classCode": "35"
+  },
+  {
+    "groupCode": "3503",
+    "groupName": "为他人推销",
+    "classCode": "35"
+  },
+  {
+    "groupCode": "3504",
+    "groupName": "人事管理辅助业",
+    "classCode": "35"
+  },
+  {
+    "groupCode": "3506",
+    "groupName": "办公事务",
+    "classCode": "35"
+  },
+  {
+    "groupCode": "3507",
+    "groupName": "财会",
+    "classCode": "35"
+  },
+  {
+    "groupCode": "3508",
+    "groupName": "单一服务",
+    "classCode": "35"
+  },
+  {
+    "groupCode": "3509",
+    "groupName": "药品、医疗用品零售或批发服务",
+    "classCode": "35"
+  }
+]

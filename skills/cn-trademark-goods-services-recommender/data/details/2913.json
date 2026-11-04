@@ -1,0 +1,101 @@
+{
+  "groupCode": "2913",
+  "groupName": "食物蛋白，豆腐制品",
+  "classCode": "29",
+  "notes": [
+    "注: 本类似群与第十版及以前版本 3011 食用面筋交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "豆腐",
+          "code": "290140",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "腐皮",
+          "code": "290230",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "豆腐饼",
+          "code": "290232",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "丹贝（发酵豆饼）",
+          "code": "290234",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "以豆腐为主的零食小吃",
+          "code": "290271",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "豆腐制品",
+          "code": "C290090",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "腐竹",
+          "code": "C290091",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "食用面筋",
+          "code": "C290108",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "豆腐脑",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冻干豆腐块",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "油炸豆腐块",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "臭豆腐干",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用预制面筋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "臭豆腐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "千层豆腐",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:37.961Z"
+}

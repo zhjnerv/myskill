@@ -1,0 +1,119 @@
+{
+  "groupCode": "0924",
+  "groupName": "单一商品",
+  "classCode": "09",
+  "notes": [
+    "注: 1. 本部分为单一商品，各自然段间互不类似；",
+    "2. 运动哨与第十一版及以前版本 2807 口哨交叉检索。",
+    "3. 准备饮料用具有人工智能的拟人机器人，用于家务清洁和洗衣的具有人工智能的类人机器人与第十一版及以前版本 0901 具有人工智能的人形机器人交叉检索。",
+    "4. 宠物用太阳镜与第十一版及以前版本 0921 已接受商品宠物用太阳镜，1806 已接受商品宠物用太阳镜交叉检索。",
+    "（二）注：原第（二）部分电热袜，电暖衣服，电马甲，电手套，电靴第十一版时删除。",
+    "注：本类似群原各部分之间商品不类似。"
+  ],
+  "sections": [
+    {
+      "label": "（一）",
+      "items": [
+        {
+          "name": "照蛋器",
+          "code": "090241",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "叫狗哨子",
+          "code": "090508",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "训练动物用电子项圈",
+          "code": "090746",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "训练家畜用信号摇铃",
+          "code": "090839",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "装饰磁铁",
+          "code": "090660",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "带电围栏",
+          "code": "090669",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "运动哨",
+          "code": "090801",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "准备饮料用具有人工智能的拟人机器人",
+          "code": "090916",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "用于家务清洁和洗衣的具有人工智能的类人机器人",
+          "code": "090953",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "宠物救生衣",
+          "code": "090958",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "便携式遥控阻车器",
+          "code": "C090133",
+          "type": "marked",
+          "section": "（一）"
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "冰箱磁性贴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冰箱贴（装饰磁铁）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冰箱装饰磁贴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鸽笛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子鸽笛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "准备饮料用具有人工智能的类人机器人",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:42.997Z"
+}

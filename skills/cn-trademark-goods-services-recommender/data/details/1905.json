@@ -1,0 +1,136 @@
+{
+  "groupCode": "1905",
+  "groupName": "水泥预制构件",
+  "classCode": "19",
+  "notes": [
+    "注：水泥电杆与 1909 电线用非金属杆，非金属电线杆类似，与第十版及以前版本 1909 电力输送线路用非金属杆，电源线路用非金属杆交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "混凝土建筑构件",
+          "code": "190024",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "水泥板",
+          "code": "190057",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "水泥柱",
+          "code": "190058",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "混凝土用非金属模板",
+          "code": "190198",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "水泥管",
+          "code": "C190007",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "水泥电杆",
+          "code": "C190008",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "水泥架",
+          "code": "C190009",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "石棉水泥板",
+          "code": "C190010",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "混凝土板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木纤维加固的水泥板（水泥木丝板）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑用混凝土墙",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水泥砂浆制管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "混凝土柱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "混凝土墙",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "混凝土路面板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑用混凝土杆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "混凝土桩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "混凝土管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水泥砂浆制石板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "混凝土地板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "休姆管（离心混凝土管）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纤维水泥板",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:32.703Z"
+}

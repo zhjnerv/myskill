@@ -1,0 +1,1170 @@
+{
+  "groupCode": "1909",
+  "groupName": "非金属建筑材料及构件（不包括水泥预制构件）",
+  "classCode": "19",
+  "notes": [
+    "注：1.本类似群各部分之间商品不类似；",
+    "2.建筑用塑料管，建筑用塑料板，建筑用塑料杆，建筑用塑料条与1703塑料板，塑料杆，塑料条类似，与第十版及以前版本1703塑料管交叉检索；",
+    "3.拼花地板，非金属地板与 1901 拼花地板条，木地板条，木地板类似，与第十版及以前版本 1901 地板条，第九版及以前版本 1901 地板，木板材条交叉检索；",
+    "4、拼花地板，非金属地板，塑料地板，橡胶地板与第九版及以前版本 2703 塑料或橡胶地板块，塑料或橡胶地板革，塑料或橡胶地板砖交叉检索；",
+    "5.电线用非金属杆，非金属电线杆与1905水泥电杆类似；",
+    "6.铝塑复合管与第八版及以前版本 0603 铝塑复合管（以铝为主）交叉检索；",
+    "7.“塑钢门窗与 0603 金属门，金属固定百叶窗，金属百叶窗，金属大门，金属制楣窗，金属窗，金属折门，金属双开弹簧门，金属折扇门，金属竖铰链窗等金属制门窗类似，与第十一版及以前版本 0603金属制室外百叶帘，第十版及以前版本0603 室外金属百叶窗交叉检索",
+    "8.第（一）部分第一自然段与 1703 管道用非金属接头，软管用非金属附件，硬管用非金属附件，1704浇水软管，非金属软管，纺织材料制软管，运载工具散热器用连接软管类似，与第十一版及以前版本1703软管用非金属接头，第十版及以前版本1703塑料管，第九版及以前版本1704车辆取暖器软管，车辆水箱用连接软管交叉检索；",
+    "9.非金属垫路板与第八版及以前版本2003非金属狭道板交叉检索；",
+    "10.非金属旋转栅门与第九版及以前版本0914自动旋转栅门交叉检索；",
+    "11.第（一）部分与第十一版及以前版本 2003 非金属帐篷桩，第八版及以前版本 1703铝塑复合管交叉检索；",
+    "12.第（二）部分根据商品的功能、用途确定类似商品；",
+    "13.第（三）部分与第十一版及以前版本1901铁路用非金属枕木交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "（一）",
+      "items": [
+        {
+          "name": "非金属雨水管",
+          "code": "190075",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非金属水管",
+          "code": "190076",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非金属分岔管",
+          "code": "190080",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "建筑用非金属硬管",
+          "code": "190178",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非金属排水管",
+          "code": "190220",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非金属压力水管",
+          "code": "190232",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "通风和空调设备用非金属管",
+          "code": "190235",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非金属双开弹簧门",
+          "code": "190263",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非金属折扇门",
+          "code": "190264",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非金属制吸音板",
+          "code": "190266",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非金属制园艺罩骨架",
+          "code": "190267",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非金属制楣窗",
+          "code": "190270",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "具有隔音效果的非金属建筑材料",
+          "code": "190271",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "太阳能电池板用非金属安装框",
+          "code": "190275",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "建筑用塑料型材",
+          "code": "190278",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "建筑用塑料管",
+          "code": "C190033",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "铝塑复合管",
+          "code": "C190042",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "非金属制帐篷桩",
+          "code": "C190045",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "屋脊",
+          "code": "190009",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非金属栏杆",
+          "code": "190016",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非金属折门",
+          "code": "190022",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非金属檐槽",
+          "code": "190044",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "建筑用卡纸板",
+          "code": "190045",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "建筑用纸板",
+          "code": "190045",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非金属制壁炉罩",
+          "code": "190049",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "建筑用非金属框架",
+          "code": "190050",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非金属烟囱",
+          "code": "190055",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非金属隔板",
+          "code": "190060",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "建筑用纸",
+          "code": "190062",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非金属檐口",
+          "code": "190064",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非金属檐板嵌条",
+          "code": "190065",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非金属制屋顶防雨板",
+          "code": "190066",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非金属角铁",
+          "code": "190067",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非金属窗",
+          "code": "190068",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非金属门*",
+          "code": "190069",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非金属检修孔盖",
+          "code": "190070",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非金属制屋顶覆盖物",
+          "code": "190071",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非金属楼梯踏板",
+          "code": "190074",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非金属、非塑料制水管阀",
+          "code": "190077",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非金属脚手架",
+          "code": "190078",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "电线用非金属杆",
+          "code": "190079",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非金属梁",
+          "code": "190083",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非金属支架",
+          "code": "190086",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "建筑用玻璃板（窗）",
+          "code": "190095",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "砂石管道",
+          "code": "190101",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非金属固定百叶窗",
+          "code": "190103",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非金属、非纺织品制室外遮帘",
+          "code": "190107",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非金属板条",
+          "code": "190109",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "拼花地板",
+          "code": "190112",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非金属楼梯基（楼梯部件）",
+          "code": "190113",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非金属楣",
+          "code": "190114",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "门廊（非金属结构）",
+          "code": "190123",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "建筑用非金属嵌条",
+          "code": "190128",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "建筑用非金属制墙包层",
+          "code": "190130",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "建筑用非金属盖板",
+          "code": "190131",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非金属百叶窗",
+          "code": "190133",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非金属围栏",
+          "code": "190134",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非金属栅栏",
+          "code": "190135",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非金属桩",
+          "code": "190136",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非金属板柱",
+          "code": "190136",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "建筑用非金属制墙衬料",
+          "code": "190138",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "（鸟的）栖木",
+          "code": "190140",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非金属地板",
+          "code": "190147",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非金属天花板",
+          "code": "190148",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "建筑用非金属衬板",
+          "code": "190150",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非金属大门",
+          "code": "190153",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非金属门板",
+          "code": "190154",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非金属电线杆",
+          "code": "190155",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非金属搁栅",
+          "code": "190157",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "预制非金属台",
+          "code": "190158",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非金属槛",
+          "code": "190162",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "建筑用芦苇",
+          "code": "190163",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非金属屋顶",
+          "code": "190173",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非金属格架",
+          "code": "190177",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非金属制楣窗",
+          "code": "190179",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "彩绘玻璃窗",
+          "code": "190182",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非金属护壁板",
+          "code": "190189",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "建筑用非金属加固材料",
+          "code": "190191",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非金属建筑材料",
+          "code": "190197",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非金属柱",
+          "code": "190206",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非金属窗框",
+          "code": "190208",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非金属门框",
+          "code": "190209",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非金属门框架",
+          "code": "190209",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非金属制温室骨架",
+          "code": "190210",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非金属烟囱罩",
+          "code": "190212",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非金属烟囱管帽",
+          "code": "190216",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非金属烟囱接长部件",
+          "code": "190217",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非金属烟囱柱",
+          "code": "190218",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非金属铺地平板",
+          "code": "190219",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非金属或非塑料排水阱（阀）",
+          "code": "190221",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非金属楼梯",
+          "code": "190222",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "建筑用非金属嵌板",
+          "code": "190223",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "凝结的甘蔗渣（建筑材料）",
+          "code": "190231",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "土工布",
+          "code": "190236",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "乙烯基壁板",
+          "code": "190238",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非金属防昆虫纱窗",
+          "code": "190239",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "装有光伏电池的非金属屋顶板",
+          "code": "190240",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非金属垫路板",
+          "code": "190241",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非金属制街道排水沟",
+          "code": "190245",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非金属旋转栅门",
+          "code": "190246",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "建筑用非金属平板",
+          "code": "190252",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非金属装甲门",
+          "code": "190254",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "建筑用非金属柱",
+          "code": "190256",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "建筑用非金属托架",
+          "code": "190257",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "建筑用非金属包层",
+          "code": "190258",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "塑料制景观围边",
+          "code": "190259",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "建筑物地震隔离用橡胶底座",
+          "code": "190260",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非金属装甲板",
+          "code": "190261",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非金属制浮动地板",
+          "code": "190268",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "岩棉制品（建筑用）",
+          "code": "C190028",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "玻璃钢制门、窗",
+          "code": "C190030",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "玻璃钢制天花板",
+          "code": "C190031",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "玻璃钢建筑构件",
+          "code": "C190032",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "塑钢门窗",
+          "code": "C190038",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "建筑用塑料板",
+          "code": "C190039",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "建筑用塑料杆",
+          "code": "C190040",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "建筑用塑料条",
+          "code": "C190041",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "塑料地板",
+          "code": "C190043",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "橡胶地板",
+          "code": "C190044",
+          "type": "marked",
+          "section": "（一）"
+        }
+      ]
+    },
+    {
+      "label": "（二）",
+      "items": [
+        {
+          "name": "非金属铸模",
+          "code": "190091",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "发光铺路块料",
+          "code": "190115",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "路面标线用胶带",
+          "code": "190276",
+          "type": "standard",
+          "section": "（二）"
+        }
+      ]
+    },
+    {
+      "label": "（三）",
+      "items": [
+        {
+          "name": "铁路用非金属轨枕",
+          "code": "190176",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "铁路用木制轨枕",
+          "code": "C190047",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "铁路用水泥轨枕",
+          "code": "C190048",
+          "type": "standard",
+          "section": "（三）"
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "木制屋顶板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属折叠门",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "聚氯乙烯制屋顶用隔膜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属窗边框",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "地下室防水系统建造用非金属排水管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陶瓷排水管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属护墙板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属发光铺路块料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑用非金属刚性管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑用非金属隔板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属减速带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属通风管道",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属推拉门",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木桩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "天花板的非金属覆盖层",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属纱窗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木制脚手架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木制栏杆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木制天花板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属檐板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属防火门",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属窗台",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "塑料墙板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属安全门",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "排水沟用非金属支架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "香杉木板制的建筑施工材料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属门挡板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属落水管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑用非金属门廊",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "乙烯地板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "塑料地板条",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电源线用木杆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "土木工程用织物（土工布）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑用塑料多层板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属制路面减速带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可通话的塑料防盗窗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属制防腐织物、垫席和薄膜（土隔膜）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陶土制管和管道",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属干壁护角（建筑材料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑用非金属楼梯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属下水管道",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属转门",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属制预制墙",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "乙烯基塑料制露台门",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "屋顶用塑料水管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属、非纺织品制室外百叶帘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属制雨水槽",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属天窗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑用非金属装甲板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木制外墙壁板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属制围栏立桩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属制围栏板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属制网式围栏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属制T型围栏柱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属玻璃窗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "塑胶地板条",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "墙用非金属包层（建筑）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "墙用非金属衬料（建筑）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑用非金属外表面",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属水落管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "玻璃幕墙",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "灌溉用塑料管道",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑玻璃幕墙",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "土工膜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑用塑料层压板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陶瓷建筑材料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属硬管（建筑用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "砂石管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑用非金属覆盖层",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属园艺格架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "温室用非金属架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑用水土保护毯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "塑料水管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "装有太阳能电池的非金属屋顶板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属竖铰链窗190270",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "排水用塑料管",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:35.268Z"
+}

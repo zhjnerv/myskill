@@ -1,0 +1,801 @@
+{
+  "groupCode": "3501",
+  "groupName": "广告",
+  "classCode": "35",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "张贴广告",
+          "code": "350003",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "户外广告",
+          "code": "350152",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "广告材料分发",
+          "code": "350008",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "货物展出",
+          "code": "350023",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "直接邮件广告",
+          "code": "350024",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "广告材料更新",
+          "code": "350027",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "样品散发",
+          "code": "350028",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "广告材料出租",
+          "code": "350035",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "广告文本的出版",
+          "code": "350038",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "广告",
+          "code": "350039",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "广告宣传",
+          "code": "350039",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "无线电广告",
+          "code": "350040",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电视广告",
+          "code": "350044",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "商业橱窗布置",
+          "code": "350046",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "广告代理",
+          "code": "350047",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "为广告或推销提供模特服务",
+          "code": "350049",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "广告空间出租",
+          "code": "350070",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "通过邮购订单进行的广告宣传",
+          "code": "350077",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "计算机网络上的在线广告",
+          "code": "350084",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "在通信媒体上出租广告时间",
+          "code": "350087",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "为零售目的在通信媒体上展示商品",
+          "code": "350092",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "撰写广告文本",
+          "code": "350099",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "广告版面设计",
+          "code": "350101",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "广告片制作",
+          "code": "350104",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "点击付费广告",
+          "code": "350113",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "广告概念开发",
+          "code": "350121",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "广告牌出租",
+          "code": "350125",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "广告脚本编写",
+          "code": "350132",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "制作电视购物节目",
+          "code": "350137",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "广告传播策略咨询",
+          "code": "350139",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "通过体育赛事赞助推广商品和服务",
+          "code": "350141",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "为他人创建品牌形象的广告服务",
+          "code": "350178",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "广告设计",
+          "code": "C350001",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "广告策划",
+          "code": "C350002",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "广告材料起草",
+          "code": "C350007",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "在网站上为商品和服务提供广告空间",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人推广系列电影",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过电子手段展示商品和服务以便于电视购物和居家购物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "体育人士的宣传管理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "广告（通过所有大众传播途径）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为广告目的布置橱窗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为电影做广告",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "更新广告材料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "创作广告材料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "互联网网页式广告的编辑",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过电视、无线电和邮件进行广告宣传服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电影广告",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "橱窗展示安排服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "广告材料和商业广告的制作",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "广告材料散发",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "广告材料制作",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "广告代理服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "分类广告服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人制作广告",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电视广告制作",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "广告分发",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "广告分析",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "广告服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "广告宣传材料的出版",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "广告研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "广告张贴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "广告咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "杂志广告",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "横幅广告",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "产品展示",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "在网站上出租广告空间",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "报纸广告",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "散发说明书和样品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "向国内外散发宣传材料（传单、简介、小册子、样品、特别是远程销售目录）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "在期刊、报纸和杂志上提供广告空间",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数字广告服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人在互联网上做广告",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机网络和网站的在线推广",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "广告中介",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为广告目的散发产品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "在互联网上提供和出租广告空间",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "广告反应分析",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "橱窗布置服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有关药品和体内成像产品的广告",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宣传股票和其他债券经纪的广告服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无线电和电视广告代理提供的广告服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "发布和更新广告文本",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "直接邮件广告服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过移动电话网络做广告",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "广告的制作和刊登",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "真人模特橱窗产品展示服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "街头散发广告材料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商业和住宅房地产广告",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过互联网为他人发布广告",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "广告及广告材料分发（传单、小册子、散页印刷品和样品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "广告材料分发（散页印刷品、小册子和印刷品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "散发和发布广告材料（散页印刷品、说明书、印刷品和样品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "散发广告邮件和定期出版物的广告副刊",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为广告宣传目的散发样品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子布告牌广告",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "期刊、册子和报纸上的广告",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过计算机通信网络进行的在线广告",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "大众和专业出版物上的广告",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "广告编辑、制作和传播",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过电子途径和全球信息网络提供广告空间",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商品推销陈列服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有关广告宣传的咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "出租广告空间及广告材料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过电子通信网络为第三方进行在线传播形式的广告",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过发放优惠券推广他人的商品和服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人推广电影",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人在不动产、抵押、金融、保险、搬迁、修理、维护及家政服务领域提供广告服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "广告信息服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过全球计算机网络提供分类广告空间",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "广告咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "招聘广告",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "霓虹灯广告",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人员招聘广告",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "向照明领域的专业人士推广节能照明技术的优势",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "出租车车顶广告",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "广告文本出版服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "导演广告片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "广告概念开发领域的咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "广告或商业广告的后期制作编辑",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过会员奖励计划推广他人的商品和服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电梯广告",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "广告宣传本的出版",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "广告稿的撰写",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过全球计算机网络推广他人的商品和服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "庭院广告牌出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人准备广告宣传和促销材料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人分发广告传单",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "准备用于广告的视听演示材料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人进行广告展示",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人投放广告",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人准备和投放广告",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提高公众对疾病认知的广告服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电影院广告时间的出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人创作宣传册的广告内容",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "橱窗布置和陈列服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "广告材料设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "互联网广告传播",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制作购物广告",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过互联网广告推广他人的商品和服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人准备定制式广告",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过互联网推广他人的商品和服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "互联网广告服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过网络方式投放汽车销售广告",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供以在线供应商的商品和服务为特色的可在线搜索的广告指南",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "开展广告宣传活动",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人准备并投放户外广告",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数字广告牌出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "在线发布广告材料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制作营销视频",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "在线分发广告材料",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:02.732Z"
+}

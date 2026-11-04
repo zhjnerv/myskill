@@ -1,0 +1,82 @@
+[
+  {
+    "groupCode": "0101",
+    "groupName": "工业气体，单质",
+    "classCode": "01"
+  },
+  {
+    "groupCode": "0102",
+    "groupName": "用于工业、科学、农业、园艺、林业的工业化工原料",
+    "classCode": "01"
+  },
+  {
+    "groupCode": "0103",
+    "groupName": "放射性元素及其化学品",
+    "classCode": "01"
+  },
+  {
+    "groupCode": "0104",
+    "groupName": "用于工业、科学的化学品、化学制剂，不属于其他类别的产品用的化学制品",
+    "classCode": "01"
+  },
+  {
+    "groupCode": "0105",
+    "groupName": "用于农业、园艺、林业的化学品、化学制剂",
+    "classCode": "01"
+  },
+  {
+    "groupCode": "0106",
+    "groupName": "化学试剂",
+    "classCode": "01"
+  },
+  {
+    "groupCode": "0107",
+    "groupName": "摄影用化学用品及材料",
+    "classCode": "01"
+  },
+  {
+    "groupCode": "0108",
+    "groupName": "未加工的人造合成树脂，未加工塑料物质（不包括未加工的天然树脂）",
+    "classCode": "01"
+  },
+  {
+    "groupCode": "0109",
+    "groupName": "肥料",
+    "classCode": "01"
+  },
+  {
+    "groupCode": "0110",
+    "groupName": "灭火、防火用合成物",
+    "classCode": "01"
+  },
+  {
+    "groupCode": "0111",
+    "groupName": "淬火用化学制剂",
+    "classCode": "01"
+  },
+  {
+    "groupCode": "0112",
+    "groupName": "焊接用化学制剂",
+    "classCode": "01"
+  },
+  {
+    "groupCode": "0113",
+    "groupName": "食品、药品及化妆品工业用化学品（不包括食品用防腐盐）",
+    "classCode": "01"
+  },
+  {
+    "groupCode": "0114",
+    "groupName": "鞣料及皮革用化学品",
+    "classCode": "01"
+  },
+  {
+    "groupCode": "0115",
+    "groupName": "工业用粘合剂和胶（不包括纸用粘合剂）",
+    "classCode": "01"
+  },
+  {
+    "groupCode": "0116",
+    "groupName": "纸浆",
+    "classCode": "01"
+  }
+]

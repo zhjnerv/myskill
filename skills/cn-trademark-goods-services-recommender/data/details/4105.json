@@ -1,0 +1,2333 @@
+{
+  "groupCode": "4105",
+  "groupName": "文娱、体育活动的服务",
+  "classCode": "41",
+  "notes": [
+    "注：1.本类似群各部分之间服务不类似；",
+    "2.第（一）部分与第七版及以前版本 4222 交叉检索；",
+    "3.第（一）部分与第七版及以前版本 4223 交叉检索；",
+    "4.第（一）部分与第七版及以前版本 4219 交叉检索；",
+    "5.电影发行与4104录像带发行类似；",
+    "6.浮潜设备出租与3907类似，与第八版及以前版本4105第（三）部分潜水贴身设备租赁，潜水设备出租交叉检索；",
+    "7.剧院或电视演播室用灯光设备出租与4306照明设备出租类似；",
+    "8.本类似群第六部分与3911类似。",
+    "9.第（一）部分与第十一版及以前版本第（二）部分书法服务交叉检索；",
+    "10.第（七）部分与第十一版及以前版本第（三）部分提供博物馆设施（表演、展览）交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "（一）",
+      "items": [
+        {
+          "name": "电影摄影设备出租",
+          "code": "410006",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "电影摄影棚服务",
+          "code": "410008",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "演出用布景出租",
+          "code": "410013",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "无线电文娱节目",
+          "code": "410015",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "唱片出租",
+          "code": "410018",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "电影胶片出租",
+          "code": "410019",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "除广告片外的影片制作",
+          "code": "410020",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "收音机和电视机出租",
+          "code": "410025",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "广播和电视节目制作",
+          "code": "410026",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "戏剧制作",
+          "code": "410029",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "演出制作",
+          "code": "410030",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "电视文娱节目",
+          "code": "410031",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "舞台布景出租",
+          "code": "410032",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "电影放映",
+          "code": "410057",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "录音棚服务",
+          "code": "410063",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "录像机出租",
+          "code": "410068",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "录像带出租",
+          "code": "410069",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "配音",
+          "code": "410079",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "音响设备出租",
+          "code": "410085",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "剧院或电视演播室用灯光设备出租",
+          "code": "410086",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "摄像机出租",
+          "code": "410088",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非广告剧本的编写",
+          "code": "410089",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "录像带剪辑",
+          "code": "410090",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "配翻译字幕",
+          "code": "410093",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "作曲",
+          "code": "410097",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "摄影报道",
+          "code": "410100",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "摄影",
+          "code": "410101",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "新闻记者服务",
+          "code": "410103",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "翻译",
+          "code": "410104",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "手语翻译",
+          "code": "410105",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "录像带录制",
+          "code": "410106",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "微缩摄影",
+          "code": "410182",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "文稿撰写*",
+          "code": "410184",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "书法服务",
+          "code": "410186",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "口译",
+          "code": "410192",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "音乐制作",
+          "code": "410196",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "提供不可下载的在线音乐",
+          "code": "410200",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "提供不可下载的在线视频",
+          "code": "410201",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "歌曲创作",
+          "code": "410204",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "剧本编写",
+          "code": "410205",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "通过视频点播服务提供不可下载的电影",
+          "code": "410208",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "通过视频点播服务提供不可下载的电视节目",
+          "code": "410209",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "艺术品出租",
+          "code": "410212",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "电影发行",
+          "code": "410217",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "为活动提供音响工程服务",
+          "code": "410222",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "为活动提供视频编辑服务",
+          "code": "410223",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "为活动提供灯光师服务",
+          "code": "410224",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "除广告片外的影片导演",
+          "code": "410225",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "导演节目",
+          "code": "410232",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "无人机摄影服务",
+          "code": "410236",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "无人机摄像服务",
+          "code": "410237",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "出租电子书阅读器",
+          "code": "410241",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "配原文字幕",
+          "code": "410245",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "播客节目制作",
+          "code": "410249",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "电影道具出租",
+          "code": "410250",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "广播和电视节目的编排",
+          "code": "410251",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "提供不可下载的在线图像",
+          "code": "410252",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "为娱乐目的提供情绪发泄屋",
+          "code": "410264",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "体育解说服务",
+          "code": "410265",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "掌上型电子词典出租",
+          "code": "410268",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "袖珍电子翻译器出租",
+          "code": "410269",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "译制",
+          "code": "C410002",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "电影外语配音",
+          "code": "C410005",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "诙谐诗创作",
+          "code": "C410006",
+          "type": "marked",
+          "section": "（一）"
+        }
+      ]
+    },
+    {
+      "label": "（二）",
+      "items": [
+        {
+          "name": "游乐园服务",
+          "code": "410003",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "娱乐服务",
+          "code": "410004",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "演出",
+          "code": "410007",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "马戏表演",
+          "code": "410009",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "提供娱乐设施",
+          "code": "410014",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "综艺表演",
+          "code": "410027",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "管弦乐团",
+          "code": "410028",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "迪斯科舞厅",
+          "code": "410047",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "提供娱乐信息",
+          "code": "410050",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "假日野营娱乐服务",
+          "code": "410055",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "现场表演",
+          "code": "410056",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "筹划聚会（娱乐）",
+          "code": "410060",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "提供关于消遣活动的信息",
+          "code": "410064",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "演出座位预订",
+          "code": "410078",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "游戏厅服务",
+          "code": "410084",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "通过计算机网络在线提供的游戏服务",
+          "code": "410094",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "提供卡拉OK服务",
+          "code": "410095",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "夜总会娱乐服务",
+          "code": "410098",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "票务代理服务（娱乐）",
+          "code": "410183",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "音乐主持服务",
+          "code": "410191",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "为娱乐或文化目的提供用户评价",
+          "code": "410226",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "为娱乐或文化目的提供用户排名",
+          "code": "410227",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "为娱乐或文化目的提供用户评级",
+          "code": "410227",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "脸部彩绘",
+          "code": "410230",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "电子竞技服务",
+          "code": "410233",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "玩具馆服务",
+          "code": "410234",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "密室逃脱（娱乐）",
+          "code": "410247",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "逃脱游戏（娱乐）",
+          "code": "410247",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "在虚拟环境中提供的娱乐服务",
+          "code": "410256",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "为娱乐目的提供情绪发泄屋",
+          "code": "410264",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "棋牌室服务",
+          "code": "C410008",
+          "type": "marked",
+          "section": "（二）"
+        }
+      ]
+    },
+    {
+      "label": "（三）",
+      "items": [
+        {
+          "name": "体操训练",
+          "code": "410021",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "提供体育设施",
+          "code": "410035",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "提供高尔夫球设施",
+          "code": "410053",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "健身俱乐部（健身和体能训练）",
+          "code": "410054",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "浮潜设备出租",
+          "code": "410065",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "体育设备出租（车辆除外）",
+          "code": "410066",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "体育场设施出租",
+          "code": "410067",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "体育野营服务",
+          "code": "410071",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "体育比赛计时",
+          "code": "410073",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "网球场出租",
+          "code": "410087",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "运动场出租",
+          "code": "410190",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "私人健身教练服务",
+          "code": "410193",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "健身指导课程",
+          "code": "410194",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "合气道训练",
+          "code": "410211",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "武术训练",
+          "code": "410220",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "柔道训练",
+          "code": "410220",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "训练模拟器出租",
+          "code": "410228",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "为训练目的提供体能评估服务",
+          "code": "410229",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "体育活动器械出租",
+          "code": "410266",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "桨式冲浪板出租",
+          "code": "410270",
+          "type": "standard",
+          "section": "（三）"
+        }
+      ]
+    },
+    {
+      "label": "（四）",
+      "items": [
+        {
+          "name": "玩具出租",
+          "code": "410197",
+          "type": "standard",
+          "section": "（四）"
+        }
+      ]
+    },
+    {
+      "label": "（五）",
+      "items": [
+        {
+          "name": "游戏器具出租",
+          "code": "410198",
+          "type": "standard",
+          "section": "（五）"
+        },
+        {
+          "name": "提供实境角色扮演游戏设施",
+          "code": "410254",
+          "type": "standard",
+          "section": "（五）"
+        },
+        {
+          "name": "供人娱乐用具有交流和学习功能的拟人机器人的出租",
+          "code": "410259",
+          "type": "standard",
+          "section": "（五）"
+        }
+      ]
+    },
+    {
+      "label": "（六）",
+      "items": [
+        {
+          "name": "导游服务",
+          "code": "410206",
+          "type": "standard",
+          "section": "（六）"
+        },
+        {
+          "name": "登山向导服务",
+          "code": "410214",
+          "type": "standard",
+          "section": "（六）"
+        },
+        {
+          "name": "提供在线虚拟导游",
+          "code": "410253",
+          "type": "standard",
+          "section": "（六）"
+        },
+        {
+          "name": "为娱乐目的在虚拟环境中提供模拟旅行服务",
+          "code": "410255",
+          "type": "standard",
+          "section": "（六）"
+        }
+      ]
+    },
+    {
+      "label": "（七）",
+      "items": [
+        {
+          "name": "提供博物馆设施",
+          "code": "410062",
+          "type": "standard",
+          "section": "（七）"
+        }
+      ]
+    },
+    {
+      "label": "（八）",
+      "items": [
+        {
+          "name": "无人机灯光秀表演",
+          "code": "410271",
+          "type": "standard",
+          "section": "（八）"
+        },
+        {
+          "name": "公园",
+          "code": "C410009",
+          "type": "marked",
+          "section": "（八）"
+        },
+        {
+          "name": "植物园",
+          "code": "C410010",
+          "type": "marked",
+          "section": "（八）"
+        },
+        {
+          "name": "植物展览",
+          "code": "C410011",
+          "type": "marked",
+          "section": "（八）"
+        },
+        {
+          "name": "天文馆服务",
+          "code": "C410012",
+          "type": "marked",
+          "section": "（八）"
+        },
+        {
+          "name": "画展服务",
+          "code": "C410013",
+          "type": "marked",
+          "section": "（八）"
+        },
+        {
+          "name": "艺术展览",
+          "code": "C410014",
+          "type": "marked",
+          "section": "（八）"
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "现场喜剧节目的演出",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为儿童提供游戏场所",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为电影制作字幕",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供游泳池服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供滑雪场",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供冬季运动会设施",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "收音机出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子游戏厅服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电视机出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "影片出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供溜冰场服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电视节目编辑",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电视片制作",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电影DVD盘出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电影放映机出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电影特效制作",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钢管舞训练",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "广播节目编辑",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "空中健身训练",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "拳击训练",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人像绘画服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人像摄影服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "视频设备出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "视频制作",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "私人健身训练服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供卡拉OK设施服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供体育信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供障碍训练健身设施",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "在计算机网络上提供在线虚拟现实游戏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "在演出场馆提供戏剧表演",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "在演出场馆提供音乐歌舞表演",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "音乐表演",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卡拉OK厅服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卡拉OK设备出租服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "玩具踏板车出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过互联网方式提供的电子游戏服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供台球室",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "广播电视节目制作",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "负片出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "现场表演展示",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "娱乐机器和设备出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供舞厅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过网站提供娱乐信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "向公众开放的洞穴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "游戏机器和设备出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "体育训练服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "游泳训练",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "照相机出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "正片出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高尔夫球练习场服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马戏团表演",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供棒球场地",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "录像带编辑",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电视演播室用灯光设备出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "虚拟现实游戏厅服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "公众开放的公园",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "轮滑鞋出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "（冰刀）冰鞋出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为娱乐目的提供溜索",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "具有汽车赛性质的娱乐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高尔夫球童服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供娱乐公园",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "棋室（围棋或将棋）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供体育场馆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供麻将馆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "弹球游戏厅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "单板滑雪设备出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高尔夫球健身训练",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "溜冰鞋出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非广告目的剧本的撰写服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "编写非广告目的演讲稿",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供有关拳击比赛结果的信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "娱乐票务代理服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供有关武术比赛结果的信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供水上乐园服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人记谱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "演出座位和戏院票务预订",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "在服务站提供儿童游乐场",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电影摄影机器和设备出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "风筝出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高射投影仪出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "旱冰鞋出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "录像带、盒式录像带和录像片出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "音像录制服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过声音和图像制作声音和图像记录",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为儿童提供游乐设施",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "演出和体育赛事座位预订",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为电影场景或电影摄影棚出租照明器具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "充气堡出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "稿件校对",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "母带处理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "剧院演播室用灯光设备出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "喜剧俱乐部",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "录音制作",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供健身设施",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "录像磁带出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供保龄球馆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "筹划聚会",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "博物馆服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "乐器出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电影院",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "放映电影",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "录像服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供电影院设施",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为体育比赛提供设施",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供在线计算机游戏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "网球训练",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "语言翻译",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "摄影服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "配音服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "滑雪设备出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "绘画和书法作品出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供网球场",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供网球场设施",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电视节目制作",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "广播节目制作",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供田径设施",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电影歌曲制作",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "视频显示屏出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "音乐视频制作",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供音频或视频录制室",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "滑板出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "在计算机网络上提供在线游戏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "视频游戏机出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "反转片出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "广播和电视节目制作用视听设备的操作",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供录音棚或录像棚服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "空中摄像服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供主题公园设施",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "动画片制作服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "篮球训练营服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "掷斧比赛（娱乐）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "轮滑比赛（娱乐）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卡巴莱歌舞表演娱乐服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "原文稿撰写（广告稿除外）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "艺术展览服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电影剧本编写",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "娱乐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "音乐出版服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "足球训练",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "影片租赁服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "具有水上公园和娱乐中心特点的娱乐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "影片和录像带出租服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "娱乐信息（消遣）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "画展",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "健身服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "出租家用电视游戏机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "唱片发行",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电影制作",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "单板滑雪训练",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "滑雪训练",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过视频点播传输提供电影（不可下载）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "微距摄影服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "现场音乐剧表演",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "游艇比赛（娱乐）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "轮滑训练",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高尔夫训练",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "柔术训练",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "文字撰写（广告宣传材料除外）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电影放映设备出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高尔夫球器材出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "口译服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "篮球训练",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "演出设施出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电影配音",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冲浪板出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "演出厅出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供音乐厅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "跑步机出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自动点唱机出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供演出剧院设施",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为演出出租剧院",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "戏剧演出设施出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "音乐厅出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "娱乐厅出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "足球比赛（娱乐）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "乒乓球训练",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "跳水训练",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "京剧表演",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "滑雪单板出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "普拉提指导课程",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "选美比赛（娱乐）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "健身训练服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "乒乓球台出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "美术馆展览服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "足球场出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电影剪辑",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "篮球场出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "娱乐信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "同声传译服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "配字幕",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "体能训练",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "夜总会的娱乐服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "拳击比赛（娱乐）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "填充玩具出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供桌面游戏设施",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "虚拟体能训练服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "盲文翻译",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供骑马设施",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "棒球比赛（娱乐）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高尔夫球锦标赛（娱乐）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "篮球比赛（娱乐）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "曲棍球比赛（娱乐）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "羽毛球训练",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "举重比赛（娱乐）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "排球训练",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "网球比赛（娱乐）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "芭蕾舞表演（娱乐）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "摔跤比赛（娱乐）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供健身和锻炼设施",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供室内滑雪设施",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "办理演出和其他娱乐活动门票预订",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "游戏厅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "婚纱摄影",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "视频制作服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "体育裁判",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过电话预录方式提供体育信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供彩弹游戏设施",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "游戏用集换式卡片出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "舞蹈表演（娱乐）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "体育比赛裁判",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电视文娱节目发行",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "戏剧制作（娱乐）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "激光表演（娱乐）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马术营地",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "灯光表演（娱乐）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "管弦乐团表演（娱乐）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马戏娱乐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "魔术表演（娱乐）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "娱乐露营",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "体操表演（娱乐）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电视新闻娱乐节目",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "游乐园表演（娱乐服务）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为听力障碍观众提供电视直播节目的字幕",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为电影配翻译字幕",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供主题公园服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过互联网提供不可下载的数字音乐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电视节目的发行服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电影院的电影放映",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "动画影片的发行",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "篮球训练营",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "广播娱乐节目制作",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "航空摄影",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "娱乐消遣信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供不可下载在线音乐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "飞行表演（娱乐）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "交响乐团表演（娱乐）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "竞赛体育场馆设施的出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "选美大赛（娱乐）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制作隐藏式字幕电视节目",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "棒球训练营",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "磁带录制设备出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冰球训练",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "口琴表演（娱乐）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "足球训练营",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供攀岩设施",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无人机婚礼摄影服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有线电视节目制作",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "油画出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "视频编辑",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "音频录制和制作",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "导演科幻电影",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "健身咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "录像带影片制作",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供轮滑设施",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供在线翻译服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钓鱼指导",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电视剧本编写",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "体育训练",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "现场音乐表演",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "田径比赛（娱乐）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "安排和举办青年篮球训练项目",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供以用户可以在其中进行娱乐互动的虚拟世界为特色的在线计算机游戏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "游乐中心用视频游戏机出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "歌唱训练",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供在线以消遣、休闲、娱乐为目的的交互式虚拟社交游戏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "羽毛球场出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "沙滩排球训练",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "沙滩排球场出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "投币启动的投篮机出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "录音服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "板式网球场出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无人机灯光秀娱乐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过流媒体传输服务提供不可下载的电影",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手持式电子词典出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "风帆冲浪板出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "摄影导览服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供板球场地设施",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人制作视频光盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供音乐排练专用设施",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "便携式电子翻译器出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "把杆健身训练",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人提供文学创作",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "便携式舞台出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "中国皮影戏表演",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "视频广播制作",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供剧院演出目录",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:44.055Z"
+}

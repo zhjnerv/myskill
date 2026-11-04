@@ -1,0 +1,149 @@
+{
+  "groupCode": "2510",
+  "groupName": "手套（不包括特种手套）",
+  "classCode": "25",
+  "notes": [
+    "注:本类似群与第十二版及以前版本1111电热手套,第十版及以前版本0924原第(二)部分电手套交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "手套（服装）",
+          "code": "250067",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "手笼（服装）",
+          "code": "250097",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "连指手套",
+          "code": "250187",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "滑雪手套",
+          "code": "250167",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "露指手套",
+          "code": "250099",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "触摸屏设备用保暖手套",
+          "code": "250194",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "骑行手套",
+          "code": "250196",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "驾驶手套",
+          "code": "250197",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "登山手套",
+          "code": "250205",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "瑜伽手套",
+          "code": "250210",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电热手套",
+          "code": "C250034",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "骑自行车用手套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "单板滑雪用手套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "使用手持触屏电器时佩戴的带导电指尖的手套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "针织手套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "服饰用手套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "露指手套（服装）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮手笼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手套（包括皮、兽皮或毛皮制）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "驾驶用手套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "摩托车手套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "滑雪用手套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "保暖手套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "御寒用手套（服装）",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:12.151Z"
+}

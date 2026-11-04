@@ -1,0 +1,540 @@
+{
+  "groupCode": "0911",
+  "groupName": "光学仪器",
+  "classCode": "09",
+  "notes": [
+    "注：1.本类似群与第十二版及以前版本0921的3D眼镜交叉检索;",
+    "2.武器用瞄准望远镜，火器用瞄准望远镜与1301除瞄准望远镜外的火器用瞄准器，除瞄准望远镜外的武器用瞄准器，枪和步枪用瞄准镜，步枪瞄准镜，枪瞄准镜类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "数值孔径计",
+          "code": "090050",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "天体照相机镜头",
+          "code": "090059",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "显微镜载玻片盒",
+          "code": "090128",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "目镜",
+          "code": "090134",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "物镜（光学）",
+          "code": "090160",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "衍射设备（显微镜）",
+          "code": "090189",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "显微镜",
+          "code": "090193",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "折射计",
+          "code": "090250",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "检验用镜",
+          "code": "090307",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "光学灯",
+          "code": "090319",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "光学镜头",
+          "code": "090324",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "放大镜（光学）",
+          "code": "090328",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "潜望镜",
+          "code": "090337",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "光学仪器用螺旋千分尺",
+          "code": "090350",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "镜（光学）",
+          "code": "090354",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "三棱镜（光学）",
+          "code": "090365",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "光学器械和仪器",
+          "code": "090370",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "光学玻璃",
+          "code": "090371",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "天文学仪器及装置",
+          "code": "090384",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "光度计",
+          "code": "090393",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "折射望远镜",
+          "code": "090424",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "分光镜",
+          "code": "090426",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "摄谱仪",
+          "code": "090457",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "立体视镜",
+          "code": "090460",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "立体视器械",
+          "code": "090461",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "双筒望远镜",
+          "code": "090475",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "望远镜",
+          "code": "090476",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "火器用瞄准望远镜",
+          "code": "090509",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "聚光器",
+          "code": "090592",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "3D眼镜",
+          "code": "090726",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "武器用瞄准望远镜",
+          "code": "090735",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "狩猎用双筒望远镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "小型双眼望远镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "天体摄谱仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "天象投影仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "望远镜反射镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "望远镜镜筒（透镜镜筒）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "望远镜镜头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "望远镜瞄准器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "望远镜用三脚架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "偏光显微镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生物显微镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金相显微镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "棱镜（望远镜用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "棱镜（显微镜用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "光纤潜望镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "光学棱镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "光学装置用滤光器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "活组织显微镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "光反射器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子显微镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "定天镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "放大镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "干涉仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "单筒望远镜支架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "LED显微镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "变焦显微镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "增透镜片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "长柄望远镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "中星仪（天体测量用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "准直望远镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "子午仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "夜视镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "显微镜反射镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "显微镜集光器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "显微镜镜筒（透镜镜筒）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "显微镜镜头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "显微镜照明装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "小望远镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "天顶望远镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "显微镜的物镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "光耦合器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "光学镜片坯料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "射箭用箭弓瞄准望远镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "望远式瞄准镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电视用防眩滤光片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "荧光显微镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "扫描电子显微镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "透射电子显微镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "反射式望远镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "扫描探针显微镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "望远式步枪瞄准镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贴附在电子产品显示器上的用于调节成像清晰度的光学膜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贴附在电子产品显示器上的用于调节视野角度的光学膜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "光反射镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "光滤波器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "液晶显示器的彩色滤光片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "复径计（光学）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防反射镜头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "珠宝专用放大镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "修表匠用放大镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "光谱仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "科学用三棱镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "观测镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "单筒望远镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "枪支望远瞄准器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "光学仪器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "天文望远镜",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:35.602Z"
+}

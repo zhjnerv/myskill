@@ -1,0 +1,508 @@
+{
+  "groupCode": "2906",
+  "groupName": "蛋品",
+  "classCode": "29",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "蛋清",
+          "code": "290012",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蛋黄",
+          "code": "290064",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蛋*",
+          "code": "290086",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蛋粉",
+          "code": "290087",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "咸蛋",
+          "code": "C290066",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "皮蛋（松花蛋）",
+          "code": "C290067",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "鹌鹑蛋",
+          "code": "C290068",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "鸭蛋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冷冻鸡蛋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鸡蛋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加工过的鸡蛋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "茶叶蛋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卤蛋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工的鸡蛋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卤制鹌鹑蛋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鸡蛋干（鸡蛋制品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "搅拌好的蛋液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "荷包蛋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卤水蛋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烹饪用蛋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "去壳熟鸡蛋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用蛋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "熟鸡蛋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "熟五香蛋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "熟鸭蛋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "双黄蛋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "松花蛋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "速溶蛋黄粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "乌鸡蛋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无铅皮蛋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无铅松花蛋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "五香茶蛋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "五香卤蛋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鲜蛋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鲜鸡蛋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鲜鸭蛋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "咸蛋黄",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "咸鸡蛋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "咸鸭蛋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "熏蛋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "熏鸡蛋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "熏制蛋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蛋黄粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蛋液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冻鸡蛋黄",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鹅蛋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "干燥过的鸡蛋粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "干制蛋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "干制鸡蛋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鸽蛋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烩饭用蛋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鸡蛋粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鸡蛋羹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鸡蛋液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加工过的蛋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "煎蛋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "煎荷包蛋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "煎鸡蛋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "酱蛋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "酱鸡蛋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "经冰冻的鸡蛋清",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "经过巴氏灭菌的蛋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "经过干燥加工的鸡蛋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "经过加热处理的蛋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烤蛋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烤鸡蛋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烤鸭蛋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冷藏的液体蛋黄",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冷冻蛋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冷冻蛋黄",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冷冻蛋清",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卤制蛋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卤制鸡蛋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烹调用蛋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮蛋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "火鸡蛋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "液态蛋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "液体鸡蛋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蒸蛋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制蛋卷用蛋液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制日式蒸蛋用蛋液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "煮鸡蛋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "煮熟的蛋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "腌鸭蛋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "腌制蛋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "腌制鸡蛋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "炖蛋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鹌鹑皮蛋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "炒蛋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蛋白",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生鸡蛋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鸡蛋黄",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鸡蛋清",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工的蛋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蛋清粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "以鸡蛋为主的预制食物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "咸蛋黄酱",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:33.855Z"
+}

@@ -1,0 +1,97 @@
+[
+  {
+    "groupCode": "3001",
+    "groupName": "咖啡，咖啡代用品，可可",
+    "classCode": "30"
+  },
+  {
+    "groupCode": "3002",
+    "groupName": "茶、茶饮料",
+    "classCode": "30"
+  },
+  {
+    "groupCode": "3003",
+    "groupName": "糖",
+    "classCode": "30"
+  },
+  {
+    "groupCode": "3004",
+    "groupName": "糖果，南糖，糖",
+    "classCode": "30"
+  },
+  {
+    "groupCode": "3005",
+    "groupName": "蜂蜜，蜂王浆等营养食品",
+    "classCode": "30"
+  },
+  {
+    "groupCode": "3006",
+    "groupName": "面包，糕点",
+    "classCode": "30"
+  },
+  {
+    "groupCode": "3007",
+    "groupName": "方便食品",
+    "classCode": "30"
+  },
+  {
+    "groupCode": "3008",
+    "groupName": "米，面粉（包括五谷杂粮）",
+    "classCode": "30"
+  },
+  {
+    "groupCode": "3009",
+    "groupName": "面条及米面制品",
+    "classCode": "30"
+  },
+  {
+    "groupCode": "3010",
+    "groupName": "谷物膨化食品",
+    "classCode": "30"
+  },
+  {
+    "groupCode": "3011",
+    "groupName": "豆粉，食用预制面筋",
+    "classCode": "30"
+  },
+  {
+    "groupCode": "3012",
+    "groupName": "食用淀粉及其制品",
+    "classCode": "30"
+  },
+  {
+    "groupCode": "3013",
+    "groupName": "食用冰，冰制品",
+    "classCode": "30"
+  },
+  {
+    "groupCode": "3014",
+    "groupName": "食盐",
+    "classCode": "30"
+  },
+  {
+    "groupCode": "3015",
+    "groupName": "酱油，醋",
+    "classCode": "30"
+  },
+  {
+    "groupCode": "3016",
+    "groupName": "芥末，味精，沙司，酱等调味品",
+    "classCode": "30"
+  },
+  {
+    "groupCode": "3017",
+    "groupName": "酵母",
+    "classCode": "30"
+  },
+  {
+    "groupCode": "3018",
+    "groupName": "食用香精，香料",
+    "classCode": "30"
+  },
+  {
+    "groupCode": "3019",
+    "groupName": "单一商品",
+    "classCode": "30"
+  }
+]

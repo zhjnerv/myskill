@@ -1,0 +1,2490 @@
+{
+  "groupCode": "2101",
+  "groupName": "厨房炊事用具及容器（包括不属别类的餐具）",
+  "classCode": "21",
+  "notes": [
+    "注：1.纸盘，家用纸托盘与1603纸制啤酒杯垫，纸制杯盘垫，纸制杯垫类似，与第十一版及以前版本1603啤酒杯垫，第九版及以前版本1603纸垫，桌上纸杯垫交叉检索；",
+    "2.瓶与2102，2106，2111各种瓶类似；",
+    "3.本类似群与第八版及以前版本 1402 功能、用途属于 2101 类似群的贵金属制品交叉检索，例如家用贵重金属容器，贵重金属色拉碗，贵重金属缸，贵重金属餐巾环，贵重金属厨房用具，贵重金属轧胡桃钳等；",
+    "4.开塞钻(电或非电)，开瓶器(电或非电)与0810非电动开罐器类似，与第九版及以前版本0810非电动开罐头器交叉检索；",
+    "5.家用面包篮，面包箱与2002面包店用面包筐类似，与第十一版及以前版本2002面包师用面包筐，第九版及以前版本2002面包筐交叉检索；",
+    "6.盆(容器)，铁桶与2106水桶，提桶类似；",
+    "7. 第一自然段与2102玻璃杯(容器)，彩色玻璃器皿，日用玻璃器皿(包括杯、盘、壶、缸)，2103 商品，2105商品类似，与第八版及以前版本2106非贵重金属罐，非贵重金属水瓶，非贵重金属瓶交叉检索；",
+    "8.本类似群与第十一版及以前版本0808 绞肉机（手工具） ，1609微波烹饪袋，第十版及以前版本0807胡桃钳，0812 方糖钳，葡萄酒用长柄勺交叉检索；",
+    "9.非纸制、非纺织品制杯盘垫，非纸制、非纺织品制餐具垫与第十版及以前版本2407杯盘垫（非纸制），餐具垫（非纸制）交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "盆（容器）",
+          "code": "210025",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "黄油碟",
+          "code": "210030",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "黄油碟罩",
+          "code": "210031",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "盆（碗）",
+          "code": "210039",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "细颈大瓶",
+          "code": "210040",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "小口大瓶",
+          "code": "210040",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "碗",
+          "code": "210039",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "瓶*",
+          "code": "210045",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "调味瓶",
+          "code": "210057",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "水果盘",
+          "code": "210089",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "调味品套瓶",
+          "code": "210122",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "午餐盒",
+          "code": "210140",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "罐",
+          "code": "210153",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蔬菜盘",
+          "code": "210154",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "家用器皿",
+          "code": "210159",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "面包屑盘",
+          "code": "210160",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蛋杯",
+          "code": "210165",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纸盘",
+          "code": "210173",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "家用纸托盘",
+          "code": "210180",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "胡椒瓶",
+          "code": "210185",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "家用或厨房用容器",
+          "code": "210199",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "色拉碗",
+          "code": "210203",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "盐瓶",
+          "code": "210204",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "碟",
+          "code": "210208",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "糖碗",
+          "code": "210218",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "杯",
+          "code": "210220",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非电饮料鼎",
+          "code": "210226",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "餐具（刀、叉、匙除外）",
+          "code": "210227",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "盘",
+          "code": "210235",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "糖果盒",
+          "code": "210244",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "奶酪盘罩",
+          "code": "210265",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "家用托盘",
+          "code": "210267",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "碟罩",
+          "code": "210269",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "水壶",
+          "code": "210271",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "水瓶",
+          "code": "210271",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "厨房容器",
+          "code": "210272",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "长颈瓶*",
+          "code": "210289",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "油和醋用调味套瓶",
+          "code": "210292",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纸或塑料杯",
+          "code": "210318",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "饭盒",
+          "code": "210325",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "一次性盘子",
+          "code": "210333",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蛋糕裱花嘴",
+          "code": "210394",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烹饪网袋",
+          "code": "210396",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "家用滴管",
+          "code": "210398",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蒸古斯古斯饭用锅（非电）",
+          "code": "210399",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非电塔吉锅",
+          "code": "210400",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蛋黄分离器",
+          "code": "210401",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食品用可重复使用硅胶盖",
+          "code": "210402",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "煮荷包蛋用盛器",
+          "code": "210405",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "手动意式面食制作机",
+          "code": "210408",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "家用一次性铝箔容器",
+          "code": "210410",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "剥蒜筒",
+          "code": "210411",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "盛汤盖碗",
+          "code": "210214",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烘焙用纸杯模",
+          "code": "210419",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烘焙用硅胶杯模",
+          "code": "210420",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烘焙盘",
+          "code": "210428",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非电动绞肉器",
+          "code": "210429",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非纸制、非纺织品制啤酒杯垫",
+          "code": "210431",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烤馅饼用排气笛",
+          "code": "210434",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烧烤夹",
+          "code": "210435",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "分菜叉",
+          "code": "210436",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "分菜勺",
+          "code": "210437",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "分菜匙",
+          "code": "210437",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烧烤叉",
+          "code": "210438",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "汤碗",
+          "code": "210421",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烹饪用袋",
+          "code": "210443",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "制冷冻甜点用棒",
+          "code": "210444",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "杯套",
+          "code": "210446",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "柠檬皮刨屑刀",
+          "code": "210449",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "餐具晾干架",
+          "code": "210455",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "酱油壶",
+          "code": "210483",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电磁炉保护垫",
+          "code": "210484",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "日用搪瓷塑料器皿（包括盆、碗、盘、壶、杯）",
+          "code": "C210015",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "磁疗杯",
+          "code": "C210016",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "缸",
+          "code": "C210061",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "家用面包篮",
+          "code": "210017",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "开塞钻（电动或非电动）",
+          "code": "210043",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "开瓶器（电动或非电动）",
+          "code": "210048",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烹饪用金属扦",
+          "code": "210049",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "菜单卡片夹",
+          "code": "210064",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "炖锅",
+          "code": "210065",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "大锅",
+          "code": "210070",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "模子（厨房器具）",
+          "code": "210079",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鸡尾酒调酒器",
+          "code": "210082",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非电熬胶锅",
+          "code": "210084",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "家用沥水器",
+          "code": "210088",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "桌用刀托",
+          "code": "210090",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "壶盖塞",
+          "code": "210091",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "锅盖",
+          "code": "210092",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "家用非电动搅拌机",
+          "code": "210096",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非电烹饪锅",
+          "code": "210101",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "家用勺形铲",
+          "code": "210102",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烹饪用模具",
+          "code": "210103",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "煮奶防溢片",
+          "code": "210107",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "厨房用切菜板",
+          "code": "210108",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "漏斗",
+          "code": "210121",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "家用非电动打蛋器",
+          "code": "210134",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非电煎锅",
+          "code": "210136",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "家用非电动榨水果器",
+          "code": "210138",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蛋糕模子",
+          "code": "210142",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烤盘（烹饪用具）",
+          "code": "210145",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烤架（烹饪用具）",
+          "code": "210145",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烤架支架",
+          "code": "210146",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "涂油匙（厨房用具）",
+          "code": "210156",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "厨房用非电动碾磨器",
+          "code": "210158",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "家用手动研磨机",
+          "code": "210162",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "切面包板",
+          "code": "210169",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "装备齐全的野餐篮（包括盘、碟）",
+          "code": "210170",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "擀面杖（家用）",
+          "code": "210175",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "馅饼用铲",
+          "code": "210177",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "手动胡椒研磨器",
+          "code": "210184",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "厨房用擦菜板",
+          "code": "210197",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "餐巾环",
+          "code": "210200",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "餐巾架",
+          "code": "210210",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "分隔层饰盘",
+          "code": "210219",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烹饪用非电高压锅",
+          "code": "210236",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非电加压炊具",
+          "code": "210236",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非电动搅拌器",
+          "code": "210238",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "奶瓶用非电加热器",
+          "code": "210239",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非电烧水壶",
+          "code": "210246",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非纸制、非纺织品制杯垫",
+          "code": "210258",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非电油炸锅",
+          "code": "210260",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "家用篮",
+          "code": "210266",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "矮脚金属架（餐具）",
+          "code": "210270",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "厨房用具",
+          "code": "210273",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非电气炊具",
+          "code": "210274",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烘蛋奶饼的非电铁模",
+          "code": "210309",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "面包箱",
+          "code": "210310",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "筷子",
+          "code": "210311",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鸡尾酒搅拌棒",
+          "code": "210314",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "糕点裱花用袋",
+          "code": "210315",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "裱花袋",
+          "code": "210315",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "饼干模具",
+          "code": "210316",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "饼干筒",
+          "code": "210317",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非电火锅",
+          "code": "210322",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "餐桌用旋转盘",
+          "code": "210324",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "搅拌匙（厨房用具）",
+          "code": "210326",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "面条机（手动）",
+          "code": "210327",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "切糕点器",
+          "code": "210328",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "厨房用刮板",
+          "code": "210330",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蒜压榨器（厨房用具）",
+          "code": "210332",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烘焙垫",
+          "code": "210346",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "接油盘",
+          "code": "210350",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非电蒸锅",
+          "code": "210353",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "厨房用非电动轧碎机",
+          "code": "210355",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "隔热垫",
+          "code": "210356",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "涂油管",
+          "code": "210359",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非电墨西哥薄饼压饼器（厨房器具）",
+          "code": "210363",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "家用非电鸡蛋分离器",
+          "code": "210366",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非纸制、非纺织品制杯盘垫",
+          "code": "210371",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非纸制、非纺织品制餐具垫",
+          "code": "210372",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "冰块夹",
+          "code": "210381",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "色拉夹",
+          "code": "210382",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "上菜勺",
+          "code": "210383",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "厨房用杵",
+          "code": "210384",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "厨房用研钵",
+          "code": "210385",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "冰淇淋挖勺",
+          "code": "210386",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "坚果钳",
+          "code": "210387",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "方糖钳",
+          "code": "210388",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "盛葡萄酒用长柄勺",
+          "code": "210390",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "果酱匙",
+          "code": "210467",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "均热盘（烹饪用具）",
+          "code": "210468",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蛋糕托架",
+          "code": "210469",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蜂蜜搅拌棒",
+          "code": "210475",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "意式面食制作板",
+          "code": "210480",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铁锅",
+          "code": "C210001",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铁壶",
+          "code": "C210002",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "炒勺",
+          "code": "C210003",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铁桶",
+          "code": "C210004",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蒸屉",
+          "code": "C210005",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "笼屉",
+          "code": "C210006",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "笊篱",
+          "code": "C210007",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铁镬",
+          "code": "C210009",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "箩斗",
+          "code": "C210010",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纱罩",
+          "code": "C210011",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "箩底",
+          "code": "C210012",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "煤气火锅",
+          "code": "C210013",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铁丝筛子",
+          "code": "C210014",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "冰棍棒",
+          "code": "C210017",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "焙烤盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蛋糕模",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蛋糕用圆顶盖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "刀架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非电动打蛋器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "搅拌用杯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "芥末罐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "开瓶器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "开胃菜用盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烤馅饼用托盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可重复使用的不锈钢水瓶（出售时为空的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可重复使用的塑料水瓶（出售时为空的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "筷子盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "露营用烤架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烹饪用平底锅（非电）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "葡萄酒开瓶器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "浅碗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "切菜板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "色拉脱水器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水果碗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "小壶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "压薯器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "饮料杯用隔热杯托",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸板杯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "比萨铲",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "餐桌用洗指碗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "醋瓶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冰块铲勺（酒吧器具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "餐具用沥水架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铲勺（家用或厨房用具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "饭铲",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烹饪锅（非电）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烹饪用筛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "寿司手工制作器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陶罐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非电烹饪蒸锅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用饺子模具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用金属篮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用奶酪刨丝器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "饮料搅拌棒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "分蛋器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "勺形铲（餐具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "出售时为空的摇杯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "吸管杯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "奶壶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "微波炉用米饭煲",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "微波炉用烹饪锅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "塑料杯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "调味品架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "咖啡铲勺",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烤箱用器皿",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可堆肥的托盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可降解的杯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可降解的盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可降解的碗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可生物降解的杯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可生物降解的托盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可生物降解的碗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非电烤盘（烹饪用具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烤比萨用石板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "刮锅器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "杯形蛋糕模具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "杯形蛋糕烘焙杯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可生物降解的盘子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "一次性纸板制烤盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "婴儿喝水训练杯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食物用滴油管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用非电碎蛋器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "分成九格的漆器餐盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "上菜用的碗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "塑料杯盘垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非电牛奶起泡器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用非电食品搅拌机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "柑橘压汁器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "筷枕",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汤匙托",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "碗碟晾干架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制罐头用非电压力锅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烤面包片架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "搅拌用碗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "漏勺",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烤肉扦",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "便当盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "三明治盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "擦菜板（家庭用具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "甜点盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "擀面杖（烹饪用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烹饪擦菜板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "塑料餐具垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "开塞钻",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "油和醋用调味瓶架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "玻璃制水果碗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "煎锅（非电动）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "户外使用的便携式烹饪套具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蛋糕烤模",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "煮饭锅（非电动）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "比萨托盘支架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日式食案",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "树形挂杯架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水瓶（空）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "碗碟托架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "午餐盒（煮饭用餐具盒）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用非电食品搅拌器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "旋转式奶酪擦丝器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日式叠层食盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "餐用托盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "厨房用砧板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "厨房用漏斗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属制饭盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "塑料制饭盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "厨房用涂油脂匙",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "碟子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蛋糕铲",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蛋糕盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烹饪漏斗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烹饪用过滤器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "小烤盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "调味瓶架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手动盐研磨器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日式饭碗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸杯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用容器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鸣笛水壶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蒸笼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "布丁模具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "一次性筷子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "糕点架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手动饼干挤压器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "棒棒糖蛋糕用棒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冷冻甜点用棒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "棒棒糖用棒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "腌渍汁注射器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "肉夹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鸡尾酒用插水果签针",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "奶酪板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "吸盘碗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "肉豆蔻刨",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "松饼模",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烘焙用纸杯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "罩奶酪用圆顶罩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "玉米扦",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "杯盖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非电炒锅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "煎蛋模具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非贵金属碟",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非贵金属盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "石锅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手动压面条机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "寿司帘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用过滤器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属制糖碗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烧烤铲",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属碗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属糖盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属制调味瓶架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属制分隔层饰盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属制日式饭碗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非贵金属制日式饭碗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "厨房用瓮（非贵金属制）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非贵金属制调味瓶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属制盐瓶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非贵金属制糖果盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非贵金属制杯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属制家用容器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水壶（非贵金属制）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属制餐巾架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非贵金属制餐巾架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属制餐巾环",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非贵金属制餐巾环",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属制调味瓶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手摇爆米花锅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属制蛋杯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "微波炉制爆米花用容器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硅胶餐盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "儿童学习筷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用盛爆米花罐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "压蒜器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非电动制冰沙机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烘焙制品冷却架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "塑料制果汁盒托架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用制巧克力模具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸制烹饪锅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "不锈钢砧板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "锅盖架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "玉米叉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "乙烯基塑料制餐具垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "便携式饮料容器托架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "面包篮（家用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "桌用刀架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烹调用模",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非电高压锅（加压炊具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非电力油炸锅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可重复使用的不锈钢水壶（空的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可重复使用的塑料水壶（空的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可生物降解的盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蜗牛碟",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非电烹饪器皿",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陶瓷碗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "玻璃制的杯垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "面包盒（厨房用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非电热水壶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "剁肉板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "刮板（厨房用具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "开酒器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烤饼锅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "盘子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烹饪用细筛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "馅饼盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "煮鱼锅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非电高压锅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可折叠非电烧水壶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用手动面糊分配器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "葡萄酒用长柄勺",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非电动打蛋机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非电动碎冰机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "搅拌匙",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烤盆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牛奶壶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蛋糕烤盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "油壶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水果杯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "胡桃钳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "船形调味碟",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "分意面用叉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水果捣汁棒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "售时为空的瓶子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烘焙小蛋糕用硅胶衬垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硅胶制烘焙杯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "糖浆罐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用竹篮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手动食盐粉碎器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "咖啡豆用真空容器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "塑料瓶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "筷子架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "上菜托盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "一次性纸制烹饪锅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非电华夫饼平底锅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非电动蔬菜捣碎器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用手动面粉筛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烹饪锅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非电烤盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陶瓷平底锅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "糕点裱花用袋（裱花袋）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "挤柠檬汁器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "调味品撒料瓶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "上菜盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "上菜用大浅盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "糕点模具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "分菜夹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "上菜用餐板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非电动长柄平底煎锅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "塑料杯盖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "细颈瓶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烹饪网袋（非微波炉用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "开瓶器（电或非电）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "开塞钻（电或非电）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "切菜板架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "厨房用储米容器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "意面夹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "沥水盆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非电炒菜锅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非电炖锅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非电煎蛋锅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非电薄烤饼煎锅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "野营用便携式非电锅具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非电黄油锅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非电平底奶锅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "成套杯、碗、碟",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非电加热的火锅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "塑料水瓶（售时为空）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "塑料瓶（售时为空）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可重复使用的塑料瓶（售时为空）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸制盘子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "售时为空的PET饮料瓶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "长面包用烤盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非电平底锅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "面包烤模",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蔬菜夹",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:47.642Z"
+}

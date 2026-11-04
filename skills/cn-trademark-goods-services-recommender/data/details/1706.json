@@ -1,0 +1,323 @@
+{
+  "groupCode": "1706",
+  "groupName": "绝缘用材料及其制品",
+  "classCode": "17",
+  "notes": [
+    "注: 跨类似群保护商品:绝缘、隔热、隔音用材料(1705 第(一)部分,1706),绝缘、隔热、隔音用毡(1705 第(一)部分,1706),绝缘、隔热、隔音用织物(1705 第(一)部分,1706),绝缘、隔热、隔音用金属箔(1705 第(一)部分,1706),绝缘、隔热、隔音用矿渣棉(1705 第(一)部分,1706),绝缘、隔热、隔音用矿棉(1705 第(一)部分,1706),绝缘、隔热、隔音用玻璃棉(1705 第(一)部分,1706),绝缘、隔热、隔音用物体(1705 第(一)部分,1706),绝缘、隔热、隔音用玻璃纤维(1705 第(一)部分,1706),绝缘、隔热、隔音用玻璃纤维织物(1705 第(一)部分,1706),绝缘、隔热、隔音用石膏(1705 第(一)部分,1706),绝缘、隔热、隔音用聚酯短纤维(1705第(一)部分,1706)。。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "绝缘、隔热、隔音用材料",
+          "code": "170023",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电容器纸",
+          "code": "170029",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电介质（绝缘体）",
+          "code": "170034",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "绝缘、隔热、隔音用毡",
+          "code": "170045",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "变压器用绝缘油",
+          "code": "170051",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "绝缘油",
+          "code": "170052",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "绝缘纸",
+          "code": "170055",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "绝缘、隔热、隔音用织物",
+          "code": "170056",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "绝缘清漆",
+          "code": "170057",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "绝缘、隔热、隔音用金属箔",
+          "code": "170059",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "绝缘漆",
+          "code": "170060",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "绝缘、隔热、隔音用矿渣棉",
+          "code": "170061",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "绝缘、隔热、隔音用矿棉",
+          "code": "170062",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "绝缘、隔热、隔音用玻璃棉",
+          "code": "170063",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "未加工或部分加工云母",
+          "code": "170070",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铁路轨道用绝缘体",
+          "code": "170084",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电缆绝缘体",
+          "code": "170094",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电网用绝缘体",
+          "code": "170098",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "绝缘、隔热、隔音用物体",
+          "code": "170099",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "绝缘、隔热、隔音用玻璃纤维",
+          "code": "170103",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "绝缘、隔热、隔音用玻璃纤维织物",
+          "code": "170104",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "绝缘胶带",
+          "code": "170107",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "绝缘、隔热、隔音用石膏",
+          "code": "170110",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "绝缘油墨",
+          "code": "170126",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "绝缘膜",
+          "code": "170133",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电磁干扰屏蔽膜",
+          "code": "170134",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电磁波吸波纸",
+          "code": "170137",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "绝缘、隔热、隔音用聚酯短纤维",
+          "code": "170140",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "绝缘电瓷",
+          "code": "C170021",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "绝缘涂料",
+          "code": "C170022",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "电绝缘材料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电绝缘胶布",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电绝缘体",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电绝缘云母制品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电绝缘漆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电陶瓷绝缘体",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电绝缘橡胶制品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "空调用绝缘材料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电气绝缘用塑料薄膜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "绝缘板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "绝缘织物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "绝缘毡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "绝缘灰浆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "绝缘用玻璃纤维织物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "绝缘用玻璃纤维",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "绝缘体",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铁路轨道绝缘物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "绝缘用玻璃棉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "矿棉（绝缘体）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "矿渣棉（绝缘体）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "绝缘用金属箔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "绝缘材料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电绝缘胶带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "服装、鞋和睡袋用绝缘材料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "绝缘胶布",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:25.132Z"
+}

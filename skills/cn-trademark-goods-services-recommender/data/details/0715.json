@@ -1,0 +1,55 @@
+{
+  "groupCode": "0715",
+  "groupName": "陶瓷、砖、瓦制造机械",
+  "classCode": "07",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "陶匠用旋轮",
+          "code": "070420",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "陶瓷工业用机器设备（包括建筑用陶瓷机械）",
+          "code": "C070138",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "制砖机",
+          "code": "C070371",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "制瓦机",
+          "code": "C070372",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "陶匠用电动旋轮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于处理陶瓷和金属的铣床",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "处理陶瓷和金属的研磨机",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:57.548Z"
+}

@@ -1,0 +1,202 @@
+{
+  "groupCode": "4217",
+  "groupName": "建筑物的设计、咨询服务",
+  "classCode": "42",
+  "notes": [
+    "注：建筑制图与4209工程绘图类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "建筑学服务*",
+          "code": "420011",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "建筑学咨询",
+          "code": "420036",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "建筑制图",
+          "code": "420038",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "室内装饰设计",
+          "code": "420048",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "室内设计",
+          "code": "420237",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "建筑领域的研究",
+          "code": "420254",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "演出用布景设计",
+          "code": "420265",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "高尔夫球场设计",
+          "code": "420288",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "建设项目的开发",
+          "code": "C420013",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "土木工程制图",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "娱乐场所建筑规划设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "展览场馆设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "厨房规划和设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "零售经营场地的规划和设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "景观照明设计服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑学咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商店室内设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "舞台灯光设计服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无尘室环境的布局设计服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过网站提供室内设计信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑学研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "柱网布置（建筑设计）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过网站提供建筑设计领域的信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "室内设计领域的技术咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "办公室的布局设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "景观照明设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "结构工程设计服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "公路网设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "交通运输领域的建筑设计服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑设计服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "环保建筑设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "住宅设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑物设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "田径跑道的设计",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:50.013Z"
+}

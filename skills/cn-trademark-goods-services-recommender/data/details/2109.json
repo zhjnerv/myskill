@@ -1,0 +1,66 @@
+{
+  "groupCode": "2109",
+  "groupName": "牙签",
+  "classCode": "21",
+  "notes": [
+    "注：本类似群与第八版及以前版本 1402 贵重金属牙签盒交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "牙签",
+          "code": "210105",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "牙签盒",
+          "code": "210275",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "牙线",
+          "code": "210320",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "电池驱动的牙线棒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属制牙签盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙线棒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "带有味道的牙签",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宽扁型牙线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙线器",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:52.321Z"
+}

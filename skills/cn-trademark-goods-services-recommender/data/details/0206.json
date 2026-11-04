@@ -1,0 +1,119 @@
+{
+  "groupCode": "0206",
+  "groupName": "防锈剂，木材防腐剂",
+  "classCode": "02",
+  "notes": [
+    "防锈油脂，防锈油，金属防锈制剂，金属用保护制剂，防锈制剂与第九版及以前版本0104第（十九）部分防水锈剂交叉检索"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "防腐蚀剂",
+          "code": "020010",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "防腐蚀带",
+          "code": "020021",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "木材防腐剂",
+          "code": "020049",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "木材防腐用杂酚油",
+          "code": "020056",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "防锈油脂",
+          "code": "020079",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "木材防腐油",
+          "code": "020082",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "防锈油",
+          "code": "020083",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属防锈制剂",
+          "code": "020093",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属用保护制剂",
+          "code": "020094",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "防锈制剂",
+          "code": "020107",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "木头防腐用羰基化合物",
+          "code": "020113",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "木材防腐用桐油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防腐蚀纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防腐蚀油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防腐用木材处理剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防锈制剂（储藏用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防锈剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "栅栏用木材防腐剂",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:17.768Z"
+}

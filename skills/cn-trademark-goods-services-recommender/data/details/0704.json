@@ -1,0 +1,187 @@
+{
+  "groupCode": "0704",
+  "groupName": "造纸及加工纸制品工业用机械及器具",
+  "classCode": "07",
+  "notes": [
+    "注：1.本类似群各部分之间商品不类似；",
+    "2.跨类似群保护商品：砑光辊（0704第（一）部分，0706，0712）；砑光机（0704第（一）部分，0706，0712）；轧光机（0704第（一）部分，0706）；",
+    "3.本类似群第（一）部分与第九版及以前版本的0712砑光机交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "（一）",
+      "items": [
+        {
+          "name": "砑光辊",
+          "code": "070240",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "造纸机",
+          "code": "070291",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "砑光机",
+          "code": "070292",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "洗浆机",
+          "code": "C070019",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "卷浆机（造纸工业用）",
+          "code": "C070020",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "造纸用打浆机",
+          "code": "C070021",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "脱水机（造纸工业用）",
+          "code": "C070022",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "筛浆机",
+          "code": "C070023",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "轧光机",
+          "code": "C070024",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "卷筒机（造纸工业用）",
+          "code": "C070025",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "平网抄纸机",
+          "code": "C070026",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "纸板机",
+          "code": "C070027",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "圆筛（造纸机械部件）",
+          "code": "C070028",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "纸浆泵",
+          "code": "C070029",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "蒸煮锅（造纸机械部件）",
+          "code": "C070445",
+          "type": "marked",
+          "section": "（一）"
+        }
+      ]
+    },
+    {
+      "label": "（二）",
+      "items": [
+        {
+          "name": "卫生巾生产设备",
+          "code": "C070367",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "纸尿裤生产设备",
+          "code": "C070368",
+          "type": "standard",
+          "section": "（二）"
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "制瓦楞纸板机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸张轧光机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制纸浆机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制纸袋机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "造纸箱机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸张涂布机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸袋制造机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "打木浆机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸浆加工机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "瓦楞纸板制造机器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸涂布机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木浆加工机",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:51.034Z"
+}

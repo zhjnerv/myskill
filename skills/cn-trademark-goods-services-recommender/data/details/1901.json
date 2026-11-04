@@ -1,0 +1,360 @@
+{
+  "groupCode": "1901",
+  "groupName": "木材",
+  "classCode": "19",
+  "notes": [
+    "注：拼花地板条，木地板条，木地板与1909拼花地板，非金属地板类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "木衬条",
+          "code": "190015",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "半成品木材",
+          "code": "190026",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "木材",
+          "code": "190027",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "建筑用木材",
+          "code": "190027",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "胶合板",
+          "code": "190028",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "成品木材",
+          "code": "190029",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "制家用器具用木材",
+          "code": "190030",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "已切锯木材",
+          "code": "190031",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铺地木材",
+          "code": "190032",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "贴面板",
+          "code": "190033",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "木制饰面薄板",
+          "code": "190033",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "胶合木板",
+          "code": "190034",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "木板条",
+          "code": "190035",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "拼花地板条",
+          "code": "190106",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "建筑用压缩软木",
+          "code": "190111",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "狭木板",
+          "code": "190125",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "制桶用木板",
+          "code": "190125",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "可塑木料",
+          "code": "190127",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "建筑用厚木板",
+          "code": "190149",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "小块木料（木工用）",
+          "code": "190185",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "木屑板",
+          "code": "190186",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "建筑用木浆板",
+          "code": "190201",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "木地板条",
+          "code": "190248",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纤维板",
+          "code": "C190001",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "树脂复合板",
+          "code": "C190002",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "镁铝曲板",
+          "code": "C190003",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "木地板",
+          "code": "C190035",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "半加工木材",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "饰面用胶合板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木材切削坯料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "对分木材",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "多层胶合木料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "护壁板顶木条",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木制运动用地板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "矿井用木材",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "多层木",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木护墙板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木制饰面板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "成型木材",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防腐木材",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木制拼花地板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "耐火木材",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木制地板砖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人造木材",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "拼花木地板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木块",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木椽",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑木材",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "厚木板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硬木地板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "竹地板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "软木拼花地板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木材加工坯料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "原木（建筑材料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "粗锯木材",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "劈好的木材",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "三合板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "软木（压缩）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制模用木材",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "厚木板（建筑用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "镶木地板条",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "胶合层压板",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:30.175Z"
+}

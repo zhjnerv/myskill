@@ -1,0 +1,516 @@
+{
+  "groupCode": "0613",
+  "groupName": "金属容器",
+  "classCode": "06",
+  "notes": [
+    "注：1.冷铸模（铸造）与 0736 铸模（机器部件） ，压铸模，0735 冷冲模类似，与第九版及以前版本0736 冷冲模交叉检索。",
+    "2.本类似群与第九版及以前版本 0603 金属信箱交叉检索；",
+    "3.本类似群商品与第十版及以前版本0609金属密封盖，金属瓶盖，金属瓶帽，瓶用金属密封盖，金属瓶塞，瓶用金属紧固塞交叉检索。",
+    "4.本类似群与第十一版及以前版本0608金属制固定式毛巾分配器交叉检索；",
+    "5.金属制纸巾分配盒，金属制卫生纸分配器与第十一版及以前版本2106纸巾盒，卫生纸分配器交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "压缩气体或液态空气用金属瓶（容器）",
+          "code": "060050",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "锡罐",
+          "code": "060093",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "存储和运输用金属容器",
+          "code": "060094",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "冷铸模（铸造）",
+          "code": "060096",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "压缩气体或液态空气用金属容器",
+          "code": "060112",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "马口铁制包装物",
+          "code": "060119",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属信箱",
+          "code": "060120",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属制冰块模",
+          "code": "060150",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属筐",
+          "code": "060199",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属包装容器",
+          "code": "060231",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "搅拌灰浆用金属槽",
+          "code": "060279",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属琵琶桶",
+          "code": "060287",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属桶箍",
+          "code": "060288",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属桶",
+          "code": "060289",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "普通金属盒",
+          "code": "060295",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "桶用金属塞",
+          "code": "060296",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属密封盖",
+          "code": "060297",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属瓶盖",
+          "code": "060299",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属瓶塞",
+          "code": "060300",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "瓶用金属紧固塞",
+          "code": "060300",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "液态燃料用金属容器",
+          "code": "060338",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属浮动容器",
+          "code": "060340",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属大桶",
+          "code": "060354",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属制毛巾分配器",
+          "code": "060358",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属铸模",
+          "code": "060384",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属桶架",
+          "code": "060391",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "容器用金属盖",
+          "code": "060395",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属箱",
+          "code": "060398",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "桶用金属龙头",
+          "code": "060402",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属卸料斗（非机械）",
+          "code": "060418",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属工具盒（空）",
+          "code": "060423",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属工具箱（空）",
+          "code": "060424",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "瓶用金属螺旋盖",
+          "code": "060442",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属制五加仑装汽油罐",
+          "code": "060466",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "泄油用金属容器",
+          "code": "060479",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "用于搬运金属压缩气瓶的专用罩",
+          "code": "060491",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属制排队号码纸分配器",
+          "code": "060496",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属制纸巾分配盒",
+          "code": "060497",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属制卫生纸分配器",
+          "code": "060498",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "超市购物用金属手提篮",
+          "code": "060503",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属制皂液分配器",
+          "code": "060506",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "存储和运输用金属板条箱",
+          "code": "060507",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "集装箱",
+          "code": "C060030",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "啤酒罐",
+          "code": "C060032",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "瓶用金属塞",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "瓶用金属密封盖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属制饮料罐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用金属制水箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钢罐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属工具箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属罐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "液化气用金属容器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运输用金属容器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "压缩气体用金属容器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属制工业包装容器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属饮料罐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属邮箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钢盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属制工业用贮水箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属液化气罐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业包装容器的金属塞",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属盖瓶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钢桶（空的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "液体肥料用金属容器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用金属水箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "气体或液化气体存储罐用铝制内浮盖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属贮存容器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钢丝筐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化学品、压缩气体和液体用金属容器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "保护植物用金属钟形网罩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属瓶帽",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "桶用金属活嘴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "尿素制造用金属压力容器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "压缩气体或液态空气瓶（金属容器）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属储藏盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "储存和运输货物用金属容器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "啤酒桶用金属龙头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "压缩气体或液体用金属圆筒（售时为空）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陶瓷材料成型用金属模具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属制通用储存箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属制通用储存容器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于压缩气体的金属容器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "储酸金属容器060065",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "（储液或储气用）金属容器060232",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属制工业用储水箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属储存容器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贮酸金属容器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属制固定式毛巾分配器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "（贮液或贮气用）金属容器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属制包装筒",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:41.725Z"
+}

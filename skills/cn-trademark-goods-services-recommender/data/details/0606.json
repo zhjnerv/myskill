@@ -1,0 +1,65 @@
+{
+  "groupCode": "0606",
+  "groupName": "缆绳用非电气金属附件",
+  "classCode": "06",
+  "notes": [
+    "注：跨类似群保护商品：缆绳和管道用金属夹（0602，0606）。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "非电气缆绳用金属接头",
+          "code": "060059",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "缆绳和管道用金属夹",
+          "code": "060313",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "缆绳用金属接线螺钉",
+          "code": "060314",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铁接板",
+          "code": "C060021",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "马蹄形钩环（脚扣、铁鞋）",
+          "code": "C060022",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "紧线夹头",
+          "code": "C060023",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "铝合金滑车",
+          "code": "C060024",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "金属缆绳夹",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:37.569Z"
+}

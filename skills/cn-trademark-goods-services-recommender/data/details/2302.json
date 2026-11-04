@@ -1,0 +1,239 @@
+{
+  "groupCode": "2302",
+  "groupName": "线",
+  "classCode": "23",
+  "notes": [
+    "注：1.棉线棉纱（2301，2302），绣花用线和纱（2301，2302），麻线和纱（2301，2302），椰纤维线和纱（2301，2302），丝线和纱（2301，2302），缝纫线和纱（2301，2302），细线和细纱（2301，2302），黄麻线和纱（2301，2302），亚麻线和纱（2301，2302），人造线和纱（2301，2302），纺织线和纱（2301，2302），纺织用弹性线和纱（2301，2302）；",
+    "2.本类似群与第九版及以前版本 2601 绣花用金属线，刺绣用金属线交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "线*",
+          "code": "230001",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "棉线和棉纱",
+          "code": "230002",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "绣花用线和纱",
+          "code": "230003",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "麻线和纱",
+          "code": "230005",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "椰纤维线和纱",
+          "code": "230006",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "丝线和纱",
+          "code": "230007",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "缝纫线和纱",
+          "code": "230009",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "细线和细纱",
+          "code": "230010",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "黄麻线和纱",
+          "code": "230011",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "亚麻线和纱",
+          "code": "230013",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "人造线和纱",
+          "code": "230014",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纺织线和纱",
+          "code": "230015",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纺织用玻璃纤维线",
+          "code": "230017",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纺织用橡皮线",
+          "code": "230018",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纺织用弹性线和纱",
+          "code": "230019",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纺织用塑料线",
+          "code": "230020",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "刺绣用金属线",
+          "code": "230032",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "宝塔线",
+          "code": "C230008",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "蜡线",
+          "code": "C230009",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "尼龙线",
+          "code": "C230010",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "纺织用镀金线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "帆用风标线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "棉纱线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "棉线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "亚麻线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "绣花线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "细线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺织用弹性线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺织用玻璃线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺织线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "以丝为主的混纺线和纱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "织补用棉线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "以棉为主的线和纱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加捻线和纱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加捻丝线和纱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加捻混纺线和纱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加捻麻线和纱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺织用银线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加捻棉线和纱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺织用金属纤维线",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:59.919Z"
+}

@@ -1,0 +1,647 @@
+{
+  "groupCode": "3108",
+  "groupName": "动物饲料",
+  "classCode": "31",
+  "notes": [
+    "除香精油外的饮料用调味品与第十一版及以前版本3203饮料香精交叉检索"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "动物食品",
+          "code": "310007",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "牲畜用盐",
+          "code": "310014",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "糠",
+          "code": "310016",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "油渣饼",
+          "code": "310026",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "饲料饼",
+          "code": "310026",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "动物饲料用氧化钙",
+          "code": "310028",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "狗食用饼干",
+          "code": "310031",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鸟食",
+          "code": "310035",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "牲畜用菜籽饼",
+          "code": "310036",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "动物食用糠料",
+          "code": "310039",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "动物食用酿酒废料",
+          "code": "310048",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "渣滓（饲料）",
+          "code": "310049",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "饲养备料",
+          "code": "310050",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "动物催肥剂",
+          "code": "310052",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "家畜催肥剂",
+          "code": "310052",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "米粉饲料",
+          "code": "310053",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "牲畜强壮饲料",
+          "code": "310059",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "牲畜饲料",
+          "code": "310060",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "饲料",
+          "code": "310060",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "动物食用谷类",
+          "code": "310067",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "家禽食用去壳谷物",
+          "code": "310069",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "动物食用酵母",
+          "code": "310077",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "亚麻粉（饲料）",
+          "code": "310079",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "牲畜食用玉米饼",
+          "code": "310083",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "果渣",
+          "code": "310086",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "水果渣",
+          "code": "310086",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "动物食用谷粉",
+          "code": "310088",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鸟用乌贼骨",
+          "code": "310097",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "稻草（饲料）",
+          "code": "310099",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "家畜催肥熟饲料",
+          "code": "310102",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "下蛋家禽用备料",
+          "code": "310111",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "动物饲料",
+          "code": "310112",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蒸馏器蒸馏后余渣",
+          "code": "310122",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "动物食用豆科类种子和豆荚",
+          "code": "310124",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "动物食用花生粗粉",
+          "code": "310127",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "动物食用花生饼",
+          "code": "310128",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "动物食用谷类加工副产品",
+          "code": "310129",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "动物食用谷类残余产品",
+          "code": "310129",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "甘蔗渣（原料）",
+          "code": "310131",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鱼饵（活的）",
+          "code": "310132",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "宠物食品",
+          "code": "310138",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "动物可食用咀嚼物",
+          "code": "310141",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "宠物饮料",
+          "code": "310142",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "动物食用鱼粉",
+          "code": "310143",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "动物食用亚麻籽",
+          "code": "310150",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "动物食用亚麻籽粉",
+          "code": "310151",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "动物食用小麦胚芽",
+          "code": "310152",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "动物食用植物根",
+          "code": "310114",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "冻干鱼饵",
+          "code": "310169",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "观赏鱼用鱼食",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "喂鸟的谷粒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "啮齿动物食品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可消化的狗用咀嚼骨头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "动物饲料用酵母",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家畜饲料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "混合动物饲料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "动物饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金鱼用鱼食",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "仓鼠饲料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "动物食用菜籽粕",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "动物用牛奶替代品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可食用的狗零食",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "诱饵（活的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鱼用食品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "狗饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工的甘蔗渣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含有植物萃取物的动物食品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "动物食用加工过的种子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马用食品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "农庄动物用食品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "小狗用食品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "海洋动物用食品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "羊用食品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "小牛用食品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "小鸡用食品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鸟用食品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "狗用罐头食品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "猫用罐头食品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "动物饲料用天然大米",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "合成饲料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "以奶为基础的动物食品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "狗食用咀嚼物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "配方饲料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马饲料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家畜用食品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "狗用食品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "猫粮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "活鱼饵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "活钓饵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "狗粮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "动物咀嚼用食物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "动物食用海藻粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宠物零食",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家畜用矿物盐舔砖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宠物猫食用的木天蓼粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宠物兔粮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "观赏鱼用饲料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金鱼饲料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "豆粉（饲料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可食用的非活鱼饵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鱼粉（动物饲料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "豆饼（饲料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "狗用可消化咀嚼骨头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鸟饲料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "米糠（动物饲料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "淀粉浆（动物饲料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鱼食",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宠物用奶粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "动物用奶粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宠物食用的鱼罐头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鹦鹉饲料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鸽子饲料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "动物食用豆粕",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冻干猫粮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冻干狗粮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "喷浆玉米皮（饲料）",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:54.384Z"
+}

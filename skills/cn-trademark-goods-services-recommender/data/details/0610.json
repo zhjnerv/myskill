@@ -1,0 +1,107 @@
+{
+  "groupCode": "0610",
+  "groupName": "非电子锁",
+  "classCode": "06",
+  "notes": [
+    "注:1.本类似群商品（金属钥匙除外）与 0920 第二自然段，2014 运载工具用非金属锁，非金属锁（非电），非金属挂锁（非电子）类似；",
+    "2. 金属钥匙与2003非金属钥匙类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "金属挂锁（非电子）",
+          "code": "060062",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属钥匙",
+          "code": "060083",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属锁（非电）",
+          "code": "060144",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "弹簧锁",
+          "code": "060153",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "锁簧",
+          "code": "060204",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具用金属锁",
+          "code": "060237",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "包用金属锁",
+          "code": "060379",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "汽车车轮锁",
+          "code": "060426",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "金属弹簧锁（非电）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属舌锁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自行车用金属锁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属钥匙坯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属锁簧",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "锁的金属钥匙",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "锁匠用金属撞匙",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属制滑雪板锁",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:39.901Z"
+}

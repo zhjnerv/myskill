@@ -1,0 +1,72 @@
+[
+  {
+    "groupCode": "2001",
+    "groupName": "家具",
+    "classCode": "20"
+  },
+  {
+    "groupCode": "2002",
+    "groupName": "非金属容器及附件",
+    "classCode": "20"
+  },
+  {
+    "groupCode": "2003",
+    "groupName": "不属别类的工业、建筑配件",
+    "classCode": "20"
+  },
+  {
+    "groupCode": "2004",
+    "groupName": "镜子、画框及部件",
+    "classCode": "20"
+  },
+  {
+    "groupCode": "2005",
+    "groupName": "不属别类的竹、藤、棕、草制品",
+    "classCode": "20"
+  },
+  {
+    "groupCode": "2006",
+    "groupName": "未加工或半加工的骨、角、牙、介及不属别类的工艺品",
+    "classCode": "20"
+  },
+  {
+    "groupCode": "2007",
+    "groupName": "非金属牌",
+    "classCode": "20"
+  },
+  {
+    "groupCode": "2008",
+    "groupName": "食品用塑料装饰品",
+    "classCode": "20"
+  },
+  {
+    "groupCode": "2009",
+    "groupName": "禽、畜等动物用制品",
+    "classCode": "20"
+  },
+  {
+    "groupCode": "2010",
+    "groupName": "非金属制身份鉴别手环",
+    "classCode": "20"
+  },
+  {
+    "groupCode": "2011",
+    "groupName": "非金属棺材及附件",
+    "classCode": "20"
+  },
+  {
+    "groupCode": "2012",
+    "groupName": "非金属家具附件",
+    "classCode": "20"
+  },
+  {
+    "groupCode": "2013",
+    "groupName": "垫，枕",
+    "classCode": "20"
+  },
+  {
+    "groupCode": "2014",
+    "groupName": "非金属紧固件及门窗附件",
+    "classCode": "20"
+  }
+]

@@ -1,0 +1,169 @@
+{
+  "groupCode": "0904",
+  "groupName": "衡器",
+  "classCode": "09",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "秤",
+          "code": "090074",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "衡器",
+          "code": "090080",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "地秤",
+          "code": "090081",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "信件磅秤",
+          "code": "090325",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "衡量器具",
+          "code": "090388",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "砝码",
+          "code": "090403",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "天平（杆秤）",
+          "code": "090433",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "杆秤",
+          "code": "090433",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "精密天平",
+          "code": "090489",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "婴儿秤",
+          "code": "090758",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "带身体质量分析仪的秤",
+          "code": "090761",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "体重秤",
+          "code": "090772",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "自动计量器",
+          "code": "C090013",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "家用体脂秤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子体重秤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "磅秤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "秤用砝码",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "语音秤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "便携式数字电子秤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "便携秤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "厨房用电子秤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冷媒秤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手提式电子秤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "测试砝码",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数字称量勺",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "行李箱用便携式数字秤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "厨房用电子称重秤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "浴室内用秤",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:31.086Z"
+}

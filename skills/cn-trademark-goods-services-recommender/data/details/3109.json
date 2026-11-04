@@ -1,0 +1,21 @@
+{
+  "groupCode": "3109",
+  "groupName": "麦芽",
+  "classCode": "31",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "酿酒麦芽",
+          "code": "310084",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [],
+  "crawledAt": "2026-06-09T18:59:54.949Z"
+}

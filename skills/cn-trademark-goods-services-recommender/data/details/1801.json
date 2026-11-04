@@ -1,0 +1,180 @@
+{
+  "groupCode": "1801",
+  "groupName": "皮革和人造皮革，裘皮",
+  "classCode": "18",
+  "notes": [
+    "注：本类似群商品与第九版及以前版本1803商品交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "动物皮",
+          "code": "180002",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金箔加工用肠膜",
+          "code": "180008",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "皮板",
+          "code": "180022",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鞣制过的皮",
+          "code": "180032",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "背皮（兽皮的一部分）",
+          "code": "180038",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "半加工或未加工皮革",
+          "code": "180039",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "仿皮革",
+          "code": "180042",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "家畜皮",
+          "code": "180088",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非清洁用麂皮",
+          "code": "180094",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "人造革",
+          "code": "180141",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纯素皮革",
+          "code": "180145",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "菌丝体制仿皮革",
+          "code": "180149",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "生毛皮",
+          "code": "180002",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "小山羊皮",
+          "code": "180027",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "软毛皮（仿皮制品）",
+          "code": "180063",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "裘皮",
+          "code": "180067",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "毛皮",
+          "code": "180067",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "人造毛皮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马具用皮革",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "兽皮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生皮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鞣制过的皮革",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家具用皮革",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "半加工毛皮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制鞋用皮革",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "聚氨酯皮革",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "仿裘皮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蛇皮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "成批出售的皮革",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:27.002Z"
+}

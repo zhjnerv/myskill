@@ -1,0 +1,111 @@
+{
+  "groupCode": "1804",
+  "groupName": "雨伞及其部件",
+  "classCode": "18",
+  "notes": [
+    "注：伞与 2202 第（五）部分庭院伞类似"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "伞环",
+          "code": "180003",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "手持雨伞或阳伞的伞骨",
+          "code": "180007",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "伞杆",
+          "code": "180014",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "手持雨伞或阳伞的骨架",
+          "code": "180018",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "伞*",
+          "code": "180043",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "伞套",
+          "code": "180051",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "手持女用阳伞",
+          "code": "180066",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "伞柄",
+          "code": "180068",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "雨伞骨架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "儿童雨伞",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高尔夫伞",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "雨伞袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日式油纸伞",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "伸缩伞",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "女用阳伞（太阳伞）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "遮阳伞",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "户外写生用伞",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:28.287Z"
+}

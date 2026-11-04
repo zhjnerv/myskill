@@ -1,0 +1,1261 @@
+{
+  "groupCode": "1802",
+  "groupName": "不属别类的皮革、人造皮革制品，箱子及旅行袋，日用革制品",
+  "classCode": "18",
+  "notes": [
+    "注：1.本类似群各部分之间商品不类似；",
+    "2.本类似群第一部分商品与第八版及以前版本1402贵重金属钱包，贵重金属链式网眼钱包交叉检索；",
+    "3.支票夹（皮夹），护照夹（皮夹）与1611支票簿夹，护照夹类似，与第十版及以前版本1611支票夹，第九版及以前版本1611支票本(支票簿)夹交叉检索；",
+    "4.皮制家具罩与2407家具罩(宽大的)，家具遮盖物，塑料家具罩，纺织品制家具罩类似；",
+    "5.皮褥子，皮床单，皮凉席与2406商品类似；",
+    "6.第（一）部分与第十版及以前版本 1611 已接受商品名片夹交叉检索；",
+    "7.第（一）部分与第十版及以前版本 1605 皮制行李标签交叉检索；",
+    "8.皮制标签，服装用皮革制缝制标签，包用皮革制黏性标签与第十版及以前版本1605非纺织品标签交叉检索；",
+    "9.第（三）部分与第十版及以前版本 2601 儿童牵引带交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "（一）",
+      "items": [
+        {
+          "name": "（女式）钱包",
+          "code": "180010",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "乐谱盒",
+          "code": "180013",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "猎物袋（打猎用具）",
+          "code": "180019",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "书包",
+          "code": "180020",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "卡片盒（皮夹子）",
+          "code": "180021",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "皮制帽盒",
+          "code": "180023",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "抱婴儿用吊袋",
+          "code": "180044",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "工具袋（空的）",
+          "code": "180047",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "弹簧用皮套",
+          "code": "180052",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "背包",
+          "code": "180058",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "包骨架（包的结构件）",
+          "code": "180065",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "钱包（钱夹）",
+          "code": "180069",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "带轮购物袋",
+          "code": "180070",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "可重复使用的购物袋",
+          "code": "180071",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "公文箱",
+          "code": "180073",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "爬山用手提袋",
+          "code": "180074",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "野营手提袋",
+          "code": "180075",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "海滨浴场用手提袋",
+          "code": "180076",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "手提包",
+          "code": "180077",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "旅行包",
+          "code": "180078",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "包装用皮袋（信封、小袋）",
+          "code": "180079",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "公文包",
+          "code": "180083",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "手提箱",
+          "code": "180085",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "手提箱提手",
+          "code": "180086",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "皮革或皮革板制盒",
+          "code": "180089",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "链式网眼钱包",
+          "code": "180090",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "皮革或皮革板制箱",
+          "code": "180091",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "行李箱",
+          "code": "180092",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非专用化妆包",
+          "code": "180093",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "硫化纤维盒",
+          "code": "180098",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "帆布背包",
+          "code": "180100",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "旅行用衣袋",
+          "code": "180111",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "钥匙包",
+          "code": "180113",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "购物网袋",
+          "code": "180114",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "手提旅行箱",
+          "code": "180115",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "运动包*",
+          "code": "180118",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "抱婴儿用吊带",
+          "code": "180122",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "婴儿背袋",
+          "code": "180123",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "包*",
+          "code": "180124",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "信用卡包",
+          "code": "180125",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "名片夹",
+          "code": "180126",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "护脊书包",
+          "code": "180127",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "行李牌",
+          "code": "180128",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "皮制标签",
+          "code": "180130",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "购物袋用拎袋器",
+          "code": "180131",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "犹太教经文护符匣",
+          "code": "180132",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "带轮手提箱",
+          "code": "180133",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "可骑行的电动行李箱",
+          "code": "180137",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "行李箱专用压缩收纳包",
+          "code": "180138",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "会议用文件包",
+          "code": "180139",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "携带婴儿用背包",
+          "code": "180142",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非专用洗漱包",
+          "code": "180143",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "手提箱用分装收纳袋",
+          "code": "180144",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "行李箱用收纳袋",
+          "code": "180144",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "服装用皮革制缝制标签",
+          "code": "180146",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "包用皮革制黏性标签",
+          "code": "180147",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "零钱包的骨架（零钱包的结构件）",
+          "code": "180150",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "智能手提箱",
+          "code": "180151",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "钱包链",
+          "code": "180152",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "人造革箱",
+          "code": "C180001",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "帆布箱",
+          "code": "C180002",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "支票夹（皮夹）",
+          "code": "C180008",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "护照夹（皮夹）",
+          "code": "C180009",
+          "type": "marked",
+          "section": "（一）"
+        }
+      ]
+    },
+    {
+      "label": "（二）",
+      "items": [
+        {
+          "name": "家具用皮装饰",
+          "code": "180041",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "家具用皮缘饰",
+          "code": "180041",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "皮制家具罩",
+          "code": "180116",
+          "type": "standard",
+          "section": "（二）"
+        }
+      ]
+    },
+    {
+      "label": "（三）",
+      "items": [
+        {
+          "name": "士兵装备用皮带",
+          "code": "180012",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "冰鞋系带",
+          "code": "180035",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "捆扎用皮带",
+          "code": "180036",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "皮制带子",
+          "code": "180036",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "皮绳",
+          "code": "180031",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "皮制下颏带",
+          "code": "180062",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "皮活门",
+          "code": "180087",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "皮肩带",
+          "code": "180096",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "儿童牵引带",
+          "code": "180136",
+          "type": "standard",
+          "section": "（三）"
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "携带套服、衬衫和礼服用袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "腕带式钱包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手提包式公文包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "上学用背包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮革制旅行用衣袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "尿布包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "背小孩用背架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钞票夹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抱婴儿用挂包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮制购物袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮制钱包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮制手提箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可随舱的行李包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "桶状包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "行李箱用打包带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "大旅行袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "仿皮钥匙包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "仿皮革箱子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "仿皮包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "信用卡夹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "软式手提袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "仿皮革制公文包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺织品购物袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮夹子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮革制公文包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "乘机旅行手提包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮旅行箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "臀包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "晚会用手提包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮制钥匙包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "文件公文包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "文件携带箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钥匙包（皮件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "行李标签套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "信用卡包（皮革制）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "旅行包（皮件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "带轮子的购物袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "男式小包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "公文包（皮具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "装化妆品、钥匙及其他个人物品的小袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "腕式提包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "携带动物的包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "晚会用包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钥匙钱包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "背包（帆布背包）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "信玄袋（配和服的布制小手提袋）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "小型手拿包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "柳条行李箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "带有卡片隔层的钱包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钱包（包括卡片夹）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卡片皮夹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "带脚轮的背包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "信用卡夹（皮革制）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "婴儿抱袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "大手提袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "信用卡皮夹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "旅行皮箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "旅行提包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "旅行提袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "行李袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮制小袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "学生用背包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "腰包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "小行李箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钱包骨架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "旅行袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮制手提包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "带轮的包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "旅行用鞋袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "小背包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "旅行用行李袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "小钱包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "零钱包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "领带盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "小手提袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "小手提箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮制公文包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "单肩包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "登山包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "登山背包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钱包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "穿在身上的婴儿背袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "登山用背包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "折叠公文箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "男士手提包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手提购物袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "邮差包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "女用手包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手提袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "女士手提包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工具袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "携带宠物用包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手提西装袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非贵金属制编织包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非贵金属制零钱包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非贵金属制钱包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮制系带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属制钱包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手拿包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "儿童单肩包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "帆布购物袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "携带动物用包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "多用途运动包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "学生背包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "出售时为空的化妆箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "脚踝包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮革制行李吊牌",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手提西服防尘罩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮革制盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "多用途手提袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "带内置架子的行李箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "护照夹（皮革制）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮革工具袋（空的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "包装用皮革封套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "包装用皮袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手提旅行包（箱）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "支票夹（皮革制）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工具袋（皮包）（空的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮革或者人造皮革制的行李标签",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "售时为空的化妆包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮革制的行李标签",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "行李的皮革标签",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮革或人造皮革制的行李标签",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮制或仿皮革制行李标签",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮制或仿皮制行李标签",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人造皮革制行李标签",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "女士钱包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮革制包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "健身用包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "行李用皮标签",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "旅行手提箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "行李皮标签",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮制行李标签",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮质系带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "购物袋用手提把手",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "旅行用皮制衣袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "信用卡皮夹（皮革制）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮制女士钱包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "斜挎包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抽绳包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手提包的包带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运动背包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手提包骨架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "拉杆式通用运动包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "行李箱专用保护套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "行李箱捆绑带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "行李箱用成套收纳袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "塑料旅行袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "帆布制装木柴用手提袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "旅行箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "信用卡钱包",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:27.673Z"
+}

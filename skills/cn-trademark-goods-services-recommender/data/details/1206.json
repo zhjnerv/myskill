@@ -1,0 +1,285 @@
+{
+  "groupCode": "1206",
+  "groupName": "轮椅，手推车，儿童推车",
+  "classCode": "12",
+  "notes": [
+    "注：1.手推车与2001手推车（家具）类似，与第九版及以前版本的2001送茶手推车交叉检索；",
+    "2.婴儿车，平卧式婴儿车与2001婴儿学步车类似；",
+    "3.本类似群商品与1211商品类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "采矿用手推车车轮",
+          "code": "120043",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运行李推车",
+          "code": "120050",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "窄底手推车",
+          "code": "120050",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "两轮手推车",
+          "code": "120050",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "轮椅",
+          "code": "120062",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "搬运手推车",
+          "code": "120065",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "婴儿车",
+          "code": "120163",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "婴儿车车罩",
+          "code": "120164",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "婴儿车车篷",
+          "code": "120165",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "独轮手推小车",
+          "code": "120218",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "推车",
+          "code": "120219",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "推车（运载工具）用小脚轮",
+          "code": "120250",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "清洁用手推车",
+          "code": "120251",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "购物用手推车",
+          "code": "120255",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "倾卸式斗车",
+          "code": "120265",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "婴儿车专用蚊帐",
+          "code": "120277",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "平卧式婴儿车",
+          "code": "120289",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "平卧式婴儿车专用脚套",
+          "code": "120290",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "婴儿车专用脚套",
+          "code": "120291",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "婴儿车专用包",
+          "code": "120293",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "钓鱼用手推车",
+          "code": "120302",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "手推笼车",
+          "code": "120303",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "宠物推车",
+          "code": "120311",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "手推车",
+          "code": "120324",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "折叠行李车",
+          "code": "C120004",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "人力车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动轮椅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "轮椅扶手",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "船只下水用手推车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "矿车拉手",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "矿车推杆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "装有移动脚轮的手推车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "倾卸手推车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医院用推车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "分配药品用医院推车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "残疾和行动不便者用电动轮椅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "儿童拖车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手推轮椅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "独轮手推车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手推运货车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "轻便婴儿车盖篷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "折叠式婴儿车盖篷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "折叠式婴儿车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "修车用滑板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "折叠式婴儿车车篷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "婴儿车盖篷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "轻便婴儿车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "小推车",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:00.443Z"
+}

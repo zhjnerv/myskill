@@ -1,0 +1,86 @@
+{
+  "groupCode": "1612",
+  "groupName": "墨，砚",
+  "classCode": "16",
+  "notes": [
+    "注：1.本类似群与1614书写材料类似；",
+    "2.本类似群与 1611 文具，学校用品（文具），办公文具类似，与第十一版及以前版本1611家具除外的办公必需品交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "吸墨用具",
+          "code": "160051",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "墨汁",
+          "code": "160089",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "墨水*",
+          "code": "160142",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "墨水池",
+          "code": "160144",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "墨水台",
+          "code": "160301",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "墨锭",
+          "code": "160334",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "砚台",
+          "code": "160335",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "书法用墨",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钢笔用墨水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "块墨（烟灰墨）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "书写工具用墨水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "块墨",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:16.393Z"
+}

@@ -1,0 +1,745 @@
+{
+  "groupCode": "4212",
+  "groupName": "提供生物学、医学研究服务",
+  "classCode": "42",
+  "notes": [
+    "注：1.细菌学研究，生物学研究，医学研究，基因学领域的科学研究与 4209 技术研究，技术项目研究，科学研究类似；",
+    "2.细菌学研究,生物学研究,医学研究,基因学领域的科学研究,兽医学研究与 4209 技术研究,技术项目研究,科学研究类似;；",
+    "3.医学实验室服务，生物制造实验室服务与 4209 科学实验室服务类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "细菌学研究",
+          "code": "420017",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "生物学研究",
+          "code": "420190",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "临床试验",
+          "code": "420224",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医学研究",
+          "code": "420257",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "为科学研究目的培养细胞",
+          "code": "420284",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "基因学领域的科学研究",
+          "code": "420290",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "神经形态工程学",
+          "code": "420298",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "为法医鉴定目的进行药物筛查",
+          "code": "420306",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "法医病理检查服务",
+          "code": "420307",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "法医病理学服务",
+          "code": "420307",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "为法医鉴定目的进行病理检测",
+          "code": "420308",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "生物制造实验室服务",
+          "code": "420313",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "亲子鉴定",
+          "code": "420314",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "兽医学研究",
+          "code": "420316",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医学实验室服务",
+          "code": "C420016",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "生物克隆服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "基因筛查（为科学研究目的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生物学研究和分析",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "细菌学研究和分析",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "基因组结构和功能分析",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "科学研究用基因检测",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生物技术研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "干细胞研究服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抗体方面的研究和开发",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医学研究服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "开发医药制剂和药品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生物医学研究服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "药物研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医疗研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "DNA筛选（为科学研究目的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医药研究服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "药品研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生物医学研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "药物测试",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "药品的研究和开发",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "实施新药领域的早期评估",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制药学研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "药物评估",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "兽医实验室服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "药物研发服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "流行病学领域的医学研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "口腔医学研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "疫苗研发服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "肿瘤医学研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "中药研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人提供科学和研究目的的细胞培养服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "心理学研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纳米生物技术领域的研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为研究目的对实验动物进行基因测试",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "基因编辑技术领域的研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "DNA修复技术领域的研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "基因疗法研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "基因药物研发",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人类生殖学研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "中草药研发",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "DNA测序技术研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "动物遗传学研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "基因表达系统领域的研究与开发服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "植物遗传学研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "植物基因工程技术领域的研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "细胞工程技术领域的研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "口腔生物力学领域的研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "口腔修复学研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生物力学领域的研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "分子生态学领域的研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "合成生物学领域的研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生物电子学领域的研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生物工程学领域的研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生物无机化学研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生物物理学领域的研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生物有机化学研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为科学研究目的进行DNA分析服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙科研究实验室服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "RNA干扰技术研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "siRNA药物研发",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "环状RNA疫苗研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "诱导性多功能干细胞研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "流行病学领域的科学研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "药物研究领域的技术研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为医疗目的进行癌症科学研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "DNA突变领域的研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "DNA筛查（为科学研究目的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "mRNA药物研发",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "光遗传学领域的研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "微生物学研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "遗传病研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "细胞遗传学研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有关细菌学的科学研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "临床外科研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自闭症领域的医学研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生物信息学领域的研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供植物遗传学研究资源领域的信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医学研究实验室服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "免疫耐受领域的研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "免疫缺陷领域的研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "罕见病领域的医学研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "介入放射学领域的研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "磁共振血管造影技术研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "科学研究用血液分析服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "毒理学研究服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "兽医研究实验室服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "基因表达领域的实验室研究服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "营养补充剂领域的研发服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供遗传科学信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供遗传学领域的科学研究信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供遗传学领域的医学研究信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "病理学领域的医学研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供药品领域的医学研究信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "免疫学领域的研发服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医疗制剂领域的研发服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "微生物和细胞领域的研发",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "细菌学领域的实验室研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供药品领域的科学研究信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "基因组学领域的科学实验室服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生物技术领域的研发",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "基因表达领域的实验室研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生物研究实验室服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制药领域的实验室研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗恶性肿瘤用药剂的研发",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "脑机接口领域的研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "动物医学研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "DNA提取领域的技术研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "植物细胞生物学领域的研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "脑脊接口研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数字疗法领域的研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生物打印器官领域的研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抗体药物偶联物的研发",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无细胞蛋白质合成技术研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "神经科学领域的研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "分子靶向治疗领域的研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "3D细胞培养技术研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "核医学领域的研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "脑神经网络领域的研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "免疫治疗领域的医学研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "与肿瘤标记相关的医学研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于疫苗生产的实验室服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于抗生素生产的实验室服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "母子亲子鉴定的DNA分析",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算生物学研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生物化学分析服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于病毒生产的实验室服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "法医学实验室服务",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:47.715Z"
+}

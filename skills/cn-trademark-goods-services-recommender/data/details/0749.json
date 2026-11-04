@@ -1,0 +1,747 @@
+{
+  "groupCode": "0749",
+  "groupName": "泵，阀，气体压缩机，鼓风机，液压元件，气动元件",
+  "classCode": "07",
+  "notes": [
+    "注：1.本类似群各部分之间商品不类似；",
+    "2、本类似群第（一）部分的汽车油泵，汽车水泵，汽车发动机用机油泵，汽车发动机用汽油泵与第七版及以前版本1202的汽车零部件，汽车配件及其他属于本类似群的商品交叉检索；",
+    "3、第（一）部分与第十版及以前版本 0753 自闭式加油枪，第九版及以前版本 0902 自动调节燃料泵，加油站发油泵，加油站汽油泵，电脑计量加油机交叉检索；",
+    "4、本类似群第（二）部分与0602金属阀门（非机器部件），金属排水阱（阀），金属水管阀类似，与第十版及以前版本0602金属阀门（非机器零件）交叉检索；",
+    "5、本类似群第（三）部分与第八版及以前版本0726增压机，0753冷凝装置交叉检索；",
+    "6、本类似群第（四）部分液压滤油器与0750过滤器（机器或引擎部件）类似；"
+  ],
+  "sections": [
+    {
+      "label": "（一）",
+      "items": [
+        {
+          "name": "离心机",
+          "code": "070086",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "离心机（机器）",
+          "code": "070086",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "离心泵",
+          "code": "070088",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "泵（机器、引擎或马达部件）",
+          "code": "070179",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "润滑油泵",
+          "code": "070205",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "泵膜片",
+          "code": "070257",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "泵（机器）",
+          "code": "070309",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "气泵（车库设备）",
+          "code": "070310",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "供暖装置用泵",
+          "code": "070311",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "真空泵（机器）",
+          "code": "070312",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "啤酒抽吸泵",
+          "code": "070390",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "空气压缩泵",
+          "code": "070393",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "加油站发油泵",
+          "code": "070542",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "自动调节燃料泵",
+          "code": "070543",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "气动废油抽取机",
+          "code": "070574",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "逆流游泳用水泵",
+          "code": "070575",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "加油站用加氢泵",
+          "code": "070579",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "加油站用加油泵",
+          "code": "070601",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "液压泵",
+          "code": "C070344",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "汽车油泵",
+          "code": "C070415",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "汽车水泵",
+          "code": "C070416",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "汽车发动机用机油泵",
+          "code": "C070417",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "汽车发动机用汽油泵",
+          "code": "C070418",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "自闭式加油枪",
+          "code": "C070427",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "抽气泵",
+          "code": "C070433",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "电脑计量加油机",
+          "code": "C070439",
+          "type": "marked",
+          "section": "（一）"
+        }
+      ]
+    },
+    {
+      "label": "（二）",
+      "items": [
+        {
+          "name": "阀（机器部件）",
+          "code": "070019",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "瓣阀（机器部件）",
+          "code": "070108",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "压力阀（机器部件）",
+          "code": "070318",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "疏水器（阻气回水阀）",
+          "code": "070320",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "阀门（机器、引擎或马达部件）",
+          "code": "070333",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "机器、马达和引擎的液压控制器",
+          "code": "070472",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "机器、马达和引擎的气压控制器",
+          "code": "070473",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "非陆地车辆用气动或液压线性执行器",
+          "code": "070594",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "液压阀（机器部件）",
+          "code": "C070345",
+          "type": "marked",
+          "section": "（二）"
+        },
+        {
+          "name": "调压阀（机器部件）",
+          "code": "C070346",
+          "type": "marked",
+          "section": "（二）"
+        },
+        {
+          "name": "电磁阀（机器部件）",
+          "code": "C070430",
+          "type": "marked",
+          "section": "（二）"
+        }
+      ]
+    },
+    {
+      "label": "（三）",
+      "items": [
+        {
+          "name": "空气冷凝器",
+          "code": "070006",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "空气凝结器",
+          "code": "070011",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "压缩机（机器）",
+          "code": "070113",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "涡轮压缩机",
+          "code": "070114",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "冷凝装置",
+          "code": "070116",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "压缩、排放和输送气体用鼓风机",
+          "code": "070199",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "压缩、抽吸和运送谷物用风扇",
+          "code": "070203",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "压缩、抽吸和运送谷物用鼓风机或风扇",
+          "code": "070203",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "压缩、抽吸和运送谷物用鼓风机",
+          "code": "070203",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "工业用抽吸机械",
+          "code": "070282",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "风箱（机器部件）",
+          "code": "070350",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "锻炉鼓风机",
+          "code": "070351",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "增压机",
+          "code": "070358",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "空气压缩机",
+          "code": "070392",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "抽气机",
+          "code": "070398",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "冰箱压缩机",
+          "code": "070437",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "鼓风机",
+          "code": "070534",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "马达用涡轮增压器",
+          "code": "070618",
+          "type": "standard",
+          "section": "（三）"
+        }
+      ]
+    },
+    {
+      "label": "（四）",
+      "items": [
+        {
+          "name": "液压耦合器",
+          "code": "C070348",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "液压滤油器",
+          "code": "C070349",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "液压油缸（机器部件）",
+          "code": "C070448",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "气压缸（机器部件）",
+          "code": "C070449",
+          "type": "standard",
+          "section": "（四）"
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "空调压缩机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "螺杆泵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "气泵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "旋转凸轮泵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "液压蓄能器（机器部件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动压缩机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "油离心机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "泵控制阀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抽吸泵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "除湿机用压缩机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电泵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "液压增压器（机器部件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "发动机燃料泵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "分配阀（机器部件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "恢复和回收制冷剂气体用压缩机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具用空气压缩机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动鼓风机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "清洗器具和装置用高压泵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "扩散泵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "往复式压缩机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "往复式真空泵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "轴流泵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "轴流鼓风机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "轴流压缩机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "多相螺杆泵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "离心鼓风机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "真空泵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "回转泵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "回转式鼓风机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "回转式压缩机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机器用泵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机器用压缩机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "循环泵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "离心压缩机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "压缩机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机器用恒温控制阀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "饮料行业用泵（机器）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "压缩机（机器、马达和引擎用部件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "角阀（机器部件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "球阀（机器部件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蝶阀（机器部件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "锻炉风箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "污泥泵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水泵控制阀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "真空发生器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抽水机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车汽油泵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鼓风设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "气动阀门",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "尿素泵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "注入泵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "阀（机器零件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电磁阀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "旋风分离器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "泵的叶轮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "风车驱动泵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "游泳池用电动泵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "发动机用冷却泵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马达和引擎用气压控制器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加油站用汽油泵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制冷剂回收泵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "风冷式冷凝器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加油站用燃料泵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马达和引擎用液压控制器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "游泳池用水泵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "液压阀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "调压阀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手动陶瓷阀（机器部件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计量加油泵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马达和引擎用水泵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水族池用水泵",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:17.879Z"
+}

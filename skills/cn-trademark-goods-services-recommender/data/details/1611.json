@@ -1,0 +1,694 @@
+{
+  "groupCode": "1611",
+  "groupName": "办公_文具（不包括笔，墨，印，胶水）",
+  "classCode": "16",
+  "notes": [
+    "注：1.文具，学校用品（文具），办公文具与 1605 第（一）部分，1610，1612，1613，1614，1615，1616 商品类似；",
+    "2.文件夹，文件夹（文具），文件夹（办公用品）与第八版及以前版本1802文件夹（皮革制）交叉检索；",
+    "3.支票簿夹，护照夹与1802支票夹（皮夹），护照夹（皮夹）类似，与第十版及以前版本1802支票夹（皮革制），护照夹（皮革制）交叉检索；",
+    "4.夹钱用夹子与第八版及以前版本0611普通金属制钱夹类似；",
+    "5.本类似群与第九版及以前版本 1614 笔盒交叉检索；",
+    "6.封面（文具）与第十版及以前版本1609 书籍封皮交叉检索。",
+    "7.本类似群与第十一版及以前版本 1605 第（一）部分函件格交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "办公用夹",
+          "code": "160010",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "书挡",
+          "code": "160018",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "文件夹（文具）",
+          "code": "160022",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "书写用石板",
+          "code": "160023",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "活页夹",
+          "code": "160035",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "固定书写工具用腕带",
+          "code": "160045",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "图钉",
+          "code": "160048",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "润湿器（办公用品）",
+          "code": "160049",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "封蜡",
+          "code": "160055",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "分钱、数钱用托盘",
+          "code": "160059",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "办公用指套",
+          "code": "160064",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "文件夹",
+          "code": "160085",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "公文套",
+          "code": "160085",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "文件夹（办公用品）",
+          "code": "160092",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "涂改液（办公用品）",
+          "code": "160103",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "修改墨（日光胶版术）",
+          "code": "160104",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "封面（文具）",
+          "code": "160108",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "文件套（文具）",
+          "code": "160108",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "笔筒",
+          "code": "160113",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纸夹子",
+          "code": "160116",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "笔袋",
+          "code": "160133",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "笔盒",
+          "code": "160133",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "擦涂用品",
+          "code": "160135",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "擦涂挡板",
+          "code": "160138",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "橡皮擦",
+          "code": "160139",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "钢笔擦净器",
+          "code": "160148",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "办公室用刮子（擦除器）",
+          "code": "160169",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "胶面增湿器（办公用品）",
+          "code": "160173",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "压纸器",
+          "code": "160183",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "曲别针",
+          "code": "160202",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "文具",
+          "code": "160209",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纸张压摺器（办公用品）",
+          "code": "160224",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "学校用品（文具）",
+          "code": "160248",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "办公桌用书写垫",
+          "code": "160255",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "透明软片（文具）",
+          "code": "160262",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "办公用橡皮筋",
+          "code": "160275",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "木浆板（文具）",
+          "code": "160278",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "笔架",
+          "code": "160281",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "桌面文具收纳柜（办公用品）",
+          "code": "160289",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "文具盒（文具）",
+          "code": "160300",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "支票簿夹",
+          "code": "160333",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "护照夹",
+          "code": "160340",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "书写板用涂擦器",
+          "code": "160348",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "带夹纸装置的书写板",
+          "code": "160349",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非电的地图指示器",
+          "code": "160350",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "夹钱用夹子",
+          "code": "160353",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "修正带（办公用品）",
+          "code": "160357",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "文件托架（文具）",
+          "code": "160361",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "书夹",
+          "code": "160362",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "印记清除器",
+          "code": "160364",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "动画用赛璐珞片",
+          "code": "160377",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "胸卡套（办公用品）",
+          "code": "160379",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "姓名卡套用伸缩扣夹（办公用品）",
+          "code": "160380",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "别姓名卡套用夹子（办公用品）",
+          "code": "160381",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "函件格",
+          "code": "160101",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "姓名牌（办公用品）",
+          "code": "160387",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "文具用闪粉",
+          "code": "160389",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "书籍保护套",
+          "code": "160392",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "转盘笔挂",
+          "code": "C160072",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "大头针（文具）",
+          "code": "C160073",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "回形针",
+          "code": "C160074",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "学生读书矫正仪",
+          "code": "C160076",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "护视力阅览架",
+          "code": "C160077",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "木制参观卡片",
+          "code": "C160078",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "办公文具",
+          "code": "C160118",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "文具盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "按钉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "笔搁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "文件修正液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "文件盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "橡皮筋（办公用品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日历架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "书法练习用水写布",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "预约簿的皮质封皮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "回形针座",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "书写工具架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "文件封皮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "凸印板修正液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "护照封面",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "信纸夹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "书信用曲别针",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "凸印板涂改液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "笔盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "书桌垫写板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "书写垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "办公用活页夹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "握笔器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "信函架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "夹纸板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "擦墨水橡皮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "长尾夹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "涂改笔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "记事本夹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "活页夹（办公用品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "支票簿套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "书写纸夹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "棒球卡塑料封套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "笔记本封套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钱包式的文件夹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "信件用文件夹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "磁性三孔活页夹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "夹纸曲别针",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "书法用毡垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铅笔握笔器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸制风琴式文件袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "桌上旋转式卡片文档架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "润指器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "插袋文件夹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "软木板用图钉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动橡皮擦",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卷帘式笔袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "夹子（文具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "图钉（文具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "档案袋（文具用品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "护指套（办公用品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "修正带替芯（文具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "涂改液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "粉笔板擦",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "修正带（文具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属便笺夹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "稿件固定架",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:15.820Z"
+}

@@ -1,0 +1,431 @@
+{
+  "groupCode": "3707",
+  "groupName": "陆地机械车辆维修",
+  "classCode": "37",
+  "notes": [
+    "注：跨类似群保护服务：运载工具加润滑油服务（3707，3708，3709） ，运载工具清洗服务（3707，3708，3709） ，运载工具上光服务（3707，3708，3709） ，运载工具防锈处理服务（3707，3708，3709） ，运载工具保养服务（3707，3708，3709） ，运载工具清洁服务（3707，3708，3709） ，运载工具故障修理服务（3707，3708，3709） ，运载工具电池充电服务（3707，3708，3709），电动运载工具充电服务（3707，3708，3709），运载工具的外部、内部和机械部件的定制安装（调校）（3707，3708，3709），电动运载工具充电站的预订（3707，3708，3709），电动运载工具电池更换服务（3707，3708，3709）。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "汽车保养和修理",
+          "code": "370006",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具加润滑油服务",
+          "code": "370049",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具清洗服务",
+          "code": "370055",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具上光服务",
+          "code": "370072",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具防锈处理服务",
+          "code": "370082",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "车辆服务站（加油和保养）",
+          "code": "370083",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具保养服务",
+          "code": "370085",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具清洁服务",
+          "code": "370087",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具故障修理服务",
+          "code": "370089",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具电池充电服务",
+          "code": "370137",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电动运载工具充电服务",
+          "code": "370151",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "汽车车身调校",
+          "code": "370154",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具的外部、内部和机械部件的定制安装（调校）",
+          "code": "370155",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "汽车加天然气服务",
+          "code": "370174",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电动运载工具充电站的预订",
+          "code": "370176",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电动运载工具电池更换服务",
+          "code": "370179",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "车辆加油站",
+          "code": "C370006",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "汽车引擎的修复",
+          "code": "C370018",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "清洁运载工具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具修理服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "叉车修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动运载工具的修理和保养",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机动车辆充电服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机动车辆加气服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机动车辆加油服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卡车修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车机油更换服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "上门提供汽车机油更换服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "拖车修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为汽车加注氢气燃料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "洗车设备出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车修理或保养",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自行车修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铁路车辆的修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车车身修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车内饰定制安装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陆地车辆保养和修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "车辆翻新服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加油站设备的修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "两轮机动车修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供自助洗车设施",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具（车辆）电池更换",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机动车保养和修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车维修",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动车辆充电服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "叉车保养和修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无人叉车保养和修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具（车辆）清洁服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具（车辆）清洗服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具（车辆）加润滑油服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具（车辆）故障救援修理服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具（车辆）保养服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具（车辆）防锈处理服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具（车辆）上光服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车清洗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车保养",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具加油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陆地车辆加油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为汽车车身装饰细花纹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车马达和引擎的调校",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车途中修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具美容护理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车美容护理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车加润滑油服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车表面整修",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陆地车辆连接器的修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具修理咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "摩托车的保养和修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动汽车保养和修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动汽车电池修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自行车清洗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "摩托车清洁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铁路车辆清洗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铁路车辆清洁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "摩托车清洗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自行车清洁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动自行车保养服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动自行车充电服务",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:16.268Z"
+}

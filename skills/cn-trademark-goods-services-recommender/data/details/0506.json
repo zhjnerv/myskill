@@ -1,0 +1,516 @@
+{
+  "groupCode": "0506",
+  "groupName": "卫生用品，绷敷材料，医用保健袋",
+  "classCode": "05",
+  "notes": [
+    "注：运动贴布用皮肤膜与 1008 肌内效贴布，运动贴布类似。",
+    "注：1. 本类似群各部分之间商品不类似；",
+    "2. 卫生棉条，卫生巾，卫生护垫，浸药液的薄纸，浸卫生消毒剂的湿巾，消毒纸巾与 1603 卫生纸，纸手帕，卸妆用薄纸，纸餐巾，纸巾，纸制洗脸巾，清洁用纸抹布，纸制抹布类似，与第十版及以前版本 1603 卸妆用纸巾，第九版及以前版本 1603 纸或纤维素制婴儿餐巾（一次性），纸制或纤维制婴儿餐巾（一次性）交叉检索；",
+    "3. 浸卫生消毒剂的湿巾，消毒纸巾与0301浸清洁制剂的婴儿湿巾，0306浸化妆水的薄纸，浸卸妆液的薄纸，浸卸妆液的卸妆棉类似，与第九版及以前版本0306浸化妆品的卫生纸，浸化妆品的薄纸交叉检索。",
+    "4. 月经内裤，卫生内裤与 2501 内裤，女式内裤类似，与第十版及以前版本2501内裤(服装)交叉检索；",
+    "5. 失禁用尿布，失禁用吸收裤与第十版及以前版本1004失禁用垫，第九版及以前版本1603纸或纤维素制婴儿尿布（一次性），纸制和纤维制婴儿尿布（一次性），纸或纤维素制婴儿尿布裤（一次性），纸制和纤维制婴儿尿裤（一次性），纸制或纤维制婴儿尿布（一次性）交叉检索；",
+    "6. 婴儿尿布，婴儿尿裤，婴儿用一次性游泳尿裤，可重复使用的婴儿游泳尿裤，婴儿用一次性尿布更换垫与第九版及以前版本 2502 婴儿纺织品尿布，第十版及以前版本 1004 失禁用垫，第九版及以前版本 1603 纸或纤维素制婴儿尿布（一次性），纸制和纤维制婴儿尿布（一次性），纸或纤维素制婴儿尿布裤（一次性），纸制和纤维制婴儿尿裤（一次性），纸制或纤维制婴儿尿布（一次性）交叉检索；",
+    "7. 包扎绷带，外科用肩绷带与 1008 关节用矫形绷带，非包扎用弹性绷带，悬吊式绷带，矫形用膝绷带，矫形用石膏绷带，吊带（支撑绷带），支撑绷带类似，与第十二版及以前版本 1008 弹性绷带，第十版及以前版本 1008 矫形用石膏绷带（模压品），第九版及以前版本 1008吊绷带等绷带类商品交叉检索；",
+    "8. 医用棉签与0306化妆用棉签类似，与第十版及以前版本0306棉签(梳妆用品)交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "（一）",
+      "items": [
+        {
+          "name": "月经内裤",
+          "code": "050200",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "卫生内裤",
+          "code": "050200",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "卫生棉条",
+          "code": "050232",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "卫生护垫",
+          "code": "050234",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "卫生巾",
+          "code": "050234",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "内裤衬里（卫生用）",
+          "code": "050315",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "失禁用尿布",
+          "code": "050351",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "失禁用吸收裤",
+          "code": "050372",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "浸药液的薄纸",
+          "code": "050374",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "婴儿尿布",
+          "code": "050412",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "婴儿尿裤",
+          "code": "050413",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "婴儿用一次性游泳尿裤",
+          "code": "050495",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "可重复使用的婴儿游泳尿裤",
+          "code": "050496",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "婴儿用一次性尿布更换垫",
+          "code": "050497",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "浸卫生消毒剂的湿巾",
+          "code": "050514",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用黏性乳头贴",
+          "code": "050518",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "消毒纸巾",
+          "code": "C050036",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "失禁用衣",
+          "code": "C050049",
+          "type": "marked",
+          "section": "（一）"
+        }
+      ]
+    },
+    {
+      "label": "（二）",
+      "items": [
+        {
+          "name": "橡皮膏",
+          "code": "050019",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "灭菌棉",
+          "code": "050031",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "无菌棉",
+          "code": "050034",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "脚戴除鸡眼环",
+          "code": "050040",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "包扎绷带",
+          "code": "050049",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "医用填料",
+          "code": "050072",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "医用棉绒",
+          "code": "050073",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "敷布",
+          "code": "050089",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "医用棉",
+          "code": "050099",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "医用敷料",
+          "code": "050114",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "外伤药用棉",
+          "code": "050136",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "外科敷料",
+          "code": "050140",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "敷料纱布",
+          "code": "050155",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "脱脂棉",
+          "code": "050176",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "能吸附的填塞物",
+          "code": "050176",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "外科用肩绷带",
+          "code": "050267",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "医用胶带",
+          "code": "050294",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "药用火棉胶",
+          "code": "050324",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "防溢乳垫",
+          "code": "050378",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "拇囊炎衬垫",
+          "code": "050391",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "医用包足绷带布",
+          "code": "050392",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "医用眼罩",
+          "code": "050398",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "外科胶水",
+          "code": "050442",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "医用棉签",
+          "code": "050447",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "运动贴布用皮肤膜",
+          "code": "050521",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "治疗烧伤用浸渍薄膜",
+          "code": "050524",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "救急包",
+          "code": "C050037",
+          "type": "marked",
+          "section": "（二）"
+        },
+        {
+          "name": "止血栓",
+          "code": "C050038",
+          "type": "marked",
+          "section": "（二）"
+        },
+        {
+          "name": "中药袋",
+          "code": "C050039",
+          "type": "marked",
+          "section": "（二）"
+        },
+        {
+          "name": "药枕",
+          "code": "C050040",
+          "type": "marked",
+          "section": "（二）"
+        },
+        {
+          "name": "产包",
+          "code": "C050041",
+          "type": "marked",
+          "section": "（二）"
+        },
+        {
+          "name": "医用保健袋",
+          "code": "C050042",
+          "type": "marked",
+          "section": "（二）"
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "医用胶布050294",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无菌敷料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "失禁用护垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用橡皮膏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "药棉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "包扎用填料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用眼垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抗菌液态绷带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "耳用绷带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "成人尿布",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "失禁用一次性尿布",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "急救包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "月经垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烧伤敷料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "消毒湿巾",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "一次性消毒湿巾",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "一次性婴儿尿布",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卫生巾带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "液体绷带喷剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "外科用胶带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自黏敷料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "浸抗菌制剂的薄纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮肤伤口用液体绷带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "浸药液的卫生纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "创口贴（绷敷材料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "伤口敷料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "婴儿游泳尿裤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "幼儿和婴儿用一次性游泳尿裤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "阻止小伤口出血和擦伤出血的可溶性止血条",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用鼻咽拭子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用口腔拭子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用咽拭子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用拭子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "弹性包扎绷带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用纳米银抗菌敷料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "尿布衬垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含药物的敷布",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:32.601Z"
+}

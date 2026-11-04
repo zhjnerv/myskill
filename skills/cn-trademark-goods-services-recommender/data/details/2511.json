@@ -1,0 +1,196 @@
+{
+  "groupCode": "2511",
+  "groupName": "领带，围巾，披巾，面纱",
+  "classCode": "25",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "长皮毛围巾（披肩）",
+          "code": "250011",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "脖套",
+          "code": "250021",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "短围巾",
+          "code": "250021",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "披肩",
+          "code": "250032",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "领带",
+          "code": "250060",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "围巾",
+          "code": "250069",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "裘皮披肩",
+          "code": "250074",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "女式披肩",
+          "code": "250102",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "面纱（服装）",
+          "code": "250123",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "班丹纳方绸（围巾）",
+          "code": "250148",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "披巾",
+          "code": "250152",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "包头巾",
+          "code": "250156",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "爱斯科式领带",
+          "code": "250157",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "西服袋巾",
+          "code": "250161",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "头巾",
+          "code": "250191",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非医用、非卫生用面部遮盖物（服装）",
+          "code": "250195",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非医用、非卫生用面罩（服装）",
+          "code": "250195",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "领花",
+          "code": "C250024",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "领结",
+          "code": "C250025",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "领巾",
+          "code": "C250026",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "墨西哥式披肩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "披肩（服装）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "披肩（经编）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "女用披肩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "丝巾",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "口袋方巾",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "颈巾",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "波洛领带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "女用围巾",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "领带（服装）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "班丹纳方绸（围脖儿）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "围脖",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:12.711Z"
+}

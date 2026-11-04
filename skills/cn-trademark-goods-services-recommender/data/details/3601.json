@@ -1,0 +1,321 @@
+{
+  "groupCode": "3601",
+  "groupName": "保险",
+  "classCode": "36",
+  "notes": [
+    "注：保险经纪与第十一版及以前版本3605经纪交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "事故保险承保",
+          "code": "360001",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "精算服务",
+          "code": "360003",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "保险经纪",
+          "code": "360010",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "保险承保",
+          "code": "360012",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "火灾保险承保",
+          "code": "360034",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "健康保险承保",
+          "code": "360038",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "海上保险承保",
+          "code": "360039",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "人寿保险承保",
+          "code": "360044",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "保险咨询",
+          "code": "360055",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "保险信息",
+          "code": "360060",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "提供保险信息",
+          "code": "360060",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "保修索赔管理服务",
+          "code": "360142",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "保险计划管理",
+          "code": "360145",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "海上运输保险承保",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "海上事故保险承保",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "海上火灾保险承保",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "保险索赔评估",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "年金保险",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人寿保险经纪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "保险信息和咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非寿险承保",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非寿险理赔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "保险理赔处理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "保险经纪服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "保险精算服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "保险费率计算",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "保险代理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有关保险的咨询和信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "意外伤害保险承保服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "个人资产保险索赔评估",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有关保险的咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "海上火灾保险",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "海上运输保险",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "全险保险和再保险经纪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "财产保险和伤亡保险方面的保险经纪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "物流保险经纪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "海事事故保险",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "保险精算",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "保险风险管理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "再保险承保",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过互联网提供的保险服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "保险领域的理赔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过互联网、电话或面对面的方式提供保险咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过互联网、在线和交互式计算机提供的保险信息咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过互联网提供保险信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "预付医疗保健保险承保",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "临终保单贴现服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙科健康保险管理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "航班延误险承保",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过在线或电子方式提供保险咨询、建议",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "保证担保承销",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供运载工具保险费率报价",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工伤事故保险承保",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医疗保险承保",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "长期护理险的承保",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宠物医疗保险承保",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宠物医疗保险咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "再保险经纪服务",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:07.428Z"
+}

@@ -1,0 +1,85 @@
+{
+  "groupCode": "0725",
+  "groupName": "制药工业用机械及部件",
+  "classCode": "07",
+  "notes": [
+    "注：1.本类似群与第八版及以前版本的0753粉碎机、粉碎机（机器）交叉检索；",
+    "2.本类似群与第八版及以前版本的0709磨粉机（机器），离心碾磨机交叉检索；",
+    "3.跨类似群保护商品：磨粉机（机器）（0709，0725）；离心碾磨机（0709，0723，0725）；粉碎机（0702第（二）部分；0725；0733；0752）"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "磨粉机（机器）",
+          "code": "070042",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "离心碾磨机",
+          "code": "070087",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "粉碎机",
+          "code": "070153",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "生物制药用生物反应器",
+          "code": "070593",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "制药加工工业机器",
+          "code": "C070162",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "制丸机",
+          "code": "C070163",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "糖衣机",
+          "code": "C070164",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "压片机",
+          "code": "C070165",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "药物粉碎机",
+          "code": "C070166",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "制药剂专用离心机（不包括化工通用的离心机）",
+          "code": "C070167",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "制药剂专用板框压滤机（不包括化工通用的板框压滤机）",
+          "code": "C070168",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [],
+  "crawledAt": "2026-06-09T18:57:03.756Z"
+}

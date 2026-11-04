@@ -89,6 +89,10 @@ skill 已完成并实机验证，未提交。
 - [x] 决赛低置信回退：决赛 confidence < 0.2 时改用逐项第一名，`decided_by=per_item_score_low_final_confidence`，保留 `final` 供查看。
 - [x] 改名：`git mv`/移动目录 → `skills/choice-oracle/`；frontmatter `name`；registry 条目；文档内旧名；计划文件更名为 `TASK_PLAN_choice-oracle.md`。
 - [x] 验证：`quick_validate`；文字 `--pick` 实跑一次走通。
-- [ ] 只提交本 skill 相关文件（skill 目录、registry.json、.gitignore、计划文件），推送 origin/main。
+- [x] 只提交本 skill 相关文件（skill 目录、registry.json、.gitignore、计划文件），推送 origin/main。
 
 结果：`quick_validate` 通过；6 名字文字海选走通，决赛 confidence 0.037 → `per_item_score_low_final_confidence`，冠军 choice-oracle。
+推送：提交 `9d50817`；远端领先 7 个上游同步提交，按仓库惯例 merge（`5efa134`，无冲突）后推送成功，main 与 origin/main 一致。
+
+## 当前进度
+四个阶段全部完成。下一步（可选）：`skill-deploy.ps1` 部署到 Agent skills 目录后在真实会话里触发验证。

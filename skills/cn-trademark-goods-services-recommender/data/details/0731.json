@@ -1,0 +1,103 @@
+{
+  "groupCode": "0731",
+  "groupName": "冶炼工业用设备",
+  "classCode": "07",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "炼钢厂转炉",
+          "code": "070003",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "切断机（机器）",
+          "code": "070123",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "轧钢机滚筒",
+          "code": "070141",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "轧钢机",
+          "code": "070228",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "搅炼机",
+          "code": "070319",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "催化转化器",
+          "code": "070482",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铸铁机",
+          "code": "C070228",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "混铁炉",
+          "code": "C070229",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "盛钢水桶",
+          "code": "C070230",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "补炉机",
+          "code": "C070231",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "炼焦机",
+          "code": "C070232",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "铸造（锭）机",
+          "code": "C070235",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "金属加工用轧钢机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "轧制金属用滚压机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "（金属加工用）轧钢机",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:07.385Z"
+}

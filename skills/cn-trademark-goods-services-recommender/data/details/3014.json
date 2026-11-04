@@ -1,0 +1,81 @@
+{
+  "groupCode": "3014",
+  "groupName": "食盐",
+  "classCode": "30",
+  "notes": [
+    "注：本类似群与 3015，3016 类似，与第十版及以前版本 3301 料酒交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "食物防腐盐",
+          "code": "300014",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食盐",
+          "code": "300049",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "芹菜盐",
+          "code": "300123",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "芝麻盐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烹饪用盐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用盐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "调味盐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "餐桌用盐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食品调味用藏红花盐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "精制食盐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "调过味的盐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食品防腐盐",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:46.584Z"
+}

@@ -1,0 +1,680 @@
+{
+  "groupCode": "4101",
+  "groupName": "教育",
+  "classCode": "41",
+  "notes": [
+    "注：1.幼儿园与 4304 类似，与第七版及以前版本 4221 日间托儿所（看孩子）交叉检索；",
+    "2.就业指导（教育或培训顾问）与第七版及以前版本4227职业指导交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "学校（教育）",
+          "code": "410002",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "函授课程",
+          "code": "410011",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "体育教育",
+          "code": "410012",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "教学",
+          "code": "410017",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "教育",
+          "code": "410017",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "培训",
+          "code": "410017",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "提供教育信息",
+          "code": "410048",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "教育考核",
+          "code": "410049",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "幼儿园",
+          "code": "410058",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "实际培训（示范）",
+          "code": "410061",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "寄宿学校教育服务",
+          "code": "410075",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "宗教教育",
+          "code": "410080",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "就业指导（教育或培训顾问）",
+          "code": "410102",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "辅导（培训）",
+          "code": "410189",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "职业再培训",
+          "code": "410195",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "学校教育服务",
+          "code": "410199",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "家教服务",
+          "code": "410202",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "通过模拟装置进行的培训服务",
+          "code": "410207",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "茶道训练（茶艺训练）",
+          "code": "410210",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "传授技术（培训）",
+          "code": "410218",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "提供个性化教育辅助服务",
+          "code": "410219",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "为用户进行无人机驾驶资格的教育考核",
+          "code": "410221",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "商业知识和技能的传授（培训）",
+          "code": "410238",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "为培训和教育提供认证考试",
+          "code": "410239",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "教育研究",
+          "code": "410240",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "音乐教育",
+          "code": "410244",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "设计方面的培训",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "焊接实践培训",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "广告方面的培训",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "广告、推销、市场营销和商业战略规划的培训课程",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "安排在教育机构中进行的培训课程",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供水管理方面的课程",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "芭蕾舞学校",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "身体疗法培训",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "书法培训",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医疗按摩培训",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供语言教学课程",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "实验室研究用科学仪器和装置的操作培训",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "管道行业专业培训",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车驾驶培训服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "国家考试的复习课程",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "缝纫培训",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "茶艺培训",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "美容技巧教学",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "补习学校辅导",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人分析教育考试成绩和数据",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钢琴教学",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供在线教育信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "体育教育服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "美发培训",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "美容培训",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "语言培训",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "空手道培训",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "舞蹈培训",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "簿记培训",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "教育考核服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "瑜伽培训",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "跆拳道培训",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商业培训",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商业培训咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烹饪培训",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "体育培训",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "柔道培训",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "摩托车驾驶指导",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "算盘培训",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "剑道培训（日式剑术培训）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制作和服培训",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医疗培训和教学",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "司机安全培训",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供关于旅游业的教育课程",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日式象棋指导",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供围棋培训",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供关于饮食的教学课程",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通信技术方面的培训",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "普拉提教学",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "大学或学院教育",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "教育测试",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "寄宿学校",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供瑜伽教学",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家政人员培训",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "举办教学课程",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "道路安全培训",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "航海训练",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机教育培训服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "特殊教育",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "插花培训",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "飞机飞行培训",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供培训和教育考试（教育认证服务）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供法律继续教育课程",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "在线培训",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "在线教育",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "在线教育服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "大学水平课程的教育服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "在线教育考试服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供在线教育课程",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "教育信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "芭蕾舞培训",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "爵士舞培训",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "口琴教学",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "儿童舞蹈课程",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "在线教育测试",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "在线教育考核服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供节食和医疗保健领域的教学课程",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医疗教育服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "演讲技巧培训",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "脊椎按摩培训",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "美容学校（教育服务）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马术训练",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机软件开发领域的培训服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供大学课堂教学",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "在大学阶段进行远程学习教学",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供大学在线课程",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供小学在线课程",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供小学课堂教学",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "在小学阶段进行远程学习教学",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供小学阶段的教学课程",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "飞行学校教育服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医学院教育服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "法学院教育服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供学前教育在线课程",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供高中阶段的在线课程",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "乒乓球教学",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "药学院教育服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "视光学校教育服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙科学院教育服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "美容学指导",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "护理学校(教育)",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:41.606Z"
+}

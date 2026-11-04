@@ -1,0 +1,588 @@
+{
+  "groupCode": "4402",
+  "groupName": "卫生、美容服务",
+  "classCode": "44",
+  "notes": [
+    "注：1.本类似群与第七版及以前版本4204交叉检索；",
+    "2.按摩与4401医疗按摩类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "公共卫生浴",
+          "code": "440018",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蒸汽浴",
+          "code": "440019",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "美容服务",
+          "code": "440020",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "理发",
+          "code": "440034",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "按摩",
+          "code": "440086",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "修指甲",
+          "code": "440151",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "文身",
+          "code": "440197",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "桑拿浴服务",
+          "code": "440200",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "日光浴服务",
+          "code": "440201",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "矿泉疗养",
+          "code": "440202",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "化妆师服务",
+          "code": "440203",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "打蜡脱毛",
+          "code": "440213",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "人体穿孔",
+          "code": "440216",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "头发造型器具出租",
+          "code": "440230",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "浴用氢水发生器出租",
+          "code": "440239",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "美容师服务",
+          "code": "440241",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "染发服务",
+          "code": "440242",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "理发店服务",
+          "code": "440249",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "面部护理服务",
+          "code": "440283",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "人工日光浴晒黑服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "永久化妆服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "美容院服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人体穿孔服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "身体美容护理服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供桑拿设施",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "头发护理服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "头发染色服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "头发造型",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为活动提供便携式盥洗室",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "在线化妆咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "足部美容护理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "修脚服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "修指甲服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "足部按摩服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "按摩信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "理发服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "美发服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化妆服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "理发店",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供浴室",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "文身服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "美容院",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "红外桑拿服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮肤护理设备出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "以化妆为目的的皮肤晒黑服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "文身店",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "指甲护理服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "文色服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "激光脱毛服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供蒸汽浴设施",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "编发",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "睫毛接长服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "永久脱毛服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "美容护理服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "美容咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "美容咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "理发师服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "头发护理咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "上门美甲服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "织发服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "头发挑染服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "采耳服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人工晒黑服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "美容咨询顾问服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮肤护理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人体蜜蜡脱毛服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化妆领域咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烫睫毛服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运动按摩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "激光去除纹身",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "泰式按摩服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "在线或面对面提供的化妆咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有关护发的咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烫发服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "脚底按摩服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供与传统日式按摩相关的信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "美黑服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "剪发",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "儿童理发店服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "儿童美发沙龙服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "女士美发沙龙服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蜡脱体毛服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为卫生目的提供公共浴池",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供有关公共浴池设施的信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有关美容脱毛的咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有关按摩的咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "由矿泉疗养中心提供的身体美容护理服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "染眉服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "假发的理发服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "染睫毛服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "促进身心健康的矿泉疗养",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "耳垢清理服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "喷雾美黑服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "热石按摩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "文眉服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "接发服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "与美容相关的咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电针脱毛美容",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供发型设计领域的信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "修眉服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "棉线修眉服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "室内温泉浴服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "室外温泉浴服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "穿耳孔服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供美容信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供公共浴池设施",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纹眉去除服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "脱毛服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "足部护理服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "激光去除纹身服务",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:56.942Z"
+}

@@ -1,0 +1,376 @@
+{
+  "groupCode": "1910",
+  "groupName": "非金属建筑物",
+  "classCode": "19",
+  "notes": [
+    "注：非金属旗杆（建筑物）与第十版及以前版本2003旗杆交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "非金属广告栏",
+          "code": "190001",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "棚屋",
+          "code": "190019",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "集市棚屋",
+          "code": "190020",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属电话间",
+          "code": "190041",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属电话亭",
+          "code": "190041",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "水下建筑工程用沉箱",
+          "code": "190042",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属建筑物",
+          "code": "190061",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属猪圈",
+          "code": "190084",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属牲畜棚",
+          "code": "190085",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属火箭发射台",
+          "code": "190108",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "可移动的非金属建筑物",
+          "code": "190119",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "合成材料制成的路标板和路标条",
+          "code": "190122",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属桅杆",
+          "code": "190124",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "不发光、非机械的非金属信号板",
+          "code": "190137",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "溜冰场（非金属结构）",
+          "code": "190139",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属跳水板",
+          "code": "190152",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属鸡房",
+          "code": "190156",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "（储液或储气用）砖石容器",
+          "code": "190160",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "不发光、非机械的非金属路牌",
+          "code": "190164",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "不发光、非机械的非金属标志",
+          "code": "190165",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "可移动的非金属温室",
+          "code": "190167",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属筒仓",
+          "code": "190169",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "凉亭（非金属结构）",
+          "code": "190175",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鸟舍（非金属结构）",
+          "code": "190184",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属下锚柱",
+          "code": "190187",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "船只停泊用非金属浮动船坞",
+          "code": "190188",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "水族池（建筑物）",
+          "code": "190190",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "不发光非金属信号台",
+          "code": "190195",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "游泳池（非金属结构）",
+          "code": "190196",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属制自行车停放架",
+          "code": "190199",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属制简易小屋",
+          "code": "190203",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "喷漆用非金属间",
+          "code": "190205",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "公路防撞用非金属护栏",
+          "code": "190227",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "砖石信箱",
+          "code": "190228",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属预制房（组装件）",
+          "code": "190243",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属旗杆（建筑物）",
+          "code": "190262",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属制移动式隔音亭",
+          "code": "190265",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属跳水台",
+          "code": "C190046",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "石灯笼（石头制庭院装饰物）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防撞用非金属护栏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属材料制花园棚",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属移动式建筑",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "砖石贮存容器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "便携式露台（非金属制）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用砖石制贮水容器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用可移动的非金属温室",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属人工鱼礁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属可移动建筑物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "便携式非金属堤坝",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贮液用砖石容器（工业用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可移动木建筑物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "不发光的非金属灯塔（塔状结构）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "预制原木房屋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "道路用非金属隔离栏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属鸟舍",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属地下仓库",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属预制隔音间",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用砖石制储水容器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "砖石储存容器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "储液用砖石容器（工业用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鸟戏水台（非金属结构）190194",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属预制房（成套组件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "（贮液或贮气用）砖石容器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鸟食台（非金属结构）",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:35.838Z"
+}

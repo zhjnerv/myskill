@@ -1,0 +1,905 @@
+{
+  "groupCode": "3702",
+  "groupName": "建筑工程服务",
+  "classCode": "37",
+  "notes": [
+    "注：本类似群与第八版及以前版本 3704 屋顶修复交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "铺沥青",
+          "code": "370005",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "推土机出租",
+          "code": "370013",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "建筑设备出租",
+          "code": "370020",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "建筑",
+          "code": "370029",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "水下建筑",
+          "code": "370030",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "拆除建筑物",
+          "code": "370036",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "仓库建筑和修理",
+          "code": "370041",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "建筑物防水",
+          "code": "370042",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "建筑物防潮",
+          "code": "370042",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "挖掘机出租",
+          "code": "370044",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "熔炉的安装与修理",
+          "code": "370047",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "工厂建造",
+          "code": "370052",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "建筑物隔热隔音",
+          "code": "370054",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "砖石建筑",
+          "code": "370059",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "码头防浪堤建筑",
+          "code": "370061",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "管道铺设和维护",
+          "code": "370063",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "用浮石磨光",
+          "code": "370069",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "粉刷",
+          "code": "370070",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "安装维修水管",
+          "code": "370071",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "港口建造",
+          "code": "370074",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铆接",
+          "code": "370081",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "清洗机出租",
+          "code": "370090",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "搭脚手架",
+          "code": "370093",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "砌砖",
+          "code": "370101",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铺路",
+          "code": "370109",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "用砂纸打磨",
+          "code": "370110",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "水下修理",
+          "code": "370111",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "商业摊位及商店的建筑",
+          "code": "370115",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "建筑用起重机出租",
+          "code": "370120",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "盖房顶",
+          "code": "370122",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "安装门窗",
+          "code": "370128",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电缆铺设",
+          "code": "370140",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非考古目的的废址挖掘",
+          "code": "370156",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铺设人工草皮",
+          "code": "370158",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "硬质景观建造服务",
+          "code": "370159",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "预制房屋的组装",
+          "code": "370173",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "商品房建造",
+          "code": "C370015",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "筑路",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钢结构建筑施工",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑物施工",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "安装维修水管服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "混凝土充填服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "混凝土找平服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑脚手架的安装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑物修缮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "脚手架施工",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "施工和建筑用平台的安装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "屋顶维修",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑整修",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑翻新和修复",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "地下室防水产品的安装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "混凝土抛光",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "石棉拆除",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑的修缮工作",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铺砖、砌砖或垒块",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑物填缝服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "输油管道建设",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "管道铺设服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化工厂修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "路面标线服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水泥灌浆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑物加固",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑物建造",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑物修复",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑物拆除",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑施工服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商店建筑",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "管道铺设",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "管道维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防潮服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电信布线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "输油管道铺设",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "安装窗户玻璃",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水下清淤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为路面标线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑物隔热层安装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "管道铺设咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "挖掘咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑物拆除咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "公寓翻新服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "管道安装咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "管道保养咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "管道修理咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机场建造",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医疗机构建造",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑机器和装置出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑手脚架、工作台和建筑平台的修理和维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为免拆除而对建筑进行的修理和维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑设备出租信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建造阳光房",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建造波浪能发电厂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建造水力发电厂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建造地热发电厂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建造风力发电厂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "雨水槽的安装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "挖掘服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "安装水管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "土方施工",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "混凝土施工",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电力工程建筑",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "疏浚",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "屋顶修复",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建防护堤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "房屋建筑",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑物保养和修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑物翻新",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "修理建筑物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "房屋建造",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "修理脚手架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "脚手架搭建",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑的施工和维修",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "管线铺设和施工",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "路面密封",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电信塔施工",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自动紧急出口的安装、维护和修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "桥梁的定制建造",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "地下室防水处理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "灌溉系统的安装和维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "安装栅栏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "安装化粪场",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "帐篷的安装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水下建筑和施工",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "给公路路面标线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "房屋的定制建造",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水坝建筑",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑用高空作业平台的出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铺路机出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "天然气输送结构的建造",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "银行金库建设",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "混凝土泵出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑用升降设备出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运河水闸建造",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "屋顶安装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "拆除桥梁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "混凝土搅拌机出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "管道安装和修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑物密封和勾缝服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "打桩服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "路面标线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建设输电线路",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建造购物中心",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建造运动竞技场",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非考古目的的建筑工地挖掘服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用砂纸打磨地板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "房屋涂刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建造露天平台",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建造门廊",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水上滑梯的安装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "雨水蓄水池的安装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自行车停放架的修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "隧道建造",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防火隔烟屏障的安装、维护和修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木地板安装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烟囱建造",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铁路轨道的安装、维护和修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "码头建筑",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑物维修",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "空心墙绝缘、隔热、隔音材料的安装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "管道安装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "安装干式墙板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建造住宅和商用建筑物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "油井套管、油井管以及钻杆的安装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "由杂务工提供的建筑物维护和修复",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供与建筑修缮相关的信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑物管路系统的安装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "核能发电厂维修保养的咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "桥梁维修",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "护土墙建造",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为提升能源效率进行建筑物翻新",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:13.296Z"
+}

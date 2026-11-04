@@ -1,0 +1,320 @@
+{
+  "groupCode": "3201",
+  "groupName": "啤酒",
+  "classCode": "32",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "啤酒",
+          "code": "320002",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "姜汁啤酒",
+          "code": "320003",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "麦芽啤酒",
+          "code": "320004",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "制啤酒用麦芽汁",
+          "code": "320005",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "以啤酒为主的鸡尾酒",
+          "code": "320052",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "大麦啤酒",
+          "code": "320059",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "香迪啤酒",
+          "code": "320062",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "无醇啤酒",
+          "code": "320065",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "酿造啤酒用冷冻啤酒花",
+          "code": "320067",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "酿造啤酒用啤酒花颗粒",
+          "code": "320068",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "酿造啤酒用干啤酒花",
+          "code": "320069",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "葡萄艾尔啤酒",
+          "code": "320071",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "制啤酒用蛇麻子汁",
+          "code": "320021",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "麦芽汁（发酵后成啤酒）",
+          "code": "320025",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "爱尔啤酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "淡色爱尔啤酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "咖啡味啤酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "精酿啤酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "印度爱尔啤酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "脱醇啤酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无酒精啤酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "已调味的啤酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "低酒精啤酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "小麦啤酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无酒精的啤酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "波特啤酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "黑啤酒（烘制麦芽啤酒）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烈性黑啤酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "调味啤酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "拉格啤酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蜂蜜啤酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "果味啤酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含酒精的啤酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "黑麦啤酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "混有碳酸柠檬汁的啤酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加柠檬汽水的啤酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加入食醋的啤酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "姜汁淡啤酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "麦芽汁啤酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冰啤酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "菠萝味啤酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "不含酒精的啤酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "低醇啤酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "柠檬味啤酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "瓶装啤酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "起泡沫的啤酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "全麦芽啤酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生啤酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手拉式罐装啤酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "熟啤酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制啤酒小麦芽汁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "啤酒（无酒精）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生产啤酒的麦芽浓缩汁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "以麦芽为主要原料酿制而成的啤酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于生产啤酒的蛇麻草萃取物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蔬菜味啤酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "苹果味啤酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "酿造啤酒用啤酒花球果",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:56.081Z"
+}

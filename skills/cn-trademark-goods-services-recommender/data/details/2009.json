@@ -1,0 +1,163 @@
+{
+  "groupCode": "2009",
+  "groupName": "禽、畜等动物用制品",
+  "classCode": "20",
+  "notes": [
+    "注：本类似群与2114第（一）部分商品类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "蜂箱",
+          "code": "200001",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "家养宠物用床",
+          "code": "200007",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "家养宠物栖息箱",
+          "code": "200008",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "家养宠物窝",
+          "code": "200009",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蜂箱用人造蜂房",
+          "code": "200039",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蜂箱用木格子",
+          "code": "200040",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "狗窝",
+          "code": "200058",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "巢箱",
+          "code": "200109",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "饲料架",
+          "code": "200117",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "猫用磨爪杆",
+          "code": "200264",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "宠物靠垫",
+          "code": "200271",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属制狗便袋分配器",
+          "code": "200295",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鸟巢",
+          "code": "200312",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "宠物箱用衬垫",
+          "code": "200356",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "猫爬架",
+          "code": "200371",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "动物箱巢",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宠物用充气床",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "狗用床",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "猫用床",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宠物美容台",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宠物用枕头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宠物用沙发",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蜂箱用巢础",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属制固定式狗用垃圾袋分配器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宠物抓板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宠物抓挠盒",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:44.065Z"
+}

@@ -1,0 +1,108 @@
+{
+  "groupCode": "4001",
+  "groupName": "综合加工及提供信息服务",
+  "classCode": "40",
+  "notes": [
+    "注: 1.打磨与4002，4004，4006，4007类似；",
+    "2.碾磨加工与4002，4008，4015药材加工类似；",
+    "3.层压与4002，4004类似；",
+    "4.研磨，研磨抛光，喷砂处理服务与4002，4006，4007类似；",
+    "5. 材料刨削处理，材料锯切服务与4002、4004、4006类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "打磨",
+          "code": "400001",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "层压",
+          "code": "400040",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "研磨",
+          "code": "400041",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "研磨抛光",
+          "code": "400048",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "材料刨削处理",
+          "code": "400050",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "材料锯切服务",
+          "code": "400052",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "定做材料装配（为他人）",
+          "code": "400083",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "提供材料处理信息",
+          "code": "400087",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "材料硫化处理",
+          "code": "400101",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "喷砂处理服务",
+          "code": "400122",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "碾磨加工_",
+          "code": "C400006",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "碾磨加工C400006",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用激光束处理材料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "喷钢砂服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "材料处理信息",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:31.574Z"
+}

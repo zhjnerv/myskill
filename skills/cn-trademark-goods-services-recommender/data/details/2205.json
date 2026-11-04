@@ -1,0 +1,420 @@
+{
+  "groupCode": "2205",
+  "groupName": "纤维原料",
+  "classCode": "22",
+  "notes": [
+    "注：本类似群与第十版及以前版本 2107 猪鬃交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "木丝",
+          "code": "220005",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "生丝",
+          "code": "220008",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纤维纺织原料",
+          "code": "220010",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "驼毛",
+          "code": "220012",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "麻纤维",
+          "code": "220013",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "短麻屑",
+          "code": "220014",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "绢丝（废生丝）",
+          "code": "220016",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "废丝",
+          "code": "220016",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "椰子纤维",
+          "code": "220018",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "茧",
+          "code": "220019",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "未加工棉花",
+          "code": "220025",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "棉纤维束",
+          "code": "220026",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "马毛*",
+          "code": "220027",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纺织用石英纤维",
+          "code": "220037",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "丝绵",
+          "code": "220040",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "羊毛絮",
+          "code": "220041",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "黄麻",
+          "code": "220046",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "木棉",
+          "code": "220047",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "未加工或已处理过的羊毛",
+          "code": "220050",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "机梳羊毛",
+          "code": "220051",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "精梳羊毛",
+          "code": "220052",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "韧皮（植）",
+          "code": "220054",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "生亚麻（亚麻纤维）",
+          "code": "220056",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "兽毛",
+          "code": "220065",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "苎麻纤维",
+          "code": "220066",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "酒椰叶纤维",
+          "code": "220067",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "羊毛",
+          "code": "220072",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "剪下的羊毛",
+          "code": "220073",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纺织纤维",
+          "code": "220076",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "剑麻",
+          "code": "220077",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纺织用碳纤维",
+          "code": "220087",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纺织品用塑料纤维",
+          "code": "220092",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纺织用玻璃纤维",
+          "code": "220093",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "棉籽绒",
+          "code": "220101",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "猪鬃*",
+          "code": "220114",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纺织用涤纶短纤",
+          "code": "220124",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "装潢填充用聚酯纤维",
+          "code": "220126",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "貉毛（非纺织、非制刷用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家畜毛发（非纺织、非制刷用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木丝（木质细刨花）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "安哥拉山羊毛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "半合成纤维（纺织用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非纺织、非制刷用马毛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "苎麻纤维（原料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工酒椰纤维",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "亚麻纤维（原料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "羊毛（原材料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工的纺织纤维",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "兔毛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "丝纤维",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺织用化学纤维",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺织用合成纤维",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "棉纤维",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "羊驼毛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非制刷用猪鬃",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺织用聚酯纤维",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺织用金属纤维",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "粗兽毛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "黄麻纤维（原料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "真麻纤维（原料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "剑麻纤维（未加工的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "剑麻纤维",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺织用长丝",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺织用矽玻璃纤维",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工或加工过的羊毛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺织用碳化纤维",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马毛（非纺织、非制刷用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蚕茧",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "羊绒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺织用塑料纤维",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "玻璃纤维（纺织用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺织用纤维原料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺织用陶瓷纤维",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:58.764Z"
+}

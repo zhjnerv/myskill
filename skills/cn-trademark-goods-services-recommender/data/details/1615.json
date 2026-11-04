@@ -1,0 +1,210 @@
+{
+  "groupCode": "1615",
+  "groupName": "办公或家庭用胶带或粘合剂",
+  "classCode": "16",
+  "notes": [
+    "注：本类似群与 1611 文具，学校用品（文具），办公文具类似，与第十一版及以前版本1611 家具除外的办公必需品，第十版及以前版本1611 粘贴物（文具）交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "胶带分配器（办公用品）",
+          "code": "160003",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "文具用胶带",
+          "code": "160036",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "文具用密封化合物",
+          "code": "160057",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "文具或家用黏合剂（胶水）",
+          "code": "160265",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "文具或家用胶带",
+          "code": "160266",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "办公或家用淀粉浆糊（黏粘剂）",
+          "code": "160271",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "文具或家用自粘胶带",
+          "code": "160274",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "文具或家用胶",
+          "code": "160290",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "文具或家用浆糊",
+          "code": "160290",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "文具用或家用树胶（黏合剂）",
+          "code": "160311",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "文具胶布",
+          "code": "160312",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "文具用或家用鱼胶黏合剂",
+          "code": "160313",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "文具或家用明胶胶水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用双面胶带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "胶水笔（文具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "文具或家用海藻胶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "文具或家用阿拉伯胶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "办公用胶水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "办公用胶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "办公用淀粉浆糊",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "文具或家用乳胶胶水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "文具用海藻胶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "文具用橡胶胶水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手工艺、办公或家用浆糊",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "文具用闪光胶水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "办公室用胶水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "办公或家用淀粉浆糊（黏合剂）160271",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "文具和家用黏合剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "文具或家用塑料黏合剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "黏合剂（文具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "文具和家用自黏胶带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "文具或家用胶水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "办公用胶带自动分配器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "文具或家用胶条",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用和办公用涂胶机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用速干胶",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:18.157Z"
+}

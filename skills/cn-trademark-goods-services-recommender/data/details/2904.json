@@ -1,0 +1,863 @@
+{
+  "groupCode": "2904",
+  "groupName": "腌渍、干制水果及果蔬制零食小吃",
+  "classCode": "29",
+  "notes": [
+    "注：1.本类似群各部分之间商品不类似；",
+    "2.食用花粉与3103花粉（原材料）类似；",
+    "3.第（一）部分与第八版及以前版本 3010 膨化土豆片交叉检索；",
+    "4.第（一）部分与第八版及以前版本 3010 膨化水果片、蔬菜片交叉检索；",
+    "5.跨类似群保护商品：以果蔬为主的零食小吃（2904第（一）部分，2911）。",
+    "6.第（一）部分与第十版及以前版本 2909 水果色拉交叉检索；",
+    "7.第（一）部分与第十版及以前版本 3007 椰茸，莲茸，芝麻茸，豆沙交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "（一）",
+      "items": [
+        {
+          "name": "腌制水果",
+          "code": "290017",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "脱水椰子",
+          "code": "290021",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "冷冻水果",
+          "code": "290025",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "葡萄干",
+          "code": "290027",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "水果蜜饯",
+          "code": "290035",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "糖渍水果",
+          "code": "290035",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "加工过的椰枣",
+          "code": "290038",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "炖熟的水果",
+          "code": "290043",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "水果冻抹酱",
+          "code": "290044",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "果肉",
+          "code": "290045",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "腌橄榄",
+          "code": "290090",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "水果色拉",
+          "code": "290104",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "果皮",
+          "code": "290115",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "碎杏仁",
+          "code": "290117",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "水果脆片",
+          "code": "290131",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "水果片",
+          "code": "290131",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "浸酒的水果",
+          "code": "290133",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "食用花粉",
+          "code": "290134",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "以水果为主的零食小吃",
+          "code": "290160",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "糖煮水果",
+          "code": "290179",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "加工过的水果制成的拼盘",
+          "code": "290191",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "腌制浆果",
+          "code": "290198",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "压制成型的果泥",
+          "code": "290229",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "加工过的水果",
+          "code": "290237",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "糖姜",
+          "code": "290256",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "奶油浆果泥",
+          "code": "290260",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "以蔬菜为主的零食小吃",
+          "code": "290265",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "切好的水果",
+          "code": "290269",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "以海藻为主的零食小吃",
+          "code": "290273",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "油炸土豆片（零食小吃）",
+          "code": "290019",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "薯片",
+          "code": "290019",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "低脂炸土豆片（零食小吃）",
+          "code": "290176",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "低脂薯片",
+          "code": "290176",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "花生酱",
+          "code": "290007",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "果酱",
+          "code": "290024",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "柑橘酱",
+          "code": "290079",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "苹果泥",
+          "code": "290155",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "蔓越莓蜜饯",
+          "code": "290156",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "白芝麻酱",
+          "code": "290157",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "鹰嘴豆泥",
+          "code": "290158",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "鳄梨酱",
+          "code": "290199",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "坚果制抹酱",
+          "code": "290212",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "桂花",
+          "code": "C290028",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "青丝",
+          "code": "C290029",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "红丝",
+          "code": "C290030",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "糖玫瑰",
+          "code": "C290031",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "柿饼",
+          "code": "C290032",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "百合干",
+          "code": "C290033",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "柑饼",
+          "code": "C290034",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "干桂圆",
+          "code": "C290035",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "陈皮梅",
+          "code": "C290036",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "话梅",
+          "code": "C290037",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "干荔枝",
+          "code": "C290038",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "山楂片",
+          "code": "C290039",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "桂花姜",
+          "code": "C290040",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "莲子",
+          "code": "C290041",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "干枣",
+          "code": "C290042",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "以果蔬为主的零食小吃",
+          "code": "C290093",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "椰蓉",
+          "code": "C290099",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "莲蓉",
+          "code": "C290100",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "芝麻蓉",
+          "code": "C290101",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "豆沙",
+          "code": "C290107",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "芝麻酱",
+          "code": "C290115",
+          "type": "marked",
+          "section": "（一）"
+        }
+      ]
+    },
+    {
+      "label": "（二）",
+      "items": [
+        {
+          "name": "加工过的槟榔",
+          "code": "C290094",
+          "type": "standard",
+          "section": "（二）"
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "西梅干",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加工过的橄榄",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水果干",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "混合水果干",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "橄榄酱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无花果干",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "土豆条",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "炸薯条",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "油炸土豆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "椰丝",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "椰子粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "菠萝干",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "草莓干",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "发酵的水果",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加工过的椰肉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "苹果酱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "苹果片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加工过的橙子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加工过的荔枝",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "香蕉片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "煮熟的橄榄",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木瓜干",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木薯薯片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水果皮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "榴莲干",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "桃片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "芒果干",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "猕猴桃片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "干橄榄",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "羽衣甘蓝脆片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加工过的苹果",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蜜饯水果",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木薯片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用松花粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "酒渍水果",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冷冻炸薯条",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "柠檬酱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "果脯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "番茄蜜饯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "即食薯泥",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加工过的鳄梨",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蔓越莓干",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "磨碎的杏仁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加工过的桃子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "炸土豆饼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "粉状果仁酱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "磨碎的马铃薯块",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水果干粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加工过的杏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "苹果酱（蜜饯）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马铃薯丸子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "桔饼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蔓越莓果酱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "紫薯片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "炸薯格",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蓝莓果酱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水果抹酱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蓝莓干",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "果泥皮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "以甜玉米粒为主的零食小吃",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蔓越莓果酱（蜜饯）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马铃薯薯条",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水果慕斯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "越橘果酱（蜜饯）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "坚果酱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冷冻薯条",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "膨化蔬菜片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "膨化水果片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "膨化土豆片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "枣泥",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "西瓜酱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蔬菜脆片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水果果酱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "腌渍水果",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蛋糕和馅饼用水果馅料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "干椰枣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水果泥",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "桑葚干",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "以土豆为主的零食小吃",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加工过的桑椹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "油炸山药薄片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "低脂土豆片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "糊状山梨豆（鹰嘴豆酱）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鳄梨酱（捣碎的鳄梨）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "速冻水果",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "以魔芋为主的零食小吃",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "榛子抹酱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "梨蜜饯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "脱水水果",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "以红薯为主的零食小吃",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:32.731Z"
+}

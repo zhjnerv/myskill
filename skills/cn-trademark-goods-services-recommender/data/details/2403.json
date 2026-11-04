@@ -1,0 +1,71 @@
+{
+  "groupCode": "2403",
+  "groupName": "纺织品壁挂",
+  "classCode": "24",
+  "notes": [
+    "注：纺织品制墙上挂毯，纺织品制壁挂与2701商品，2704非纺织品制壁挂类似，与第十版及以前版本非纺织品制墙上挂毯，非纺织品制壁毯，第九版及以前版本非纺织品壁挂，非纺织品制墙帷，非纺织品挂毯（墙上挂帘帷）交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "纺织品制墙上挂毯",
+          "code": "240103",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纺织品制壁挂",
+          "code": "240103",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "丝织、交织图画",
+          "code": "C240021",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "织锦人像",
+          "code": "C240022",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "丝绒绢画",
+          "code": "C240023",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "剪绢画",
+          "code": "C240024",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "手绣、机绣图画",
+          "code": "C240025",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "丝织美术品",
+          "code": "C240026",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "纺织品挂毯",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:02.313Z"
+}

@@ -1,0 +1,479 @@
+{
+  "groupCode": "1003",
+  "groupName": "医疗用电子、核子、电疗和Ｘ光设备",
+  "classCode": "10",
+  "notes": [
+    "注:1. 医用电热垫，医用电热毯与1111非医用电加热垫，非医用电热毯类似，与第九版及以前版本1111非医用电毯，非医用电加热垫(衬垫)，电热毯交叉检索；",
+    "2.医用紫外线灯与 1101 第（三）部分类似；",
+    "3.本类似群与 1001 医疗器械和仪器，医用诊断设备，医学实验室用医用诊断设备类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "医用镭管",
+          "code": "100017",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用电刺激带",
+          "code": "100023",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用X光装置",
+          "code": "100024",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用电热垫",
+          "code": "100050",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电热敷布（外科）",
+          "code": "100059",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用放射屏幕",
+          "code": "100083",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "心电图描记器",
+          "code": "100084",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电疗器械",
+          "code": "100091",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用紫外线灯",
+          "code": "100105",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用激光器",
+          "code": "100106",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用X光产生装置和设备",
+          "code": "100131",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用X光照片",
+          "code": "100132",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用放射设备",
+          "code": "100133",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "放射医疗设备",
+          "code": "100134",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用X光管",
+          "code": "100136",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用X光防护装置",
+          "code": "100137",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用电极",
+          "code": "100174",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用带（电）",
+          "code": "100175",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用紫外线过滤器",
+          "code": "100181",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用电热毯",
+          "code": "100191",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "理疗设备",
+          "code": "100196",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电子针灸仪",
+          "code": "100202",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用断层扫描仪",
+          "code": "100227",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "心率监测设备",
+          "code": "100232",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用磁共振成像（MRI）装置",
+          "code": "100258",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用固化灯",
+          "code": "100274",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "LED光疗面罩",
+          "code": "100284",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "治疗脱发用激光治疗头盔",
+          "code": "100287",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "面部美容电子治疗仪（非蒸脸仪）",
+          "code": "100304",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "超声波面部美容治疗仪",
+          "code": "100304",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "LED面部美容治疗仪",
+          "code": "100315",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用超声成像设备",
+          "code": "100320",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医疗用超声器械",
+          "code": "C100007",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "诊断和治疗期同位素设备和器械",
+          "code": "C100008",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "生物组织间质热疗用医疗器械",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "放射同位素治疗器械和仪器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "血压监测仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "脑电图扫描仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "超声波治疗装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "磁共振成像诊断仪器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "动态心电监测仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "核磁共振成像诊断设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "外科用激光器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用电子温度监测器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用热疗装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用超声设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用电子神经刺激器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "放射治疗用测定放射量的医疗器械",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用伽马相机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "胎儿脉搏监测仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙科和医学用X光装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗用水银弧光灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗用红外线辐射装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "低频电治疗仪器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高频电磁治疗设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "磁疗器械",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医疗放射设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙科成像用X光仪器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用超声诊断装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "外科用电烧灼器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗用紫外线放射装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "静电治疗仪器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗用碳棒弧光灯装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用电子肌肉刺激器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "兽医用超声设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用激光手术刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "全身CT扫描机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "美容用激光器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用热疗灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "兽医用心电图描记器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙科用激光器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "眼科用激光器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "心电探头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用电泳仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "心电电极",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用磁场发生器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用激光指示器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮肤治疗用激光器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用红外线灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医疗用脑机接口电极",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用单光子发射计算机断层成像扫描仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用光学脑成像仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "口腔扫描仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙科CT扫描仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用超声脑功能成像仪",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:44.713Z"
+}

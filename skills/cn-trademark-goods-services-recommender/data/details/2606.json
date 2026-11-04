@@ -1,0 +1,132 @@
+{
+  "groupCode": "2606",
+  "groupName": "假花",
+  "classCode": "26",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "人造花",
+          "code": "260059",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "人造水果",
+          "code": "260061",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "人造花环",
+          "code": "260065",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "人造花制花环",
+          "code": "260099",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "除圣诞树以外的人造植物",
+          "code": "260129",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "人造圣诞花环",
+          "code": "260135",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "带灯饰的人造花环",
+          "code": "260136",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "带灯饰的人造圣诞花环",
+          "code": "260136",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "带灯饰的人造花制圣诞花环",
+          "code": "260138",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "带灯饰的人造花制花环",
+          "code": "260138",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "人造盆景",
+          "code": "C260021",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "人造蔬菜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "塑料制人造花",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "室外人造树叶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人造树木（圣诞树除外）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸制人造花",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人造灌木",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "服饰用人造小花",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺织品制人造花",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "绢花",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人造盆景树",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:17.479Z"
+}

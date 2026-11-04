@@ -1,0 +1,50 @@
+{
+  "groupCode": "0406",
+  "groupName": "吸收、润湿和粘结灰尘用合成物",
+  "classCode": "04",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "清扫用黏结灰尘合成物",
+          "code": "040012",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "除尘制剂",
+          "code": "040038",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "沉积灰尘用合成物",
+          "code": "040079",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "吸收灰尘用合成物",
+          "code": "040109",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "石油基抑尘合成物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "黏尘合成物",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:28.102Z"
+}

@@ -1,0 +1,70 @@
+{
+  "groupCode": "1103",
+  "groupName": "汽灯，油灯",
+  "classCode": "11",
+  "notes": [
+    "注：本类似群商品与1101第（一）部分的灯，照明器械及装置类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "乙炔灯",
+          "code": "110005",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "煤气灯罩",
+          "code": "110042",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "油灯灯头",
+          "code": "110044",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "火炬",
+          "code": "110148",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "煤油灯罩",
+          "code": "110092",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "煤气灯",
+          "code": "110163",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "油灯",
+          "code": "110179",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "煤油灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "瓷油灯",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:50.601Z"
+}

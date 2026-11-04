@@ -1,0 +1,57 @@
+{
+  "groupCode": "0746",
+  "groupName": "气体分离设备",
+  "classCode": "07",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "电解制气机",
+          "code": "070591",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "气体分离设备",
+          "code": "C070334",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "制氧、制氮设备",
+          "code": "C070335",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "稀有气体提取设备",
+          "code": "C070336",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "气体液化设备",
+          "code": "C070337",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "生产二氧化碳设备",
+          "code": "C070338",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "气体发生用电解机",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:16.162Z"
+}

@@ -1,0 +1,278 @@
+{
+  "groupCode": "3504",
+  "groupName": "人事管理辅助业",
+  "classCode": "35",
+  "notes": [
+    "注：1.为挑选人才而进行的心理测试与第七版及以前版本4203心理测试服务交叉检索；",
+    "2.表演艺术家经纪与第十一版及以前版本3605经纪交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "职业介绍",
+          "code": "350012",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "人事管理咨询",
+          "code": "350019",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "人员招聘",
+          "code": "350068",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "演员的商业管理",
+          "code": "350079",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "为挑选人才而进行的心理测试",
+          "code": "350090",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运动员的商业管理",
+          "code": "350105",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "自由职业者的商业管理",
+          "code": "350115",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "为客户匹配各种专业人员的商业中介服务",
+          "code": "350167",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "表演艺术家经纪",
+          "code": "C350005",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "（被解雇后的）新职介绍服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人事管理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人力资源管理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "介绍工作",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工作和人员的安排",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "办公室后勤人员的招聘服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "面向互惠生的职业介绍服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供就业咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "职员安置服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人员安置和招收",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人力资源咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "就业招聘服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "职业安置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "临时职业介绍所",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "演员的管理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "专业运动员的管理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "职业安置咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过心理测试挑选人才",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "员工职务调整",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "职位查找和就业介绍服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人员安置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人事咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供就业信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人员招收咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人员招收服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "职业介绍所",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人员招收和职业介绍所",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "确定工人综合技能和其他职位要求的工作分析服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "职业介绍所服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "专业劳务派遣服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人才中介（管理或职业介绍）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家政人员招聘辅助",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "雇员配置咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人员招收",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "招聘咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "实习安置服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "员工派遣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "员工意见调查",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "儿童保姆工作安排服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "演员就业与管理方面的人才经纪服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高级管理人员选拔服务",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:04.478Z"
+}

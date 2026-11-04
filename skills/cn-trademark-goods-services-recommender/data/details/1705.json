@@ -1,0 +1,346 @@
+{
+  "groupCode": "1705",
+  "groupName": "保温、隔热、隔音材料",
+  "classCode": "17",
+  "notes": [
+    "注:1.本类似群各部分之间商品不类似；",
+    "2.跨类似群保护商品:绝缘、 隔热、 隔音用材料(1705 第(一)部分,1706),绝缘、隔热、隔音用毡(1705 第(一)部分,1706),绝缘、隔热、隔音用织物(1705 第(一)部分,1706),绝缘、 隔热、 隔音用金属箔(1705第(一)部分,1706),绝缘、隔热、隔音用矿渣棉(1705 第(一)部分,1706),绝缘、隔热、隔音用矿棉(1705 第(一)部分,1706),绝缘、隔热、隔音用玻璃棉(1705 第(一)部分,1706),绝缘、 隔热、 隔音用物体(1705第(一)部分,1706),绝缘、隔热、隔音用玻璃纤维(1705 第(一)部分,1706),绝缘、隔热、隔音用玻璃纤维织物(1705 第(一)部分,1706),绝缘、隔热、隔音用石膏(1705 第(一)部分,1706),绝缘、隔热、隔音用聚酯短纤维(1705第(一)部分,1706)；",
+    "3.第(一)部分与第八版及以前版本 1707 石棉包装材料交叉检索；",
+    "4.防水隔热粉与 0205防水粉(涂料)类似;",
+    "5.隔热耐火材料与1907商品类似。"
+  ],
+  "sections": [
+    {
+      "label": "（一）",
+      "items": [
+        {
+          "name": "石棉防火幕",
+          "code": "170003",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "石棉石板",
+          "code": "170005",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "保温用非导热材料",
+          "code": "170016",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "防热辐射合成物",
+          "code": "170024",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "锅炉隔热材料",
+          "code": "170026",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "石棉板",
+          "code": "170035",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "石棉毡",
+          "code": "170044",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "建筑防潮材料",
+          "code": "170058",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "石棉纸",
+          "code": "170071",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "石棉遮盖物",
+          "code": "170078",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "石棉织物",
+          "code": "170079",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "石棉布",
+          "code": "170080",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "石棉包装材料",
+          "code": "170081",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "石棉厚纸板",
+          "code": "170087",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "石棉纤维",
+          "code": "170088",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "石棉",
+          "code": "170091",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "绝缘、隔热、隔音用材料",
+          "code": "170023",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "绝缘、隔热、隔音用毡",
+          "code": "170045",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "绝缘、隔热、隔音用织物",
+          "code": "170056",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "绝缘、隔热、隔音用金属箔",
+          "code": "170059",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "绝缘、隔热、隔音用矿渣棉",
+          "code": "170061",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "绝缘、隔热、隔音用矿棉",
+          "code": "170062",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "绝缘、隔热、隔音用玻璃棉",
+          "code": "170063",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "绝缘、隔热、隔音用物体",
+          "code": "170099",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "绝缘、隔热、隔音用玻璃纤维",
+          "code": "170103",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "绝缘、隔热、隔音用玻璃纤维织物",
+          "code": "170104",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "绝缘、隔热、隔音用石膏",
+          "code": "170110",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "隔热耐火材料",
+          "code": "170116",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "声学绝缘材料",
+          "code": "170135",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "绝缘、隔热、隔音用聚酯短纤维",
+          "code": "170140",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "隔音材料",
+          "code": "170008",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "隔音用树皮板",
+          "code": "170037",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "石棉绳",
+          "code": "C170017",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "石棉粉",
+          "code": "C170018",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "玻璃纤维保温板和管",
+          "code": "C170019",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "防水隔热粉",
+          "code": "C170020",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "石棉线",
+          "code": "C170028",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "石棉带",
+          "code": "C170029",
+          "type": "marked",
+          "section": "（一）"
+        }
+      ]
+    },
+    {
+      "label": "（二）",
+      "items": [
+        {
+          "name": "防污染的浮动障碍物",
+          "code": "170108",
+          "type": "standard",
+          "section": "（二）"
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "阀门用石棉垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "消音用膨胀闭孔泡沫橡胶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "吸音毯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "隔音屏障板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "绝缘、隔热、隔音用石墨板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "石棉线和绳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "塑料拦油栅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "石棉纱线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "石棉网",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水加热器用隔热毯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非建筑物用隔热耐火材料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非建筑物用隔热材料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非纺织用石棉纱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "绝缘、隔热、隔音用竹纤维",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "隔热用金属箔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "隔音板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "岩棉制隔音材料（非建筑用）",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:24.498Z"
+}

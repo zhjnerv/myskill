@@ -1,0 +1,316 @@
+{
+  "groupCode": "1601",
+  "groupName": "工业用纸",
+  "classCode": "16",
+  "notes": [
+    "注：纸与 1602，1603，1604，1605，1609 第一自然段类似，与第十版及以前版本 1615 不干胶纸交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "纸*",
+          "code": "160006",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "混凝纸",
+          "code": "160191",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "羊皮纸",
+          "code": "160210",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纸带（非缝纫用品、非发饰）",
+          "code": "160244",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "木浆纸",
+          "code": "160279",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "和纸",
+          "code": "160372",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纱纸",
+          "code": "160408",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "砂管纸",
+          "code": "C160001",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "塑料贴面底层纸",
+          "code": "C160002",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "纸粕辊纸（包括羊毛纸、石棉纸、棉料纸）",
+          "code": "C160003",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "印刷纸（包括胶版纸、新闻纸、书刊用纸、证券纸、凹版纸、凸版纸）",
+          "code": "C160004",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "精布轮纸",
+          "code": "C160005",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "膏药纸",
+          "code": "C160006",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "制版纸",
+          "code": "C160007",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "铜版纸",
+          "code": "C160008",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "钢纸原纸",
+          "code": "C160009",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "油毡原纸",
+          "code": "C160010",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "植绒纸",
+          "code": "C160011",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "仿皮纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "包装袋用纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "合成纤维纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数码印刷纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "杂志用纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "明信片纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "层压纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "再生纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "圣经纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "胶版纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸伞用油纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "薄纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蜡纸用薄纸材料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "小册子用胶版印刷纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "楮皮纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日式室内拉门用纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日式房屋的拉门或拉窗用纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "楮纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "育苗纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防霉纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新闻纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纤维纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无碳纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蜂窝纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "印刷纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "证券纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防油纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "半加工纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "奉书纸（厚和纸）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "和纸（日本纸）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鸟子纸（淡黄色的上等和纸）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "油纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "白板纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硬币包装纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "葱皮纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马尼拉纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "转印纸",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:10.446Z"
+}

@@ -1,0 +1,307 @@
+{
+  "groupCode": "1209",
+  "groupName": "空用运载工具（不包括飞机轮胎）",
+  "classCode": "12",
+  "notes": [
+    "注：1.降落伞与2807滑翔伞类似；",
+    "2.跨类似群保护商品：陆、空、水或铁路用机动运载器（1201，1202，1204第（一）部分，1209，1210）；遥控运载工具（非玩具）（1201，1202，1205，1209，1210）；",
+    "3.本类似群商品与1211商品类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "空中运载工具",
+          "code": "120005",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "热气球",
+          "code": "120006",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "水陆两用飞机",
+          "code": "120012",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "飞机",
+          "code": "120027",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "飞艇",
+          "code": "120030",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "降落伞",
+          "code": "120113",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "空间运载工具",
+          "code": "120117",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "水上飞机",
+          "code": "120134",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "水上滑行艇",
+          "code": "120135",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "航空器",
+          "code": "120184",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "陆、空、水或铁路用机动运载工具",
+          "code": "120193",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "航空装置、机器和设备",
+          "code": "120203",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "飞机的弹射座椅",
+          "code": "120223",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "遥控运载工具（非玩具）",
+          "code": "120257",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "军用无人机",
+          "code": "120273",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "民用无人机",
+          "code": "120275",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "摄影无人机",
+          "code": "120301",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "送货用无人机",
+          "code": "120313",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "小型遥控摄影无人机",
+          "code": "120314",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "旋翼机",
+          "code": "120315",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "直升机",
+          "code": "120316",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "登机用引桥",
+          "code": "C120006",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "侧旋翼飞机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "涡轮螺旋桨式飞机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "螺旋桨飞机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "直升飞机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "旋翼飞机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "涡轮喷气式飞机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "滑翔机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "飞机起落架轮子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "降落伞背带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "航空器起落架轮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "航空器用机翼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "航拍无人机（非玩具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "航空器起落架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动力航空器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "飞行员弹射座椅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "拦阻车辆运动用降落伞",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "超轻型飞机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "飞机座椅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "飞机螺旋桨",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "航空器机身",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无人驾驶飞机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "轻型飞机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "喷气式飞机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "飞机机身",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具用螺旋桨",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "直升机旋翼桨叶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "航空器油箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高空跳伞用降落伞",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "倾斜旋翼航空器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "飞船",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "飞机机身结构件",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:02.209Z"
+}

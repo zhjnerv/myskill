@@ -1,0 +1,491 @@
+{
+  "groupCode": "0709",
+  "groupName": "食品工业用机械及部件",
+  "classCode": "07",
+  "notes": [
+    "注:1. 食品包装机与0721包装机，包装机械类似；",
+    "2. 本类似群与第八版及以前版本0753混合机(机器)，搅拌机，搅拌机(机器)，工业用切碎机(机器)交叉检索；",
+    "3. 跨类似群保护商品:搅动机(0709，0723，0733);搅拌机(0709，0723，0733);混合机(机器)(0709，0723，0733);工业用切碎机(机器)(0702 第(二)部分，0709，0752);磨粉机(机器)(0709，0725);瓶子冲冼机(0709，0710);离心碾磨机(0709，0723，0725)；电动榨果汁机(0709，0710，0723)；碾碎机（0709，0733，0752）；电动绞肉机（0709，0723），电动碎肉机（0709，0723）。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "搅动机",
+          "code": "070007",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "搅拌机",
+          "code": "070026",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "搅乳器",
+          "code": "070038",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "磨粉机（机器）",
+          "code": "070042",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "奶油机",
+          "code": "070046",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "瓶子冲洗机",
+          "code": "070065",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "乳脂分离器",
+          "code": "070083",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "离心碾磨机",
+          "code": "070087",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电动绞肉机",
+          "code": "070211",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电动碎肉机",
+          "code": "070211",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "制酪机",
+          "code": "070222",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "石磨",
+          "code": "070262",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "磨面机",
+          "code": "070266",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "混合机（机器）",
+          "code": "070267",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "切面包机",
+          "code": "070288",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "和面机",
+          "code": "070295",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电动意式面食制作机",
+          "code": "070296",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "制香肠机",
+          "code": "070346",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "制糖机",
+          "code": "070356",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "工业用切碎机（机器）",
+          "code": "070419",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "制食品用电动机械",
+          "code": "070423",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "削皮机",
+          "code": "070454",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蔬菜轧碎机",
+          "code": "070455",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "篮式压榨机",
+          "code": "070533",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "碾碎机",
+          "code": "070561",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电动榨果汁机",
+          "code": "070565",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "酱油制造机",
+          "code": "070609",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "味噌制造机",
+          "code": "070610",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "水果去核机",
+          "code": "070620",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "碾米机",
+          "code": "C070098",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "压面机",
+          "code": "C070100",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "切面机",
+          "code": "C070101",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "饼干印形机",
+          "code": "C070102",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "粉条机",
+          "code": "C070103",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "馒头机",
+          "code": "C070105",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "包饺子机",
+          "code": "C070106",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "榨油机",
+          "code": "C070107",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "甘蔗压榨机",
+          "code": "C070108",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "罐头工业用机器设备",
+          "code": "C070109",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "洗罐机",
+          "code": "C070110",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "豆芽机",
+          "code": "C070111",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "水果剥皮机",
+          "code": "C070112",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "胶体磨（食品工业用）",
+          "code": "C070113",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "食品包装机",
+          "code": "C070114",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "屠宰机",
+          "code": "C070116",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "食品工业用磨浆机",
+          "code": "C070370",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "罐头加工机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动榨汁机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鱼酱制作机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "奶酪制造机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食品自动包装机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水果清洗机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "干鱼肉压片机（鲣鱼片制造机）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "咖啡萃取机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商业用食品切割机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "肉加工机器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用压榨机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牛奶过滤机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "糖果制造机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商业用食物剥皮机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制面条机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "精碾米机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "块根切片机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "大麦碾压机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制炼乳机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用海带加工机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牛奶均质机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "奶粉制造机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用酱制造机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商业用食品切碎机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商业用食品切片机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "大米抛光机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动碾磨机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制意式面食机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食品搅拌机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制食用酱机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动食物搅拌机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "旋转碾碎机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用电动红枣去核器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动包饺子机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "绞肉机（机械）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "碎肉机（机械）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动制面条机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动磨面机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动水果削皮机",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:53.977Z"
+}

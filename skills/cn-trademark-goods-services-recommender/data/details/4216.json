@@ -1,0 +1,135 @@
+{
+  "groupCode": "4216",
+  "groupName": "外观设计服务",
+  "classCode": "42",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "工业品外观设计",
+          "code": "420049",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "包装设计",
+          "code": "420050",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "造型（工业品外观设计）",
+          "code": "420165",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "产品原型设计",
+          "code": "420266",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "玩具设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电话设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "移动电话设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业品外观设计服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工具设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "包装材料的设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "包装设计服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "衣柜设计服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手表设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "尿素生产设备的设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人进行包装设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "书籍封面的平面设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车外观设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手机外观设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机辅助工业设计服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电路板设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "管道设计",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:49.452Z"
+}

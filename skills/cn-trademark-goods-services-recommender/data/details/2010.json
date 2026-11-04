@@ -1,0 +1,23 @@
+{
+  "groupCode": "2010",
+  "groupName": "非金属制身份鉴别手环",
+  "classCode": "20",
+  "notes": [
+    "注：本类似群与0618商品（除手铐外）类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "非金属制身份鉴别手环",
+          "code": "200221",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [],
+  "crawledAt": "2026-06-09T18:58:44.626Z"
+}

@@ -1,0 +1,163 @@
+{
+  "groupCode": "2102",
+  "groupName": "不属别类的玻璃器皿",
+  "classCode": "21",
+  "notes": [
+    "注1.玻璃杯（容器），彩色玻璃器皿，日用玻璃器皿（包括杯、盘、壶、缸），玻璃碗与2101 第一自然段，2103，2105 类似；",
+    "2.本类似群各种瓶与2101瓶类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "玻璃球瓶（容器）",
+          "code": "210009",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "小玻璃瓶（容器）",
+          "code": "210009",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "玻璃瓶（容器）",
+          "code": "210022",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "广口玻璃瓶",
+          "code": "210033",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "玻璃塞",
+          "code": "210042",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "玻璃杯（容器）",
+          "code": "210085",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "彩色玻璃器皿",
+          "code": "210230",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "玻璃盒",
+          "code": "210243",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "陶瓷或玻璃标志牌",
+          "code": "210279",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "酒瓶吊牌",
+          "code": "210373",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "日用玻璃器皿（包括杯、盘、壶、缸）",
+          "code": "C210019",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "家用玻璃管和棒",
+          "code": "C210020",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "抗热管",
+          "code": "C210021",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "玻璃碗",
+          "code": "C210059",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "平底直壁玻璃杯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食品保存用玻璃罐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "玻璃碟",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "玻璃水瓶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "瓶用玻璃塞",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "带有密封螺旋盖的广口玻璃瓶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "细长玻璃杯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于工业包装容器的玻璃盖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "玻璃罐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "玻璃杯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "半升玻璃杯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "药用玻璃卡式瓶（空的）",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:48.233Z"
+}

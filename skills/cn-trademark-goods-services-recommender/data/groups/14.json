@@ -1,0 +1,27 @@
+[
+  {
+    "groupCode": "1401",
+    "groupName": "贵重金属及其合金",
+    "classCode": "14"
+  },
+  {
+    "groupCode": "1402",
+    "groupName": "贵金属盒和首饰盒",
+    "classCode": "14"
+  },
+  {
+    "groupCode": "1403",
+    "groupName": "珠宝，首饰，宝石及贵重金属制纪念品",
+    "classCode": "14"
+  },
+  {
+    "groupCode": "1404",
+    "groupName": "钟，表，计时器及其零部件",
+    "classCode": "14"
+  },
+  {
+    "groupCode": "1405",
+    "groupName": "宠物用首饰",
+    "classCode": "14"
+  }
+]

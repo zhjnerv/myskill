@@ -1,0 +1,180 @@
+{
+  "groupCode": "0738",
+  "groupName": "内燃动力设备",
+  "classCode": "07",
+  "notes": [
+    "注:1. 火花节能器与第十版及以前版本1107燃料节省器，节油器交叉检索；",
+    "2. 本类似群与第七版及以前版本1202汽车零部件，汽车配件，1203摩托车配件及其他现属于0738、0748的发动机零部件等商品交叉检索；",
+    "3. 本类似群与0748第(二)部分类似；",
+    "4. 本类似群与第七版及以前版本0750汽化器，活塞(机器或发动机部件)，活塞(机器或发动机零件)，活塞环，马达引擎用消声器，发动机和引擎用排气装置交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "汽化器供油装置",
+          "code": "070015",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "内燃机点火装置",
+          "code": "070016",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "柴油机热线火花塞",
+          "code": "070061",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "汽化器",
+          "code": "070078",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "内燃机火花塞",
+          "code": "070394",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "内燃机燃料转换装置",
+          "code": "070463",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "内燃机（非陆地车辆用）",
+          "code": "C070273",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "柴油机（陆地车辆用的除外）",
+          "code": "C070274",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "煤气机",
+          "code": "C070275",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "汽油机（陆地车辆用的除外）",
+          "code": "C070276",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "火花节能器",
+          "code": "C070278",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "化油器",
+          "code": "C070280",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "汽车发动机火花塞",
+          "code": "C070392",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "汽车发动机点火线圈",
+          "code": "C070393",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "非陆地车辆用火花塞",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "内燃机用进气歧管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "燃料和空气混合调节器（内燃机部件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具引擎点火导线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非陆地车辆用煤油发动机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "柴油机预热塞",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非陆地车辆用柴油机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陆地车辆马达用点火装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "内燃机用活塞",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "船用内燃机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "发动机用火花塞",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "内燃机排气系统用颗粒物空气过滤器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "固定内燃机排气系统专用托架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "固定内燃机排气系统专用吊架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "内燃机燃料喷射设备",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:11.476Z"
+}

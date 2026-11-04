@@ -1,0 +1,1202 @@
+{
+  "groupCode": "3706",
+  "groupName": "机械、电器设备的安装与修理",
+  "classCode": "37",
+  "notes": [
+    "注：本类似群各部分之间服务不类似。"
+  ],
+  "sections": [
+    {
+      "label": "（一）",
+      "items": [
+        {
+          "name": "电器的安装和修理",
+          "code": "370003",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "办公机器和设备的安装、保养和修理",
+          "code": "370014",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "空调设备的安装和修理",
+          "code": "370028",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "厨房设备安装",
+          "code": "370035",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "灌溉设备的安装和修理",
+          "code": "370053",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "机械安装、保养和修理",
+          "code": "370058",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "冷冻设备的安装和修理",
+          "code": "370078",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "计算机硬件安装、维护和修理",
+          "code": "370116",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "修复磨损或部分损坏的发动机",
+          "code": "370118",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "修复磨损或部分损坏的机器",
+          "code": "370119",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "鼓粉盒的再填充",
+          "code": "370130",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "防洪设备的安装和修理",
+          "code": "370148",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "墨盒的再填充",
+          "code": "370150",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "与计算机硬件安装、保养和修理有关的信息技术咨询",
+          "code": "370168",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "卫生设备的安装和修理",
+          "code": "C370003",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "浴室设备的安装和修理",
+          "code": "C370004",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "照明设备的安装和修理",
+          "code": "C370005",
+          "type": "marked",
+          "section": "（一）"
+        }
+      ]
+    },
+    {
+      "label": "（二）",
+      "items": [
+        {
+          "name": "清除电子设备的干扰",
+          "code": "370117",
+          "type": "standard",
+          "section": "（二）"
+        }
+      ]
+    },
+    {
+      "label": "（三）",
+      "items": [
+        {
+          "name": "医疗器械的安装和修理",
+          "code": "C370002",
+          "type": "standard",
+          "section": "（三）"
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "测量测试设备的维修信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "安装连接电话中心的电子和数字装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制纸浆机器和设备的修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "燃气热水器的修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化学加工机器和设备的修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "集成电路制造机器和装置的修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "空调出风口的密封服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "产油设备的安装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "3D打印机的修理和维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "安装照明设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "测量设备和仪器的修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "伐木机器和设备的修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "供水设备维修",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机维修",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "空气过滤装置的维修",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "空调清洗服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "理发店用机器和设备的修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "美容院用机器和设备的修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木材加工机器和设备的修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "试验设备和仪器的修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "造纸机器和设备的修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "真空吸尘器修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸加工机器和设备的修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "修理照明设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "修理医疗器械",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医疗机器和设备的修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "半导体制造机器和系统的修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "养蚕机器和器具的修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "缝纫机修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制鞋用机器和设备的修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺织机器和设备的修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烟草加工机修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自动售货机修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "视频机器和设备的修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "废物压实机器和设备的修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "废物粉碎机器和设备的修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机及其周边设备的安装、修理和维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "农业机器和工具的修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用空气调节设备的修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "娱乐用机器和设备的修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "孵鸡器修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电影机器和设备的修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用烹饪设备修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烹饪用具的修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "耕作机器和器具的修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "潜水机器和设备的修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "孵卵器修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动机修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "捕鱼机器和装置的修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "饲料切碎机修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "饲料粉碎机修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "饲料混合机修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "轧饲料机修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "玻璃器皿制造机器和设备的修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "收割机械和器具的修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业洗碗机的修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业炉的修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业洗衣机的修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "装卸机器和设备的修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "挤奶机修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "采矿用机器和设备的修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "光学机器和仪器的修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高射投影仪的修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "包装机器和设备的修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "涂漆机器和设备的修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "植物纤维加工机械和器具的修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "配电或控电机器和设备的修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生产橡胶制品用机器和设备的修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铸造产品安装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机硬件的安装和修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机硬件的升级",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "办公机器和设备的修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机硬件维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机硬件修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机系统的安装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑机器和设备的修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机器安装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属加工机器和工具的修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "实验室设备和仪器的修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "浴缸修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子照明设备的修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水净化设备的修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水污染控制设备的修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "发电机修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冷冻机器和设备的修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医疗机器和设备的修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "传真机修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "塑料加工机器和设备的修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动地板清洁机的修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子设备修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具用清洗装置的修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电力和发电设备的安装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医疗设备和仪器维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "消费电子产品的修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "消费性电器维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牛奶过滤器修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非电烹饪加热器的修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为电子设备清除干扰",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "照明设备安装咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "视听设备安装咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属加工机械和设备的修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "办公机器和设备的修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "光伏装置的安装和维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "太阳热能装置的安装和维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "传送带修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "给水泵或增压泵的修理和维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "修理受损电脑",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无线电设备或电视设备的修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "助听器的修理和维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "风力发电设备的修理和维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "起重机的修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "调色墨盒的再填充",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电信机器和设备的修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机械停车装置的修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用水净化设备的修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非电烹饪加热器的维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通信用机器和设备的修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贴面板机器和设备的修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "胶合板制造机器和设备的修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子监控器的安装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "空调气孔密封服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "浴室设备的安装与修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "燃气热水器修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "空调清洁服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "3D打印机的维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "LED屏的安装和修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "厨房抽油烟机的安装和修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "厨房抽油烟机清洗服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "淋浴热水器的安装和修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "洗衣机清洁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自助取款机的安装和修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自动售货机的安装和修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抽水马桶的安装和修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "淋浴器的安装和修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动磨咖啡机的修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "桑拿浴设备的安装和修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "实验室灯的安装和修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抽油烟机清洁服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机硬件的维护与修复",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冰箱修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动制饮料机的安装和修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "平板电脑修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "立体音响系统的修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "碟形卫星天线的安装和修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "空中导航设备的修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无线电设备修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "洗衣机的安装和修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机安装和维修",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "互联网接入硬件的安装和维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数据网络设备安装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "具有人工智能的工业用机器人的修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "扫雪机的修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "包含区块链技术的电信网络设备的安装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数据处理设备的安装、保养和修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数据处理设备的安装、维护和修理服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无线通信设备的修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数据处理设备的安装、维护和修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数字通信设备的维修和保养",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "互联网终端设备的安装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通信网络设备的安装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通信设备的安装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电视机的修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数据处理设备的安装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数据处理设备的维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "干燥设备的安装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "沼气洗涤设备的维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "沼气洗涤设备的修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "安装除尘装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "印刷机墨辊的安装、维护和修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "安装碟形卫星天线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属加工用冲床的修理和维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "印刷机的安装、维护和修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "轧钢机的安装、维护和修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "路灯的安装、维护和修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "温度控制装置的安装、维护和修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "风速计的安装、维护和修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "油分离器的安装、维护和修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "垃圾处理机的修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "焊接机器和设备的维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "交通信号灯装置的修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "能源生产装置的维护和修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "外科仪器和设备的修理和维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "锻炼用跑步机的修理和维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "燃气涡轮发动机修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鼓风机的安装、维护和修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贴标机的安装、维护和修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "轮椅的修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医疗器械和仪器的安装、维护和修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "发电设备和装置的维护、检修和修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过远程监控系统对客运电梯进行保养",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "（洗下身用的）坐浴盆的修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电信设备的安装、维护和维修",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "与计算机硬件的安装、维护和维修有关的咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机系统用硬件的安装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用磁共振成像（MRI）装置修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "土方机械清洁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "照明设备清洁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铸造设备安装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "伐木机器清洁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医疗器械和仪器的清洁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "橡胶制造机器清洁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "农业机器清洁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "印刷机器清洁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "半导体制造机器清洁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "网络服务器的维修",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "发电机的维护与修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机服务器维修",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "笔记本电脑维修",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "太阳能电池板的安装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医疗器械维修",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抽水马桶的维护",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:15.645Z"
+}

@@ -1,0 +1,45 @@
+{
+  "groupCode": "0714",
+  "groupName": "自行车工业用设备",
+  "classCode": "07",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "自行车组装机械",
+          "code": "070512",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "自行车工业用机器设备",
+          "code": "C070134",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "车链机",
+          "code": "C070135",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "车圈机",
+          "code": "C070136",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "滚挡泥板机",
+          "code": "C070137",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [],
+  "crawledAt": "2026-06-09T18:56:56.912Z"
+}

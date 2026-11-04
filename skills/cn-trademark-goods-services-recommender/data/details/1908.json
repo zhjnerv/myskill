@@ -1,0 +1,165 @@
+{
+  "groupCode": "1908",
+  "groupName": "柏油，沥青及制品",
+  "classCode": "19",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "柏油",
+          "code": "190013",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铺路沥青",
+          "code": "190014",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "沥青",
+          "code": "190017",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "建筑用焦油条",
+          "code": "190018",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "建筑用沥青制成物",
+          "code": "190025",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "沥青（人造沥青）",
+          "code": "190037",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "建筑用沥青纸",
+          "code": "190046",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "屋顶用沥青涂层",
+          "code": "190082",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "建筑用毡",
+          "code": "190090",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "煤焦油沥青",
+          "code": "190097",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "路面敷料",
+          "code": "190161",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "沥青（焦油沥青）",
+          "code": "190171",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "油膏",
+          "code": "C190026",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "防水卷材",
+          "code": "C190027",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "建筑用沥青为主的合成物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "屋顶用沥青毡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑用柏油毡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "筑路沥青",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "道路表面用聚合沥青乳液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防水建筑用聚合沥青乳液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "屋顶毡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铺路沥青混合物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "石油沥青",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "屋顶用沥青纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑用柏油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑用沥青毡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "焦油沥青",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:34.583Z"
+}

@@ -1,0 +1,144 @@
+{
+  "groupCode": "0801",
+  "groupName": "手动研磨器具",
+  "classCode": "08",
+  "notes": [
+    "注：1.本类似群各种砂轮与0742砂轮（机器部件）类似；",
+    "2.跨类似群保护商品：手动的手工具（0801，0802，0803，0804，0805，0806，0807，0808，0809，0810）。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "磨具（手工具）",
+          "code": "080002",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "磨刀石",
+          "code": "080003",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "磨剃刀的皮带",
+          "code": "080006",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "磨刀钢",
+          "code": "080037",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "磨刀石架",
+          "code": "080068",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "手动的手工具",
+          "code": "080072",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "磨剃刀皮带",
+          "code": "080082",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "磨刀器",
+          "code": "080091",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "磨利器具",
+          "code": "080092",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "磨刀器具",
+          "code": "080093",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "磨镰刀石",
+          "code": "080115",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "油石",
+          "code": "080115",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "砂轮（手工具）",
+          "code": "080201",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "磨刀轮（手工具）",
+          "code": "080201",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金刚砂磨轮",
+          "code": "080226",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "手动磨利器具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "刀具和刀片用磨刀轮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手动磨砂机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "研磨工具（手动的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手动剃须刀片磨利器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "磨刀棒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "砂磨块（手工具）",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:21.591Z"
+}

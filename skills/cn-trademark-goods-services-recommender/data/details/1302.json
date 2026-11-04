@@ -1,0 +1,207 @@
+{
+  "groupCode": "1302",
+  "groupName": "爆炸物",
+  "classCode": "13",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "乙炔硝化棉",
+          "code": "130001",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "爆炸弹药筒",
+          "code": "130003",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "硝酸铵炸药",
+          "code": "130005",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "雷管",
+          "code": "130006",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "起爆栓",
+          "code": "130018",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "火药棉",
+          "code": "130030",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "甘油炸药",
+          "code": "130032",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "炸药",
+          "code": "130034",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "地雷用炸药导火线",
+          "code": "130044",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "地雷（爆炸物）",
+          "code": "130045",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "火药",
+          "code": "130050",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "爆炸火药",
+          "code": "130051",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "自燃性引火物",
+          "code": "130053",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "炸药导火线",
+          "code": "130060",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "起爆药（导火线）",
+          "code": "130061",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "炸药用引爆信管",
+          "code": "130062",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "炸药点火拉绳",
+          "code": "130062",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非玩具用火帽",
+          "code": "130066",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "做炸药用木粉",
+          "code": "C130002",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "射钉弹",
+          "code": "C130003",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "发令纸",
+          "code": "C130004",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "黑火药用弹药筒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "爆炸装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "反坦克地雷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "猎枪用火药",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "炸弹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "弹药推进用烟火混合物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烟火药",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "引爆雷管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "液体炸药",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "起爆剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "黑火药",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烟火产品用弹药筒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水下矿井爆破用引爆装置",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:04.525Z"
+}

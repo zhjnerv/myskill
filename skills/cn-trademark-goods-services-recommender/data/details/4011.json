@@ -1,0 +1,234 @@
+{
+  "groupCode": "4011",
+  "groupName": "影像加工处理服务",
+  "classCode": "40",
+  "notes": [
+    "注：本类似群与第七版及以前版本4215交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "电影胶片冲洗",
+          "code": "400002",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "图样印刷",
+          "code": "400022",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "照相底片冲洗",
+          "code": "400023",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "照片冲印",
+          "code": "400089",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "照相凹版印刷",
+          "code": "400090",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "分色",
+          "code": "400107",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "平版印刷",
+          "code": "400110",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "印刷",
+          "code": "400111",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "胶印",
+          "code": "400113",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "照相排版",
+          "code": "400114",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "丝网印刷",
+          "code": "400115",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "人像印刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数码印刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "黑白电影的色彩增强",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "底片修复",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "底片修整",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人设计印刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "印刷机器和设备出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "晒蓝图",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "广告品印刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "凹版印刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "邮票印刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "书籍印刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "照片放大",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "照片冲洗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "凸版印刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "凸版印刷机出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "黑白胶卷的色彩增强",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "排版",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "信纸印刷服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数字照片打印服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "照片洗印",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "胶片显影",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "凹版印刷服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日历的印刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "摄影作品的保存处理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "摄影复制",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "照相制版服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "照片修复服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "放大照片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数字媒体摄影图像的打印",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:37.521Z"
+}

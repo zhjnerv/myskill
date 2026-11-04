@@ -1,0 +1,251 @@
+{
+  "groupCode": "2603",
+  "groupName": "纽扣，领钩扣，拉链",
+  "classCode": "26",
+  "notes": [
+    "注：1.皮带扣与2512腰带、皮带（服饰用）类似；",
+    "2.本类似群商品与第八版及以前版本1403贵重金属扣交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "鞋扣（鞋链）",
+          "code": "260001",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "服装扣",
+          "code": "260010",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纽扣",
+          "code": "260021",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "揿扣",
+          "code": "260022",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "背带钩扣",
+          "code": "260026",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "吊带钩扣",
+          "code": "260026",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "皮带扣",
+          "code": "260031",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鞋钩",
+          "code": "260033",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鞋眼",
+          "code": "260036",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "胸衣扣",
+          "code": "260048",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "女衫纽扣",
+          "code": "260048",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "挂钩（缝纫用品）",
+          "code": "260052",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "拉链",
+          "code": "260053",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "服装扣眼",
+          "code": "260073",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "手提袋拉链",
+          "code": "260087",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "包用拉链",
+          "code": "260087",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鞋扣",
+          "code": "260088",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "扣子（服装配件）",
+          "code": "260097",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "紧身胸衣钩",
+          "code": "260098",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "搭扣带",
+          "code": "260116",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "骑自行车者用的裤夹",
+          "code": "260119",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "地毯钩",
+          "code": "260122",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "内衣胶带",
+          "code": "260145",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "包用带扣",
+          "code": "260147",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "包用扣钩",
+          "code": "260148",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "零钱包用扣钩",
+          "code": "260152",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "尼龙搭扣",
+          "code": "C260012",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "鞋和靴用金属扣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "粘扣带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "衬衫纽扣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "花式纽扣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "服装带扣（服装扣）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "拉链系结物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "拉链拉头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "服装纽扣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日式厚底夹角袜用绊扣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "揿扣（按扣和揿钮）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属制扣子（服装配件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "装饰纽扣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属制皮带扣（服装用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铆钉钮扣",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:15.780Z"
+}

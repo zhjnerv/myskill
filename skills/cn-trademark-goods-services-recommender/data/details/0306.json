@@ -1,0 +1,2565 @@
+{
+  "groupCode": "0306",
+  "groupName": "化妆品（不包括动物用化妆品）",
+  "classCode": "03",
+  "notes": [
+    "注：1.本类似群与 0301 第一自然段类似，与第十二版及以前版本 0305 化妆用杏仁油交叉检索；",
+    "2.化妆用棉签，化妆棉，唇膏盒与2110 商品类似；",
+    "3. 化妆用棉签与0506医用棉签类似；",
+    "4. 浸化妆水的薄纸，浸卸妆液的薄纸，浸卸妆液的卸妆棉与 0506 浸卫生消毒剂的湿巾，消毒纸巾，1603卸妆用纸巾交叉检索；",
+    "5. 洗澡用化妆品与0501医用洗浴制剂，药浴用海水，浴用泥浆类似，与第十版及以前版本0501药浴制剂，第九版及以前版本0501医用浴剂交叉检索；",
+    "6. 跨类似群保护商品：个人或动物用除臭剂（0306，0309）；梳洗用制剂（0301，0306）；",
+    "7. 类似群商品根据功能用途与5类含药物的相应商品类似。",
+    "8.本类似群与0204第（二）部分类似"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "假发粘贴剂",
+          "code": "030001",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "化妆用杏仁油",
+          "code": "030006",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "洗澡用化妆品",
+          "code": "030016",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "唇膏",
+          "code": "030018",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "化妆用棉签",
+          "code": "030019",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "美容面膜",
+          "code": "030020",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "皮肤增白霜",
+          "code": "030023",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "指甲油",
+          "code": "030032",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "化妆剂",
+          "code": "030033",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "染发剂",
+          "code": "030040",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "毛发卷曲剂",
+          "code": "030041",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烫发剂",
+          "code": "030041",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "假睫毛",
+          "code": "030042",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "睫毛用化妆制剂",
+          "code": "030043",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "胡须用蜡",
+          "code": "030052",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "古龙水",
+          "code": "030058",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "梳妆用颜料",
+          "code": "030060",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "含化妆品的彩妆盘",
+          "code": "030064",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "化妆品",
+          "code": "030065",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "化妆棉",
+          "code": "030066",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "化妆笔",
+          "code": "030069",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "美容霜",
+          "code": "030071",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "化妆品清洗剂",
+          "code": "030078",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "除指甲油制剂",
+          "code": "030088",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "淡香水",
+          "code": "030092",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "脱毛剂",
+          "code": "030096",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "脱毛制剂",
+          "code": "030096",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "除汗毛用蜡",
+          "code": "030097",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "化妆用香精油",
+          "code": "030100",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "彩妆化妆品",
+          "code": "030102",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "化妆用矿脂",
+          "code": "030109",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "化妆用油脂",
+          "code": "030111",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "化妆用过氧化氢",
+          "code": "030112",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "化妆用油",
+          "code": "030114",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "梳妆用油",
+          "code": "030120",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "化妆洗液",
+          "code": "030122",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "梳洗用制剂*",
+          "code": "030125",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "眉毛化妆品",
+          "code": "030131",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烫发中和剂",
+          "code": "030133",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "香水",
+          "code": "030135",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "假指甲",
+          "code": "030136",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "指甲护剂",
+          "code": "030137",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "护肤用化妆剂",
+          "code": "030142",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "化妆用润发脂",
+          "code": "030146",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "化妆粉",
+          "code": "030147",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "修面剂",
+          "code": "030148",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "眉笔",
+          "code": "030154",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "梳妆用滑石粉",
+          "code": "030155",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "化妆染料",
+          "code": "030156",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "防汗剂（化妆品）",
+          "code": "030162",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "化妆用杏仁乳",
+          "code": "030169",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "晒黑制剂（化妆品）",
+          "code": "030171",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "胡须染料",
+          "code": "030176",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "减肥用化妆品",
+          "code": "030177",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "个人或动物用除臭剂",
+          "code": "030180",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "化妆用装饰性转印贴",
+          "code": "030181",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "化妆用收敛剂",
+          "code": "030191",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "化妆用漂白剂（脱色剂）",
+          "code": "030192",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "浸化妆水的薄纸",
+          "code": "030197",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "化妆用黏合剂",
+          "code": "030199",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "剃须后用液",
+          "code": "030200",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "喷发胶",
+          "code": "030201",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "睫毛膏",
+          "code": "030202",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "化妆用芦荟制剂",
+          "code": "030219",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非医用按摩凝胶",
+          "code": "030220",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "唇彩",
+          "code": "030221",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非医用香膏",
+          "code": "030222",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "指甲彩绘贴片",
+          "code": "030224",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "防晒剂",
+          "code": "030225",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "散沫花（化妆用染料）",
+          "code": "030227",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "唇膏盒",
+          "code": "030229",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "头发拉直制剂",
+          "code": "030232",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "浸卸妆液的薄纸",
+          "code": "030233",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "化妆用胶原蛋白制剂",
+          "code": "030234",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "草本化妆品",
+          "code": "030237",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "化妆用草本提取物",
+          "code": "030239",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "指甲油去除剂",
+          "code": "030240",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "美容用按摩蜡烛",
+          "code": "030248",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "儿童用化妆品",
+          "code": "030249",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "巴斯马（化妆用染色剂）",
+          "code": "030252",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "美容用凝胶眼贴",
+          "code": "030253",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "美甲闪粉",
+          "code": "030254",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "胶束化妆水",
+          "code": "030255",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "化妆用人体彩绘颜料",
+          "code": "030256",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "化妆用人体彩绘液态乳胶颜料",
+          "code": "030257",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "浸卸妆液的卸妆棉",
+          "code": "030259",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "身体用闪光粉",
+          "code": "030262",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "双眼皮贴",
+          "code": "030263",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "化妆用冷却喷雾",
+          "code": "030264",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非医用一次性热敷蒸汽面膜",
+          "code": "030265",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "补甲用包覆材料",
+          "code": "030267",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "已装化妆品的化妆用印章",
+          "code": "030269",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "美容用浴茶",
+          "code": "030271",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "化妆用片状面膜",
+          "code": "030272",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "化妆用爽肤水",
+          "code": "030273",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "精华液（化妆品）",
+          "code": "030275",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "皮肤保湿霜（化妆品）",
+          "code": "030277",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "脱毛用糖浆",
+          "code": "030281",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "固定假发用胶带",
+          "code": "030283",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "眉毛造型蜡",
+          "code": "030284",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "化妆用花水",
+          "code": "030287",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "化妆用香精",
+          "code": "030288",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "化妆用特效蜡",
+          "code": "030290",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "防皱霜",
+          "code": "C030049",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "增白霜",
+          "code": "C030050",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "粉刺霜",
+          "code": "C030051",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "祛斑霜",
+          "code": "C030052",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "痱子粉",
+          "code": "C030053",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "爽身粉",
+          "code": "C030054",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "去痱水",
+          "code": "C030055",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "胭脂",
+          "code": "C030056",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "眼影膏",
+          "code": "C030057",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "乌发乳",
+          "code": "C030058",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "头油",
+          "code": "C030059",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "生发油",
+          "code": "C030060",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "发用摩丝",
+          "code": "C030062",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "焗油制剂",
+          "code": "C030063",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "双眼皮胶",
+          "code": "C030064",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "花露水",
+          "code": "C030072",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "口红",
+          "code": "C030074",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "保湿乳液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "装有化妆品的彩妆盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "发用香膏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防晒乳液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "个人用止汗剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "护发液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "护手霜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化妆用防晒制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化妆油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "美容香脂霜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "喷雾式护肤品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "柔肤水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "润发油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "晒后润肤乳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "头发定型啫喱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "头发护理制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "头发造型用摩丝",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "香膏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "眼线笔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "指甲装饰用贴纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "唇色调和剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "发膜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "粉底",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "粉底霜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "膏状口红",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "个人用除臭剂（香水）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "护肤用手膜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "护肤用足膜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化妆用除油纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抗衰老保湿液（化妆品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抗衰老用护肤液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "毛孔收缩面膜（化妆品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "美甲底油（化妆品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "美容用化妆品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "沐浴后用爽身粉（化妆品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮肤保湿液（化妆品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "霜状粉饼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "剃胡膏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "剃须前用制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "头发用香膏（不含药）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "婴儿用防晒霜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "增长睫毛用睫毛膏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卸妆凝胶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "指甲贴片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "指甲用化妆品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "眼部化妆品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "眼线液笔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "面部护理油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "晒黑油（化妆品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "晒后用油（化妆品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化妆用唇彩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "脸、身体和手部用爽肤水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "晒黑乳液（化妆品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "晒黑凝胶（化妆品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "晒后用乳液（化妆品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "指甲表皮保护霜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化妆用按摩霜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "指甲干燥用化妆制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "保护皮肤免受太阳辐射用化妆制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "表皮化妆油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "美容用海藻",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "个人使用的除臭剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "指甲油笔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "去指甲油笔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "亮肤用米糠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "文身贴片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "眼袋修护霜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "美甲瓷漆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "面部和身体用化妆制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "指甲颜料（化妆品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "浸化妆品的清洁垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "仿晒黑制剂（化妆品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "美甲凝胶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "胡须露",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "强化指甲用乳液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抗老化美容凝胶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "指甲表皮调理霜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "指甲表皮去除角质制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "个人用除臭剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "身体护理用除臭剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "按摩用蜡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "晒后用护肤液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "美容用晒黑油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "头发滋润剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化妆用芦荟凝胶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化妆用美发制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "身体乳液（化妆品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "爽肤水（化妆品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "发用去色剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "眉胶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化妆品用散沫花",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "剃须膏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "面霜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "润手乳液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "剃须后用面霜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "剃须后用凝胶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "腮红",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "腮红笔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "头发定型制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "剃须后用乳液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "剃须后用制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "润唇膏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "头发光亮剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "剃须摩丝",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "剃须凝胶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "剃须泡沫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "眼部化妆笔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "眼部卸妆剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "润肤剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卷发制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "妆前乳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "按摩油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抗衰老面霜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "身体保湿乳液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "面部用散粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "婴儿润肤油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "婴儿爽身粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "头发营养剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "面部遮瑕膏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "头发定型液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "头发用漂白剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "足部磨砂膏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "须后膏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "须后水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "晒黑霜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "晒黑油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "晒黑制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "晒后霜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "粉饼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "指甲油顶油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "面部磨砂膏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "剃须液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "液体香水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "液体胭脂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "止汗剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "头发去色剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "头发脱色剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "眼霜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "眼线膏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抗皱霜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "眼影",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "面部护肤液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "去角质霜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "发胶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "香粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "美容凝胶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "美容乳液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "发油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化妆用漂白剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化妆用乳液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化妆用晒黑乳液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化妆用晒黑制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防晒霜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防晒制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手部磨砂膏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "指甲抛光粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "指甲脱色剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "发蜡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "发乳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化妆用指甲油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化妆用滋养霜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化妆制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "指甲修复制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "指甲硬化剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "戏剧用化妆品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "护肤霜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "指甲油底油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮肤增白剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "美容液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "假指甲片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "爽肤水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "染发制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卸妆剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卸妆乳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卸妆水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烫发液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防晒化妆制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "面部和身体护理用乳液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "面部和身体用化妆品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "护发油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化妆用白垩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化妆粉纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化妆用防晒乳液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化妆用防晒油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化妆用粉饼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "脱毛膏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化妆用护手霜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "身体用磨砂膏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "晚霜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "亮肤霜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "身体用润肤乳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "身体用润肤霜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "身体用润肤液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "身体护理用化妆制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "身体护理用美容霜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "头发造型用喷雾",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "头发造型用制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化妆用笔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化妆用底霜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化妆用防晒剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "粉底液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "身体用护肤油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化妆用棉球",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "唇线笔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化妆用面膜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化妆用面霜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化妆用凝胶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化妆水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冷霜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冷烫液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "身体磨砂膏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "儿童用彩妆品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "眼部用化妆水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "眉毛着色料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "定妆喷雾",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "晒黑霜（自晒黑霜）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "（头发）波浪定型液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "不含药的尿布疹膏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "粉饼盒用粉饼（化妆品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化妆用亮粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "睫毛染色料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "身体用除臭剂（香料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化妆用皮肤调理霜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "指缘软化剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "美甲贴纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "染唇露",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "普通淡香水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化妆用脸部美白用粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "剃须后用保湿霜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "身体用润肤膏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "身体用护理膜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化妆品用可可脂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "脚除臭喷雾",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "光疗甲用卸甲制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "去除体毛用蜡条",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防水防晒霜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化妆用维生素A乳霜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "男用美发剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "妆前打底液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "睫毛膏式染发笔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "头发营养霜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "头发造型用发胶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "头发和头皮用化妆制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抑制头发再生长用化妆制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化妆用着色制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "假发粘贴胶水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "不含药物的美发用头发调理制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "脸部彩绘颜料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "美甲制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "眼影盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "假指甲粘贴剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "眉粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "美容用西印度醋栗籽油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "美容用蓖麻油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "美容用椰子油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烫发制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "棒状防晒霜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属制假指甲",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "浸卸妆液的棉片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用作化妆品的临时文身转印贴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "演员化妆用油彩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "剃须用明矾块",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "假睫毛、假发和假指甲用黏合剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "身体美容用泥浆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "美容用泥浆面膜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "头发漂白制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "美容手膜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "指甲擦光剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "染睫毛油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "指甲贴花膜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "晒后补湿液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "头发定型剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "不含药物的化妆品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮肤美白霜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "香体喷雾",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卸妆用制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "去除指甲油制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "香味爽身粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "染发水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "染发中和剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "指甲油清洗剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "润肤乳液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "身体护肤乳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化妆粉饼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "润唇啫喱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "润唇油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "润肤露",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "晒后用凝胶（化妆品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "剃须后用古龙水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "润唇乳液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "女士香水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "润唇香膏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "男士香水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "固定假睫毛用粘合剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "粉饼盒用粉芯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "指缘油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "美容用眼贴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "不含药的足浴液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含有防晒剂的美容贴片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "祛老年斑面霜（化妆品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "美容用去角质磨砂膏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "演戏化妆用假血",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "浸卸妆液的棉签",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "面部和身体用闪光粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "面部保湿乳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "头发漂白剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人用香水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "膏状胭脂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "头发造型乳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "带香味的身体乳液和乳霜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "唇釉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "老年斑祛斑霜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "凝胶眼膜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "头发漂色剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "头发定型膏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "美发用棒状润发膏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "美发用护发制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "美容用局部皮肤喷雾",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "美容用冷霜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "面部局部去皱用化妆制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "不含药物的护足霜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "体膜霜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮肤保湿面膜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "护甲霜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "祛皱护肤制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "雪花膏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "假睫毛黏胶030178",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化妆用棉片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卸妆霜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化妆用雪花膏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "女性香体喷雾",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "不含药物的头皮护理霜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人用除臭剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "亮肤剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化妆用冷霜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "头发挑染制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "不含药物的皮肤护理制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "不含药物的唇膏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "不含药物的化妆水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "不含药物的护肤精华",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "不含药物的护肤霜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "不含药物的唇部护理制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化妆用装饰变色剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "成套化妆品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "假睫毛粘胶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "假眉毛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "不含药物的防晒制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "保湿霜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮肤保湿剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化妆粘假发用快干胶水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "假指甲用黏合剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "指甲磨光制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含有防晒霜和防晒隔离霜的皮肤贴片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自粘假眉毛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "胸部紧致用化妆制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化妆用剥撕式面膜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "晒黑凝胶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "护甲油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "头发蓬松剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "护发剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化妆用浸手部保湿剂的一次性手套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "眼线粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "晒黑乳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "美容用香精",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:22.281Z"
+}

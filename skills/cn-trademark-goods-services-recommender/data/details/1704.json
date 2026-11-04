@@ -1,0 +1,101 @@
+{
+  "groupCode": "1704",
+  "groupName": "软管",
+  "classCode": "17",
+  "notes": [
+    "注:1.本类似群与第十二版及以前版本 2106 浇水软管用喷嘴交叉检索；",
+    "2.浇水软管,非金属软管,纺织材料制软管,运载工具散热器用连接软管与 1703 管道用非金属接头,软管用非金属附件,硬管用非金属附件,1909 第(一)部分第一自然段类似,与第十一版及以前版本 1703 软管用非金属接头,第十版及以前版本1703塑料管交叉检索；",
+    "3.帆布水龙带与0916消防水龙带类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "浇水软管",
+          "code": "170006",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属软管",
+          "code": "170022",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纺织材料制软管",
+          "code": "170025",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "帆布水龙带",
+          "code": "170065",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具散热器用连接软管",
+          "code": "170074",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "浇水软管用喷嘴",
+          "code": "170141",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "农业用橡胶软管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具喷油嘴用连接软管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "塑料软管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "花园浇水用软管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属柔性管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "灌溉用软管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "农业用塑料软管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "整理电缆用收缩性热塑套管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "塑胶软管",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:23.938Z"
+}

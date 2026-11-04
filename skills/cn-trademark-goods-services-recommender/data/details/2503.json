@@ -1,0 +1,192 @@
+{
+  "groupCode": "2503",
+  "groupName": "特种运动服装",
+  "classCode": "25",
+  "notes": [
+    "注：跨类似群保护商品：服装*（2501，2502，2503，2504，2505）。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "驾驶员服装",
+          "code": "250002",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "服装*",
+          "code": "250045",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "骑自行车服装",
+          "code": "250065",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "游泳帽",
+          "code": "250124",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "游泳裤",
+          "code": "250125",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "男用游泳裤",
+          "code": "250125",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "游泳衣",
+          "code": "250126",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "体操服",
+          "code": "250149",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "空手道服",
+          "code": "250178",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "柔道服",
+          "code": "250179",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "武术服",
+          "code": "250179",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "（杂技、舞蹈等演员穿的）紧身连衣裤",
+          "code": "250180",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "冲浪服",
+          "code": "250189",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "摔跤服",
+          "code": "C250010",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "跆拳道服",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水上运动用防磨衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "格斗运动用服装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "合气道服",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "带胸罩的女式泳衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "男式和女式的游泳衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "骑自行车短裤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "比基尼泳衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "女式连身泳衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "女式泳衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "剑道服装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "男式泳衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "单比基尼式泳装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运动紧身衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "女式分体泳装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "三点式游泳衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "泳衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "比基尼泳装",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:08.694Z"
+}

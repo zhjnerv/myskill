@@ -1,0 +1,79 @@
+{
+  "groupCode": "4013",
+  "groupName": "空气调节服务",
+  "classCode": "40",
+  "notes": [
+    "注：本类似群与第八版及以前版本 3705 取暖设施出租，3706 空调设备出租交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "空气净化",
+          "code": "400003",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "空气除臭",
+          "code": "400081",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "空气清新",
+          "code": "400082",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "空调设备出租",
+          "code": "400118",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "空间供暖设备出租",
+          "code": "400119",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "霉菌污染修复用空气洗涤器的出租",
+          "code": "400151",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "室外冷却喷雾设备出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用空间降温装置出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冷却用电风扇出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "空气净化设备出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "除湿器的出租",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:38.735Z"
+}

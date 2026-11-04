@@ -1,0 +1,239 @@
+{
+  "groupCode": "2405",
+  "groupName": "毛巾，浴巾，手帕",
+  "classCode": "24",
+  "notes": [
+    "注：1.跨类似群保护商品：家庭日用纺织品（2405，2406，2407第（一）部分）",
+    "2.搓澡巾与 2110 沐浴海绵类似，与第十一版及以前版本 2112 沐浴海绵交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "浴用织品（服装除外）",
+          "code": "240005",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "擦玻璃布（毛巾）",
+          "code": "240048",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "搓澡巾",
+          "code": "240055",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纺织品毛巾",
+          "code": "240072",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纺织品餐巾",
+          "code": "240076",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纺织品手帕",
+          "code": "240078",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纺织品洗脸巾",
+          "code": "240087",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "卸妆用布",
+          "code": "240101",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "家庭日用纺织品",
+          "code": "240071",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "茶巾",
+          "code": "240130",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "洗碗巾",
+          "code": "240130",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "瑜伽毯",
+          "code": "240136",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "瑜伽毛巾",
+          "code": "240137",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "浴巾",
+          "code": "C240029",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "地巾",
+          "code": "C240031",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "擦碗巾",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手套式搓澡巾",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "连帽浴巾",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "浴室亚麻布",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手巾",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺织品制干发毛巾",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺织品制运动用毛巾",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用来擦干碗碟的毛巾",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺织材料制成的毛巾",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "面巾",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "厚绒毛巾",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "海滨浴场用毛巾",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "儿童毛巾",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "大浴巾",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺织品织物制手巾",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卸妆布巾",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "擦干碟子用毛巾",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "毛巾",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "打高尔夫球用毛巾",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "厨房用纺织品毛巾",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "厨房用纺织品制毛巾",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "干发用包头巾",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "擦脸毛巾",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "擦手毛巾",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "压缩的纺织品毛巾",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "棉制毛巾",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:03.517Z"
+}

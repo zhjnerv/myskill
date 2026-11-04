@@ -1,0 +1,21 @@
+{
+  "groupCode": "1405",
+  "groupName": "宠物用首饰",
+  "classCode": "14",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "宠物用首饰",
+          "code": "140187",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [],
+  "crawledAt": "2026-06-09T18:58:08.743Z"
+}

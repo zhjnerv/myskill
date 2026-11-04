@@ -1,0 +1,97 @@
+{
+  "groupCode": "4006",
+  "groupName": "玻璃加工服务",
+  "classCode": "40",
+  "notes": [
+    "注：本类似群与4001打磨，研磨，研磨抛光，喷砂处理服务，材料刨削处理，材料锯切服务类似，与第九版及以前版本4002研磨加工，研磨抛光交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "吹制玻璃器皿",
+          "code": "400062",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "玻璃窗着色处理（表面涂层）",
+          "code": "400065",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "光学玻璃研磨",
+          "code": "400088",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "车窗染色服务",
+          "code": "400126",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "玻璃回火",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "玻璃抛光",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "玻璃蚀刻",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "玻璃着色",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "玻璃表面焕新",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "光学透镜研磨",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "玻璃工业用机器出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "玻璃器皿制造机器和设备的出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "定制眼镜镜片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "玻璃吹制",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "玻璃坡口切割",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:34.471Z"
+}

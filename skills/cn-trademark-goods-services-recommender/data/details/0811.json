@@ -1,0 +1,103 @@
+{
+  "groupCode": "0811",
+  "groupName": "除火器外的随身武器",
+  "classCode": "08",
+  "notes": [
+    "注：本类似群商品与第十版及以前版本0808指节铜套，大头短棒，第九版及以前版本铜指节套，拳击环（指节铜套）交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "指节铜套",
+          "code": "080015",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "除火器外的随身武器",
+          "code": "080022",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "（枪上的）刺刀",
+          "code": "080025",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "剑鞘",
+          "code": "080125",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "警棍",
+          "code": "080130",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "大头短棒",
+          "code": "080130",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "剑（武器）",
+          "code": "080150",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "剑",
+          "code": "080208",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "佩刀",
+          "code": "080209",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "匕首",
+          "code": "080246",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "佩刀（刀）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手杖剑",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "飞刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防暴叉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "伸缩警棍",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:27.429Z"
+}

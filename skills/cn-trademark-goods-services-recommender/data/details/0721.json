@@ -1,0 +1,165 @@
+{
+  "groupCode": "0721",
+  "groupName": "包装机械（不包括成套设备专用包装机械）",
+  "classCode": "07",
+  "notes": [
+    "注:1. 包装机，包装机械与0709食品包装机类似；",
+    "2. 本类似群与第七版及以前版本0743气动捆扎机交叉检索；",
+    "3. 本类似群与第九版及以前版本 0903 封塑料用电动器械（包装用）交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "工业用胶带分配机",
+          "code": "070004",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "捆扎机",
+          "code": "070052",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "装瓶机",
+          "code": "070064",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "包装机",
+          "code": "070177",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "打包机",
+          "code": "070294",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "工业用封口机",
+          "code": "070347",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "装填机",
+          "code": "070353",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "瓶子盖塞机",
+          "code": "070410",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "瓶子压盖机",
+          "code": "070411",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "瓶子封口机",
+          "code": "070412",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "包装机械",
+          "code": "070499",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "塑料封口用电动装置（包装用）",
+          "code": "070541",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烫号机",
+          "code": "C070156",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "钞票捆扎机",
+          "code": "C070157",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "气动捆扎机",
+          "code": "C070377",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "打钉机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用打包机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "真空打包机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "真空包装机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺织品包装机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用电动食品真空密封机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食品和饮料用瓶子压盖机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "封塑料用电动装置（包装用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "包装用单独工作的机器人",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "胶带分配器（机器）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蔬菜包装机",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:01.262Z"
+}

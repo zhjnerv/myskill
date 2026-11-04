@@ -1,0 +1,341 @@
+{
+  "groupCode": "0906",
+  "groupName": "信号器具",
+  "classCode": "09",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "防交通事故用穿戴式反射用品",
+          "code": "090003",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "闪光信号灯",
+          "code": "090126",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "信号铃",
+          "code": "090127",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "机械式标志",
+          "code": "090234",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "信号灯",
+          "code": "090322",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "发光标志",
+          "code": "090329",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "霓虹灯广告牌",
+          "code": "090330",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "航行用信号装置",
+          "code": "090357",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "发光或机械信号板",
+          "code": "090380",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "夜明或机械信号标志",
+          "code": "090434",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "信号哨子",
+          "code": "090445",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "车辆故障警告三角牌",
+          "code": "090446",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "发光信号灯塔",
+          "code": "090513",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "发光或机械路牌",
+          "code": "090516",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "信号浮标",
+          "code": "090518",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非爆炸性烟雾信号",
+          "code": "090524",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "标记用浮标",
+          "code": "090583",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电子公告牌",
+          "code": "090643",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "发光式电子指示器",
+          "code": "090679",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "交通信号灯（信号装置）",
+          "code": "090687",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "锥形交通路标",
+          "code": "090715",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "数字标牌",
+          "code": "090736",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "救援激光信号灯",
+          "code": "090809",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非爆炸性、非烟火式救援信号弹",
+          "code": "090830",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "发光警示牌",
+          "code": "090864",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "发光安全标志",
+          "code": "090865",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "行人交通信号灯",
+          "code": "090941",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "交通镜",
+          "code": "090954",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "霓虹灯",
+          "code": "C090024",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "灯箱",
+          "code": "C090025",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "机械路牌",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "发光路牌",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "安全或报警用发光信号灯塔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "标记和信号用浮标",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具故障警告灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "旋转式信号灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无线电浮标",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "交通信号灯用反射镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "警告三角牌",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "紧急报警灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数字显示标牌",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "闪光警示信号灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铁路信号标志",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "发光安全信号灯塔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "发光的出口标志",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高速公路用锥形交通路标",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "闪光灯标（信号灯）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电信设备用指示灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "车辆故障警告灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "浮标",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "应急指示灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "警灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "路面嵌入式交通信号灯（信号设备）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "反光标志",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防交通事故用穿戴式反射盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "指示灯（电信设备用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "导航浮标",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "交通信号灯装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "车辆应急警示灯条",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:32.359Z"
+}

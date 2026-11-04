@@ -1,0 +1,211 @@
+{
+  "groupCode": "0729",
+  "groupName": "其他化学工业用机械",
+  "classCode": "07",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "化学工业用电动机械",
+          "code": "070490",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "生产用化学反应器",
+          "code": "070624",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "硫酸制造设备",
+          "code": "C070200",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "纯碱制造设备",
+          "code": "C070201",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "合成酒精设备",
+          "code": "C070202",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "电解水制氢氧设备",
+          "code": "C070203",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "制甘油酚类用机械设备",
+          "code": "C070204",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "焦化设备",
+          "code": "C070205",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "制虫胶、骨胶用设备（槽搅合机）",
+          "code": "C070206",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "制清胶机",
+          "code": "C070207",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "碎骨机",
+          "code": "C070208",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "研胶机",
+          "code": "C070209",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "林产化学设备",
+          "code": "C070210",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "松香制造设备",
+          "code": "C070211",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "木材干馏设备",
+          "code": "C070212",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "木材水解设备",
+          "code": "C070213",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "油漆加工用机器",
+          "code": "C070214",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "炸药及火工制品用机械设备",
+          "code": "C070215",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "制牙膏设备",
+          "code": "C070216",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "化妆品生产设备",
+          "code": "C070217",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "化学加工用捏合机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化学加工用搅拌机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化学加工用集尘机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化学加工用混合机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化学加工用压力机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化学加工用萃取机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化学加工用煅烧机械",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化学加工用分离机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化学加工用粉碎机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化学加工用乳化机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化学加工用烧结机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化学加工用研磨机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化学加工用造粒机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化学加工用过滤机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化学处理用搅拌机",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:06.221Z"
+}

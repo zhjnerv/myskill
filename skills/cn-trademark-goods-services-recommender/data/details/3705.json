@@ -1,0 +1,69 @@
+{
+  "groupCode": "3705",
+  "groupName": "供暖设备的安装与修理",
+  "classCode": "37",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "锅炉清洁和修理",
+          "code": "370011",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "燃烧器保养与修理",
+          "code": "370012",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "加热设备安装和修理",
+          "code": "370024",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "燃烧器保养或修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "锅炉修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "供暖装置保养和修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "锅炉清洁服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "地暖设备的安装和修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加热设备的安装、修理和维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "太阳能供暖系统的安装",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:15.032Z"
+}

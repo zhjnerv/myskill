@@ -1,0 +1,233 @@
+{
+  "groupCode": "0802",
+  "groupName": "小农具（不包括农业、园艺用刀剪）",
+  "classCode": "08",
+  "notes": [
+    "注：跨类似群保护商品：手动的手工具（0801，0802，0803，0804，0805，0806，0807，0808，0809，0810）。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "锤镐",
+          "code": "080036",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鹤嘴镐",
+          "code": "080044",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "手动的手工具",
+          "code": "080072",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "耙（手工具）",
+          "code": "080109",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铲（手工具）",
+          "code": "080110",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "锹（手工具）",
+          "code": "080111",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "长柄大镰刀",
+          "code": "080113",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "镰刀环",
+          "code": "080114",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鹤嘴锄",
+          "code": "080142",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "镐（手工具）",
+          "code": "080171",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "长柄镰刀",
+          "code": "080183",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "除草叉（手工具）",
+          "code": "080184",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "锄头（手工具）",
+          "code": "080185",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "梳麻机（手工具）",
+          "code": "080187",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "钩刀",
+          "code": "080188",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "镰刀",
+          "code": "080189",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "农业器具（手动的）",
+          "code": "080200",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "农业用叉（手工具）",
+          "code": "080220",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "障碍沙坑用耙子",
+          "code": "080254",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "犁（手工具）",
+          "code": "C080001",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "挖掘叉（铲叉）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "雪铲",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "施肥铲",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "壁炉铲",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "干草叉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高尔夫球场用耙",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铲",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "锄头（手动的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "锹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "耙",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "草耙（手动的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "种植用手动挖洞器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "农用宽叉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "施肥用勺形铲",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "除草锄",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "园艺用手动中耕器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手动松土器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手动锄头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "长柄割草刀（手工具）",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:22.182Z"
+}

@@ -1,0 +1,4915 @@
+{
+  "groupCode": "0501",
+  "groupName": "药品，消毒剂，中药药材，药酒",
+  "classCode": "05",
+  "notes": [
+    "注:1. 本类似群各部分之间商品不类似，但杀真菌剂，杀菌剂，灭菌剂，卫生消毒剂，消毒剂互为类似商品；",
+    "2.本类似群含药物的化妆、梳洗制剂类商品根据功能用途与 3 类不含药物的相应商品类似;",
+    "3.第(一)部分与第十二版及以前版本 0305 芳香疗法用香精油,芳香疗法用香精油制乳霜,安神用香精油,降低食欲用香精油,第十一版及以前版本0506腐蚀性药笔,止血药笔,第十版及以前版本0301消毒皂,药皂,抑菌洗手剂,第六版及以前版本0507牙科用药交叉检索;",
+    "4. 第(一)部分第一自然段与 0502 第一自然段含药物的糖果,医用树胶,医用冰糖及第二自然段类似,与第十一版及以前版本 0502第一自然段药制糖果,医用糖果,第九版及以前版本 0502 医用胶,医用食物营养制剂,医用营养添加剂交叉检索；",
+    "5. 第(一)部分第一自然段商品(人用药除外)与 3005 类似；",
+    "6. 第(二)部分与第十版及以前版本第(一)部分医用 X 光造影剂交叉检索；",
+    "7. 药茶,药用草药茶,减肥茶与第九版及以前版本 3002 茶叶代用品交叉检索；",
+    "8. 杀真菌剂,杀菌剂,灭菌剂,卫生消毒剂,消毒剂与 0503 化学盥洗室用消毒剂,0505 灭干朽真菌制剂,灭微生物剂,土壤消毒制剂,农业用杀菌剂类似,与第九版及以前版本 0505 土壤消毒剂,第八版及以前版本0503 污物消毒剂,污物消毒制剂交叉检索；",
+    "9.轻便药箱(已装药的),急救箱(备好药的)与 1001 医生用器械箱,医疗器械箱类似,与第十版及以前版本 1001 外科医生和医生用器械箱,外科医生和医生用箱交叉检索；",
+    "10.防寄生虫制剂,驱肠虫药,医用及兽医用细菌学研究制剂,医用和兽医用细菌制剂,医用或兽医用微生物培养物,医用或兽医用微生物制剂，杀寄生虫药,医用或兽医用化学试剂,人和动物用微量元素制剂与0504 类似；",
+    "11. 医用洗浴制剂,药浴用海水,浴用泥浆与 0301 第一自然段,0306 洗澡用化妆品类似；",
+    "12. 医用阴道清洗液,医用下体注洗液与 0301 个人清洁或祛味用下体注洗液,不含药物的个人私处清洗液,个人清洁或祛味用阴道洗液类似,与第十一版及以前版本 0301 非医用个人私处清洗液交叉检索；",
+    "13. 矿泉水沐浴盐与0301 非医用沐浴盐,浴盐类似；",
+    "14. 防寄生虫制剂,杀寄生虫药与 0505 杀寄生虫剂类似；",
+    "15. 除口臭药片与0502医用口香糖类似；",
+    "16. 抗菌皂,消毒皂,药皂与 0301 杏仁肥皂,肥皂,剃须皂,汗足皂,除臭皂,香皂,防汗皂类似；",
+    "17. 含药物的洁牙剂,含药物的牙膏与0307类似；",
+    "18. 抗菌洗手液与0301洗手膏类似。"
+  ],
+  "sections": [
+    {
+      "label": "（一）",
+      "items": [
+        {
+          "name": "维生素制剂*",
+          "code": "050090",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "腐蚀性药笔",
+          "code": "050102",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "止血药笔",
+          "code": "050104",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "鱼肝油",
+          "code": "050150",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "补药",
+          "code": "050262",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用卵磷脂",
+          "code": "050313",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用蜂王浆",
+          "code": "050316",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "人用药",
+          "code": "050328",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药物饮料",
+          "code": "050332",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用吸入剂",
+          "code": "050337",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "膳食纤维",
+          "code": "050367",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用珍珠粉",
+          "code": "050410",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用蜂胶",
+          "code": "050426",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "治疗用或医用营养制剂",
+          "code": "050459",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "治疗用按摩蜡烛",
+          "code": "050481",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "维生素补充片",
+          "code": "050483",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "辅助戒烟用尼古丁咀嚼胶",
+          "code": "050485",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "辅助戒烟用尼古丁贴片",
+          "code": "050486",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用树枝状聚合物制胶囊",
+          "code": "050487",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "可注射的皮肤填充物",
+          "code": "050489",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "浸驱虫剂的手环",
+          "code": "050490",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用按摩凝胶",
+          "code": "050492",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "头痛缓解涂抹棒",
+          "code": "050493",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "避孕用海绵",
+          "code": "050494",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "由活组织组成的骨间空隙填充物",
+          "code": "050498",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用母乳检测诊断条",
+          "code": "050503",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "治疗用浴茶",
+          "code": "050508",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "消炎药",
+          "code": "050510",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "艾灸疗法用艾条",
+          "code": "050512",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "注射填充型皮肤保湿剂",
+          "code": "050515",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "辅助戒烟用尼古丁制剂",
+          "code": "050530",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用透明质酸钠凝胶",
+          "code": "050528",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "赖氨酸冲剂",
+          "code": "C050010",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "赖氨酸盐酸盐",
+          "code": "C050011",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "珍珠层粉",
+          "code": "C050013",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "洋参冲剂",
+          "code": "C050026",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "蜂王精",
+          "code": "C050027",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "人参",
+          "code": "C050046",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "枸杞",
+          "code": "C050047",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "乌头碱",
+          "code": "050002",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "饮食疗法用或药用淀粉",
+          "code": "050013",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "麻醉剂",
+          "code": "050017",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用安果斯都拉树皮",
+          "code": "050020",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "气喘茶",
+          "code": "050022",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "治痔剂",
+          "code": "050025",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "防寄生虫制剂",
+          "code": "050029",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "防尿制剂",
+          "code": "050032",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用及兽医用细菌学研究制剂",
+          "code": "050037",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "细菌抑制剂",
+          "code": "050038",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用和兽医用细菌制剂",
+          "code": "050039",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用止痛制剂",
+          "code": "050046",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用铋制剂",
+          "code": "050053",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "古拉尔氏水（稀次醋酸铅溶液）",
+          "code": "050054",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "铅水",
+          "code": "050054",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用木炭",
+          "code": "050056",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "治疗烧伤制剂",
+          "code": "050061",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "除口臭药片",
+          "code": "050062",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "胼胝治疗剂",
+          "code": "050063",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "斑蝥粉",
+          "code": "050065",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用糖浆",
+          "code": "050067",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用胶囊",
+          "code": "050068",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医药制剂",
+          "code": "050069",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "化学药物制剂",
+          "code": "050077",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用水合氯醛",
+          "code": "050079",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "氯仿（医用）",
+          "code": "050080",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用无烟草香烟",
+          "code": "050081",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用南美牛奶菜的干皮",
+          "code": "050092",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "缓和便秘的药物",
+          "code": "050093",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "化学避孕剂",
+          "code": "050095",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "巴豆茎皮",
+          "code": "050105",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "马钱子",
+          "code": "050106",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "疫苗",
+          "code": "050107",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "煎好的药",
+          "code": "050109",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用助消化剂",
+          "code": "050122",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "洋地黄苷",
+          "code": "050123",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "止痛药",
+          "code": "050124",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用药物",
+          "code": "050125",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "轻便药箱（已装药的）",
+          "code": "050126",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用氧化镁",
+          "code": "050127",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用蜂花水",
+          "code": "050128",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用树皮",
+          "code": "050132",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "酏剂（药物制剂）",
+          "code": "050133",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用盐",
+          "code": "050137",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用酯",
+          "code": "050138",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用乙醚",
+          "code": "050139",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用桉树脑",
+          "code": "050141",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用桉树",
+          "code": "050142",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "泻药",
+          "code": "050143",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用面粉",
+          "code": "050144",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用谷粉",
+          "code": "050144",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "解热剂",
+          "code": "050146",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用茴香",
+          "code": "050147",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药茶",
+          "code": "050149",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "杀真菌剂",
+          "code": "050151",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "神经镇定剂",
+          "code": "050152",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用邻甲氧基苯酚",
+          "code": "050153",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "驱肠虫药",
+          "code": "050154",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "轻泻剂",
+          "code": "050156",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用明胶",
+          "code": "050157",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用龙胆",
+          "code": "050158",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "杀菌剂",
+          "code": "050159",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "甘油磷酸盐",
+          "code": "050160",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用亚麻籽",
+          "code": "050162",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "乳脂",
+          "code": "050165",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "血红蛋白元",
+          "code": "050168",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "血红蛋白",
+          "code": "050169",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药草",
+          "code": "050170",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用激素",
+          "code": "050171",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "白毛茛碱",
+          "code": "050174",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "白毛茛分碱",
+          "code": "050175",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用蛋白胨",
+          "code": "050180",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "三碘甲烷",
+          "code": "050181",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用角叉菜",
+          "code": "050182",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "球根牵牛制泻药",
+          "code": "050183",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药浸枣",
+          "code": "050184",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用甘草",
+          "code": "050185",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用奶发酵剂",
+          "code": "050187",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用亚麻籽粉",
+          "code": "050190",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用酵母",
+          "code": "050194",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用蛇麻腺",
+          "code": "050197",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用红树皮",
+          "code": "050199",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用薄荷",
+          "code": "050201",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用麦芽",
+          "code": "050203",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用血清",
+          "code": "050209",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "薄荷醇",
+          "code": "050210",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用或兽医用微生物制剂",
+          "code": "050454",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用锭剂",
+          "code": "050214",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用芥末",
+          "code": "050219",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用樱桃李树皮",
+          "code": "050221",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "麻醉药",
+          "code": "050223",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "嗅盐",
+          "code": "050224",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用药膏",
+          "code": "050225",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "器官疗法制剂",
+          "code": "050229",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用果胶",
+          "code": "050231",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用苯酚",
+          "code": "050236",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用草药茶",
+          "code": "050240",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用胃蛋白酶",
+          "code": "050242",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用扁胶囊",
+          "code": "050243",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "急救箱（备好药的）",
+          "code": "050244",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用磷酸盐",
+          "code": "050245",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "汗足药",
+          "code": "050247",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "血浆",
+          "code": "050248",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用钾盐",
+          "code": "050251",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用破斧木",
+          "code": "050253",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用苦木药",
+          "code": "050254",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用金鸡纳树皮",
+          "code": "050255",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用奎宁",
+          "code": "050256",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用喹啉",
+          "code": "050257",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用植物根",
+          "code": "050260",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用大黄根",
+          "code": "050261",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用次硝酸铋",
+          "code": "050263",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用菝葜",
+          "code": "050264",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用血",
+          "code": "050265",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用水蛭",
+          "code": "050266",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "镇静药",
+          "code": "050268",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "镇静剂",
+          "code": "050268",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用麦角",
+          "code": "050269",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "血清疗法药剂",
+          "code": "050270",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "安眠药",
+          "code": "050273",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用钠盐",
+          "code": "050274",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "灭菌剂",
+          "code": "050275",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "马钱子碱",
+          "code": "050276",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "止血剂",
+          "code": "050277",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用糖",
+          "code": "050278",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "磺胺（药）",
+          "code": "050279",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用酒石",
+          "code": "050281",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用松脂",
+          "code": "050282",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医药用松节油",
+          "code": "050283",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用麝香草酚",
+          "code": "050284",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "祛汗药",
+          "code": "050285",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "发疱剂",
+          "code": "050290",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用醋酸盐",
+          "code": "050291",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用酸",
+          "code": "050292",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用生物碱",
+          "code": "050296",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用醋酸铝",
+          "code": "050299",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用甘草茎",
+          "code": "050303",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用小苏打",
+          "code": "050304",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用生物制剂",
+          "code": "050305",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用溴",
+          "code": "050306",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用樟脑油",
+          "code": "050308",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用樟脑",
+          "code": "050309",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "减肥用药剂",
+          "code": "050317",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用纤维素酯",
+          "code": "050318",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用苛性碱",
+          "code": "050319",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用纤维素醚",
+          "code": "050320",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "饮食疗法用或医用谷类加工副产品",
+          "code": "050321",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用化学制剂",
+          "code": "050323",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用酒石酸氢钾",
+          "code": "050325",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用杂酚油",
+          "code": "050326",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "牙科用药",
+          "code": "050327",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用酵素",
+          "code": "050333",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用硫华",
+          "code": "050334",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用发烟药草",
+          "code": "050336",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用棓酸",
+          "code": "050338",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用葡萄糖",
+          "code": "050340",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用藤黄",
+          "code": "050341",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用蓖麻油",
+          "code": "050344",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用碘",
+          "code": "050346",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用碘化物",
+          "code": "050347",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用碱性碘化物",
+          "code": "050348",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用化学制剂",
+          "code": "050362",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用淀粉酶",
+          "code": "050366",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用酶",
+          "code": "050368",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用酶制剂",
+          "code": "050370",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用催干剂",
+          "code": "050373",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "人和动物用微量元素制剂",
+          "code": "050375",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用氨基酸",
+          "code": "050376",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用鱼粉",
+          "code": "050381",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用漱口剂",
+          "code": "050383",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "外科和矫形用骨结合剂",
+          "code": "050385",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "抗生素",
+          "code": "050388",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用食欲抑制剂",
+          "code": "050389",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "支气管扩张制剂",
+          "code": "050390",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用阴道清洗液",
+          "code": "050393",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用头发增长剂",
+          "code": "050394",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "类固醇",
+          "code": "050395",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用佐药",
+          "code": "050396",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "由活组织组成的外科移植物",
+          "code": "050397",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用下体注洗液",
+          "code": "050402",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用干细胞",
+          "code": "050403",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用生物组织培养物",
+          "code": "050405",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用冷却喷雾",
+          "code": "050407",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "个人用性交润滑剂",
+          "code": "050408",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用芦荟制剂",
+          "code": "050409",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "性欲抑制剂",
+          "code": "050411",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "含药物的洗眼剂",
+          "code": "050414",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "食欲抑制剂",
+          "code": "050415",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "减肥药",
+          "code": "050416",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "晒黑用药",
+          "code": "050417",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "抗氧化药",
+          "code": "050418",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用藻酸盐",
+          "code": "050433",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "移植物（活体组织）",
+          "code": "050450",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用胶原蛋白",
+          "code": "050451",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用植物提取物",
+          "code": "050452",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用草本疗法制剂",
+          "code": "050455",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用草本提取物",
+          "code": "050456",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "性刺激用凝胶",
+          "code": "050457",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "免疫刺激剂",
+          "code": "050458",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用载药注射器",
+          "code": "050462",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用收敛剂",
+          "code": "050465",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "含药物的洁牙剂",
+          "code": "050466",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "治疗虱子用制剂（灭虱药）",
+          "code": "050467",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "灭虱洗发剂",
+          "code": "050468",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "含药物的牙膏",
+          "code": "050491",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "针剂",
+          "code": "C050001",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "片剂",
+          "code": "C050002",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "酊剂",
+          "code": "C050003",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "水剂",
+          "code": "C050004",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "膏剂",
+          "code": "C050005",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "口服补盐液",
+          "code": "C050012",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "原料药",
+          "code": "C050014",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "中药成药",
+          "code": "C050015",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "生化药品",
+          "code": "C050022",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "血液制品",
+          "code": "C050023",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "胶丸",
+          "code": "C050024",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "药酒",
+          "code": "C050025",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "减肥茶",
+          "code": "C050050",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "杀寄生虫药",
+          "code": "C050051",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "中药材",
+          "code": "C050052",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "蛋白质补充剂",
+          "code": "C050053",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "冬虫夏草",
+          "code": "C050054",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "阿胶",
+          "code": "C050055",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "药用灵芝",
+          "code": "C050056",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "药用鹿茸",
+          "code": "C050057",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "药用石斛茎",
+          "code": "C050058",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "药用林蛙油",
+          "code": "C050059",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "药用天麻",
+          "code": "C050060",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "淮山药（中药材）",
+          "code": "C050061",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "藏红花（中药材）",
+          "code": "C050062",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "罗汉果（中药材）",
+          "code": "C050063",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "医用酒精",
+          "code": "050008",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用乙醛",
+          "code": "050009",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用莳萝油",
+          "code": "050018",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "冻伤药膏",
+          "code": "050023",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "抗菌剂",
+          "code": "050030",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "治疣药笔",
+          "code": "050033",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用香膏",
+          "code": "050050",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "甘汞（杀真菌剂）",
+          "code": "050064",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "石灰制药剂",
+          "code": "050074",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "眼药水",
+          "code": "050088",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "除鸡眼药物",
+          "code": "050098",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "治晒伤用药剂",
+          "code": "050100",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "冻疮制剂",
+          "code": "050103",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用去污剂",
+          "code": "050108",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "清除橡皮膏溶剂",
+          "code": "050134",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "浸制药液",
+          "code": "050148",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用油脂",
+          "code": "050163",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药油",
+          "code": "050167",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "除香精油外的药油",
+          "code": "050167",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用芥子油",
+          "code": "050172",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "碘酒",
+          "code": "050179",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用洗液",
+          "code": "050191",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "搽剂",
+          "code": "050196",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "硫黄棒（消毒用）",
+          "code": "050205",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用润发脂",
+          "code": "050207",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用酊剂",
+          "code": "050208",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "汞软膏",
+          "code": "050211",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "肥皂樟脑搽剂",
+          "code": "050228",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "芥子膏药纸",
+          "code": "050237",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "芥子敷剂纸",
+          "code": "050237",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "护肤药剂",
+          "code": "050239",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "治头皮屑药剂",
+          "code": "050241",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "芥子膏药",
+          "code": "050271",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "芥子泥敷剂",
+          "code": "050271",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "栓剂",
+          "code": "050280",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "治晒伤软膏",
+          "code": "050301",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用甘油",
+          "code": "050331",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用甲醛",
+          "code": "050335",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用矿脂",
+          "code": "050339",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用羯布罗香膏",
+          "code": "050342",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用蛇麻子浸膏",
+          "code": "050343",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用过氧化氢",
+          "code": "050345",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用酒精",
+          "code": "050438",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "痤疮治疗制剂",
+          "code": "050444",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "除香精油外的药用植物提取",
+          "code": "050452",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "除香精油外的医用草本提取物",
+          "code": "050456",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "油剂",
+          "code": "C050006",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "止痒水",
+          "code": "C050007",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "去灰指甲油",
+          "code": "C050008",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "艾卷",
+          "code": "C050020",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "贴剂",
+          "code": "C050021",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "风湿油",
+          "code": "C050043",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "伤风油",
+          "code": "C050044",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "清凉油",
+          "code": "C050045",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "医用熏蒸制剂",
+          "code": "C050065",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "医用洗浴制剂",
+          "code": "050041",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "矿泉水沐浴盐",
+          "code": "050042",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药浴用海水",
+          "code": "050044",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "浴用治疗剂",
+          "code": "050045",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用泥浆",
+          "code": "050058",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用沉淀泥",
+          "code": "050058",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "浴用泥浆",
+          "code": "050059",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "泥敷剂",
+          "code": "050070",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用矿泉水",
+          "code": "050129",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "矿泉水盐",
+          "code": "050130",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "温泉水",
+          "code": "050131",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用沐浴盐",
+          "code": "050302",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "抗菌皂",
+          "code": "050471",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "抗菌洗手液",
+          "code": "050472",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "含药物的剃须后用液",
+          "code": "050473",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "含药物的洗发液",
+          "code": "050474",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "含药物的梳洗用制剂",
+          "code": "050475",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "含药物的润发乳",
+          "code": "050476",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "含药物的干洗式洗发剂",
+          "code": "050477",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "消毒皂",
+          "code": "050479",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药皂",
+          "code": "050480",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "怀孕诊断用化学制剂",
+          "code": "050166",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用诊断制剂",
+          "code": "050330",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用或兽医用化学试剂",
+          "code": "050364",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用试纸",
+          "code": "050437",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用生物标志物诊断试剂",
+          "code": "050443",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用杏仁油",
+          "code": "050516",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "皮肤病用制剂",
+          "code": "050517",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用蜂蜜软膏",
+          "code": "050519",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医学实验室用医用诊断制剂",
+          "code": "050520",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "浸有痤疮治疗制剂的贴片",
+          "code": "050522",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "辅助戒烟用尼古丁袋",
+          "code": "050523",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "芳香疗法用油",
+          "code": "050525",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "芳香疗法用霜",
+          "code": "050526",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用花水",
+          "code": "050527",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用透明质酸钠凝胶",
+          "code": "050528",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "辅助戒烟用尼古丁制剂",
+          "code": "050530",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医用荧光染料",
+          "code": "050531",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "安神用香精油",
+          "code": "C050066",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "降低食欲用香精油",
+          "code": "C050067",
+          "type": "marked",
+          "section": "（一）"
+        }
+      ]
+    },
+    {
+      "label": "（二）",
+      "items": [
+        {
+          "name": "医用放射性物质",
+          "code": "050258",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "医用镭",
+          "code": "050259",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "医用同位素",
+          "code": "050349",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "医用放射性造影物质",
+          "code": "050096",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "放射性药品",
+          "code": "C050009",
+          "type": "marked",
+          "section": "（二）"
+        }
+      ]
+    },
+    {
+      "label": "（三）",
+      "items": [
+        {
+          "name": "浴用氧气",
+          "code": "050043",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "医用气体",
+          "code": "050314",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "医用氧",
+          "code": "050399",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "已充氧的医用氧气瓶",
+          "code": "050499",
+          "type": "standard",
+          "section": "（三）"
+        }
+      ]
+    },
+    {
+      "label": "（四）",
+      "items": [
+        {
+          "name": "心电图电极用化学导体",
+          "code": "050091",
+          "type": "standard",
+          "section": "（四）"
+        }
+      ]
+    },
+    {
+      "label": "（五）",
+      "items": [
+        {
+          "name": "人工授精用精液",
+          "code": "050177",
+          "type": "standard",
+          "section": "（五）"
+        }
+      ]
+    },
+    {
+      "label": "（六）",
+      "items": [
+        {
+          "name": "卫生消毒剂",
+          "code": "050118",
+          "type": "standard",
+          "section": "（六）"
+        },
+        {
+          "name": "消毒剂",
+          "code": "050441",
+          "type": "standard",
+          "section": "（六）"
+        }
+      ]
+    },
+    {
+      "label": "（七）",
+      "items": [
+        {
+          "name": "隐形眼镜护理液",
+          "code": "050094",
+          "type": "standard",
+          "section": "（七）"
+        },
+        {
+          "name": "隐形眼镜清洁剂",
+          "code": "050365",
+          "type": "standard",
+          "section": "（七）"
+        }
+      ]
+    },
+    {
+      "label": "（八）",
+      "items": [
+        {
+          "name": "医用或兽医用细菌培养介质",
+          "code": "050036",
+          "type": "standard",
+          "section": "（八）"
+        },
+        {
+          "name": "医用或兽医用细菌培养肉汤",
+          "code": "050036",
+          "type": "standard",
+          "section": "（八）"
+        },
+        {
+          "name": "医用或兽医用细菌培养基",
+          "code": "050036",
+          "type": "standard",
+          "section": "（八）"
+        },
+        {
+          "name": "微生物用营养物质",
+          "code": "050212",
+          "type": "standard",
+          "section": "（八）"
+        },
+        {
+          "name": "医用或兽医用微生物培养物",
+          "code": "050213",
+          "type": "standard",
+          "section": "（八）"
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "杀细菌剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "唾腺激素制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "验孕制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医疗用外激素",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用、兽医用或药用酵母",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用、兽医用或药用酵母提取物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用膏药",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用或兽医用诊断制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用油纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鱼肝油滴剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "止汗药",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗呼吸疾病和呼吸失调的吸入式医药制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗呼吸系统疾病用药品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗虱子用制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生物杀真菌剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "包粉状药物用的食用糯米纸制给药介质",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "对乙酰氨基酚",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "复合维生素制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用杀真菌剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮肤病用医药制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "β受体阻断药",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "阿胶（中药材）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "晨吐抑制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "滴耳剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防止咬指甲的制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "辅助戒烟用尼古丁咀嚼片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "干枸杞（中药材）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含药物的口腔护理制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含药物的口腔治疗制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "缓解鼻塞用胶囊",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "缓解疼痛药物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "灰指甲治疗制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "肌肉松弛剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鸡眼膏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加药的棉签",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "戒烟用药物制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "局部麻醉剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抗病毒制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "口服避孕药",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "灭菌物质",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮肤病用凝胶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮肤病用乳霜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人工泪液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人用抗生素",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "杀精子剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生育力增强制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "退热剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "外科用药膏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "维生素泡腾片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于补充水分、营养和药物释放的静脉注射液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用黏土",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用葡萄糖制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用细菌学研究制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用细菌制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用遗传特性测试试剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用诊断试剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "阴道润滑剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "消炎制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙科用抗生素",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "镇咳药",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "止痛软膏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "止吐药",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗癌症用药品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗病毒性疾病用药品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗传染病用药品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗耳鸣用药",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗高胆固醇血症用药物制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗高脂血症用药物制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗过敏性鼻炎用医药制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗过敏用滴鼻液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗肌肉骨骼疾病用药物制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗激素失调用医药制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗胃肠道疾病用药物和制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗哮喘用医药制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "痔疮药膏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "预防骨质疏松用医药制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "药用人参",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医疗基因检测用试剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用鼻腔清洗剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用或兽医用矿脂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用或兽医用油脂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用免疫分析试剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "指甲消毒剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用防蛀牙漱口剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "性高潮霜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "杀孢子剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抗结核制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抗脂肪肝因子制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用防蛀牙清洗剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗皮肤病药霜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗皮肤病药水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用艾草",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "预防产乳热的药物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "煎好的草药",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "低血糖剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用食用鱼油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抗癫痫药物制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防痔疮制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "预防脑出血制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用砷解毒剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用苯解毒剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用细胞功能激活药物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医疗用氯解毒剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用止血药",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗肠道紊乱的药物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用心血管药物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抗晕动症药",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鼻腔冲洗液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用植物神经药物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用毛细管稳定剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "大便软化药",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抗肺炎球菌感染疫苗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "血管收缩剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗用芦荟凝胶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鸡蛋消毒制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗免疫系统相关疾病和紊乱的医药制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗癌症用生物制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "除疣制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "药用治晒伤剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "消炎软膏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "青霉素制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "曲古霉素制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "催眠镇静剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "催乳剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蛋氨酸制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "调节月经周期的药物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "调经药",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抗毒血清",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抗梅毒药剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "局部止痛药膏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "雌激素制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "软骨素制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "色氨酸制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "维生素A制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "维生素B制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "维生素D制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用骨接合剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "四环素制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "苏氨酸制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "甲状腺和甲状旁腺激素制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "器官疗法用制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "呼吸兴奋剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "骨骼肌松弛药",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "磺胺制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "链霉素制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "混合抗生素制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氯霉素制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "红霉素制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "作用于中枢神经系统的医药制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗皮肤病的药品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用止咳含片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "杀寄生虫制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "肾上腺激素制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "催吐药",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "疫苗制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "熏蒸剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "助消化药剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "混合维生素制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用试剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "止咳化痰剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "止痛制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "肿瘤抑制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "发汗剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用洗液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "流感疫苗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "止痒液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "心血管药物制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "兴奋剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "移植物（活组织）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "磺胺类药物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "作消毒剂用硫磺棒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "滴眼剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用杀真菌剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "护肤用医药制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用抗菌物质",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化疗药物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抗凝血剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "维生素药片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用抗真菌霜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用口气清新剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抗生素药膏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抗生素制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抗酸药",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗糖尿病用医药制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用皮肤清洁制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "隐形眼镜消毒剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "吸入式麻醉剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "杀病毒剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗皮肤病用医药制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "维生素C制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "药用空胶囊",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "赖氨酸制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抗糖尿病药物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卫生消毒制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用矿物盐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用矿物制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "利尿剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抗糖尿病制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卫生用消毒剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人用疫苗制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抗抑郁药",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抗真菌制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "药用香膏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抗组胺剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用人参胶囊",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "止咳滴剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用和兽医用诊断制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用氨基酸制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "解充血药",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "解毒剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "胰岛素",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "药用糊精",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗过敏用医药制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "避孕制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "表皮用药剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用益生菌制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "祛痰药",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "退热止痛剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用蜂王浆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "降压药",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抗毒素",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "眼科制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抗过敏药物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用牙齿清洗剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "眼用制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "强心剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮肤病用抗菌剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抗癌制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抗病毒药",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "X光造影剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "伤口用医药制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "肠胃清洁剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于检测遗传倾向的药用制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于检测朊病毒基因突变的医用制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于治疗哮喘的制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "促进头发生长药物制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抗皮肤传染剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抗肉瘤制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "头发用灭虱制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "由生物材料组成的医用骨生长媒介",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "浴用治疗药剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含药喉咙喷剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗用芦荟制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用软化水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙菌斑指示制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗勃起功能障碍药物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "帮助消化用膳食纤维",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗肺动脉高压用吸入医药制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "眼或眼内手术用医药制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "针对怀孕引起皮肤干燥用医药产品和制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "黄褐斑用医药制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "眼科用药物制品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗骨疾病的药物制品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "透析用药物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "垂体激素制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "放射病治疗药物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "放射性同位素治疗或诊断用标记物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用脐带血",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "由活物质组成的骨填充物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含药婴儿油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含药婴儿爽身粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "护肤药霜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "药草（干制或腌制的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗胃肠道疾病用药",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗用耳烛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用治疗皮肤病药膏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "游泳池消毒剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗高血压用医药制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抗心律不齐制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抗麻风制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "止痉挛药",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "消毒鸡蛋用复合剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "雄激素制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "产前维生素",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "全身麻醉剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用细胞抑制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗中暑制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗骨折用药剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用瘦身制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用超声仪器用造影剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "口服疫苗制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "药用薄荷醇",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用汞软膏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "处方合成麻醉剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "醋氨酚（镇痛用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "降低胆固醇制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抗痉挛药物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "外周神经系统用医药制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于测量血糖水平的试纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗座疮的药物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含药漱口水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用软化剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "代谢药剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "周围神经系统药剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗身体损伤用药剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗化学失衡的药物制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用巴豆茎皮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用箭毒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抗癌霉素制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "尿道消毒剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙科正畸印模用藻酸盐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "催产药",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "胰激素制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用杀寄生虫药",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硫藤黄素制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "作用于感觉器官的药剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "外科麻醉剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "活体成像用造影剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烧烫伤药",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "药用三七粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "偏头痛治疗制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "缓解过敏的药物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "口服止痛药",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "降血脂药",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氢化可的松",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮肤伤口用药剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用椰子油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蛀牙预防剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含药物的按摩蜡烛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "药用天南星",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "黏合伤口用医用黏合剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "黏合内部组织用医用黏合剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "外科用染色剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鼻腔喷雾药剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "泡腾止痛药剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "灌肠制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鼻窦和鼻腔冲洗用盐水溶液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "药用玉竹（药用植物根）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用作毒药解毒剂的活性炭",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手部消毒剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手部消毒凝胶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "药用五加皮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用滴鼻液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗皮肤病药膏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含药物的漱口剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗口臭用药物制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防晕车药",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "热病性疱疹治疗制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗脚癣用乳膏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "粪便潜血检测用化学试纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "缓解昆虫叮咬症状的药物制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含药物的洗浴制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含药物的牙齿清洗剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含药物的防蛀牙漱口剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含药物的防蛀牙清洗剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "尿布疹用药膏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用活细胞",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "止泻药",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "收敛剂（药品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用羯布罗香油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "口腔药物制剂（胶囊状）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "口腔药物制剂（压缩片剂）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "口腔药物制剂（滴剂）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "口腔药物制剂（片剂）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "预防和治疗癌症的药物制品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗呼吸系统疾病的药物制品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗呼吸系统疾病用药物制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗呼吸系统疾病用的药物制品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗呼吸系统疾病和哮喘的药品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "林蛙油（药用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "药用灵芝孢子粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "虫草（中药材）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "尿素含量自测带(医用诊断制剂)",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "止痒啫喱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "止痒膏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "止痒膏剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "止痒剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "止痒凝胶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "止痒软膏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "止痒霜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "止痒药",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "止痒药膏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "止痒油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "止痒酊",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "风油精",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮肤用杀菌清洁剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗呼吸系统疾病的药物制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗呼吸系统疾病及失调的医用制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗呼吸系统疾病及失调的医用制剂及药物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮肤病用药品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "药用冬虫夏草",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "性兴奋用凝胶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于骨折治疗的药剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "中暑治疗制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "止痒药物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "林蛙油（中药药材）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用X光造影剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硫磺棒（消毒用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "药用石灰制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗呼吸系统疾病及呼吸系统障碍用药物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冬虫夏草粉末(中药材)",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "药用黄精",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗呼吸系统疾病用医药制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通便栓剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "预防和治疗癌症用医药制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抑菌洗手剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抑菌洗手液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含药物的爽足粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗低血糖的药物制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "作用于中枢神经系统的兴奋剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "眼科用粘弹剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "痛经治疗制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "血管加压药",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含药物的唇膏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "外用酒精",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钙通道阻滞剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "阴道抗真菌剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "消毒制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "西洋参",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用电解质",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "活体外科移植物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "维生素补充液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "口服布洛芬止痛剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗心脑血管疾病用药",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含药物的足浴液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用硫柳汞",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防鲨剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用减肥茶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "中枢神经系统兴奋剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含药物的护足霜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含药物的护唇膏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含药物的护发制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医疗设备用造影剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "维生素滴剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医疗器械用消毒剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含药物的护肤制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用微生物制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "痔疮治疗制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用细胞",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抗过敏药",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用化学试剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "药用淀粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于中枢神经系统的药物制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "消炎喷雾剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "口腔护理用药物凝胶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含药物的爽肤水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用咖啡因制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "婴儿用维生素",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医学成像用气体和气体混合物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含药物的尿布疹霜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含药物的尿布疹乳液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "甲状旁腺激素制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人类同种异体组织",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗过敏反应用注射药物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "诱发勃起的药物制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鼻腔减充血喷雾剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用止咳糖浆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "婴儿用驱蚊贴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "退烧药",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治晒伤用药液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抑制肿瘤用药物制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗感冒用制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "诊断用放射性药物制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗自身免疫性疾病用医药制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用密封放射性物料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "除疣药剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "使用在皮肤上的驱蚊剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "药用明胶胶囊（空的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用初乳抗体",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用酵母提取物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗用草药泥膜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抗感染药物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "增强男性功能的草药胶囊",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "替代软组织用加工过的捐献的异体皮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "表皮治疗用医药制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "与X光设备配用的造影剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗痤疮用烟酰胺制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抗蛇毒血清",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙科用气体",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含药物的涂刷型口腔护理凝胶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含药物的润唇膏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含药物的护肤液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含药物的矿物浴盐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用叶黄素",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含药物的毛发生长促进剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用胰蛋白酶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氨吸入剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用异丙醇",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用滑石粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防病毒消毒剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "覆盆子（中药材）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "激素抑制制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "药用栀子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用泻盐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "药用乌贼骨",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "血清",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "药用牛奶发酵剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "病毒疫苗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用薄荷醇洗浴制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "避孕海绵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗病毒性疾病用药物制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用、兽医用细菌培养肉汤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用、兽医用细菌培养介质",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "咳嗽治疗制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "药用真菌多糖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用小分子化学药物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用单抗克隆药物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "药用润发油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抗菌药物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "杀菌洗涤剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "止血笔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用透明质酸钠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "除香精油外的药用植物提取物050452",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗恶心用医药制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用射线防护喷剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用透明质酸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用润发油",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:29.310Z"
+}

@@ -1,0 +1,107 @@
+{
+  "groupCode": "0914",
+  "groupName": "电器成套设备及控制装置",
+  "classCode": "09",
+  "notes": [
+    "注：本类似群各部分之间商品不类似。"
+  ],
+  "sections": [
+    {
+      "label": "（一）",
+      "items": [
+        {
+          "name": "遥控铁路道岔用电动装置",
+          "code": "090022",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "远距离点火用电子点火装置",
+          "code": "090030",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "热调节装置",
+          "code": "090116",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "工业遥控操作用电气设备",
+          "code": "090130",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "整流用电力装置",
+          "code": "090163",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "高压防爆配电装置",
+          "code": "C090108",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "电站自动化装置",
+          "code": "C090109",
+          "type": "marked",
+          "section": "（一）"
+        }
+      ]
+    },
+    {
+      "label": "（二）",
+      "items": [
+        {
+          "name": "避雷针",
+          "code": "090381",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "避雷器",
+          "code": "090955",
+          "type": "standard",
+          "section": "（二）"
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "避雷装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "供热管理用电气控制设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "能源管理用电气控制设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于金属加工机械的数字控制装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "供热管理用电控制设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "直流屏",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:37.289Z"
+}

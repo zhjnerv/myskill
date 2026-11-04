@@ -1,0 +1,177 @@
+{
+  "groupCode": "0726",
+  "groupName": "橡胶、塑料工业机械",
+  "classCode": "07",
+  "notes": [
+    "注: 本类似群与第九版及以前版本 0753 生产球拍线机械交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "模压加工机器",
+          "code": "070206",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "硫化器",
+          "code": "070384",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "塑料加工机器",
+          "code": "070544",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "切胶机",
+          "code": "C070169",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "碾胶机",
+          "code": "C070170",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "炼胶机",
+          "code": "C070171",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "洗胶机",
+          "code": "C070172",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "擦胶机",
+          "code": "C070173",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "粘胶机",
+          "code": "C070174",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "滤胶机",
+          "code": "C070175",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "轮胎成型机",
+          "code": "C070176",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "塑料切粒机",
+          "code": "C070177",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "干塑模压瓦机",
+          "code": "C070178",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "注塑机",
+          "code": "C070179",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "电子冲塑机（塑料印刷表面处理）",
+          "code": "C070180",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "加工塑料用模具",
+          "code": "C070181",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "塑料绕丝机",
+          "code": "C070182",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "制塑料桶（罐）设备",
+          "code": "C070380",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "生产球拍线机械",
+          "code": "C070436",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "塑料加工机械",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "橡胶制造机器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "塑料挤压机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "橡胶成型机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "橡胶加工机器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "塑料注射成型机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "橡胶硫化设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "混胶辊（橡胶混合机部件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "注塑用机械臂",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:04.362Z"
+}

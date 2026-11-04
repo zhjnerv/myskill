@@ -1,0 +1,499 @@
+{
+  "groupCode": "2112",
+  "groupName": "家务用具",
+  "classCode": "21",
+  "notes": [
+    "注:1.本类似群与第十二版及以前版本 0921 擦眼镜布,第十版及以前版本0609 金属扫帚柄,2003 非金属扫帚柄交叉检索；",
+    "2.家务手套,抛光用手套,园艺手套,洗车用手套与第十版及以前版本2408 交叉检索；",
+    "3.毛球去除器(电动或非电动)与第十版及以前版本 0810 毛球修剪器,0806 已接受商品毛球修剪器交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "清洁用钢丝绒",
+          "code": "210005",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "地毯拍打器（手工具）",
+          "code": "210008",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "扫帚",
+          "code": "210020",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "扫地毯器",
+          "code": "210021",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属制擦锅器",
+          "code": "210066",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "清洁用布",
+          "code": "210077",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非电动打蜡设备",
+          "code": "210080",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "抛光用皮革",
+          "code": "210100",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "手动清洁器具",
+          "code": "210104",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非电掸灰设备",
+          "code": "210111",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "海绵夹持器",
+          "code": "210124",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "家具掸",
+          "code": "210125",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "拖把*",
+          "code": "210135",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "清洁用废羊毛",
+          "code": "210163",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "擦洗垫",
+          "code": "210168",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "家用抛光设备和机器（非电动）",
+          "code": "210186",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "抛光材料（使发光用）（制剂、纸、石料除外）",
+          "code": "210187",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "厨房用擦垫",
+          "code": "210259",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "清洁用麂皮",
+          "code": "210263",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "擦鞋用非电动打蜡机",
+          "code": "210264",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "清洁用废棉纱",
+          "code": "210268",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "家用海绵",
+          "code": "210280",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "羽毛掸",
+          "code": "210281",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "抹布",
+          "code": "210282",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "家务手套",
+          "code": "210290",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "抛光用手套",
+          "code": "210294",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "洗地板布",
+          "code": "210303",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "清洁用纤维束",
+          "code": "210312",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "园艺手套",
+          "code": "210321",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烤箱用手套",
+          "code": "210357",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "厨房用隔热手套",
+          "code": "210357",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烧烤用手套",
+          "code": "210357",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "洗车用手套",
+          "code": "210360",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "毛球去除器（电动或非电动）",
+          "code": "210377",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "抛光用布",
+          "code": "210378",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "扫帚柄",
+          "code": "210389",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "刮水板（清洁器具）",
+          "code": "210404",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "洗碗布",
+          "code": "210417",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "不锈钢肥皂",
+          "code": "210452",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "簸箕",
+          "code": "210456",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "黏尘清洁辊",
+          "code": "210457",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "黏尘清洁辊用可替换黏尘纸",
+          "code": "210458",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "擦眼镜布",
+          "code": "210486",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "擦鞋器",
+          "code": "C210041",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "清扫器",
+          "code": "C210042",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "钢丝轮",
+          "code": "C210043",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "门窗玻璃清洁器",
+          "code": "C210044",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "玻璃防雾布",
+          "code": "C210045",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "沐浴海绵",
+          "code": "C210047",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "粉屑清扫器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属制擦洗垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "清洁用金属垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "擦鞋布",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烤架刮削器（清洁用品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "除尘用布",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "拖把头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "清洁用抹布",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "微纤维清洁布",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钢丝绒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "擦洗用海绵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "厨房用海绵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "除尘手套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非电动地毯清洁器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "地毯耙",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "棉质家务手套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蔬菜去皮手套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用丝瓜络",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "清洁用一次性掸头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "清洁医疗器械用拭子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "清洁医疗器械用海绵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "衣物除尘辊",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "地板除尘辊",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "撕纸式黏尘滚筒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家庭清洁用橡胶刮板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "擦鞋用手套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "地毯拍打器（非机器）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "清洁用海绵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抛光用巾",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "扫毯器（非电）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非电动喷水拖把",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "清洁玻璃用刮擦器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "一次性擦鞋布",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "橡胶家务手套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动毛球去除器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "清洁用垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车用掸子",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:54.065Z"
+}

@@ -1,0 +1,545 @@
+{
+  "groupCode": "1609",
+  "groupName": "纸及不属别类的塑料包装物品",
+  "classCode": "16",
+  "notes": [
+    "注：本类似群第一自然段与1601纸类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "纸板制帽盒",
+          "code": "160076",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "锥形纸袋",
+          "code": "160102",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纸制盛奶油容器",
+          "code": "160115",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "包装纸",
+          "code": "160130",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "模绘板盒",
+          "code": "160214",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "包装用纸袋或塑料袋（信封、小袋）",
+          "code": "160246",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纸制或纸板制盒",
+          "code": "160280",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纸制或纸板制瓶封套",
+          "code": "160282",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "包装用塑料气泡袋",
+          "code": "160285",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "包装用再生纤维素纸",
+          "code": "160288",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纸制或塑料制垃圾袋",
+          "code": "160292",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "瓶用纸制或纸板制包装物",
+          "code": "160304",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "包装用粘胶纤维纸",
+          "code": "160310",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "咖啡过滤纸",
+          "code": "160324",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "淀粉制包装材料",
+          "code": "160338",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纸制或塑料制食品包装用吸收纸",
+          "code": "160355",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纸制或塑料制食品包装用湿度调节纸",
+          "code": "160356",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纸或纸板制（减震或填充用）包装材料",
+          "code": "160365",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纸或纸板制填充材料",
+          "code": "160366",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纸或纸板制衬垫材料",
+          "code": "160366",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "宠物垃圾处理用塑料袋",
+          "code": "160371",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医疗器械用灭菌纸袋",
+          "code": "160378",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食品和饮料用镂花模板",
+          "code": "160386",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纸制或塑料制手提袋",
+          "code": "160396",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纸制或塑料制购物袋",
+          "code": "160396",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烘焙纸",
+          "code": "160399",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "海藻制包装膜",
+          "code": "160405",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纸制或塑料制食品袋",
+          "code": "160409",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "仿羊皮纸（防油纸）",
+          "code": "C160059",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "糖果包装纸",
+          "code": "C160060",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "牛皮纸",
+          "code": "C160061",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "水泥袋",
+          "code": "C160062",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "纸箱",
+          "code": "C160063",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "包装用塑料膜",
+          "code": "160218",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "垫货盘用可伸展塑料膜",
+          "code": "160325",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "包装用塑料气泡膜",
+          "code": "160406",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "保鲜膜",
+          "code": "C160064",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "纸或纸板制装冰用容器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸板制容器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "塑料制礼品包装纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "葡萄酒礼品纸袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "包装用纸袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸制家用食物垃圾袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸板制包装盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸板制礼物盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸制包装盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "晚会用纸袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "海运用纸板箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "乙烯制家用垃圾袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸制容器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "厨房用纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食品包装用塑料膜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "塑料垃圾袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可折叠的纸板包装盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可折叠纸板盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸板包装物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用塑料制食品贮藏袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "泡沫纸袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸制礼品包装物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "火药包装纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸板蛋糕盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "包装用纸容器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "包装用纸制容器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用食品包装塑料膜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用塑料垃圾袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用纸制垃圾袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "礼品包装纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸制工业包装容器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸板箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可折叠纸盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "瓦楞卡纸板盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸制包装容器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "包装用聚丙烯箔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "成型的纸板盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "处理宠物粪便用塑料袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮制书皮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "邮寄用纸板卷筒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸制外卖食品盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸板盒（工业包装用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸或纸板制（填充或衬垫用）包装材料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "包装用塑料材料制薄膜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "塑料制食品冷冻保存用袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食品包装用纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "包装用塑料袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸制宠物拾便袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用可生物降解塑料制食品垃圾袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用塑料制垃圾袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸制奶油容器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食品包装纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸礼品袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸制购物袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "塑料制购物袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸制邮件袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用塑料制食品储藏袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸板制包装筒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "由回收纸制成的包装材料",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:14.693Z"
+}

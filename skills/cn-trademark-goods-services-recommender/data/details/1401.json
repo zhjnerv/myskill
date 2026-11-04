@@ -1,0 +1,175 @@
+{
+  "groupCode": "1401",
+  "groupName": "贵重金属及其合金",
+  "classCode": "14",
+  "notes": [
+    "注：本类似群与第十一版及以前版本 0101 第（二）部分海绵钯交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "贵金属锭",
+          "code": "140003",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铱",
+          "code": "140045",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "未加工或半加工贵金属",
+          "code": "140055",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "未加工的金或金箔",
+          "code": "140063",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "锇",
+          "code": "140066",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "钯",
+          "code": "140067",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铂（金属）",
+          "code": "140075",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铑",
+          "code": "140083",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "钌",
+          "code": "140085",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "贵金属合金",
+          "code": "140104",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "未加工、未打造的银",
+          "code": "140163",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "海绵钯",
+          "code": "C140014",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "未加工或半加工黄金",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工的银合金",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "银合金锭",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铂锭",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "银锭",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "银",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金锭",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "黄金合金锭",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "黄金",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金条",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铂合金锭",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "锇合金",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铱合金",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加工或未加工的黄金",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "银条",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:06.363Z"
+}

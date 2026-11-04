@@ -1,0 +1,2800 @@
+{
+  "groupCode": "0910",
+  "groupName": "测量仪器仪表，实验室用器具，电测量仪器，科学仪器",
+  "classCode": "09",
+  "notes": [
+    "注：1.本类似群第一自然段商品与各部分商品均类似；",
+    "2.本类似群各部分之间商品不类似；",
+    "3.本类似群第（六）部分内的商品互相之间将根据商品的功能、用途确定类似商品；",
+    "4.第（一）部分与第十版及以前版本 0905 角度测量工具，吊线坠交叉检索；",
+    "5.第（一）部分与第十二版及以前版本第（三）部分测定用气体发生设备，第十一版及以前版本第（三）部分风速表交叉检索；",
+    "6.科学研究用具有人工智能的拟人机器人与第十一版及以前版本 0901 具有人工智能的人形机器人交叉检索；",
+    "7.实验室用电解装置与第十一版及以前版本0915电解装置、电解槽交叉检索；",
+    "8.校准用臭氧发生器与第十一版及以前版本第（三）部分臭氧发生器交叉检索；",
+    "9.第（七）部分与第十二版及以前版本第（三）部分材料检验仪器和机器，非医用测试仪，非医用诊断设备，第（六）部分非医用磁共振成像（MRI）装置，汽车诊断用扫描设备交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "测绘仪器",
+          "code": "090055",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "计量仪表",
+          "code": "090138",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "探测器",
+          "code": "090180",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "测量装置",
+          "code": "090202",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "计量仪器",
+          "code": "090242",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "测量器械和仪器",
+          "code": "090280",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "精密测量仪器",
+          "code": "090346",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "测量仪器",
+          "code": "090347",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "红外探测器",
+          "code": "090756",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "高度测量仪",
+          "code": "090812",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "测定用气体发生设备",
+          "code": "090872",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "粉尘测量仪",
+          "code": "090936",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    },
+    {
+      "label": "（一）",
+      "items": [
+        {
+          "name": "空气分析仪器",
+          "code": "090025",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "高度计",
+          "code": "090033",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "风速计",
+          "code": "090039",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "气象气球",
+          "code": "090075",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "气压表",
+          "code": "090079",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "酒精水平仪",
+          "code": "090096",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "航海罗盘",
+          "code": "090133",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "测距设备",
+          "code": "090187",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "距离记录仪",
+          "code": "090194",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "测距仪",
+          "code": "090195",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "水位仪",
+          "code": "090204",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "铅锤",
+          "code": "090257",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "铅垂线",
+          "code": "090258",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "气量计（计量仪器）",
+          "code": "090279",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "水准标尺（测量仪器）",
+          "code": "090281",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "测杆（勘测仪器）",
+          "code": "090281",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "湿度表",
+          "code": "090292",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "测角器",
+          "code": "090299",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "坡度指示器",
+          "code": "090299",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "倾角计",
+          "code": "090299",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "斜度指示器",
+          "code": "090299",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "测程仪（测量仪器）",
+          "code": "090326",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "测深绳",
+          "code": "090327",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "测量水平仪",
+          "code": "090333",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "水银水平仪",
+          "code": "090344",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "气象仪器",
+          "code": "090348",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "航海器械和仪器",
+          "code": "090356",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "水平仪（测水平线仪器）",
+          "code": "090362",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "水准仪",
+          "code": "090363",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "观测仪器",
+          "code": "090366",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "八分仪",
+          "code": "090367",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "波长计",
+          "code": "090369",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "平板仪（测量仪器）",
+          "code": "090399",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "测面仪",
+          "code": "090400",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "偏振计",
+          "code": "090404",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "六分仪",
+          "code": "090444",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "测深度装置和机器",
+          "code": "090453",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "测深锤",
+          "code": "090454",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "经纬仪",
+          "code": "090479",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "方位仪",
+          "code": "090512",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "定向罗盘",
+          "code": "090523",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "海水深度探测器",
+          "code": "090668",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "风向袋（用于标明风向）",
+          "code": "090678",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "罗盘仪针",
+          "code": "090754",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "数字天气预报仪",
+          "code": "090764",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "便携式超细粉尘检测仪",
+          "code": "090853",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "校准用臭氧发生器",
+          "code": "090919",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "激光导向仪",
+          "code": "C090043",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "地震仪",
+          "code": "C090044",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "地质勘察分析仪器",
+          "code": "C090045",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "土壤取样仪",
+          "code": "C090046",
+          "type": "marked",
+          "section": "（一）"
+        }
+      ]
+    },
+    {
+      "label": "（二）",
+      "items": [
+        {
+          "name": "运载工具轮胎低压自动指示器",
+          "code": "090069",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "运载工具用测速仪",
+          "code": "090152",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "运载工具用里程表",
+          "code": "090232",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "出租车计价器",
+          "code": "090300",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "运载工具用自动转向装置",
+          "code": "090396",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "运载工具用恒温器",
+          "code": "090481",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "运载工具用电压调节器",
+          "code": "090498",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "非医用、非兽医用母乳检测装置",
+          "code": "090873",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "呼气式酒精检测仪",
+          "code": "090890",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "内燃机仪表",
+          "code": "C090047",
+          "type": "marked",
+          "section": "（二）"
+        }
+      ]
+    },
+    {
+      "label": "（三）",
+      "items": [
+        {
+          "name": "电池用测酸计",
+          "code": "090010",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "比重计",
+          "code": "090011",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "日光辐射计",
+          "code": "090018",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "气体比重计",
+          "code": "090020",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "酒精比重计",
+          "code": "090027",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "照准仪",
+          "code": "090028",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "照准仪",
+          "code": "090028",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "食物分析仪器",
+          "code": "090029",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "比较仪",
+          "code": "090067",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "水源探测棒",
+          "code": "090072",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "阀门压力指示栓",
+          "code": "090090",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "锅炉控制仪器",
+          "code": "090120",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "节拍器",
+          "code": "090139",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "密度计",
+          "code": "090175",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "平衡仪器",
+          "code": "090237",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "测力计",
+          "code": "090239",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "油量表",
+          "code": "090243",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "汽油压力计",
+          "code": "090243",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "气体检测仪",
+          "code": "090278",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "真空计",
+          "code": "090302",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "速度指示器",
+          "code": "090303",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "乳汁浓度计",
+          "code": "090316",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "乳汁比重计",
+          "code": "090317",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "压力计",
+          "code": "090336",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "酸性液体比重计",
+          "code": "090387",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "盐液比重计",
+          "code": "090389",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "测压仪器",
+          "code": "090409",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "压力指示器",
+          "code": "090410",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "高温计",
+          "code": "090415",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "分度仪（测量仪器）",
+          "code": "090419",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "非医用温度计",
+          "code": "090429",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "糖量计",
+          "code": "090435",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "亚硫酸盐测计",
+          "code": "090463",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "转速计",
+          "code": "090465",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "温度指示计",
+          "code": "090477",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "转数表",
+          "code": "090485",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "尿比重计",
+          "code": "090492",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "粘度计",
+          "code": "090496",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "非医用光密度计",
+          "code": "090532",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "剂量计",
+          "code": "090565",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "减压室",
+          "code": "090595",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "计量勺",
+          "code": "090641",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "频闪观测器",
+          "code": "090714",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "非医用示温标签",
+          "code": "090716",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "加速计",
+          "code": "090729",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "联机手环（测量仪器）",
+          "code": "090739",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "热量计",
+          "code": "090743",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "流量计",
+          "code": "090744",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "温差比重计",
+          "code": "090773",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "纳米粒度分析仪",
+          "code": "090817",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "非医用定量分配器（测量装置）",
+          "code": "090902",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "四轮定位仪",
+          "code": "090914",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "风压表",
+          "code": "C090048",
+          "type": "marked",
+          "section": "（三）"
+        },
+        {
+          "name": "水表",
+          "code": "C090049",
+          "type": "marked",
+          "section": "（三）"
+        },
+        {
+          "name": "油表",
+          "code": "C090050",
+          "type": "marked",
+          "section": "（三）"
+        },
+        {
+          "name": "煤气表",
+          "code": "C090051",
+          "type": "marked",
+          "section": "（三）"
+        }
+      ]
+    },
+    {
+      "label": "（四）",
+      "items": [
+        {
+          "name": "视听教学仪器",
+          "code": "090061",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "实验室用毛细管",
+          "code": "090109",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "织物密度分析镜",
+          "code": "090136",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "曲颈瓶",
+          "code": "090157",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "曲颈瓶座",
+          "code": "090158",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "坩埚（实验室用）",
+          "code": "090170",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "烤钵（实验室用）",
+          "code": "090170",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "实验室料盘",
+          "code": "090177",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "试管",
+          "code": "090236",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "实验室用发酵装置",
+          "code": "090253",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "分度玻璃器皿",
+          "code": "090285",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "计量用玻璃器皿",
+          "code": "090285",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "实验室用特制家具",
+          "code": "090315",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "数学仪器",
+          "code": "090339",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "显微镜用薄片切片机",
+          "code": "090352",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "物理学设备和仪器",
+          "code": "090395",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "实验室用吸量管",
+          "code": "090398",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "教学仪器",
+          "code": "090440",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "球径计",
+          "code": "090458",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "实验室用蒸馏器",
+          "code": "090504",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "化学仪器和器具",
+          "code": "090549",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "细菌培养器",
+          "code": "090556",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "科学用蒸馏装置",
+          "code": "090564",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "实验室用炉",
+          "code": "090568",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "实验室用烘箱",
+          "code": "090568",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "实验室用层析设备",
+          "code": "090585",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "急救训练用人体模型（教学器具）",
+          "code": "090680",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "基因芯片（DNA芯片）",
+          "code": "090684",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "实验室用离心机",
+          "code": "090698",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "培养皿",
+          "code": "090712",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "皮托管",
+          "code": "090713",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "生物芯片",
+          "code": "090774",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "实验室机器人",
+          "code": "090787",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "教学机器人",
+          "code": "090788",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "复苏训练模拟器",
+          "code": "090798",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "美发培训用头模（教学仪器）",
+          "code": "090813",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "非医用、非家用测量滴管",
+          "code": "090827",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "实验室用电解装置",
+          "code": "090871",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "实验室用生物反应器",
+          "code": "090879",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "科学研究用细胞培养生物反应器",
+          "code": "090880",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "实验室用滴定管",
+          "code": "090926",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "医学培训模拟器",
+          "code": "090949",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "实验室用烧瓶",
+          "code": "090959",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "实验室用化学反应器",
+          "code": "090960",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "用于实验室科学研究的基因扩增装置",
+          "code": "090964",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "理化试验和成分分析用仪器和量器",
+          "code": "C090054",
+          "type": "marked",
+          "section": "（四）"
+        },
+        {
+          "name": "酒精灯",
+          "code": "C090056",
+          "type": "marked",
+          "section": "（四）"
+        }
+      ]
+    },
+    {
+      "label": "（五）",
+      "items": [
+        {
+          "name": "安培计",
+          "code": "090036",
+          "type": "standard",
+          "section": "（五）"
+        },
+        {
+          "name": "电流计",
+          "code": "090092",
+          "type": "standard",
+          "section": "（五）"
+        },
+        {
+          "name": "功率计",
+          "code": "090203",
+          "type": "standard",
+          "section": "（五）"
+        },
+        {
+          "name": "电损耗指示器",
+          "code": "090213",
+          "type": "standard",
+          "section": "（五）"
+        },
+        {
+          "name": "电测量仪器",
+          "code": "090214",
+          "type": "standard",
+          "section": "（五）"
+        },
+        {
+          "name": "高频仪器",
+          "code": "090267",
+          "type": "standard",
+          "section": "（五）"
+        },
+        {
+          "name": "频率计",
+          "code": "090268",
+          "type": "standard",
+          "section": "（五）"
+        },
+        {
+          "name": "欧姆计",
+          "code": "090368",
+          "type": "standard",
+          "section": "（五）"
+        },
+        {
+          "name": "示波器",
+          "code": "090374",
+          "type": "standard",
+          "section": "（五）"
+        },
+        {
+          "name": "伏特计",
+          "code": "090500",
+          "type": "standard",
+          "section": "（五）"
+        },
+        {
+          "name": "电度表",
+          "code": "C090057",
+          "type": "marked",
+          "section": "（五）"
+        },
+        {
+          "name": "试电笔",
+          "code": "C090058",
+          "type": "marked",
+          "section": "（五）"
+        },
+        {
+          "name": "成套电气校验装置",
+          "code": "C090059",
+          "type": "marked",
+          "section": "（五）"
+        },
+        {
+          "name": "电气测量用稳压器",
+          "code": "C090060",
+          "type": "marked",
+          "section": "（五）"
+        }
+      ]
+    },
+    {
+      "label": "（六）",
+      "items": [
+        {
+          "name": "粒子加速器",
+          "code": "090002",
+          "type": "standard",
+          "section": "（六）"
+        },
+        {
+          "name": "电子回旋加速器",
+          "code": "090085",
+          "type": "standard",
+          "section": "（六）"
+        },
+        {
+          "name": "宇宙学仪器",
+          "code": "090161",
+          "type": "standard",
+          "section": "（六）"
+        },
+        {
+          "name": "回旋加速器",
+          "code": "090172",
+          "type": "standard",
+          "section": "（六）"
+        },
+        {
+          "name": "工业或军用金属探测器",
+          "code": "090178",
+          "type": "standard",
+          "section": "（六）"
+        },
+        {
+          "name": "非医用激光器",
+          "code": "090323",
+          "type": "standard",
+          "section": "（六）"
+        },
+        {
+          "name": "科学用探测器",
+          "code": "090436",
+          "type": "standard",
+          "section": "（六）"
+        },
+        {
+          "name": "科学卫星",
+          "code": "090437",
+          "type": "standard",
+          "section": "（六）"
+        },
+        {
+          "name": "科学装置用隔膜",
+          "code": "090439",
+          "type": "standard",
+          "section": "（六）"
+        },
+        {
+          "name": "运载工具驾驶和控制模拟器",
+          "code": "090448",
+          "type": "standard",
+          "section": "（六）"
+        },
+        {
+          "name": "撞击试验用假人",
+          "code": "090697",
+          "type": "standard",
+          "section": "（六）"
+        },
+        {
+          "name": "科学研究用具有人工智能的拟人机器人",
+          "code": "090778",
+          "type": "standard",
+          "section": "（六）"
+        },
+        {
+          "name": "探空火箭",
+          "code": "090931",
+          "type": "standard",
+          "section": "（六）"
+        },
+        {
+          "name": "核原子发电站控制系统",
+          "code": "C090061",
+          "type": "marked",
+          "section": "（六）"
+        },
+        {
+          "name": "原子射线仪器",
+          "code": "C090062",
+          "type": "marked",
+          "section": "（六）"
+        },
+        {
+          "name": "核子仪器",
+          "code": "C090063",
+          "type": "marked",
+          "section": "（六）"
+        },
+        {
+          "name": "导弹控制盒",
+          "code": "C090064",
+          "type": "marked",
+          "section": "（六）"
+        }
+      ]
+    },
+    {
+      "label": "（七）",
+      "items": [
+        {
+          "name": "材料检验仪器和机器",
+          "code": "090240",
+          "type": "standard",
+          "section": "（七）"
+        },
+        {
+          "name": "非医用测试仪",
+          "code": "090249",
+          "type": "standard",
+          "section": "（七）"
+        },
+        {
+          "name": "非医用诊断设备",
+          "code": "090633",
+          "type": "standard",
+          "section": "（七）"
+        },
+        {
+          "name": "非医用磁共振成像（MRI）装置",
+          "code": "090808",
+          "type": "standard",
+          "section": "（七）"
+        },
+        {
+          "name": "汽车诊断用扫描设备",
+          "code": "090859",
+          "type": "standard",
+          "section": "（七）"
+        },
+        {
+          "name": "研究性实验室用诊断设备",
+          "code": "090937",
+          "type": "standard",
+          "section": "（七）"
+        },
+        {
+          "name": "非医用超声成像设备",
+          "code": "090938",
+          "type": "standard",
+          "section": "（七）"
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "测试食物用诊断设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "测振仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "柴油机喷油器测试仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "柴油排放测试器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "超声波探伤仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具驾驶训练模拟器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "噪声计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "噪音等级测量仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "张力测试仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "照度计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制动液检测器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "重力计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "轴间隙测试仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "装有科学或研究用解剖器械的箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自动高度指示器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自行车测速计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "坐标测量装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "压力记录器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烟气分析仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "延展性测试仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "遥控遥测设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "液面指示器（水平仪）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "液位指示器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "一氧化碳探测器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "移动侦测器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于测定石油产品的水分含量的科学仪器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于测试印刷电路板的测试适配器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于测试印刷电路板的测试针",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于测试印刷电路板的测试装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于检测研究用生物样品中的病原体和毒素的实验室仪器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "雨量计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "显微硬度测试仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "相位计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "螺纹测量机器和器械",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木材测试机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属强度测试仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "驾驶或控制运载工具用模拟器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "光频计量装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "光通量计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "光学轮廓仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "光学面包板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "航空器飞行模拟器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "横梁高度测量仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "红外探测装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "灰尘测量仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "回声测深设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "回声测深仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "混凝土测试仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "混凝土检测机器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "基因扩增仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "基因组信息分析仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "激光测量仪器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "激光水平测量仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "激光指示器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机化的运载工具引擎分析仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工具测量仪器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用电子感应加速器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用内窥镜检查设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "灌装液位检测仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电阻测量仪器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "二氧化碳探测器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺织品测试机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺织品检验仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "放射性测量仪器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "飞行参数检查仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "飞行测试设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "飞行模拟器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非医用二氧化碳电子监测仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非医用红外测温仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非医用纤维镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "风向袋（风标）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "风向袋（风向标）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "辐射探测器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "盖革计数器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高尔夫球挥杆速度测量装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子工业用方铅晶体探测器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子管特性测试仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "磁性回转罗盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "磁性罗盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "磁性罗盘（测量用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "磁性物体探测器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蛋白质序列分析设备（实验室装置）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "地震观测设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电池检测器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电磁测量探测器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电工测振仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电路测试仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "磁力计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "DNA微阵列",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "熬糖用温度计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "半导体测试设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "比色计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "玻璃量器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "测定肉内层温度用温度计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "测谎仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "测量罗盘针",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "测量仪器用三脚架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数码酸碱计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水泥检测器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水平测量仪（测量用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水准尺（测量用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "丝径测量装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "速度计测试仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "塑料测试机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "酸度分析仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "胎压测量器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "探测器用接口",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "探雷器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "探雷用电子设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "天线参数测量装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陀螺测试仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陀螺罗盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陀螺仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "瓦特计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "微孔板检测仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牛奶质量参数测量仪器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "扭力测试仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "浓度计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "气泡水平仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "气体分析仪器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "气体流量计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "气体压力指示器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "墙柱螺钉磁性探测器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人造卫星",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日式升（量器）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日照计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "乳浊度计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "深度计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "声级计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "声学测量仪表",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "实验室科学实验用玻璃器皿",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "实验室用玻璃烘干器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "实验室用磁力搅拌器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "实验室用干燥箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "实验室用恒湿培养箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "实验室用恒温培养箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "实验室用培养皿",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "实验室用气化装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "实验室用气体混合器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "实验室用三角板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "实验室用拭子（实验室工具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "实验室用自动离子交换层析设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "实验室用自动色谱仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属探测器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属压缩测试仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属硬度测试仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "精密经纬仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "聚乙烯量杯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "科学用核酸测序仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "刻度检验器（校验刻度设备）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "空间氧气监测仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "雷达探测器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "离心机（实验室装置）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "里程计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "量杯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "轮胎低压自动指示器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "轮胎花纹深度计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "轮胎压力计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "X射线荧光光谱仪分析器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "被动红外探测器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "地下管线探测仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子捕获检测器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "光电子能谱分析仪（非医用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "实验室用血液和血液成分过滤器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含有积雪厚度测量传感器的雪崩探测器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "气体流量监测器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高压压力表",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具刹车测试仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具变速器测试仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "科学用磁力分离器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高尔夫运动用测距仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "出租车电子计程器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电压检测器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "准直仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "绝缘电阻表",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "量角规",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "实验室用移液管架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "闪烁计数器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非医用高压氧舱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "实验室用蒸馏塔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "排气温度表",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "实验室用坩埚",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "应变仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非医用皮肤水分测试仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "量料桶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非医用尿比重计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "测缝计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自行车码表",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "风速表",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "酒精测试仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "远程控制的遥测设备和仪器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冷媒表",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "增压表",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数字式扭力计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "细粉尘分析仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "细粉尘测量仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "空燃比计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防冻液检测仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "实验室用层流柜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手持式安检仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "半导体测试用探针",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "实验室用移液器吸头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "射频功率计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "实验室用磁板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可燃气体浓度检测仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运动训练电子模拟器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "实验室用色谱柱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水温计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "咖啡浓度测试仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "安时计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "压力显示器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "焊丝直径测量设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "时速表",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "量雨筒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "煮糖果用温度计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子运动训练模拟器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "X射线衍射分析仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "液面指示器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "实验室用过滤器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "半导体检测机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "万用表",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "振动计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "X射线荧光分析仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "超声探伤仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "模拟万用表",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "质谱仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "实验室用长颈瓶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "测试仪器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "吊线坠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机油温度表",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烧杯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "检查飞行参数用设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "量角器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "量油尺",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "教学仪器和设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "流量表",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "实验室用发酵设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "升（量器）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "实验室用气相色谱仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "分光荧光计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "不透明度监测器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "X光安检机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于检测基因序列的实验室设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "X光全身扫描安检仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "装载量探测器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "气体和固体物质温度和湿度测量装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "实验室用动物精子分析仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "科学或研究用解剖器械",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子节拍器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "燃料电池检测装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "酸度计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "扭力计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "实验室用玻璃干燥管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "实验室用玻璃刻度吸管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "实验室用玻璃制长颈漏斗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "实验室用燃烧匙",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "土壤湿度计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "发酵装置（实验室装置）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "实验室用玻璃搅拌棒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "实验室用三口烧瓶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "实验室用无菌采样袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "实验室用滴管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子测量设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "车轮定位仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "流变仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水龙头用电子计量装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "实验室用液相色谱仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "测量用激光器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "油压计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "实验室用光化学反应器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电化学测试设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "体育赛事用雷达测速枪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "航海设备和仪器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "激光测速仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "风速仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于测量、检测和分析血液和其他体液的研究实验室分析仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "过端环规",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "光密度计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "科学研究用具有人工智能的人形机器人",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "海水盐度测试仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电感应器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电池检测设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "燃气泄漏探测器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "车辆用超声波物体探测器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "针孔摄像头探测器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "实验室用药物筛选设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "实验室用活细胞处理设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "实验室用高通量筛选设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "实验室用金相镶嵌设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水表保护罩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "漏水检测器",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:34.858Z"
+}

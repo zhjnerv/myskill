@@ -1,0 +1,324 @@
+{
+  "groupCode": "1105",
+  "groupName": "制冷、冷藏设备（不包括冷藏车）",
+  "classCode": "11",
+  "notes": [
+    "注：跨类似群保护商品：冷热饮料机（加热或制冷）（1104第（一）部分，1105）"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "冷藏柜",
+          "code": "110026",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "冰柜",
+          "code": "110106",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "饮料冷却装置",
+          "code": "110119",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "水冷却装置",
+          "code": "110125",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "冷冻设备和机器",
+          "code": "110155",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "冷藏室",
+          "code": "110156",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "步入式冷藏室",
+          "code": "110156",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "冷藏集装箱",
+          "code": "110157",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "制冰机和设备",
+          "code": "110167",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电冷藏箱",
+          "code": "110168",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "奶冷却装置",
+          "code": "110177",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "液体冷却装置",
+          "code": "110188",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "冷却装置和机器",
+          "code": "110209",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "冷冻设备和装置",
+          "code": "110213",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "冷却设备和装置",
+          "code": "110214",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烟草冷却装置",
+          "code": "110227",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "冰箱",
+          "code": "110274",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "冷藏展示柜",
+          "code": "110330",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电酒窖",
+          "code": "110343",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "冷热饮料机（加热或制冷）",
+          "code": "110350",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "制冰淇淋机",
+          "code": "110357",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电动制冰块和冰淇淋机",
+          "code": "110386",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "造雪机",
+          "code": "110395",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "雪炮",
+          "code": "110395",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "低温设备*",
+          "code": "110415",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "智能冰箱",
+          "code": "110417",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "冰箱自动化霜器",
+          "code": "C110013",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "冰箱除味器",
+          "code": "C110014",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "制冰棒机",
+          "code": "C110015",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "冰镇球",
+          "code": "C110016",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "玻璃钢冷却塔",
+          "code": "C110046",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "冷冻机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "燃气冰箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制冰机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "便携式冰箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "步入式冷藏间",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "大米专用冰箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化妆品用冰箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "饮料冷却设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用电冰箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用冰箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "船运冷藏集装箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冷藏商品展示柜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化妆品专用冰箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "车载冰箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冷却装置和设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食品冷却装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冷藏箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水冷却器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医学储存用冰箱、冷却装置和冰柜110359",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牛奶冷却装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医学贮存用冰箱、冷却装置和冰柜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "深冷柜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制冰块机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "低温冻结装置",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:51.925Z"
+}

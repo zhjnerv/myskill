@@ -1,0 +1,335 @@
+{
+  "groupCode": "4012",
+  "groupName": "废物处理服务",
+  "classCode": "40",
+  "notes": [
+    "注：本类似群与第十二版及以前版本 4014 已接受服务废水处理，第七版及以前版本 4225交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "废物和垃圾的回收利用",
+          "code": "400068",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "废物处理（变形）",
+          "code": "400097",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "废物和垃圾的销毁",
+          "code": "400105",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "废物和垃圾的焚化",
+          "code": "400106",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "有害材料的净化处理",
+          "code": "400109",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "有害材料的净化处理",
+          "code": "400109",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "净化有害材料",
+          "code": "400109",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "废物和可回收材料的分类（变形）",
+          "code": "400116",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "废物再生",
+          "code": "400124",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "混凝土粉碎",
+          "code": "400139",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "废气处理",
+          "code": "C400007",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "废水处理",
+          "code": "C400008",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "烹饪油和植物油的回收利用服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "核燃料的回收利用",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化学品的回收利用",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "（利用微生物进行净化的）生物修复服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "饮料瓶回收利用",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "核废料处理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "废物回收",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "废物销毁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "废物焚化",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "废物粉碎机出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "废物和可回收材料的分类",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "废物和垃圾的回收",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "垃圾处理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "垃圾焚化",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有害废物处理服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "文件粉碎服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙科废料提炼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "辐射区净化服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "废料压实机出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "核燃料回收",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有害液体处理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "解毒有害材料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "垃圾焚烧",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "废物回收利用服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业有毒废物处理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烹饪油和蔬菜油的回收利用服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "PET塑料瓶的回收利用",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "塑料的回收利用",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医疗废物焚化",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "动物粪便处理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "温室气体处理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "核废料净化",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硬盘销毁服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "被捕获生物气体的洗涤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "已捕获的垃圾填埋气体的处理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化粪池出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "海洋垃圾处理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "催化转换器的回收利用",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电池的回收利用",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医疗废物的回收利用",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "废水再处理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "被捕获生物气体的处理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "溶剂再生",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属回收",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "将食物废弃物回收利用转化为肥料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸张的回收利用",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "玻璃回收利用",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "混凝土回收利用",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生物质废物回收利用",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:38.132Z"
+}

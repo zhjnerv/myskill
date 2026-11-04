@@ -1,0 +1,176 @@
+{
+  "groupCode": "3703",
+  "groupName": "开采服务",
+  "classCode": "37",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "采矿",
+          "code": "370107",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "采石服务",
+          "code": "370108",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "钻井",
+          "code": "370114",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "深层油井或气井的钻探",
+          "code": "370133",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "水力压裂服务",
+          "code": "370142",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "石油钻井",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "天然气开采",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "天然气钻井",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "原油钻探",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "石油开采",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "打水井",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "油井钻探",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抽取原油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抽石油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钻探平台出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "石油钻井工具出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "石油钻探和抽取",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "石油的开采和抽取",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "矿山开采",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "石油和天然气的开采",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钻石开采",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "稀土开采",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属开采",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宝石开采",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钴矿开采",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "锂矿开采",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "天然气开采服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钨矿开采",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "石英岩矿开采",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铀矿开采",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "镍矿开采",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:13.866Z"
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "groupCode": "1001",
+    "groupName": "外科、医疗和兽医用仪器、器械、设备，不包括电子、核子、电疗、医疗用Ｘ光设备、器械及仪器",
+    "classCode": "10"
+  },
+  {
+    "groupCode": "1002",
+    "groupName": "牙科设备及器具",
+    "classCode": "10"
+  },
+  {
+    "groupCode": "1003",
+    "groupName": "医疗用电子、核子、电疗和Ｘ光设备",
+    "classCode": "10"
+  },
+  {
+    "groupCode": "1004",
+    "groupName": "医疗用辅助器具、设备和用品",
+    "classCode": "10"
+  },
+  {
+    "groupCode": "1005",
+    "groupName": "奶嘴，奶瓶",
+    "classCode": "10"
+  },
+  {
+    "groupCode": "1006",
+    "groupName": "性用品",
+    "classCode": "10"
+  },
+  {
+    "groupCode": "1007",
+    "groupName": "假肢，假发和假器官",
+    "classCode": "10"
+  },
+  {
+    "groupCode": "1008",
+    "groupName": "矫形矫正及助行用品",
+    "classCode": "10"
+  },
+  {
+    "groupCode": "1009",
+    "groupName": "缝合用材料",
+    "classCode": "10"
+  },
+  {
+    "groupCode": "1010",
+    "groupName": "单一商品",
+    "classCode": "10"
+  },
+  {
+    "groupCode": "1011",
+    "groupName": "眼镜及附件",
+    "classCode": "10"
+  }
+]

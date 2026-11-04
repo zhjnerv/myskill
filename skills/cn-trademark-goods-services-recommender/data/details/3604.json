@@ -1,0 +1,197 @@
+{
+  "groupCode": "3604",
+  "groupName": "不动产事务",
+  "classCode": "36",
+  "notes": [
+    "注：1.不动产估价与3602金融评估（保险、银行、不动产）类似；",
+    "2.不动产经纪与第十一版及以前版本3605经纪交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "不动产出租",
+          "code": "360004",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "不动产代理",
+          "code": "360007",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "不动产经纪",
+          "code": "360008",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "不动产估价",
+          "code": "360014",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "不动产管理",
+          "code": "360032",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "公寓管理",
+          "code": "360033",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "公寓出租",
+          "code": "360035",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "农场出租",
+          "code": "360036",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "住所代理（公寓）",
+          "code": "360045",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "办公室（不动产）出租",
+          "code": "360069",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "共用办公室出租",
+          "code": "360119",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "牧场出租",
+          "code": "360143",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "商品房销售",
+          "code": "C360007",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "与购物中心相关的不动产管理服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "不动产出租服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "不动产管理服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "居住用不动产代理服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑物租赁或出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "住房出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过互联网提供的不动产管理服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "不动产的金融评估",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过互联网提供不动产代理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "度假屋的不动产管理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "厂房出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为买卖建筑物提供不动产代理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过互联网、通讯设备或电子方式提供不动产咨询信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过互联网提供不动产出租信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有关娱乐场所的不动产管理服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "退休社区的不动产管理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "学生公寓出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "永久性住房的出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "办公室空间出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "购物中心空间的租赁",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:09.157Z"
+}

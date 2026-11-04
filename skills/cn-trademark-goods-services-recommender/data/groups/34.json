@@ -1,0 +1,37 @@
+[
+  {
+    "groupCode": "3401",
+    "groupName": "烟草及其制品",
+    "classCode": "34"
+  },
+  {
+    "groupCode": "3402",
+    "groupName": "烟具",
+    "classCode": "34"
+  },
+  {
+    "groupCode": "3403",
+    "groupName": "火柴",
+    "classCode": "34"
+  },
+  {
+    "groupCode": "3404",
+    "groupName": "吸烟用打火机",
+    "classCode": "34"
+  },
+  {
+    "groupCode": "3405",
+    "groupName": "烟纸，过滤嘴",
+    "classCode": "34"
+  },
+  {
+    "groupCode": "3406",
+    "groupName": "香烟用调味品",
+    "classCode": "34"
+  },
+  {
+    "groupCode": "3407",
+    "groupName": "电子烟及其部件",
+    "classCode": "34"
+  }
+]

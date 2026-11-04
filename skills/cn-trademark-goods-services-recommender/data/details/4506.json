@@ -1,0 +1,573 @@
+{
+  "groupCode": "4506",
+  "groupName": "法律服务",
+  "classCode": "45",
+  "notes": [
+    "注：本类似群与第八版及以前版本4207交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "调解（法律服务）",
+          "code": "450201",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "仲裁",
+          "code": "450205",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "知识产权咨询",
+          "code": "450206",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "版权管理",
+          "code": "450207",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "知识产权许可",
+          "code": "450208",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "为法律咨询目的监控知识产权",
+          "code": "450209",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "法律研究",
+          "code": "450210",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "诉讼服务",
+          "code": "450211",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "计算机软件许可（法律服务）",
+          "code": "450212",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "域名注册（法律服务）",
+          "code": "450213",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "替代性纠纷解决服务",
+          "code": "450214",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "法律文件准备服务",
+          "code": "450221",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "有关许可的法律服务",
+          "code": "450223",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "代写私人信件",
+          "code": "450228",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "为他人进行合同谈判的法律服务",
+          "code": "450230",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "关于响应招标的法律建议",
+          "code": "450235",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "软件出版框架下的许可（法律服务）",
+          "code": "450236",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "法律监测服务",
+          "code": "450237",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "关于专利地图的法律咨询",
+          "code": "450239",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "司法辩护服务",
+          "code": "450240",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "移民领域的法律服务",
+          "code": "450244",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "合规性审计",
+          "code": "450246",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "合法性审计",
+          "code": "450247",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "权益转让法律服务",
+          "code": "450248",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "法律文书送达服务",
+          "code": "450258",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "环境保护领域的法律研究",
+          "code": "450260",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "儿童保护领域的法律服务",
+          "code": "450269",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "法律文书写作",
+          "code": "450271",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "公证人服务",
+          "code": "450273",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "知识产权代理服务",
+          "code": "C450002",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "法律信息服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "法律支持服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "法律咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业产权许可",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商标许可（法律服务）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "诉讼咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供法律方面的信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供工业产权信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为法律咨询目的进行商标监测服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "已注册的外观设计的许可（法律服务）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有关知识产权的顾问服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "与电影著作权行使相关的法律服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "与广播权行使相关的法律服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "与印刷品著作权行使相关的法律服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "专利许可（法律服务）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "向发明人提供知识产权咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "专利许可咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "诉讼服务（律师服务）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "安全工作法规咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "劳资关系仲裁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供法律事务信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "知识产权许可（法律服务）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "全球计算机网络上的用户识别用域名注册（法律服务）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "公益法律服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "税收领域的法律咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业产权咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商标代理服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "律师服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "版权管理咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "法律咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "法律服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "诉讼支持服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有关特许经营的专业法律咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "离婚调解服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过网站提供法律服务信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "关于社会保险索赔的法律服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有关电视广告、电视娱乐和体育的法律咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卡通形象授权",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "不动产交易的法律研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有关设立和注册公司的法律服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "版权许可咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人代写私人信件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "外观设计专利的许可",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "公证服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "公共政策领域的法律研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "经济政策领域的法律研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商标监控（法律服务）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "专利申请许可",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "进行法律可行性研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "专利许可",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过在线可搜索数据库提供专利申请信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "版权许可",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数据安全领域的法律服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "劳动仲裁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "合同起草方面的法律辅助",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有关法律事务的专家咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "与商标注册相关的法律服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "与企业并购相关的法律研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "与专利实施相关的法律服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "私人法律事务咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为大学和研究机构提供知识产权咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "专利和专利申请领域的知识产权咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业产权和版权的管理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "与个人法律事务相关的咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供专家法律意见",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "与保护和利用电影、电视、戏剧和音乐作品版权相关的法律服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "与电影、电视、录像和音乐作品相关的附属权利利用相关的法律服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供与诉讼相关的法律服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "编写法律报告",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "与版权和工业产权实施相关的法律服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "版权领域的法律监督服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "专利领域的法律监督服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有关特许经营的法律服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商标律师服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "公证人服务450273",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:01:02.151Z"
+}

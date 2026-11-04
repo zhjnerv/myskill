@@ -1,0 +1,293 @@
+{
+  "groupCode": "4010",
+  "groupName": "皮革、服装加工服务",
+  "classCode": "40",
+  "notes": [
+    "注: 1. 皮革修整，鞣革，皮革染色，裘皮染色，裘皮上光，皮毛防蛀处理，使裘皮具有缎子光泽与3716皮革保养、清洁和修补，皮毛保养、清洁和修补类似，与第十版及以前版本3716皮革保养、清洗和修补，皮毛保养、清洗和修补交叉检索；",
+    "2.本类似群与第七版及以前版本 4227 针织机出租交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "服装制作",
+          "code": "400012",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "染鞋",
+          "code": "400016",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "皮革染色",
+          "code": "400019",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "裘皮定型",
+          "code": "400020",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "布料剪裁",
+          "code": "400021",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "裘皮时装加工",
+          "code": "400028",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "皮毛防蛀处理",
+          "code": "400030",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "皮革修整",
+          "code": "400047",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "马具（鞍具）制作",
+          "code": "400051",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "服装定制",
+          "code": "400053",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鞣革",
+          "code": "400054",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "刺绣",
+          "code": "400063",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "皮革加工",
+          "code": "400064",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "裘皮上光",
+          "code": "400070",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "使裘皮具有缎子光泽",
+          "code": "400071",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "裘皮染色",
+          "code": "400072",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "缝被子",
+          "code": "400092",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "服装修改",
+          "code": "400098",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "针织机出租",
+          "code": "400112",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "缝纫机出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "T恤衫刺绣服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "T恤衫印字服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "服装定制服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "缝制窗帘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "服装定制修改",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为地毯背面加上背衬",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "毛皮处理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制鞋机出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "缝纫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "服装染色",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "服装精加工",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "服装防水处理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "窗帘剪裁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "织物剪裁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺织品剪裁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供与制鞋机出租相关的信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "按照顾客要求缝制被子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "毛皮染色",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人造毛皮染色",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮革和裘皮的加工",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "衣服的抗菌处理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "动物皮的硝皮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "服装缩水处理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "裘皮防霉处理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鞋染色",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮革鞣制",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "连衣裙定制",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "裘皮加工",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "婚纱定制",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "服装刺绣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人定制服装",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:36.962Z"
+}

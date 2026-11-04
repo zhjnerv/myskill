@@ -31,6 +31,18 @@ myskill/
     └── skills/            # 引入 skill 的本地改动账，规则在该目录 README.md
 ```
 
+## 自研实务技能
+
+以下三个技能由已有知识产权业务方法整理而来，各目录包含独立脚本、参考资料、测试和评测用例，必要数据与模板随包保存。核心脚本只需 Python 标准库。
+
+| Skill | 用途 | 使用与数据说明 |
+| --- | --- | --- |
+| [cn-patent-fast-track-screener](skills/cn-patent-fast-track-screener/SKILL.md) | 专利预审、优先审查与 IPC 分类范围初筛 | [README](skills/cn-patent-fast-track-screener/README.md) |
+| [cn-office-action-prior-art-collector](skills/cn-office-action-prior-art-collector/SKILL.md) | 审查意见通知书解析、专利号规范化与对比文件收集 | [README](skills/cn-office-action-prior-art-collector/README.md) |
+| [cn-trademark-goods-services-recommender](skills/cn-trademark-goods-services-recommender/SKILL.md) | 商标大类、类似群和商品服务项目推荐，校验后导出申报表 | [README](skills/cn-trademark-goods-services-recommender/README.md) |
+
+各技能 README 保留原有许可证、数据来源和时效说明；公开发布前需完成其中列出的许可确认。
+
 ## 命令速查
 
 完整用法（含合集仓库的处理、迁移已有 skill、故障排查）见 **[docs/usage.md](docs/usage.md)**。

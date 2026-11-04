@@ -1,0 +1,538 @@
+{
+  "groupCode": "3004",
+  "groupName": "糖果，南糖，糖",
+  "classCode": "30",
+  "notes": [
+    "注：1.果冻（糖果）与第十一版及以前版本2910果冻，食用果冻交叉检索；",
+    "2.跨类似群保护商品：甜食（3004，3006）；糖（3003，3004）。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "圣诞树装饰用糖果",
+          "code": "300008",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "薄荷糖",
+          "code": "300019",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "糖果",
+          "code": "300020",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "焦香糖果",
+          "code": "300032",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "口香糖*",
+          "code": "300035",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "巧克力",
+          "code": "300038",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蛋白杏仁糖果",
+          "code": "300039",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "甜食",
+          "code": "300042",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "软糖（糖果）",
+          "code": "300067",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "糖*",
+          "code": "300069",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "麦芽糖",
+          "code": "300094",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "糖果锭剂",
+          "code": "300107",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "果仁糖",
+          "code": "300116",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "甘草糖",
+          "code": "300118",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "杏仁糖",
+          "code": "300138",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "花生糖",
+          "code": "300139",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "甘草茎糖（糖果）",
+          "code": "300147",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "果冻（糖果）",
+          "code": "300176",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蛋糕用巧克力装饰物",
+          "code": "300225",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蛋糕用糖果装饰物",
+          "code": "300226",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "裹巧克力的坚果",
+          "code": "300227",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "镜面糖衣",
+          "code": "300245",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "水果糖",
+          "code": "300267",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "口气清新用薄荷糖",
+          "code": "300271",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "口气清新用口香糖",
+          "code": "300272",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "牛轧糖",
+          "code": "300289",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "裹巧克力的炸土豆片",
+          "code": "300293",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "酒心巧克力",
+          "code": "300296",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "制作果冻糖果用已调味的果冻粉",
+          "code": "300302",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "南糖",
+          "code": "C300008",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "米花糖",
+          "code": "C300009",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "黑麻片",
+          "code": "C300010",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "糖粘",
+          "code": "C300011",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "酥糖",
+          "code": "C300012",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "皮糖",
+          "code": "C300015",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "人参糖",
+          "code": "C300016",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "羊羹",
+          "code": "C300017",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "麦丽素",
+          "code": "C300019",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "奶片（糖果）",
+          "code": "C300021",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "淀粉制糖果",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牛奶巧克力",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "夹心糖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含绿芥末的巧克力",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含可可的糖果",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "巧克力糖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "巧克力棒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硬糖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无糖口香糖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "糖衣硬焦糖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "太妃糖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冰冻糖果",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含焦糖的糖果",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "棒棒糖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "不含奶的巧克力",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "棉花软糖制食品顶部装饰物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "条状糖果",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "松露巧克力",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "土耳其软糖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "凝胶软糖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含冰淇淋的冰冻糖果",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "裹糖的苹果（糖果）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "果仁薄脆糖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "泡泡糖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "夹心巧克力",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "淀粉型糖果",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "豆形软糖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非医用口香糖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "糖果和面包用巧克力",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "糕点装饰用巧克力",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含有磨碎的咖啡豆的巧克力片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "巧克力片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用麦芽糖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "棉花糖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无糖糖果",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "巧克力糖果",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "糖豆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "糖果（甜食）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "果冻糖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "棉花软糖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "山核桃棍糖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "装饰糕点甜食用糖珠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "奶油糖果片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "胶冻状甜豆沙条（羊羹）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "红参糖（糖果）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "饴糖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "花生糖果",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蛋糕用糖果装饰品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蛋糕用巧克力装饰品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "花生脆糖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烘焙用糖果碎粒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "花生酱糖果片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "裹巧克力的水果",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "裹巧克力的榛子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "俄罗斯棉花糖（甜食）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牛奶硬块糖（糖果）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "乳脂软糖",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:40.752Z"
+}

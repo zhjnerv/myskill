@@ -1,0 +1,34 @@
+{
+  "groupCode": "4304",
+  "groupName": "托儿服务",
+  "classCode": "43",
+  "notes": [
+    "注：本类似群与 4101 幼儿园类似，与第七版及以前版本 4221 日间托儿所（看孩子）交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "日间托儿所（看孩子）",
+          "code": "430098",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "托儿所服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日托中心提供的学龄前儿童和婴幼儿照管",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:54.623Z"
+}

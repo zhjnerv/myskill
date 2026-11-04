@@ -1,0 +1,2562 @@
+{
+  "groupCode": "0913",
+  "groupName": "电器用晶体及碳素材料，电子、电气通用元件",
+  "classCode": "09",
+  "notes": [
+    "注：1.本类似群第（二）、（三）部分互为类似商品，第（三）、（四）部分互为类似商品，其他各部分之间商品不类似；",
+    "2.第（七）部分的商品与0912纤维光缆以及第九版及以前版本0907纤维光缆类似；",
+    "3.第(三)、(四)部分与第十二版及以前版本 0910 感应器(电),第十一版及以前版本 0910 恒温器,第七版及以前版本 1101 舞台灯光调节器交叉检索;",
+    "4.第（一）部分与第八版及以前版本 0908 半导体交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "（一）",
+      "items": [
+        {
+          "name": "方铅晶体（检波器）",
+          "code": "090271",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "半导体",
+          "code": "090539",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "集成电路用晶片",
+          "code": "090584",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "单晶硅",
+          "code": "C090065",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "硅外延片",
+          "code": "C090066",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "石英晶体",
+          "code": "C090067",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "多晶硅",
+          "code": "C090068",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "硒堆和硒片",
+          "code": "C090069",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "电阻材料",
+          "code": "C090070",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "碳素材料",
+          "code": "C090071",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "碳电极",
+          "code": "C090072",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "石墨电极",
+          "code": "C090073",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "炭精块",
+          "code": "C090074",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "石墨炭精块",
+          "code": "C090075",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "炭精片",
+          "code": "C090076",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "炭精粒",
+          "code": "C090077",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "碳精棒",
+          "code": "C090078",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "炭精粉",
+          "code": "C090079",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "碳管",
+          "code": "C090080",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "无源极板",
+          "code": "C090083",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "水银整流器阴极",
+          "code": "C090084",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "电子管阳极",
+          "code": "C090085",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "阳极糊",
+          "code": "C090086",
+          "type": "marked",
+          "section": "（一）"
+        }
+      ]
+    },
+    {
+      "label": "（二）",
+      "items": [
+        {
+          "name": "印刷电路",
+          "code": "090125",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "集成电路",
+          "code": "090538",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "芯片（集成电路）",
+          "code": "090540",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "印刷电路板",
+          "code": "090699",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "电子芯片",
+          "code": "C090131",
+          "type": "marked",
+          "section": "（二）"
+        }
+      ]
+    },
+    {
+      "label": "（三）",
+      "items": [
+        {
+          "name": "电线圈",
+          "code": "090001",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "磁铁*",
+          "code": "090023",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "电磁线圈",
+          "code": "090024",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "放大器",
+          "code": "090037",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "放大管",
+          "code": "090038",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "热离子管",
+          "code": "090060",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "电容器",
+          "code": "090140",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "电导体",
+          "code": "090141",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "限幅器（电）",
+          "code": "090165",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "熔丝",
+          "code": "090269",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "电阻器",
+          "code": "090427",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "变阻器",
+          "code": "090432",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "扼流线圈（阻抗）",
+          "code": "090441",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "真空电子管（无线电）",
+          "code": "090491",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "可变电感器",
+          "code": "090493",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "保险丝",
+          "code": "090505",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "电感线圈支架",
+          "code": "090514",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "非照明用放电管",
+          "code": "090559",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "晶体管（电子）",
+          "code": "090624",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "发光二极管（LED）",
+          "code": "090704",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "三极管",
+          "code": "090705",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "有机发光二极管（OLED）",
+          "code": "090825",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "量子点发光二极管（QLED）",
+          "code": "090826",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "发射管",
+          "code": "C090087",
+          "type": "marked",
+          "section": "（三）"
+        },
+        {
+          "name": "超高频管",
+          "code": "C090088",
+          "type": "marked",
+          "section": "（三）"
+        },
+        {
+          "name": "电子束管",
+          "code": "C090089",
+          "type": "marked",
+          "section": "（三）"
+        },
+        {
+          "name": "电位器",
+          "code": "C090090",
+          "type": "marked",
+          "section": "（三）"
+        },
+        {
+          "name": "示波管",
+          "code": "C090091",
+          "type": "marked",
+          "section": "（三）"
+        },
+        {
+          "name": "电子管",
+          "code": "C090092",
+          "type": "marked",
+          "section": "（三）"
+        },
+        {
+          "name": "半导体器件",
+          "code": "C090093",
+          "type": "marked",
+          "section": "（三）"
+        },
+        {
+          "name": "磁性材料和器件",
+          "code": "C090094",
+          "type": "marked",
+          "section": "（三）"
+        },
+        {
+          "name": "陶滤波器",
+          "code": "C090095",
+          "type": "marked",
+          "section": "（三）"
+        },
+        {
+          "name": "雾化片",
+          "code": "C090132",
+          "type": "marked",
+          "section": "（三）"
+        }
+      ]
+    },
+    {
+      "label": "（四）",
+      "items": [
+        {
+          "name": "变压器（电）",
+          "code": "090049",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "配电箱（电）",
+          "code": "090054",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "接线柱（电）",
+          "code": "090089",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "集电器",
+          "code": "090129",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "闸盒（电）",
+          "code": "090131",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "电流换向器",
+          "code": "090132",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "电导线管",
+          "code": "090142",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "闭路器",
+          "code": "090143",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "电连接器",
+          "code": "090144",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "接线盒（电）",
+          "code": "090145",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "电触点",
+          "code": "090148",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "电动调节装置",
+          "code": "090150",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "变流器",
+          "code": "090153",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "电开关",
+          "code": "090164",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "电插头",
+          "code": "090166",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "整流器",
+          "code": "090167",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "电池开关（电）",
+          "code": "090168",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "减压器（电）",
+          "code": "090168",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "断路器",
+          "code": "090191",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "配电盘（电）",
+          "code": "090197",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "配电控制台（电）",
+          "code": "090198",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "导管（电）",
+          "code": "090216",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "控制板（电）",
+          "code": "090217",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "电线连接物",
+          "code": "090219",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "电器接插件",
+          "code": "090220",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "电耦合器",
+          "code": "090220",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "继电器（电）",
+          "code": "090222",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "感应器（电）",
+          "code": "090304",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "电枢（电）",
+          "code": "090305",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "逆变器（电）",
+          "code": "090310",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "自动定时开关",
+          "code": "090353",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "电线接线器（电）",
+          "code": "090442",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "调光器（电）",
+          "code": "090606",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "灯光调节器（电）",
+          "code": "090606",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "电源插座罩",
+          "code": "090667",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "照明设备用镇流器",
+          "code": "090672",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "螺线管阀（电磁开关）",
+          "code": "090675",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "电涌保护器",
+          "code": "090676",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "舞台灯光调节器",
+          "code": "090682",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "升压变压器",
+          "code": "090706",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "电源适配器",
+          "code": "090730",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "恒温器",
+          "code": "090238",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "数字温控器",
+          "code": "090823",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "压电传感器",
+          "code": "090824",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "电源插座",
+          "code": "090828",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "车辆用泊车传感器",
+          "code": "090836",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "增加：伺服电机用放大器",
+          "code": "090875",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "伺服电机用电子控制器",
+          "code": "090876",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "伺服电机用控制器",
+          "code": "090897",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "电动执行器",
+          "code": "090899",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "电动线性执行器",
+          "code": "090900",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "电子振荡器",
+          "code": "090945",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "电子谐振器",
+          "code": "090946",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "互感器",
+          "code": "C090096",
+          "type": "marked",
+          "section": "（四）"
+        },
+        {
+          "name": "传感器",
+          "code": "C090097",
+          "type": "marked",
+          "section": "（四）"
+        },
+        {
+          "name": "消磁器",
+          "code": "C090098",
+          "type": "marked",
+          "section": "（四）"
+        },
+        {
+          "name": "调压器",
+          "code": "C090099",
+          "type": "marked",
+          "section": "（四）"
+        },
+        {
+          "name": "稳压电源",
+          "code": "C090100",
+          "type": "marked",
+          "section": "（四）"
+        },
+        {
+          "name": "启辉器",
+          "code": "C090102",
+          "type": "marked",
+          "section": "（四）"
+        },
+        {
+          "name": "低压电源",
+          "code": "C090103",
+          "type": "marked",
+          "section": "（四）"
+        },
+        {
+          "name": "高低压开关板",
+          "code": "C090104",
+          "type": "marked",
+          "section": "（四）"
+        },
+        {
+          "name": "起动器",
+          "code": "C090105",
+          "type": "marked",
+          "section": "（四）"
+        },
+        {
+          "name": "熔断器",
+          "code": "C090106",
+          "type": "marked",
+          "section": "（四）"
+        },
+        {
+          "name": "母线槽",
+          "code": "C090107",
+          "type": "marked",
+          "section": "（四）"
+        },
+        {
+          "name": "电热保护套",
+          "code": "C090126",
+          "type": "marked",
+          "section": "（四）"
+        },
+        {
+          "name": "电源插头转换器",
+          "code": "C090148",
+          "type": "marked",
+          "section": "（四）"
+        }
+      ]
+    },
+    {
+      "label": "（五）",
+      "items": [
+        {
+          "name": "荧光屏",
+          "code": "090208",
+          "type": "standard",
+          "section": "（五）"
+        },
+        {
+          "name": "视频显示屏",
+          "code": "090652",
+          "type": "standard",
+          "section": "（五）"
+        },
+        {
+          "name": "显示数字用电子显示屏",
+          "code": "090786",
+          "type": "standard",
+          "section": "（五）"
+        },
+        {
+          "name": "显示器用偏光膜",
+          "code": "090947",
+          "type": "standard",
+          "section": "（五）"
+        },
+        {
+          "name": "显示器用透明导电薄膜",
+          "code": "090948",
+          "type": "standard",
+          "section": "（五）"
+        }
+      ]
+    },
+    {
+      "label": "（六）",
+      "items": [
+        {
+          "name": "遥控装置",
+          "code": "090470",
+          "type": "standard",
+          "section": "（六）"
+        },
+        {
+          "name": "电子钥匙（遥控装置）",
+          "code": "090781",
+          "type": "standard",
+          "section": "（六）"
+        },
+        {
+          "name": "家用遥控器",
+          "code": "C090101",
+          "type": "marked",
+          "section": "（六）"
+        }
+      ]
+    },
+    {
+      "label": "（七）",
+      "items": [
+        {
+          "name": "光学纤维（光导纤维）",
+          "code": "090571",
+          "type": "standard",
+          "section": "（七）"
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "光学纤维耦合器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "光学移相器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "环形器（电子元件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "激光二极管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "集成电路模块",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高清集成图形芯片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高速电动马达用电子变频器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用磁铁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "功率放大器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "供电用逆变器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "光导纤维",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "光电二极管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "光电转换器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "光伏逆变器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "光敏电阻",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子集成电路",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子闪光器开关",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子调速器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电阻",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电阻器（电信设备用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电阻丝",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "定时开关",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "端接器（电）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "断路器开关",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "多处理器芯片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "多头插线板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "二极管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "发光二极管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "放大电力变压器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非线性光学纤维",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "风车用震动传感器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "辐射传感装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "感应电压调整器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高频开关",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高频开关电源",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电压监控模块",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电压调节器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电源开关",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电源控制器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电源连接器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电致发光显示面板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子半导体",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子电路",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子电路板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子电路连接器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子二极管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "磁芯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "大规模集成电路",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "带有集成电路的电路板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "单片陶瓷电容器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "等离子显示面板用滤光器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电变压器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电插座",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电磁铁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动控制装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电极",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电接触器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电接线板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电抗器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电控制面板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电缆连接器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电力转换器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电流开关",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电流控制装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电流用保险丝",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电流转换器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电路板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电路闭路器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "磁线圈",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电气设备用电枢",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电气设备用扼流圈",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电器接线盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电容器（电信设备用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电熔丝",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电视和计算机显示器用防眩光过滤器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电调光器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电信号衰减器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电信装置用电容器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电信装置用电阻器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "触摸屏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "传送高功率电子束的波导管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "LED方位传感器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "OLED（有机发光二极管）显示面板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "安全触点插头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "半导体光放大器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "半导体晶片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "薄膜晶体管液晶显示器（TFT-LCD）面板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "保险丝（电流用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "变流器（电）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "变频器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "变压器（电信设备用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "测加速度用传感器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "测量太阳辐射用电子传感器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "测速度用传感器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "测位置用传感器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "测温度用传感器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "插头联接器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "插线板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "差动开关",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "超辐射激光二极管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "超声波传感器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "照明开关",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "照明控制装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "振荡器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "整流管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "整流模块",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "直流电转换器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制集成电路用电子芯片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "转换插头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "转接插头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自动配电盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自耦变压器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "压力传感器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "液晶面板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "液晶显示屏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "液位传感器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "移动式插座",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "阴极射线管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "荧光灯镇流器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "油位传感器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "与乐器连用的电放大器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "圆插头连接器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "香蕉插头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "谐振器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "旋转变流器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无线电电子管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无线电和电视设备用继电器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无线电抗干扰滤波器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数字信号显示面板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "双工器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "双向触发二极管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "双重放大器用均衡器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "太阳能晶片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "碳化硅二极管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "天线放大器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "天线用滤波器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "调光器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "调相器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "同轴继电器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "投影仪用遥控器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "微控制器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "微芯片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "微芯片（计算机硬件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "温度传感器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "稳频器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "稳压器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "污染传感器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牛角连接器（电）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "判决电路",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "配电变压器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "配电模块",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "配电设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "配电箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "偏振保持光纤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "频率合成器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车用电子控制单元",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "强电流电路",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "驱动器频率转换器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "绕组线（电力）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "热敏电阻",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "柔性电路板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "色散位移光纤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "摄像机用接口电路",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生物芯片传感器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "声电转换器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "实验室研究用电极",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "晶体管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "晶闸管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "警报器用传感器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "浪涌电压抑制器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冷却液温度传感器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "逻辑电路",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机显示屏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机芯片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机用时钟发生器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "继电器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加速度传感器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "降压变压器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "结构化半导体晶片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "光学传感器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "光学纤维",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电容箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高压倍增器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高压变压器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高压电抗器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "光电倍增管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "光电传感器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "过压保护继电器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机电路板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "脉冲操作闭锁型继电器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "热力过载继电器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "振动传感器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电力调压器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具点烟器插座用电源适配器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电视遥控器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水银开关",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "触摸屏传感器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "红外线传感器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "定时传感器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "空调用遥控器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自动跟踪太阳传感器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "光学位置传感器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "反激式变压器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "接地端子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "安全灯用运动传感器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "炭精棒C090078",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "动作识别传感器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "LED驱动器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通信装置用转换开关",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "保险丝（电信设备用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "带有移动式插座的电源插座",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子管放大器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "光纤连接器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运动传感器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子运动感应开关",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "退磁器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具报警器用遥控器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "压电开关",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "影像增强管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "光导纤维（光学纤维）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "温度变送器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "传送高能电子束的导波管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手机屏幕",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "测量用传感器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "插头、插座和其他接触器（电连接）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "音响放大器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "车辆用传感器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电开关柜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "光纤适配器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机芯片组",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "压力变送器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电阻线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "超声传感器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "尿素传感器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "尿素选择性催化还原用水位传感器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "真空开关",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "浊度变送器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "移动电话显示屏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电压浪涌抑制器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "变送器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于会议投票的电子控制装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电导率/电阻率变送器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电插头适配器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "减压器（电源）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "液位变送器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "限幅器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "LED发光二极管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "LED户外广告显示屏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "LED屏幕",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "光电管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电弧焊接设备用电控制器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "视频电路板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机油位置传感器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "张力变送器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "照相机遥控器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "音响遥控器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "触摸传感器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动控制设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电放大器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于通信的电变送器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "吉他放大器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电气阀位变送器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "扩音器用变送器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子信号变送器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电视屏幕",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "流量变送器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "流量传感器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "位移变送器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "漏电保护器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "薄膜晶体管液晶显示面板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有机发光二极管显示面板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "交流器（电）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "轮胎压力传感器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "信号遥控装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子显示面板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "伺服放大器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无功补偿装置（电）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电力的电压调节器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有机发光二极管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "合金线（保险丝）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "变压器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "感应式调压器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动器械用电枢",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电灯的荧光灯镇流器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "传输声音和图像用光纤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "光学半导体",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硅晶片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "触控面板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "储能用超级电容器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "压力温控器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "远程控制装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "车辆用电子控制器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "室内温控器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "温控器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "恒温调节器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "中央空调温控器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子温控器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "不间断电源",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "半导体芯片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "柔性印刷电路板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "伺服电机用放大器090875",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "智能手机用显示屏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "压电执行器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "功率半导体构件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电平转换器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "物位变送器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "气味传感器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电量变送器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高压电源",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子触摸感应开关",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "曲面视频显示屏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "系统级芯片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "温度开关",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电灯开关",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "停车场显示屏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "光纤阵列",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "压敏电阻器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电焊变压器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电气开关板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "立体声放大器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "绝缘电连接器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "液晶显示模块",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "燃料电池电极",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "音频放大器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机电源供应器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "天线滤波器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "交流/直流转换器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "交流/直流逆变器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "光纤合束器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "恒温控制阀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "脑机接口芯片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "恒湿器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "芯片组",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "湿度调节器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电源切换开关",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "车辆停车传感器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高压断路器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "磁簧开关",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "门磁开关",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:36.723Z"
+}

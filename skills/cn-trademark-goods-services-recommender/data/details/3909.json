@@ -1,0 +1,21 @@
+{
+  "groupCode": "3909",
+  "groupName": "水闸管理服务",
+  "classCode": "39",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "操作运河水闸",
+          "code": "390032",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [],
+  "crawledAt": "2026-06-09T19:00:29.308Z"
+}

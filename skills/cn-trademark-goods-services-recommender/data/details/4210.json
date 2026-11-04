@@ -1,0 +1,332 @@
+{
+  "groupCode": "4210",
+  "groupName": "提供地质调查、研究、开发服务",
+  "classCode": "42",
+  "notes": [
+    "注：1.地质研究与4209技术研究，技术项目研究，科学研究类似；",
+    "2.本类似群与第十二版及以前版本 4220 用于制图或热成像的无人机测量服务交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "油田开采分析",
+          "code": "420008",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "油井测试",
+          "code": "420042",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "地质勘测",
+          "code": "420062",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "油田勘测",
+          "code": "420063",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "土地测量",
+          "code": "420079",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "石油勘探",
+          "code": "420095",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "地质勘探",
+          "code": "420118",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "地质研究",
+          "code": "420119",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "水下勘探",
+          "code": "420167",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "测绘（工程）",
+          "code": "420193",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "石油、天然气和矿业领域的勘探服务",
+          "code": "420252",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "由无人机进行的制图测量或热成像测量服务",
+          "code": "420268",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "发掘领域的研究",
+          "code": "420270",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "提供地理信息",
+          "code": "420275",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "提供不可下载的在线地理图",
+          "code": "420276",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "岩土工程勘察",
+          "code": "420280",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "地质试井",
+          "code": "420281",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "考古挖掘",
+          "code": "420292",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "石油研究分析",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水文研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "天然气探测",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "油田勘测分析",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "摄影测量服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "地形测量",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "土壤分析取样",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "海洋测绘服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "航空测绘服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "进行地理勘测",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "地质测量",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "测井服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "油田分析",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "石油工业的地球物理探测",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "油气勘探",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "煤气工业的地球物理探测",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "采矿工业的地球物理探测",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "矿产分类",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "地质勘探的设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "矿产勘探服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水下结构物探查服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "地震分析服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "油田测量",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "油田勘测设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "土地测量设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "测绘服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "石油、天然气和采矿物的地球物理勘探",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "在钻井过程中提供井下遥感勘测服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运用无人机进行地质勘探",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "油层和油田的勘测",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "地质环境工程",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "对油井进行诊断",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供井筒绘图服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "考古遗迹发掘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水文地质领域的研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自然资源领域的地质研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "由无人机进行的制图测量服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "由无人机进行的地形测量服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "页岩气开采技术研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "页岩气勘探",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水文测量",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:46.356Z"
+}

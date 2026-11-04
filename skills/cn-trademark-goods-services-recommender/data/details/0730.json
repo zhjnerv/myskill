@@ -1,0 +1,180 @@
+{
+  "groupCode": "0730",
+  "groupName": "地质勘探、采矿、选矿用机械",
+  "classCode": "07",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "冲洗机",
+          "code": "070063",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "炉渣筛（机器）",
+          "code": "070082",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "截煤机",
+          "code": "070094",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "采掘机",
+          "code": "070185",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "拖运设备（矿井用）",
+          "code": "070185",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "采矿钻机",
+          "code": "070264",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "矿砂处理机械",
+          "code": "070265",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "钻机",
+          "code": "070299",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "矿井作业机械",
+          "code": "070342",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "地质勘探、采矿选矿用机器设备",
+          "code": "C070218",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "浮选机",
+          "code": "C070219",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "磁选机",
+          "code": "C070220",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "洗矿机",
+          "code": "C070221",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "采矿用电笛",
+          "code": "C070222",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "矿杂质沉淀机",
+          "code": "C070223",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "矿山杂物排除机",
+          "code": "C070224",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "矿井卷扬机",
+          "code": "C070225",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "矿井排水泵",
+          "code": "C070226",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "矿用声控自动喷雾装置（矿井降尘）",
+          "code": "C070227",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "采矿用钻机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "采矿机用钻头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "凿岩机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "采矿钻头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "装煤机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "采矿机械",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "采矿用卡车碾磨机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "刨煤机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "取芯钻头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用破碎机",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:06.815Z"
+}
