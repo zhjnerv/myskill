@@ -1,0 +1,65 @@
+{
+  "groupCode": "2303",
+  "groupName": "毛线",
+  "classCode": "23",
+  "notes": [
+    "注:跨类似群保护商品:毛线和粗纺毛纱(2301，2303)。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "毛线和粗纺毛纱",
+          "code": "230004",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "毛线",
+          "code": "230012",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "绳绒线",
+          "code": "230031",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "绒线",
+          "code": "C230011",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "人造毛线",
+          "code": "C230012",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "膨体线",
+          "code": "C230013",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "开司米",
+          "code": "C230014",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "羊绒线",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:00.570Z"
+}

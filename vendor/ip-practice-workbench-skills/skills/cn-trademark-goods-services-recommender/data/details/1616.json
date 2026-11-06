@@ -1,0 +1,99 @@
+{
+  "groupCode": "1616",
+  "groupName": "办公室用绘图仪器，绘画仪器",
+  "classCode": "16",
+  "notes": [
+    "注：1.本类似群与 1611 文具，学校用品（文具），办公文具类似，与第十一版及以前版本1611家具除外的办公必需品交叉检索；",
+    "2.本类似群与0905规尺（量具），测量用圆规，量具，尺（量器），刻度尺，测量用丁字尺，测量用直角板，测量用直角尺类似，与第十版及以前版本0905圆规（测量仪器）交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "绘图用直角尺",
+          "code": "160069",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "绘图用圆规",
+          "code": "160096",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "曲线板",
+          "code": "160107",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "绘画仪器",
+          "code": "160125",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "画图用描图针",
+          "code": "160184",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "比例绘图仪（绘图器械）",
+          "code": "160208",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "制图尺",
+          "code": "160234",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "绘图用直角板",
+          "code": "160297",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "绘图用丁字尺",
+          "code": "160298",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "比例尺",
+          "code": "C160098",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "作为绘图工具的量角器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "绘图圆规",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "绘图板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制图三角板",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:18.717Z"
+}

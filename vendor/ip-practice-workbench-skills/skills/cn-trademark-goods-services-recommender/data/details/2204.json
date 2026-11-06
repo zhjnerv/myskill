@@ -1,0 +1,165 @@
+{
+  "groupCode": "2204",
+  "groupName": "衬垫填充材料（纸或纸板、橡胶、塑料制除外）",
+  "classCode": "22",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "填充用刨花",
+          "code": "220004",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "锯末",
+          "code": "220006",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "棉屑（填塞物）",
+          "code": "220007",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "羽绒",
+          "code": "220028",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鸭绒毛",
+          "code": "220029",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非橡胶、非塑料、非纸或纸板制填充材料",
+          "code": "220030",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非橡胶、非塑料、非纸或纸板制衬垫材料",
+          "code": "220030",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非橡胶、非塑料、非纸或纸板制（减震或填充用）包装材料",
+          "code": "220031",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "装潢填充用羊毛",
+          "code": "220033",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "填充用草",
+          "code": "220044",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "被褥用羽毛",
+          "code": "220057",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "过滤用软填料",
+          "code": "220060",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "衬垫和填充室内装饰品的填料",
+          "code": "220061",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "装潢填充用稻草",
+          "code": "220062",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "装潢填充用羽毛",
+          "code": "220064",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "茅草",
+          "code": "220070",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "填充用海藻",
+          "code": "220074",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "衬垫和填充用废棉絮",
+          "code": "220090",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "衬垫和填充用大豆泡沫材料",
+          "code": "220120",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "鸭绒（羽毛）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "填料用羽绒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "填充用羽绒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "衣服用纤维填料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日式被褥用棉胎",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "填充用羽毛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非橡胶、非塑料、非纸或纸板制（填充或衬垫用）包装材料",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:58.121Z"
+}

@@ -1,0 +1,1356 @@
+{
+  "groupCode": "3502",
+  "groupName": "工商管理辅助业",
+  "classCode": "35",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "商业管理辅助",
+          "code": "350001",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "商业询价",
+          "code": "350002",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "商业信息代理",
+          "code": "350006",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "成本价格分析",
+          "code": "350007",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "商业管理咨询",
+          "code": "350020",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "工商管理辅助",
+          "code": "350025",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "经营效率专家服务",
+          "code": "350029",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "市场分析",
+          "code": "350031",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "商业评估",
+          "code": "350032",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "商业调查",
+          "code": "350033",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "商业组织咨询",
+          "code": "350036",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "商业研究",
+          "code": "350041",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "公共关系",
+          "code": "350042",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "商业管理顾问",
+          "code": "350048",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "市场营销研究",
+          "code": "350051",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "商业专业咨询",
+          "code": "350062",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "经济预测",
+          "code": "350063",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "组织商业或广告展览",
+          "code": "350064",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "提供商业信息",
+          "code": "350065",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "商业信息",
+          "code": "350065",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "民意测验",
+          "code": "350066",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "商业企业迁移的管理服务",
+          "code": "350069",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "饭店商业管理",
+          "code": "350078",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "组织商品交易会",
+          "code": "350082",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "价格比较服务",
+          "code": "350091",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "为消费者提供商品和服务选择方面的商业信息和建议",
+          "code": "350093",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "特许经营的商业管理",
+          "code": "350096",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "外包服务（商业辅助）",
+          "code": "350097",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "统计资料汇编",
+          "code": "350100",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "为广告宣传目的组织时装表演",
+          "code": "350103",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "提供商业和商务联系信息",
+          "code": "350110",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "商业中介服务",
+          "code": "350114",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "为第三方进行商业贸易的谈判和缔约",
+          "code": "350116",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "为建筑项目进行商业项目管理服务",
+          "code": "350118",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "通过网站提供商业信息",
+          "code": "350119",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "为公司提供外包行政管理",
+          "code": "350122",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "为他人提供补偿项目的商业管理",
+          "code": "350124",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "飞行常客计划管理",
+          "code": "350128",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "消费者忠诚度计划管理",
+          "code": "350131",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "为需要资金的企业匹配潜在投资人的商业中介服务",
+          "code": "350136",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "公共关系传播策略咨询",
+          "code": "350138",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "为他人进行商业合同谈判",
+          "code": "350140",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "竞争情报服务",
+          "code": "350142",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "市场情报服务",
+          "code": "350143",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "礼物登记服务（为出售目的管理商品清单）",
+          "code": "350149",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "临时性商业管理",
+          "code": "350151",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "关于响应招标的管理辅助",
+          "code": "350154",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "媒体关系服务",
+          "code": "350156",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "商业游说服务",
+          "code": "350159",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "为商业或广告目的提供用户评价",
+          "code": "350160",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "为商业或广告目的提供用户评级",
+          "code": "350161",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "为商业或广告目的提供用户排名",
+          "code": "350161",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "为商业和营销目的进行消费者分析",
+          "code": "350164",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "关于数字化转型的商业咨询服务",
+          "code": "350166",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "编写商业盈利能力研究报告",
+          "code": "350169",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "安排和组织商业活动",
+          "code": "350172",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "潜在客户开发服务",
+          "code": "350175",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "为他人寻找潜在目标客户",
+          "code": "350181",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "市场营销概念开发",
+          "code": "350182",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "与企业社会责任相关的商业组织战略开发",
+          "code": "350184",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "寻找商业伙伴",
+          "code": "350186",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "开展市场调查",
+          "code": "350189",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "建设项目成本管理",
+          "code": "350191",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "投标报价",
+          "code": "C350003",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "为广告或销售组织时装展览",
+          "code": "C350008",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "工商管理咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "经济事务的预测",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "利用计算机数据库进行市场调查",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商业策略方面的顾问和咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "组织民意测验",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "准备市场营销报告",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "在工商企业的商业事务或商业功能方面提供管理帮助",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供营销报告",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "收集市场调查信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "市场营销数据的统计学评估",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商业战略规划服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商业管理规划",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商业可行性研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商业规划",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商业管理咨询（包括在线方式）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "公共关系咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "经济预测服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商业建议",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商业信息服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商业咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过互联网提供商业信息服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为第三方进行的商业交易谈判",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为顾客提供关于选择购买产品的信息和建议",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为企业提供商业信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为企业提供商业咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "与商业分析有关的辅助、咨询和顾问",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "与商业管理有关的辅助、咨询和顾问",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "与商业规划有关的辅助、咨询和顾问",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "与商业组织有关的辅助、咨询和顾问",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商业风险管理服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "企业形象发展咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "能源领域公司的商业管理辅助和咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商业管理建议",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "市场评估服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "市场细分咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商业管理咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商业管理咨询和建议服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商业活动管理辅助",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "特许经营的商业管理辅助",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "特许经营的商业管理咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机化的市场研究服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "成本分析",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "市场研究和分析",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贸易信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供商品销售信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "民意调查",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "拟备商业报告",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过全球计算机网络提供商业信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商业数据分析",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "市场分析服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "市场分析和研究服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "市场民意调查研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工商业公司的商业管理辅助",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商业咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商业组织和管理咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商业管理分析",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供外贸信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "企业管理辅助",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商业风险评估服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供社会媒体领域的商业信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化妆品、香水和美容产品市场的调查研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "公众意见调查的设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "市场调查的设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商业组织和管理的辅助和建议",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有关组织或管理贸易公司的咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商业策略咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为商业目的组织时装表演",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "关于商业事务的信息服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "在互联网上提供在线商业信息目录",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "专业商业咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "组织商业或广告展览和交易会",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商业战略开发服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商业事务信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "饭店行政管理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商业信息和调查",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "市场调查研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "消费者研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "经济预测与分析",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "进行市场调查",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商业建议和信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "市场调查服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商业组织和经营咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商业组织建议",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为消费者提供商业信息和建议（消费者建议机构）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "市场研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有关商业组织和管理的建议",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商业管理和商业经营的咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为商业和广告目的组织展销会",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有关商业管理的建议和信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商业业务的经营管理辅助",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人管理医疗保健诊所",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人进行购物中心的商业运营",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "涉外商业事务的管理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "特许经营商业事务管理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商业组织和管理的咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商业目录编制",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为经济或广告目的而策划和举办交易会、展览会和展示",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过互联网、有线网络或其他形式的数据传输提供商业信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商业效率建议",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "市场调查数据和统计资料分析",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供市场调查信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为企业进行商业辅助",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "与商业有关的专家评估和报告",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "外贸信息和咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "农业领域的商业咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "组织商业或广告展览及活动",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为商业和广告目的举办、安排和组织贸易展示和交易会",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "市场调查和商业分析",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商业管理和企业组织咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "组织商业和广告展销会和展览",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "进行商业和市场调研",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工商企业的商业经营辅助",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商业建议、调查或信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商业咨询、顾问和信息服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商业事务中的商业估价和评估",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商业组织顾问",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商业价格和统计信息汇编和提供",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为商业目的提供统计资料汇编",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为准备和实施商业交易提供建议",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运输和递送领域的商业顾问",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运输和递送领域的商业管理咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "关于销售方法的信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为商业或广告目的组织艺术展览",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "产品销售信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "产品销售排名信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "允许会员用里程兑换其他会员奖励计划积分或奖励的飞行常客项目管理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "筹备民意调查",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商业企业迁移的商业管理服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "员工迁移的商业管理服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "筹备市场调查",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过全球计算机网络提供商业企业信息和商业信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有关市场营销活动和新品发布的商业咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过计算机数据库进行市场研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商业战略计划服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商业计划",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商业项目管理服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "组织和举办商业和广告展览",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商业评估服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "组织市场研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供商业数据",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商业数据分析服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "关于市场营销的商业咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "市场营销咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "收集市场研究信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商业管理计划",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人进行物流商业管理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供消费品建议",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "公司差旅领域的商业管理咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为商业目的向消费者提供商品推荐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "营销数据的统计评估",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "市场营销计划开发",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "市场营销概念的开发",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为促销组织时装展览",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "客户关系管理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过互联网提供消费产品信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于商业目的的统计分析和报告服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人管理酒店",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人提供酒店商业管理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贸易展管理服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人进行饭店激励计划管理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "编写商业调查问卷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医疗成本管理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为商业目的进行经济预测分析",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "粮食市场分析",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商业数据研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "销售管理咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "患者报销计划的商业管理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "住所价格比较评级",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "组织商业活动",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "组织商业或广告交易会",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "市场预测",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为初创企业提供商业咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "经济学领域的商业研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商业会议策划",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商业顾问服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "能源价格比较服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供与食品或饮料制品相关的消费产品信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人提供商业管理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "会议中心的商业管理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人安排商品和服务的购销合同",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供旅馆房价比较信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供在线商业名录信息服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "编写市场分析报告",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "进行在线商业管理调研",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商业利润分析",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人进行销售演示",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人管理电话呼叫中心",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供消费品信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "安排和举办跳蚤市场",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商业转型咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:03.292Z"
+}

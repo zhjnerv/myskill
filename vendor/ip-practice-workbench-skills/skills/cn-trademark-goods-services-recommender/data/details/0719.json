@@ -1,0 +1,21 @@
+{
+  "groupCode": "0719",
+  "groupName": "制搪瓷机械",
+  "classCode": "07",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "制搪瓷机械",
+          "code": "C070154",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [],
+  "crawledAt": "2026-06-09T18:57:00.086Z"
+}

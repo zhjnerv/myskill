@@ -1,0 +1,454 @@
+{
+  "groupCode": "0808",
+  "groupName": "非动力手工器具",
+  "classCode": "08",
+  "notes": [
+    "注：1.手动打气筒与1204的第（二）部分商品类似；",
+    "2.手动千斤顶与0734齿条齿轮千斤顶，千斤顶（机器），铁路货车用千斤顶，气动千斤顶类似，与第十一版及以前版本0734卡车用千斤顶，货车用千斤顶交叉检索；",
+    "3.“烫皱褶用熨斗，衣服熨斗与 1106 织物蒸汽挂烫机类似，与第九版及以前版本 0924蒸汽挂烫机交叉检索；",
+    "4.跨类似群保护商品：手动的手工具（0801，0802，0803，0804，0805，0806，0807，0808，0809，0810）。",
+    "5.本类似群与第九版及以前版本 0924 电熨斗交叉检索"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "手动千斤顶",
+          "code": "080024",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "勾缝铁器",
+          "code": "080045",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "冲钉器",
+          "code": "080050",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "漂洗工具（手工具）",
+          "code": "080052",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "穿孔工具（手工具）",
+          "code": "080062",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "棘轮（手工具）",
+          "code": "080065",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "穿孔器",
+          "code": "080067",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "手动的手工具",
+          "code": "080072",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "截管器（手工具）",
+          "code": "080075",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "捣碎工具（手工具）",
+          "code": "080084",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "杵（手工具）",
+          "code": "080084",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "扩管器（手工具）",
+          "code": "080090",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "除蓟器（手工具）",
+          "code": "080096",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "穿索针",
+          "code": "080103",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "压花机（手工具）",
+          "code": "080105",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烙铁（非电手工具）",
+          "code": "080116",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烫皱褶用熨斗",
+          "code": "080117",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "上光铁器",
+          "code": "080118",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "抛光铁器（抛光工具）",
+          "code": "080118",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "翻砂用铁器",
+          "code": "080120",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "制模用铁器",
+          "code": "080120",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "打印用烙铁",
+          "code": "080122",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "切箍器（手工具）",
+          "code": "080139",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属带拉伸器（手工具）",
+          "code": "080160",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "打辫机（手工具）",
+          "code": "080161",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "钱收集器",
+          "code": "080162",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "捣碎用研钵（手工具）",
+          "code": "080163",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "数字穿孔机",
+          "code": "080167",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "枪状手工具",
+          "code": "080174",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "浇包（手工具）",
+          "code": "080176",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "针铳",
+          "code": "080180",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "火炉用具",
+          "code": "080181",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铆钉枪（手工具）",
+          "code": "080182",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "倾注液体用器具（手工具）",
+          "code": "080191",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "截管器具",
+          "code": "080198",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "挖掘器（手工具）",
+          "code": "080204",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "衣服熨斗",
+          "code": "080224",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "手动胶黏剂挤压枪",
+          "code": "080232",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "挖沟器（手工具）",
+          "code": "080234",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "手动泵*",
+          "code": "080245",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "壁炉手拉风箱（手工具）",
+          "code": "080255",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电线牵引器（手工具）",
+          "code": "080258",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非电动压胶枪",
+          "code": "080262",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属线拉伸器（手工具）",
+          "code": "080263",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "手动气泵",
+          "code": "080265",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "滑雪板用手动磨边器",
+          "code": "080268",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "便携式手摇纺织机",
+          "code": "080298",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非家用手动软管挤压器",
+          "code": "080299",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "手动压机",
+          "code": "C080004",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "手工打包机",
+          "code": "C080005",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "三爪拉轴承器",
+          "code": "C080006",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "手动打气筒",
+          "code": "C080017",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "冲孔器（手工具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "火花塞套筒（手工具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手动加油枪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手动起重器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "斜角砂光机（手工具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手工具用模具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手动注油枪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电熨斗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蒸汽电熨斗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手动填缝枪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "去虾线器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手动截管器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "墙纸接缝滚筒（手工具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "螺栓切割器（手工具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手动码钉枪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "罐头拉环拉起器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手动打钉枪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "捣碎用研钵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "螺旋千斤顶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钻孔器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "地毯撑子（手工具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "火钳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用手动软管挤压器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "熨斗",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:25.562Z"
+}

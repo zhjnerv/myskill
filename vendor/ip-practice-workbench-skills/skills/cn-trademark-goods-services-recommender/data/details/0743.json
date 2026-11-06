@@ -1,0 +1,313 @@
+{
+  "groupCode": "0743",
+  "groupName": "非手动的手持工具",
+  "classCode": "07",
+  "notes": [
+    "注：1.手动液压机与0735商品类似；",
+    "2.本类似群与第八版及以前版本的0701电动刀交叉检索；",
+    "3.本类似群与第七版及以前版本的0742角向磨光机交叉检索；",
+    "4.本类似群与第十版及以前版本 0749 挤压胶粘剂用压缩气枪交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "电动大剪刀",
+          "code": "070105",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电动剪刀",
+          "code": "070106",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电动刀",
+          "code": "070131",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非手动的手持工具",
+          "code": "070284",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电动手操作钻孔器",
+          "code": "070300",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铆接机",
+          "code": "070332",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "挤压胶黏剂用压缩气枪",
+          "code": "070456",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电动喷胶枪",
+          "code": "070476",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "枪（使用弹药筒的工具）",
+          "code": "070477",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电动拔钉器",
+          "code": "070558",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "滑雪板用电动磨边器",
+          "code": "070560",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "喷砂枪",
+          "code": "070612",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "手电钻（不包括电煤钻）",
+          "code": "C070320",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "电动螺丝刀",
+          "code": "070566",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "电动扳手",
+          "code": "C070322",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "电砂轮机",
+          "code": "C070323",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "液压手工具",
+          "code": "C070324",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "手动液压机",
+          "code": "C070325",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "风动手工具",
+          "code": "C070326",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "除锈机（电动）",
+          "code": "C070327",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "气动打钉枪",
+          "code": "C070328",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "角向磨光机",
+          "code": "C070395",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "电钻孔器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "气动剪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "风动螺丝刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "气动螺丝刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "气钻（手持）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冲击扳手",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "气动油脂枪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "气动射钉枪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动打钉枪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动手持钻",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "风钻",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手持式电动研磨机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动射钉枪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "热胶枪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马刀锯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "气动棘轮扳手",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "液压扭矩扳手",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动铆钉枪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "气动螺帽扳手",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动码钉枪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "热熔胶枪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动手工具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冰钓用电动螺旋钻",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "枪（使用火药的工具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无线电动螺丝刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无线电动手钻",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "滑雪板修刃机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "气动钉枪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动棘轮扳手",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手电钻专用钻夹头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "充电式手电钻",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "充电式电动扳手",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:14.443Z"
+}

@@ -1,0 +1,253 @@
+{
+  "groupCode": "0920",
+  "groupName": "警报装置，电铃",
+  "classCode": "09",
+  "notes": [
+    "注：1.本类似群第一自然段商品与1202车辆倒退警报器，车辆防盗设备，1211运载工具防盗报警器、运载工具防盗设备类似，与第九版及以前版本1202车辆防盗警铃交叉检索；",
+    "2. 第二自然段与 0610 除金属钥匙以外的其他商品，2014 运载工具用非金属锁，非金属锁（非电），非金属挂锁（非电子）类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "汽笛报警器",
+          "code": "090013",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "声音警报器",
+          "code": "090014",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "报警器*",
+          "code": "090026",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电警铃",
+          "code": "090071",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铃（报警装置）",
+          "code": "090402",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "警笛",
+          "code": "090449",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电子防盗装置",
+          "code": "090497",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "防盗报警器",
+          "code": "090511",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电子挂锁",
+          "code": "090833",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电锁",
+          "code": "090443",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "联锁门用电子门禁装置",
+          "code": "090759",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "生物识别锁",
+          "code": "090850",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "生物指纹门锁",
+          "code": "C090147",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "火警报警器",
+          "code": "090068",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电铃按钮",
+          "code": "090093",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "门窥视孔（广扩镜）",
+          "code": "090312",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蜂鸣器",
+          "code": "090522",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电门铃",
+          "code": "090566",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烟雾探测器",
+          "code": "090623",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "无线电频率控制锁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "中央报警器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "车辆用电锁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子蜂鸣器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子防盗报警器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子报警铃",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非运载工具用防盗报警器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防闯入报警器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子锁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "火灾探测器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "门窥视孔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "煤气警报器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "探测易燃气体用报警器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数字门锁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "排队用无线蜂鸣器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电磁锁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "煤气探测器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "指纹门锁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "指纹挂锁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动插销锁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "煤气泄漏报警器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烟雾报警器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "游泳池报警器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防盗报警装置",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:40.390Z"
+}

@@ -1,0 +1,415 @@
+{
+  "groupCode": "2202",
+  "groupName": "网，遮篷，帐篷，防水油布，帆",
+  "classCode": "22",
+  "notes": [
+    "注：1.本类似群各部分之间商品不类似，但第（一）部分伪装网与第（二）部分伪装罩类似；",
+    "2.第（五）部分与 1802 伞类似，与第十二版及以前版本已接受商品庭院伞交叉检索；",
+    "3.洗衣用网袋与第七版及以前版本2112洗衣袋交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "（一）",
+      "items": [
+        {
+          "name": "伪装网",
+          "code": "220009",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "商业捕捞用网",
+          "code": "220011",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "网线",
+          "code": "220039",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "捕动物陷网",
+          "code": "220048",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "网*",
+          "code": "220094",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "洗衣用网袋",
+          "code": "220106",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "捕鱼用围网",
+          "code": "220108",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "鱼类养殖用网箱",
+          "code": "220109",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "动物喂食用网",
+          "code": "220113",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "防鸟防虫网",
+          "code": "220121",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非金属制落石防护网",
+          "code": "220123",
+          "type": "standard",
+          "section": "（一）"
+        }
+      ]
+    },
+    {
+      "label": "（二）",
+      "items": [
+        {
+          "name": "运载工具非专用盖罩",
+          "code": "220075",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "伪装罩",
+          "code": "220085",
+          "type": "standard",
+          "section": "（二）"
+        }
+      ]
+    },
+    {
+      "label": "（三）",
+      "items": [
+        {
+          "name": "帆",
+          "code": "220059",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "雪地风筝运动用帆",
+          "code": "220105",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "风筝滑雪运动用帆",
+          "code": "220105",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "风帆滑雪运动用帆",
+          "code": "220105",
+          "type": "standard",
+          "section": "（三）"
+        }
+      ]
+    },
+    {
+      "label": "（四）",
+      "items": [
+        {
+          "name": "风障布",
+          "code": "220001",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "防水油布",
+          "code": "220002",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "船帆用帆布",
+          "code": "220110",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "防尘罩布",
+          "code": "220115",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "苫布",
+          "code": "C220006",
+          "type": "marked",
+          "section": "（四）"
+        },
+        {
+          "name": "涂胶布",
+          "code": "C220007",
+          "type": "marked",
+          "section": "（四）"
+        },
+        {
+          "name": "漆布",
+          "code": "C220008",
+          "type": "marked",
+          "section": "（四）"
+        },
+        {
+          "name": "阻燃布",
+          "code": "C220009",
+          "type": "marked",
+          "section": "（四）"
+        },
+        {
+          "name": "涂塑布",
+          "code": "C220010",
+          "type": "marked",
+          "section": "（四）"
+        }
+      ]
+    },
+    {
+      "label": "（五）",
+      "items": [
+        {
+          "name": "吊床",
+          "code": "220043",
+          "type": "standard",
+          "section": "（五）"
+        },
+        {
+          "name": "纺织品遮篷",
+          "code": "220058",
+          "type": "standard",
+          "section": "（五）"
+        },
+        {
+          "name": "帐篷*",
+          "code": "220071",
+          "type": "standard",
+          "section": "（五）"
+        },
+        {
+          "name": "合成材料制遮篷",
+          "code": "220102",
+          "type": "standard",
+          "section": "（五）"
+        },
+        {
+          "name": "纺织品制室外遮帘",
+          "code": "220111",
+          "type": "standard",
+          "section": "（五）"
+        },
+        {
+          "name": "遮蔽式露营袋",
+          "code": "220117",
+          "type": "standard",
+          "section": "（五）"
+        },
+        {
+          "name": "野营用卷式帐篷",
+          "code": "220122",
+          "type": "standard",
+          "section": "（五）"
+        },
+        {
+          "name": "庭院伞",
+          "code": "220125",
+          "type": "standard",
+          "section": "（五）"
+        },
+        {
+          "name": "蒙古包",
+          "code": "C220005",
+          "type": "marked",
+          "section": "（五）"
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "防水帆布220002",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "露营时铺地用防潮布",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "双体船用帆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺织品制帐篷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陷阱网",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "乙烯地布",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商业用渔网",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "视觉用伪装网",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "雷达用伪装网",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "多用途的塑料防水布",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "网（非金属、非石棉制）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "涂塑材料制防水帆布",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "棉网",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "丝网",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "游艇用帆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "帆板用帆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "登山或野营用帐篷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "船用防水帆布",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化学纤维网",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "玻璃纤维网",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "麻网",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非野营用帐篷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非船用防水帆布",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "洗针织品用袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "船和海上运载工具的非专用盖罩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "帆船运动用帆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺织品制室外百叶帘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车非专用盖罩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "登山或野营用充气帐篷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "渔网",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "货物包装用聚酯塑料网",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "野营帐篷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "帆布制防水遮布",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:56.994Z"
+}

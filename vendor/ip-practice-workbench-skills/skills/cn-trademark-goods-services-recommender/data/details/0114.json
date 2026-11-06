@@ -1,0 +1,133 @@
+{
+  "groupCode": "0114",
+  "groupName": "鞣料及皮革用化学品",
+  "classCode": "01",
+  "notes": [
+    "注：1.本类似群与0102第（五）部分儿茶，单宁，单宁酸，0104第（一）部分五倍子类似，与第九版及以前版本0104第（一）部分苦味五倍子交叉检索；",
+    "2.本类似群与第十版及以前版本 0104 第（一）部分上浆料（化学制剂）交叉检索；",
+    "3. 制革用油，鞣革用油，皮革整理用油与0401皮革用油脂类似，与第九版及以前版本0401制革用脂交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "鞣料木",
+          "code": "010130",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "皮革翻新用化学品",
+          "code": "010175",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "使皮革软化的脱灰碱液",
+          "code": "010208",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "除油外的皮革处理剂",
+          "code": "010208",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "皮革鞣剂",
+          "code": "010215",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "生皮鞣剂",
+          "code": "010216",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "皮革表面处理用化学制品",
+          "code": "010223",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "皮革浸渍化学品",
+          "code": "010224",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "上浆剂",
+          "code": "010270",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鞣酸",
+          "code": "010323",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "黑儿茶",
+          "code": "010325",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "制革用油",
+          "code": "010349",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鞣革用油",
+          "code": "010350",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "皮革防水化学品",
+          "code": "010364",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鞣革用漆叶",
+          "code": "010504",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鞣料（鞣革剂）",
+          "code": "010507",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鞣革物",
+          "code": "010509",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "皮革整理用油",
+          "code": "010601",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "皮革加工化学制剂",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:13.138Z"
+}

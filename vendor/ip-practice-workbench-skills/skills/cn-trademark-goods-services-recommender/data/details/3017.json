@@ -1,0 +1,138 @@
+{
+  "groupCode": "3017",
+  "groupName": "酵母",
+  "classCode": "30",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "生面团用酵素",
+          "code": "300066",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "发酵剂",
+          "code": "300086",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "酵母*",
+          "code": "300087",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "泡打粉",
+          "code": "300199",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "苏打粉（烹饪用小苏打）",
+          "code": "300200",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烹饪用酒石酸氢钾（塔塔粉）",
+          "code": "300215",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "酿造啤酒用酵母",
+          "code": "300298",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "曲种",
+          "code": "C300128",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "酱油曲种",
+          "code": "C300129",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "烹饪用小苏打",
+          "code": "C300130",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "烹饪用碱",
+          "code": "C300131",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "烹饪用酶",
+          "code": "C300135",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "人食用酵母提取物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食品用酵母提取物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "焙烤苏打（烘焙用小苏打）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "酵母粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用作食物原料的酵母",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "米曲",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "酵母提取物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用碱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用小苏打",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "发面团用酵素",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:48.421Z"
+}

@@ -1,0 +1,219 @@
+{
+  "groupCode": "3005",
+  "groupName": "蜂蜜，蜂王浆等营养食品",
+  "classCode": "30",
+  "notes": [
+    "注：1.本类似群与 0501 第（一）部分的第一自然段商品（人用药除外）和 0502 第二自然段类似；",
+    "2.黄色糖浆与3203制饮料用糖浆，杏仁糖浆，制柠檬汁用糖浆类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "食品用糖蜜",
+          "code": "300095",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "糖蜜",
+          "code": "300095",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "黄色糖浆",
+          "code": "300096",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蜂蜜",
+          "code": "300098",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蜂胶*",
+          "code": "300166",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蜂王浆*",
+          "code": "300168",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "龙舌兰糖浆（天然增甜剂）",
+          "code": "300244",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "可食用蜂房",
+          "code": "300314",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食用蜂蜡",
+          "code": "300318",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "花粉健身膏",
+          "code": "C300023",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "龟苓膏",
+          "code": "C300024",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "乳鸽精",
+          "code": "C300025",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "冰糖燕窝",
+          "code": "C300026",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "虫草鸡精",
+          "code": "C300027",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "秋梨膏",
+          "code": "C300028",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "苓贝梨膏",
+          "code": "C300029",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "燕窝梨膏",
+          "code": "C300030",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "桂圆膏",
+          "code": "C300031",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "荔枝膏",
+          "code": "C300032",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "枇杷膏",
+          "code": "C300033",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "用作天然增甜剂的龙舌兰糖浆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "糖蜜糖浆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烹饪用淀粉糖浆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烹饪用玉米糖浆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人食用蜂胶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用淀粉糖浆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "浇头糖浆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "薄烤饼用糖浆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "枫树糖浆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "粉状淀粉糖浆（食用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "草本蜂蜜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蜂蜜替代品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "柚子蜂蜜膏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "雪莲果糖浆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "棉花糖酱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用洋槐蜜",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:41.354Z"
+}

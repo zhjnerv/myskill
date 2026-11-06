@@ -1,0 +1,549 @@
+{
+  "groupCode": "2002",
+  "groupName": "非金属容器及附件",
+  "classCode": "20",
+  "notes": [
+    "注：1.非金属筐与 2005 竹篮类似；",
+    "2.面包店用面包筐与2101家用面包篮，面包箱类似，与第十版及以前版本2101面包篮（家用）交叉检索；",
+    "3.非金属桶，非金属大桶与2106水桶，提桶类似。",
+    "4.非金属制毛巾分配器与第十一版及以前版本 2012 非金属制固定式毛巾分配器交叉检索；",
+    "5.非金属制纸巾分配盒，非金属制卫生纸分配器与第十一版及以前版本2106 纸巾盒，卫生纸分配器交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "滗析葡萄酒用木桶",
+          "code": "200017",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鱼篮",
+          "code": "200021",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "装卸用非金属货盘",
+          "code": "200054",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "液态燃料用非金属容器",
+          "code": "200065",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "存储和运输用非金属容器",
+          "code": "200068",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属浮动容器",
+          "code": "200069",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属托盘*",
+          "code": "200072",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属大桶",
+          "code": "200081",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属制毛巾分配器",
+          "code": "200084",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "塑料包装容器",
+          "code": "200100",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属桶",
+          "code": "200119",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "存储和运输用非金属板条箱",
+          "code": "200128",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运输用非金属货盘",
+          "code": "200145",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "搬运用非金属货盘",
+          "code": "200146",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "面包店用面包筐",
+          "code": "200163",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属、非砖石蓄水池",
+          "code": "200174",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属、非砖石容器（储液或储气用）",
+          "code": "200174",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "搅拌灰浆用非金属槽",
+          "code": "200206",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属箱",
+          "code": "200207",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属琵琶桶",
+          "code": "200210",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "木制或塑料制箱",
+          "code": "200315",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "装瓶用木箱",
+          "code": "200238",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属筐",
+          "code": "200243",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属、非砖石制信箱",
+          "code": "200244",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "玩具箱",
+          "code": "200256",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属工具盒（空）",
+          "code": "200301",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属工具箱（空）",
+          "code": "200302",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属制五加仑装汽油罐",
+          "code": "200311",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "泄油用非金属容器",
+          "code": "200325",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非玻璃、非金属、非橡胶制塞子",
+          "code": "200334",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属制排队号码纸分配器",
+          "code": "200361",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属制纸巾分配盒",
+          "code": "200362",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属制卫生纸分配器",
+          "code": "200363",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "超市购物用非金属手提篮",
+          "code": "200372",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属制垃圾箱（非家用）",
+          "code": "200376",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属制垃圾桶（非家用）",
+          "code": "200376",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属制皂液分配器",
+          "code": "200378",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "软木瓶塞",
+          "code": "200029",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "软木塞",
+          "code": "200030",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "桶用非金属龙头",
+          "code": "200042",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "木桶板",
+          "code": "200087",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "容器用非金属盖",
+          "code": "200112",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属桶架",
+          "code": "200120",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属桶箍",
+          "code": "200211",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "桶用非金属塞",
+          "code": "200213",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属密封盖",
+          "code": "200214",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属瓶盖",
+          "code": "200219",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属瓶塞",
+          "code": "200220",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "瓶用非金属紧固塞",
+          "code": "200220",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "瓶用非金属螺旋盖",
+          "code": "200285",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "装压缩气体或液体空气用非金属容器",
+          "code": "200348",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "装压缩气体或液态空气用非金属瓶（容器）",
+          "code": "200349",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "用于搬运非金属压缩气瓶的专用罩",
+          "code": "200355",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属制非医用户外垃圾箱",
+          "code": "200358",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属制回收箱",
+          "code": "200359",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "塑料周转箱",
+          "code": "C200009",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "玻璃钢容器",
+          "code": "C200010",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "瓶用塑料塞",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食品包装用塑料托盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "仿软木制塞",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "软木制塞",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属、非砖石制贮存容器（贮液或贮气用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "塑料贮存容器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木制贮藏罐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业包装用木箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用非金属、非砖石水箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木制工业包装容器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运输用非金属容器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "塑料盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "竹制工业包装容器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用竹篮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "瓶用非玻璃、非金属、非橡胶塞子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属、非砖石信箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业包装容器用木塞",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属、非砖石贮液容器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属、非石制工业用贮水池",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属、非砖石制气体贮藏罐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业包装容器用塑料瓶塞",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业包装容器用木制盖子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "邮寄用塑料卷筒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木制琵琶桶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "桶用非金属活嘴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属工具箱（空的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "塑料托盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "塑料储存容器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属、非砖石制储存容器（储液或储气用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木制储藏罐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属、非砖石储液容器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属、非砖石制气体储藏罐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属、非石制工业用储水池",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属、非砖石容器（贮液或贮气用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属制固定式毛巾分配器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用塑料包装容器",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:39.942Z"
+}

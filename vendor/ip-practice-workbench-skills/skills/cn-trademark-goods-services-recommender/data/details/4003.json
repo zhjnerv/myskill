@@ -1,0 +1,278 @@
+{
+  "groupCode": "4003",
+  "groupName": "纺织品化学处理或加工服务",
+  "classCode": "40",
+  "notes": [
+    "注：本类似群与第八版及以前版本 3716 布匹漂洗交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "纺织品精加工",
+          "code": "400005",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "织物漂白",
+          "code": "400008",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "布料边饰处理",
+          "code": "400010",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "织物定型处理",
+          "code": "400014",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "布料防水处理",
+          "code": "400036",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "织物防水处理",
+          "code": "400036",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "布料耐火处理",
+          "code": "400037",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纺织品耐火处理",
+          "code": "400037",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "织物耐火处理",
+          "code": "400037",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "服装防皱处理",
+          "code": "400038",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "羊毛加工",
+          "code": "400039",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "织布机整经",
+          "code": "400046",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "染色服务",
+          "code": "400056",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纺织品染色",
+          "code": "400057",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "布料化学处理",
+          "code": "400058",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纺织品化学处理",
+          "code": "400058",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纺织品防蛀处理",
+          "code": "400059",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "布料染色",
+          "code": "400060",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "布料预缩处理",
+          "code": "400069",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "布匹漂洗",
+          "code": "400120",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "布料漂白",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺织整经",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "耐火处理（纺织品或裘皮）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺棉花",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "地毯抗微生物处理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "在纺织品上印刷图案",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "布料除臭",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "织物精加工",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺织品织造",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "布料精加工",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "服装漂白",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "布料处理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺织品处理用机器和设备出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺棉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "裘皮防收缩处理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺织品防霉处理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺织品漂白",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "布料防皱处理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "染色",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "织物染色",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺织品边饰处理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "服装阻燃处理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺织品定型处理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "服装定型处理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "织物的织前准备和处理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "织物层压",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "帷幔的定制制作",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺织品增白",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:32.721Z"
+}

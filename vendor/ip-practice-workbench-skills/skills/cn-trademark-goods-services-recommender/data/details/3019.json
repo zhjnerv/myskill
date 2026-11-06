@@ -1,0 +1,41 @@
+{
+  "groupCode": "3019",
+  "groupName": "单一商品",
+  "classCode": "30",
+  "notes": [
+    "注：本类似群为单一商品，各自然段间互不类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "搅稠奶油制剂",
+          "code": "300045",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烹饪用嫩肉剂",
+          "code": "300135",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食用预制谷蛋白",
+          "code": "300078",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烹饪用谷蛋白添加剂",
+          "code": "300216",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [],
+  "crawledAt": "2026-06-09T18:59:49.595Z"
+}

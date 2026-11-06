@@ -1,0 +1,91 @@
+{
+  "groupCode": "1904",
+  "groupName": "水泥",
+  "classCode": "19",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "石棉水泥",
+          "code": "190004",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "水泥*",
+          "code": "190036",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "熔炉用水泥",
+          "code": "190092",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "高炉用水泥",
+          "code": "190093",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "镁氧水泥",
+          "code": "190118",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "水泥混合料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "耐火水泥",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "填充用水泥",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硅酸盐高炉矿渣水泥",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硅酸盐水泥",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硅酸水泥",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "渣石灰水泥",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水硬性水泥",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高铝水泥",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:32.027Z"
+}

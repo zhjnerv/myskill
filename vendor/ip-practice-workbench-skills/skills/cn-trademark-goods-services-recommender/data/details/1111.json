@@ -1,0 +1,213 @@
+{
+  "groupCode": "1111",
+  "groupName": "小型取暖器",
+  "classCode": "11",
+  "notes": [
+    "注:1.非医用电加热垫，非医用电热毯与1003医用电热垫，医用电热毯类似，与第十版及以前版本1003医用电毯交叉检索；",
+    "2.本类似群与第九版及以前版本 1104 炉子（取暖器具）交叉检索；",
+    "3.本类似群与第十版及以前版本0924原第（二）部分电热袜，电暖衣服，电马甲，电手套，电靴交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "暖足器（电或非电的）",
+          "code": "110087",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电暖器",
+          "code": "110137",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "炉子（取暖器具）",
+          "code": "110143",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "便携式取暖器",
+          "code": "110280",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非医用电加热垫",
+          "code": "110296",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "热水袋",
+          "code": "110302",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "暖床器",
+          "code": "110304",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非医用电热毯",
+          "code": "110305",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "长柄暖床炉",
+          "code": "110306",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电热地毯",
+          "code": "110310",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "USB供电的暖手器",
+          "code": "110364",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "怀炉",
+          "code": "C110033",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "电热窗帘",
+          "code": "C110034",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "煤气炉（家用取暖器）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "油炉（家用取暖器）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "储热型取暖器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非医用电热垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卤素取暖器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "浴室取暖器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "床用暖床器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "便携式篝火炉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "热水袋（非电的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑物采暖用电暖器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电暖脚器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用电辐射加热器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "煤炉（家用小型取暖器）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "便携式电暖手器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "热水袋专用织物套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "煤气取暖器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "个人用电暖脚器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宠物用电热垫（非兽医用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "暖风扇",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用辐射式电暖器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电热帽",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "空气电加热器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "燃气式庭院取暖器",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:55.558Z"
+}

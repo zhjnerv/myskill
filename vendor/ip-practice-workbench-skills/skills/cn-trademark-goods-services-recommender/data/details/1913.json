@@ -1,0 +1,33 @@
+{
+  "groupCode": "1913",
+  "groupName": "建筑用粘合料",
+  "classCode": "19",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "制煤砖用黏合料",
+          "code": "190040",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "制砖用黏合料",
+          "code": "190040",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "修路用黏合材料",
+          "code": "190110",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [],
+  "crawledAt": "2026-06-09T18:58:37.543Z"
+}

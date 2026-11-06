@@ -1,0 +1,597 @@
+{
+  "groupCode": "0302",
+  "groupName": "清洁、去渍用制剂",
+  "classCode": "03",
+  "notes": [
+    "注：1.本类似群与 0301 第二自然段类似；",
+    "2.厕所清洗剂与0503化学盥洗室用消毒剂，卫生间用芳香除臭剂，厕所除臭剂类似；",
+    "3.去漆剂与 0104 第（十）部分清漆溶剂，0205 油漆稀释剂，亮面漆用稀释剂，松节油（涂料稀释剂），稀料，松香水，天那水，信那水类似，与第十一版及以前版本 0205 漆稀释剂交叉检索；",
+    "4.本类似群与第八版及以前版本 2112 浸清洁剂的清洁布交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "刮面石（收敛剂）",
+          "code": "030005",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "白垩粉",
+          "code": "030022",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "清洁用火山灰",
+          "code": "030038",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "清洁用白垩",
+          "code": "030067",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "去污剂",
+          "code": "030068",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "清洗用洗涤碱",
+          "code": "030072",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非生产操作用、非医用的去污剂",
+          "code": "030075",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "擦洗溶液",
+          "code": "030076",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非生产过程中用的脱脂剂",
+          "code": "030077",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "家用除水垢剂",
+          "code": "030081",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "家用抗静电剂",
+          "code": "030083",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "去漆剂",
+          "code": "030085",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "去色剂",
+          "code": "030087",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "次氯酸钾",
+          "code": "030089",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "清洁制剂",
+          "code": "030104",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "清洁用油",
+          "code": "030117",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "挡风玻璃清洗剂",
+          "code": "030126",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "墙纸洗涤剂",
+          "code": "030138",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "苏打碱液",
+          "code": "030153",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "脱脂用松脂",
+          "code": "030157",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "脱脂用松节油",
+          "code": "030158",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "氨水（挥发性碱）（去污剂）",
+          "code": "030167",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "挥发碱（氨水）（去污剂）",
+          "code": "030167",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "明矾石（收敛剂）",
+          "code": "030168",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "除锈制剂",
+          "code": "030170",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "去颜料制剂",
+          "code": "030179",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "疏通下水道制剂",
+          "code": "030195",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "地板蜡清除剂（刷净剂）",
+          "code": "030206",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "用于清洁和除尘的罐装压缩空气",
+          "code": "030209",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "浸清洁剂的清洁布",
+          "code": "030211",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "洗碗机用催干剂",
+          "code": "030214",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "家用化学清洁制剂",
+          "code": "030245",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "咖啡机清洗片剂",
+          "code": "030266",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "洗洁精",
+          "code": "030279",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "餐具洗洁液",
+          "code": "030279",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "洗碗机用洗涤剂",
+          "code": "030280",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "硅清洁剂",
+          "code": "C030013",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "厕所清洗剂",
+          "code": "C030014",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "玻璃擦净剂",
+          "code": "C030015",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "去蜡水",
+          "code": "C030016",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "去油剂",
+          "code": "C030017",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "去渍剂",
+          "code": "C030018",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "去油渍油",
+          "code": "C030019",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "去雾水",
+          "code": "C030020",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "去污粉",
+          "code": "C030021",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "地毯清洗剂",
+          "code": "C030022",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "预润湿浸渍餐具洗涤剂的纸巾",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车用清洁剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "浸有清洁制剂的纸巾",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "餐具洗涤剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "除漆用化合物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "浸清洁剂的湿巾",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烤箱清洁剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "清洁用天然油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于清洁运动员口防护器的喷洗剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "洗碗粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "石油制清洁剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "地毯洗涤剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "去污用挥发油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "去污制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "洗碗机用清洁剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "玻璃清洁剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "玻璃清洁制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抽水马桶用清洁剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "眼镜片清洗溶液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车清洗剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车用清洁制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "风挡玻璃清洗液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "洗餐具制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "泡沫清洁制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "清洁用氨水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用清洁剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用清洁制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用脱脂制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水果和蔬菜清洗剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "清洁下水道用清洁制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "地板蜡清除剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "除蜡制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化妆用刮面石（收敛剂）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "浸去污剂的眼镜布",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "地蜡清除剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家具装饰品用清洁剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "地板清洁用脱蜡剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "去渍粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卫生间清洁剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车清洁剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "清洁去渍制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮革清洁制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马桶清洁剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "地毯清洁制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "浸清洁制剂的海绵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用除垢剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙科超声波消毒装置用清洁溶液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "洁厕凝胶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "除蜡用松节油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "清漆去除剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "清洁用去蜡水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "清洁用去油剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用清洁剂喷雾",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "擦洗液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "打字机铅字用清洁液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "照相机镜头清洁液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "白壁轮胎清洁剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通用去渍粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "足部清洁剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "涂鸦清除剂",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:19.785Z"
+}

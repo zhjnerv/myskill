@@ -1,0 +1,118 @@
+{
+  "groupCode": "3110",
+  "groupName": "动物栖息用干草等制品",
+  "classCode": "31",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "动物栖息用干草",
+          "code": "310080",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "动物栖息用泥炭",
+          "code": "310081",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "动物垫窝用干稻草",
+          "code": "310098",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "宠物用砂纸（垫窝用）",
+          "code": "310146",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "宠物用香砂",
+          "code": "310147",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "宠物厕所用砂",
+          "code": "310181",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "动物垫窝用刨花",
+          "code": "310183",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "猫砂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鸟笼用砂纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "动物栖息用碎草",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "动物栖息用纤维素纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "小动物用垫窝草",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "动物栖息用木屑",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "猫和小动物栖息用干草",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宠物用褥草",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "动物垫窝用木屑",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家畜用沙纸（垫窝用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "猫栖息用干草",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鸟笼用沙纸",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:55.508Z"
+}

@@ -1,0 +1,877 @@
+{
+  "groupCode": "0601",
+  "groupName": "普通金属及其合金、板、各种型材（不包括焊接及铁路用金属材料）",
+  "classCode": "06",
+  "notes": [
+    "注：1.第二自然段与 0603 建筑用金属盖板，建筑用金属衬板，金属隔板，建筑用金属嵌板，钢模板，建筑用金属平板等金属制板材类似，与第九版及以前版本0603建筑用金属板交叉检索；",
+    "2.锚定板与0604铁路金属材料类似；",
+    "3.金属支架与第九版及以前版本的0603装货物用金属支架交叉检索；",
+    "4.镁与0101碱土金属类似；",
+    "5.本类似群与第十二版及以前版本 1609 已接受商品烹饪用铝箔，烹饪用锡箔交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "未锻造或半锻造的钢",
+          "code": "060001",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "钢合金",
+          "code": "060002",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铸钢",
+          "code": "060005",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "镍银",
+          "code": "060016",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铝",
+          "code": "060017",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "青铜",
+          "code": "060018",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "耐磨金属",
+          "code": "060027",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "镀银的锡合金",
+          "code": "060032",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铍",
+          "code": "060043",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "白合金",
+          "code": "060046",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "镉",
+          "code": "060061",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铪",
+          "code": "060067",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铬",
+          "code": "060079",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铬铁",
+          "code": "060080",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "钴（未加工的）",
+          "code": "060088",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "未加工或半加工铜",
+          "code": "060109",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "生铁或半锻造铁",
+          "code": "060115",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "钼铁",
+          "code": "060136",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "硅铁",
+          "code": "060137",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "钛铁",
+          "code": "060138",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "钨铁",
+          "code": "060139",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铅封",
+          "code": "060146",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "锗",
+          "code": "060147",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铟",
+          "code": "060154",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "未加工或半加工黄铜",
+          "code": "060157",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属锉屑",
+          "code": "060161",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "普通金属锭",
+          "code": "060164",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "大钢坯（冶金）",
+          "code": "060168",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "镁",
+          "code": "060169",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "锰",
+          "code": "060174",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "未加工或半加工普通金属",
+          "code": "060182",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "可自燃金属",
+          "code": "060185",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "钼",
+          "code": "060189",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "镍",
+          "code": "060193",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铌",
+          "code": "060194",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "锌",
+          "code": "060223",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "钽（金属）",
+          "code": "060246",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "钛",
+          "code": "060251",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "顿巴黄铜",
+          "code": "060253",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "钨",
+          "code": "060257",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "钒",
+          "code": "060259",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "锆",
+          "code": "060264",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "普通金属合金",
+          "code": "060269",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铝箔",
+          "code": "060270",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "锡",
+          "code": "060373",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "马口铁",
+          "code": "060374",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "锡箔",
+          "code": "060375",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "包装和打包用金属箔",
+          "code": "060416",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "粉末状金属*",
+          "code": "060434",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "3D打印机用金属箔或金属粉",
+          "code": "060453",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烹饪用铝箔",
+          "code": "060502",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "钢砂",
+          "code": "C060001",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "铁砂",
+          "code": "C060002",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "白铁皮",
+          "code": "C060003",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "电解铜",
+          "code": "C060004",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "电解铅",
+          "code": "C060005",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "铝锭",
+          "code": "C060007",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "钨粉",
+          "code": "C060008",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "锰粉",
+          "code": "C060009",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "锌粉",
+          "code": "C060010",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "电解镍",
+          "code": "C060011",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "钢纤维",
+          "code": "C060043",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "钢条",
+          "code": "060003",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "钢桅杆",
+          "code": "060006",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "钢板",
+          "code": "060010",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "锚定板",
+          "code": "060020",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "垫板",
+          "code": "060020",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属桅杆",
+          "code": "060023",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属杆",
+          "code": "060024",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属装甲板",
+          "code": "060047",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铁板",
+          "code": "060052",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铁条",
+          "code": "060131",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属板条",
+          "code": "060160",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属桩",
+          "code": "060188",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属板桩",
+          "code": "060188",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属柱",
+          "code": "060205",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "可移动的金属温室",
+          "code": "060236",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属角铁",
+          "code": "060345",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属支架",
+          "code": "060372",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属片和金属板",
+          "code": "060376",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属陶瓷",
+          "code": "060401",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "热轧钢棒",
+          "code": "060459",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "磨光钢棒",
+          "code": "060460",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "已剥皮的金属棒",
+          "code": "060461",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "已拉拔抛光的金属棒",
+          "code": "060462",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "金属支柱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铁丸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "不锈钢",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钢锻件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铬合金",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "球墨铸铁桩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铜条",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "乙烯基涂层钢片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "乙烯基涂层钢板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "3D打印机用金属粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "低铜碳钢屑",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "扩大生产用未加工或半加工普通金属",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "浇铸塑像用铅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "复合钢板和片材",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冷加工钢条",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "预镀钢",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铀合金",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "镍合金锭",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生铁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "中空钢条",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铸铁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铅锭",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铅合金锭",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "镍锭",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "镍合金",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钢",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钛合金",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钛合金锭",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "镁锭",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "镁合金锭",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "镀锌钢板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "包装用金属箔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "轧制钢",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制管钢板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铝合金",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铝合金锭",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "锡锭",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "锡合金锭",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "半成品钢",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "锌锭",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "锌合金锭",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未锻造的钢",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "合金钢",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "合金钢片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "合金铁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铜锭",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铜合金锭",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "海绵铁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "碳钢",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属悬臂支架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "3D打印机用金属箔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属薄板（包括钢钛合金制）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属板（包括钢钛合金制）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未锻造或半锻造的钢合金",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工或半加工钛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "稳定泡沫铝",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纯铁锭",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "薄板金属衬里",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "黄铜合金",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "锌白铜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "镍黄铜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "角铁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工或半加工铸铁060133",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工或半加工铅060214",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工或半加工的铸铁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工或半加工的铅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铁合金",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铝箔（包装材料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制造集成电路用覆铜箔板",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:34.340Z"
+}

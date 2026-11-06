@@ -1,0 +1,351 @@
+{
+  "groupCode": "2601",
+  "groupName": "花边，饰品及编带",
+  "classCode": "26",
+  "notes": [
+    "注：本类似群与2602中第一自然段商品类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "发带",
+          "code": "260013",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "衣服饰边",
+          "code": "260018",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "花边",
+          "code": "260019",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "箍袖带",
+          "code": "260023",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鞋带",
+          "code": "260034",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "衣边带",
+          "code": "260047",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "假褶边",
+          "code": "260056",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "流苏花边",
+          "code": "260060",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "编带",
+          "code": "260062",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "流苏（缝纫用品）",
+          "code": "260063",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "褶边（花边）",
+          "code": "260066",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "毛线花边",
+          "code": "260067",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "花边饰品",
+          "code": "260068",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "衣服的金银饰带",
+          "code": "260068",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "缝纫用饰带",
+          "code": "260076",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "饰边小环（花边）",
+          "code": "260080",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "裙子荷叶边",
+          "code": "260084",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "服装褶边",
+          "code": "260086",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "松紧带",
+          "code": "260095",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "饰边带",
+          "code": "260096",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "窗帘边幅带",
+          "code": "260120",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "帽带",
+          "code": "260139",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "礼品包装用非纸制饰带和蝴蝶结",
+          "code": "260141",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "缝纫用蝴蝶结",
+          "code": "260142",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "服装用挂绳",
+          "code": "260150",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "胸罩加长排扣",
+          "code": "260154",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "胸罩延长带",
+          "code": "260154",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "胸罩肩带延长带",
+          "code": "260155",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "刺绣品",
+          "code": "260028",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "花哨的小商品（绣制品）",
+          "code": "260028",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "花彩装饰（绣制品）",
+          "code": "260057",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "银线制绣品",
+          "code": "260093",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金线制绣品",
+          "code": "260094",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "丝边",
+          "code": "C260001",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "帽边",
+          "code": "C260002",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "背包带",
+          "code": "C260003",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "拉链带",
+          "code": "C260005",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "线带",
+          "code": "C260006",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "飘带",
+          "code": "C260007",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "花线扎带",
+          "code": "C260008",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "线轮带",
+          "code": "C260009",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "荷包袋",
+          "code": "C260011",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "绳编工艺品",
+          "code": "C260023",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "纺织材料制饰带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "服装镶边用双绞带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "包装用纺织带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "朝鲜发饰用束发丝带（唐只）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马尾辫发带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "束发用松紧带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "花边（除刺绣花边）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "橡胶发带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提花花边",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "装饰饰带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "梭结花边",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "饰带（缝纫用品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "绣金制品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "绣花饰品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "服装镶边带",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:14.626Z"
+}

@@ -1,0 +1,716 @@
+{
+  "groupCode": "3718",
+  "groupName": "单一服务",
+  "classCode": "37",
+  "notes": [
+    "注：本类似群为单一服务，各自然段间互不类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "载客电梯的安装和修理",
+          "code": "370004",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "通过远程监控系统对载客电梯进行保养",
+          "code": "370157",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "便携式充电器出租",
+          "code": "370160",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电池充电器出租",
+          "code": "370165",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "制碳酸饮料用储气瓶的再填充",
+          "code": "370170",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "珠宝首饰修理服务",
+          "code": "370171",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "修复印制的照片",
+          "code": "370172",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "珠宝首饰清洁",
+          "code": "370175",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "畸齿矫正仪器的修理",
+          "code": "370178",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "火警器的安装与修理",
+          "code": "370015",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "防盗报警系统的安装与修理",
+          "code": "370016",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鞋的保养和修理",
+          "code": "370025",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电话安装和修理",
+          "code": "370084",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "磨刀",
+          "code": "370106",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "气筒或泵的修理",
+          "code": "370073",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "雨伞修理",
+          "code": "370065",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "阳伞修理",
+          "code": "370066",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "手持阳伞的修理",
+          "code": "370066",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "庭院伞的修理",
+          "code": "370183",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "人工造雪",
+          "code": "370123",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "艺术品修复",
+          "code": "370126",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "乐器修复",
+          "code": "370127",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "乐器调音",
+          "code": "370139",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "游泳池维护",
+          "code": "370129",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "排水泵出租",
+          "code": "370134",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "维修电力线路",
+          "code": "370136",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "洗碗机出租",
+          "code": "370144",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "碗碟干燥机出租",
+          "code": "370145",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "手工具修理",
+          "code": "C370008",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "娱乐体育设备的安装和修理",
+          "code": "C370011",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "手机电池充电服务",
+          "code": "370153",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "眼镜修理和保养",
+          "code": "370180",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "燃料加注机出租",
+          "code": "370182",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "火器修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电话线安装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "泵的修理和保养",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "擦鞋服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用洗碗机租赁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "行李箱维修",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用洗碗机租赁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "磨菜刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "磨剪刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "首饰维修",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电话装置的修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钓具修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电梯和升降设备安装服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "智能电话的修理和维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电话设备安装咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "客梯安装咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "游戏机及游戏装置的修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运动器械修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "火警报警器修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "泵的修理或保养",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "双筒望远镜修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电梯安装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电话修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "台球设备修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电梯修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "乐器修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电梯（升降机）修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "乐器调音服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "储罐的清洗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化粪池清理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "储油罐修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "游泳池清洁服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "玩具或玩具娃娃的修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "滑雪板调试服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "书籍修理和修复",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "古籍修复服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "书法作品修复服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "绘画作品修复服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水族池的维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "望远镜的保养和修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "显微镜的保养和修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "火警器的安装与维修",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手机维修",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "擦鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "地毯清洁机出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "安装避雷针",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自动扶梯清洁服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钢琴修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防火器材安装顾问服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "客梯安装顾问服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手机维修服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无线耳机修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钻头磨锐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "智能手机用电池充电器的出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "滑雪板的保养和修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "啤酒桶清洗服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手机用电池充电器的出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数码照相机用电池充电器的出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钢琴调音",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "维护化粪池系统",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "小提琴调音",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "天线安装与修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "报警器的修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电气配线的安装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钓鱼竿修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "互联网接入用电缆的安装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "读卡器的安装、维护和修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手机充电线出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "窗用遮帘的安装和修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "珠宝首饰重镶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "入侵报警器的维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "灭火器再充装服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "浴缸清洁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "行李箱修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "窗帘的修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工艺美术品修复",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "书籍修复服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "娱乐设施的安装与修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "割草机刀片的磨利服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "客运电梯的安装和修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电梯安装和修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "修鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "珠宝首饰修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鞋子保养",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过远程监控系统对电梯（升降机）进行保养",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "失聪者用助听器的修理和维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "清洁玩具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动代步车用电池充电器的出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动自行车用便携式电池充电器的出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动踏板摩托车用电池充电器的出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动汽车用便携式电池充电器的出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "墓碑石像安装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "草坪修剪机的维修",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "玩偶的保养",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烘干机通风口清洁服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "玩具的保养",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "台球设备的维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "珠宝首饰保养",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "草坪修剪机的保养",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "体育器材的维护",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:22.784Z"
+}

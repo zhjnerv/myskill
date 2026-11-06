@@ -1,0 +1,522 @@
+{
+  "groupCode": "1606",
+  "groupName": "印刷出版物",
+  "classCode": "16",
+  "notes": [
+    "注：1.本类似群第（二）部分商品与第（一）部分印刷出版物类似，与其他商品不类似；",
+    "2.本类似群与1605第（一）部分印刷品类似；",
+    "3.印刷出版物与 1605 第（一）部分日历，1607 第一自然段类似，与第十一版及以前版本1605第（一）部分日历（年历），第九版及以前版本1605第（一）部分撕页日历交叉检索；",
+    "4.带有电子发声装置的儿童图书与0908学习机，电子教学学习机，带有图书的电子发声装置类似。"
+  ],
+  "sections": [
+    {
+      "label": "（一）",
+      "items": [
+        {
+          "name": "海报",
+          "code": "160007",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "地图册",
+          "code": "160034",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "歌曲集",
+          "code": "160082",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "书籍",
+          "code": "160095",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "印制的地图",
+          "code": "160164",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "印刷时刻表",
+          "code": "160172",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "印刷出版物",
+          "code": "160179",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "说明书",
+          "code": "160232",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "漫画书",
+          "code": "160331",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "填色书",
+          "code": "160393",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "年鉴",
+          "code": "160269",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "带有电子发声装置的儿童图书",
+          "code": "C160113",
+          "type": "marked",
+          "section": "（一）"
+        }
+      ]
+    },
+    {
+      "label": "（二）",
+      "items": [
+        {
+          "name": "报纸",
+          "code": "160032",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "期刊",
+          "code": "160033",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "杂志（期刊）",
+          "code": "160243",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "新闻刊物",
+          "code": "160337",
+          "type": "standard",
+          "section": "（二）"
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "纸制海报",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "图画书",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电话簿",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "成人用填色书",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "城市指南",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "儿童游戏书",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "立体书",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸牌游戏策略指导手册",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "漫画故事书",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "书籍封套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "广告海报",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "装裱好的海报",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "音乐杂志",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机游戏说明书",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烹饪书籍",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "字典",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日报",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "图画小说",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "旅行书籍",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "故事书",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "儿童故事书",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "交通图",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机用户手册",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "学校年鉴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手稿书",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "连环漫画杂志",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "百科全书",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "戏剧领域的印刷期刊",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电影领域的印刷期刊",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "造型艺术领域的印刷期刊",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "舞蹈领域的印刷期刊",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "音乐领域的印刷期刊",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "旅游领域的印刷期刊",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "儿童绘画集",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "法律汇编",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高尔夫教学方面的书籍",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "壁挂式地图",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "印刷的连环漫画",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "连环漫画",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食谱杂志",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "路线图",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "印制的海报",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "印制的公路交通图",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "印制的地图册",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高尔夫教学书籍（印刷品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "儿童活动书籍（印刷品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "印制的纸牌游戏攻略指导手册",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电话簿（印刷品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "歌曲集（印刷品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "旅行手册（印刷品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "图画书（印刷品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "学校年鉴（印刷品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "音乐杂志（印刷品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "印制的挂墙地图",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "印制的墙纸样品册",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "填色书（印刷品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "城市名录（印刷品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "印刷的漫画书",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "百科全书（印刷品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "法律摘要（印刷品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "绘图小说（印刷品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "漫画书（印刷品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "漫画小说（印刷品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "已装裱的印制海报",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烹饪书（印刷品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日报（印刷品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "词典（印刷品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "广告海报（印刷品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "报纸（印刷品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "地图（印刷品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "漫画（印刷品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "故事书（印刷品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "印刷的计算机游戏使用手册",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "印刷的音乐书籍",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "印刷的小说",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "印刷的儿童书籍",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "印刷的内部刊物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "地图",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "连环漫画书",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "词典",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:13.478Z"
+}

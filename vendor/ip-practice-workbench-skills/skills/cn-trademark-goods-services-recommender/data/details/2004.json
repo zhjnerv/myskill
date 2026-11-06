@@ -1,0 +1,140 @@
+{
+  "groupCode": "2004",
+  "groupName": "镜子、画框及部件",
+  "classCode": "20",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "镀银玻璃（镜子）",
+          "code": "200013",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "相框边条",
+          "code": "200190",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "画框边条",
+          "code": "200190",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "镜子（玻璃镜）",
+          "code": "200193",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "画框",
+          "code": "200225",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "画框托架",
+          "code": "200226",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "画框挂杆",
+          "code": "200226",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "镜砖",
+          "code": "200261",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "手持镜子（化妆镜）",
+          "code": "200274",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "浴室镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "剃须镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "图画和相片用框",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可转动穿衣镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "镜框",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "装饰镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非贵金属制画框",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "镜子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "相片框",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "浴室化妆镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "个人随身化妆镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮革制画框",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属制画框",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸制画框",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:41.077Z"
+}

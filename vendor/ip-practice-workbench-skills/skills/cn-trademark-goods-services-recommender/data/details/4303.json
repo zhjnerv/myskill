@@ -1,0 +1,23 @@
+{
+  "groupCode": "4303",
+  "groupName": "养老院",
+  "classCode": "43",
+  "notes": [
+    "注：本类似群与 4401 第（二）部分类似，与第七版及以前版本 4203 养老院，疗养院（非医疗），疗养院，休养所，疗养院（诊所或小型私人医院），济贫院交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "养老院",
+          "code": "430013",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [],
+  "crawledAt": "2026-06-09T19:00:54.059Z"
+}

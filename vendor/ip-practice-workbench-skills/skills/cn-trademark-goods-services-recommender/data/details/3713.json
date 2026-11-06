@@ -1,0 +1,35 @@
+{
+  "groupCode": "3713",
+  "groupName": "特殊处理服务",
+  "classCode": "37",
+  "notes": [
+    "注：重新镀锡与4002镀锡类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "防锈",
+          "code": "370037",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "重新镀锡",
+          "code": "370080",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "除锈",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:19.833Z"
+}

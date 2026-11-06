@@ -1,0 +1,766 @@
+{
+  "groupCode": "1501",
+  "groupName": "乐器",
+  "classCode": "15",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "手风琴",
+          "code": "150001",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "钢琴",
+          "code": "150008",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "小六角手风琴",
+          "code": "150011",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "手摇风琴",
+          "code": "150012",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "低音提琴（乐器）",
+          "code": "150013",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "口琴",
+          "code": "150014",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "大号（号）",
+          "code": "150016",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "钟琴（乐器）",
+          "code": "150017",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "响板",
+          "code": "150018",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "小铃帽（乐器）",
+          "code": "150019",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "齐特拉琴",
+          "code": "150022",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "单簧管",
+          "code": "150023",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "乐器",
+          "code": "150025",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "六角手风琴",
+          "code": "150026",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "低音提琴",
+          "code": "150027",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "弦乐器",
+          "code": "150029",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "号（乐器）",
+          "code": "150030",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "短号（乐器）",
+          "code": "150031",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铙钹",
+          "code": "150032",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "笛",
+          "code": "150036",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "锣",
+          "code": "150037",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "单簧口琴（乐器）",
+          "code": "150038",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "吉他",
+          "code": "150039",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "簧风琴",
+          "code": "150040",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "竖琴",
+          "code": "150041",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "双簧管",
+          "code": "150043",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电子乐器",
+          "code": "150044",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "七弦琴",
+          "code": "150046",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "曼陀林",
+          "code": "150049",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "风笛",
+          "code": "150051",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "三角铁（乐器）",
+          "code": "150055",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "奥卡利那笛",
+          "code": "150056",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "风琴",
+          "code": "150057",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "管风琴",
+          "code": "150058",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鼓（乐器）",
+          "code": "150066",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铃鼓",
+          "code": "150067",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "印度手鼓",
+          "code": "150068",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "定音鼓",
+          "code": "150069",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "长号",
+          "code": "150070",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "号角",
+          "code": "150071",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "喇叭",
+          "code": "150072",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "中提琴",
+          "code": "150074",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "小提琴",
+          "code": "150075",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "木琴",
+          "code": "150076",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "胡琴",
+          "code": "150081",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "竹笛",
+          "code": "150082",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "琵琶",
+          "code": "150083",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "笙",
+          "code": "150084",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "唢呐",
+          "code": "150085",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "手摇铃（乐器）",
+          "code": "150086",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "音乐合成器",
+          "code": "150087",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "萨克斯管",
+          "code": "150089",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "巴拉莱卡琴（弦乐器）",
+          "code": "150090",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "班卓琴",
+          "code": "150091",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "口风琴",
+          "code": "150092",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "机器人鼓",
+          "code": "150094",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "颂钵",
+          "code": "150097",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鼓机",
+          "code": "150098",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "儿童用乐器",
+          "code": "150099",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电子琴",
+          "code": "C150001",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "弹拨乐器",
+          "code": "C150002",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "打击乐器",
+          "code": "C150003",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "筝",
+          "code": "C150005",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "箫",
+          "code": "C150009",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "木鱼",
+          "code": "C150011",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "低音电吉他",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "次中音号",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "八孔竖笛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "巴松管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "邦戈鼓",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "倍低音管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "叉铃",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "杜西莫琴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "短笛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "键盘乐器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "沙槌",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自动演奏的电子钢琴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "大号",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "大键琴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "低音鼓",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "低音吉他",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电吉他",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "吉他扶手",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "中式竹笛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自动钢琴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钢鼓",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铜管乐器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鼓声合成器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "管乐器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "管钟琴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鲁特琴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马林巴琴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "英国管（中音双簧族乐器）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "尤克里里琴（四弦吉他）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "康茄舞鼓",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "原声低音吉他",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "原声吉他",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "圆号",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卡祖笛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钟琴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "尺八（日本竹笛）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "太鼓（日本大鼓）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日本横笛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日本鼓",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日本琵琶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "伽倻琴（朝鲜十二弦琴）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "玄琴（朝鲜六弦琴）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "西式乐器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "大提琴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "低音管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木管乐器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "短号",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "羊角号",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "短竹笛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "竹制竖管乐器（筚篥）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "竹竖管乐器（笙）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "胡弓（日本乐器）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日本筝",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "三弦琴（日本乐器）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "西塔琴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金贝鼓",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "二胡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "簧（管）乐器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "埙",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "古筝",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "原声贝斯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蛙鸣筒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电贝司",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子音乐合成器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电低音吉他",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "低音乐器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电钟琴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "军鼓",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牛铃（乐器）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数码钢琴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "编钟（乐器）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子风琴",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:09.306Z"
+}

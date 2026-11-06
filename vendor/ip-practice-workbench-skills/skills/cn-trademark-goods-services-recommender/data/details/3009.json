@@ -1,0 +1,751 @@
+{
+  "groupCode": "3009",
+  "groupName": "面条及米面制品",
+  "classCode": "30",
+  "notes": [
+    "注：1.方便面，方便粉丝与3007方便米饭类似。",
+    "2.可食用纸， 可食用米纸与第十版及以前版本 1609 已接受商品包装用糯米纸交叉检索"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "意式面食",
+          "code": "300003",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "做蛋糕用面团",
+          "code": "300072",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "通心粉",
+          "code": "300090",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "面条",
+          "code": "300103",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "意大利面条",
+          "code": "300126",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "意式细面条",
+          "code": "300132",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食用麦芽膏",
+          "code": "300164",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "人食用麦芽",
+          "code": "300165",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "面条为主的预制食物",
+          "code": "300202",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "生面团",
+          "code": "300220",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "油酥面团",
+          "code": "300222",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食物制作用生米糊",
+          "code": "300232",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "拉面",
+          "code": "300234",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "日式拉面",
+          "code": "300234",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "可食用纸",
+          "code": "300239",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "可食用米纸",
+          "code": "300240",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "主要由意式面食制成的冻干食品",
+          "code": "300247",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "乌冬面",
+          "code": "300273",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "荞麦面条",
+          "code": "300274",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "叻沙",
+          "code": "300277",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食用威化纸",
+          "code": "300284",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "挂面",
+          "code": "C300074",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "方便面",
+          "code": "C300075",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "方便粉丝",
+          "code": "C300075",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "食物制作用玉米糊",
+          "code": "C300076",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "春卷皮",
+          "code": "C300077",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "米粉（条状）",
+          "code": "C300078",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "汤用意面",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜意式面食",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制曲奇饼干用冷冻面团",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制酥点用面团",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "肉馅卷饼用生面团",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "干意大利面条",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冷冻生面团",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "方便荞麦面",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "方便乌冬面",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "炒面条",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加工过的意式面食",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "意式贝壳面",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日式素面",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "肉丸意大利面",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "做比萨用面团",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "做布朗尼蛋糕用面团",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "做华夫饼用面团",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "做意大利式脆饼干用面团",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制酥点用中东薄面皮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "奶酪通心粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "罐装番茄酱意大利面",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "捞面",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "米线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "乌冬面（未煮的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通心粉（未烹饪的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "亚洲面条",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "中式方便面",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "馄饨皮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制威化饼干用生面团",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "饺子皮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烤宽面条",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蛋糕面团",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "谷粉制食用面团",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "面包面团",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "馅饼（点心）皮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "比萨饼皮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "果馅饼皮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "墨西哥式夹饼饼皮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "墨西哥式薄饼饼皮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "营养面条",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "意式夹心面食",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未烹饪的中式面条",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "泰式炒面",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "面糊",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "谷粉制面条",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制面包或蛋糕用生面团",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "全麦意式面食",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制面包用生面团",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "熟面片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "菜汤面（以面条为主）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "碗装速食面",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "真空包装的意式面食",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "炒米粉（条状）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "预先烹制的面条",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "添加鸡蛋的面条",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "袋装速食面",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日式细面条",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "燕皮（福州馄饨皮）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "酥皮面团",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冷冻曲奇面团",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用面团",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "面条（未烹饪的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烘焙蛋糕用生面团",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "面片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "速冻意式面食",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "刀削面",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "饵丝",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "发酵面团",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "方便米线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "干脆面",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "干面条",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "即食面条",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加奶酪的通心粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "碱水面条",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可直接烘培的生面团",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "罐装面条",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含淀粉食用油面团",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烩面",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "凉皮（面粉制品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "比萨饼面团",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "带调料的拉面",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "带汤面条",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "袋装方便面",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "泡面",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "米线（米粉制品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冷冻面条",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冷面",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "凉面",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "龙须面",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "麻辣方便面",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "中式面条",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "做糕点用面团",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "意大利面",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "油炸面条",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "速食面",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "碗装方便面",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未发酵面团",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "莜麦方便面",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抻面",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "细面条",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用面糊",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用油面团",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "杂粮面条",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手工挂面",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "熟面条",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "炒面",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "面皮（面粉制品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加有螺蛳肉的米粉（条状）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "意式宽面条",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日式煎菜饼（御好烧）用面糊",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生的乌冬面",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生的通心粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生的中式面条",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生的意大利面条",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:43.653Z"
+}

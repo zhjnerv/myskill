@@ -1,0 +1,98 @@
+{
+  "groupCode": "2704",
+  "groupName": "墙纸，非纺织品墙帷及非纺织品壁挂",
+  "classCode": "27",
+  "notes": [
+    "注：非纺织品制壁挂与2403纺织品制墙上挂毯，纺织品制壁挂类似，与第九版及以前版本2403纺织品挂毯（墙上挂帘帷），纺织品壁挂交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "墙纸",
+          "code": "270007",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非纺织品制壁挂",
+          "code": "270013",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纺织品制墙纸",
+          "code": "270018",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纺织品制墙壁遮盖物",
+          "code": "270022",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "人造植物制墙壁覆盖物",
+          "code": "270027",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "软木制墙纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "乙烯制墙纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非纺织品制墙纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "塑料制墙纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "带有纺织品覆盖物的墙纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸制墙壁覆盖材料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "壁纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "具有立体视觉效果的墙纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于装饰房间的大幅可黏墙贴（壁纸）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非纺织品制装饰性壁挂",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:23.093Z"
+}

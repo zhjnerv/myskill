@@ -1,0 +1,1080 @@
+{
+  "groupCode": "3006",
+  "groupName": "面包，糕点",
+  "classCode": "30",
+  "notes": [
+    "注：1.燕麦食品，燕麦片，燕麦粥与3008人食用的去壳谷物，麦片，薄片（谷类产品）类似与第八版及以前版本3008麦片交叉检索；",
+    "2.跨类似群保护商品：甜食（3004，3006）；以谷物为主的零食小吃（3006，3010）；以米为主的零食小吃（3006，3010）；人食用小麦胚芽（3006，3008）；脆米饼（3006，3010）。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "杏仁糊",
+          "code": "300004",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "未发酵面包",
+          "code": "300013",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "面包干",
+          "code": "300015",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "饼干*",
+          "code": "300016",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "麦芽饼干",
+          "code": "300017",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "华夫饼干",
+          "code": "300022",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "小圆面包",
+          "code": "300023",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蛋糕",
+          "code": "300029",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "甜食",
+          "code": "300042",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "即食玉米片",
+          "code": "300043",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "薄烤饼",
+          "code": "300047",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "姜饼",
+          "code": "300055",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "小蛋糕",
+          "code": "300068",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "马卡龙",
+          "code": "300089",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "面包*",
+          "code": "300093",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "馅饼（点心）",
+          "code": "300104",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "三明治",
+          "code": "300106",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "糕点",
+          "code": "300108",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "小黄油饼干",
+          "code": "300109",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "面包卷",
+          "code": "300110",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "布丁",
+          "code": "300115",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "果馅饼",
+          "code": "300129",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "燕麦食品",
+          "code": "300144",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "燕麦片",
+          "code": "300145",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "燕麦粥",
+          "code": "300146",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "薄脆饼干",
+          "code": "300174",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蛋奶冻",
+          "code": "300175",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "木斯里麦片（由生燕麦、干果和坚果制的早餐食品）",
+          "code": "300177",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "米糕",
+          "code": "300178",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "面包屑",
+          "code": "300189",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "塔博勒色拉（一种由碾碎的干小麦、韭菜、西红柿、薄荷和欧芹制成的黎巴嫩色拉）",
+          "code": "300190",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "哈发糕",
+          "code": "300191",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "乳蛋饼",
+          "code": "300192",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "以谷物为主的零食小吃",
+          "code": "300195",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "以米为主的零食小吃",
+          "code": "300196",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "糕点用糖霜（糖衣）",
+          "code": "300203",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "慕斯甜点",
+          "code": "300205",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "奶酪汉堡包",
+          "code": "300208",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "人食用小麦胚芽",
+          "code": "300213",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "高蛋白谷物条",
+          "code": "300214",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "谷物棒",
+          "code": "300218",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "米布丁",
+          "code": "300228",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "热狗三明治",
+          "code": "300253",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "油炸面包丁",
+          "code": "300264",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "脆米饼",
+          "code": "300268",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "不含麸质的面包",
+          "code": "300275",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "泡芙",
+          "code": "300278",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "羊角面包",
+          "code": "300279",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "多层酥皮巧克力面包",
+          "code": "300280",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "焦糖炖蛋（甜点）",
+          "code": "300282",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "椰丝蛋白饼",
+          "code": "300285",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "丹麦酥",
+          "code": "300300",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "牛奶布丁",
+          "code": "300309",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "夹心饼干",
+          "code": "300321",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "糕点用翻糖膏",
+          "code": "300323",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "奶油霜（糖衣）",
+          "code": "300329",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "汉堡包",
+          "code": "C300039",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "麻花",
+          "code": "C300040",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "油茶粉",
+          "code": "C300041",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "茶汤面",
+          "code": "C300042",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "芝麻糊",
+          "code": "C300043",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "豌豆黄",
+          "code": "C300044",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "蜂糕",
+          "code": "C300045",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "热狗",
+          "code": "C300046",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "月饼",
+          "code": "C300132",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "米粉糊",
+          "code": "C300133",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "海绵蛋糕",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "果酱面包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "全麦面包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "油炸蜜糕",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "英式烤面饼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "杏仁饼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "咸味饼干",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "威化饼干",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "甜甜圈",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "松糕（蛋糕）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水果蛋糕",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "面包棒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "奶酪蛋糕",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "奶油果子面包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "奶油泡芙",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冰淇淋用蛋筒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冰淇淋蛋糕",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "法式长棍面包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "薄煎饼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冰冻蛋糕",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "巴伐利亚奶油羹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "布朗尼蛋糕",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冻酸奶蛋糕",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冻酸奶派",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "多谷物面包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "法式夹心千层糕",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "法式泡芙",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "油煎面包丁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "夹肠酥皮面包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "椒盐扭结面包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "焦糖布丁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "小米糕",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人食用的加工过的早餐谷物食品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "肉桂卷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "大豆制面包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蛋白酥皮卷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蛋奶挞",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蛋挞",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "葡萄干面包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "咸饼干",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "红豆面包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "墨西哥式烤干酪玉米片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "墨西哥式玉米薄片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "墨西哥式玉米片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "奶酪味饼干",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "奶油焦糖布丁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "奶油馅饼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "南瓜馅饼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "糕点油酥皮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "格兰诺拉麦片（由熟燕麦、干果和坚果制的早餐食品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水果面包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "苏打面包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硬皮面包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用香料调味的面包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "油炸小甜饼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鱼肉三明治",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "梅子蛋糕",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烤面包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "早餐谷类食品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硬饼干",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硬面包圈",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "面包布丁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "黄油饼干",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卡斯提拉蛋糕（日本蛋糕）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未发酵面包薄片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汉堡三明治",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "以大米为主的布丁甜点",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "速食布丁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "带调味料的面包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "糕点用糖衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "甜品布丁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水果糕点",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提拉米苏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "糕点用糖霜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "法式糕点",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "三明治卷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "全麦饼干",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水果馅饼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "塔博勒色拉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "巧克力蛋糕",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "低盐面包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冰淇淋奶油蛋糕",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "黑麦面包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "扁面包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "大蒜面包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮塔饼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "意式甜面包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "大豆面包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "以果馅为主的薄饼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "萨瓦林蛋糕",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "煎土司",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "巧克力椒盐脆饼干",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "布丁甜点",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "肉馅干果派",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "混合饼干",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "意式脆饼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "萨其马",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蛋奶酥",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鲷鱼烧（带有馅料的日式鱼形糕点）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蓝莓馅饼（点心）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "果仁蜜酥饼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "杏仁饼干",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "外裹豆沙的糯米团（赤福饼）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "素食蛋糕",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含果干的蛋糕",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烟囱蛋糕",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "薄脆米饼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "果子面包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加味饼干",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蛋挞皮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "松饼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "英式松饼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "芝士蛋糕",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "面包棍",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冷冻华夫饼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冷冻薄烤饼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "速溶燕麦片粥",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "格雷厄姆饼干派皮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冷冻法式烤面包棒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冷冻法式烤面包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "餐包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "酥油茶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "以小麦为主的零食小吃",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "以玉米为主的零食小吃",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "奶酪汉堡包（三明治）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "棒棒糖状蛋糕",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "黄油鸡蛋面包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "甜点慕斯（甜食）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "裹巧克力的饼干",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蛋白杏仁饼（糕点）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "沙琪玛（糕点）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "麦片粥",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烤棉花糖夹心饼干",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:41.923Z"
+}

@@ -1,0 +1,47 @@
+{
+  "groupCode": "3018",
+  "groupName": "食用香精，香料",
+  "classCode": "30",
+  "notes": [
+    "注：本类似群与第十二版及以前版本 0305 蛋糕调味用香精油,饮料调味用香精油,食物调味用香精油,第十一版及以前版本 3203 饮料香精交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "食品用芳香剂",
+          "code": "300011",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食品用香精",
+          "code": "300048",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "制糖果用薄荷",
+          "code": "300097",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "葡萄酒提味用烤制的天然碎木片",
+          "code": "C300136",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "食用芳香剂",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:48.988Z"
+}

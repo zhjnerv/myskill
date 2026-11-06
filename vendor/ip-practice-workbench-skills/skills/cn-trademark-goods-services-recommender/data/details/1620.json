@@ -1,0 +1,71 @@
+{
+  "groupCode": "1620",
+  "groupName": "室内模型物（不包括教学用模型标本）",
+  "classCode": "16",
+  "notes": [
+    "注：模型用聚合物制黏土与2802橡皮泥（玩具），面泥（玩具）类似，与第十版及以前版本2802橡皮泥交叉检索。。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "建筑模型",
+          "code": "160021",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "模型用黏土",
+          "code": "160026",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非牙科用模型蜡",
+          "code": "160091",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "制手工艺品用绳绒织物棒",
+          "code": "160142",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "制模型用塑料",
+          "code": "160195",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "模型材料",
+          "code": "160196",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "模型用湿黏土",
+          "code": "160197",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "雕塑黏土用模具（艺术家用原材料）",
+          "code": "160352",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "模型用聚合物制黏土",
+          "code": "160363",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [],
+  "crawledAt": "2026-06-09T18:58:21.034Z"
+}

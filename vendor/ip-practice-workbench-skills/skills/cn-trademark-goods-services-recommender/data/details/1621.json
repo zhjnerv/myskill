@@ -1,0 +1,27 @@
+{
+  "groupCode": "1621",
+  "groupName": "单一商品",
+  "classCode": "16",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "门柱圣卷",
+          "code": "160397",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "门柱圣卷盒",
+          "code": "160398",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [],
+  "crawledAt": "2026-06-09T18:58:21.589Z"
+}

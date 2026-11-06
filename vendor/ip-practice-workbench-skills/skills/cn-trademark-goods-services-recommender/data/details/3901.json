@@ -1,0 +1,536 @@
+{
+  "groupCode": "3901",
+  "groupName": "运输及运输前的包装服务",
+  "classCode": "39",
+  "notes": [
+    "注：1.本类似群各部分之间服务不类似；",
+    "2.卸货与3902码头装卸类似；",
+    "3.搬迁与第十一版及以前版本 3505 交叉检索；",
+    "4.货运经纪，运输经纪与第十一版及以前版本3605经纪交叉检索；",
+    "5.货运，运输，物流运输与 3902 第（二）部分，3903第一、二自然段，3904 空中运输，3905 马车运输，3912 管道运输类似；",
+    "6.废物的运输和贮藏与3906服务项目类似；",
+    "7.第（三）部分与第十版及以前版本 3904 导航，导航系统出租交叉检索；",
+    "8.运送乘客，运送旅客与3902第（二）部分船运货物以外的服务，3903第一自然段，3904空中运输类似。"
+  ],
+  "sections": [
+    {
+      "label": "（一）",
+      "items": [
+        {
+          "name": "救护车运输",
+          "code": "390006",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "搬运",
+          "code": "390021",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "观光旅游运输服务",
+          "code": "390025",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "卸货",
+          "code": "390026",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "货运",
+          "code": "390039",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "运送家具",
+          "code": "390047",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "运输",
+          "code": "390048",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "运送乘客",
+          "code": "390051",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "货物发运",
+          "code": "390060",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "运送旅客",
+          "code": "390063",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "废物的运输和储藏",
+          "code": "390064",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "搬迁",
+          "code": "390065",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "货运经纪",
+          "code": "390072",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "运输经纪",
+          "code": "390073",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "提供运输信息",
+          "code": "390077",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "救护运输",
+          "code": "390082",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "运输预订",
+          "code": "390083",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "提供交通信息",
+          "code": "390098",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "物流运输",
+          "code": "390101",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "收集可回收物品（运输）",
+          "code": "390111",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "通过在线应用为他人安排客运服务",
+          "code": "390117",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "生活和工业废物及垃圾的收集",
+          "code": "390124",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "对运输的人员进行定位和追踪",
+          "code": "390126",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "对运输的货物进行定位和跟踪",
+          "code": "390133",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "为他人运输捕获的二氧化碳",
+          "code": "390134",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "为退还押金目的揽收家用包装物",
+          "code": "390140",
+          "type": "standard",
+          "section": "（一）"
+        }
+      ]
+    },
+    {
+      "label": "（二）",
+      "items": [
+        {
+          "name": "商品包装",
+          "code": "390022",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "商品打包",
+          "code": "390086",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "礼品包装",
+          "code": "390109",
+          "type": "standard",
+          "section": "（二）"
+        }
+      ]
+    },
+    {
+      "label": "（三）",
+      "items": [
+        {
+          "name": "导航系统出租",
+          "code": "390107",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "导航",
+          "code": "C390005",
+          "type": "marked",
+          "section": "（三）"
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "GPS导航服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "包装机器出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冷藏货物的运输",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过网络预订运输",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为导航目的出租GPS（全球定位系统）设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为旅客安排运输",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为旅客组织运输",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运送宠物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "货物装载服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "包裹运输服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "航空导航服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人员运输安排服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "货物运输经纪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运输咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "货运服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "货物装卸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "货物装箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运送人员",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供道路和交通信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "进出口货物装卸服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "公共运输服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "货物运输",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "货物发运服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机场和停机设施之间的旅客运送服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过先进的通信网络和技术进行车流管理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有害废物运输服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运输用自行式升降平台的出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "码头卸货",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "货物包装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "叉车出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "导航服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "交通信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运输信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "行李打包服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运输受污染的土壤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子废料的收集和运输",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "病人运送",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "对运输的人员进行定位和跟踪390126",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运送建筑材料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为运输包装物品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用和商用货盘的出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人运输被捕捉的温室气体",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为运输目的包装物品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "废物的运输和贮藏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家具搬运",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "航空无线电导航服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "短途运输服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医疗废物和特殊废弃物的运输",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "直升机医疗转运",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "根据实时交通数据提供行车路线指引",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "集装箱内货物的包装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "救护车运送病人",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "救援运输服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冷冻货物的冷藏运输",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "按照他人的订单和规范打包物品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供货运经纪信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非紧急医疗运送服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供与道路封闭相关的信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供与交通拥堵相关的信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "飞机货物装载",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "安排拼车运输",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "轨道车辆货物装载",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卡车货物装载",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:24.628Z"
+}

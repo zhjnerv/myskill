@@ -1,0 +1,86 @@
+{
+  "groupCode": "3403",
+  "groupName": "火柴",
+  "classCode": "34",
+  "notes": [
+    "注：本类似群与第八版及以前版本 1402 贵重金属火柴盒架，贵重金属火柴盒交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "火柴",
+          "code": "340001",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "火柴架",
+          "code": "340031",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "火柴盒",
+          "code": "340035",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "石蜡火柴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "安全火柴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硫磺火柴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属火柴盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "黄磷火柴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属火柴架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属制火柴架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属制火柴盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属火柴架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属火柴盒",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:59.822Z"
+}

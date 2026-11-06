@@ -1,0 +1,287 @@
+{
+  "groupCode": "2805",
+  "groupName": "健身器材",
+  "classCode": "28",
+  "notes": [
+    "注：本类似群商品与2807杠铃，举重器具类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "锻炼用固定自行车",
+          "code": "280017",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "锻炼身体肌肉器械",
+          "code": "280044",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "力量训练器械",
+          "code": "280044",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "扩胸器（锻炼肌肉用）",
+          "code": "280051",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "锻炼用扩胸器",
+          "code": "280051",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "锻炼用固定自行车滚轴",
+          "code": "280059",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "悬挂式滑行器",
+          "code": "280127",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "哑铃",
+          "code": "280221",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "瘦腰锻炼腰带",
+          "code": "280246",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "锻炼用配重块",
+          "code": "280264",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "装有测量传感器的健身圈",
+          "code": "280272",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "贴腹式肌肉电刺激健身带",
+          "code": "280273",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "肌肉电刺激用紧身连体运动衣",
+          "code": "280276",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "体能训练用负重背心",
+          "code": "280281",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "减压握力球",
+          "code": "280290",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "握力器",
+          "code": "C280042",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "压力器",
+          "code": "C280043",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "拉力器",
+          "code": "C280044",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "练身手榴弹",
+          "code": "C280045",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "健身球",
+          "code": "C280046",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "健胸器",
+          "code": "C280047",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "健美器",
+          "code": "C280048",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "健身床",
+          "code": "C280049",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "健身摇摆机",
+          "code": "C280050",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "锻炼身体器械280044",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "跑步机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "健身踏步机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "健身用椭圆机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "压力消除健身球",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "锻炼用哑铃",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "普拉提软式重力球",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有氧踏板操用踏板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "健身用俯卧撑架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "健身用仰卧起坐板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "健身用握力圈",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "俯卧撑支架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "锻炼用弹簧杆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "健身用健腹轮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "深蹲架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "旋转俯卧撑支架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "壶铃",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有氧踏步机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "门框安装式引体向上杆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "健身用水阻划船机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "锻炼用滑轮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "锻炼用跑步机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "健身用拉筋板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手部锻炼用减压球",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "健身踏板",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:26.218Z"
+}

@@ -1,0 +1,323 @@
+{
+  "groupCode": "2703",
+  "groupName": "垫及其他可移动铺地板用品",
+  "classCode": "27",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "浴室防滑垫",
+          "code": "270001",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "地板覆盖物",
+          "code": "270002",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "人工草皮",
+          "code": "270003",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "健身用垫",
+          "code": "270004",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "体操垫",
+          "code": "270004",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "门前擦鞋垫",
+          "code": "270008",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "汽车用脚垫",
+          "code": "270010",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "防滑垫",
+          "code": "270012",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "油毡制地板覆盖物",
+          "code": "270014",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "地毯底衬",
+          "code": "270015",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "乙烯地板覆盖物",
+          "code": "270016",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "滑雪斜坡用编织绳垫",
+          "code": "270017",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "壁炉或烧烤架用耐火地垫",
+          "code": "270019",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "瑜伽垫",
+          "code": "270020",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "榻榻米垫",
+          "code": "270021",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "油毡块（地板覆盖物）",
+          "code": "270023",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "祈祷跪垫",
+          "code": "270024",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具用地垫",
+          "code": "270026",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "瑜伽垫专用包",
+          "code": "270028",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "打坐地垫",
+          "code": "270029",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "地垫",
+          "code": "C270003",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "橡胶地垫",
+          "code": "C270025",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "楼梯用地面防滑覆盖物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺织品制浴室防滑脚垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "方块地毯背衬",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "淋浴用防滑垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "织物制浴室防滑垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "小块地毯用底衬",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具用地毯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "地板用油毡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铺设在娱乐场所的人工草皮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "塑料浴垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "体操训练垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人工草皮用衬垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "毛皮地垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺织品制门前擦鞋垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "车辆用地垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "摔跤垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可拼接地板垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人工草坪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马厩地垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硅藻土制浴室地垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "保护地板用覆盖物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "地板用硬质表面覆盖物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "沙滩垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木制门前擦鞋垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "亚麻油地毡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抗疲劳地垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸制浴室防滑垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "油毡地毯块",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "游戏场地表面上使用的泡沫垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "软木地垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "橡胶制浴室防滑垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸制地垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "一次性吸水地板垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "设备下使用的防滑地垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用纺织品制地垫",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:22.533Z"
+}

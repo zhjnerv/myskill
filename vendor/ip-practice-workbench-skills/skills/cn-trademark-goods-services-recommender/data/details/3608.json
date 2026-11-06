@@ -1,0 +1,83 @@
+{
+  "groupCode": "3608",
+  "groupName": "受托管理",
+  "classCode": "36",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "信托",
+          "code": "360028",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "受托管理",
+          "code": "360028",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "信托服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "证券托管服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金融信托运营",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金融信托管理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "信托代表",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "不动产信托管理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "不动产信托计划",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金融信托计划",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为投资目的运作托管账户",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "代管产业",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "不动产信托服务",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:11.538Z"
+}

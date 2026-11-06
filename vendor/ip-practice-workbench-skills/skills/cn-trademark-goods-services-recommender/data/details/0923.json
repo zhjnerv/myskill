@@ -1,0 +1,80 @@
+{
+  "groupCode": "0923",
+  "groupName": "电影片，已曝光材料",
+  "classCode": "09",
+  "notes": [
+    "注：本类似群商品与0107未曝光的感光胶片，未曝光的X光感光胶片，未曝光的感光电影胶片以及第九版及以前版本0107感光但未曝光的X光胶片，未曝光感光胶卷交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "动画片",
+          "code": "090176",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "幻灯片（照相）",
+          "code": "090185",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "透明软片（照相）",
+          "code": "090185",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "曝光胶卷",
+          "code": "090515",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "已曝光的电影胶片",
+          "code": "090550",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "已曝光的X光胶片",
+          "code": "090573",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非医用X光照片",
+          "code": "090625",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "已曝光的幻灯片胶片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "已曝光的照相机胶片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "已曝光的感光微缩胶片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "已曝光的照片幻灯片",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:42.240Z"
+}

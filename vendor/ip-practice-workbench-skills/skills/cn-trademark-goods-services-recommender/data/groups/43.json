@@ -1,0 +1,32 @@
+[
+  {
+    "groupCode": "4301",
+    "groupName": "提供餐饮，住宿服务",
+    "classCode": "43"
+  },
+  {
+    "groupCode": "4302",
+    "groupName": "提供房屋设施的服务",
+    "classCode": "43"
+  },
+  {
+    "groupCode": "4303",
+    "groupName": "养老院",
+    "classCode": "43"
+  },
+  {
+    "groupCode": "4304",
+    "groupName": "托儿服务",
+    "classCode": "43"
+  },
+  {
+    "groupCode": "4305",
+    "groupName": "为动物提供食宿",
+    "classCode": "43"
+  },
+  {
+    "groupCode": "4306",
+    "groupName": "单一服务",
+    "classCode": "43"
+  }
+]

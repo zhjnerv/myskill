@@ -1,0 +1,441 @@
+{
+  "groupCode": "2006",
+  "groupName": "未加工或半加工的骨、角、牙、介及不属别类的工艺品",
+  "classCode": "20",
+  "notes": [
+    "注：1.软木工艺品与2005竹木工艺品类似；"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "黄琥珀",
+          "code": "200005",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "动物标本",
+          "code": "200006",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "动物爪",
+          "code": "200010",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "未加工的或半加工鲸须",
+          "code": "200018",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "动物角",
+          "code": "200035",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "仿制玳瑁",
+          "code": "200045",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "牡鹿角",
+          "code": "200049",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "裁缝用人体模型",
+          "code": "200064",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "人体模型*",
+          "code": "200064",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "珊瑚",
+          "code": "200071",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "未加工或半加工的动物角",
+          "code": "200074",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "象牙棕榈",
+          "code": "200076",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "玳瑁壳",
+          "code": "200089",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "牡蛎壳",
+          "code": "200090",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "海泡石",
+          "code": "200098",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "风铃状装饰品",
+          "code": "200151",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "珍珠母（未加工或半加工的）",
+          "code": "200153",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鸟类标本",
+          "code": "200156",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "装饰珠帘",
+          "code": "200167",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "动物蹄",
+          "code": "200179",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "木、蜡、石膏或塑料制塑像",
+          "code": "200187",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "人造琥珀条",
+          "code": "200203",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "人造琥珀板",
+          "code": "200204",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "木、蜡、石膏或塑料制艺术品",
+          "code": "200205",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "木、蜡、石膏、塑料或树脂制艺术品",
+          "code": "200205",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "木、蜡、石膏或塑料制半身像",
+          "code": "200223",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "贝壳",
+          "code": "200233",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "木、蜡、石膏或塑料制小雕像",
+          "code": "200239",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "木、蜡、石膏或塑料制小塑像",
+          "code": "200239",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "风铃（装饰）",
+          "code": "200268",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "木、蜡、石膏或塑料制雕像纪念杯",
+          "code": "200365",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "木、蜡、石膏或塑料制奖杯",
+          "code": "200367",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "种子制小雕像",
+          "code": "200386",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "未加工或半加工角、牙、介制品",
+          "code": "C200022",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "漆器工艺品",
+          "code": "C200023",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "羽兽毛工艺品",
+          "code": "C200024",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "软木工艺品",
+          "code": "C200025",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "树皮画",
+          "code": "C200028",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "泥塑工艺品",
+          "code": "C200029",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "玻璃钢工艺品",
+          "code": "C200030",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "树脂工艺品",
+          "code": "C200031",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "树脂小雕像",
+          "code": "C200037",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "具有造型的手提电话（装饰）",
+          "code": "C200038",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "坚果壳制工艺品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "塑料制艺术品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "琥珀小雕像",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "石膏制小雕像",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人造琥珀制小雕像",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "玳瑁壳（未加工或半加工材料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "动物牙（未加工或半加工材料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木制雕塑",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木制艺术品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "骨制小雕像",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人造兽角",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "琥珀艺术品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "塑料雕塑",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "珊瑚（未加工或半加工的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "风铃",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贝壳（未加工或半加工的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "展示服装用人体模特模型",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "装饰风铃",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蜡制艺术品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "石膏塑像",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "石膏制艺术品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "海泡石（未加工或半加工材料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蜡像",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人造琥珀制艺术品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "捕梦网（装饰品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木、蜡、石膏或塑料制半身雕像",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "海螺壳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "塑料制塑像",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "仿制玳瑁壳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "树脂小塑像",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木雕",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木、蜡、石膏或塑料制盾形纪念牌",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "海贝壳",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:42.244Z"
+}

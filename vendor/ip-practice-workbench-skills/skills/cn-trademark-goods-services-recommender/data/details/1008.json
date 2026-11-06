@@ -1,0 +1,384 @@
+{
+  "groupCode": "1008",
+  "groupName": "矫形矫正及助行用品",
+  "classCode": "10",
+  "notes": [
+    "注:1.关节用矫形绷带，非包扎用弹性绷带，悬吊式绷带，矫形用膝绷带，矫形用石膏绷带，吊带（支撑绷带），支撑绷带与 0506 包扎绷带，外科用肩绷带类似，与第十版及以前版本0506卫生绷带，第八版及以前版本 0506 绷带交叉检索；",
+    "2.本类似群与第十版及以前版本 1004 孕妇托腹带交叉检索；",
+    "3.肌内效贴布，运动贴布与 0506 第（二）部分运动贴布用皮肤膜类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "腹带",
+          "code": "100001",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "下腹托带",
+          "code": "100002",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "紧身腹围",
+          "code": "100003",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "关节用矫形绷带",
+          "code": "100020",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "石膏夹板（外科）",
+          "code": "100021",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非包扎用弹性绷带",
+          "code": "100022",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "矫形用物品",
+          "code": "100038",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鞋用弓形支垫",
+          "code": "100040",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "拘束衣",
+          "code": "100041",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "孕妇托腹带",
+          "code": "100046",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "矫形带",
+          "code": "100047",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "矫形鞋",
+          "code": "100051",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "拐杖头",
+          "code": "100126",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "平足支撑物",
+          "code": "100146",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "悬吊式绷带",
+          "code": "100148",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "外科用弹力袜",
+          "code": "100165",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "静脉曲张用长袜",
+          "code": "100166",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "拐杖",
+          "code": "100168",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "矫形鞋底",
+          "code": "100171",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用紧身胸衣",
+          "code": "100183",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "矫形用膝绷带",
+          "code": "100193",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "矫形用石膏绷带",
+          "code": "100206",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "吊带（支撑绷带）",
+          "code": "100217",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "残障者用助行架",
+          "code": "100226",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用四脚拐杖",
+          "code": "100230",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "压力衣",
+          "code": "100233",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "正畸用橡皮筋",
+          "code": "100243",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "矫形用分趾器",
+          "code": "100249",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "带轮助行器",
+          "code": "100256",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用拐杖",
+          "code": "100263",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "肌内效贴布",
+          "code": "100279",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "支撑绷带100286；运动贴布",
+          "code": "100322",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "视力障碍者用智能手杖",
+          "code": "100344",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用助行器",
+          "code": "100346",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "术后压力衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用孕妇托腹带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "脊椎矫形设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "矫形鞋垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "矫形用鞋垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "矫形用鞋内底",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用压力紧身衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用压力袜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医疗用压力袜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "上髁炎护肘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "腹带（医用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用背部支撑物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "颈托",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用石膏夹板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "矫形垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "畸形足矫形器械",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有弓形支垫的矫形用鞋内底",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用穿戴式步行辅助机器人",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "矫形护具用衬垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "矫形用支撑物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "伤残人用拐杖头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "伤残人用拐杖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "弹力袜（医用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "矫形用关节绷带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手指夹板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用踝部支具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "梯度压力袜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "矫形袜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用吊带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用支撑连裤袜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运动贴布100322",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "肢体压力套",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:47.797Z"
+}

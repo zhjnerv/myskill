@@ -1,0 +1,260 @@
+{
+  "groupCode": "1201",
+  "groupName": "火车及其零部件",
+  "classCode": "12",
+  "notes": [
+    "注：1.跨类似群保护商品：厢式餐车（1201，1202）；餐饮车（厢式）（1201，1202）；卧铺车厢（1201;1202）； 电动运载工具(1201，1202，1204第（一）部分，1205，1210)；陆、空、水或铁路用机动运载器（1201，1202，1204第（一）部分，1209，1210）；遥控运载工具（非玩具）（1201，1202，1205，1209，1210）；",
+    "2.本类似群商品与1211商品类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "火车车厢连接器",
+          "code": "120002",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铁路车辆轮缘",
+          "code": "120033",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铁路车辆转向架",
+          "code": "120047",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "缆索铁道车辆",
+          "code": "120071",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铁路车辆",
+          "code": "120072",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铁路车辆缓冲器",
+          "code": "120078",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "人力轨道车",
+          "code": "120106",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电动运载工具",
+          "code": "120110",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铁路冷藏货车",
+          "code": "120129",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "卧铺车厢",
+          "code": "120136",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "机车",
+          "code": "120138",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铁路车厢",
+          "code": "120140",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铁路餐车",
+          "code": "120172",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "陆、空、水或铁路用机动运载工具",
+          "code": "120193",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "倾卸装置（铁路货车的部件）",
+          "code": "120201",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "火车头烟囱",
+          "code": "120229",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "遥控运载工具（非玩具）",
+          "code": "120257",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "火车车轮",
+          "code": "C120009",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "火车车轮毂",
+          "code": "C120010",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "厢式餐车",
+          "code": "C120022",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "餐饮车（厢式）",
+          "code": "C120023",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "轨道运载工具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电力机车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蒸汽机车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铁路客车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铁路货车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动铁道车辆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氢燃料火车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自发电的电力机车（柴油电力机车）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "货运列车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铁路车辆底盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铁路车辆车身",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牵引机车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "内燃机车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铁路车辆底架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铁路车辆用座椅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "火车车轮轮缘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "内燃有轨车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铁路客车门",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "公铁两用牵引车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陆地机动车辆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "车厢（铁路）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陆用机动运载工具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "火车车身结构件",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:57.983Z"
+}

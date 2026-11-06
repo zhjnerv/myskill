@@ -1,0 +1,62 @@
+[
+  {
+    "groupCode": "3901",
+    "groupName": "运输及运输前的包装服务",
+    "classCode": "39"
+  },
+  {
+    "groupCode": "3902",
+    "groupName": "水上运输及相关服务",
+    "classCode": "39"
+  },
+  {
+    "groupCode": "3903",
+    "groupName": "陆地运输",
+    "classCode": "39"
+  },
+  {
+    "groupCode": "3904",
+    "groupName": "空中运输",
+    "classCode": "39"
+  },
+  {
+    "groupCode": "3905",
+    "groupName": "其他运输及相关服务",
+    "classCode": "39"
+  },
+  {
+    "groupCode": "3906",
+    "groupName": "货物的贮藏",
+    "classCode": "39"
+  },
+  {
+    "groupCode": "3907",
+    "groupName": "潜水工具出租",
+    "classCode": "39"
+  },
+  {
+    "groupCode": "3908",
+    "groupName": "供水电气服务",
+    "classCode": "39"
+  },
+  {
+    "groupCode": "3909",
+    "groupName": "水闸管理服务",
+    "classCode": "39"
+  },
+  {
+    "groupCode": "3910",
+    "groupName": "投递服务",
+    "classCode": "39"
+  },
+  {
+    "groupCode": "3911",
+    "groupName": "旅行安排",
+    "classCode": "39"
+  },
+  {
+    "groupCode": "3912",
+    "groupName": "单一服务",
+    "classCode": "39"
+  }
+]

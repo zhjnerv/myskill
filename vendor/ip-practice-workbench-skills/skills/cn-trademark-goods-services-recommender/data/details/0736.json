@@ -1,0 +1,140 @@
+{
+  "groupCode": "0736",
+  "groupName": "铸造机械",
+  "classCode": "07",
+  "notes": [
+    "注：1.铸模（机器部件），压铸模与0613冷铸模（铸造）类似；",
+    "2.本类似群与第八版及以前版本的0742金属加工机械交叉检索；",
+    "3. 跨类似群保护商品:金属加工机械(0735，0736，0742第(一)部分)。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "铸造机械",
+          "code": "070196",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属加工机械",
+          "code": "070258",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铸模（机器部件）",
+          "code": "070276",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铸模机",
+          "code": "070278",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铸管机",
+          "code": "C070261",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "铸铁丸设备",
+          "code": "C070262",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "冷室压铸机",
+          "code": "C070263",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "热室压铸机",
+          "code": "C070264",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "铸球机",
+          "code": "C070265",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "铸片机",
+          "code": "C070266",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "碳化钨模子",
+          "code": "C070267",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "压铸模",
+          "code": "C070268",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "振动翻砂机",
+          "code": "C070270",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "全自动振动应力消除装置",
+          "code": "C070390",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "铸件设备",
+          "code": "C070391",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "连续金属铸造机器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "连铸机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铸造机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "压铸机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "震动翻砂机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铸造机器人",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:10.358Z"
+}

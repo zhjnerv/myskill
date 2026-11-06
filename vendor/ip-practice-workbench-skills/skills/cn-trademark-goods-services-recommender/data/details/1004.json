@@ -1,0 +1,903 @@
+{
+  "groupCode": "1004",
+  "groupName": "医疗用辅助器具、设备和用品",
+  "classCode": "10",
+  "notes": [
+    "注：1.本类似群与第十一版及以前版本 1003 急救用热敷布(袋),2001 医院病床,第十版及以前版本 0506 防风湿手环,防风湿指环,医用手镯,第九版及以前版本0506防风湿手镯,抗风湿病圈环,2001医院用床,第六版及以前版本 0506 口罩等口罩类商品交叉检索；",
+    "2.卧床病人用便盆,卧床病人用尿壶与 2106 便壶,痰盂类似；",
+    "3.医用痰盂与 2106痰盂类似；",
+    "4.医用床,医用充气床,医院用病床与 2001 按摩用床类似;；",
+    "5.无菌罩布(外科用)与第九版及以前版本 0506 外科手术用布(织物)交叉检索；",
+    "6.耳塞(听力保护装置)与第九版及以前版本 0919 耳塞交叉检索；",
+    "7.生物磁疗环与第十一版及以前版本 1403 磁疗首饰交叉检索；",
+    "8.游泳用耳塞与第0919 潜水用耳塞类似,与第九版及以前版本 0919 耳塞交叉检索；",
+    "9.医用冰袋与 1114非医用个人降温冰袋类似；",
+    "10.游泳用鼻夹与 0919 潜水用鼻夹类似,与第十二版及以前版本 0919潜水和游泳用鼻夹交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "分娩褥垫",
+          "code": "100004",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "助听器",
+          "code": "100005",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "喇叭状助听器",
+          "code": "100006",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "病床用吸水床单",
+          "code": "100013",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "失禁用垫单",
+          "code": "100014",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "卧床病人用便盆",
+          "code": "100025",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用盆",
+          "code": "100026",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用靴",
+          "code": "100031",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用痰盂",
+          "code": "100034",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "带轮担架",
+          "code": "100036",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "救护车用担架",
+          "code": "100037",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "疝气带",
+          "code": "100039",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用手套",
+          "code": "100043",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用带",
+          "code": "100045",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "外科用海绵",
+          "code": "100053",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用垫",
+          "code": "100064",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "吃药用勺",
+          "code": "100069",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "挖耳勺",
+          "code": "100071",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用护指",
+          "code": "100079",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用指套",
+          "code": "100079",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用水袋",
+          "code": "100082",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "按摩用手套",
+          "code": "100092",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用冰袋",
+          "code": "100094",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用水床",
+          "code": "100096",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "腹部护垫",
+          "code": "100098",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "失眠用催眠枕头",
+          "code": "100101",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "卧床病人用尿壶",
+          "code": "100110",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用特制家具",
+          "code": "100119",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "脐疝带",
+          "code": "100121",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "听力保护器",
+          "code": "100124",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "床用摆动器",
+          "code": "100157",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用充气枕",
+          "code": "100161",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用充气软垫",
+          "code": "100162",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用充气床垫",
+          "code": "100163",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "无菌罩布（外科用）",
+          "code": "100172",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用床",
+          "code": "100173",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "病人身上伤痛处防压垫",
+          "code": "100195",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "手术衣",
+          "code": "100200",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "病人移位机",
+          "code": "100204",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医务人员用面罩",
+          "code": "100205",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "手术用消毒盖布",
+          "code": "100207",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "急救用热敷袋",
+          "code": "100209",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "大便座椅",
+          "code": "100210",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医疗垃圾专用容器",
+          "code": "100216",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "耳塞（听力保护装置）",
+          "code": "100224",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "除虱梳",
+          "code": "100229",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "月经杯",
+          "code": "100241",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "抗风湿手环",
+          "code": "100250",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "抗风湿指环",
+          "code": "100251",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用手镯",
+          "code": "100252",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "防吐腕带",
+          "code": "100255",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用充气床",
+          "code": "100259",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用冷敷贴",
+          "code": "100260",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "急救用冷敷垫",
+          "code": "100261",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "便携式手持小便器",
+          "code": "100262",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "指压带",
+          "code": "100265",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "病人检查袍",
+          "code": "100268",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "生物磁疗环",
+          "code": "100269",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "药丸压碎器",
+          "code": "100272",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "药片切割器",
+          "code": "100282",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用防护面罩",
+          "code": "100283",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "治疗用一次性热敷蒸汽面罩",
+          "code": "100288",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "治疗用一次性热敷蒸汽贴",
+          "code": "100289",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "带有内窥镜的便携式挖耳勺",
+          "code": "100299",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "卫生口罩",
+          "code": "100302",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "可重复使用的纱布制卫生口罩",
+          "code": "100303",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "震颤患者用勺",
+          "code": "100305",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医院用病床",
+          "code": "100313",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "游泳用耳塞",
+          "code": "100316",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "哺乳用乳头保护罩",
+          "code": "100318",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "置于浴缸上的肢体残障人士专用洗澡板",
+          "code": "100321",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "已配备医疗设备的隔离间",
+          "code": "100323",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "游泳用鼻夹",
+          "code": "100343",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "兽医用宠物冷敷垫",
+          "code": "100351",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "氧气袋",
+          "code": "C100009",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "口罩",
+          "code": "C100010",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "病人用担架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用支撑床垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用连指手套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医院用轮床",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "肛门脱垂带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电助听器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动操作的助听器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用助听器械",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "隔音用耳塞（非医用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "急救用冷却垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "听力保护器（无复制和传送声音功能）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无纺布制医用消毒盖布",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "月经杯（女性生理期用阴道内置器具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运送病人用担架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "担架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用冰袋枕",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医院用手套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "阴茎套导尿管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "呕吐盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医疗器械、注射器和其他医疗污染废物的专用处理容器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "解剖台",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数码助听器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "失禁用床垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用喂药杯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用腹部护垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医院用检验台",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用冰袋托",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "（哮喘监测用）峰流速仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗用重力毯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用充气垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用样本杯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "兽医用伊丽莎白项圈",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "诊断用手指套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "残疾人移位专用吊索",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "病人用安全约束装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用隔离衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用防护服",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用防尘卫生口罩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用隔尘卫生口罩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "尿壶（医用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防风湿手环",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防风湿指环",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "病人身上伤痛处防压垫（袋）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "（医院用来移动病人的）轮床",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "急救用热敷布",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "切药片器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用磁性手镯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "滴眼药水辅助器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "造瘘袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "肥胖症病人用担架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "保护床垫用失禁垫单",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宠物用除虱梳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用洗眼杯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用气垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用气枕",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用气褥垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手术刷手衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用入鼻式过滤器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用颈椎枕",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用滴眼管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用足底按摩拖鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "骨传导止鼾器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医学检查手套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "腹部疝气带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "外科手术用鞋套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用卫生口罩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "吃药用杯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用护肘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用洗耳球",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烧伤患者专用床",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用耳塞",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可重复使用的防病毒感染卫生口罩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防病毒感染用一次性卫生面罩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用肘部托架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "睡眠耳塞",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用面罩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用膝关节护具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "外科口罩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "带有降噪功能的助听器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用口罩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "外科用口罩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "兽医用手套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用防护面屏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗用压缩床单",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:45.276Z"
+}

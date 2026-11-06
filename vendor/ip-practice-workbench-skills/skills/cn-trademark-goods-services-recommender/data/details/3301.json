@@ -1,0 +1,710 @@
+{
+  "groupCode": "3301",
+  "groupName": "含酒精的饮料（啤酒除外）",
+  "classCode": "33",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "薄荷酒",
+          "code": "330001",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "果酒（含酒精）",
+          "code": "330002",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "苦味酒",
+          "code": "330003",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "茴芹酒（利口酒）",
+          "code": "330004",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "茴香酒（利口酒）",
+          "code": "330005",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "开胃酒*",
+          "code": "330006",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "亚力酒",
+          "code": "330007",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蒸馏饮料",
+          "code": "330008",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "苹果酒",
+          "code": "330009",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鸡尾酒*",
+          "code": "330010",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "柑香酒",
+          "code": "330011",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "餐后酒（利口酒和烈酒）",
+          "code": "330012",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "葡萄酒",
+          "code": "330013",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "杜松子酒",
+          "code": "330014",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "利口酒",
+          "code": "330015",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蜂蜜酒",
+          "code": "330016",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "樱桃酒",
+          "code": "330017",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烈酒（饮料）",
+          "code": "330018",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "白兰地",
+          "code": "330019",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "酸酒（低等葡萄酒）",
+          "code": "330020",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "梨酒",
+          "code": "330021",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "清酒（日本米酒）",
+          "code": "330022",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "威士忌",
+          "code": "330023",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "酒精饮料原汁",
+          "code": "330024",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "酒精饮料浓缩汁",
+          "code": "330025",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "酒精饮料（啤酒除外）",
+          "code": "330026",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "含水果酒精饮料",
+          "code": "330031",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "米酿制的酒精饮料",
+          "code": "330032",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "朗姆酒",
+          "code": "330033",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "伏特加酒",
+          "code": "330034",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "预先混合的酒精饮料（以啤酒为主的除外）",
+          "code": "330035",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "甘蔗制酒精饮料",
+          "code": "330036",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "谷物制蒸馏酒精饮料",
+          "code": "330037",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "以葡萄酒为主的饮料",
+          "code": "330038",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烧酒",
+          "code": "330039",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "朝鲜族米酒",
+          "code": "330040",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "含酒精的气泡水",
+          "code": "330041",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "已调味的麦芽酿制的酒精饮料（啤酒除外）",
+          "code": "330042",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "米酒",
+          "code": "330043",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "汽酒",
+          "code": "C330001",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "青稞酒",
+          "code": "C330003",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "黄酒",
+          "code": "C330004",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "食用酒精",
+          "code": "C330006",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "白酒",
+          "code": "C330008",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "甜果酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "不起泡葡萄酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加烈葡萄酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加香料的热葡萄酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "以朗姆酒为主的饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "以葡萄酒为主的开胃酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "以蒸馏酒为主的开胃酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日本波布蛇酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日本梅子酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日本松针酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "桑格利亚汽酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "葡萄潘趣酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "起泡白葡萄酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "起泡红葡萄酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "五加皮酒（中国混合烈酒）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含酒精蛋奶酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含酒精的水果鸡尾酒饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含酒精水果饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含奶油利口酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "红葡萄酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "威末酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "朗姆潘趣酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "老酒（中国蒸馏烈酒）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烈酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烈酒浓缩汁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "调制好的葡萄酒鸡尾酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "甘蔗汁酿朗姆酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "甘蔗制烈酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "干型苹果酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "樱桃白兰地",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "苦艾酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蝮蛇酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含酒精的充气饮料（啤酒除外）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "朗姆酒（酒精饮料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日式甜米酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高粱酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "果酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "刺五加酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "白葡萄酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "佐餐酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "茴香酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "草莓酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "混合威士忌酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "甜酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "葡萄汽酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "梅酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "奶油利口酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水果汽酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "松叶酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烈性干酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "朝鲜烧酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "预调甜酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卡沙萨酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蒸馏米酒（泡盛酒）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "麦芽威士忌",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "除啤酒外的酒精饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "咖啡利口酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "桃红葡萄酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "天然汽酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含酒精的潘趣酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "黑醋栗酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "已调味的蒸馏酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冷冻凝胶状的鸡尾酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含牛奶的鸡尾酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烧酒（烈酒）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "黑覆盆子酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马格利酒（朝鲜传统米酒）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "白干酒（中国白酒）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含酒精的鸡尾酒混合饮品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "阿夸维特酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "阿蒙蒂拉多白葡萄酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "由谷物蒸馏的白酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "清酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "苦荞酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "露酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含酒精的饮料（啤酒除外）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蒸煮提取物（利口酒和烈酒）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "杨梅酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "青梅酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "尼瓦（以甘蔗为主的酒精饮料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "草本型利口酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加有维生素的朗姆酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "饮用烈酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含酒精的苦味开胃酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "以高粱为主的中式白酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蒸馏酒",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:57.996Z"
+}

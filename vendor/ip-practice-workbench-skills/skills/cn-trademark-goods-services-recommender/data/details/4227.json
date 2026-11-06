@@ -1,0 +1,190 @@
+{
+  "groupCode": "4227",
+  "groupName": "单一服务",
+  "classCode": "42",
+  "notes": [
+    "注：本类似群为单一服务，各自然段间互不类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "平面美术设计",
+          "code": "420144",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "标志设计服务",
+          "code": "420287",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "（人工降雨时）云的催化",
+          "code": "420202",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "笔迹分析（笔迹学）",
+          "code": "420211",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "地图绘制服务",
+          "code": "420228",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "名片设计",
+          "code": "420250",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "广告宣传材料的平面设计",
+          "code": "420258",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "为他人称量货物",
+          "code": "C420012",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "能耗记录表出租",
+          "code": "420259",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "为检疫通关目的对进出口货物进行检测和分析",
+          "code": "420293",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "望远镜出租",
+          "code": "420294",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "科学显微镜的出租",
+          "code": "420297",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "海图更新服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "平面设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为戏剧公司提供布景设计服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "起名服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "书画刻印艺术设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "广告标识的平面设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "艺术品设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人进行动画设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人设计动画",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人起名",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卡车过磅称重服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冰箱磁性贴设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氡探测",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "定制书籍的设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "广告材料的平面设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "企业形象标志设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "科学用显微镜出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宠物服装的设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑物霉菌检查",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "实验室机器人出租",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:52.350Z"
+}

@@ -1,0 +1,106 @@
+{
+  "groupCode": "0611",
+  "groupName": "保险箱柜",
+  "classCode": "06",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "钱箱（金属或非金属）",
+          "code": "060029",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "保险柜（金属或非金属）",
+          "code": "060034",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "保险箱（金属或非金属）",
+          "code": "060034",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "现金保险箱",
+          "code": "060066",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电子保险柜",
+          "code": "060472",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "保险柜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属保险柜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属钱箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属保险箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "保险箱用金属门",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属保险柜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属防火保险柜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "枪械保险柜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属钱箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属现金盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "书籍形状的金属保险箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属钱盒",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:40.469Z"
+}

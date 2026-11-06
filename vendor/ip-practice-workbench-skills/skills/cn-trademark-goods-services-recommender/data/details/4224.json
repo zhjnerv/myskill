@@ -1,0 +1,77 @@
+{
+  "groupCode": "4224",
+  "groupName": "提供艺术品鉴定服务",
+  "classCode": "42",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "艺术品鉴定",
+          "code": "420132",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "钱币鉴定",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "古玩鉴定",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "珠宝鉴定",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钻石鉴定",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宝石鉴定",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钞票鉴定",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硬币评级服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "半宝石鉴定",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "油画鉴定",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宝石分级",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "邮票鉴定",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:51.784Z"
+}

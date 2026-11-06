@@ -1,0 +1,29 @@
+{
+  "groupCode": "0618",
+  "groupName": "手铐，金属制身份鉴别手环",
+  "classCode": "06",
+  "notes": [
+    "注：本类似群商品（除手铐外）与2010商品类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "金属制身份鉴别手环",
+          "code": "060051",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "手铐",
+          "code": "060181",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [],
+  "crawledAt": "2026-06-09T18:56:44.631Z"
+}

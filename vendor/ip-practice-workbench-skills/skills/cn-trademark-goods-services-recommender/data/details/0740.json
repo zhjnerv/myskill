@@ -1,0 +1,39 @@
+{
+  "groupCode": "0740",
+  "groupName": "制办公用针钉机械",
+  "classCode": "07",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "回形针机",
+          "code": "C070285",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "制针机",
+          "code": "C070286",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "图钉机",
+          "code": "C070287",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "大头针制造机",
+          "code": "C070288",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [],
+  "crawledAt": "2026-06-09T18:57:12.672Z"
+}

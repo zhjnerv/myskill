@@ -1,0 +1,78 @@
+{
+  "groupCode": "4106",
+  "groupName": "驯兽",
+  "classCode": "41",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "动物训练",
+          "code": "410005",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "动物园服务",
+          "code": "410033",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "儿童动物园",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "动物展览",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供动物训练服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "导盲犬训练",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "动物园",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马匹训练",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "由驯服学校提供的动物训练",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人训练动物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "训狗培训",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "流动式宠物动物园服务",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:44.610Z"
+}

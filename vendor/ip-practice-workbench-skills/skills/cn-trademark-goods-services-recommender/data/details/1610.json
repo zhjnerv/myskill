@@ -1,0 +1,299 @@
+{
+  "groupCode": "1610",
+  "groupName": "办公装订、切削用具",
+  "classCode": "16",
+  "notes": [
+    "注：本类似群与 1611 文具，学校用品（文具），办公文具类似，与第十一版及以前版本1611 家具除外的办公必需品交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "订书钉",
+          "code": "160010",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "手压订书机（办公用品）",
+          "code": "160012",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "削铅笔机（电或非电）",
+          "code": "160017",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "办公室用封口机",
+          "code": "160056",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "办公室用打孔器",
+          "code": "160093",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "打孔器（办公用品）",
+          "code": "160141",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "办公室用信封封口机",
+          "code": "160146",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "书籍装订用织物",
+          "code": "160150",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "装订带（装订书用）",
+          "code": "160205",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "书籍装订材料",
+          "code": "160236",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "书籍装订用布",
+          "code": "160238",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "书籍装订细绳",
+          "code": "160239",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "装订线",
+          "code": "160239",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "办公用碎纸机",
+          "code": "160287",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "拆信刀",
+          "code": "160291",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "削铅笔器（电或非电）",
+          "code": "160293",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "书籍装订装置和机器（办公设备）",
+          "code": "160330",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "办公用文件层压机",
+          "code": "160346",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "切纸机（办公用品）",
+          "code": "160385",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "订书机",
+          "code": "C160065",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "订书针",
+          "code": "C160066",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "卷笔刀",
+          "code": "C160067",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "铅笔刀",
+          "code": "C160068",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "办公用打孔、切纸两用机",
+          "code": "C160070",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "开信封机",
+          "code": "C160071",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "起钉器（办公用品）",
+          "code": "C160111",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "手压订书机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "开信刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "办公用纸装订机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "办公用书籍装订机器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "办公室用电动订书机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "办公用折纸机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "办公用打孔器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动削铅笔器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "办公用齐纸机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "削铅笔机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "书籍和纸用装订材料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "办公用塑封机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "办公用信件封装机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属制开信刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动开信器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用或办公用光盘粉碎机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手动订书机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "切纸刀（办公用品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "裁纸刀（办公用品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "办公用切纸机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "刀片（办公用切纸机部件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手持裁纸刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "书籍装订用线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "办公用电开信器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸张装订扣",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:15.257Z"
+}

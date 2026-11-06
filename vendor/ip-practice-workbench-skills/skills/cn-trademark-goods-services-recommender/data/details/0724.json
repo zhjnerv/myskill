@@ -1,0 +1,73 @@
+{
+  "groupCode": "0724",
+  "groupName": "洗衣机",
+  "classCode": "07",
+  "notes": [
+    "注：1.本类似群与1106电干衣机类似，与第十一版及以前版本1106电动干衣机，第九版及以前版本1106家用干衣机（电烘干）交叉检索；",
+    "2.本类似群与第八版及以前版本的0704脱水机交叉检索；",
+    "3.本类似群与第八版及以前版本的0706旋转式脱水机，干燥机（脱水式）交叉检索；",
+    "4.跨类似群保护商品：旋转式脱水机（非加热）（0706，0724）。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "旋转式脱水机（非加热）",
+          "code": "070084",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "洗衣机",
+          "code": "070234",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "投币启动的洗衣机",
+          "code": "070236",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "洗衣用甩干机",
+          "code": "070239",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "带有烘干功能的洗衣机",
+          "code": "070588",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "便携式超声波洗衣设备",
+          "code": "070589",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "干洗机",
+          "code": "C070379",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "家用洗衣机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "装有烘干滚筒的洗衣机070588",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:03.028Z"
+}

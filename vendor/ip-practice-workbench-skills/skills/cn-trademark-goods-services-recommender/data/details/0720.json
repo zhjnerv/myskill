@@ -1,0 +1,21 @@
+{
+  "groupCode": "0720",
+  "groupName": "制灯泡机械",
+  "classCode": "07",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "制灯泡机械",
+          "code": "C070155",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [],
+  "crawledAt": "2026-06-09T18:57:00.684Z"
+}

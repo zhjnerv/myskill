@@ -1,0 +1,411 @@
+{
+  "groupCode": "0115",
+  "groupName": "工业用粘合剂和胶（不包括纸用粘合剂）",
+  "classCode": "01",
+  "notes": [
+    "注：1.本类似群与1701液态橡胶，橡胶水类似，与第九版及以前版本1701液体橡胶交叉检索；",
+    "2.本类似群与 1702 密封裂缝用化学合成物，聚氨酯泡沫填缝剂，补裂缝用化学合成物，补漏用化学合成物类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "工业用黏合剂",
+          "code": "010002",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "外科绷带用黏合制剂",
+          "code": "010022",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "工业用黄蓍胶",
+          "code": "010024",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "粘贴海报用黏合剂",
+          "code": "010028",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "补轮胎内胎用合成物",
+          "code": "010032",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "工业用阿拉伯树胶",
+          "code": "010078",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "树木嫁接用黏性制剂",
+          "code": "010079",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "冶金黏合剂",
+          "code": "010158",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鞋用黏合剂",
+          "code": "010170",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "皮革黏合剂",
+          "code": "010192",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "轮胎黏合剂",
+          "code": "010193",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "修补破碎物品用黏合剂",
+          "code": "010194",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "裱墙纸用黏合剂",
+          "code": "010203",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "墙纸用黏合剂",
+          "code": "010203",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "皮革胶",
+          "code": "010222",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "上浆糊精",
+          "code": "010242",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铸造用黏合物质",
+          "code": "010306",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "工业用明胶",
+          "code": "010330",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "粘鸟胶",
+          "code": "010334",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "树木嫁接用胶黏剂",
+          "code": "010341",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "增塑溶胶",
+          "code": "010439",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "补轮胎用合成物",
+          "code": "010465",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非文具、非家用淀粉浆糊",
+          "code": "010566",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "墙砖黏合剂",
+          "code": "010573",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "工业用胶",
+          "code": "010600",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "工业用树胶（黏合剂）",
+          "code": "010616",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非文具、非家用、非食用鱼胶",
+          "code": "010618",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "导电胶黏剂",
+          "code": "010722",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "氯丁胶",
+          "code": "C010252",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "聚醋酸乙烯乳液",
+          "code": "C010253",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "固化剂",
+          "code": "C010254",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "工业用聚氨酯胶黏剂",
+          "code": "C010261",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "修补充气轮胎用粘胶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用明胶胶水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用乳胶胶水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用织物用胶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "轮胎用密封化合物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贴墙纸用浆糊",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用木胶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用胶水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生产胶合板用黏合剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "瓷砖用黏合剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用预混合的黏性泡沫黏合剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水泥制品用黏合剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "书籍装订用黏合剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制墙面材料用黏合剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用合成树脂制黏合剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铺砌用黏合剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陶瓷涂层用黏合剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑工业用黏合料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "屋顶用黏合剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "地砖黏合剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用黏合物质",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "涂层和密封用工业黏合剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑业用黏合剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "地板、天花板和墙砖用黏合剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铺设瓷砖用黏合剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用塑料基黏合剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "砖瓦黏合料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑工业用黏合剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制家具用黏合剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用塑料粘合剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用粘合剂和胶水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "塑料粘合剂（非文具、非家用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "充气轮胎粘合剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "轮胎胶粘剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "修鞋用橡胶胶水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "轮胎密封胶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制外科绷带用黏合剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用橡胶胶黏剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用导电黏合剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "普通粘接修复用环氧树脂胶黏剂",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:13.758Z"
+}

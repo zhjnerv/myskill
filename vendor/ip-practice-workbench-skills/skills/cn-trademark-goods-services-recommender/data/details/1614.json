@@ -1,0 +1,411 @@
+{
+  "groupCode": "1614",
+  "groupName": "笔",
+  "classCode": "16",
+  "notes": [
+    "注：1.本类似群与 1611 文具，学校用品（文具），办公文具类似，与第十一版及以前版本1611家具除外的办公必需品交叉检索;",
+    "2.书写材料与 1605 第(一)部分,1612 类似；",
+    "3.排笔(文具)与 2107 排笔刷类似；",
+    "4.带有操作触屏设备笔头的笔（书写工具）与 0901 触摸屏用触控笔类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "钢笔",
+          "code": "160002",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "笔夹",
+          "code": "160011",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铅笔*",
+          "code": "160031",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "画家用刷（画笔）",
+          "code": "160050",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铅笔芯",
+          "code": "160105",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "自动铅笔",
+          "code": "160114",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "笔尖",
+          "code": "160131",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金制笔尖",
+          "code": "160134",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "书写材料",
+          "code": "160136",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "炭笔",
+          "code": "160160",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "绘画笔",
+          "code": "160185",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "自来水笔",
+          "code": "160225",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "笔（办公用品）",
+          "code": "160242",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "圆珠笔滚珠",
+          "code": "160253",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "画笔",
+          "code": "160273",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "笔杆",
+          "code": "160299",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "毛笔",
+          "code": "160342",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "书写工具",
+          "code": "160343",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "记号笔（文具）",
+          "code": "160359",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "带有操作触屏设备笔头的笔（书写工具）",
+          "code": "160407",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "活动铅笔",
+          "code": "C160086",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "蜡笔",
+          "code": "C160087",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "蘸水钢笔",
+          "code": "C160088",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "圆珠笔油墨",
+          "code": "C160089",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "排笔（文具）",
+          "code": "C160090",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "曲线笔",
+          "code": "C160091",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "笔套",
+          "code": "C160092",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "油画棒",
+          "code": "C160094",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "素描木炭条",
+          "code": "C160095",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "白板笔",
+          "code": "C160096",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "墨水胆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "书写用具（书写工具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "书写工具用笔尖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "书法用毛笔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铅笔帽",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "墨水笔的充墨笔芯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "艺术家用刷（画笔）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "艺术家用蜡笔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "地面书法用毛笔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纤维笔尖的记号笔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "毡记号笔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纤维制书写用具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "毡尖记号笔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "圆珠笔尖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "圆珠笔笔芯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "圆珠笔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "中性笔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "荧光记号笔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "荧光笔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "艺术家用铅笔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "书写用具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "笔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "彩色铅笔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "彩色笔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "墨水笔芯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "墨水笔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "毛毡笔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "签字笔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "文件记号笔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "记号笔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机械铅笔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "文具用闪光笔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "艺术家用笔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "笔尖保护套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属制钢笔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可湿擦的记号笔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钢笔（办公用品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铅笔套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无墨笔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铅笔笔尖保护套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钢笔笔尖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钢制书写笔",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:17.529Z"
+}

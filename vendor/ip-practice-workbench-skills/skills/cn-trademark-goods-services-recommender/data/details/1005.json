@@ -1,0 +1,95 @@
+{
+  "groupCode": "1005",
+  "groupName": "奶嘴，奶瓶",
+  "classCode": "10",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "出牙咬环",
+          "code": "100018",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "奶瓶",
+          "code": "100028",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "吸奶器",
+          "code": "100107",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "婴儿用安抚奶嘴",
+          "code": "100145",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "奶瓶阀",
+          "code": "100169",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "奶瓶用奶嘴",
+          "code": "100170",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "婴儿用奶嘴式喂辅食器",
+          "code": "100254",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "婴儿安抚奶嘴用带链夹",
+          "code": "100266",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "婴儿牙龈按摩器",
+          "code": "100271",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "婴儿奶瓶的奶嘴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "阻止幼儿吮吸用塑料拇指套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "喂奶瓶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "母乳存储瓶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "带婴儿摇铃的出牙咬环",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:45.873Z"
+}

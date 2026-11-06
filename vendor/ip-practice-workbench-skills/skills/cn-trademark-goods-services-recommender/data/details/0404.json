@@ -1,0 +1,149 @@
+{
+  "groupCode": "0404",
+  "groupName": "工业用蜡",
+  "classCode": "04",
+  "notes": [
+    "注:1. 地蜡，地蜡(石蜡)与0303地板蜡，拼花地板蜡，抛光蜡，地板防滑蜡，地板防滑液类似，与第十版及以前版本0303上光蜡交叉检索；",
+    "2. 雪板用蜡与第十版及以前版本2807滑雪板用蜡交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "蜂蜡*",
+          "code": "040001",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "棕榈蜡",
+          "code": "040021",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纯地蜡",
+          "code": "040022",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蜡（原料）",
+          "code": "040027",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "传动带用蜡",
+          "code": "040028",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "工业用蜡",
+          "code": "040030",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "地蜡",
+          "code": "040069",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "石蜡",
+          "code": "040070",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "滑雪板用蜡",
+          "code": "040114",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "制化妆品用蜂蜡",
+          "code": "040116",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "食品包装材料涂层用蜡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牛油蜡烛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "漆树蜡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用石蜡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制蜡烛用蜡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "植物蜡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "深加工用蜂蜡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "滑雪单板用蜡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "滑板用蜡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冲浪板用蜡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化妆品制造用蜂蜡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "尾波滑水板用蜡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "褐煤蜡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于制造蜡烛的蜂蜡",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:26.973Z"
+}

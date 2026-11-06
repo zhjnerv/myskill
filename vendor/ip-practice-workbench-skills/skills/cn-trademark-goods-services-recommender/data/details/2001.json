@@ -1,0 +1,1369 @@
+{
+  "groupCode": "2001",
+  "groupName": "家具",
+  "classCode": "20",
+  "notes": [
+    "注：1.手推车（家具）与1206手推车类似；",
+    "2.按摩用床与1004 医用床，医用充气床，医院用病床类似；",
+    "3.本类似群与第九版及以前版本 0611 金属陈列架交叉检索；",
+    "4.婴儿学步车与1206婴儿车，平卧式婴儿车类似，与第十版及以前版本1206折叠式婴儿车，轻便婴儿车交叉检索；",
+    "5.本类似群与第八版及以前版本 2003 婴儿玩耍用携带式围栏交叉检索；",
+    "6.本类似群商品与2012木制家具隔板，桌面，家具门类似。",
+    "7.食品橱与第十版及以前版本0611金属食品柜，金属藏肉柜交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "碗柜",
+          "code": "200014",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "药柜",
+          "code": "200015",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "长凳（家具）",
+          "code": "200020",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "婴儿玩耍用携带式围栏",
+          "code": "200022",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "婴儿摇床",
+          "code": "200023",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "摇篮",
+          "code": "200023",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "图书馆书架",
+          "code": "200024",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "床架（木制）",
+          "code": "200026",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "瓶架",
+          "code": "200031",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "餐具柜",
+          "code": "200034",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "书桌",
+          "code": "200036",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "办公家具",
+          "code": "200037",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "服装架",
+          "code": "200038",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "家具",
+          "code": "200041",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "索引卡片柜（家具）",
+          "code": "200043",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "文件柜",
+          "code": "200044",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "椅子（座椅）",
+          "code": "200050",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "座椅*",
+          "code": "200050",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "躺椅",
+          "code": "200051",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "头靠（家具）",
+          "code": "200052",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "帽架",
+          "code": "200053",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "陈列架（家具）",
+          "code": "200057",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "衣架",
+          "code": "200059",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "文件柜用搁板",
+          "code": "200062",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "扶手椅*",
+          "code": "200063",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "有抽屉的橱",
+          "code": "200066",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "柜台（台子）",
+          "code": "200067",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "桌子*",
+          "code": "200070",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "床垫*",
+          "code": "200079",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "有小脚轮的茶具台",
+          "code": "200082",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "制图桌",
+          "code": "200083",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "长沙发",
+          "code": "200085",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "细木工家具",
+          "code": "200088",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "学校用家具",
+          "code": "200094",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "打字机架",
+          "code": "200095",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "打字台",
+          "code": "200095",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "床*",
+          "code": "200102",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "搁物架（家具）",
+          "code": "200108",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "花架（家具）",
+          "code": "200115",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "花盆台座",
+          "code": "200116",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "枪架",
+          "code": "200118",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食品橱",
+          "code": "200122",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "砧板桌",
+          "code": "200126",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "衣服罩（衣柜）",
+          "code": "200129",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属家具",
+          "code": "200132",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "报纸陈列架",
+          "code": "200134",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "杂志架",
+          "code": "200135",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "盥洗台（家具）",
+          "code": "200137",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "讲稿小搁台",
+          "code": "200141",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "衣帽架",
+          "code": "200144",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "立式书桌",
+          "code": "200152",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "伞搁架",
+          "code": "200164",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "屏风（家具）",
+          "code": "200165",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "搁架（家具）",
+          "code": "200172",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "写字台",
+          "code": "200180",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属座椅",
+          "code": "200182",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "沙发",
+          "code": "200183",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "长靠椅",
+          "code": "200184",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "床架",
+          "code": "200185",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属桌",
+          "code": "200188",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "梳妆台",
+          "code": "200189",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "储物架",
+          "code": "200191",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "带锁小柜",
+          "code": "200192",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "折叠式躺椅",
+          "code": "200194",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "支架（家具）",
+          "code": "200196",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "餐具架（家具）",
+          "code": "200198",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "陈列柜（家具）",
+          "code": "200200",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非医用充气床垫",
+          "code": "200202",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "计算机架",
+          "code": "200212",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "送餐车（家具）",
+          "code": "200222",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "按摩用床",
+          "code": "200229",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非医用水床",
+          "code": "200230",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "凳子",
+          "code": "200235",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "理发座椅",
+          "code": "200241",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "衣服罩（储藏用）",
+          "code": "200252",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "手推车（家具）",
+          "code": "200254",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "婴儿用高椅",
+          "code": "200257",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "婴儿学步车",
+          "code": "200258",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "装有脚轮的计算机架（家具）",
+          "code": "200266",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "阅书架（家具）",
+          "code": "200270",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "毛巾架（家具）",
+          "code": "200276",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "壁挂式婴儿尿布更换台",
+          "code": "200278",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "行李寄存柜",
+          "code": "200347",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "浴室凳",
+          "code": "200350",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "餐具柜（家具）",
+          "code": "200351",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "防飞沫用隔板",
+          "code": "200357",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "用于坐式按摩的人体工学椅",
+          "code": "200364",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纸板存放架",
+          "code": "200366",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "桌用计算机键盘托",
+          "code": "200375",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "打坐凳",
+          "code": "200383",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "祭台（家具）",
+          "code": "200385",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "自立式隔板（家具）",
+          "code": "200284",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "充气家具",
+          "code": "200288",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "首饰展示架",
+          "code": "200292",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "搁板置物架",
+          "code": "200303",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "固定式墙边桌",
+          "code": "200308",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "书柜",
+          "code": "200309",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "衣物架",
+          "code": "200310",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "婴儿床",
+          "code": "200316",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "婴儿提篮",
+          "code": "200317",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "衣柜",
+          "code": "200320",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "搁脚凳",
+          "code": "200321",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非医用充气床",
+          "code": "200326",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "沐浴用椅",
+          "code": "200329",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "婴儿用沐浴椅",
+          "code": "200337",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "膝上桌",
+          "code": "200338",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "便携式书桌",
+          "code": "200339",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "浴室柜（家具）",
+          "code": "200345",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "绘图桌",
+          "code": "C200001",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "美容柜（家具）",
+          "code": "C200002",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "电视机架",
+          "code": "C200003",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "音响支架（家具）",
+          "code": "C200004",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "茶几",
+          "code": "C200006",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "琴凳",
+          "code": "C200007",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "摇椅",
+          "code": "C200040",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "展示架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "安乐椅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "吧椅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "边桌",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "定制的厨房家具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "乳胶床垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "仿古家具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "大理石桌",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "曲木家具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "竹制家具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "行李搁架（家具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "行李架（家具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "花盆架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木材替代品制家具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木制家具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "折叠椅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "折叠桌",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "芦苇制屏风",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "酒架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可调床",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "客厅家具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宴会椅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "定制的碗柜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日式茶具柜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "美容用躺椅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "柔韧木材制床垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "门廊秋千椅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日式靠手",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日式无腿靠椅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属工具柜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "椅子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "展示柜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "理发用椅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "理发用椅子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "展示桌",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "折叠床",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木床",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "浴室用家具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "软垫家具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "软垫椅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "沙发床",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "服装陈列架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "双层床",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "坐卧两用折椅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "餐椅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "餐桌",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "充气椅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鞋柜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "脚凳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "野营用家具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "长椅子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "办公室用扶手椅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "办公室用座椅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "办公用椅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "办公桌",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "植物搁架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "座椅家具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "床护栏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "带镜子的橱柜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "尿布更换台",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属搁架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "三镜梳妆台",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "露营家具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "幼儿围栏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钢管制家具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "书架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "玩具箱（家具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属储物柜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "弹簧床垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "婴儿尿布更换台",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "杂志架（家具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商品陈列用家具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "房屋、办公室和花园用家具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "庭院用塑料家具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "斜靠背扶手椅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "行动不便者用椅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用神龛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商品展示柜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化妆台（梳妆台）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "东方折壁式屏风",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "东方单板屏风",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "豆袋沙发",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "折叠搁架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "双人沙发",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "橱柜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "厨房碗柜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "搁板桌",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可升降的桌子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卧室家具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冲浪板展示架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非医用水压床",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "露营桌",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木砧板桌子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钥匙柜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "箱型弹簧床垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "便携式可折叠体育场座椅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "便携式摇篮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钓鱼用椅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "便携式婴儿床",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "便携式婴儿摇床",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "浴室柜橱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "浴室柜子（家具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属货架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "米柜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "床头柜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "档案架（家具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属盛肉柜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "装在墙上的尿布更换台",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "边桌（家具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "软凳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "餐边柜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属橱柜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "阅览架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属陈列柜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "浴室柜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "按摩用椅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "榻榻米专用座椅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "图书架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无腿橱柜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "旅行用婴儿床",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "儿童家具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "户外家具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "野营用充气床垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "餐具架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "休闲椅（家具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木柴存放架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商品展示架（家具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "演示板（家具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木制床架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运动场用长凳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贮存架",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:39.383Z"
+}

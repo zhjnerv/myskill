@@ -1,0 +1,235 @@
+{
+  "groupCode": "0735",
+  "groupName": "锻压设备",
+  "classCode": "07",
+  "notes": [
+    "注：1.本类似群商品与0743手动液压机类似；",
+    "2.本类似群与第八版及以前版本的0742穿孔机冲头，穿孔机，冲床（工业用机器），金属加工机械，机械加工装置交叉检索；",
+    "3.本类似群与第九版及以前版本 0736 印模冲压机，冷冲模交叉检索；",
+    "4.冷冲模与0613冷铸模（铸造）类似；",
+    "5.跨类似群保护商品：整修机（机械加工装置）（0735，0742第（一）部分）；金属加工机械（0735，0736；0742第（一）部分）；整形机（0735，0742第（一）部分）。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "整修机（机械加工装置）",
+          "code": "070159",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "旋转锻造机",
+          "code": "070173",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "印模冲压机",
+          "code": "070181",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "锤（机器部件）",
+          "code": "070247",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "动力锤",
+          "code": "070248",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "气锤",
+          "code": "070249",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "杵锤",
+          "code": "070250",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属加工机械",
+          "code": "070258",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "冲孔机用冲头",
+          "code": "070305",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "冲孔机",
+          "code": "070306",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "冲床（工业用机器）",
+          "code": "070316",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "整形机",
+          "code": "070326",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电锤",
+          "code": "070489",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "冲压机",
+          "code": "070180",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "水压机",
+          "code": "C070258",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "液压机",
+          "code": "C070259",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "自动镦锻机",
+          "code": "C070260",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "冷冲模",
+          "code": "C070269",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "锻造机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "锻造模",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属加工用油压机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自动冲压机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "液压锤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "落锻机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属加工用成型机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属加工用穿孔冲床",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属加工用穿孔机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属加工用机械式冲床",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属加工用液压式冲床",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电锤（手持）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属成型用冲压模",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自由造型锻造机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属挤压机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动旋转锤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属成型机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "气锤（手持）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机械压力机（金属加工用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "穿孔机（金属加工用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冲床（金属加工用）",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:09.800Z"
+}

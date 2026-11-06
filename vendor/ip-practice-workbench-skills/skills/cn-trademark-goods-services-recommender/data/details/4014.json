@@ -1,0 +1,78 @@
+{
+  "groupCode": "4014",
+  "groupName": "水处理服务",
+  "classCode": "40",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "水处理",
+          "code": "400025",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "水净化",
+          "code": "C400009",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "水过滤器出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水处理服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商业用水过滤装置出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水处理设备出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水净化设备出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水处理和净化",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "海水淡化处理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水的去矿化",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "污水处理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水净化服务",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:39.298Z"
+}

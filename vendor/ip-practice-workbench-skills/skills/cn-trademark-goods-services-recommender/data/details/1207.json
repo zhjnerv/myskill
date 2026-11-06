@@ -1,0 +1,59 @@
+{
+  "groupCode": "1207",
+  "groupName": "畜力车辆，雪橇",
+  "classCode": "12",
+  "notes": [
+    "注：本类似群商品与1211商品类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "雪橇（运载工具）",
+          "code": "120186",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "反冲式雪橇",
+          "code": "120253",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "救援用雪橇",
+          "code": "120306",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "马车",
+          "code": "120325",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运输用船型雪橇",
+          "code": "120331",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "雪地运载工具",
+          "code": "120333",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "运输用雪橇",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:01.091Z"
+}

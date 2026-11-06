@@ -1,0 +1,92 @@
+{
+  "groupCode": "0737",
+  "groupName": "蒸汽动力设备",
+  "classCode": "07",
+  "notes": [
+    "注：蒸汽机锅炉与1107蒸汽锅炉（非机器部件）类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "引擎锅炉用部件",
+          "code": "070101",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "机器锅炉用水垢收集器",
+          "code": "070110",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蒸汽冷凝器（机器部件）",
+          "code": "070115",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蒸汽机",
+          "code": "070242",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "引擎锅炉管道",
+          "code": "070416",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蒸汽机锅炉",
+          "code": "070429",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "引擎锅炉给水装置",
+          "code": "070430",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "锅炉管道（机器部件）",
+          "code": "070471",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "汽轮机",
+          "code": "C070271",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "船用蒸汽机（非陆地车辆用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非陆地车辆用蒸汽涡轮机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非陆地车辆用蒸汽机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "发电用蒸汽机锅炉（非陆地车辆用）",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:10.917Z"
+}

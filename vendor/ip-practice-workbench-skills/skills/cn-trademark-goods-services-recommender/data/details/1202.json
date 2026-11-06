@@ -1,0 +1,2063 @@
+{
+  "groupCode": "1202",
+  "groupName": "汽车、电车、摩托车及其零部件（不包括轮胎）",
+  "classCode": "12",
+  "notes": [
+    "注：1.本类似群与 1211 类似,与第十二版及以前版本 0916 消防车,第十一版及以前版本0750车辆轴承,第九版及以前版本0924汽车用雪茄烟点火器,1203 交叉检索;",
+    "2.跨类似群保护商品:厢式餐车(1201,1202);餐饮车(厢式)(1201,1202);卧铺车厢(1201,1202);电动运载工具(1201,1202,1204 第(一)部分,1205,1210);陆、空、水或铁路用机动运载工具(1201,1202,1204第 ( 一 ) 部 分 ,1209,1210); 遥 控 运 载 工 具 ( 非 玩具)(1201,1202,1205,1209,1210)；",
+    "3.摩托车,踏板摩托车与 1204 机动自行车,电动自行车,机动三轮车,电；动三轮车,助力车,滑板车(车辆),电动代步车(行动迟缓者使用)类似,与第十版及以前版本 1204 踏板车(机动车辆)交叉检索；",
+    "4.车辆倒退警报器,车辆防盗设备与 0920 第一自然段类似;",
+    "5.摩托车车座与第十版及以前版本 1204 自行车、 脚踏车或摩托车车座交叉检索;",
+    "6.摩托车座套与第十版及以前版本 1204 自行车或摩托车座套交叉检索；",
+    "7.陆地车辆用离合器垫与第十二版及以前版本 1702 离合器垫交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "叉车",
+          "code": "120001",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "洒水车",
+          "code": "120016",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "公共汽车",
+          "code": "120018",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "大客车",
+          "code": "120019",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "卡车",
+          "code": "120022",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "弹药车（车辆）",
+          "code": "120052",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "拖挂式房车",
+          "code": "120056",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "拖车（车辆）",
+          "code": "120057",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "消防水管车",
+          "code": "120066",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "高尔夫球车（车辆）",
+          "code": "120068",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "拖拉机",
+          "code": "120075",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "矿车",
+          "code": "120076",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电动运载工具",
+          "code": "120110",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "厢式汽车",
+          "code": "120125",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "冷藏车",
+          "code": "120128",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运输用军车",
+          "code": "120144",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "摩托车",
+          "code": "120147",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "跑车",
+          "code": "120178",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "翻斗车",
+          "code": "120183",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "有轨电车",
+          "code": "120187",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "陆、空、水或铁路用机动运载工具",
+          "code": "120193",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "小汽车",
+          "code": "120199",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "汽车",
+          "code": "120199",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "混凝土搅拌车",
+          "code": "120213",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "汽车转向指示臂",
+          "code": "120228",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "救护车",
+          "code": "120233",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "野营车",
+          "code": "120249",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "房车",
+          "code": "120249",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "雪地机动车",
+          "code": "120256",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "遥控运载工具（非玩具）",
+          "code": "120257",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "装甲车",
+          "code": "120271",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "自动驾驶汽车",
+          "code": "120279",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "踏板摩托车",
+          "code": "120280",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铰接式公共汽车用铰接箱",
+          "code": "120296",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "摩托车座套",
+          "code": "120298",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "赛车运动用汽车",
+          "code": "120299",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "机器自动驾驶汽车",
+          "code": "120300",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "汽车用轮毂螺母",
+          "code": "120304",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "汽车车身零部件固定用卡子",
+          "code": "120305",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "救援用拖车",
+          "code": "120307",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "清障拖车",
+          "code": "120307",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "垃圾车",
+          "code": "120308",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运输自行车用拖车",
+          "code": "120309",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "装有起重机的卡车",
+          "code": "120312",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "车辆引擎盖锁销",
+          "code": "120320",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "水陆两用车",
+          "code": "120326",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "全地形车",
+          "code": "120327",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "氢燃料汽车",
+          "code": "120328",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "安装在车辆上的专用监控塔",
+          "code": "120330",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "自动驾驶送货机器人",
+          "code": "120335",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "陆地车辆用气动或液压线性执行器",
+          "code": "120336",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "跨运车",
+          "code": "120337",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "沼泽用运载工具",
+          "code": "120338",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运马用拖车",
+          "code": "120345",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "厢式运马车",
+          "code": "120347",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "陆地车辆用离合器垫",
+          "code": "120350",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "消防车",
+          "code": "120352",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "油槽车",
+          "code": "C120001",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "蓄电池搬运车",
+          "code": "C120002",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "厢式餐车",
+          "code": "C120022",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "餐饮车（厢式）",
+          "code": "C120023",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "陆地车辆连接器",
+          "code": "120003",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "防滑链",
+          "code": "120014",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "车辆用拖车连接装置",
+          "code": "120017",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "汽车底盘",
+          "code": "120025",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "车辆倒退警报器",
+          "code": "120026",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "货车翻斗",
+          "code": "120042",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "车辆引擎盖",
+          "code": "120054",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "车辆发动机盖",
+          "code": "120054",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "折叠式车顶",
+          "code": "120055",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "陆地车辆曲柄轴箱（非引擎用）",
+          "code": "120058",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "摩托车撑脚架",
+          "code": "120097",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "陆地车辆传动齿轮",
+          "code": "120103",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "陆地车辆用电动机",
+          "code": "120109",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "陆地车辆用离合器",
+          "code": "120111",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "车轴",
+          "code": "120119",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "车轴颈",
+          "code": "120120",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "毂罩",
+          "code": "120124",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "轮毂箍",
+          "code": "120127",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "陆地车辆引擎",
+          "code": "120130",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "陆地车辆马达",
+          "code": "120130",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "卧铺车厢",
+          "code": "120136",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "陆地车辆传动马达",
+          "code": "120139",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "汽车两侧脚踏板",
+          "code": "120141",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "陆地车辆用传动装置",
+          "code": "120142",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "陆地车辆推进装置",
+          "code": "120143",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "陆地车辆用喷气发动机",
+          "code": "120145",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "陆地车辆用飞轮",
+          "code": "120148",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "汽车上的滑雪板架",
+          "code": "120161",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "车轮辐条紧杆",
+          "code": "120169",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "后视镜",
+          "code": "120173",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "摩托车车座",
+          "code": "120175",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "摩托车挎斗",
+          "code": "120176",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "陆地车辆涡轮机",
+          "code": "120192",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "汽车车身",
+          "code": "120207",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "汽车保险杠",
+          "code": "120209",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "汽车减震器",
+          "code": "120210",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "陆地车辆变速箱",
+          "code": "120217",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "车身",
+          "code": "120222",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "陆地车辆用驱动链",
+          "code": "120225",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "陆地车辆用传动链",
+          "code": "120226",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "陆地车辆用扭矩变换器",
+          "code": "120227",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "陆地车辆减速齿轮",
+          "code": "120235",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "陆地车辆用连杆（非马达和引擎部件）",
+          "code": "120242",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "可升降尾板（陆地车辆部件）",
+          "code": "120243",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "可升降后挡板（陆地车辆部件）",
+          "code": "120243",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电动后挡板（陆地车辆部件）",
+          "code": "120243",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "车用遮阳挡",
+          "code": "120245",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "陆地车辆传动轴",
+          "code": "120246",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "气囊（汽车安全装置）",
+          "code": "120247",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "汽车刹车片",
+          "code": "120263",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "备胎罩",
+          "code": "120264",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "汽车用点烟器",
+          "code": "120266",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "陆地车辆用发动机支架",
+          "code": "120272",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "汽车用烟灰缸",
+          "code": "120282",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "摩托车链条",
+          "code": "120283",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "摩托车车架",
+          "code": "120284",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "摩托车车把",
+          "code": "120285",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "摩托车引擎",
+          "code": "120286",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "摩托车用驮篮",
+          "code": "120287",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "轴承（车辆部件）",
+          "code": "120340",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "自动驾驶的陆地车辆",
+          "code": "120342",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "汽车车轮",
+          "code": "C120011",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "汽车车轮毂",
+          "code": "C120012",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "高压阻尼线（车辆专用）",
+          "code": "C120013",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "摩托车车轮",
+          "code": "C120014",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "摩托车车轮毂",
+          "code": "C120015",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "车辆防盗设备",
+          "code": "C120020",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "轴承（车辆部件）",
+          "code": "C120024",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "汽车门把手",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车天窗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车引擎",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车座椅安全带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "轻型货车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "拖车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无轨电车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "小货车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "小型客车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "越野摩托车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "（汽车）制动主缸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "车辆备用轮胎箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "车辆顶架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "车轮链轮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动汽车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "两轮机动车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "灵车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陆地车辆用刹车垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陆地车辆用刹车块",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陆地车辆用车顶行李箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陆地车辆用齿轮装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陆地车辆用传动带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陆地车辆用碟式刹车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陆地车辆用块式制动器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陆地车辆用燃气涡轮机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车防盗装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车车顶行李架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "摩托车专用盖罩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "摩托车用气泵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "摩托车脚蹬",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "摩托车车把套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车扰流板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动摩托车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机动车用档位罩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机动高尔夫球车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机动高尔夫球车（车辆）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "两轮机动车车架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "两轮机动车传动链保护装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车车门",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车挡风玻璃遮阳板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车挡泥板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车构架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车行李架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车轮辐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车轮圈",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车用方向盘套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车专用杯子固定器（汽车部件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车专用车罩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车座椅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "摩托车踏板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "摩托车用警示喇叭",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "摩托车用驱动链",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "两轮机动车辐条",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "轮眉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "摩托车挡泥板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "摩托车飞轮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "摩托车行李架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "摩托车架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "摩托车链轮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "摩托车轮辐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "摩托车轮圈",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "摩托车前叉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "摩托车曲轴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卡丁车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陆地车辆用液压扭矩变换器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陆地车辆用传动机械装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "安装在引擎盖上的行李架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车用雪橇架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车用离合装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "轮圈（汽车用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "风挡刮水器（汽车用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "车用狗防护栏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "车用电子倒车报警器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "矿山用货车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "履带式雪上汽车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车用轮圈",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车用扭力杆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自卸车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "拖车连接器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车方向盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陆地车辆用空气涡轮机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陆地车辆用空转轮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "挡泥板（汽车用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陆地车辆用刹车片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车门",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陆地车辆用内燃机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陆地车辆用皮带轮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "越野车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "燃料电池汽车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陆地车辆用汽油发动机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运动型多用途汽车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陆地车辆用联轴器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "赛车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车车窗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车仪表板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车用扭矩变换器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陆地车辆用刹车盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "农用拖拉机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "混合动力汽车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冷藏拖车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "全地形车辆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车座椅扶手",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车减震弹簧",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车座椅头靠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车喇叭",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陆地车辆用滚子链",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动公共汽车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "摩托车减震器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陆地车辆车轴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陆地车辆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陆地车辆变速齿轮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "儿童安全座（汽车用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "儿童用汽车座椅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "车顶行李架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "飞机牵引车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车挡风玻璃",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车用儿童安全座椅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车用滑雪板架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陆地车辆用锥形刹车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陆地车辆用自动变速箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无人搬运车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车后视镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车转向信号装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "装甲陆地车辆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车用悬挂弹簧",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车用油箱盖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陆地车辆用变速箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车用遮阳板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陆地车辆用柴油发动机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陆地车辆用柴油机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陆地车辆用车轴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车用变速箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车用挡风玻璃",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车用风挡刮水器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车用液压回路",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陆地车辆用蒸汽涡轮机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陆地车辆用制动蹄",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "露营拖车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陆地车辆用涡轮喷气引擎",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车用喇叭",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车用气泵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "摩托车跨斗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车防盗报警设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机动汽车用刹车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "摩托车尾箱包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陆地运输车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车可敞车篷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卡车露营车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车电动机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "竞赛用摩托车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "后轮链轮齿",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "拖车车体",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陆地车辆用换向齿轮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机动汽车用刹车衬面",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机动汽车用刹车扇形片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机动汽车用制动蹄",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "摩托车用铃",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "垃圾集运车辆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "露营车（娱乐用车辆）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陆地车辆用水轮机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于驾驶员座椅和驾驶室减震的车辆悬架元件的空气弹簧",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "摩托车握把带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车风挡用遮阳板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车用安全座",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "插电式混合动力汽车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "插电式电动汽车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "串联式混合动力汽车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "燃料电池电动汽车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "装甲车身",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "拖车用牵引棍",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "厢式旅行车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自动导向（无人驾驶）材料搬运车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车车顶箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车车身板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运输用园林拖拉机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车备胎固定支架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车用车轴和万向轴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陆地车辆用带闸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "摩托车摇臂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车遮阳板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陆地车辆推进用火箭引擎",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陆地车辆用挡泥板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "平板式载重汽车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陆地车辆用油箱盖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "轻型越野摩托车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车车窗雨眉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "摩托车越野赛用轻型越野摩托车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加重挡泥皮用镶边",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车油箱（陆地车辆部件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "车辆防滚架专用套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车轮毂保护圈",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "车载水杯架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "轻型卡车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "车载雨伞架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车用发动机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车专用座椅套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车专用盖罩（成形）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "倾卸装置（卡车和货车的部件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运货车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "（故障车的）拖引车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陆地车辆用刹车衬面",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车用盖罩（成形）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "车辆后悬挂弹簧",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "车辆前悬挂弹簧",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卡车玻璃窗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "摩托车喇叭",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "小型摩托车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "中、重型卡车用减震器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "摩托车车牌架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水陆两栖车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车牌照框架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车板簧",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车散热器护栅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "车辆防眩光玻璃窗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "小型公共汽车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "车辆内装饰品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动高尔夫球车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "车辆油箱盖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "车辆用液压系统",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机动车辆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "车轮毂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "车辆用挡泥板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陆地车辆刹车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车用安全带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陆地车辆刹车垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陆地车辆油箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车用刹车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车车座",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车方向盘助力器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陆地车辆用气体涡轮机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "拖车（车厢）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车遮阳顶篷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卡车拖车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车雪地防滑链",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "车载宠物座椅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车用凸面去盲镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陆地车辆联动机件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "车辆轴承",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "车轮轴承",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陆地车辆传动轴承",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车用氢发动机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "公路牵引车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "车辆引擎罩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车引擎盖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "全拖车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自动驾驶的卡车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动踏板摩托车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无人驾驶汽车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "两栖车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "成型汽车罩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "摩托车鞍座包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动汽车车身结构件",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:58.549Z"
+}

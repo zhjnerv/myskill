@@ -1,0 +1,577 @@
+{
+  "groupCode": "0734",
+  "groupName": "起重运输机械",
+  "classCode": "07",
+  "notes": [
+    "注：1.齿条齿轮千斤顶，千斤顶（机器），铁路货车用千斤顶，气动千斤顶与0808手动千斤顶类似，与第九版及以前版本0808手操作千斤顶交叉检索；",
+    "2.船用自动锚与0617锚类似，与第九版及以前版本的1210船锚，小船用锚，锚链交叉检索；",
+    "3.本类似群与第九版及以前版本 0914 升降机操作设备，升降机操作装置交叉检索。",
+    "4.本类似群与第十版及以前版本 0749 气动传送装置，气动管道传送器交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "载客电梯",
+          "code": "070023",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电梯（机器）",
+          "code": "070024",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "带式输送机",
+          "code": "070037",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "绞盘",
+          "code": "070072",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "船用自动锚",
+          "code": "070073",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "起重机",
+          "code": "070095",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "装卸斜面台",
+          "code": "070096",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "搬运用气垫装置",
+          "code": "070129",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "齿条齿轮千斤顶",
+          "code": "070132",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "千斤顶（机器）",
+          "code": "070135",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "卸料斗（机械卸斗）",
+          "code": "070145",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "升降设备",
+          "code": "070172",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "自动扶梯",
+          "code": "070178",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "升降装置",
+          "code": "070237",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "装卸设备",
+          "code": "070245",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "悬臂起重机",
+          "code": "070251",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铁路货车用千斤顶",
+          "code": "070271",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "气动传送装置",
+          "code": "070304",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "天车",
+          "code": "070313",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "气动管道传送器",
+          "code": "070370",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运输机（机器）",
+          "code": "070371",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "卷扬机",
+          "code": "070373",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "起重机（提升装置）",
+          "code": "070453",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "自动人行道",
+          "code": "070518",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "载客电梯操作装置",
+          "code": "070540",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "气动千斤顶",
+          "code": "070554",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "移动式起重机",
+          "code": "070583",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "谷仓升降机",
+          "code": "070587",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "熔炉上料机",
+          "code": "070605",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电动乘客登机桥",
+          "code": "070613",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "机械式车辆堆码升降机",
+          "code": "070617",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "起重葫芦",
+          "code": "C070256",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "起重电磁铁",
+          "code": "C070257",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "输送机",
+          "code": "C070387",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "提升机",
+          "code": "C070388",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "带升降设备的立体车库",
+          "code": "C070389",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "升降工作台（包括可移动的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "塔式起重机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "液压运输机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "移动式码头起重机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运输人和货物的起重设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "装卸机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机械式停车设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "绞盘机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "吊臂起重机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "动力卷扬机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "堆垛机器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "分段输送机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "浮式起重机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "辊道输送机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "缆索起重机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "桥式起重机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "门式起重机（桥式吊车）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "链式输送机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "螺旋输送机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "履带式起重机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动起重机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "气动起重机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车千斤顶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "拖网绞机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "固体运送机器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "海上安装的码头起重机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "格构式桅杆起重机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "货物装卸机器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "船用电动升降机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卸载起重机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "废物材料运输机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "流水线传送机器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钢丝升降机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "楼梯升降机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机械和气动起重设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机械和液压升降机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动卷扬机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动千斤顶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "液压起重机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "液压千斤顶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卡车起重机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "液压升降台",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机车起重机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电梯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电梯门",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "固定起重机和移动式起重机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "气动传送器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "缆绳绞机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机械轨道式升降运输机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非手动的千斤顶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "废物和垃圾输送机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "固定式起重机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机械式起重葫芦",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "输送机（机器）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "叉式升降机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水上起重机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卡车用千斤顶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "货车用千斤顶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "车辆用起重机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "移动式升降作业平台",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "升降作业平台",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "升降机（运送滑雪者上坡的装置除外）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电梯（升降机）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电梯操作装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "升降机操作装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机电式乘客登机桥",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "货物装卸机器人",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "轮椅升降机",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:09.221Z"
+}

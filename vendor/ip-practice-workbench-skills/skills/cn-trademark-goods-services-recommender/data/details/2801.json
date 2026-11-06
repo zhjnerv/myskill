@@ -1,0 +1,461 @@
+{
+  "groupCode": "2801",
+  "groupName": "娱乐器械，娱乐物品",
+  "classCode": "28",
+  "notes": [
+    "注：1.本类似群各部分商品均与第十二版及以前版本游戏器具交叉检索；",
+    "2.本类似群各部分之间商品不类似；",
+    "3.第（一）部分与第九版及以前版本 0908 与外接显示屏或监视器连用的娱乐器具，与外接显示屏或监视器连用的游戏机，第八版及以前版本 0908 与电视机连用的娱乐器具，与电视连用的游戏机，第七版及以前版本 0908 自动和投币启动的游戏机交叉检索；",
+    "4.大积木与2802积木（玩具）类似。",
+    "5.便携式游戏机屏幕专用保护膜与第十版及以前版本 1703 已接受商品便携式游戏机屏幕保护膜交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "（一）",
+      "items": [
+        {
+          "name": "桌式足球桌",
+          "code": "280070",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "游戏机",
+          "code": "280128",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "自动和投币启动的游戏机",
+          "code": "280189",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "视频游戏机",
+          "code": "280255",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "带有液晶显示屏的便携式游戏机",
+          "code": "280215",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "娱乐场用视频游戏机",
+          "code": "280216",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "游戏机控制器",
+          "code": "280217",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "视频游戏操纵杆",
+          "code": "280228",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "便携式游戏机屏幕专用保护膜",
+          "code": "280229",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "视频游戏机器",
+          "code": "280214",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "玩视频游戏用手持设备",
+          "code": "280256",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "游戏机外置散热风扇",
+          "code": "280274",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "游戏用键盘",
+          "code": "280282",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "游戏用鼠标",
+          "code": "280283",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "游戏用轨迹球",
+          "code": "280294",
+          "type": "standard",
+          "section": "（一）"
+        }
+      ]
+    },
+    {
+      "label": "（二）",
+      "items": [
+        {
+          "name": "游戏套环",
+          "code": "280005",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "秋千",
+          "code": "280010",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "摇摆木马",
+          "code": "280014",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "九柱戏木柱",
+          "code": "280022",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "游戏用弹子",
+          "code": "280023",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "风筝",
+          "code": "280036",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "风筝线轴",
+          "code": "280037",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "游戏用筹码",
+          "code": "280040",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "掷环游戏用铁圈",
+          "code": "280097",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "魔术器械",
+          "code": "280105",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "九柱戏器具",
+          "code": "280106",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "滑梯（游乐设施）",
+          "code": "280149",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "游乐场骑乘玩具",
+          "code": "280157",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "弹球机",
+          "code": "280199",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "游乐场用沙箱",
+          "code": "280271",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "电动游艺车",
+          "code": "C280001",
+          "type": "marked",
+          "section": "（二）"
+        },
+        {
+          "name": "转椅",
+          "code": "C280003",
+          "type": "marked",
+          "section": "（二）"
+        },
+        {
+          "name": "荡椅",
+          "code": "C280006",
+          "type": "marked",
+          "section": "（二）"
+        },
+        {
+          "name": "云梯（游乐设施）",
+          "code": "C280008",
+          "type": "marked",
+          "section": "（二）"
+        },
+        {
+          "name": "浪船",
+          "code": "C280010",
+          "type": "marked",
+          "section": "（二）"
+        },
+        {
+          "name": "摇船",
+          "code": "C280011",
+          "type": "marked",
+          "section": "（二）"
+        },
+        {
+          "name": "滚环",
+          "code": "C280012",
+          "type": "marked",
+          "section": "（二）"
+        },
+        {
+          "name": "大积木",
+          "code": "C280013",
+          "type": "marked",
+          "section": "（二）"
+        },
+        {
+          "name": "转马",
+          "code": "C280014",
+          "type": "marked",
+          "section": "（二）"
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "投币启动的游戏机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水上滑梯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "跷跷板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抽奖转轮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高跷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "游戏用小键盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "游乐场滑梯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抓物游戏机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手持视频游戏机专用包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "攀玩架（游乐设备）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手持视频游戏机用便携式保护套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "带液晶屏幕的电池驱动的计算机游戏机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于儿童教学的电子游戏器具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "游乐园骑乘设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水平弹球游戏机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "与电视机接收器连用的游戏机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水平弹球机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "游戏厅用游戏机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非与电视机连用的电子游戏机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用视频游戏机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "仅与电视接收机连用的游戏器具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "游乐场用游戏沙箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "娱乐场用投篮游戏机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "游乐园用游戏机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "扑克筹码",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "视频游戏机用手柄",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机游戏操纵杆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "游戏机专用鼠标",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "娱乐中心视频游戏机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "视频游戏操作杆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "杂耍棒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "娱乐用高空滑索装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "翼伞风筝",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "液晶显示屏游戏机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手持式游戏机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "玩电子游戏用手持装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "与外接显示屏或显示器连用适配的电子游戏装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "桌上足球用桌",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "桌面篮球游戏器具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "风筝绕线轮",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:23.872Z"
+}

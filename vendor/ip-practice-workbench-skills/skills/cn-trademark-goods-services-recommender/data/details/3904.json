@@ -1,0 +1,229 @@
+{
+  "groupCode": "3904",
+  "groupName": "空中运输",
+  "classCode": "39",
+  "notes": [
+    "注：1.空中运输与 3901 货运，运输，运送乘客，运送旅客，物流运输类似；",
+    "2.跨类似群保护服务：运载工具故障牵引服务（3902 第（一）部分，3903，3904）。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "空中运输",
+          "code": "390004",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具故障牵引服务",
+          "code": "390007",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "飞机驾驶服务",
+          "code": "390052",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "航空器出租",
+          "code": "390102",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "航空发动机出租",
+          "code": "390105",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "民用无人机的操控",
+          "code": "390118",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "摄影用无人机出租",
+          "code": "390122",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "监控用无人机出租",
+          "code": "390131",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "安防用无人机出租",
+          "code": "390132",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "航天运输",
+          "code": "390137",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "航班规划服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "空中交通管理服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "包机运输服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "乘客的空中运输",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "货物的空中运输",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "空运服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "飞机牵引",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "航空货运",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "航空货运服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "飞机出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "直升机运输",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "飞机出租和租用",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "办理登机手续服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "飞机停放",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "螺旋桨飞机运输",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机场行李托运服务（不包括安检）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "空中运载工具和设备出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "涡轮喷气式飞机运输",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "乘客和货物的空中运输",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "出租飞机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "航空运输服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供航班到达和起飞信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "送货用无人机出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "太空运输",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "替他人办理网上值机服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机场乘客值机服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "航空器存放",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "直升机租赁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "飞行器的存放",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "空中货物运输",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:26.409Z"
+}

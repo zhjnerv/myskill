@@ -1,0 +1,48 @@
+{
+  "groupCode": "3606",
+  "groupName": "担保",
+  "classCode": "36",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "担保",
+          "code": "360018",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "保释担保",
+          "code": "360118",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "支票付款担保服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金融担保（担保服务）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汇票支付担保服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金融担保评估服务",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:10.278Z"
+}

@@ -1,0 +1,21 @@
+{
+  "groupCode": "2411",
+  "groupName": "寿衣",
+  "classCode": "24",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "寿衣",
+          "code": "240041",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [],
+  "crawledAt": "2026-06-09T18:59:06.997Z"
+}

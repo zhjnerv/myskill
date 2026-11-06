@@ -1,0 +1,605 @@
+{
+  "groupCode": "4102",
+  "groupName": "组织和安排教育、文化、娱乐等活动",
+  "classCode": "41",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "组织教育或娱乐竞赛",
+          "code": "410010",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "安排和组织学术讨论会",
+          "code": "410044",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "安排和组织会议",
+          "code": "410045",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "安排和组织大会",
+          "code": "410046",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "组织文化或教育展览",
+          "code": "410051",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "组织体育比赛",
+          "code": "410059",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "安排和组织专家讨论会",
+          "code": "410070",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "安排和组织专题研讨会",
+          "code": "410072",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "安排和组织培训班",
+          "code": "410076",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "安排选美竞赛",
+          "code": "410077",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "组织舞会",
+          "code": "410082",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "组织表演（演出）",
+          "code": "410083",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "安排和组织音乐会",
+          "code": "410185",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "为娱乐目的组织时装表演",
+          "code": "410188",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "安排和组织现场教育论坛",
+          "code": "410203",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "组织角色扮演娱乐活动",
+          "code": "410215",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "组织电子竞技比赛",
+          "code": "410231",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "安排和举办娱乐活动",
+          "code": "410242",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "安排和举办体育赛事",
+          "code": "410243",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "举办博物馆展览",
+          "code": "410248",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "组织动物赛跑活动",
+          "code": "410257",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "安排动物选美比赛",
+          "code": "410258",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "安排和举办商务会议",
+          "code": "410267",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "为娱乐组织时装展览",
+          "code": "C410003",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "组织电子竞技游戏比赛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "组织和安排高校体育竞赛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "组织和安排高校体育赛事",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "组织和举办花样滑冰锦标赛和比赛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "组织和举办速度滑冰锦标赛和比赛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "组织文化活动",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "安排专家讨论会",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "安排和组织教育会议",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "组织拳击比赛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "组织赛马",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "组织自行车比赛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "组织足球比赛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "安排运动竞赛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "组织专家讨论会",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "组织文化艺术活动",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "组织足球赛事活动",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "组织舞蹈赛事",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "组织钓鱼比赛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "安排足球比赛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "组织肿瘤学领域的专家讨论会",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "组织文化表演",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "组织高尔夫比赛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "组织游戏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "组织棒球比赛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "组织汽车赛事",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "组织划船比赛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "组织相扑摔跤比赛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "安排职业高尔夫比赛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "职业高尔夫比赛的策划",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "组织和安排娱乐展览",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "组织专业高尔夫球竞赛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "组织体育运动竞赛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "主持肿瘤学研讨会",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "舞蹈比赛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "组织、安排和举办赛马",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "组织、安排和举办相扑比赛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "组织、安排和举办足球赛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "安排、举办和组织专家讨论会",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "组织、安排和举办赛船",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "组织、安排和举办拳击比赛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "组织、安排和举办棒球比赛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "组织、安排和举办职业高尔夫锦标赛或比赛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "组织、安排和举办自行车赛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "组织、安排和举办体育比赛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "安排娱乐活动",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "安排并举办计算机游戏竞赛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "安排和组织商务会议",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "组织现场表演",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "举办铁人三项比赛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "举办竞走比赛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "举办马拉松比赛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "举办水球比赛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "举办跑步比赛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "组织、安排和举办高尔夫比赛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "组织、安排和举办乒乓球比赛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "组织、安排和举办篮球比赛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "组织、安排和举办网球比赛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "安排和举办肿瘤学领域的专家研讨会",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "组织自我意识方面的培训班和专家讨论会",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "组织板球比赛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "组织滑雪比赛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "组织游艇比赛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "安排和组织拳击比赛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "安排和组织羽毛球比赛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "安排和举办体育比赛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "组织冰壶比赛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "组织冰球比赛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "组织健美比赛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "利用虚拟现实技术举办艺术展览",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为娱乐目的组织街舞表演",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "组织飞盘比赛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "组织、安排和举办汽车比赛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "组织汽车拉力赛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "举办娱乐活动",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "组织赛车比赛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "组织在线教育和娱乐竞赛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "组织娱乐活动",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为娱乐目的组织拉丁舞表演",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "组织射箭比赛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "组织国际象棋比赛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "组织围棋比赛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "安排和举办青年足球训练项目",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "组织举重比赛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "组织跳水比赛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "组织聚会",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "举办篮球锦标赛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "组织篮球锦标赛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "举办社交娱乐活动",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "组织机器人比赛",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:42.176Z"
+}

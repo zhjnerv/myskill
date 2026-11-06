@@ -1,0 +1,115 @@
+{
+  "groupCode": "0604",
+  "groupName": "铁路用金属材料",
+  "classCode": "06",
+  "notes": [
+    "注：铁路金属材料与0601锚定板类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "铁路转辙器",
+          "code": "060013",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铁路道岔",
+          "code": "060013",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铁路金属材料",
+          "code": "060089",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铁路金属护轨",
+          "code": "060095",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鱼尾形接轨夹（铁路）",
+          "code": "060116",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属轨道",
+          "code": "060129",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "转车盘（铁道）",
+          "code": "060212",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铁路用金属轨枕",
+          "code": "060245",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铁路货车用金属载量规杆",
+          "code": "060326",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "缆索铁道永久导轨用金属材料",
+          "code": "060330",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "止轮器",
+          "code": "C060017",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "铁道防爬器",
+          "code": "C060018",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "铁轨用铸铁材料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铁轨用金属材料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钢轨",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铁路建造用金属材料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铁路用金属枕木",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:36.346Z"
+}

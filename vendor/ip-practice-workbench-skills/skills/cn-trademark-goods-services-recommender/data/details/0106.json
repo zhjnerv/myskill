@@ -1,0 +1,257 @@
+{
+  "groupCode": "0106",
+  "groupName": "化学试剂",
+  "classCode": "01",
+  "notes": [
+    "注：生物化学催化剂与0102第（十七）部分工业淀粉酶，工业用酶制剂，工业用酶，0104第（十九）部分催化剂类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "生物化学催化剂",
+          "code": "010122",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "科学用化学制剂（非医用、非兽医用）",
+          "code": "010177",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非医用、非兽医用化学试剂",
+          "code": "010178",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "实验室分析用化学品（非医用、非兽医用）",
+          "code": "010181",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "实验室分析用化学制剂（非医用、非兽医用）",
+          "code": "010181",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "低温实验制剂",
+          "code": "010221",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非医用、非兽医用诊断制剂",
+          "code": "010243",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "试纸（非医用、非兽医用）",
+          "code": "010259",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "化学试纸",
+          "code": "010278",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "硝酸盐试纸",
+          "code": "010416",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "石蕊试纸",
+          "code": "010419",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非医用、非兽医用生物制剂",
+          "code": "010579",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非医用、非兽医用细菌制剂",
+          "code": "010594",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非医用、非兽医用细菌学研究制剂",
+          "code": "010595",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非医用、非兽医用微生物培养物",
+          "code": "010596",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电泳凝胶",
+          "code": "010650",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "农业生产用种子基因",
+          "code": "010656",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非医用、非兽医用干细胞",
+          "code": "010657",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非医用、非兽医用生物组织培养物",
+          "code": "010658",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非医用、非兽医用微生物制剂",
+          "code": "010680",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非医用、非兽医用佐剂",
+          "code": "010690",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "科学用酵母",
+          "code": "010724",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非医用、非兽医用母乳检测诊断条",
+          "code": "010727",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非医用、非兽医用细菌培养肉汤",
+          "code": "010739",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非医用、非兽医用细菌培养介质",
+          "code": "",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "010739非医用、非兽医用细菌培养基",
+          "code": "010739",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "研究性实验室用诊断制剂",
+          "code": "010740",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非医用、非兽医用病毒",
+          "code": "010742",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "科学用荧光染料",
+          "code": "010748",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "检测游泳池水用化学制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "细胞培养用生物制剂（非医用、非兽医用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "诊断试剂及制剂（医用和兽医用除外）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非医用、非兽医用电泳凝胶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "科学用生物化学制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水产养殖用硝化细菌",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于农业种子制造的生物技术合成基因",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "分析化学用缓冲溶液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非医用、非兽医用细菌培养基010739",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非医用生物化学试剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "科学研究用细胞培养试剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "科学用试剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "科学研究用细胞生长培养基",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:08.380Z"
+}

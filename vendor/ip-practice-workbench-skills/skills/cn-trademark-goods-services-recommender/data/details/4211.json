@@ -1,0 +1,152 @@
+{
+  "groupCode": "4211",
+  "groupName": "提供化学研究服务",
+  "classCode": "42",
+  "notes": [
+    "注：化学研究，化妆品研究与4209技术研究，技术项目研究，科学研究类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "化学分析",
+          "code": "420007",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "化学服务",
+          "code": "420030",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "化学研究",
+          "code": "420031",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "化妆品研究",
+          "code": "420045",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "农用化学品研究服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化学研究和分析",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生物化学研究和分析",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化学分析服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化学研究服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "进行化学分析",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "关于农业化学的专业咨询服务和建议",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化学合成评估服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化学生产方法的开发和测试",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化学分析评估服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生物化学研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化学咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化妆品研究（为他人）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "矿物和油质化验",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "护发制剂领域的科学研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化妆品领域的科学研究咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "流动化学领域的研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化学领域的实验室研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化学领域的研发服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化妆品领域的研发服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化妆品领域的实验室研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生物化学领域的研发",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:47.130Z"
+}

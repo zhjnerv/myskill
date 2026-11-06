@@ -1,0 +1,2366 @@
+{
+  "groupCode": "1001",
+  "groupName": "外科、医疗和兽医用仪器、器械、设备，不包括电子、核子、电疗、医疗用Ｘ光设备、器械及仪器",
+  "classCode": "10",
+  "notes": [
+    "注：1.医疗器械和仪器与1002，1003商品类似；",
+    "2.医用熏蒸设备与 1109 非医用熏蒸设备类似；",
+    "3.医生用器械箱，医疗器械箱与0501轻便药箱（已装药的），急救箱（备好药的）类似；",
+    "4.兽医用器械和工具与0810兽医用刀类似；",
+    "5.医用诊断设备，医学实验室用医用诊断设备与 1003 类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "外科用剪",
+          "code": "100007",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用针",
+          "code": "100008",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "缝合针",
+          "code": "100009",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "子宫托",
+          "code": "100010",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "热气医疗装置",
+          "code": "100011",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用热气颤振器",
+          "code": "100012",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用导管",
+          "code": "100015",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "牲畜助产器",
+          "code": "100027",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "外科手术刀",
+          "code": "100029",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "外科用小手术刀",
+          "code": "100030",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "外科手术探针",
+          "code": "100033",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用插管",
+          "code": "100042",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "冲洗体腔装置",
+          "code": "100044",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "阉割钳",
+          "code": "100049",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "外科仪器和器械",
+          "code": "100054",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医生用器械箱",
+          "code": "100055",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "麻醉仪器",
+          "code": "100057",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "外科手术剪",
+          "code": "100058",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "压迫机（外科用）",
+          "code": "100060",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用滴管",
+          "code": "100061",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "割鸡眼刀",
+          "code": "100062",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "健美按摩设备",
+          "code": "100063",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "外科用刀",
+          "code": "100065",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用恒温箱",
+          "code": "100067",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "柳叶刀（外科用）",
+          "code": "100077",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "注射针管",
+          "code": "100080",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用引流管",
+          "code": "100081",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用探针",
+          "code": "100085",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用泵",
+          "code": "100086",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "验血仪器",
+          "code": "100087",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用滴瓶",
+          "code": "100089",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用钳",
+          "code": "100090",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "胃镜",
+          "code": "100093",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "血球计",
+          "code": "100095",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "皮下注射器",
+          "code": "100097",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "吸入器",
+          "code": "100099",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用注射针筒",
+          "code": "100100",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "泌尿科器械及器具",
+          "code": "100102",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "吹入器",
+          "code": "100103",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用灌肠器",
+          "code": "100104",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用灯",
+          "code": "100108",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用蒸发器",
+          "code": "100109",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "麻醉面罩",
+          "code": "100112",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "按摩器械",
+          "code": "100113",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医疗器械和仪器",
+          "code": "100114",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "敷药用器具",
+          "code": "100115",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医疗器械箱",
+          "code": "100116",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "外科医生用镜",
+          "code": "100118",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "助产器械",
+          "code": "100120",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "检眼计",
+          "code": "100122",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "角膜曲率计",
+          "code": "100122",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "检眼镜",
+          "code": "100123",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "兽医用喂丸器",
+          "code": "100127",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "血压计",
+          "code": "100129",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用石英灯",
+          "code": "100130",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "复苏器",
+          "code": "100135",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "人工呼吸器",
+          "code": "100138",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "人工呼吸设备",
+          "code": "100139",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "外科手术用锯",
+          "code": "100140",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "子宫注射器",
+          "code": "100142",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "阴道冲洗器",
+          "code": "100143",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "听诊器",
+          "code": "100144",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "耳聋治疗设备",
+          "code": "100147",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "手术台",
+          "code": "100150",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用穿刺套管针",
+          "code": "100151",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "尿道探针",
+          "code": "100153",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "尿道注射器",
+          "code": "100154",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "火罐",
+          "code": "100155",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "兽医用器械和工具",
+          "code": "100156",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "振动按摩器",
+          "code": "100158",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用注射器",
+          "code": "100164",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用体育活动器械",
+          "code": "100176",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "早产婴儿保育箱",
+          "code": "100177",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "刷体腔用毛刷",
+          "code": "100178",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医疗分析仪器",
+          "code": "100180",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用测试仪",
+          "code": "100180",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用吸入剂给药装置",
+          "code": "100182",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "肺活量计（医疗器械）",
+          "code": "100197",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用体温计",
+          "code": "100198",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "针灸针",
+          "code": "100199",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用诊断设备",
+          "code": "100201",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "心脏起搏器",
+          "code": "100203",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用电击去心脏纤颤器",
+          "code": "100211",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用光密度计",
+          "code": "100317",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医学实验室用医用诊断设备",
+          "code": "100319",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "（辅助发声用）电子喉",
+          "code": "100324",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用低温治疗设备",
+          "code": "100325",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "兽医用低温治疗设备",
+          "code": "100326",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "牲畜用自动接种疫苗设备",
+          "code": "100345",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用黑头吸出器",
+          "code": "100347",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用粉刺吸出器",
+          "code": "100347",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "脸部按摩滚轮",
+          "code": "100348",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "透析器",
+          "code": "100212",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用导丝",
+          "code": "100213",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用牵引仪器",
+          "code": "100215",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "下体冲洗袋",
+          "code": "100218",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用或治疗用微晶磨皮仪",
+          "code": "100220",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用身体康复仪",
+          "code": "100221",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "脉搏计",
+          "code": "100222",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用支架",
+          "code": "100223",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用示温标签",
+          "code": "100225",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "治疗痤疮用装置",
+          "code": "100228",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用内窥镜摄像头",
+          "code": "100231",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "脑起搏器",
+          "code": "100235",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "植入型皮下给药装置",
+          "code": "100236",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "可生物降解的骨固定植入物",
+          "code": "100237",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用压舌板",
+          "code": "100238",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "吸鼻器",
+          "code": "100239",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "人工呼吸用呼吸面罩",
+          "code": "100242",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用细菌鉴定分析仪",
+          "code": "100244",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用DNA及RNA测试设备",
+          "code": "100245",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用干细胞再生设备",
+          "code": "100246",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "体脂监测仪",
+          "code": "100247",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "人体成分监测仪",
+          "code": "100248",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "外科手术机器人",
+          "code": "100253",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "氢吸入器",
+          "code": "100257",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "胆固醇检测仪",
+          "code": "100267",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "治疗用面罩",
+          "code": "100270",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "血糖仪",
+          "code": "100273",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "吸入器用分隔器",
+          "code": "100276",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用检查台",
+          "code": "100277",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用纳米机器人",
+          "code": "100278",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "治疗中暑用医用冷却装置",
+          "code": "100280",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "治疗失温症用医用冷却装置",
+          "code": "100281",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用制氧气机",
+          "code": "100285",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "糖尿病监测仪",
+          "code": "100292",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "听力计",
+          "code": "100293",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用触觉反馈服",
+          "code": "100294",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用母乳检测装置",
+          "code": "100295",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用毛细管",
+          "code": "100296",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "治疗血栓用药物洗脱支架",
+          "code": "100298",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "治疗血栓用药物涂层支架",
+          "code": "100298",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电动按摩枪",
+          "code": "100300",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用感知神经元头盔",
+          "code": "100301",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用剂量分配器",
+          "code": "100306",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用雾化器",
+          "code": "100307",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用呼吸面罩用过滤器",
+          "code": "100308",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用过滤空气用呼吸器",
+          "code": "100309",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用呼吸面罩",
+          "code": "100310",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用呼吸装置",
+          "code": "100311",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "治疗用磁铁",
+          "code": "100312",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "内置按摩装置的按摩椅",
+          "code": "100314",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "止血缝合器械",
+          "code": "C100001",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "耳鼻喉科器械",
+          "code": "C100002",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "眼科器械",
+          "code": "C100003",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "已杀菌消毒的医疗器械",
+          "code": "C100004",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "输精器",
+          "code": "C100005",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "输血器",
+          "code": "C100006",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "医用熏蒸设备",
+          "code": "C100013",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "医用导管用管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用柔性内窥镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用注射针",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "针灸设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "针灸仪器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "诊视器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "止血钳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "艾灸器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "采集血液样本器械",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "采血器械",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "采血用毛细管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "促进药物吸入的医疗器械",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "骨膜剥离器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "骨盆测量器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "骨牵引器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "骨钳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "刮骨刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "急救用骨盆夹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用电动按摩装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "将药物制剂导入人体的医疗器械",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "经皮气管切开术用医疗器械",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "毛细血管用引流管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "膀胱结石碎石设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "切割组织用医疗器械",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "视网膜镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手术刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手术钳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "输血设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "髓内钉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "外科用穿孔器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "外科用牵引器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "外科用手术钳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "眼压计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "血糖测量设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "胸腔镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用插管用管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用冲洗器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鼻扩张器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "肠道喂食用管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "耳镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "肺叶钳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "刚性气管镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "刚性食管镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "刚性医用内窥镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鼓膜穿刺管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "灌肠器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "脊柱外科用手术器械",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "脊椎牵开器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "脊椎腔注射器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "气管镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "球囊导管（医疗器械）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用球囊导管用充气装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "柔性气管镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "柔性食管镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "乳突牵开器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食管镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "兽医用外科设备和器械",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "外科用夹钳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "外科用钻具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "外科整形用手术器械",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于切割人或动物组织和器官的医用和外科用切割器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于切割人或动物组织和器官的医用和外科用手术刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "足部按摩设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用人体成分分析仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用人体脂肪测量仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用外科设备和器械",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用吸入器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用血液和血液成分过滤器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用一次性皮下注射器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "阴道镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "血氧监测仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "中枢脊髓内钉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "眼部按摩仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "眼科检查设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用和外科用导管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用和外科用腹腔镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用呼吸器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用基因检测设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用鲁尔接口注射器针头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用鲁尔接头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用内窥镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用内窥镜检查设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用皮褶厚度计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于发现反常病毒蛋白质的诊断测试设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "按摩器械（医用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "光瞳间距仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手术用骨锉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "外科手术用铂金烧灼器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗用输液器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗用灌洗器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "妇科用扩张器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用叩诊锤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "尖刮匙",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用红外测温仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "脑积水治疗用瓣膜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用电击去心脏纤颤器用电极",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用缝合伤口器械",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "测量瞳孔距离用瞳孔计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "测量瞳孔反映性刺激用瞳孔计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用喷雾器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宫腔镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "压舌板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用剪刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用纤维内窥镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无针注射器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用手术灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "血液分析仪器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "血压测量仪器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "振动按摩设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手术刀片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "膀胱镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "角膜镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "个人用按摩器械",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "喉镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "套管针",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "一次性注射器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "外科用钉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "注射针",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "外科用器械和仪器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用遥测装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "外科手术镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "心率监视器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "脊椎峡部裂用挂钩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用吸入器（空的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "药物注射装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "脉搏测量装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用切割设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用镊钳起子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "复位钳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "颅内压测量设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "骨干用骨钉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "针压治疗仪器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用心脏除颤器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用体育训练器械",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "带容器的麻醉用插管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用气相色谱仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "血红蛋白计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "矫形用测角仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "内瘘针",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "外科截肢器械",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "灸疗用玻璃罐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "艾灸治疗用医疗器械",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "疫苗自动接种设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动手术刀（外科用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "监测导管用亲水性导线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生物相容性涂层支架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "心脏内导管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "外科手术用钝口刮勺",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "与植物性神经系统反应有关的医疗器械和仪器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用螺旋接头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用氧气吸入器（空的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "外科用器械和工具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "麻醉剂吸入器（空的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "角膜塑形镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子喉（辅助发声）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "视力测定用自动验光仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "敷料钳（外科用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动骨科手术机器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "检查妇女生殖器官的妇科医疗器械",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "心跳测量设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "脚部外科手术用仪器和器械",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用脉搏血氧仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用输血导管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "兽医用阉割器具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "活检针",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "支气管内导管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "心脏除颤电极",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "耳温计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动吸痰器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用氧气面罩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手动吸痰器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "血液辊轴混匀器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用皮肤水分测试仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动洗鼻器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手动洗鼻器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于儿童认知疗法的医疗机器人",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "采血针",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "胎心监测仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用眼底照相机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用电动头皮按摩器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "胸部叩诊器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "尿道扩张器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可植入尿道支架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "外科用拆钉器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用静脉输液港",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商用电动头皮按摩器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "肛门镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "关节镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "体外碎石机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子血压计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "乳头切开刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "吸粘液器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动按摩滚轮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用氧气吸入器（未充氧）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "兽医用弹力去势器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "止鼾牙套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "静脉留置针",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "子宫探针",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "子宫扩张器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "探条（外科用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "刀（外科用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "柔性医用内窥镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用喷雾器（空的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗呼吸系统疾病和症状的医疗器械和设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮肤测试仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "身体组成成分检测仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗呼吸系统疾病和症状用医疗器械和仪器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "身体脂肪监测仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "球囊导管用充气装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "脉搏监测仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗呼吸系统疾病的医疗器械和设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用导线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "眼科手术用外科仪器及器械",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用分析仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "针灸仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "血糖测量仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医疗器械",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "披肩式按摩器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "外科手术锯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "按摩球",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "胰岛素泵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可穿戴式医用生物特征数据监测器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "拔罐疗法用罐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "开睑器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "括约肌切开器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "产钳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "心肺复苏面罩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用胶囊内窥镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "检影镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用高压氧舱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "吻合器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "骨钉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "血液过滤器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "气管导管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用解剖器械",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "静脉输液管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "唇牵开器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "髓内棒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用二氧化碳指示器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "髓内塞",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "中心静脉导管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "兽医用剪牙钳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "兽医用脐带夹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "一次性阴道扩张器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "截石钳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用电动美容按摩器械",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "胰岛素注射器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用听力计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手术灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "呼吸监测仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "尿道导管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮下注射器针头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手术钻",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "静脉输液用瓶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮肤磨削机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "椎间盘修复用医疗设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用冷冻探针",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "气管切开插管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用喉罩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用喷射型注射器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "伤口引流器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用唾液采集器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "体温计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "显微皮肤磨削仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "外科手术针",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手术用头灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "橘皮组织治疗设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于检测和测量抗体水平的免疫化学医学诊断测试仪器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "结肠镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自动体外除颤器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "病毒检测用医疗诊断设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "直肠扩张器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "腕式电子血压计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "植入式心脏复律除颤器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人工心肺机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "血栓检测仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于治疗儿童注意力缺陷的医疗机器人",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于治疗儿童语言障碍的医疗机器人",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于治疗呼吸系统疾病的医疗器械",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用磨皮肤机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗用锻炼机器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "穴位指压按摩垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医疗用颈颅刺激仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "体外肺膜氧合机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "激光消融手术设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非电针灸仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "多模态生物传感理疗设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用金属针",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手术用注射枪",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:43.588Z"
+}

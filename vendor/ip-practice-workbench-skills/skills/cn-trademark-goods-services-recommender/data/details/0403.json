@@ -1,0 +1,223 @@
+{
+  "groupCode": "0403",
+  "groupName": "固体燃料",
+  "classCode": "04",
+  "notes": [
+    "注：跨类似群保护商品：燃料（0402，0403）。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "点火用刨花",
+          "code": "040006",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "引火物",
+          "code": "040007",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "无烟煤",
+          "code": "040008",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "木柴",
+          "code": "040013",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "木炭（燃料）",
+          "code": "040014",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "煤球",
+          "code": "040016",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "泥煤球（燃料）",
+          "code": "040017",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "木质煤",
+          "code": "040018",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "易燃煤球",
+          "code": "040019",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "煤",
+          "code": "040023",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "泥炭（燃料）",
+          "code": "040024",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "燃料*",
+          "code": "040025",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "焦炭",
+          "code": "040031",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "矿物燃料",
+          "code": "040032",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "褐煤",
+          "code": "040062",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "煤屑（燃料）",
+          "code": "040072",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "生物质燃料",
+          "code": "040111",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "水烟炭",
+          "code": "040117",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "用作燃料的木片",
+          "code": "040119",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食品熏制调味用木片",
+          "code": "040120",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "燃料锭块",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "固体燃料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "壁炉用木柴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木炭块",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "熏制食品用木屑",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "固体引燃物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "引火用木",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "甘蔗渣（燃料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "易燃煤球（木炭煤球）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加热用木球燃料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "炭球",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "矿物汽车燃料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木质颗粒燃料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "引火柴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "泥炭块（燃料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "果木炭（燃料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "点火用木片",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:26.377Z"
+}

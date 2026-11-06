@@ -1,0 +1,133 @@
+{
+  "groupCode": "3701",
+  "groupName": "建设、维修信息服务",
+  "classCode": "37",
+  "notes": [
+    "注：本类似群与第九版及以前版本 4217 建筑咨询交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "建筑施工监督",
+          "code": "370031",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "提供建筑信息",
+          "code": "370104",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "提供维修信息",
+          "code": "370105",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "建筑咨询",
+          "code": "370131",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "工程进度查核",
+          "code": "C370001",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "建筑项目管理服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑施工监督的咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "关于建筑物的建筑顾问服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "关于建筑物的建筑咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "关于住宅及建筑物的建筑咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑施工咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑项目的建筑施工监督服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑施工顾问服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑物维护咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "房屋翻建咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑施工咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "不动产项目的建筑施工监督服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑物翻新咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过计算机数据库或互联网提供建筑信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "维修信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑信息",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:12.662Z"
+}

@@ -1,0 +1,79 @@
+{
+  "groupCode": "4005",
+  "groupName": "纸张加工服务",
+  "classCode": "40",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "纸张加工",
+          "code": "400006",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "书籍装订",
+          "code": "400049",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纸张处理",
+          "code": "400061",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "制纸浆机器和设备出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "造纸机器和设备出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸加工机器和设备出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸的脱酸处理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "书籍装订机出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "文件销毁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "文件装订",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制瓦楞纸板用机器出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "瓦楞纸板加工",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:33.844Z"
+}

@@ -1,0 +1,441 @@
+{
+  "groupCode": "0733",
+  "groupName": "建筑、铁道、土木工程用机械",
+  "classCode": "07",
+  "notes": [
+    "注：1.预应力锚具张拉设备与0603预应力锚具类似；",
+    "2. 本类似群与第十版及以前版本 0604 铁路液压养路机具交叉检索；",
+    "3. 本类似群与第七版及以前版本0730石材切割机，0734装载机交叉检索；",
+    "4. 本类似群与第八版及以前版本0753混合机(机器)，搅拌机，粉碎机，粉碎机(机器)交叉检索；",
+    "5. 跨类似群保护商品:搅动机(0709，0723，0733);搅拌机(0709，0723，0733)；粉碎机(0702第(二)部分，0725，0733，0752);混合机(机器)(0709，0723，0733)；碾碎机（0709，0733，0752）。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "搅动机",
+          "code": "070007",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "压路机",
+          "code": "070014",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蒸汽压路机",
+          "code": "070014",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "搅拌机",
+          "code": "070026",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "粉刷机",
+          "code": "070030",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "打浆机",
+          "code": "070044",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "混凝土搅拌机（机器）",
+          "code": "070045",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "沥青制造机",
+          "code": "070050",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "推土机",
+          "code": "070069",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "机器铲",
+          "code": "070070",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "粉碎机",
+          "code": "070153",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "挖掘机",
+          "code": "070184",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "涂焦油机",
+          "code": "070202",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "混合机（机器）",
+          "code": "070267",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "石材加工机",
+          "code": "070301",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铺轨机",
+          "code": "070322",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "筑路机",
+          "code": "070340",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铁路建筑机器",
+          "code": "070383",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "挖掘机（机器）",
+          "code": "070397",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "夯锤（机器）",
+          "code": "070404",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "土方机械",
+          "code": "070417",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "开沟犁",
+          "code": "070458",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "碾碎机",
+          "code": "070561",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "撞锤（机器）",
+          "code": "070562",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "掘土机",
+          "code": "C070244",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "挖沟机",
+          "code": "C070245",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "松土机",
+          "code": "C070246",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "铲运机",
+          "code": "C070247",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "打桩机",
+          "code": "C070248",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "刮泥机",
+          "code": "C070249",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "多用养路机",
+          "code": "C070250",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "灌浆机",
+          "code": "C070251",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "钢筋拨机",
+          "code": "C070252",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "联合抹灰机",
+          "code": "C070253",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "起道机",
+          "code": "C070254",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "混凝土振动器",
+          "code": "C070255",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "石材切割机",
+          "code": "C070381",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "装载机",
+          "code": "C070382",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "水下清淤机",
+          "code": "C070383",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "钢筋切断机",
+          "code": "C070384",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "预应力锚具张拉设备",
+          "code": "C070385",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "夯实机",
+          "code": "C070386",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "铁路液压养路机具",
+          "code": "C070450",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "铲土机",
+          "code": "C070451",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "沥青铺路机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "履带式装载机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "筛砂机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "挖坑机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "挖泥机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "液压挖掘机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "混凝土浇筑机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "混凝土铺路机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电铲",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "拔桩机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "道路用划线机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "滑移装载机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "石材加工用激光打孔机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "液压钳（建筑机器部件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "土压实机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铺路机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用碾碎机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "混凝土搅拌机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "沥青混合机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "开凿路面材料用机械工具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动混凝土振动器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "凿岩钻头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "挖掘机用装载铲斗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "液压绳锯机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动挖掘机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "破碎锤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "混凝土磨平机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "土方机械刀板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "土方机械铲斗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "盾构机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "道路维修机械",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:08.627Z"
+}

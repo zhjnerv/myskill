@@ -1,0 +1,92 @@
+{
+  "groupCode": "3404",
+  "groupName": "吸烟用打火机",
+  "classCode": "34",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "吸烟用打火机",
+          "code": "340007",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "点烟器用气罐",
+          "code": "340008",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "吸烟用打火石",
+          "code": "340027",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "吸烟打火机用火芯",
+          "code": "340044",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "吸烟打火机用丁烷储气筒",
+          "code": "C340004",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "丁烷气（吸烟用）",
+          "code": "C340005",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "香烟打火机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "雪茄用打火机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "香烟打火机套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "吸烟打火机（非汽车用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "吸烟打火机用液化气罐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "吸烟用煤油打火机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非贵金属制吸烟用打火机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属制吸烟用打火机",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:00.384Z"
+}

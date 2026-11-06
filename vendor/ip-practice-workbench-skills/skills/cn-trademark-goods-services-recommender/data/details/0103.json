@@ -1,0 +1,174 @@
+{
+  "groupCode": "0103",
+  "groupName": "放射性元素及其化学品",
+  "classCode": "01",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "锕",
+          "code": "010018",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "镅",
+          "code": "010054",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "核反应堆用燃料",
+          "code": "010087",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "锫",
+          "code": "010115",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "锎",
+          "code": "010142",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "镄",
+          "code": "010159",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "核反应堆减速材料",
+          "code": "010179",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "可裂变的化学元素",
+          "code": "010180",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "锔",
+          "code": "010226",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "重水",
+          "code": "010253",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "核能用可裂变物质",
+          "code": "010297",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "钫",
+          "code": "010314",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "工业用同位素",
+          "code": "010369",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "镎",
+          "code": "010402",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "钚",
+          "code": "010442",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "钋",
+          "code": "010443",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "钷",
+          "code": "010450",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "镤",
+          "code": "010451",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "科学用放射性元素",
+          "code": "010456",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "科学用镭",
+          "code": "010458",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "钍",
+          "code": "010535",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铀",
+          "code": "010542",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "氧化铀",
+          "code": "010543",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "镭",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "原子堆用燃料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加工过的铀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "天然铀",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:06.680Z"
+}

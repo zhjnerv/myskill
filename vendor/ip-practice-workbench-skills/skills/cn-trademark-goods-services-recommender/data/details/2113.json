@@ -1,0 +1,255 @@
+{
+  "groupCode": "2113",
+  "groupName": "未加工或半加工玻璃（不包括建筑用玻璃）",
+  "classCode": "21",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "水晶（玻璃制品）",
+          "code": "210098",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "装饰用玻璃粉",
+          "code": "210114",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非建筑用彩饰玻璃",
+          "code": "210119",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "玻璃板（原材料）",
+          "code": "210143",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "未加工或半加工玻璃（建筑用玻璃除外）",
+          "code": "210149",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非绝缘、非隔热、非隔音用玻璃棉",
+          "code": "210152",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非建筑用玻璃马赛克",
+          "code": "210161",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "乳白玻璃",
+          "code": "210166",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "半透明玻璃",
+          "code": "210167",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "含有电导体丝的玻璃",
+          "code": "210229",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具用窗玻璃（半成品）",
+          "code": "210231",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非纺织用石英纤维",
+          "code": "210283",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非绝缘、非隔热、非隔音、非纺织用玻璃纤维",
+          "code": "210284",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非纺织用玻璃纤维线",
+          "code": "210286",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非建筑用石英玻璃（半成品）",
+          "code": "210308",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非建筑用磨砂玻璃",
+          "code": "210451",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "不碎玻璃",
+          "code": "C210048",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "钢化玻璃",
+          "code": "C210049",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "半加工玻璃管",
+          "code": "C210051",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "玻璃条（非建筑用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非建筑用彩色玻璃板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非建筑用发光玻璃",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非建筑用改性玻璃薄板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非建筑用钢化玻璃",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非建筑用夹层平板玻璃",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非建筑用普通平板玻璃",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非建筑用装饰玻璃",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工或半加工玻璃（非建筑用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含有电导体丝的玻璃（非建筑用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非建筑用平板压花玻璃",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "半加工玻璃（建筑用玻璃除外）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工的运载工具用窗玻璃",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非建筑用夹丝玻璃板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工或半加工玻璃（建筑玻璃除外）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "发光玻璃（非建筑用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "车窗用玻璃（粗加工的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "夹层平板玻璃（非建筑用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非建筑用改性平板玻璃",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非建筑物用普通玻璃",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非建筑物用彩色窗玻璃",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "装饰玻璃（非建筑物用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非纺织用矽玻璃纤维",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "合成灵敏导电玻璃",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非纺织用玻璃纤维",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:54.714Z"
+}

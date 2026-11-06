@@ -1,0 +1,34 @@
+{
+  "groupCode": "2409",
+  "groupName": "特殊用布",
+  "classCode": "24",
+  "notes": [
+    "注：本类似群各部分之间商品不类似。"
+  ],
+  "sections": [
+    {
+      "label": "（一）",
+      "items": [
+        {
+          "name": "伊斯兰教隐士用龛（布）",
+          "code": "240073",
+          "type": "standard",
+          "section": "（一）"
+        }
+      ]
+    },
+    {
+      "label": "（二）",
+      "items": [
+        {
+          "name": "哈达",
+          "code": "C240048",
+          "type": "standard",
+          "section": "（二）"
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [],
+  "crawledAt": "2026-06-09T18:59:05.851Z"
+}

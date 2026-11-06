@@ -1,0 +1,132 @@
+{
+  "groupCode": "3709",
+  "groupName": "船只建造和维修服务",
+  "classCode": "37",
+  "notes": [
+    "注：1.跨类似群保护服务：运载工具加润滑油服务（3707，3708，3709） ，运载工具清洗服务（3707，3708，3709） ，运载工具上光服务（3707，3708，3709） ，运载工具防锈处理服务（3707，3708，3709） ，运载工具保养服务（3707，3708，3709） ，运载工具清洁服务（3707，3708，3709） ，运载工具故障修理服务（3707，3708，3709） ，运载工具电池充电服务（3707，3708，3709），电动运载工具充电服务（3707，3708，3709），运载工具的外部、内部和机械部件的定制安装（调校）（3707，3708，3709），电动运载工具充电站的预订（3707，3708，3709），电动运载工具电池更换服务（3707，3708，3709）",
+    "2.船只建造与4016类似；"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "船只建造",
+          "code": "370021",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具加润滑油服务",
+          "code": "370049",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具清洗服务",
+          "code": "370055",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具上光服务",
+          "code": "370072",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具防锈处理服务",
+          "code": "370082",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具保养服务",
+          "code": "370085",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具清洁服务",
+          "code": "370087",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具故障修理服务",
+          "code": "370089",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具电池充电服务",
+          "code": "370137",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电动运载工具充电服务",
+          "code": "370151",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具的外部、内部和机械部件的定制安装（调校）",
+          "code": "370155",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电动运载工具充电站的预订",
+          "code": "370176",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电动运载工具电池更换服务",
+          "code": "370179",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "军舰建造服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "船舶拆解",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "船舶修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建造定制的船舶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "邮轮建造",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "船舶清洗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "船舶清洁",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:17.428Z"
+}

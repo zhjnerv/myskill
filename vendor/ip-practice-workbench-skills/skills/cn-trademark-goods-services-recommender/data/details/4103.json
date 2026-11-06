@@ -1,0 +1,94 @@
+{
+  "groupCode": "4103",
+  "groupName": "图书馆服务",
+  "classCode": "41",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "出借书籍的图书馆",
+          "code": "410023",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "流动图书馆",
+          "code": "410041",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "多媒体图书馆服务",
+          "code": "410235",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "文学和文献纪录参考图书馆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "出借书籍和其他出版物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "出借图书",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "图书出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "出借书籍和杂志",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "杂志出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "文献和纪录片的参考书图书馆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数字图书馆服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "出借电子书籍的图书馆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "在线图书馆服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "即通过在线计算机网络提供以报纸、杂志、照片和图片为特色的电子图书馆服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "研究图书馆服务",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:42.773Z"
+}

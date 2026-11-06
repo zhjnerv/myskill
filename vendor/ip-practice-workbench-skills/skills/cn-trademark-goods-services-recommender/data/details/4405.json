@@ -1,0 +1,170 @@
+{
+  "groupCode": "4405",
+  "groupName": "单一服务",
+  "classCode": "44",
+  "notes": [
+    "注：1.本类似群为单一服务，各自然段间互不类似；",
+    "2.第一自然段与第十二版及以前版本 4401 已接受服务验光服务，第七版及以前版本4227 眼镜行交叉检索；",
+    "3.卫生设备出租与第七版及以前版本4227卫生设备出租交叉检索；",
+    "4.验光服务与 4401 第（一）部分类似。",
+    "5.眼镜出租，太阳镜出租与第十二版及以前版本4503 非视力矫正用时尚眼镜的出租，非视力矫正用时尚太阳镜的出租交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "配镜服务",
+          "code": "C440006",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "卫生设备出租",
+          "code": "440188",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "为残障人士提供服务性动物",
+          "code": "440250",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "验光服务",
+          "code": "440266",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "眼镜出租",
+          "code": "440272",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "视力矫正用眼镜的出租",
+          "code": "440272",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "视力矫正用太阳镜的出租",
+          "code": "440275",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "太阳镜出租",
+          "code": "440275",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "便携式卫生间出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "配眼镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "配隐形眼镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "助听器验配服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "毛巾的出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "在眼镜行提供验光配镜服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "眼镜行提供的验光服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "眼镜验光",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "眼镜验光服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "验光",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "验光(非医用目的)",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "验光配镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "验光师提供的验光配镜服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "上门验光服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过计算机网络在线提供的配镜服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可移动盥洗室出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "坐浴澡盆出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "验光咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为残疾人提供服务性动物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "树苗种植",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:58.676Z"
+}

@@ -1,0 +1,48 @@
+{
+  "groupCode": "2702",
+  "groupName": "地席",
+  "classCode": "27",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "垫席*",
+          "code": "270006",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "苇席",
+          "code": "270009",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "草席垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "带花卉图案的草席",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "草席",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "地席",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:21.980Z"
+}

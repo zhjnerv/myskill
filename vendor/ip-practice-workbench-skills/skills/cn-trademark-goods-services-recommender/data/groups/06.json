@@ -1,0 +1,122 @@
+[
+  {
+    "groupCode": "0601",
+    "groupName": "普通金属及其合金、板、各种型材（不包括焊接及铁路用金属材料）",
+    "classCode": "06"
+  },
+  {
+    "groupCode": "0602",
+    "groupName": "普通金属管及其配件",
+    "classCode": "06"
+  },
+  {
+    "groupCode": "0603",
+    "groupName": "金属建筑材料，可移动金属建筑物（不包括建筑小五金）",
+    "classCode": "06"
+  },
+  {
+    "groupCode": "0604",
+    "groupName": "铁路用金属材料",
+    "classCode": "06"
+  },
+  {
+    "groupCode": "0605",
+    "groupName": "非电气用缆索和金属线、网、带",
+    "classCode": "06"
+  },
+  {
+    "groupCode": "0606",
+    "groupName": "缆绳用非电气金属附件",
+    "classCode": "06"
+  },
+  {
+    "groupCode": "0607",
+    "groupName": "钉及标准紧固件",
+    "classCode": "06"
+  },
+  {
+    "groupCode": "0608",
+    "groupName": "家具及门窗的金属附件",
+    "classCode": "06"
+  },
+  {
+    "groupCode": "0609",
+    "groupName": "日用五金器具",
+    "classCode": "06"
+  },
+  {
+    "groupCode": "0610",
+    "groupName": "非电子锁",
+    "classCode": "06"
+  },
+  {
+    "groupCode": "0611",
+    "groupName": "保险箱柜",
+    "classCode": "06"
+  },
+  {
+    "groupCode": "0612",
+    "groupName": "金属器具，金属硬件（非机器零件）",
+    "classCode": "06"
+  },
+  {
+    "groupCode": "0613",
+    "groupName": "金属容器",
+    "classCode": "06"
+  },
+  {
+    "groupCode": "0614",
+    "groupName": "金属标牌",
+    "classCode": "06"
+  },
+  {
+    "groupCode": "0615",
+    "groupName": "动物用金属制品",
+    "classCode": "06"
+  },
+  {
+    "groupCode": "0616",
+    "groupName": "焊接用金属材料（不包括塑料焊丝）",
+    "classCode": "06"
+  },
+  {
+    "groupCode": "0617",
+    "groupName": "锚，停船用金属浮动船坞，金属下锚桩",
+    "classCode": "06"
+  },
+  {
+    "groupCode": "0618",
+    "groupName": "手铐，金属制身份鉴别手环",
+    "classCode": "06"
+  },
+  {
+    "groupCode": "0619",
+    "groupName": "（测气象或风力的）金属风标",
+    "classCode": "06"
+  },
+  {
+    "groupCode": "0620",
+    "groupName": "金属植物保护器",
+    "classCode": "06"
+  },
+  {
+    "groupCode": "0621",
+    "groupName": "捕野兽陷阱",
+    "classCode": "06"
+  },
+  {
+    "groupCode": "0622",
+    "groupName": "普通金属艺术品，青铜（艺术品）",
+    "classCode": "06"
+  },
+  {
+    "groupCode": "0623",
+    "groupName": "矿石，矿砂",
+    "classCode": "06"
+  },
+  {
+    "groupCode": "0624",
+    "groupName": "金属棺（埋葬用），金属棺材扣件，棺材用金属器材",
+    "classCode": "06"
+  }
+]

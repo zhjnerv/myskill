@@ -1,0 +1,896 @@
+{
+  "groupCode": "0742",
+  "groupName": "金属切削机床，切削工具和其他金属加工机械",
+  "classCode": "07",
+  "notes": [
+    "注：1.本类似群各部分之间商品不类似；",
+    "2.链锯，带锯，圆锯片（机器零件），龙锯，截锯（机器零件），往复锯与0703锯条（机器部件），机锯（机器）类似，与第九版及以前版本0703锯条（机器零件）交叉检索；",
+    "3.砂轮（机器部件）与0801各种砂轮类似；",
+    "4.本类似群第（一）部分与第八版及以前版本的0735整修机交叉检索；",
+    "5.跨类似群保护商品：整形机（0735，0742第（一）部分）；整修机（机械加工装置）（0735，0742第（一）部分）；金属加工机械（0735；0736；0742第（一）部分）。"
+  ],
+  "sections": [
+    {
+      "label": "（一）",
+      "items": [
+        {
+          "name": "工业用尺寸可调切割机",
+          "code": "070013",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "罩套（机器部件）",
+          "code": "070040",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "机械台架",
+          "code": "070041",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "攻丝机",
+          "code": "070062",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "外壳（机器部件）",
+          "code": "070075",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "防护装置（机器部件）",
+          "code": "070075",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "机罩（机器部件）",
+          "code": "070075",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "刀（机器部件）",
+          "code": "070080",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "铣床",
+          "code": "070090",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "吊架（机器部件）",
+          "code": "070092",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "车床",
+          "code": "070098",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "弯曲机",
+          "code": "070104",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "剪削刀（机器）",
+          "code": "070122",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "钻头（机器部件）",
+          "code": "070125",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "切割机",
+          "code": "070146",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "整修机（机械加工装置）",
+          "code": "070159",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "冲切攻丝机",
+          "code": "070167",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "螺母攻丝机",
+          "code": "070167",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "进料器（机器部件）",
+          "code": "070176",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "金属拉丝机",
+          "code": "070183",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "刀片（机器部件）",
+          "code": "070189",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "精加工机器",
+          "code": "070193",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "夹盘（机器部件）",
+          "code": "070194",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "填料箱（机器部件）",
+          "code": "070198",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "开槽机（机床）",
+          "code": "070208",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "磨刀机",
+          "code": "070225",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "机床",
+          "code": "070243",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "金属加工机械",
+          "code": "070258",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "磨床",
+          "code": "070263",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "刀具（机器部件）",
+          "code": "070285",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "机床用夹持装置",
+          "code": "070286",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "抛光机器和设备（电动的）",
+          "code": "070308",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "刨床",
+          "code": "070321",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "整形机",
+          "code": "070326",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "机器台",
+          "code": "070359",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "机器防护挡板（机器部件）",
+          "code": "070360",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "机床防护板",
+          "code": "070360",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "磨利机",
+          "code": "070387",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "砂轮（机器部件）",
+          "code": "070389",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "磨刀轮（机器部件）",
+          "code": "070389",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "自动操作机（机械手）",
+          "code": "070421",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "工业机器人",
+          "code": "070422",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "钻头夹盘（机器部件）",
+          "code": "070428",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "刻度机",
+          "code": "070448",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "链锯",
+          "code": "070484",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "气动切削吹管",
+          "code": "070486",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "划玻璃刀（机器部件）",
+          "code": "070494",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "工业机器人用自动换刀装置",
+          "code": "070614",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "电火花加工机（EDM）",
+          "code": "070615",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "金属加工用加工中心",
+          "code": "070616",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "制钢丝绳机",
+          "code": "C070296",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "织铜网机",
+          "code": "C070297",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "金属丝织机",
+          "code": "C070298",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "钻床",
+          "code": "C070299",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "气门与气门座研磨机",
+          "code": "C070300",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "滚齿机",
+          "code": "C070301",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "开齿机",
+          "code": "C070302",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "螺帽攻丝机",
+          "code": "C070303",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "螺栓套丝机",
+          "code": "C070304",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "镗床",
+          "code": "C070305",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "制钉机",
+          "code": "C070307",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "车刀",
+          "code": "C070309",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "孔加工刀具",
+          "code": "C070310",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "铣刀（机器部件）",
+          "code": "C070311",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "螺纹加工刀具",
+          "code": "C070312",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "齿轮加工刀具",
+          "code": "C070313",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "拉削刀具",
+          "code": "C070314",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "带锯",
+          "code": "C070315",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "圆锯片（机器零件）",
+          "code": "C070316",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "龙锯",
+          "code": "C070317",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "截锯（机器零件）",
+          "code": "C070318",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "往复锯",
+          "code": "C070319",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "气铣",
+          "code": "C070394",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "刀座（机器部件）",
+          "code": "C070438",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "水射流切割机",
+          "code": "C070453",
+          "type": "marked",
+          "section": "（一）"
+        }
+      ]
+    },
+    {
+      "label": "（二）",
+      "items": [
+        {
+          "name": "制造电线、电缆用机械",
+          "code": "C070291",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "拉线机",
+          "code": "C070292",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "绕线机（加工电线、电缆用机械）",
+          "code": "C070293",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "装铠机",
+          "code": "C070294",
+          "type": "standard",
+          "section": "（二）"
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "螺旋伞齿轮研磨机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "内表面磨床",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铣钻床",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "渐开线磨床",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属加工用珩磨机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属加工用机床",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "齿轮切削和修整机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动链锯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电锯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工具磨床",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属线材成型机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属锯床",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属拉线机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用机械臂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铰床",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属加工机械用刀头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属加工用插床",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属加工用车床",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属加工用管磨机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属加工用剪切机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属加工用精研机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属加工用拉床",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属加工用磨床",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属加工用刨床",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属加工用切割机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属加工用镗床",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属加工用弯曲机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属加工用铣床",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属加工用钻床",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "切割设备（机器部件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属加工机械的刀夹（机器部件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属线材挤压成型机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制钥匙机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "定心钻头（机器部件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电钻卡盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "线材卷绕机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电钻的钻头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动碾磨机用页盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "砂带打磨机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "旋转磨床",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "配钥匙机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铣床用铣刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "螺纹磨床",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "齿轮刀具（机械工具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "喷砂装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "摇臂钻",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铣刀（机械工具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "螺纹梳刀（机械工具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "动力驱动的磨光器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "螺纹铣刀（机械工具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动角磨机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动抛光机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电钻用钻头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钻头刃磨机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "立铣刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "喷砂机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抛丸清理机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "刨槽机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "角磨机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电缆绕线机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "切割机（金属加工用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铣床（金属加工用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "精研机（金属加工用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "拉削刀（机械工具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "刨削机（金属加工）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "珩磨机（金属加工机械）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "磨床（金属加工）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "剪切机（金属加工用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "车床（金属加工）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "拉床（机器）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "滑雪橇用电动磨利机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钻孔机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机床用模具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电砂轮机用砂轮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "模切机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电钻用钻头夹盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属加工用组合加工中心机床",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "与机床配套使用的硬质合金刀尖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铣削机器人",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:13.884Z"
+}

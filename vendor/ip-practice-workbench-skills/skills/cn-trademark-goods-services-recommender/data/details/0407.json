@@ -1,0 +1,35 @@
+{
+  "groupCode": "0407",
+  "groupName": "能源",
+  "classCode": "04",
+  "notes": [
+    "注：本类似群与第八版及以前版本0117交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "电能",
+          "code": "040106",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "核聚变产生的能源",
+          "code": "C040027",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "电",
+          "code": "C040028",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [],
+  "crawledAt": "2026-06-09T18:56:28.727Z"
+}

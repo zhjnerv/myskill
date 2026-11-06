@@ -1,0 +1,63 @@
+{
+  "groupCode": "3508",
+  "groupName": "单一服务",
+  "classCode": "35",
+  "notes": [
+    "注：1.本类似群为单一服务，各自然段间互不类似；",
+    "2.自动售货机出租与第七版及以前版本4227自动售货机出租，自动售货机租赁交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "自动售货机出租",
+          "code": "350089",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "寻找赞助",
+          "code": "350102",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "销售展示架出租",
+          "code": "350109",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "收银机出租",
+          "code": "350174",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "关于寻找赞助的咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "寻找电竞比赛赞助",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为体育比赛寻找赞助",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "收银机租赁",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:06.279Z"
+}

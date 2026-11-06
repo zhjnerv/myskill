@@ -1,0 +1,1018 @@
+{
+  "groupCode": "1104",
+  "groupName": "烹调及民用电气加热设备（不包括厨房用手工用具，食品加工机器）",
+  "classCode": "11",
+  "notes": [
+    "注：1.本类似群各部分之间商品不类似；",
+    "2.太阳灶与1109太阳能集热器，太阳能收集器类似；",
+    "3.电热水壶，电热水瓶，电开水器与1110饮水机类似；",
+    "4.电热水瓶与2111暖水瓶类似；",
+    "5.电动制酸奶器与第九版及以前版本0709酸奶机交叉检索；",
+    "6.制面包机与第九版及以前版本0709面包机交叉检索；",
+    "7.跨类似群保护商品：冷热饮料机（加热或制冷）（1104第（一）部分，1105）；",
+    "8.第（一）部分与第十一版及以前版本 0723 家用豆浆机交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "（一）",
+      "items": [
+        {
+          "name": "炉用结构框架",
+          "code": "110025",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "面包炉",
+          "code": "110053",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "烤肉铁叉转动器",
+          "code": "110056",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "烤肉铁叉",
+          "code": "110057",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "咖啡豆烘烤机",
+          "code": "110066",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "暖碟器",
+          "code": "110089",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "电炊具",
+          "code": "110107",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "烹饪用炉",
+          "code": "110108",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "加热烹调器",
+          "code": "110108",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "烹调用装置和设备",
+          "code": "110109",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "水果烘烤器",
+          "code": "110159",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "燃气炉",
+          "code": "110161",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "台式烹饪炉",
+          "code": "110170",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "烤面包片机",
+          "code": "110171",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "烤盘（烹饪设备）",
+          "code": "110172",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "烤架（烹饪设备）",
+          "code": "110172",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "烘烤器具",
+          "code": "110172",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "麦芽烘焙器",
+          "code": "110191",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "厨房炉灶（烘箱）",
+          "code": "110204",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "灶环",
+          "code": "110210",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "翻转烤肉器",
+          "code": "110220",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "烤炉",
+          "code": "110230",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "酒精炉",
+          "code": "110247",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "燃气炉托架",
+          "code": "110251",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "烹饪用电高压锅",
+          "code": "110254",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "电加压炊具",
+          "code": "110254",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "奶瓶用电加热器",
+          "code": "110257",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "烘蛋奶饼的电铁模",
+          "code": "110258",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "电咖啡渗滤壶",
+          "code": "110261",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "电咖啡机",
+          "code": "110262",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "便携式烤肉架",
+          "code": "110265",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "电油炸锅",
+          "code": "110266",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "电热水壶",
+          "code": "110303",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "电热制酸奶器",
+          "code": "110312",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "微波炉（厨房用具）",
+          "code": "110317",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "烤面包机",
+          "code": "110329",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "制面包机",
+          "code": "110332",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "加热展示柜",
+          "code": "110335",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "多功能电锅",
+          "code": "110336",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "电蒸锅",
+          "code": "110337",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "制墨西哥薄饼用电饼铛",
+          "code": "110338",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "电巧克力喷泉机",
+          "code": "110341",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "电动真空低温烹调设备",
+          "code": "110348",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "冷热饮料机（加热或制冷）",
+          "code": "110350",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "家用电米糕机",
+          "code": "110352",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "电炉灶",
+          "code": "110354",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "空气炸锅",
+          "code": "110356",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "油炉专用炉芯",
+          "code": "110353",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "电热食品脱水机",
+          "code": "110363",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "USB供电的加热杯垫",
+          "code": "110365",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "蒸古斯古斯饭用电炊具",
+          "code": "110366",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "电塔吉锅",
+          "code": "110368",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "电豆浆机",
+          "code": "110373",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "电咖啡机用空咖啡胶囊",
+          "code": "110374",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "电饮料鼎",
+          "code": "110375",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "装有净水器的咖啡机",
+          "code": "110383",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "电烹饪锅",
+          "code": "110387",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "电热杯",
+          "code": "110393",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "家用电动啤酒酿造设备",
+          "code": "110396",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "熏烤炉（烹饪设备）",
+          "code": "110406",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "电热切肉台",
+          "code": "110407",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "电咖啡壶",
+          "code": "110410",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "电煎锅",
+          "code": "110411",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "电火锅",
+          "code": "110412",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "电熬胶锅",
+          "code": "110413",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "烤饼炉",
+          "code": "C110006",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "沼气灶",
+          "code": "C110007",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "煤油炉",
+          "code": "C110008",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "电铁锅",
+          "code": "C110011",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "太阳灶",
+          "code": "C110054",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "电热水瓶",
+          "code": "110362",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "电开水器",
+          "code": "C110056",
+          "type": "marked",
+          "section": "（一）"
+        }
+      ]
+    },
+    {
+      "label": "（二）",
+      "items": [
+        {
+          "name": "烧烤炉用火山岩石",
+          "code": "110326",
+          "type": "standard",
+          "section": "（二）"
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "对流式烤箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电烤盘（烹饪工具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动煮蛋器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业电饭煲",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用电炸锅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "户外电烧烤架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用电蒸蛋器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "饮料用电加热器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制浓缩咖啡的电咖啡机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电磁炉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电暖碟器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用木炭烤炉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "咖啡豆烘烤炉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烤鱼炉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "奶瓶电温热器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烹饪用微波炉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商用烹饪炉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无油电炸锅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烹饪烤箱用烤肉铁叉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用非电烹饪加热器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动制意式三明治机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电烤架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "煤气灶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电饭煲",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动咖啡豆烘烤机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动咖啡机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动面包机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动制酸奶机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电炖锅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烧烤用烤架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电灶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用电烹饪锅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用烤箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用微波炉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用电饭锅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用电烤箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用电水壶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "油炸机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动三明治烤箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动三明治机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "燃气烤炉（家用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用燃油灶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用电厨灶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电磁炉（家用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "野外烧烤用熏烤炉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "燃气烤肉架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食物电保温器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "室内电烤架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电热咖啡壶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "煮拉面用电动炊具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电陶炉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电热俄式茶炊",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "炉用构架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "炉用金属框架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽油炉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电热翻转烤肉器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烹饪炉（家用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电茶壶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电烹饪炉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用电煮蛋器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蔬菜电蒸锅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电翻转烤肉器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有过滤装置的电咖啡壶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电焖烧锅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电热砂锅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电慢炖锅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烧烤炉用陶瓷烧烤石",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电平底高压锅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电压力锅（高压锅）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烹调器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "面包烘焙机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用电烤炉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电炒锅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烤三明治机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电高压锅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烘箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无线电咖啡壶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可折叠电热水壶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电煮蛋机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无线电热水壶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电热暖杯器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烹饪用太阳能烧烤架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烹饪烤箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氮气咖啡机（电）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电烤面包器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电烤盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "比萨饼烤箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "燃气烤盘（烹饪设备）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用电烹饪炉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电烤炉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烤面包器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "野餐烧烤用火山岩石",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烹饪灶具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用电烹饪锅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用自动制面包机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用电烹饪烤箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用电豆浆机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用电烤面包片机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电烤面包片机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电炒菜锅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电热泡茶机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电力泡茶壶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电煎蛋锅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用电泡茶机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用电热保温烧水壶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电薄烤饼煎锅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电黄油锅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "平底电奶锅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "USB供电的电热杯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电烤箱",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:51.238Z"
+}

@@ -1,0 +1,480 @@
+{
+  "groupCode": "3002",
+  "groupName": "茶、茶饮料",
+  "classCode": "30",
+  "notes": [
+    "注：1.本类似群各部分之间商品不类似；",
+    "2.第（二）部分与 2907 第二自然段，3001 加奶可可饮料，加奶咖啡饮料，加奶巧克力饮料，咖啡饮料，可可饮料，巧克力饮料，3202 类似，与第十一版及以前版本3001 含牛奶的巧克力饮料，第十版及以前版本 2907 马或骆驼乳酒（奶饮料），乳酒（牛奶饮料），3011 豆浆，豆汁交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "（一）",
+      "items": [
+        {
+          "name": "茶*",
+          "code": "300037",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "用作茶叶代用品的花或叶",
+          "code": "300221",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "昆布茶",
+          "code": "300281",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "草本茶*",
+          "code": "300294",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "红茶",
+          "code": "C300146",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "绿茶",
+          "code": "C300147",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "乌龙茶",
+          "code": "C300148",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "黄茶",
+          "code": "C300149",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "黑茶",
+          "code": "C300150",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "白茶",
+          "code": "C300151",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "茉莉花茶",
+          "code": "C300152",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "铁观音茶",
+          "code": "C300153",
+          "type": "marked",
+          "section": "（一）"
+        }
+      ]
+    },
+    {
+      "label": "（二）",
+      "items": [
+        {
+          "name": "冰茶（茶饮料）",
+          "code": "300186",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "茶饮料",
+          "code": "300187",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "甘菊茶饮料",
+          "code": "300248",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "加奶的茶饮料",
+          "code": "300292",
+          "type": "standard",
+          "section": "（二）"
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "格雷伯爵茶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "大麦茶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "椴树花茶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加甜味剂的无茶碱茶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非医用草本茶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "果味茶饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无茶碱茶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "以茶为主的饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "速溶茶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无咖啡碱且带增甜剂的茶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "糙米茶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "玫瑰果茶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "薄荷茶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "洋甘菊茶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "速溶红茶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "速溶绿茶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "发酵茶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "速溶乌龙茶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "速溶白茶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "荞麦茶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "袋泡茶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铁观音茶饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "英式红茶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "黄茶饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "花茶茶饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "速溶黄茶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "茶饮料（含柚子味）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "黑茶饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抹茶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "全发酵茶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "速溶黑茶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "青茶饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "以植物花为原料的茶叶代用品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "玫瑰花茶饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "速溶青茶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "茶饮料（香草味）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "莓茶（用作茶叶代用品的显齿蛇葡萄叶）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "乌龙茶（中国茶）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "荷叶茶（用作茶叶代用品的花或叶）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "茶叶制的茶粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "花草口味的茶饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "柳叶茶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "榆叶茶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "调味花香乌龙茶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "白茶饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "薄荷叶茶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "碧螺春茶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "柠檬味红茶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "青茶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "石榴味茶饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水果味茶饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "苦荞茶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "绿茶饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "玫瑰花茶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "乌龙茶饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "香草茶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "袋装茶叶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "调味茶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "红茶饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "花茶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金银花茶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "紧压茶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "半发酵茶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "草本茶饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "茶叶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冲泡用菊花茶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冲泡用枇杷花茶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "香草茶饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加香味的茶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "茶叶粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "茶（大红袍）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冲泡用茶",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:39.627Z"
+}

@@ -1,0 +1,76 @@
+{
+  "groupCode": "3509",
+  "groupName": "药品、医疗用品零售或批发服务",
+  "classCode": "35",
+  "notes": [
+    "注：1.本类似群第一自然段服务与各部分服务均类似；",
+    "2.本类似群各部分之间服务不类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "药用、兽医用、卫生用制剂和医疗用品的零售服务",
+          "code": "350108",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "药用、兽医用、卫生用制剂和医疗用品的批发服务",
+          "code": "350148",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    },
+    {
+      "label": "（一）",
+      "items": [
+        {
+          "name": "药品零售或批发服务",
+          "code": "C350009",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "药用制剂零售或批发服务",
+          "code": "C350010",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "卫生制剂零售或批发服务",
+          "code": "C350011",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "医疗用品零售或批发服务",
+          "code": "C350012",
+          "type": "standard",
+          "section": "（一）"
+        }
+      ]
+    },
+    {
+      "label": "（二）",
+      "items": [
+        {
+          "name": "兽药零售或批发服务",
+          "code": "C350013",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "兽医用制剂零售或批发服务",
+          "code": "C350014",
+          "type": "standard",
+          "section": "（二）"
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [],
+  "crawledAt": "2026-06-09T19:00:06.843Z"
+}

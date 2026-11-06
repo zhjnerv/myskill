@@ -1,0 +1,178 @@
+{
+  "groupCode": "3801",
+  "groupName": "进行播放无线电或电视节目的服务",
+  "classCode": "38",
+  "notes": [
+    "注：本类似群服务项目与3802卫星传送类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "无线电广播",
+          "code": "380003",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电视播放",
+          "code": "380005",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "新闻社服务",
+          "code": "380012",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "有线电视播放",
+          "code": "380021",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "无线广播",
+          "code": "380048",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "互联网广播服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "付费电视节目播放",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "网络广播服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "互联网无线电广播服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有线电视节目播放",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无线电节目播放",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无线电节目广播",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新闻传送",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "信息和其他节目的无线电广播",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卫星电视广播",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过互联网播放节目",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电视节目播放",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "广播设备出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有线广播服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子传送的新闻社服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "借助电视播放信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "播放电视购物节目",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有线电视播放服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "按次付费电视传送服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "在全球通信网络、互联网和无线网络上同步播放电视",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "向新闻报道机构传送新闻",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "音频广播",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数字音频广播",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "视频播送",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过全球计算机网络播放节目",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有线广播播放",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:23.407Z"
+}

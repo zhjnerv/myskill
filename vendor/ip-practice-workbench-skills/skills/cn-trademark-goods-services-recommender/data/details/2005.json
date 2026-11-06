@@ -1,0 +1,208 @@
+{
+  "groupCode": "2005",
+  "groupName": "不属别类的竹、藤、棕、草制品",
+  "classCode": "20",
+  "notes": [
+    "注：1.竹木工艺品与2006软木工艺品类似；",
+    "2.竹篮与 2002 非金属筐类似，与第十二版及以前版本 2002 运输物品用带盖篮，第十版及以前版本 2002 带盖的篮交叉检索;",
+    "3.本类似群与第十版及以前版本 2006 麦秆工艺品交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "未加工或半加工竹子",
+          "code": "200019",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "绣花绷子",
+          "code": "200032",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "个人用扇（非电动）",
+          "code": "200110",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "未加工或半加工的藤",
+          "code": "200133",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "草编织物（草席除外）",
+          "code": "200160",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "稻草编辫状物",
+          "code": "200161",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "稻草制镶边",
+          "code": "200162",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "芦苇（编织用料）",
+          "code": "200178",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "柳条制品",
+          "code": "200199",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "竹帘",
+          "code": "200255",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "扁担",
+          "code": "200265",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "竹编制品（不包括帽、席、垫）",
+          "code": "C200014",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "藤编制品（不包括鞋、帽、席、垫）",
+          "code": "C200015",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "棕编制品（包括棕箱",
+          "code": "",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "不包括席、垫）",
+          "code": "C200016",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "草编制品（不包括鞋、帽、席、垫）",
+          "code": "C200017",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "柳条提篮编织物",
+          "code": "C200018",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "竹工艺品",
+          "code": "C200019",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "竹木工艺品",
+          "code": "C200020",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "麦秆工艺品",
+          "code": "C200026",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "竹篮",
+          "code": "C200021",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "草（编织原料）",
+          "code": "C200042",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "草工艺品",
+          "code": "C200043",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "手持平扇",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "藤条制小雕像",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "藤（未加工或半加工原料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "苇、藤或竹制遮光帘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手持折扇",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "竹制工艺品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工的藤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "半加工的藤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "棕编制品（包括棕箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "不包括席、垫）C200016",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:41.643Z"
+}

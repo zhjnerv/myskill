@@ -1,0 +1,514 @@
+{
+  "groupCode": "3001",
+  "groupName": "咖啡，咖啡代用品，可可",
+  "classCode": "30",
+  "notes": [
+    "注: 1.加奶可可饮料，加奶咖啡饮料，加奶巧克力饮料，咖啡饮料，可可饮料，巧克力饮料与 2907 第二自然段，3002 第（二）部分，3202 类似，与第十版及以前版本 2907 马或骆驼乳酒（奶饮料），乳酒（牛奶饮料），3011 豆浆，豆汁交叉检索；",
+    "2.本类似群与第八版及以前版本 2904 果仁巧克力酱交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "咖啡用调味品",
+          "code": "300010",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "可可",
+          "code": "300024",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "咖啡",
+          "code": "300026",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "未烘烤的咖啡豆",
+          "code": "300027",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "作咖啡代用品的植物制剂",
+          "code": "300028",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "菊苣（咖啡代用品）",
+          "code": "300036",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "加奶可可饮料",
+          "code": "300083",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "加奶咖啡饮料",
+          "code": "300084",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "加奶巧克力饮料",
+          "code": "300085",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "含牛奶的巧克力饮料",
+          "code": "300085",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "咖啡饮料",
+          "code": "300149",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "可可饮料",
+          "code": "300150",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "巧克力饮料",
+          "code": "300151",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "咖啡代用品",
+          "code": "300152",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "巧克力慕斯酱",
+          "code": "300204",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "巧克力抹酱",
+          "code": "300241",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "含坚果的巧克力抹酱",
+          "code": "300242",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "炼奶焦糖酱",
+          "code": "300249",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "已填充的咖啡胶囊",
+          "code": "300286",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "可可替代品",
+          "code": "300297",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "可可粒",
+          "code": "300310",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烘焙过的咖啡豆",
+          "code": "300320",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "麦乳精",
+          "code": "C300001",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "乐口福",
+          "code": "C300002",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "巧克力酱",
+          "code": "C300137",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "速溶咖啡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无咖啡因咖啡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "浓缩咖啡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烘烤过的咖啡豆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "咖啡粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可可粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "热巧克力",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "巧克力粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无咖啡因的咖啡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卡布奇诺咖啡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "咖啡替代品用菊苣和菊苣混合剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "菊苣咖啡混合物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "咖啡精（咖啡代用品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "咖啡提取物（咖啡代用品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "巧克力酱汁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "糖衣咖啡豆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "咖啡制成的饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "咖啡代用品（人造咖啡或用作咖啡的蔬菜制剂）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人食用可可提取物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可可（烘过的、粉末状的、颗粒状的或饮料用的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "磨碎的咖啡豆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "以咖啡为主的饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "以巧克力为主的饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "滤挂式咖啡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纯素热巧克力",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用在面包上的巧克力涂抹酱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可可为主的涂抹酱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加奶的巧克力涂抹酱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "液态浓缩咖啡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "预定剂量的袋装咖啡粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制作好的可可饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "咖啡调味香料（调味品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冻干咖啡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含木糖醇的可可饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "黑咖啡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烘培糕点用可可",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加咖啡的巧克力饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加可可的咖啡饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加巧克力的咖啡饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加入香草的咖啡饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加糖的咖啡饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加香料的咖啡饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冰咖啡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冰镇巧克力饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "滴滤咖啡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "颗粒状咖啡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蒸馏咖啡饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "浓缩可可",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "炭烧咖啡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "研磨咖啡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "热巧克力饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "巧克力热饮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可可酱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烘焙的咖啡豆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "即冲即饮的咖啡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "即溶可可",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "即饮巧克力饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加牛奶的可可饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加压煮出的浓咖啡饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含有牛奶的咖啡饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含有牛奶的巧克力饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烤制咖啡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "颗粒状的咖啡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "脱除咖啡因的咖啡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "磨成粉末的咖啡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "热可可粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "咖啡粉包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人造咖啡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含奶的巧克力饮料",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:39.068Z"
+}

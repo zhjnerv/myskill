@@ -1,0 +1,75 @@
+{
+  "groupCode": "1006",
+  "groupName": "性用品",
+  "classCode": "10",
+  "notes": [
+    "注：本类似群与第九版及以前版本 2006 充气娃娃（非医用性助器）交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "避孕套",
+          "code": "100128",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非化学避孕用具",
+          "code": "100184",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "性爱娃娃",
+          "code": "100219",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "性玩具",
+          "code": "100234",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "植入式避孕器",
+          "code": "100290",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "宫内节育器",
+          "code": "100291",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "子宫帽",
+          "code": "C100012",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "避孕用具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "避孕用子宫帽",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "杀精避孕套",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:46.426Z"
+}

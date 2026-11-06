@@ -1,0 +1,106 @@
+{
+  "groupCode": "2513",
+  "groupName": "单一商品",
+  "classCode": "25",
+  "notes": [
+    "注：1.本类似群各部分之间商品不类似；",
+    "2.本类似群第（二）部分为单一商品，各自然段间互不类似；",
+    "3.婚纱与2501服装类似。"
+  ],
+  "sections": [
+    {
+      "label": "（一）",
+      "items": [
+        {
+          "name": "十字褡",
+          "code": "250035",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "修女头巾",
+          "code": "250084",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "神父左臂上佩戴的饰带",
+          "code": "250098",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "（牧师、神父穿的）白麻布长袍",
+          "code": "250174",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "宗教服装",
+          "code": "C250034",
+          "type": "marked",
+          "section": "（一）"
+        }
+      ]
+    },
+    {
+      "label": "（二）",
+      "items": [
+        {
+          "name": "服装绶带",
+          "code": "250070",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "浴帽",
+          "code": "250158",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "睡眠用眼罩",
+          "code": "250163",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "理发用披肩",
+          "code": "250177",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "剃须围布",
+          "code": "250209",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "婚纱",
+          "code": "C250028",
+          "type": "marked",
+          "section": "（二）"
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "理发店和美容院用防护衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "神职人员穿的长袍",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "尼卡布面纱",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:14.014Z"
+}

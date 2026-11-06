@@ -1,0 +1,965 @@
+{
+  "groupCode": "2807",
+  "groupName": "体操、举重、田径、冰雪及属于本类的其他运动器材",
+  "classCode": "28",
+  "notes": [
+    "注：1.本类似群各部分之间商品不类似；",
+    "2.滑翔伞与1209降落伞类似；",
+    "3.杠铃，举重器具与2805商品类似；",
+    "4.滑板与第八版及以前版本2802滑板（玩具）交叉检索；",
+    "5.第（一）部分与第九版及以前版本 2801 毽子交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "（一）",
+      "items": [
+        {
+          "name": "滑雪板边刃",
+          "code": "280009",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "有舵雪车",
+          "code": "280026",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "体育活动器械",
+          "code": "280043",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "运动铁饼",
+          "code": "280052",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "滑雪板捆绑带",
+          "code": "280066",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "飞镖",
+          "code": "280067",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "杠铃",
+          "code": "280075",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "海豹皮（盖滑雪板用）",
+          "code": "280100",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "冲浪板",
+          "code": "280102",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "滑雪板底部覆盖物",
+          "code": "280109",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "滑雪板",
+          "code": "280110",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "雪橇（体育用品）",
+          "code": "280113",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "帆板",
+          "code": "280126",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "体操器械",
+          "code": "280129",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "击剑用武器",
+          "code": "280130",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "登山套具",
+          "code": "280142",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "滑翔伞",
+          "code": "280146",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "滑板*",
+          "code": "280148",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "跳板（运动器材）",
+          "code": "280150",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "滑水橇",
+          "code": "280152",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "风帆滑水板用挽具",
+          "code": "280167",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "风帆滑水板用桅杆",
+          "code": "280169",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "彩弹枪（体育器具）",
+          "code": "280170",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "彩弹（彩弹枪用弹药）（体育器具）",
+          "code": "280171",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "冲浪板用带",
+          "code": "280172",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "起跑器（体育运动用）",
+          "code": "280174",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "趴板（冲浪板）",
+          "code": "280177",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "拳击用吊袋",
+          "code": "280184",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "弹弓（体育用品）",
+          "code": "280188",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "滑雪单板",
+          "code": "280197",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "上升器（登山设备）",
+          "code": "280201",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "蹦床",
+          "code": "280209",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "撑杆跳高用撑杆",
+          "code": "280210",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "桨式冲浪板",
+          "code": "280226",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "艺术体操用彩带",
+          "code": "280239",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "越野滑轮",
+          "code": "280250",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "滑雪杖",
+          "code": "280251",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "越野滑轮用滑行手杖",
+          "code": "280252",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "瑜伽吊床",
+          "code": "280253",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "钢架雪车",
+          "code": "280260",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "冲浪板专用袋",
+          "code": "280261",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "运动用锥形标志桶",
+          "code": "280266",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "武术用踢靶",
+          "code": "280286",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "瑜伽砖",
+          "code": "280291",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "瑜伽带",
+          "code": "280292",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "瑜伽轮",
+          "code": "280293",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "单杠",
+          "code": "C280051",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "双杠",
+          "code": "C280052",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "高低杠",
+          "code": "C280053",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "平衡木",
+          "code": "C280054",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "双环",
+          "code": "C280055",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "鞍马",
+          "code": "C280056",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "跳箱",
+          "code": "C280057",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "跳跃器",
+          "code": "C280058",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "吊绳",
+          "code": "C280059",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "铅球",
+          "code": "C280060",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "举重器具",
+          "code": "C280061",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "爬杆",
+          "code": "C280062",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "吊环滑车",
+          "code": "C280064",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "藤圈",
+          "code": "C280066",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "体操凳",
+          "code": "C280067",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "助跑器",
+          "code": "C280068",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "倒立台",
+          "code": "C280070",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "体操台",
+          "code": "C280071",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "跳高架",
+          "code": "C280072",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "撑高跳竿",
+          "code": "C280073",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "运动绳（跳绳、拔河绳）",
+          "code": "C280074",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "民族体育运动器具（刀、剑）",
+          "code": "C280078",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "飞盘",
+          "code": "C280080",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "沙箱",
+          "code": "C280081",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "运动负重用沙袋",
+          "code": "C280083",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "毽子",
+          "code": "C280102",
+          "type": "marked",
+          "section": "（一）"
+        }
+      ]
+    },
+    {
+      "label": "（二）",
+      "items": [
+        {
+          "name": "狩猎用哨子",
+          "code": "280180",
+          "type": "standard",
+          "section": "（二）"
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "跳绳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水上运动用板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "接力棒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "剑道用竹剑",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "滑水板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "标枪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冰球练习用弹板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "彩弹（彩弹枪用弹药）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "飞镖镖身",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "飞镖镖翼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "拳击用速度球",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "直立桨式冲浪板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "滑雪单板固定器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "滑雪板套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "跪式滑水板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "举重用杠铃",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "滑板专用包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "滑雪板固定装置用套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "滑板用轮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "吊环",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "武术训练器械",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "标枪（田径用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "滑板（娱乐设备）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "滑雪装备包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "滑雪板箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "滑雪板刃",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "滑雪板绑定装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "剑道用木刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "体操用跳板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "飞镖靶覆盖图",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "滑板桨",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "浅水冲浪板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "单板式滑雪板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "飞镖游戏器具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鞍马（体操用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "击剑用花剑",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "哑铃轴（举重用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "跨栏（田径赛用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "平衡木（体操用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "佩剑（击剑运动用武器）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "风筝帆板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "重剑（击剑用武器）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "径赛用起跑器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高山滑雪板绑定装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "体操训练凳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "哑铃（举重用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "空手道用踢板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "空手道用靶板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "艺术体操专用圈",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "艺术体操专用带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人造攀登墙",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "花剑（剑术用具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "双杠（体育用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "滑雪单板板面",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高山滑雪板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无舵雪橇",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "艺术体操用棒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "艺术体操用带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "武术用手靶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鸟哨",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "尾滑板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "滑水橇捆绑带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "趴板用脚绳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "撑竿跳高用撑竿",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "跆拳道脚靶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "游泳池出发台",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "飞镖杆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "链球",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "拳击台",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "带计数器的跳绳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "艺术体操用绳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "滑雪盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "弹簧推动式矛枪（体育器材）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "滑板支架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "飞镖盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "花式滑水板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铁饼（田径运动用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "杠铃（举重用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "滑雪板固定器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "滑水板固定器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "滑雪杆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "体育运动器械",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "瑜珈板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "滑雪板专用袋280166",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可移动式舞蹈把杆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "击剑用佩剑",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "杠铃卡箍",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马术比赛用障碍",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "杠铃杆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "杠铃片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "滑板砂纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "拳击用手靶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "滑雪板专用包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "体操用鞍马",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "体操用高低杠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "体操用单杠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "体操用平衡木",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "体操用弹跳板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "越野滑雪板捆绑带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "风帆冲浪板",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:27.363Z"
+}

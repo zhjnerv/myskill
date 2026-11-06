@@ -1,0 +1,72 @@
+[
+  {
+    "groupCode": "2901",
+    "groupName": "肉，非活的家禽，野味，肉汁",
+    "classCode": "29"
+  },
+  {
+    "groupCode": "2902",
+    "groupName": "非活水产品",
+    "classCode": "29"
+  },
+  {
+    "groupCode": "2903",
+    "groupName": "罐头食品（软包装食品不包括在内，随原料制成品归组）",
+    "classCode": "29"
+  },
+  {
+    "groupCode": "2904",
+    "groupName": "腌渍、干制水果及果蔬制零食小吃",
+    "classCode": "29"
+  },
+  {
+    "groupCode": "2905",
+    "groupName": "加工过的蔬菜",
+    "classCode": "29"
+  },
+  {
+    "groupCode": "2906",
+    "groupName": "蛋品",
+    "classCode": "29"
+  },
+  {
+    "groupCode": "2907",
+    "groupName": "奶及乳制品",
+    "classCode": "29"
+  },
+  {
+    "groupCode": "2908",
+    "groupName": "食用油脂",
+    "classCode": "29"
+  },
+  {
+    "groupCode": "2909",
+    "groupName": "色拉",
+    "classCode": "29"
+  },
+  {
+    "groupCode": "2910",
+    "groupName": "食用果胶",
+    "classCode": "29"
+  },
+  {
+    "groupCode": "2911",
+    "groupName": "加工过的坚果",
+    "classCode": "29"
+  },
+  {
+    "groupCode": "2912",
+    "groupName": "菌类干制品",
+    "classCode": "29"
+  },
+  {
+    "groupCode": "2913",
+    "groupName": "食物蛋白，豆腐制品",
+    "classCode": "29"
+  },
+  {
+    "groupCode": "2914",
+    "groupName": "肠衣",
+    "classCode": "29"
+  }
+]

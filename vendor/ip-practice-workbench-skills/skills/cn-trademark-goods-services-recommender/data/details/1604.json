@@ -1,0 +1,203 @@
+{
+  "groupCode": "1604",
+  "groupName": "纸板",
+  "classCode": "16",
+  "notes": [
+    "注：本类似群与1601纸类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "纸或纸板制广告牌",
+          "code": "160008",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "卡纸板*",
+          "code": "160075",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "缝纫用型板",
+          "code": "160212",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纸或纸板制告示牌",
+          "code": "160305",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纸或纸板制标志牌",
+          "code": "160327",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "白纸板",
+          "code": "C160035",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "箱纸板",
+          "code": "C160036",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "牛皮纸板",
+          "code": "C160037",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "提花纸板",
+          "code": "C160038",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "过滤纸板",
+          "code": "C160039",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "滤芯纸板",
+          "code": "C160040",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "防水纸板",
+          "code": "C160041",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "雷达纸板",
+          "code": "C160042",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "瓦楞原纸（纸板）",
+          "code": "C160043",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "盲人书籍纸",
+          "code": "C160044",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "缝制女装用印刷型板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "瓦楞纸（瓦楞芯纸）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸板制印刷广告牌",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "瓦楞纸板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "瓦楞卡纸板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "厚纸板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸制印刷广告牌",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸制广告牌",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸板制广告牌",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卡纸（卡纸板）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "包装用卡纸板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "瓦楞纸板用挂面纸板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "缝纫用型板（印刷品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "细料纸板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸制告示牌",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "瓦楞纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸板制告示牌",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "再生纸板",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:12.215Z"
+}

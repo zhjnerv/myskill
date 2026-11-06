@@ -1,0 +1,139 @@
+{
+  "groupCode": "2502",
+  "groupName": "婴儿纺织用品",
+  "classCode": "25",
+  "notes": [
+    "注：1.本类似群商品与2501童装类似；",
+    "2.跨类似群保护商品：服装*（2501，2502，2503，2504，2505）。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "服装*",
+          "code": "250045",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "婴儿裤（内衣）",
+          "code": "250058",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "婴儿全套衣",
+          "code": "250092",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非纸制围涎",
+          "code": "250128",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非纸制带袖围涎",
+          "code": "250182",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "婴儿鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "婴儿裤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "婴儿靴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "婴儿绒线鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "婴儿裤（服装）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "幼儿连体衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "婴幼儿用开裆衫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "婴儿睡衣裤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "婴儿连体衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "婴儿全套服（服装）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "婴儿上衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非纸制婴儿围嘴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "婴儿服装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "婴儿爬行服",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "婴儿全套服",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "婴儿全套衣（服装）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "布围涎",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "婴儿下装",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:08.132Z"
+}

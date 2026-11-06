@@ -1,0 +1,227 @@
+{
+  "groupCode": "3903",
+  "groupName": "陆地运输",
+  "classCode": "39",
+  "notes": [
+    "注：1.第一、二自然段与 3901 货运，运输，物流运输类似；",
+    "2.本类似群与第九版及以前版本 3901 贵重物品的保护运输交叉检索；",
+    "3.第一自然段与3901运送乘客，运送旅客类似。",
+    "4.汽车运输，公共汽车运输，铁路运输，出租车运输，有轨电车运输与3901运送乘客，运送旅客类似"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "汽车运输",
+          "code": "390009",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "公共汽车运输",
+          "code": "390010",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铁路运输",
+          "code": "390018",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "出租车运输",
+          "code": "390058",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "有轨电车运输",
+          "code": "390059",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "装甲车运输",
+          "code": "390062",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "缆车运输",
+          "code": "390128",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "贵重物品的保护运输",
+          "code": "390106",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具故障牵引服务",
+          "code": "390007",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "自助取款机的现金补充",
+          "code": "390113",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "自动售货机的补货",
+          "code": "390115",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "运送贵重物品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "乘客的铁路运输",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "货物的铁路运输",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车应急牵引",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "出租车承运安排",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "单轨铁路运输",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "火车客运",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车营救",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陆路运输",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卡车运输",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "火车货运",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "租用汽车运输",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为坐轮椅者提供出租车运输服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "两轮机动车运输",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运送钱和贵重物品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具（车辆）故障救援牵引服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铁路平车租赁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用卡车运送他人的家具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牵引故障货车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "搬家货车运输",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车或卡车的应急拖车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有保护的卡车运输",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "以飞行常客奖励计划为特色的航空运输服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "货币运输",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过缆车运送乘客",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过公共汽车运送乘客",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铁路货运运输",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卡车货运",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:25.840Z"
+}

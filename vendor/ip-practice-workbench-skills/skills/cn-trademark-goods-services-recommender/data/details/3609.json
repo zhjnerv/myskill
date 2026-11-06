@@ -1,0 +1,29 @@
+{
+  "groupCode": "3609",
+  "groupName": "典当",
+  "classCode": "36",
+  "notes": [
+    "注：典当经纪与第十一版及以前版本3605经纪交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "典当经纪",
+          "code": "360031",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "典当",
+          "code": "360108",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [],
+  "crawledAt": "2026-06-09T19:00:12.092Z"
+}

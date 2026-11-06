@@ -1,0 +1,680 @@
+{
+  "groupCode": "1204",
+  "groupName": "自行车、三轮车及其零部件（不包括轮胎）",
+  "classCode": "12",
+  "notes": [
+    "注：1.本类似群各部分之间商品不类似；",
+    "2.本类似群第（一）部分商品与1211商品类似；",
+    "3.本类似群第（二）部分商品与0808手动打气筒类似；",
+    "4.机动自行车，电动自行车，机动三轮车，电动三轮车，助力车，滑板车（车辆） ，电动代步车（行动迟缓人使用）与 1202 摩托车，踏板摩托车类似，与第九版及以前版本 1203 摩托车交叉检索；",
+    "5.自行车马达与第八版及以前版本0748自行车电机交叉检索；",
+    "6.跨类似群保护商品：电动运载工具(1201，1202，1204第（一）部分，1205，1210)；陆、空、水或铁路用机动运载器（1201，1202，1204第（一）部分，1209，1210）。"
+  ],
+  "sections": [
+    {
+      "label": "（一）",
+      "items": [
+        {
+          "name": "自行车*",
+          "code": "120044",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "自行车撑脚架",
+          "code": "120046",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "挡泥板",
+          "code": "120049",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "自行车链条",
+          "code": "120061",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "自行车车把",
+          "code": "120080",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "自行车传动齿轮",
+          "code": "120085",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "自行车车闸",
+          "code": "120086",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "自行车挡泥板",
+          "code": "120087",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "自行车轮圈",
+          "code": "120088",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "自行车曲柄",
+          "code": "120089",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "自行车马达",
+          "code": "120090",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "自行车车毂",
+          "code": "120091",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "自行车踏板",
+          "code": "120092",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "自行车辐条",
+          "code": "120094",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "自行车车轮",
+          "code": "120095",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "自行车车座",
+          "code": "120096",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "电动运载工具",
+          "code": "120110",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "自行车用护衣装置",
+          "code": "120122",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "送货用三轮脚踏车",
+          "code": "120162",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "三轮脚踏车",
+          "code": "120191",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "陆、空、水或铁路用机动运载工具",
+          "code": "120193",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "机动自行车",
+          "code": "120196",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "自行车车架",
+          "code": "120221",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "自行车座套",
+          "code": "120232",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "自行车车筐",
+          "code": "120248",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "自行车用驮篮",
+          "code": "120254",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "滑板车（车辆）",
+          "code": "120258",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "自行车专用马鞍包",
+          "code": "120268",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "自行车车铃",
+          "code": "120269",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "电动代步车（行动迟缓者使用）",
+          "code": "120281",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "电动自行车",
+          "code": "120297",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "自行车用拖车",
+          "code": "120310",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "自平衡滑板",
+          "code": "120318",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "自平衡电动独轮车",
+          "code": "120319",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "电动滑板",
+          "code": "120339",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "踏板自行车",
+          "code": "120346",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "机动三轮车",
+          "code": "C120017",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "电动三轮车",
+          "code": "C120018",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "助力车",
+          "code": "C120019",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "自平衡车",
+          "code": "120317",
+          "type": "marked",
+          "section": "（一）"
+        }
+      ]
+    },
+    {
+      "label": "（二）",
+      "items": [
+        {
+          "name": "自行车打气筒",
+          "code": "120093",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "自行车轮胎用充气泵",
+          "code": "120093",
+          "type": "standard",
+          "section": "（二）"
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "竞赛用自行车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "送货自行车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "双人自行车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "山地自行车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "公路比赛用自行车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自行车用气泵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自行车车轴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自行车车把套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "旅行自行车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "独轮车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "独轮平衡车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自行车架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自行车链轮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自行车前叉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自行车曲轴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自行车用警示喇叭",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "公路自行车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "折叠自行车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "折叠式电动自行车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动独轮车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自行车行李架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自行车飞轮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自行车刹车操纵闸把",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "二轮摩托车或自行车用打气筒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水上自行车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "脚踏车链条",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自行车、脚踏车车轮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "脚踏车车铃",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自行车辅助轮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自行车用水瓶架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自行车座",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自行车减震器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自行车链罩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动踏板车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可折叠自行车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自行车把手",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "脚踏车辆用驮篮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "脚踏车手闸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自行车尾箱包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动独轮平衡车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动双轮平衡车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机动自行车车把控制装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动自平衡车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自行车支架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自行车、脚踏车用链条",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "脚踏车传动齿轮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "脚踏车车闸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自行车、脚踏车轮圈",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "脚踏车马达",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "脚踏车踏板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "脚踏车辐条",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "脚踏车车座",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自行车、脚踏车用护衣装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "脚踏车",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自行车、脚踏车支架（自行车、脚踏车部件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "滑板车（机动车辆）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动滑板车（电动运载工具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自行车筐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自行车轮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动滑板车（车辆）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动滑板车（电动车辆）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "脚踏车车架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "脚踏车车把",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自行车、脚踏车车把",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自行车、脚踏车车闸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "脚踏车挡泥板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "脚踏车轮圈",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "脚踏车车毂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自行车、脚踏车辐条",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "脚踏车支架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自行车、脚踏车车架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "踏板车（机动车辆）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "脚踏车打气筒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自行车、脚踏车用打气筒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "两轮机动车用挡泥板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自行车链条保护罩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自行车专用携带宠物箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自行车座弧形背靠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自行车车身结构件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自行车轴承",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:59.110Z"
+}

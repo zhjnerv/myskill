@@ -1,0 +1,87 @@
+[
+  {
+    "groupCode": "4001",
+    "groupName": "综合加工及提供信息服务",
+    "classCode": "40"
+  },
+  {
+    "groupCode": "4002",
+    "groupName": "金属材料处理或加工服务",
+    "classCode": "40"
+  },
+  {
+    "groupCode": "4003",
+    "groupName": "纺织品化学处理或加工服务",
+    "classCode": "40"
+  },
+  {
+    "groupCode": "4004",
+    "groupName": "木材加工服务",
+    "classCode": "40"
+  },
+  {
+    "groupCode": "4005",
+    "groupName": "纸张加工服务",
+    "classCode": "40"
+  },
+  {
+    "groupCode": "4006",
+    "groupName": "玻璃加工服务",
+    "classCode": "40"
+  },
+  {
+    "groupCode": "4007",
+    "groupName": "陶器加工服务",
+    "classCode": "40"
+  },
+  {
+    "groupCode": "4008",
+    "groupName": "食物、饮料加工服务",
+    "classCode": "40"
+  },
+  {
+    "groupCode": "4009",
+    "groupName": "剥制加工服务",
+    "classCode": "40"
+  },
+  {
+    "groupCode": "4010",
+    "groupName": "皮革、服装加工服务",
+    "classCode": "40"
+  },
+  {
+    "groupCode": "4011",
+    "groupName": "影像加工处理服务",
+    "classCode": "40"
+  },
+  {
+    "groupCode": "4012",
+    "groupName": "废物处理服务",
+    "classCode": "40"
+  },
+  {
+    "groupCode": "4013",
+    "groupName": "空气调节服务",
+    "classCode": "40"
+  },
+  {
+    "groupCode": "4014",
+    "groupName": "水处理服务",
+    "classCode": "40"
+  },
+  {
+    "groupCode": "4015",
+    "groupName": "单一服务",
+    "classCode": "40"
+  },
+  {
+    "groupCode": "4016",
+    "groupName": "船只定制生产服务",
+    "classCode": "40"
+  },
+  {
+    "groupCode": "4017",
+    "groupName": "航空器定制生产服务",
+    "classCode": "40"
+  }
+]

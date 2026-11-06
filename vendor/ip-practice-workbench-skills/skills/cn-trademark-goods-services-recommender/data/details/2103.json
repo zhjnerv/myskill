@@ -1,0 +1,95 @@
+{
+  "groupCode": "2103",
+  "groupName": "瓷器，陶器（茶具，酒具除外）",
+  "classCode": "21",
+  "notes": [
+    "注：本类似群与 2101 第一自然段，2102玻璃碗，玻璃杯（容器），彩色玻璃器皿，日用玻璃器皿（包括杯、盘、壶、缸）及2105商品类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "家庭用陶瓷制品",
+          "code": "210068",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "瓦器",
+          "code": "210129",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "锡釉陶器",
+          "code": "210157",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "陶制平底锅",
+          "code": "210181",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "瓷器",
+          "code": "210189",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "陶器",
+          "code": "210193",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "日用瓷器（包括盆、碗、盘、壶、餐具、缸、坛、罐）",
+          "code": "C210024",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "日用陶器（包括盆、碗、盘、缸、坛、罐、砂锅、壶、炻器餐具）",
+          "code": "C210025",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "陶瓷支撑球",
+          "code": "C210026",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "耐酸耐碱陶瓷器",
+          "code": "C210027",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "仿瓷器",
+          "code": "C210028",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "仿陶器",
+          "code": "C210029",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "非电动冰淇淋机",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:48.872Z"
+}

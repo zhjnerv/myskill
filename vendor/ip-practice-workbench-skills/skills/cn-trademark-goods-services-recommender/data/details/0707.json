@@ -1,0 +1,99 @@
+{
+  "groupCode": "0707",
+  "groupName": "印染工业用机械",
+  "classCode": "07",
+  "notes": [
+    "注：1.印花花筒雕刻设备与0712压花机类似；",
+    "2.本类似群商品与0706纺织工业用机器类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "上浆机",
+          "code": "070595",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "染色机",
+          "code": "070362",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "丝光机",
+          "code": "C070081",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "烧毛机",
+          "code": "C070082",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "平洗机",
+          "code": "C070083",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "蒸化机",
+          "code": "C070084",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "热风干燥拉幅机",
+          "code": "C070085",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "印染胶辊",
+          "code": "C070086",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "印花花筒雕刻设备",
+          "code": "C070087",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "印花机煮炼锅",
+          "code": "C070088",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "浸染机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纱线烧毛机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺织品拉幅机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺织品染色机",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:52.807Z"
+}

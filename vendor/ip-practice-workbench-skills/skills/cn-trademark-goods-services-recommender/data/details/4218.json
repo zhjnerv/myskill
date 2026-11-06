@@ -1,0 +1,65 @@
+{
+  "groupCode": "4218",
+  "groupName": "服装设计服务",
+  "classCode": "42",
+  "notes": [
+    "注：夜礼服出租，衣服出租，服装租赁，制服出租第八版时移入 4503 类似群。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "服装设计",
+          "code": "420142",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "演出服设计",
+          "code": "420264",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "首饰设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鞋设计服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "时装设计咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "服装设计服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "晚礼服设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺织品设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "时装设计",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:50.624Z"
+}

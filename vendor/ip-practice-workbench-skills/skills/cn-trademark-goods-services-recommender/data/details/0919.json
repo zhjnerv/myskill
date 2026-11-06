@@ -1,0 +1,801 @@
+{
+  "groupCode": "0919",
+  "groupName": "安全救护器具",
+  "classCode": "09",
+  "notes": [
+    "注：1.本类似群与第十一版及以前版本 1706 绝缘手套,第九版及以前版本0916 太平梯,第八版及以前版本 1705 消防队员用石棉掩护物,消防人员用石棉挡板交叉检索;",
+    "2.防水衣与 2504防水服类似；",
+    "3.潜水用耳塞与1004游泳用耳塞类似,与第七版及以前版本1004耳塞交叉检索；",
+    "4.体育用护目镜,护目镜,防昡光眼镜与 0921 商品类似；",
+    "5.救生圈,救生衣与 2809 翼型浮袋,游泳圈,游泳浮力背心类似,与第十版及以前版本 2809 洗澡或游泳用浮囊交叉检索；",
+    "6.干式潜水衣,潜水水母衣,湿式潜水衣与第十一版及以前版本2503滑水防潮服交叉检索；",
+    "7.潜水用鼻夹与 1004游泳用鼻夹类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "防事故、防辐射、防火用服装",
+          "code": "090005",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "防事故用石棉手套",
+          "code": "090034",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "防火石棉衣",
+          "code": "090035",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "头盔用面罩",
+          "code": "090047",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "飞行员防护服",
+          "code": "090070",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "安全头盔",
+          "code": "090112",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非医用呼吸面罩",
+          "code": "090113",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "焊接用头盔",
+          "code": "090114",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "潜水服",
+          "code": "090162",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "太平梯",
+          "code": "090205",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "工人用防护面罩",
+          "code": "090210",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "火星防护罩",
+          "code": "090245",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铁路交通用安全设备",
+          "code": "090254",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "防事故用网",
+          "code": "090259",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "救生网",
+          "code": "090260",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "安全网",
+          "code": "090260",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "救护用防水油布",
+          "code": "090261",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非医用呼吸面罩用过滤器",
+          "code": "090263",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "防事故用手套",
+          "code": "090274",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "潜水员手套",
+          "code": "090275",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "工业用防X光手套",
+          "code": "090276",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "防火服装",
+          "code": "090288",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "救生器械和设备",
+          "code": "090295",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非医用防护面罩*",
+          "code": "090338",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "潜水呼吸器",
+          "code": "090355",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "氧气转储装置",
+          "code": "090377",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "潜水用耳塞",
+          "code": "090401",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "牙齿保护器*",
+          "code": "090414",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非医用X光防护装置",
+          "code": "090422",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非医用过滤空气用呼吸器",
+          "code": "090430",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非医用呼吸装置",
+          "code": "090431",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "救生圈",
+          "code": "090517",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "救生衣",
+          "code": "090546",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "救生带",
+          "code": "090547",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "防弹背心",
+          "code": "090582",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "潜水面罩",
+          "code": "090597",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "工人用护膝垫",
+          "code": "090605",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非运载工具座椅用、非体育设备用安全带",
+          "code": "090621",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "消防毯",
+          "code": "090638",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "防事故、防辐射、防火用鞋",
+          "code": "090645",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "体育用护目镜",
+          "code": "090654",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "潜水用鼻夹",
+          "code": "090655",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "体育用保护头盔",
+          "code": "090656",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "消防人员用石棉挡板",
+          "code": "090689",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "骑马用头盔",
+          "code": "090690",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "实验室用特制服装",
+          "code": "090691",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "防弹衣",
+          "code": "090728",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "自然灾害用救生舱",
+          "code": "090731",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "反光安全背心",
+          "code": "090745",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "体育用护齿",
+          "code": "090752",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "体育用护头",
+          "code": "090753",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "潜水用水下通气管",
+          "code": "090800",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "救生毯",
+          "code": "090815",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "作为安全头盔的头戴物",
+          "code": "090832",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "潜水配重带",
+          "code": "090834",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "搬重物时支撑身体用背带",
+          "code": "090838",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "坠落防护用安全气囊",
+          "code": "090887",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "具有空气净化功能的防尘口罩",
+          "code": "090898",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "防事故用绝缘手套",
+          "code": "090901",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "干式潜水衣",
+          "code": "090903",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "潜水水母衣",
+          "code": "090904",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "湿式潜水衣",
+          "code": "090905",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "防事故、防伤害用摩托车手防护服",
+          "code": "090932",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "防暴盾牌",
+          "code": "090956",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "紧急冲淋器",
+          "code": "090962",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "潜水用呼吸调节器",
+          "code": "090963",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "耐酸手套",
+          "code": "C090113",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "耐酸衣、裙",
+          "code": "C090114",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "护目镜",
+          "code": "C090115",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "防水衣",
+          "code": "C090116",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "耐酸胶鞋",
+          "code": "C090117",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "防火靴（鞋）",
+          "code": "C090118",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "水肺潜水用面具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "消防员用石棉制防护屏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水肺潜水用氧气筒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "体育用头盔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "骑摩托车用头盔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "潜水护目镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "潜水用护目镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "潜水用配重带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "潜水员用浮力补偿装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "犬用救生衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "摩托车头盔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "海上救生服",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "焊接用面罩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "滑板用头盔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "滑雪护目镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "滑雪镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化学防护服",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业安全鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业安全靴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防尘面具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防尘面罩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防尘眼镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防毒面具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防辐射用服装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防护面具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防护面罩用镜片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防护头盔用防护面罩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防护眼镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防火飞行服",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防火手套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防火衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防事故或防伤害用绝缘服装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防事故用服装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防止事故和伤害用的摩托车手防护服",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防撞头盔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "橄榄球用头盔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "安全用护目镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自行车头盔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "雪地护目镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "游泳护目镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水肺潜水用调节器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "游泳面罩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "滑雪头盔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防事故和防火灾用鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防事故或防伤害用防护鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "棒球击球手头盔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "橄榄球头盔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "浮潜呼吸管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "拳击牙套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "火灾逃生梯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动遥控救生圈",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "焊接用护目镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非运载工具座椅、非体育设备用安全带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防火梯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冰球头盔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "潜水用加重带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非医用X光射线防护装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "泳镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "游泳用护目镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水下呼吸式潜水用面罩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非人工呼吸用呼吸面具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "耐火手套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防雾安全护目镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "游泳训练用呼吸管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "航空氧气面罩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防毒面具用过滤器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防事故、防辐射、防火用面罩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "橄榄球头盔用下巴带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可折叠安全头盔",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:39.798Z"
+}

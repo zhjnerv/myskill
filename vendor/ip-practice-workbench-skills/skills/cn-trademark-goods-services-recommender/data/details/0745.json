@@ -1,0 +1,27 @@
+{
+  "groupCode": "0745",
+  "groupName": "光学工业用设备",
+  "classCode": "07",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "光学冷加工设备",
+          "code": "C070332",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "眼镜片加工设备",
+          "code": "C070333",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [],
+  "crawledAt": "2026-06-09T18:57:15.565Z"
+}

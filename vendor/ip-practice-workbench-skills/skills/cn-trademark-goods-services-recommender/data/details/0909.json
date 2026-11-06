@@ -1,0 +1,783 @@
+{
+  "groupCode": "0909",
+  "groupName": "摄影、电影用具及仪器",
+  "classCode": "09",
+  "notes": [
+    "注：自拍杆（手持单脚架）与0907手机用自拍杆类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "放大设备（摄影）",
+          "code": "090021",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "近摄镜",
+          "code": "090088",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "幻灯片框",
+          "code": "090099",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电影摄影机",
+          "code": "090107",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "暗室（摄影）",
+          "code": "090117",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "干燥架（摄影）",
+          "code": "090122",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电影胶片剪辑设备",
+          "code": "090124",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "照相机快门线（摄影）",
+          "code": "090174",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "快门（照相）",
+          "code": "090181",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "幻灯片用定中心设备",
+          "code": "090183",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "照相机（摄影）",
+          "code": "090184",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "幻灯放映机",
+          "code": "090186",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "幻灯片放映设备",
+          "code": "090186",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "闪光灯泡（摄影）",
+          "code": "090206",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "投影银幕",
+          "code": "090209",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "摄影用屏",
+          "code": "090211",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "摄影用滤干器",
+          "code": "090212",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "摄影用沥水架",
+          "code": "090212",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "胶卷卷轴（照相）",
+          "code": "090233",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "实物幻灯机",
+          "code": "090235",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "特制摄影设备和器具箱",
+          "code": "090246",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "曝光表（照度计）",
+          "code": "090251",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "胶片切割装置",
+          "code": "090262",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "摄影用滤光镜",
+          "code": "090264",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "照片晒印用干燥装置",
+          "code": "090282",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "照片晒印用上光装置",
+          "code": "090283",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "照相制版用屏",
+          "code": "090286",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "照相制版装置",
+          "code": "090290",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "暗板托架（摄影）",
+          "code": "090309",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "暗室灯（摄影）",
+          "code": "090318",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "幻灯",
+          "code": "090321",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "测速仪（照相）",
+          "code": "090345",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "冲洗盘（摄影）",
+          "code": "090390",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "照相器材架",
+          "code": "090391",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "照相取景器",
+          "code": "090392",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "放映设备",
+          "code": "090411",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "光圈（摄影）",
+          "code": "090562",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "摄影用紫外线滤光镜",
+          "code": "090574",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "照相机用三脚架",
+          "code": "090577",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "安装聚光灯用电轨",
+          "code": "090635",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "闪光灯（摄影）",
+          "code": "090639",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "镜头遮光罩",
+          "code": "090723",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "自拍杆（手持单脚架）",
+          "code": "090742",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "热成像相机",
+          "code": "090760",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "自拍镜头",
+          "code": "090803",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "远距离交流用耳机",
+          "code": "090835",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "视频投影机",
+          "code": "090840",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "智能手机用闪光灯",
+          "code": "090855",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "智能手机用环形自拍补光灯",
+          "code": "090861",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "数码照相机用稳定器",
+          "code": "090921",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "全息投影仪",
+          "code": "090925",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "照相机用运动追踪支架",
+          "code": "090927",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "套片机",
+          "code": "C090040",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "教学投影灯",
+          "code": "C090041",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "摄影器具包",
+          "code": "C090042",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "数码单反相机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "相机用倾斜头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水下照相机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "透镜罩（相机用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "弯角取景器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "微缩胶卷阅读器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "平板相机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "取景器（照相机用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "闪光灯（照相机用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "摄影器材用箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "摄影用反光镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "摄影用曝光表",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "摄影用闪光灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "镜头快门",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "轮廓投影仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "滤光镜（相机用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "光学快门",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "红外照相机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "幻灯片框架装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "幻灯片托架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用数码相机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "多帧大画幅相机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电影放映机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电影机器和设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电影剪辑机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电影剪辑用投影机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电影胶片的投影屏幕",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电影胶片显影机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "带有线性图像传感器的照相机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "赤道式望远镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "照相机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "照相机快门",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "照相机三脚架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "照相机闪光灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "照相机套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "照相机用胶卷暗盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "照相机用胶卷卷轴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "照相机用闪光灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "照相机遮光罩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "照相机专用包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "照相器材专用包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "照相设备用镜头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "照相装置用曝光表",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自动计时器（照相机用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自动调焦投影仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自显影胶片用电影摄影机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自显影胶片照相机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "液晶投影机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "一次性照相机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "影片复制装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "影片接片机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "影片录制装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数码相机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无反相机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "相机镜头卡口",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "相机镜头转接器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "小型投影仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "快速成像相机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "照相机用鱼眼镜头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "摄影用冲洗盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "相机镜头转接环",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "滤光镜（摄影）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "透射式投影仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "多媒体投影仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "摄影投影机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数字投影仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "照相机用快门",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "照相机用快门线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "智能手机照相镜头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数码相机用UV镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "拍摄用反光镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "照相机专用屏幕保护膜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "相机镜头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "照像取景器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "照相机漏光防护罩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "幻灯片盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电影编辑机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "测距仪（照相机用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "相机防水套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "相机带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "相机镜头盖防丢扣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运动激活照相机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "随身照相机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "35毫米照相机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "照相机镜头转接环",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "相机滤镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "环形灯(摄影)",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:34.186Z"
+}

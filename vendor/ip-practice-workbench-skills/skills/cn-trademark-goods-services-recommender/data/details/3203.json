@@ -1,0 +1,133 @@
+{
+  "groupCode": "3203",
+  "groupName": "糖浆及其他供饮料用的制剂",
+  "classCode": "32",
+  "notes": [
+    "注：1.制饮料用糖浆，杏仁糖浆，制柠檬汁用糖浆与3005黄色糖浆类似；"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "制无酒精饮料用配料",
+          "code": "320008",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "制饮料用糖浆",
+          "code": "320011",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "制加气水用配料",
+          "code": "320013",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "制碳酸水用配料",
+          "code": "320013",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "制柠檬水用糖浆",
+          "code": "320023",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "杏仁糖浆",
+          "code": "320027",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "起泡饮料用锭剂",
+          "code": "320033",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "起泡饮料用粉",
+          "code": "320034",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "制饮料用淀粉基干混料",
+          "code": "320063",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "制软饮料用粉",
+          "code": "320066",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "饮料用麦芽糖浆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制软饮料用糖浆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制带味矿泉水用糖浆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制果味饮料用糖浆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制无酒精饮料用糖浆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制作饮料用无酒精配料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制作碳酸水用配料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制作加气水用配料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制作无酒精饮料用配料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制作饮料用淀粉基干混料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制乳清饮料用糖浆",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:57.429Z"
+}

@@ -1,0 +1,69 @@
+{
+  "groupCode": "1009",
+  "groupName": "缝合用材料",
+  "classCode": "10",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "羊肠线",
+          "code": "100035",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "线（外科用）",
+          "code": "100056",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "缝合材料",
+          "code": "100149",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "缝合用线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "环扎术用线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "外科用缝线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "外科用羊肠线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "外科用缝合材料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可吸收缝合线",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:48.351Z"
+}

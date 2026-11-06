@@ -1,0 +1,495 @@
+{
+  "groupCode": "0806",
+  "groupName": "理发工具，修指甲刀，文身器具",
+  "classCode": "08",
+  "notes": [
+    "注:1. 烫发钳，烫发用铁夹，卷发用手工具与2602电和非电的发卷（非手工具）类似，与第十一版及以前版本2602卷发器（非手工具），与第九版及以前版本0924电热卷发器交叉检索；",
+    "2. 本类似群与第八版及以前版本 1001 已接受商品文身机，纹身机，纹身器材，纹眉机交叉检索；",
+    "3. 本类似群与第八版及以前版本 2110 卷睫毛工具交叉检索；",
+    "4. 跨类似群保护商品:手动的手工具(0801，0802，0803，0804，0805，0806，0807，0808，0809，0810)。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "剃须刀",
+          "code": "080026",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烫发钳",
+          "code": "080058",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "手动的手工具",
+          "code": "080072",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "去死皮钳",
+          "code": "080101",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "拔毛发用镊子",
+          "code": "080102",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "成套修脚器具",
+          "code": "080106",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "剃刀盒",
+          "code": "080107",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烫发用铁夹",
+          "code": "080121",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "卷发用手工具",
+          "code": "080126",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "刮胡刀片",
+          "code": "080148",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "剃须盒",
+          "code": "080166",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "指甲锉",
+          "code": "080168",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电动或非电动刮胡刀",
+          "code": "080179",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电动指甲锉",
+          "code": "080213",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "指甲抛光器具（电动或非电动）",
+          "code": "080214",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "个人用理发推子（电动和非电动）",
+          "code": "080219",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "指甲刀（电动或非电动）",
+          "code": "080221",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "修指甲成套工具",
+          "code": "080231",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "穿耳孔器",
+          "code": "080241",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电动和非电动脱毛器",
+          "code": "080242",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电动修指甲成套工具",
+          "code": "080243",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "卷睫毛夹",
+          "code": "080252",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "文身器",
+          "code": "080256",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "指甲砂锉",
+          "code": "080267",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "文身针",
+          "code": "080269",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电动编发器",
+          "code": "080281",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "无菌身体穿孔器械",
+          "code": "080288",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非医用激光脱毛装置",
+          "code": "080289",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "直发夹板",
+          "code": "080300",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "理发推子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "去死皮剪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手动理发推子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手指甲修剪器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "剃刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "剃须刀片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "理发剪刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动剪发器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动剃须刀刀片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动头发拉直器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "指甲刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "直剃刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "修甲小剪刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "安全剃刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "穿耳孔枪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动鼻毛修剪器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动耳毛修剪器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动刮胡刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "剃须刀片专用容器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动指甲抛光机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非电动指甲抛光器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电指甲锉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "指甲皮肤修剪刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "老茧锉刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "刮胡刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动剃须刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动理发器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动理发剪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "指甲抛光器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "一次性刮胡刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "头发定型用电整发器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "成套电动修脚工具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动修发器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "粘贴假睫毛用镊子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "去死皮推",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非电动刮胡刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动卷睫毛夹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "穿耳孔针",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动烫发钳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "婴儿理发器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "剪发用剪刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "眉毛镊子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "指甲剪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非电动修眉器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手动宠物指甲刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动脚锉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "去死皮器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动指甲刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "指甲刀（电动或非电动的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "指甲抛光器具（电或非电）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "修指甲工具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "肚脐穿孔器械",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "穿眉孔器械",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "身体穿孔器械",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "眉毛剪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动胡须修剪器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电热卷发器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宠物指甲锉（电动或非电动）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宠物指甲钳（电动或非电动）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非电动理发推子",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:24.442Z"
+}

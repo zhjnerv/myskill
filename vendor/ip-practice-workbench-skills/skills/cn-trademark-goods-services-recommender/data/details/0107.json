@@ -1,0 +1,285 @@
+{
+  "groupCode": "0107",
+  "groupName": "摄影用化学用品及材料",
+  "classCode": "01",
+  "notes": [
+    "注：1.未曝光的X光感光胶片，未曝光的感光胶片，未曝光的感光电影胶片与0923商品类似；",
+    "2.本类似群与第十版及以前版本 0102 第（十五）部分蛋白纸交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "摄影用还原剂",
+          "code": "010027",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蛋白纸",
+          "code": "010036",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "自动着色纸（摄影用）",
+          "code": "010090",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "定影液（摄影用）",
+          "code": "010097",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "调色定影液（摄影用）",
+          "code": "010099",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "氧化钡纸",
+          "code": "010103",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "摄影用化学制剂",
+          "code": "010211",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "照相感光布",
+          "code": "010212",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "感光板",
+          "code": "010213",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "晒蓝图用溶液",
+          "code": "010227",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "重氮纸",
+          "code": "010245",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "摄影感光乳剂",
+          "code": "010267",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "感光照相板",
+          "code": "010269",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铁板照相板（摄影用）",
+          "code": "010292",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "定影溶液（摄影用）",
+          "code": "010298",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "相纸",
+          "code": "010322",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "摄影用明胶",
+          "code": "010329",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "胶印用感光板",
+          "code": "010406",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "光度测定纸",
+          "code": "010417",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "感光纸",
+          "code": "010418",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "摄影用果胶",
+          "code": "010420",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蓝图纸",
+          "code": "010432",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蓝图布",
+          "code": "010434",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "摄影用显影剂",
+          "code": "010435",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "摄影用感光剂",
+          "code": "010436",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "未曝光的X光感光胶片",
+          "code": "010464",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "调色盐（摄影用）",
+          "code": "010548",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "未曝光的感光胶片",
+          "code": "010581",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "未曝光的感光电影胶片",
+          "code": "010598",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "光谱感光板",
+          "code": "C010220",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "晒图纸",
+          "code": "C010222",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "未曝光的照片胶卷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "照相干板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "相片定影剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未曝光的电影胶片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未曝光的干式胶片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "感光箔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未曝光的X光胶片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "照片显影用化学合成物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "相纸（化学增感纸）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "晒蓝图用溶剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "晒图专用显影液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "摄影用晒图纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未曝光的感光摄影胶片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化学感光的相纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自动着色相纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化学增感相纸",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:08.942Z"
+}

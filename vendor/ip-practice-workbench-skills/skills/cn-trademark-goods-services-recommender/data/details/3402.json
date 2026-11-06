@@ -1,0 +1,328 @@
+{
+  "groupCode": "3402",
+  "groupName": "烟具",
+  "classCode": "34",
+  "notes": [
+    "注：本类似群与第八版及以前版本1402贵重金属雪茄烟盒，贵重金属香烟盒，贵重金属雪茄烟盒（匣），贵重金属制雪茄烟盒，贵重金属制香烟盒，贵重金属制雪茄烟烟嘴，贵重金属制香烟嘴，贵重金属烟灰缸交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "雪茄及香烟烟嘴上黄琥珀烟嘴头",
+          "code": "340002",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烟袋",
+          "code": "340004",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "香烟嘴",
+          "code": "340005",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烟斗",
+          "code": "340009",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "雪茄切刀",
+          "code": "340014",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "雪茄烟盒",
+          "code": "340015",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "香烟盒",
+          "code": "340016",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "雪茄烟嘴",
+          "code": "340017",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "袖珍卷烟器",
+          "code": "340021",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "香烟烟嘴",
+          "code": "340022",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "香烟烟嘴头",
+          "code": "340023",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烟斗通条",
+          "code": "340026",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烟斗搁架",
+          "code": "340030",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烟草罐",
+          "code": "340032",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鼻烟壶",
+          "code": "340034",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烟灰缸",
+          "code": "340036",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "吸烟者用痰盂",
+          "code": "340037",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "（防止烟草变干的）保润盒",
+          "code": "340038",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "水烟袋",
+          "code": "340045",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "吸入型烟草用加热设备",
+          "code": "340046",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "烟斗袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "香烟烟管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烟斗压棒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "吸烟用痰盂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "亚洲长烟斗用护套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "雪茄烟匣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "雪茄套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "雪茄剪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "雪茄保湿盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子水烟袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "亚洲长烟斗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含薄荷醇的烟斗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子烟斗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烟斗清洁器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无烟香烟雾化管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "雪茄增湿器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非贵金属制雪茄烟盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非贵金属制香烟烟嘴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非贵金属制香烟盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非贵金属制烟灰缸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烟罐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属制烟灰缸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属制香烟烟嘴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非贵金属制鼻烟壶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属制鼻烟壶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属制雪茄烟盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属制香烟盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属制雪茄烟嘴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "雪茄管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自动弹烟烟盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "雪茄烟切刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "雪茄烟烟嘴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "磨烟器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "带有火柴式打火机的烟灰缸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "薄荷型烟草替代品用烟斗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "一次性香烟烟嘴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属烟斗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非贵金属烟斗",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:59.241Z"
+}

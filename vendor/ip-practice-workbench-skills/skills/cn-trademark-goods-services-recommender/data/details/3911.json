@@ -1,0 +1,169 @@
+{
+  "groupCode": "3911",
+  "groupName": "旅行安排",
+  "classCode": "39",
+  "notes": [
+    "注：本类似群与4105第（六）部分类似"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "旅行陪伴",
+          "code": "390002",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "安排邮轮旅行",
+          "code": "390024",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "旅游交通安排",
+          "code": "390050",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "旅行座位预订",
+          "code": "390056",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "旅行预订",
+          "code": "390084",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "为旅行提供行车路线指引",
+          "code": "390108",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "提供旅行信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "安排短程旅行",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "安排旅行",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过互联网提供旅行信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "游船服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "组织旅行",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "游艇旅行安排服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供定制的行车路线指引",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "旅行票预订",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "旅行路线安排",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "旅行信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为个人和团体协调旅行安排",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机票预订",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "火车票预订",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机票预订服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "安排游艇旅行",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "长途汽车的座位预订",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铁路旅行座位预订",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "游船巡游",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "旅行咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "航空旅行座位预订",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "旅行预订代理服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "安排乘船旅行",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:30.456Z"
+}

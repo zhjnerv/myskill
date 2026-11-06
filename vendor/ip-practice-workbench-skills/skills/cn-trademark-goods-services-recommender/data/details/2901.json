@@ -1,0 +1,1225 @@
+{
+  "groupCode": "2901",
+  "groupName": "肉，非活的家禽，野味，肉汁",
+  "classCode": "29",
+  "notes": [
+    "注：1.烹饪用肉汁，牛肉清汤，牛肉清汤汤料，肉汤，肉汤浓缩汁，牛肉清汤浓缩汁与 2905汤，3016 调味肉汁类似。",
+    "2.本类似群与第十版及以前版本 2906 食用蜗牛蛋交叉检索；"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "血肠",
+          "code": "290013",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "牛肉清汤",
+          "code": "290014",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "肉汤",
+          "code": "290014",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "牛肉清汤汤料",
+          "code": "290015",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "猪肉食品",
+          "code": "290018",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "牛肉清汤浓缩汁",
+          "code": "290023",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "肉汤浓缩汁",
+          "code": "290023",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "炸肉饼",
+          "code": "290036",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "肉",
+          "code": "290046",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "肉冻",
+          "code": "290049",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "猎物（非活）",
+          "code": "290050",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "火腿",
+          "code": "290063",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烹饪用肉汁",
+          "code": "290068",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "培根",
+          "code": "290076",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食用动物骨髓",
+          "code": "290081",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "肝酱",
+          "code": "290088",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "香肠",
+          "code": "290097",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "盐腌肉",
+          "code": "290098",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食用肚",
+          "code": "290112",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "家禽（非活）",
+          "code": "290114",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "肝",
+          "code": "290124",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "腌制肉",
+          "code": "290137",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "猪肉",
+          "code": "290142",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "裹面糊的香肠",
+          "code": "290153",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "日式烤鸡肉串",
+          "code": "290193",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烤薄牛肉",
+          "code": "290194",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "冻干肉",
+          "code": "290203",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "热狗肠",
+          "code": "290214",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "玉米热狗肠",
+          "code": "290215",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "沙嗲烤肉串",
+          "code": "290235",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "法式油封鸭",
+          "code": "290239",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "法式内脏肠",
+          "code": "290240",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "白香肠",
+          "code": "290241",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "软体动物（非活）",
+          "code": "290251",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "以肉为主的零食小吃",
+          "code": "290263",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "植物基人造肉",
+          "code": "290268",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食用蜗牛蛋",
+          "code": "290139",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "人食用蚕蛹",
+          "code": "290151",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "预制可食用蚂蚁卵",
+          "code": "290209",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "可食用昆虫（非活）",
+          "code": "290210",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食用燕窝",
+          "code": "290143",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "风肠",
+          "code": "C290002",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "板鸭",
+          "code": "C290003",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "肉片",
+          "code": "C290004",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "肉干",
+          "code": "C290005",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "肉脯",
+          "code": "C290006",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "冻田鸡腿",
+          "code": "C290007",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "肉松",
+          "code": "C290008",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "肉糜",
+          "code": "C290009",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "蜂蛹",
+          "code": "C290010",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "熏肉",
+          "code": "C290114",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "羊肉片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "炸肉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "炸猪排",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鸡肉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鸡肉沙拉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "摩泰台拉香肠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牛肉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牛肉干",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牛肉片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "肉汁清汤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "熟蜗牛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加工过的牛肉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加工过的肉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冷冻肉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鹅肝酱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "包装好的肉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加工过的蜗牛（食用蜗牛）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加泰罗尼亚猪肉肠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "意大利肉肠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "小牛肉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "浓味熏牛肉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "膨化猪皮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鸡肉丸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "猪肘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "墨西哥式炸肉皮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "火鸡肉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "熟肉制品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烤牛肉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "腊肉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用青蛙（非活）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "腌咸牛肉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "腌咸牛肉末",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "腌猪脚",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "酱油等浸煮的肉（佃煮肉）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鸡肉丸子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牛骨汤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牛肉汤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "炸鸡块",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "腌制的肉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制香肠肉馅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "以肉为主的预先准备好的菜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "熏香肠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "肉丸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "肉馅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "肉（腌制的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "浓缩汤汁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加工过的人食用蜂蛹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "禽肉浓缩汁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "意大利辣味香肠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未煮的香肠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "碎熏肉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "调味的烤牛肉片（烤肉）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "炖牛肉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鸭胗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "猪后肘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "哈吉斯（苏格兰肉馅羊肚）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鸡胗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牛排",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "猪排",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烤肉串",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "肉汁290068",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用猪肠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "浓肉汁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鸡肉慕斯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "猪肚",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鸡翅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鸡腿",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牛肉丸子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烤鸭",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牛板筋（牛肉食品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牛蛙（非活）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牛蛙肉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "羊肉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "涂面包用家禽肉酱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鹅肝块",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用动物肝脏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "速冻肥肝串",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "块状食用动物肝脏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "乌鸡肉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冷冻乌鸡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "煎炸肉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "半成品家禽肉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鹅肝冻",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "涂面包用肉酱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用猪血",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "煮香肠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "意式熏香肠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "小香肠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鸭脖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鸭肠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鸭翅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鸭肉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "脱水猪肉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蜗牛肉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "腌制猪肉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "炖肉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "羊肝",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鸡翅根",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鸡翅中",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用蚕蛹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用鸭血",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "熟火腿",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "速冻鸡肉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "速冻蜗牛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "碎肉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "红肠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生火腿",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "干制肉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鹅肝",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "猪肝",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "猪肉片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "猪头肉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "肉卷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "炸香肠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人工养殖供食用的蜗牛(非活)",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "酱牛肉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "酱肉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "熟肉酱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "熟肉块",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "大香肠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "带骨猪排",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "动物肝",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "火鸡肝",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烧烤用肉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加工的小羊肉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于制作涂抹酱的肉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用作三明治馅料的鸡肉块",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冷藏的肉排",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冷藏的炸鸡肉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冷藏猪肉片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牛肉浓汁汤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "猪肩肉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "猪肉冻",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "煮猪肉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "煎肉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "炖煮肉汤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "肉干块",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "肉块",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "脱水鸡肉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "脱水家禽肉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "肥鹅肝块",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "肥肝",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "肥肝酱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "半成品肉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "肥肉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "干香肠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "肝糊",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "速冻肥肝",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "速冻肥肝丁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "速冻肥肝片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "速冻家禽肉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鹅肝肠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鹅肝糊",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "屠宰过的家禽",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "熏肉片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "猪肉干",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烧鸡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鸡肉干",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鸭肉干",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卤鸡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卤鸭",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牦牛肉干",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "以猎物为主的预先准备好的食物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用鸡爪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用鸭掌",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鸡汤浓缩精",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冷切肉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "炸鸡肉丸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牛肚",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "羊肉丸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用牛蹄筋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烤肉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "彝斯咖魔（预制可食用蚂蚁卵）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "肉泥",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鸡高汤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "猪肉丸子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鹅掌",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "西班牙式辣味香肠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卤鹅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "猪肉丸",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:30.938Z"
+}

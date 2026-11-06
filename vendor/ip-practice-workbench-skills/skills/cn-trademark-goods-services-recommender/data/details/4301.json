@@ -1,0 +1,793 @@
+{
+  "groupCode": "4301",
+  "groupName": "提供餐饮，住宿服务",
+  "classCode": "43",
+  "notes": [
+    "注：本类似群与第七版及以前版本4201交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "住所代理（旅馆、供膳寄宿处）",
+          "code": "430004",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "备办宴席",
+          "code": "430010",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "咖啡馆",
+          "code": "430024",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "自助餐厅",
+          "code": "430025",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "餐厅",
+          "code": "430027",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "临时住宿处出租",
+          "code": "430028",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "寄宿处",
+          "code": "430066",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "饭店食宿服务",
+          "code": "430073",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "餐馆",
+          "code": "430102",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "寄宿处预订",
+          "code": "430104",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "旅馆预订",
+          "code": "430105",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "自助餐馆",
+          "code": "430107",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "快餐馆",
+          "code": "430108",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "酒吧服务",
+          "code": "430138",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "假日野营住宿服务",
+          "code": "430145",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "预订临时住所",
+          "code": "430162",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "汽车旅馆",
+          "code": "430183",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食物雕刻",
+          "code": "430193",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "临时住宿的接待服务（抵达及离开的管理）",
+          "code": "430194",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "日式料理餐厅",
+          "code": "430195",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "供应乌冬面和荞麦面的餐馆",
+          "code": "430196",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食物装饰",
+          "code": "430197",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蛋糕裱花",
+          "code": "430198",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "关于膳食制备的信息和咨询",
+          "code": "430199",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "私人厨师服务",
+          "code": "430200",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "家庭旅馆服务",
+          "code": "430071",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "提供关于膳食制备的信息和咨询",
+          "code": "430199",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "关于膳食制备的信息和咨询",
+          "code": "430199",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "临时住宿接待服务（发放钥匙）",
+          "code": "430202",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "歇脚点提供的临时住宿服务",
+          "code": "430204",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "度假屋出租",
+          "code": "430205",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食物点评服务（提供有关食物和饮料的信息）",
+          "code": "430208",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "外卖餐厅服务",
+          "code": "430209",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "流动饮食供应",
+          "code": "C430002",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "茶馆",
+          "code": "C430003",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "提供临时住宿",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "备办宴席服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "备办室外宴席服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "安排临时住宿",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "茶馆服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "拉面馆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "天妇罗餐馆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "在度假村提供临时住宿",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "酒店房间预订服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "度假村住宿服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "餐馆信息服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "寿司餐馆服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "沙拉吧",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "代理预订旅馆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "青年旅社服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "餐馆预订代理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "作为临时住宿处的房间出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "露营场所住宿预订",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "酒馆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "酒店住宿服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "啤酒屋服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "外卖餐馆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鸡尾酒会服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "小旅馆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "小酒馆服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冰淇淋店（店内食用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "餐馆预订服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "餐馆预订",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "比萨店",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "临时住宿处预订",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "旅馆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "咖啡馆服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "供应葡萄酒为主的酒吧",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "流动餐馆服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有关烹饪食谱的建议",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "临时住宿处预订代理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日式餐馆服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "公司食堂餐饮供应服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "疗养院餐饮供应服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医院餐饮供应服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "西班牙式菜肴的餐饮供应服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "欧式菜肴的餐饮供应服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日式菜肴的餐饮供应服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "学校餐饮供应服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "养老院餐饮供应服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "酒店提供的餐饮供应服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "面向优先客户的酒店服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过互联网预订临时住宿处",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "在自酿酒的啤酒馆内供应饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "在啤酒作坊内供应饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "酒吧信息服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "果汁吧",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "安排酒店住宿",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供临时住宅性质的应急庇护所服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车旅馆服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "快餐店服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "旅馆服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "旅馆休息室服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "旅行社代理的旅馆预订",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "餐馆服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自动餐厅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自助餐馆服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自助餐厅服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "餐厅服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过旅行社预定旅馆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "小餐馆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供休息室服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "调酒服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过网站提供旅馆信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过网站提供烹饪信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "外卖餐馆服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "中餐厅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "在网吧供应食物和饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "饭店",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人预订酒店",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供酒吧服务信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "饼干装饰",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "清酒酒吧",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "包早餐的小旅馆服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蛋糕裱花服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "酒廊的自助餐服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为会议中心提供餐饮供应服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为教育机构提供餐饮供应服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为酒店提供餐饮供应服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "学校食堂服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有关备餐的顾问服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "安排并提供临时住宿处",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "酒店用餐安排",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供网络订餐服务的餐馆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过互联网提供餐馆服务信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过互联网提供餐厅信息及预订服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可提供网络订餐的餐馆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供网络预订餐饮服务的餐厅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食品装饰",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冰激凌餐厅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "预订旅馆的旅行社服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "在餐馆和酒吧内供应食品和饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "在餐馆内为宾客供应食品和饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "在小酒馆内提供食品和饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为展览场所提供备办宴席服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供旅馆和汽车旅馆住宿处",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "酒馆服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "备办鸡尾酒会",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "备办宴席领域的咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "备办宴会宴席",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供有关临时住宿处服务的信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "朝鲜族风味餐厅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "意式餐厅服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "秘鲁风味餐厅服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供食品和饮料的流动咖啡馆服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸杯蛋糕装饰",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供烹饪信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供餐厅在线点评",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:52.908Z"
+}

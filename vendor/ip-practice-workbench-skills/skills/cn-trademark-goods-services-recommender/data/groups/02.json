@@ -1,0 +1,37 @@
+[
+  {
+    "groupCode": "0201",
+    "groupName": "染料，媒染剂（不包括食用）",
+    "classCode": "02"
+  },
+  {
+    "groupCode": "0202",
+    "groupName": "颜料（不包括食用、绝缘用），绘画、装饰、印刷和艺术用金属箔及金属粉",
+    "classCode": "02"
+  },
+  {
+    "groupCode": "0203",
+    "groupName": "食品着色剂",
+    "classCode": "02"
+  },
+  {
+    "groupCode": "0204",
+    "groupName": "油墨",
+    "classCode": "02"
+  },
+  {
+    "groupCode": "0205",
+    "groupName": "涂料，油漆及附料（不包括绝缘漆）",
+    "classCode": "02"
+  },
+  {
+    "groupCode": "0206",
+    "groupName": "防锈剂，木材防腐剂",
+    "classCode": "02"
+  },
+  {
+    "groupCode": "0207",
+    "groupName": "未加工的天然树脂",
+    "classCode": "02"
+  }
+]

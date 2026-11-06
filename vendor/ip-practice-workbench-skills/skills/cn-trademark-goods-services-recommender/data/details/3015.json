@@ -1,0 +1,93 @@
+{
+  "groupCode": "3015",
+  "groupName": "酱油，醋",
+  "classCode": "30",
+  "notes": [
+    "注：本类似群与 3014，3016 类似，与第十版及以前版本 3301 料酒交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "醋",
+          "code": "300081",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "啤酒醋",
+          "code": "300148",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "酱油",
+          "code": "300179",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "酱油防腐粉",
+          "code": "C300103",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "醋精",
+          "code": "C300104",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "调过味的醋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "果醋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "葡萄酒醋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "辣酱油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "巴萨米克醋（意大利黑醋）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "苹果醋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "昆布酱油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "调味醋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "白醋",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:47.148Z"
+}

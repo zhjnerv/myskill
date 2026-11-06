@@ -1,0 +1,44 @@
+{
+  "groupCode": "1113",
+  "groupName": "核能反应设备",
+  "classCode": "11",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "核燃料和核减速剂处理装置",
+          "code": "110193",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "聚合反应设备",
+          "code": "110203",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "核反应堆",
+          "code": "110253",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "原子堆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "核能反应设备",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:56.819Z"
+}

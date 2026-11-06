@@ -1,0 +1,116 @@
+{
+  "groupCode": "2007",
+  "groupName": "非金属牌",
+  "classCode": "20",
+  "notes": [
+    "注:1.树或植物的非金属支桩与0620树或植物的金属支桩类似；",
+    "2.塑料标签，服装用塑料制缝制标签与第十版及以前版本 1605 非纺织品标签交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "展示板",
+          "code": "200002",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "树或植物的非金属支桩",
+          "code": "200091",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "木制或塑料制招牌",
+          "code": "200096",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属车牌",
+          "code": "200130",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属标示牌",
+          "code": "200154",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属身份牌",
+          "code": "200154",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "不发光非金属门牌",
+          "code": "200155",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "木头或塑料标志牌",
+          "code": "200253",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "可充气广告物",
+          "code": "200259",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "塑料钥匙卡(未编码、非磁性)",
+          "code": "200260",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "塑料标签",
+          "code": "200307",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "服装用塑料制缝制标签",
+          "code": "200360",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "塑料钥匙卡（未编码、非磁性）200260",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "广告气球",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属制门铭牌",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "立式塑料标志牌",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "立式木制标志牌",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:42.839Z"
+}

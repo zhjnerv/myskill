@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.local/
+.env
+.env.*
+!.env.example
+/TASK_PLAN*.md
+/downloads/
+/outputs/
+.DS_Store
+Thumbs.db
+~$*

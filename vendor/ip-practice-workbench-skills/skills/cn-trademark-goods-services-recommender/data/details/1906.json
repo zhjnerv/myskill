@@ -1,0 +1,235 @@
+{
+  "groupCode": "1906",
+  "groupName": "建筑砖瓦",
+  "classCode": "19",
+  "notes": [
+    "注：本类似群与1902石板，屋顶石板片，花岗石，大理石，人造石类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "砖",
+          "code": "190038",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "建筑用马赛克",
+          "code": "190126",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属屋瓦",
+          "code": "190151",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "建筑用非金属砖瓦",
+          "code": "190213",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属地板砖",
+          "code": "190214",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属砖地板",
+          "code": "190249",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属波形瓦",
+          "code": "190250",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属墙砖",
+          "code": "190251",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "屋面瓦",
+          "code": "190021",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "石棉水泥瓦",
+          "code": "C190011",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "水磨石",
+          "code": "C190013",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "瓷砖",
+          "code": "C190014",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "墙用瓷砖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属砖瓦",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "地面用瓷砖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烧结砖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陶瓷墙砖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "塑料砖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陶瓷地板砖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木地板砖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属半耐火砖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属铺路砖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "玻璃砖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陶制砖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "石瓦",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铺地和标线用瓷砖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铺地和饰面用瓷砖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "赤土地板砖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "釉面陶瓷砖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "玻璃屋顶瓦",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "玻璃砖（非屋顶用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水泥砂浆制屋顶瓦",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陶瓷屋顶瓦片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陶瓷砖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未烧制的砖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马赛克地板砖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "黏土屋顶瓦",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "屋顶用瓷砖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑用嵌砖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "地板和饰面用瓷砖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "聚氯乙烯（PVC）砖",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:33.265Z"
+}

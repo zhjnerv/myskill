@@ -1,0 +1,4599 @@
+{
+  "groupCode": "0102",
+  "groupName": "用于工业、科学、农业、园艺、林业的工业化工原料",
+  "classCode": "01",
+  "notes": [
+    "注：本类似群各部分之间商品不类似",
+    "注：本部分为无机酸。",
+    "注：1.本部分为无机碱；",
+    "2.工业用挥发碱（氨水），工业用氨水（挥发性碱）与0101氨，无水氨，0109商品类似。",
+    "注：1.本部分为金属氧化物；",
+    "2.工业用二氧化钛与0202二氧化钛（颜料）类似。",
+    "注：1.本部分为无机盐及其他金属化合物；",
+    "2.氯化铵，硝酸钾，硝酸铵与 0109 商品类似",
+    "3.尖晶石（氧化物矿石）与0104第（四）部分搪瓷着色化学品，玻璃着色化学品类似，与第十版及以前版本搪瓷或玻璃着色化学品交叉检索；",
+    "4.硫化剂与0104第（十一）部分，0108第（二）部分类。",
+    "注：1.本部分为有机酸及酸酐类化合物；",
+    "2.儿茶，单宁，单宁酸与0114商品类似。",
+    "注：1.本部分为有机盐类化合物；",
+    "2.本部分与第九版及以前版本 0104 第（十九）部分非医用酒石乳剂，非食用藻酸盐（胶化和加压剂）交叉检索",
+    "注：1.本部分为烃类及苯衍生物；",
+    "2.本部分与第十版及以前版本 0401 混合二甲苯，二甲苯，苯，粗制苯交叉检索",
+    "注：1.本部分为醇类化合物。",
+    "2.本部分与第十二版及以前版本 0305 香叶醇交叉检索",
+    "注：本部分为醚类化合物。",
+    "注：本部分为酚类化合物。",
+    "注：本部分为胺类及其衍生物。",
+    "注：1.本部分为酮类化合物。",
+    "2.本部分与第十二版及以前版本 0305 人造麝香酮交叉检索",
+    "注：1.本部分为醛类化合物。",
+    "2.本部分与第十二版及以前版本 0305 椰子醛交叉检索",
+    "注：1.本部分为酯类化合物。",
+    "2.本部分与第十二版及以前版本 0305 安息香酸乙酯交叉检索",
+    "注：本部分为蛋白类及其他高分子化合物。",
+    "注：1.本部分为碳水化合物及其衍生物；",
+    "2.本部分与第十一版及以前版本 0104 第（十九）部分工业用面粉，工业用土豆粉交叉检索",
+    "注：1.本部分为工业用酶；",
+    "2.工业淀粉酶，工业用酶制剂，工业用酶与0104第（十九）部分催化剂，0106生物化学催化剂类似。",
+    "注：本部分为表面活性化学剂。",
+    "注：本部分为过氧化氢。",
+    "注：1.本部分为单一商品；",
+    "2.硅胶与0104第（十七）部分商品类似。"
+  ],
+  "sections": [
+    {
+      "label": "（一）",
+      "items": [
+        {
+          "name": "酸*",
+          "code": "010014",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "盐酸溶液",
+          "code": "010058",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "亚砷酸",
+          "code": "010085",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "硝酸",
+          "code": "010095",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "工业用硼酸",
+          "code": "010135",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "碳酸",
+          "code": "010150",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "盐酸",
+          "code": "010185",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "铬酸",
+          "code": "010191",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "氢氟酸",
+          "code": "010304",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "碘酸",
+          "code": "010367",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "无机酸",
+          "code": "010396",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "过硫酸",
+          "code": "010425",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "磷酸",
+          "code": "010433",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "磺酸",
+          "code": "010501",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "亚硫酸",
+          "code": "010502",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "硫酸",
+          "code": "010503",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "钨酸",
+          "code": "010541",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "蓄电池硫酸",
+          "code": "C010008",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "氯磺酸",
+          "code": "C010009",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "铬酸酐",
+          "code": "C010010",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "钼酸",
+          "code": "C010011",
+          "type": "marked",
+          "section": "（一）"
+        }
+      ]
+    },
+    {
+      "label": "（二）",
+      "items": [
+        {
+          "name": "碱",
+          "code": "010037",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "苛性碱",
+          "code": "010038",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "氢氧化铝",
+          "code": "010048",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "碱（化学制剂）",
+          "code": "010106",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "工业用苛性碱",
+          "code": "010489",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "工业用苛性钠",
+          "code": "010490",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "工业用挥发碱（氨水）",
+          "code": "010558",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "工业用氨水（挥发性碱）",
+          "code": "010558",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "氢氧化钾",
+          "code": "C010012",
+          "type": "marked",
+          "section": "（二）"
+        },
+        {
+          "name": "碳酸氢钠",
+          "code": "C010013",
+          "type": "marked",
+          "section": "（二）"
+        },
+        {
+          "name": "氢氧化锶",
+          "code": "C010014",
+          "type": "marked",
+          "section": "（二）"
+        },
+        {
+          "name": "氢氧化镁",
+          "code": "C010015",
+          "type": "marked",
+          "section": "（二）"
+        },
+        {
+          "name": "氢氧化铈",
+          "code": "C010016",
+          "type": "marked",
+          "section": "（二）"
+        },
+        {
+          "name": "氢氧化锂",
+          "code": "C010017",
+          "type": "marked",
+          "section": "（二）"
+        },
+        {
+          "name": "氢氧化镨",
+          "code": "C010018",
+          "type": "marked",
+          "section": "（二）"
+        }
+      ]
+    },
+    {
+      "label": "（三）",
+      "items": [
+        {
+          "name": "氧化锑",
+          "code": "010075",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "氧化钡",
+          "code": "010102",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "二氧化锰",
+          "code": "010124",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "氧化铬",
+          "code": "010189",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "氧化锂",
+          "code": "010378",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "氧化汞",
+          "code": "010389",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "氧化铅",
+          "code": "010441",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "工业用二氧化钛",
+          "code": "010536",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "氧化锆",
+          "code": "010556",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "工业用氧化钴",
+          "code": "010599",
+          "type": "standard",
+          "section": "（三）"
+        }
+      ]
+    },
+    {
+      "label": "（四）",
+      "items": [
+        {
+          "name": "矾土",
+          "code": "010046",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "铝矾",
+          "code": "010047",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "硅酸铝",
+          "code": "010049",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "氯化铝",
+          "code": "010050",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "碘化铝",
+          "code": "010051",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "明矾",
+          "code": "010052",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "氯化铵",
+          "code": "010057",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "氨盐",
+          "code": "010060",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "铵明矾",
+          "code": "010063",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "硫化锑",
+          "code": "010076",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "砷酸铅",
+          "code": "010083",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "苏打灰",
+          "code": "010100",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "纯碱",
+          "code": "010100",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "钡化合物",
+          "code": "010104",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "二氯化锡",
+          "code": "010118",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "重铬酸钾",
+          "code": "010119",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "重铬酸钠",
+          "code": "010120",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "碱式棓酸铋",
+          "code": "010126",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "硼砂",
+          "code": "010134",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "钾盐镁矾",
+          "code": "010140",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "碳酸盐",
+          "code": "010146",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "碳酸镁",
+          "code": "010147",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "二硫化碳",
+          "code": "010149",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "碳化物*",
+          "code": "010151",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "碳化钙",
+          "code": "010152",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "稀土金属盐",
+          "code": "010162",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "碳酸钙",
+          "code": "010172",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "氯化钙",
+          "code": "010173",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "氯酸盐",
+          "code": "010182",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "盐酸盐",
+          "code": "010184",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "铬酸盐",
+          "code": "010187",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "铬矾",
+          "code": "010188",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "铬盐",
+          "code": "010190",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "蓝矾",
+          "code": "010225",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "硫酸铜（蓝矾）",
+          "code": "010225",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "氰化物",
+          "code": "010228",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "氰亚铁酸盐",
+          "code": "010229",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "工业用白云石",
+          "code": "010248",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "铁盐",
+          "code": "010290",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "萤石化合物",
+          "code": "010303",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "岩盐",
+          "code": "010331",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "水合物",
+          "code": "010356",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "次氯酸苏打",
+          "code": "010360",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "连二亚硫酸盐",
+          "code": "010361",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "碘盐",
+          "code": "010366",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "硅藻土",
+          "code": "010632",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "菱镁矿",
+          "code": "010382",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "氯化镁",
+          "code": "010383",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "锰酸盐",
+          "code": "010384",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "汞盐",
+          "code": "010388",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "工业用贵金属盐",
+          "code": "010391",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "工业用盐",
+          "code": "010397",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "硝酸铀",
+          "code": "010405",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "橄榄石（硅酸盐矿石）",
+          "code": "010408",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "氯金酸钠",
+          "code": "010409",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "氯化钯",
+          "code": "010415",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "过硼酸钠",
+          "code": "010421",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "过碳酸盐",
+          "code": "010422",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "高氯酸盐",
+          "code": "010423",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "过硫酸盐",
+          "code": "010424",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "碳酸钾",
+          "code": "010446",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "碳酸钾水",
+          "code": "010448",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "硝酸钾",
+          "code": "010469",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "盐类（化学制剂）",
+          "code": "010475",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "原盐",
+          "code": "010476",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "正铬盐",
+          "code": "010477",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "硅酸盐",
+          "code": "010481",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "硫化物",
+          "code": "010486",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "煅烧苏打",
+          "code": "010488",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "钠盐（化合物）",
+          "code": "010491",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "化学用次硝酸铋",
+          "code": "010494",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "重晶石",
+          "code": "010495",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "尖晶石（氧化物矿石）",
+          "code": "010496",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "滑石（镁铝合金硅酸盐）",
+          "code": "010506",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "钙盐",
+          "code": "010510",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "榍石",
+          "code": "010537",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "硫化剂",
+          "code": "010549",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "碳酸钡石",
+          "code": "010550",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "氯化物",
+          "code": "010554",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "硫酸盐",
+          "code": "010555",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "工业用碱性碘化物",
+          "code": "010559",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "碱金属盐",
+          "code": "010561",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "铵盐",
+          "code": "010567",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "硝酸银",
+          "code": "010569",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "硝酸盐",
+          "code": "010572",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "硫酸钡",
+          "code": "010574",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "化学用小苏打",
+          "code": "010578",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "硅藻土",
+          "code": "010632",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "氯化铵溶液",
+          "code": "010678",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "碳化硅（原材料）",
+          "code": "010689",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "硝酸铵",
+          "code": "010700",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "甘汞（氯化亚汞）",
+          "code": "010709",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "磷酸铁锂",
+          "code": "010745",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "钴酸锂",
+          "code": "010746",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "麦饭石",
+          "code": "C010019",
+          "type": "marked",
+          "section": "（四）"
+        },
+        {
+          "name": "碳化铌",
+          "code": "C010021",
+          "type": "marked",
+          "section": "（四）"
+        },
+        {
+          "name": "碳化钨",
+          "code": "C010022",
+          "type": "marked",
+          "section": "（四）"
+        },
+        {
+          "name": "合成钡",
+          "code": "C010023",
+          "type": "marked",
+          "section": "（四）"
+        },
+        {
+          "name": "工业用硝酸铋",
+          "code": "C010024",
+          "type": "marked",
+          "section": "（四）"
+        },
+        {
+          "name": "碳酸氢铵",
+          "code": "C010025",
+          "type": "marked",
+          "section": "（四）"
+        },
+        {
+          "name": "轻质碳酸钙",
+          "code": "C010026",
+          "type": "marked",
+          "section": "（四）"
+        },
+        {
+          "name": "镍盐",
+          "code": "C010027",
+          "type": "marked",
+          "section": "（四）"
+        },
+        {
+          "name": "硅酸钾",
+          "code": "C010028",
+          "type": "marked",
+          "section": "（四）"
+        },
+        {
+          "name": "硅酸钙",
+          "code": "C010029",
+          "type": "marked",
+          "section": "（四）"
+        },
+        {
+          "name": "冰晶粉",
+          "code": "C010031",
+          "type": "marked",
+          "section": "（四）"
+        },
+        {
+          "name": "锆酸钴",
+          "code": "C010032",
+          "type": "marked",
+          "section": "（四）"
+        },
+        {
+          "name": "碳酸铜",
+          "code": "C010033",
+          "type": "marked",
+          "section": "（四）"
+        },
+        {
+          "name": "碳酸锌",
+          "code": "C010034",
+          "type": "marked",
+          "section": "（四）"
+        },
+        {
+          "name": "碳酸锂",
+          "code": "C010035",
+          "type": "marked",
+          "section": "（四）"
+        },
+        {
+          "name": "钨酸铵",
+          "code": "C010036",
+          "type": "marked",
+          "section": "（四）"
+        },
+        {
+          "name": "钨酸钙",
+          "code": "C010037",
+          "type": "marked",
+          "section": "（四）"
+        },
+        {
+          "name": "钨酸锌",
+          "code": "C010038",
+          "type": "marked",
+          "section": "（四）"
+        },
+        {
+          "name": "氟硅酸钾",
+          "code": "C010039",
+          "type": "marked",
+          "section": "（四）"
+        },
+        {
+          "name": "锆氟酸钾",
+          "code": "C010040",
+          "type": "marked",
+          "section": "（四）"
+        },
+        {
+          "name": "硫氢化钙",
+          "code": "C010041",
+          "type": "marked",
+          "section": "（四）"
+        },
+        {
+          "name": "碳酸锶",
+          "code": "C010042",
+          "type": "marked",
+          "section": "（四）"
+        },
+        {
+          "name": "氯化钴",
+          "code": "C010043",
+          "type": "marked",
+          "section": "（四）"
+        },
+        {
+          "name": "氯化镉",
+          "code": "C010044",
+          "type": "marked",
+          "section": "（四）"
+        },
+        {
+          "name": "硫化铁",
+          "code": "C010045",
+          "type": "marked",
+          "section": "（四）"
+        }
+      ]
+    },
+    {
+      "label": "（五）",
+      "items": [
+        {
+          "name": "醋酸酐",
+          "code": "010010",
+          "type": "standard",
+          "section": "（五）"
+        },
+        {
+          "name": "酐",
+          "code": "010067",
+          "type": "standard",
+          "section": "（五）"
+        },
+        {
+          "name": "邻氨基苯甲酸",
+          "code": "010070",
+          "type": "standard",
+          "section": "（五）"
+        },
+        {
+          "name": "苯基酸",
+          "code": "010110",
+          "type": "standard",
+          "section": "（五）"
+        },
+        {
+          "name": "苯酸",
+          "code": "010112",
+          "type": "standard",
+          "section": "（五）"
+        },
+        {
+          "name": "焦木酸",
+          "code": "010133",
+          "type": "standard",
+          "section": "（五）"
+        },
+        {
+          "name": "木醋",
+          "code": "010133",
+          "type": "standard",
+          "section": "（五）"
+        },
+        {
+          "name": "儿茶",
+          "code": "010139",
+          "type": "standard",
+          "section": "（五）"
+        },
+        {
+          "name": "胆酸",
+          "code": "010186",
+          "type": "standard",
+          "section": "（五）"
+        },
+        {
+          "name": "工业用柠檬酸",
+          "code": "010199",
+          "type": "standard",
+          "section": "（五）"
+        },
+        {
+          "name": "冰醋酸（稀醋酸）",
+          "code": "010277",
+          "type": "standard",
+          "section": "（五）"
+        },
+        {
+          "name": "甲酸",
+          "code": "010310",
+          "type": "standard",
+          "section": "（五）"
+        },
+        {
+          "name": "制墨用棓酸",
+          "code": "010320",
+          "type": "standard",
+          "section": "（五）"
+        },
+        {
+          "name": "脂肪酸",
+          "code": "010340",
+          "type": "standard",
+          "section": "（五）"
+        },
+        {
+          "name": "乳酸",
+          "code": "010373",
+          "type": "standard",
+          "section": "（五）"
+        },
+        {
+          "name": "油酸",
+          "code": "010407",
+          "type": "standard",
+          "section": "（五）"
+        },
+        {
+          "name": "草酸",
+          "code": "010412",
+          "type": "standard",
+          "section": "（五）"
+        },
+        {
+          "name": "苦味酸",
+          "code": "010437",
+          "type": "standard",
+          "section": "（五）"
+        },
+        {
+          "name": "焦棓酸",
+          "code": "010453",
+          "type": "standard",
+          "section": "（五）"
+        },
+        {
+          "name": "水杨酸",
+          "code": "010468",
+          "type": "standard",
+          "section": "（五）"
+        },
+        {
+          "name": "癸二酸",
+          "code": "010474",
+          "type": "standard",
+          "section": "（五）"
+        },
+        {
+          "name": "硬脂酸",
+          "code": "010497",
+          "type": "standard",
+          "section": "（五）"
+        },
+        {
+          "name": "单宁",
+          "code": "010508",
+          "type": "standard",
+          "section": "（五）"
+        },
+        {
+          "name": "单宁酸",
+          "code": "010511",
+          "type": "standard",
+          "section": "（五）"
+        },
+        {
+          "name": "酒石酸",
+          "code": "010515",
+          "type": "standard",
+          "section": "（五）"
+        },
+        {
+          "name": "工业用谷氨酸",
+          "code": "010683",
+          "type": "standard",
+          "section": "（五）"
+        },
+        {
+          "name": "冰醋酸",
+          "code": "C010046",
+          "type": "marked",
+          "section": "（五）"
+        },
+        {
+          "name": "蚁酸",
+          "code": "C010047",
+          "type": "marked",
+          "section": "（五）"
+        },
+        {
+          "name": "稀醋酸",
+          "code": "C010048",
+          "type": "marked",
+          "section": "（五）"
+        },
+        {
+          "name": "丙酸",
+          "code": "C010049",
+          "type": "marked",
+          "section": "（五）"
+        },
+        {
+          "name": "丁酸",
+          "code": "C010050",
+          "type": "marked",
+          "section": "（五）"
+        },
+        {
+          "name": "甲基丙烯酸",
+          "code": "C010051",
+          "type": "marked",
+          "section": "（五）"
+        },
+        {
+          "name": "琥珀酸",
+          "code": "C010052",
+          "type": "marked",
+          "section": "（五）"
+        },
+        {
+          "name": "己二酸",
+          "code": "C010053",
+          "type": "marked",
+          "section": "（五）"
+        },
+        {
+          "name": "氯乙酸",
+          "code": "C010054",
+          "type": "marked",
+          "section": "（五）"
+        },
+        {
+          "name": "环烷酸",
+          "code": "C010055",
+          "type": "marked",
+          "section": "（五）"
+        },
+        {
+          "name": "石油磺酸",
+          "code": "C010056",
+          "type": "marked",
+          "section": "（五）"
+        },
+        {
+          "name": "对苯二甲酸",
+          "code": "C010057",
+          "type": "marked",
+          "section": "（五）"
+        },
+        {
+          "name": "苯醋酸",
+          "code": "C010058",
+          "type": "marked",
+          "section": "（五）"
+        },
+        {
+          "name": "邻苯二甲酸酐",
+          "code": "C010059",
+          "type": "marked",
+          "section": "（五）"
+        },
+        {
+          "name": "顺丁烯二酸酐（即失水草果酸酐）",
+          "code": "C010060",
+          "type": "marked",
+          "section": "（五）"
+        },
+        {
+          "name": "没食子酸",
+          "code": "C010073",
+          "type": "marked",
+          "section": "（五）"
+        }
+      ]
+    },
+    {
+      "label": "（六）",
+      "items": [
+        {
+          "name": "醋酸盐（化学品）",
+          "code": "010007",
+          "type": "standard",
+          "section": "（六）"
+        },
+        {
+          "name": "草酸氢钾",
+          "code": "010123",
+          "type": "standard",
+          "section": "（六）"
+        },
+        {
+          "name": "醋酸钙",
+          "code": "010171",
+          "type": "standard",
+          "section": "（六）"
+        },
+        {
+          "name": "化学用酒石酸氢钾",
+          "code": "010219",
+          "type": "standard",
+          "section": "（六）"
+        },
+        {
+          "name": "一水草酸氢钾",
+          "code": "010410",
+          "type": "standard",
+          "section": "（六）"
+        },
+        {
+          "name": "草酸盐",
+          "code": "010411",
+          "type": "standard",
+          "section": "（六）"
+        },
+        {
+          "name": "醋酸铅",
+          "code": "010440",
+          "type": "standard",
+          "section": "（六）"
+        },
+        {
+          "name": "非药用酒石",
+          "code": "010514",
+          "type": "standard",
+          "section": "（六）"
+        },
+        {
+          "name": "工业用藻酸盐",
+          "code": "010564",
+          "type": "standard",
+          "section": "（六）"
+        },
+        {
+          "name": "乙酸铝*",
+          "code": "010565",
+          "type": "standard",
+          "section": "（六）"
+        },
+        {
+          "name": "醋酸铝*",
+          "code": "010565",
+          "type": "standard",
+          "section": "（六）"
+        },
+        {
+          "name": "工业用酒石酸氢钾",
+          "code": "010668",
+          "type": "standard",
+          "section": "（六）"
+        },
+        {
+          "name": "米吐尔",
+          "code": "C010061",
+          "type": "marked",
+          "section": "（六）"
+        },
+        {
+          "name": "氯化苄",
+          "code": "C010062",
+          "type": "marked",
+          "section": "（六）"
+        },
+        {
+          "name": "蚁酸钠",
+          "code": "C010063",
+          "type": "marked",
+          "section": "（六）"
+        },
+        {
+          "name": "醋酸钾",
+          "code": "C010064",
+          "type": "marked",
+          "section": "（六）"
+        },
+        {
+          "name": "醋酸锌",
+          "code": "C010065",
+          "type": "marked",
+          "section": "（六）"
+        },
+        {
+          "name": "醋酸钴",
+          "code": "C010066",
+          "type": "marked",
+          "section": "（六）"
+        },
+        {
+          "name": "醋酸锰",
+          "code": "C010067",
+          "type": "marked",
+          "section": "（六）"
+        },
+        {
+          "name": "吐酒石（即酒石酸锑钾）",
+          "code": "C010068",
+          "type": "marked",
+          "section": "（六）"
+        },
+        {
+          "name": "酒石酸锑钠",
+          "code": "C010069",
+          "type": "marked",
+          "section": "（六）"
+        },
+        {
+          "name": "戊基醋酸盐",
+          "code": "C010072",
+          "type": "marked",
+          "section": "（六）"
+        }
+      ]
+    },
+    {
+      "label": "（七）",
+      "items": [
+        {
+          "name": "乙炔",
+          "code": "010012",
+          "type": "standard",
+          "section": "（七）"
+        },
+        {
+          "name": "四氯乙烷",
+          "code": "010013",
+          "type": "standard",
+          "section": "（七）"
+        },
+        {
+          "name": "苯衍生物",
+          "code": "010111",
+          "type": "standard",
+          "section": "（七）"
+        },
+        {
+          "name": "甲基异丙基苯",
+          "code": "010230",
+          "type": "standard",
+          "section": "（七）"
+        },
+        {
+          "name": "乙烷",
+          "code": "010280",
+          "type": "standard",
+          "section": "（七）"
+        },
+        {
+          "name": "甲烷",
+          "code": "010394",
+          "type": "standard",
+          "section": "（七）"
+        },
+        {
+          "name": "萘",
+          "code": "010399",
+          "type": "standard",
+          "section": "（七）"
+        },
+        {
+          "name": "四氯化碳",
+          "code": "010528",
+          "type": "standard",
+          "section": "（七）"
+        },
+        {
+          "name": "四氯化物",
+          "code": "010529",
+          "type": "standard",
+          "section": "（七）"
+        },
+        {
+          "name": "甲苯",
+          "code": "010538",
+          "type": "standard",
+          "section": "（七）"
+        },
+        {
+          "name": "工业用甲基苯",
+          "code": "010576",
+          "type": "standard",
+          "section": "（七）"
+        },
+        {
+          "name": "甲基苯",
+          "code": "010577",
+          "type": "standard",
+          "section": "（七）"
+        },
+        {
+          "name": "工业用樟脑",
+          "code": "010638",
+          "type": "standard",
+          "section": "（七）"
+        },
+        {
+          "name": "混合二甲苯",
+          "code": "010711",
+          "type": "standard",
+          "section": "（七）"
+        },
+        {
+          "name": "二甲苯",
+          "code": "010712",
+          "type": "standard",
+          "section": "（七）"
+        },
+        {
+          "name": "苯",
+          "code": "010713",
+          "type": "standard",
+          "section": "（七）"
+        },
+        {
+          "name": "粗制苯",
+          "code": "010714",
+          "type": "standard",
+          "section": "（七）"
+        },
+        {
+          "name": "萜烯烃",
+          "code": "010743",
+          "type": "standard",
+          "section": "（七）"
+        },
+        {
+          "name": "乙烯",
+          "code": "C010074",
+          "type": "marked",
+          "section": "（七）"
+        },
+        {
+          "name": "丁烯",
+          "code": "C010075",
+          "type": "marked",
+          "section": "（七）"
+        },
+        {
+          "name": "异丁烯",
+          "code": "C010076",
+          "type": "marked",
+          "section": "（七）"
+        },
+        {
+          "name": "异戊二烯",
+          "code": "C010077",
+          "type": "marked",
+          "section": "（七）"
+        },
+        {
+          "name": "乙基苯",
+          "code": "C010078",
+          "type": "marked",
+          "section": "（七）"
+        },
+        {
+          "name": "苯乙烯",
+          "code": "C010079",
+          "type": "marked",
+          "section": "（七）"
+        },
+        {
+          "name": "异丙苯",
+          "code": "C010080",
+          "type": "marked",
+          "section": "（七）"
+        },
+        {
+          "name": "苯烷",
+          "code": "C010081",
+          "type": "marked",
+          "section": "（七）"
+        },
+        {
+          "name": "轻苯",
+          "code": "C010083",
+          "type": "marked",
+          "section": "（七）"
+        },
+        {
+          "name": "氯乙烯",
+          "code": "C010084",
+          "type": "marked",
+          "section": "（七）"
+        },
+        {
+          "name": "氯丁二烯",
+          "code": "C010085",
+          "type": "marked",
+          "section": "（七）"
+        },
+        {
+          "name": "二氯乙烷",
+          "code": "C010086",
+          "type": "marked",
+          "section": "（七）"
+        },
+        {
+          "name": "环氧丙烷",
+          "code": "C010087",
+          "type": "marked",
+          "section": "（七）"
+        },
+        {
+          "name": "一氯甲烷",
+          "code": "C010088",
+          "type": "marked",
+          "section": "（七）"
+        },
+        {
+          "name": "二氯甲烷",
+          "code": "C010089",
+          "type": "marked",
+          "section": "（七）"
+        },
+        {
+          "name": "工业用三氯甲烷",
+          "code": "C010090",
+          "type": "marked",
+          "section": "（七）"
+        },
+        {
+          "name": "氯乙烷",
+          "code": "C010091",
+          "type": "marked",
+          "section": "（七）"
+        },
+        {
+          "name": "三氯乙烯",
+          "code": "C010092",
+          "type": "marked",
+          "section": "（七）"
+        },
+        {
+          "name": "过氯乙烯",
+          "code": "C010093",
+          "type": "marked",
+          "section": "（七）"
+        },
+        {
+          "name": "偏氯乙烯",
+          "code": "C010094",
+          "type": "marked",
+          "section": "（七）"
+        },
+        {
+          "name": "对二氯苯",
+          "code": "C010095",
+          "type": "marked",
+          "section": "（七）"
+        },
+        {
+          "name": "邻二氯苯",
+          "code": "C010096",
+          "type": "marked",
+          "section": "（七）"
+        },
+        {
+          "name": "二硝基氯化苯",
+          "code": "C010097",
+          "type": "marked",
+          "section": "（七）"
+        },
+        {
+          "name": "对硝基氯化苯",
+          "code": "C010098",
+          "type": "marked",
+          "section": "（七）"
+        },
+        {
+          "name": "邻硝基氯化苯",
+          "code": "C010099",
+          "type": "marked",
+          "section": "（七）"
+        },
+        {
+          "name": "联苯",
+          "code": "C010100",
+          "type": "marked",
+          "section": "（七）"
+        },
+        {
+          "name": "间二氯苯",
+          "code": "C010101",
+          "type": "marked",
+          "section": "（七）"
+        },
+        {
+          "name": "环氧乙烷",
+          "code": "C010120",
+          "type": "marked",
+          "section": "（七）"
+        }
+      ]
+    },
+    {
+      "label": "（八）",
+      "items": [
+        {
+          "name": "工业用酒精",
+          "code": "010040",
+          "type": "standard",
+          "section": "（八）"
+        },
+        {
+          "name": "乙醇",
+          "code": "010041",
+          "type": "standard",
+          "section": "（八）"
+        },
+        {
+          "name": "戊醇",
+          "code": "010065",
+          "type": "standard",
+          "section": "（八）"
+        },
+        {
+          "name": "木醇",
+          "code": "010131",
+          "type": "standard",
+          "section": "（八）"
+        },
+        {
+          "name": "工业用甘油",
+          "code": "010252",
+          "type": "standard",
+          "section": "（八）"
+        },
+        {
+          "name": "乙二醇",
+          "code": "010337",
+          "type": "standard",
+          "section": "（八）"
+        },
+        {
+          "name": "酒精",
+          "code": "010547",
+          "type": "standard",
+          "section": "（八）"
+        },
+        {
+          "name": "香叶醇",
+          "code": "C010257",
+          "type": "standard",
+          "section": "（八）"
+        },
+        {
+          "name": "精甲醇",
+          "code": "C010102",
+          "type": "marked",
+          "section": "（八）"
+        },
+        {
+          "name": "异丙醇",
+          "code": "C010103",
+          "type": "marked",
+          "section": "（八）"
+        },
+        {
+          "name": "丁醇",
+          "code": "C010104",
+          "type": "marked",
+          "section": "（八）"
+        },
+        {
+          "name": "辛醇",
+          "code": "C010105",
+          "type": "marked",
+          "section": "（八）"
+        },
+        {
+          "name": "丙二醇",
+          "code": "C010106",
+          "type": "marked",
+          "section": "（八）"
+        },
+        {
+          "name": "氯乙醇",
+          "code": "C010107",
+          "type": "marked",
+          "section": "（八）"
+        },
+        {
+          "name": "丙烯醇",
+          "code": "C010108",
+          "type": "marked",
+          "section": "（八）"
+        },
+        {
+          "name": "异丁醇",
+          "code": "C010109",
+          "type": "marked",
+          "section": "（八）"
+        },
+        {
+          "name": "叔丁醇",
+          "code": "C010110",
+          "type": "marked",
+          "section": "（八）"
+        },
+        {
+          "name": "己醇",
+          "code": "C010111",
+          "type": "marked",
+          "section": "（八）"
+        },
+        {
+          "name": "环己醇",
+          "code": "C010112",
+          "type": "marked",
+          "section": "（八）"
+        },
+        {
+          "name": "一缩二乙二醇",
+          "code": "C010113",
+          "type": "marked",
+          "section": "（八）"
+        },
+        {
+          "name": "二缩三乙二醇",
+          "code": "C010114",
+          "type": "marked",
+          "section": "（八）"
+        },
+        {
+          "name": "季戊四醇",
+          "code": "C010115",
+          "type": "marked",
+          "section": "（八）"
+        },
+        {
+          "name": "糖醇",
+          "code": "C010116",
+          "type": "marked",
+          "section": "（八）"
+        },
+        {
+          "name": "山梨醇",
+          "code": "C010117",
+          "type": "marked",
+          "section": "（八）"
+        }
+      ]
+    },
+    {
+      "label": "（九）",
+      "items": [
+        {
+          "name": "醚*",
+          "code": "010281",
+          "type": "standard",
+          "section": "（九）"
+        },
+        {
+          "name": "乙醚",
+          "code": "010282",
+          "type": "standard",
+          "section": "（九）"
+        },
+        {
+          "name": "乙二醇醚",
+          "code": "010283",
+          "type": "standard",
+          "section": "（九）"
+        },
+        {
+          "name": "甲醚",
+          "code": "010284",
+          "type": "standard",
+          "section": "（九）"
+        },
+        {
+          "name": "硫酸醚",
+          "code": "010285",
+          "type": "standard",
+          "section": "（九）"
+        },
+        {
+          "name": "联苯醚",
+          "code": "C010119",
+          "type": "marked",
+          "section": "（九）"
+        },
+        {
+          "name": "异丙醚",
+          "code": "C010121",
+          "type": "marked",
+          "section": "（九）"
+        }
+      ]
+    },
+    {
+      "label": "（十）",
+      "items": [
+        {
+          "name": "工业用酚",
+          "code": "010426",
+          "type": "standard",
+          "section": "（十）"
+        },
+        {
+          "name": "工业用类黄酮（酚类化合物）",
+          "code": "010703",
+          "type": "standard",
+          "section": "（十）"
+        },
+        {
+          "name": "工业用麝香草酚",
+          "code": "010704",
+          "type": "standard",
+          "section": "（十）"
+        },
+        {
+          "name": "肉桂油",
+          "code": "C010071",
+          "type": "marked",
+          "section": "（十）"
+        },
+        {
+          "name": "愈疮木酚",
+          "code": "C010122",
+          "type": "marked",
+          "section": "（十）"
+        },
+        {
+          "name": "对硝基苯酚",
+          "code": "C010123",
+          "type": "marked",
+          "section": "（十）"
+        },
+        {
+          "name": "对苯二酚",
+          "code": "C010124",
+          "type": "marked",
+          "section": "（十）"
+        },
+        {
+          "name": "间苯二酚",
+          "code": "C010125",
+          "type": "marked",
+          "section": "（十）"
+        },
+        {
+          "name": "对硝基苯酚钠",
+          "code": "C010126",
+          "type": "marked",
+          "section": "（十）"
+        },
+        {
+          "name": "对氨基酚",
+          "code": "C010127",
+          "type": "marked",
+          "section": "（十）"
+        },
+        {
+          "name": "间氨基酚",
+          "code": "C010128",
+          "type": "marked",
+          "section": "（十）"
+        },
+        {
+          "name": "苯酚",
+          "code": "C010129",
+          "type": "marked",
+          "section": "（十）"
+        },
+        {
+          "name": "2-萘酚",
+          "code": "C010130",
+          "type": "marked",
+          "section": "（十）"
+        }
+      ]
+    },
+    {
+      "label": "（十一）",
+      "items": [
+        {
+          "name": "联氨",
+          "code": "010358",
+          "type": "standard",
+          "section": "（十一）"
+        },
+        {
+          "name": "对称二苯硫脲",
+          "code": "010533",
+          "type": "standard",
+          "section": "（十一）"
+        },
+        {
+          "name": "生物碱*",
+          "code": "010562",
+          "type": "standard",
+          "section": "（十一）"
+        },
+        {
+          "name": "苯胺",
+          "code": "C010082",
+          "type": "marked",
+          "section": "（十一）"
+        },
+        {
+          "name": "一乙基苯胺",
+          "code": "C010131",
+          "type": "marked",
+          "section": "（十一）"
+        },
+        {
+          "name": "二苯胺",
+          "code": "C010132",
+          "type": "marked",
+          "section": "（十一）"
+        },
+        {
+          "name": "乙酰苯胺",
+          "code": "C010133",
+          "type": "marked",
+          "section": "（十一）"
+        },
+        {
+          "name": "苯乙酰胺",
+          "code": "C010134",
+          "type": "marked",
+          "section": "（十一）"
+        },
+        {
+          "name": "多乙烯多胺",
+          "code": "C010135",
+          "type": "marked",
+          "section": "（十一）"
+        },
+        {
+          "name": "甲萘胺",
+          "code": "C010136",
+          "type": "marked",
+          "section": "（十一）"
+        },
+        {
+          "name": "盐酸羟基胺",
+          "code": "C010137",
+          "type": "marked",
+          "section": "（十一）"
+        },
+        {
+          "name": "双氰胺",
+          "code": "C010138",
+          "type": "marked",
+          "section": "（十一）"
+        },
+        {
+          "name": "三聚氰胺",
+          "code": "C010139",
+          "type": "marked",
+          "section": "（十一）"
+        },
+        {
+          "name": "甲酰胺",
+          "code": "C010140",
+          "type": "marked",
+          "section": "（十一）"
+        },
+        {
+          "name": "一甲胺",
+          "code": "C010141",
+          "type": "marked",
+          "section": "（十一）"
+        },
+        {
+          "name": "二甲胺",
+          "code": "C010142",
+          "type": "marked",
+          "section": "（十一）"
+        },
+        {
+          "name": "二乙胺",
+          "code": "C010143",
+          "type": "marked",
+          "section": "（十一）"
+        },
+        {
+          "name": "乙二胺",
+          "code": "C010144",
+          "type": "marked",
+          "section": "（十一）"
+        },
+        {
+          "name": "三乙醇胺",
+          "code": "C010145",
+          "type": "marked",
+          "section": "（十一）"
+        },
+        {
+          "name": "二乙醇胺",
+          "code": "C010146",
+          "type": "marked",
+          "section": "（十一）"
+        },
+        {
+          "name": "一乙醇胺",
+          "code": "C010147",
+          "type": "marked",
+          "section": "（十一）"
+        },
+        {
+          "name": "硫脲",
+          "code": "C010148",
+          "type": "marked",
+          "section": "（十一）"
+        },
+        {
+          "name": "硝酸胍",
+          "code": "C010149",
+          "type": "marked",
+          "section": "（十一）"
+        },
+        {
+          "name": "硫酸肼",
+          "code": "C010150",
+          "type": "marked",
+          "section": "（十一）"
+        },
+        {
+          "name": "过氧化二苯甲酰",
+          "code": "C010151",
+          "type": "marked",
+          "section": "（十一）"
+        },
+        {
+          "name": "乙腈",
+          "code": "C010152",
+          "type": "marked",
+          "section": "（十一）"
+        },
+        {
+          "name": "三氯三聚氰",
+          "code": "C010153",
+          "type": "marked",
+          "section": "（十一）"
+        },
+        {
+          "name": "皂素",
+          "code": "C010154",
+          "type": "marked",
+          "section": "（十一）"
+        },
+        {
+          "name": "四甲基吡啶",
+          "code": "C010155",
+          "type": "marked",
+          "section": "（十一）"
+        },
+        {
+          "name": "溴化棕榈酸吡啶",
+          "code": "C010156",
+          "type": "marked",
+          "section": "（十一）"
+        },
+        {
+          "name": "丙烯腈",
+          "code": "C010157",
+          "type": "marked",
+          "section": "（十一）"
+        }
+      ]
+    },
+    {
+      "label": "（十二）",
+      "items": [
+        {
+          "name": "丙酮",
+          "code": "010011",
+          "type": "standard",
+          "section": "（十二）"
+        },
+        {
+          "name": "酮",
+          "code": "010164",
+          "type": "standard",
+          "section": "（十二）"
+        },
+        {
+          "name": "环己酮",
+          "code": "C010164",
+          "type": "marked",
+          "section": "（十二）"
+        },
+        {
+          "name": "对硝基苯乙酮",
+          "code": "C010165",
+          "type": "marked",
+          "section": "（十二）"
+        },
+        {
+          "name": "双乙酮",
+          "code": "C010166",
+          "type": "marked",
+          "section": "（十二）"
+        },
+        {
+          "name": "人造麝香酮",
+          "code": "C010256",
+          "type": "marked",
+          "section": "（十二）"
+        }
+      ]
+    },
+    {
+      "label": "（十三）",
+      "items": [
+        {
+          "name": "醛*",
+          "code": "010042",
+          "type": "standard",
+          "section": "（十三）"
+        },
+        {
+          "name": "氨醛",
+          "code": "010062",
+          "type": "standard",
+          "section": "（十三）"
+        },
+        {
+          "name": "巴豆醛",
+          "code": "010220",
+          "type": "standard",
+          "section": "（十三）"
+        },
+        {
+          "name": "化学用甲醛",
+          "code": "010311",
+          "type": "standard",
+          "section": "（十三）"
+        },
+        {
+          "name": "苯甲醛",
+          "code": "C010158",
+          "type": "marked",
+          "section": "（十三）"
+        },
+        {
+          "name": "丁醛",
+          "code": "C010159",
+          "type": "marked",
+          "section": "（十三）"
+        },
+        {
+          "name": "糠醛",
+          "code": "C010160",
+          "type": "marked",
+          "section": "（十三）"
+        },
+        {
+          "name": "庚醛",
+          "code": "C010161",
+          "type": "marked",
+          "section": "（十三）"
+        },
+        {
+          "name": "三聚甲醛",
+          "code": "C010162",
+          "type": "marked",
+          "section": "（十三）"
+        },
+        {
+          "name": "多聚甲醛",
+          "code": "C010163",
+          "type": "marked",
+          "section": "（十三）"
+        },
+        {
+          "name": "丙烯醛",
+          "code": "C010167",
+          "type": "marked",
+          "section": "（十三）"
+        },
+        {
+          "name": "椰子醛",
+          "code": "C010254",
+          "type": "marked",
+          "section": "（十三）"
+        }
+      ]
+    },
+    {
+      "label": "（十四）",
+      "items": [
+        {
+          "name": "乙酸戊酯",
+          "code": "010064",
+          "type": "standard",
+          "section": "（十四）"
+        },
+        {
+          "name": "酯*",
+          "code": "010279",
+          "type": "standard",
+          "section": "（十四）"
+        },
+        {
+          "name": "甘油酯",
+          "code": "010336",
+          "type": "standard",
+          "section": "（十四）"
+        },
+        {
+          "name": "硫酸二甲酯",
+          "code": "C010168",
+          "type": "marked",
+          "section": "（十四）"
+        },
+        {
+          "name": "乙酰乙酸乙酯",
+          "code": "C010169",
+          "type": "marked",
+          "section": "（十四）"
+        },
+        {
+          "name": "甲基丙烯酸甲酯",
+          "code": "C010170",
+          "type": "marked",
+          "section": "（十四）"
+        },
+        {
+          "name": "磷酸三丁酯",
+          "code": "C010171",
+          "type": "marked",
+          "section": "（十四）"
+        },
+        {
+          "name": "醛酯",
+          "code": "C010172",
+          "type": "marked",
+          "section": "（十四）"
+        },
+        {
+          "name": "丙烯乙酯",
+          "code": "C010174",
+          "type": "marked",
+          "section": "（十四）"
+        },
+        {
+          "name": "丁酯",
+          "code": "C010175",
+          "type": "marked",
+          "section": "（十四）"
+        },
+        {
+          "name": "丙烯酸-2-乙基乙酯",
+          "code": "C010176",
+          "type": "marked",
+          "section": "（十四）"
+        },
+        {
+          "name": "安息香酸乙酯",
+          "code": "C010255",
+          "type": "marked",
+          "section": "（十四）"
+        }
+      ]
+    },
+    {
+      "label": "（十五）",
+      "items": [
+        {
+          "name": "工业用琼脂",
+          "code": "010029",
+          "type": "standard",
+          "section": "（十五）"
+        },
+        {
+          "name": "动植物白朊（原料）",
+          "code": "010033",
+          "type": "standard",
+          "section": "（十五）"
+        },
+        {
+          "name": "碘化蛋白",
+          "code": "010034",
+          "type": "standard",
+          "section": "（十五）"
+        },
+        {
+          "name": "麦芽蛋白",
+          "code": "010035",
+          "type": "standard",
+          "section": "（十五）"
+        },
+        {
+          "name": "磷脂",
+          "code": "010429",
+          "type": "standard",
+          "section": "（十五）"
+        },
+        {
+          "name": "蛋白质（原料）",
+          "code": "010452",
+          "type": "standard",
+          "section": "（十五）"
+        },
+        {
+          "name": "卵磷脂（原料）",
+          "code": "010588",
+          "type": "standard",
+          "section": "（十五）"
+        },
+        {
+          "name": "工业酪蛋白",
+          "code": "010591",
+          "type": "standard",
+          "section": "（十五）"
+        },
+        {
+          "name": "工业用卵磷脂",
+          "code": "010664",
+          "type": "standard",
+          "section": "（十五）"
+        },
+        {
+          "name": "工业用果胶",
+          "code": "010666",
+          "type": "standard",
+          "section": "（十五）"
+        },
+        {
+          "name": "工业用谷蛋白",
+          "code": "010671",
+          "type": "standard",
+          "section": "（十五）"
+        },
+        {
+          "name": "工业用胶原蛋白",
+          "code": "010688",
+          "type": "standard",
+          "section": "（十五）"
+        },
+        {
+          "name": "生产用蛋白质",
+          "code": "010697",
+          "type": "standard",
+          "section": "（十五）"
+        }
+      ]
+    },
+    {
+      "label": "（十六）",
+      "items": [
+        {
+          "name": "工业用淀粉",
+          "code": "010055",
+          "type": "standard",
+          "section": "（十六）"
+        },
+        {
+          "name": "纤维素",
+          "code": "010155",
+          "type": "standard",
+          "section": "（十六）"
+        },
+        {
+          "name": "糖苷",
+          "code": "010335",
+          "type": "standard",
+          "section": "（十六）"
+        },
+        {
+          "name": "碳水化合物",
+          "code": "010357",
+          "type": "standard",
+          "section": "（十六）"
+        },
+        {
+          "name": "工业用土豆粉",
+          "code": "010444",
+          "type": "standard",
+          "section": "（十六）"
+        },
+        {
+          "name": "工业用木薯粉",
+          "code": "010512",
+          "type": "standard",
+          "section": "（十六）"
+        },
+        {
+          "name": "工业用纤维素酯",
+          "code": "010590",
+          "type": "standard",
+          "section": "（十六）"
+        },
+        {
+          "name": "纤维素衍生物（化学品）",
+          "code": "010592",
+          "type": "standard",
+          "section": "（十六）"
+        },
+        {
+          "name": "工业用纤维素醚",
+          "code": "010593",
+          "type": "standard",
+          "section": "（十六）"
+        },
+        {
+          "name": "工业用葡萄糖",
+          "code": "010614",
+          "type": "standard",
+          "section": "（十六）"
+        },
+        {
+          "name": "工业用乳糖",
+          "code": "010673",
+          "type": "standard",
+          "section": "（十六）"
+        },
+        {
+          "name": "乳糖（原料）",
+          "code": "010674",
+          "type": "standard",
+          "section": "（十六）"
+        },
+        {
+          "name": "工业用谷粉",
+          "code": "010289",
+          "type": "standard",
+          "section": "（十六）"
+        },
+        {
+          "name": "工业用面粉",
+          "code": "C010262",
+          "type": "marked",
+          "section": "（十六）"
+        }
+      ]
+    },
+    {
+      "label": "（十七）",
+      "items": [
+        {
+          "name": "工业淀粉酶",
+          "code": "010244",
+          "type": "standard",
+          "section": "（十七）"
+        },
+        {
+          "name": "工业用酶制剂",
+          "code": "010272",
+          "type": "standard",
+          "section": "（十七）"
+        },
+        {
+          "name": "工业用酶",
+          "code": "010273",
+          "type": "standard",
+          "section": "（十七）"
+        },
+        {
+          "name": "化学用酵素",
+          "code": "010291",
+          "type": "standard",
+          "section": "（十七）"
+        },
+        {
+          "name": "生产生物燃料用酵母",
+          "code": "010725",
+          "type": "standard",
+          "section": "（十七）"
+        }
+      ]
+    },
+    {
+      "label": "（十八）",
+      "items": [
+        {
+          "name": "表面活性剂",
+          "code": "010518",
+          "type": "standard",
+          "section": "（十八）"
+        }
+      ]
+    },
+    {
+      "label": "（十九）",
+      "items": [
+        {
+          "name": "工业用过氧化氢",
+          "code": "010414",
+          "type": "standard",
+          "section": "（十九）"
+        }
+      ]
+    },
+    {
+      "label": "（二十）",
+      "items": [
+        {
+          "name": "蒸馏水",
+          "code": "010247",
+          "type": "standard",
+          "section": "（二十）"
+        },
+        {
+          "name": "硅胶",
+          "code": "C010020",
+          "type": "marked",
+          "section": "（二十）"
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "硫化钙",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硫化镉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硫化汞",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硫化磷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硫化钠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硫酸铵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硫酸铝",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硫酸镁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "丁二烯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蒽",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "二苯基甲烷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "二苯甲酮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "二苄醚",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "二甲基苯胺",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "二氯化乙烯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "二氧化硅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "二异丙醚",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钒酸铵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氟硅酸钠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氟化铵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氟化钙",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氟化镁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氟化钠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氟化铈",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氟铝化钠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高氯酸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高氯酸铵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高锰酸钠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铬酸钠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铬酸铅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用蛋白质",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硅酸钠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氨水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硅烷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "过硫酸铵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "合成冰晶石",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "环己烷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "环戊烷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "茴香醚",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "己二胺",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "甲胺",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "甲苯胺",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "甲酚",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "甲醛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "甲酸盐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "甲酯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属氯化物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属氧化物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "酒精工业用酶制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "酒石酸钠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "聚硅氮烷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "聚硅烷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "均二苯代乙烯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "咔唑",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "苛性钾",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "联茴香胺",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "联甲苯胺",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "邻苯二甲酸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "邻苯二甲酸二甲酯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "邻苯二甲酸二乙酯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "邻苯二甲酸乙酯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "磷化氢",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "磷酸铵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "磷酸钙",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "磷酸锰",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "磷酸钠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "磷酸氢二钾",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硫醇",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硫代硫酸钠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硫化铵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硫化钡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硝基酚",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硝基甲苯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硝基萘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硝基烷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硝酸钡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硝酸钙",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硝酸铝",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硝酸锰",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硝酸钠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硝酸铅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硝酸钍",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "溴苯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "溴化铵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "溴化钠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "亚硫酸钠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "亚硫酸氢钠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "亚氯酸钠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "亚铁氰化钾",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "亚硝酸钡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "亚硝酸钠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "亚硝酸银",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氧化铝",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氧化镁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氧化镍",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氧化钛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氧化铁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "一氯醋酸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "乙胺",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "乙酸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "乙酸甲酯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "乙酸辛酯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "乙缩醛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "乙酰苯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硫酸镁石",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硫酸钠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硫酸镍",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硫酸镍铵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硫酸铅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硫酸亚铁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硫酸银",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "六氟硅酸镁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "六氯乙烷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铝酸钙",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铝酸盐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氯丙烯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "巴豆酸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "苯二胺",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "苯甲醇",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "吡啶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "吡咯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冰晶石",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "丙二酸二乙酯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "次氯酸钠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "醋酸丁酯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "醋酸盐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "醋酸乙烯酯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氮氧化铝",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "碘化钙",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "碘化钠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "碘化银",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "重铬酸铵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "棕榈酸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "油醇",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有机硅烷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有机卤化物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "月桂醇",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氯化钡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氯化铋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氯化铬",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氯化汞",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氯化金",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氯化磷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氯化锰",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氯化铈",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氯化酸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氯化银",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氯碱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氯酸钠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "茂金属",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "镁盐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "锰矾",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "嘧啶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "明矾石",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钼酸铵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钼酸钠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钠矾",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "萘胺",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "偏磷酸锰",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氢醌",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氢氧化钡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氢氧化钙",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "清洁剂工业用酶制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氰化钙",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氰化钾",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氰化钠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氰化氢",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氰化银",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氰酸钾",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "去污剂工业用酶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "噻吩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "三苯甲烷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "三聚乙醛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "三溴甲烷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生产清洁剂用纤维素酶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "四氯乙烯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "四硼酸钠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "四乙基铅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "碳酸铵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "碳酸锰",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "碳酸钠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "碳酸铅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "糖蛋白",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "糖原",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "锑酸盐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铁明矾",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铁氰化钾",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "肟",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钨酸钠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "五氧化二磷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "戊酸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烯丙基氯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "锡酸盐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用低聚肽",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用金属氧化物粉末",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用壳聚糖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用溶菌酶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用乙炔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用脂肪酸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "络盐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氯化氢",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "碳化硅（生产其他产品用原材料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸或纺织品制造用淀粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硝酸铁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氧化锡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属酸盐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "联甲苯胺硫酸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无水苛性钠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氧化钙（生石灰）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "乙基锌",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硅酸锌",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硝酸甘油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硝基甲苯胺",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "菲（化学品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用作药物中间体的吩噻嗪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "磷蛋白",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "赤藓醇",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "乙基碘化锌",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氨基甲苯胺萘磺酸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "阿拉伯糖醇",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硫酸联苯胺",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "对氯硝基苯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氢化偶氮苯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "核蛋白",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鱼精蛋白",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "十六（烷）醇",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蛋白酵素",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "二氟二氯化碳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "苛性钾（氢氧化钾）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "苛性钠（氢氧化钠）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有机卤代硅烷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硫醚",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硼酸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硝基氨基苯酚",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硝基苯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硝酸汞",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "对氨基乙酰苯胺",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氨基甲酸乙酯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氢氧化镍",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氰氨化钙",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氯化钠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "二甲苯酚",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氯化铁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氯化锡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氯化锌",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氯甲醚",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木糖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "内酰胺",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "柠檬酸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硫酸汞",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硫酸锌",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有机金属化合物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有机磷化合物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有机砷化合物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有机酸盐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "白云石",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属氧化物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氨基苯磺酸钠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "乙醛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硫酸铜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "去离子水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氧化银",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "二硫化钙",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "磺酰氯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "复盐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "甘露糖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "偶氮苯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "磷酸钡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "对二氨基联苯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "二甲胂基氯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "二氯苯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "二硝基萘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氯化锆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木醋酸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "酮戊二酸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "醋酸酯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硅油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "过氧化钡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氯苯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "丙烯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "杂环化合物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "磷酸锌",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "磷酸锂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硫化锡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硫化锌",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用醇溶蛋白",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用半乳糖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用球蛋白",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "镁砂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硼磷酸盐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "磷酸钠铝",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "对氨基萘磺酸钠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氯化萘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氯硝基苯氨",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用白蛋白",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "肉桂醇",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用杂酚油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用吲哚",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "丙烯酸单体",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "混合酸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用无机盐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氧化偶氮苯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "呋喃",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "腙",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "缩氨基脲",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鼠李糖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铀酸盐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "磷酸镁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "磷酸铁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "磷酸铜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水菱镁矿",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "碳酸钙镁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氯氟碳化合物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属酸洗用酸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蛋白水解用酶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "淀粉水解用酶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "四氯化锆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硫酸钾",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氯乙烯单体",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "苛性钠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氟化钾",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钾明矾",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "磷酸钾",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "磷酸盐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氧化锌",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "混合苯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "戊烷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "丙烷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "正丁烷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "异丁烷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卞醚",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "亚磺酸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "过氧化氢",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "二氧化氢",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非医用酒石乳剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "柠檬酸钙",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铁精粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硅微粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硅氟化镁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氧化铟",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "尿素酶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "二苯乙烯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "麝香草酚",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "聚乙烯醇",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氧化钼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氢化钙",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "尿素",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "碳化硅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "乙基丙二酸盐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用蛋白",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "重碳酸铵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氯化金钠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用从生物技术工艺中提取的酶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用精甲醇",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "锰酸锂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "镍钴铝酸锂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "镍钴锰酸锂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "二硫化锡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用无水氢氧化钠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "一硫化锡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氯化亚锡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "四氯化锡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用纯净水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "甲苯胺硫酸盐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用钴酸锂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用磷酸铁锂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用镍钴锰酸锂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "胶原蛋白",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "表面活性化学剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "磷酸二氢钾",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用二缩三乙二醇",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用异丁醇",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用异丙醇",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用辛醇",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氧化铬绿",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用糖醇",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用叔丁醇",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺织工业用酶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "苯甲酸钠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "联甲苯胺硫酸盐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用瓜尔胶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "瓜尔胶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用马铃薯粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "富勒烯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "砷化镓",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "麦角硫因",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "吡咯并喹啉醌二钠盐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氮化镓",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "动物蛋白（原料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用透明质酸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用透明质酸钠",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:06.114Z"
+}

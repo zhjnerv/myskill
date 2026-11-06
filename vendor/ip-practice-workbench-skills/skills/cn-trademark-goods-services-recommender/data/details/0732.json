@@ -1,0 +1,91 @@
+{
+  "groupCode": "0732",
+  "groupName": "石油开采、精炼工业用设备",
+  "classCode": "07",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "钻探装置（浮动或非浮动）",
+          "code": "070462",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "油精炼机器",
+          "code": "070498",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "浮式生产储卸油装置",
+          "code": "070584",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "石油开采、石油精炼工业用机器设备",
+          "code": "C070236",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "石油化工设备",
+          "code": "C070237",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "石油钻机",
+          "code": "C070238",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "石油专用泥浆泵",
+          "code": "C070239",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "洗井机",
+          "code": "C070240",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "通井机",
+          "code": "C070241",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "石油专用抽油泵",
+          "code": "C070242",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "油井用抽油机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钻井机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钻探装置",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:08.046Z"
+}

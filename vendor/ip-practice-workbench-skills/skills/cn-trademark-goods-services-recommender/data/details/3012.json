@@ -1,0 +1,253 @@
+{
+  "groupCode": "3012",
+  "groupName": "食用淀粉及其制品",
+  "classCode": "30",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "烹饪食品用增稠剂",
+          "code": "300050",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食用淀粉",
+          "code": "300065",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "香肠黏合料",
+          "code": "300088",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "土豆粉*",
+          "code": "300114",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "木薯淀粉",
+          "code": "300127",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "木薯粉*",
+          "code": "300128",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "百合粉",
+          "code": "C300088",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "魔芋粉",
+          "code": "C300089",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "栗粉",
+          "code": "C300090",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "菱角粉",
+          "code": "C300091",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "蕨粉",
+          "code": "C300093",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "粉丝（条）",
+          "code": "C300094",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "藕粉",
+          "code": "C300095",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "地瓜粉",
+          "code": "C300096",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "马铃薯粉",
+          "code": "C300097",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "龙虾片",
+          "code": "C300098",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "南瓜粉",
+          "code": "C300099",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "小麦淀粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "玉米淀粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "虾片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烹饪用玉米淀粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烹饪用日本竹芋粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "粉丝",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "粉条",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马铃薯粉（食用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "西谷椰子淀粉（食用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "大米淀粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用木薯粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "玉米淀粉（食品用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "粉丝（未烹调）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用葛粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用地瓜粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "芋头粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制粉圆用淀粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "紫薯粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "荸荠粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蕨根粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蕃薯粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "山药淀粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用土豆粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用马铃薯淀粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "凉粉（食用淀粉制品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烹饪用增稠剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烹饪用瓜尔胶",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:45.386Z"
+}

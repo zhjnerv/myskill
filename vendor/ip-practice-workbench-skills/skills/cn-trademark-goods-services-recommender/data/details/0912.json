@@ -1,0 +1,400 @@
+{
+  "groupCode": "0912",
+  "groupName": "光电传输材料",
+  "classCode": "09",
+  "notes": [
+    "注：1.纤维光缆与 0913 第（七）部分类似；",
+    "2.本类似群与第十一版及以前版本 1202 已接受商品汽车电线束，第十版及以前版本1203 已接受商品摩托车用电线束交叉检索；",
+    "3.本类似群与第九版及以前版本 0907 纤维光缆，0913 第（四）部分电缆接头套交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "电缆包皮层",
+          "code": "090098",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电缆",
+          "code": "090215",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电线",
+          "code": "090255",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "磁线",
+          "code": "090256",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电线识别线",
+          "code": "090293",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电线识别包层",
+          "code": "090294",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电报线",
+          "code": "090469",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电源材料（电线、电缆）",
+          "code": "090553",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "绝缘铜线",
+          "code": "090558",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电话线",
+          "code": "090572",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电缆连接套筒",
+          "code": "090626",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "马达启动缆",
+          "code": "090647",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "同轴电缆",
+          "code": "090665",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纤维光缆",
+          "code": "090666",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "汽车电线束",
+          "code": "090799",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "手机用USB线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水下用电缆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "强电流架空电缆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "声音和图像传输用电缆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "跨接电缆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "跨接起动电缆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "矿物绝缘电缆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "连接电缆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "连接用电缆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "光学信号传输用缆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机电缆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "光导纤维连接套筒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "光缆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电源电缆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电转接线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "带塑料包层的电线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "带橡胶包层的电线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "带有滤波器的同轴电缆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电缆用金属螺纹接头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电气裸线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电线延长线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电信电缆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "传输声音和图像用电缆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "传送和接收有线电视信号用电缆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "USB线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无线电中继电缆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "输电线路接头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电话线延长线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数据同步电缆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电线和电缆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电缆延长线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电缆接头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "耳机转接线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "接地电缆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通信电缆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "吉他电源线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "塑料包层的电线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "延长电线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电导线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "扬声器电线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "移动电话数据线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "移动电话用数据线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "音频连接线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "音频线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "摩托车电线束",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机用电缆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "视频线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "胶皮包层的电线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电信号传输系统用电缆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电缆导线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数据线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "麦克风用电缆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "充电电缆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "柔性扁平电缆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "调制解调器用线缆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车用电线束",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高清多媒体接口电缆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电源线",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:36.160Z"
+}

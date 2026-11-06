@@ -1,0 +1,40 @@
+{
+  "groupCode": "0620",
+  "groupName": "金属植物保护器",
+  "classCode": "06",
+  "notes": [
+    "注：树或植物的金属支桩与2007树或植物的非金属支桩类似，与第十版及以前版本2007树或植物的支桩交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "树木金属保护器",
+          "code": "060028",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "树或植物的金属支桩",
+          "code": "060467",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "金属植物笼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属番茄笼",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:45.985Z"
+}

@@ -1,0 +1,502 @@
+{
+  "groupCode": "0701",
+  "groupName": "农业用机械及部件（不包括小农具）",
+  "classCode": "07",
+  "notes": [
+    "注:1. 喷雾机与0803杀虫剂用喷雾器（手工具），杀虫剂用喷洒器类似，与第九版及以前版本0803杀虫喷雾器（手工具），杀虫剂喷雾器（手工具），杀虫用喷雾器交叉检索；",
+    "2.排水机与1108组农业用排灌机类似；",
+    "3. 本类似群与第十版及以前版本0709砻谷机，第七版及以前版本0708采茶机交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "农业机械",
+          "code": "070008",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "农业起卸机",
+          "code": "070009",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "犁",
+          "code": "070028",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "打谷机",
+          "code": "070043",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "收割机械",
+          "code": "070051",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "捆干草装置",
+          "code": "070058",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "捆干草机",
+          "code": "070058",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "玉米脱粒机",
+          "code": "070089",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "谷物脱壳机",
+          "code": "070089",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "犁铧",
+          "code": "070100",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "中耕机",
+          "code": "070138",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铲草皮犁",
+          "code": "070148",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "排水机",
+          "code": "070158",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "植物茎、柄、叶分离器（机器）",
+          "code": "070168",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "谷物脱粒机",
+          "code": "070169",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "摊晒机",
+          "code": "070186",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "割草机用刀",
+          "code": "070188",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "割草机",
+          "code": "070201",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "切草机",
+          "code": "070210",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "稻草切割机",
+          "code": "070210",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "耙土机",
+          "code": "070213",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "喷雾机",
+          "code": "070214",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "切草机刀片",
+          "code": "070223",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "收割机",
+          "code": "070268",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "收割捆扎机",
+          "code": "070269",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "收割脱粒机",
+          "code": "070270",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "耙机用耙",
+          "code": "070323",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "耙机",
+          "code": "070324",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "除草机",
+          "code": "070344",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "播种机（机器）",
+          "code": "070348",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "扬谷机",
+          "code": "070379",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非手动的农业器具",
+          "code": "070388",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "机动中耕机",
+          "code": "070513",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "农用耕作机",
+          "code": "070577",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "农业用采收机器人",
+          "code": "070627",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "插秧机",
+          "code": "C070001",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "植树机",
+          "code": "C070002",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "种子发芽器",
+          "code": "C070003",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "沼气出料机",
+          "code": "C070004",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "种子清洗设备",
+          "code": "C070005",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "砻谷机",
+          "code": "C070097",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "采茶机",
+          "code": "C070366",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "电动耕作机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "大麦脱粒机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机械割草机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "农业用打包机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动草坪修剪机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动割草机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "谷物加工机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "割茬机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "稻粒拣选机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "农业用耕作机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "施肥机（非手动）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用拖拉机牵引的耙",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "收割机（农业机器）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "骑乘式割草机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牵引式施肥机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动草坪割草机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动绿篱修剪机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动中耕机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "农业播种机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "联合收割机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽油割草机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "施肥机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "稻米脱壳机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "秸秆捆包机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动铡草机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "充电式树篱修剪机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "干草打包机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "干草捆扎机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动剪篱机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "园艺耕作机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水稻插秧机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动微耕机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "喷雾机（机器）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "草坪修剪机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "树枝修剪机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "灌木修剪机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "割草机打草头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "农业机械用条播机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动锄地机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动树篱修剪机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "喷杀虫剂用电动喷雾器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "拖拉机牵引式割草机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "割草机器人",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动树枝粉碎机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "拖拉机牵引式收割机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "大麦抛光机",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:49.178Z"
+}

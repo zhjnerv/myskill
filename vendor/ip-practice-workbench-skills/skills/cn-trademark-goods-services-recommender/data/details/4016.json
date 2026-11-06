@@ -1,0 +1,29 @@
+{
+  "groupCode": "4016",
+  "groupName": "船只定制生产服务",
+  "classCode": "40",
+  "notes": [
+    "本类似群与3709船只建造类似，与第十一版及以前版本3709造船交叉检索"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "定制生产小船",
+          "code": "400133",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "定制生产游艇",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:40.438Z"
+}

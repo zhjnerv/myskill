@@ -1,0 +1,547 @@
+{
+  "groupCode": "3104",
+  "groupName": "活动物",
+  "classCode": "31",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "供展览用动物",
+          "code": "310005",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "活动物",
+          "code": "310006",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "贝壳类动物（活的）",
+          "code": "310041",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "孵化蛋（已受精）",
+          "code": "310045",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鱼卵",
+          "code": "310089",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蚕种",
+          "code": "310090",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "活鱼",
+          "code": "310103",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蚕",
+          "code": "310119",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "活家禽",
+          "code": "310123",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "小龙虾（活的）",
+          "code": "310133",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "甲壳动物（活的）",
+          "code": "310134",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "龙虾（活的）",
+          "code": "310135",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "贻贝（活的）",
+          "code": "310136",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "牡蛎（活的）",
+          "code": "310137",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "多刺龙虾（活的）",
+          "code": "310140",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "海参（活的）",
+          "code": "310145",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鲱鱼（活的）",
+          "code": "310154",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鲑鱼（活的）",
+          "code": "310155",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "沙丁鱼（活的）",
+          "code": "310156",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金枪鱼（活的）",
+          "code": "310157",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鳀鱼（活的）",
+          "code": "310162",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "可食用昆虫（活的）",
+          "code": "310163",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "锦鲤（活的）",
+          "code": "310167",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "软体动物（活的）",
+          "code": "310168",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蚕蛹（活的）",
+          "code": "C310002",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "虾（活的）",
+          "code": "C310023",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "狗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蛤（活的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "活的可食用水生动物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "产卵用茧",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鸟（活的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "昆虫（活的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "活猪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "活鸭",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "活乌鸡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "活猎物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "活的水族池珊瑚",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "活家畜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "仓鼠（活的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金鱼（活的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鳗鱼（活的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鲈鱼（活的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鲢鱼（活的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "活鱼（非食用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "活牲畜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "活山羊",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "活母鸡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "活绵羊",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鲫鱼（活的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鳟鱼（活的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鳕鱼（活的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "孵化用受精卵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鲽鱼（活的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "活龙虾",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "活珊瑚",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "活虾",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "活螃蟹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "孵化蛋（活的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "活鲍鱼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鱿鱼（活的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "枪乌贼（活的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "孵化用蛋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "活的实验动物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "章鱼（活的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "活明虾",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "活蜂蛹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "活赤贝",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "观赏鱼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "活墨鱼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "活蓝贻贝",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "活鲷鱼（红鲷）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "活沙丁鱼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "活海鲈鱼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "活短颈蛤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "繁殖用蚕茧",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "活鲤鱼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鳖（活的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "黄花鱼（活的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "龙利鱼（活的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "海兔（活的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "活鲑鱼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "海螺（活的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鲅鱼（活的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "多春鱼（活的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "雪蟹（活的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "活蜗牛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鸡（活的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "磷虾（活的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "活的可食用水产动物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "活羊",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "活鸡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "活牛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "甲鱼（活的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蝲蛄（活的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "比目鱼（活的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "北极贝（活的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "象拔蚌（活的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "大闸蟹（活的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "泥鳅（活的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "活鳕鱼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蝴蝶（活的）",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:51.941Z"
+}

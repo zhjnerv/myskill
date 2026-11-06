@@ -1,0 +1,313 @@
+{
+  "groupCode": "0905",
+  "groupName": "量具",
+  "classCode": "09",
+  "notes": [
+    "注：规尺（量具），圆规（测量仪器），量具，尺（量器），刻度尺与1616商品类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "校准口径圈",
+          "code": "090040",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "测量用链",
+          "code": "090056",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "卡钳",
+          "code": "090066",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "游标卡尺",
+          "code": "090104",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "规尺（量具）",
+          "code": "090105",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "裁缝用尺",
+          "code": "090169",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "皮革厚度量具",
+          "code": "090171",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "测量用圆规",
+          "code": "090200",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "量具",
+          "code": "090201",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "尺（量器）",
+          "code": "090284",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "木工尺",
+          "code": "090343",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "刻度尺",
+          "code": "090349",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "测微规",
+          "code": "090379",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "千分尺",
+          "code": "090379",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "测量皮厚度的仪器",
+          "code": "090386",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "螺丝攻规",
+          "code": "090466",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "划线规（木工）",
+          "code": "090490",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "游标",
+          "code": "090494",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "测量用丁字尺",
+          "code": "090783",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "测量用直角板",
+          "code": "090784",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "测量用直角尺",
+          "code": "090785",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "戒指圈码尺",
+          "code": "090793",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "戒指指围尺",
+          "code": "090794",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "量规",
+          "code": "C090014",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "螺旋测微器",
+          "code": "C090016",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "千分表",
+          "code": "C090017",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "齿轮测量工具",
+          "code": "C090019",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "刀具测量工具",
+          "code": "C090020",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "分样筛",
+          "code": "C090021",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "标准筛",
+          "code": "C090022",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "测量用尺",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "分角规",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木工用折叠尺",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木工用划线规",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "量尺",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卷尺",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子游标卡尺",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "火花塞间隙量规",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "超声波测厚仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "长度测量仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "长度测量仪器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "测隙规",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卡规",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "环规",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "塞规",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "量规（通端或止端）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具用量油尺",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "码尺",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "测量卡尺",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "圆规（测量仪器）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "角规",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "关节角度测量尺",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "测量卷尺",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:31.735Z"
+}

@@ -1,0 +1,518 @@
+{
+  "groupCode": "2107",
+  "groupName": "梳子，刷子（不包括牙刷），制刷材料",
+  "classCode": "21",
+  "notes": [
+    "注：1.本类似群各部分之间商品不类似；",
+    "2.排笔刷与1614排笔（文具）类似；",
+    "3.第（二）部分与第十一版及以前版本 2108 已接受项目动物用牙刷交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "（一）",
+      "items": [
+        {
+          "name": "梳*",
+          "code": "210076",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "大齿发梳",
+          "code": "210110",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "梳子盒",
+          "code": "210128",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "电梳",
+          "code": "210176",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "声波振动发梳",
+          "code": "210433",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "篦子",
+          "code": "C210033",
+          "type": "marked",
+          "section": "（一）"
+        }
+      ]
+    },
+    {
+      "label": "（二）",
+      "items": [
+        {
+          "name": "刷子*",
+          "code": "210014",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "马梳",
+          "code": "210028",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "指甲刷",
+          "code": "210050",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "马桶刷",
+          "code": "210051",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "玻璃灯罩刷",
+          "code": "210052",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "鞋刷",
+          "code": "210071",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "马刷",
+          "code": "210073",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "动物用梳",
+          "code": "210075",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "擦洗刷",
+          "code": "210137",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "长柄柏油刷",
+          "code": "210147",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "电刷（机器部件除外）",
+          "code": "210251",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "擦罐和容器用刷",
+          "code": "210278",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "洗餐具刷",
+          "code": "210304",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "涂油刷",
+          "code": "210358",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "滑雪板打蜡刷",
+          "code": "210364",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "排笔刷",
+          "code": "C210034",
+          "type": "marked",
+          "section": "（二）"
+        },
+        {
+          "name": "动物用牙刷",
+          "code": "C210060",
+          "type": "marked",
+          "section": "（二）"
+        }
+      ]
+    },
+    {
+      "label": "（三）",
+      "items": [
+        {
+          "name": "制刷用兽毛",
+          "code": "210010",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "制刷原料",
+          "code": "210054",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "制刷用毛",
+          "code": "210055",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "制刷用猪鬃",
+          "code": "210379",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "制刷用马毛",
+          "code": "210380",
+          "type": "standard",
+          "section": "（三）"
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "浴盆刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "管道刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "倒梳头发用梳子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蛋糕刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "船用甲板刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动梳子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "发刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "清洗用刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宠物用牙刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "体育设备用除尘刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "头发刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "糕点刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宠物用刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "染发刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "衣服刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "洗餐具用刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "刷子用貉毛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制刷用家畜毛发",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙刷刷毛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马桶刷架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "长发发刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "台球桌用刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宽齿发梳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "除尘刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "锅具清洁刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "茶壶用壶嘴刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "洗瓶刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "浴刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "乐器清洁刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宠物祛毛梳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宠物祛毛刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "百叶窗用非电动除尘刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "带皂液分配器的刷子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高尔夫球杆清洁刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "奶瓶刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烧烤架清洁刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车车轮清洁用刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "婴儿奶瓶用奶嘴刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "向后梳理头发用梳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "头发用刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "发梳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钢丝刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "洗涤刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "毛刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "漆刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属丝制马刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "洗发刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车空调器用清洁刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "墙纸刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食物涂油刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宠物用电动刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "碎屑清扫刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "清洁梳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制刷用细丝",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烤肉涂油刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "洗车刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "锉刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "声波震动发梳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宠物用梳子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "切肉板用清洁刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "饭盒用清洁刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "沥水盆用清洁刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医疗器械用清洁刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "清洗蘑菇用软毛刷",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:51.186Z"
+}

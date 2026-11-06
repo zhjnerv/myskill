@@ -1,0 +1,48 @@
+{
+  "groupCode": "4107",
+  "groupName": "单一服务",
+  "classCode": "41",
+  "notes": [
+    "注：1.本类似群为单一服务，各自然段间互不类似；",
+    "2.组织彩票发行与第六版及以前版本3602经营彩票交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "为艺术家提供模特服务",
+          "code": "410036",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "组织彩票发行",
+          "code": "410081",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "室内水族池出租",
+          "code": "410213",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "提供宠物游乐场",
+          "code": "410261",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "组织抽奖",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:45.169Z"
+}

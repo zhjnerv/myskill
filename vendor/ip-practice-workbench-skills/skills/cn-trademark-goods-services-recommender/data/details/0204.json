@@ -1,0 +1,296 @@
+{
+  "groupCode": "0204",
+  "groupName": "油墨",
+  "classCode": "02",
+  "notes": [
+    "注：1.本类似群原各部分之间商品不类似；",
+    "2.第（二）部分与0306类似。"
+  ],
+  "sections": [
+    {
+      "label": "（一）",
+      "items": [
+        {
+          "name": "制革用墨",
+          "code": "020033",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "印刷膏（油墨）",
+          "code": "020043",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "印刷油墨",
+          "code": "020066",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "动物打印记用墨",
+          "code": "020067",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "雕刻油墨",
+          "code": "020080",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "打印机和复印机用墨水",
+          "code": "020121",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "打印机和复印机用已填充的鼓粉盒",
+          "code": "020123",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "可食用墨",
+          "code": "020128",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "已填充可食用墨的打印机墨盒",
+          "code": "020129",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "打印机和复印机用墨粉",
+          "code": "020132",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "打印机和复印机用已填充的墨盒",
+          "code": "020133",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "导电油墨",
+          "code": "020137",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "文字处理机用已填充的墨盒",
+          "code": "C020002",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "激光打印机用已填充的墨盒",
+          "code": "C020015",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "喷墨打印机用已填充的墨盒",
+          "code": "C020016",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "复印机用碳粉",
+          "code": "C020017",
+          "type": "marked",
+          "section": "（一）"
+        }
+      ]
+    },
+    {
+      "label": "（二）",
+      "items": [
+        {
+          "name": "文身用墨",
+          "code": "020138",
+          "type": "standard",
+          "section": "（二）"
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "凸版印刷油墨",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "静电复印用色粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属油墨",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "干油墨",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "凹版油墨",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "热致变色油墨",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺织品着色用油墨",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "激光打印机用已填充的鼓粉盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "胶版印刷用油墨",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "喷墨打印机用已填充的鼓粉盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "丝网印刷用油墨",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用作油墨干燥剂的催干剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "已填充的喷墨打印墨盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "已填充的打印机墨盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "油印油墨",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "平版印刷油墨",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "已填充的鼓粉盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金粉油墨",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "柔版印刷用胶囊香味油墨",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "打印碳粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "印刷合成物（油墨）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "复印油墨",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "喷墨打印机用墨水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "打印机和影印机用碳粉盒（填满的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "打印机墨水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "传真机用已填充墨盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "传真机用已填充鼓粉盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "印刷机用已填充的碳粉盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "喷墨墨盒（已填充）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "复印机用墨",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "列表机用墨水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "印刷用金属墨水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "静电复印用墨",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "打印机和复印机用碳粉",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:16.612Z"
+}

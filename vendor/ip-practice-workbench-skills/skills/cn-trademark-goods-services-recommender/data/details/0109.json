@@ -1,0 +1,638 @@
+{
+  "groupCode": "0109",
+  "groupName": "肥料",
+  "classCode": "01",
+  "notes": [
+    "注：1.本类似群与0105植物用微量元素制剂类似；",
+    "2.本类似群与0102第（二）部分工业用挥发碱（氨水），工业用氨水（挥发性碱）类似，与第九版及以前版本0102第（二）部分工业用挥发碱（氨），工业用氨（挥发性碱），工业用挥发性碱（氨水）交叉检索；",
+    "3.本类似群与 0102 第（四）部分氯化铵，硝酸钾，硝酸铵类似，与第九版及以前版本 0102 第（四）部分卤砂、氯化铵，硝酸钠交叉检索",
+    "4.本类似群与第六版及以前版本3103腐殖质高效肥交叉检索；",
+    "5.植物生长调节剂，植物用生物刺激剂与 0105 第一自然段，0113 水果催熟用激素，0505 第一自然段类似，与第九版及以前版本 0113 水果催熟激素交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "海藻（肥料）",
+          "code": "010043",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "土壤调节制剂",
+          "code": "010053",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "氮肥",
+          "code": "010094",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "氰氨化钙（肥料）",
+          "code": "010141",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "肥料",
+          "code": "010271",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "肥料制剂",
+          "code": "010293",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鸟粪",
+          "code": "010342",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "腐殖土",
+          "code": "010355",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "磷酸盐（肥料）",
+          "code": "010427",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "矿渣（肥料）",
+          "code": "010428",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "过磷酸盐（肥料）",
+          "code": "010431",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "园艺用罐装泥炭",
+          "code": "010445",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "盐类（肥料）",
+          "code": "010478",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "种植土",
+          "code": "010524",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "壤土",
+          "code": "010527",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "泥炭（肥料）",
+          "code": "010539",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "无土生长培养基（农业）",
+          "code": "010589",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "堆肥",
+          "code": "010622",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "植物生长调节剂",
+          "code": "010634",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "腐殖质表层肥",
+          "code": "010641",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "溶液培养的植物用多孔黏土",
+          "code": "010652",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鱼粉肥料",
+          "code": "010659",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "盆栽土",
+          "code": "010681",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "有机沼渣（肥料）",
+          "code": "010686",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "表土",
+          "code": "010705",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "厩肥",
+          "code": "010710",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "石膏（肥料）",
+          "code": "010716",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "植物用生物刺激剂",
+          "code": "010720",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "化学肥料",
+          "code": "C010244",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "植物肥料",
+          "code": "C010245",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "动物肥料",
+          "code": "C010246",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "土壤改良剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "土壤改良制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "土壤调节用化学品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "腐殖土（化肥）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钢渣磷肥",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "骨粉（肥料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化学土壤调节剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "混合肥",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "锯末肥料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "矿物肥料制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "农家院用人造肥料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用作土壤改良剂的木炭",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "天然肥料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "农业用土壤调节剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "盆栽用堆肥",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家养植物用肥料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "矿物肥料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "植物用营养制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "植物生长调节物质",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "植物生长激素",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "园艺用土壤调理剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有机盆栽土",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "肥料用海藻",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "草肥",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有机肥料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "植物营养剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "植物营养素",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "过磷酸钙肥料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硫酸钾肥料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硫酸铵肥料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "复合肥料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "农业用植物生长调节剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "土壤用肥料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "尿素肥料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硅酸钙肥料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氯化钾肥料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氯化铵肥料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "锰肥",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硝酸钠肥料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硝酸铵肥料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "土壤和盆栽土用肥料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "啤酒糟（肥料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "石灰钾肥料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "土壤稳定用化学制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "血粉（肥料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "重过磷酸钙肥料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "熔融过磷酸盐肥料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "熔融磷酸盐肥料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化学转化复合肥料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人造植物培养土",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "矿物质原料制人造植物培养土",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "塑料原料制人造植物培养土",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "道路、池塘和湖泊用土壤稳定剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "植物生长用生物刺激剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "园艺用控释肥",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "农业用肥",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "混合肥料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "农业用土壤调理剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "降解有机物（肥料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "尿素（氮肥）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "尿素硝酸铵溶液（氮肥）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "尿素溶液（氮肥）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化肥",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "尿素(肥料)",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "尿素(化学肥料)",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "尿素为主的肥料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "土壤改良用木炭",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "过磷酸钾（肥料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "羊粪（肥料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "发酵鸡粪（肥料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非化学的生物肥料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含多种营养元素的肥料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生物肥料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "植物用激素（生物刺激素）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "植物用营养制剂（生物刺激素）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "植物栽培介质",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "腐叶土制肥料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "酒糟肥料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蚯蚓粪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蚯蚓粪肥",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "血粉肥料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "骨粉肥料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用肥料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生物有机肥",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水培肥料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "农业用肥料",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:10.180Z"
+}

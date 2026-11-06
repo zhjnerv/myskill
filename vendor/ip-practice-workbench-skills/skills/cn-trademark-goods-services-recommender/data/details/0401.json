@@ -1,0 +1,665 @@
+{
+  "groupCode": "0401",
+  "groupName": "工业用油及油脂，润滑油，润滑剂（不包括燃料用油）",
+  "classCode": "04",
+  "notes": [
+    "注:1.石油（原油或精炼油）与 0402 挥发性混合燃料，燃料，照明用油，汽油，轻石油，柴油，粗柴油，煤油，发动机燃料，燃料油，石油气类似，与第十一版及以前版本 0402 照明用油脂，第十版及以前版本 0402 挥发性燃料混合物，汽车燃料交叉检索；",
+    "2. 皮革保护用油脂，皮革保护油与0303皮革保护剂（抛光剂），皮革膏，皮革用蜡类似，与第十一版及以前版本0303皮革保护剂（上光），第十版及以前版本0303皮革防腐剂（抛光剂）交叉检索。",
+    "3. 皮革用油脂与0114制革用油，鞣革用油，皮革整理用油类似，与第九版及以前版本0114皮革加脂用油交叉检索；"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "传动带防滑剂",
+          "code": "040009",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鞋用油脂",
+          "code": "040026",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "皮革用油脂",
+          "code": "040034",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "工业用油脂",
+          "code": "040035",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "脱模油（建筑）",
+          "code": "040036",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "动物脂",
+          "code": "040037",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "石油醚",
+          "code": "040044",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "工业用矿脂",
+          "code": "040047",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "煤焦油",
+          "code": "040053",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "煤石脑油",
+          "code": "040054",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "砖石建筑保护用油",
+          "code": "040055",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "工业用鱼油",
+          "code": "040057",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "炊具防粘用豆油制剂",
+          "code": "040058",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "重油",
+          "code": "040064",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "工业用菜油",
+          "code": "040065",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "工业用菜籽油",
+          "code": "040065",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "石脑油",
+          "code": "040066",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "工业用骨油",
+          "code": "040067",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "油精",
+          "code": "040068",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "石油（原油或精炼油）",
+          "code": "040071",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "硬脂（精）",
+          "code": "040073",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "羊毛脂",
+          "code": "040074",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "工业用葵花籽油",
+          "code": "040075",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纺织用油",
+          "code": "040080",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "皮革保护用油脂",
+          "code": "040086",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "工业用油",
+          "code": "040087",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "工业用蓖麻油",
+          "code": "040089",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "皮革保护油",
+          "code": "040090",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "切削液",
+          "code": "040101",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "绘画用油",
+          "code": "040102",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "发动机油",
+          "code": "040104",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "石油挥发油",
+          "code": "040110",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "制化妆品用羊毛脂",
+          "code": "040115",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属加工用介电油",
+          "code": "040122",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "桐油",
+          "code": "C040001",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "木油",
+          "code": "C040002",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "梓油（即青油）",
+          "code": "C040003",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "樟木油",
+          "code": "C040004",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "椰子油（工业用）",
+          "code": "C040005",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "核桃油（工业用）",
+          "code": "C040006",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "橄榄油（工业用）",
+          "code": "C040007",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "乳化油",
+          "code": "C040008",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "钟表油",
+          "code": "C040009",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "缝纫机油",
+          "code": "C040010",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "擦枪油",
+          "code": "C040011",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "唱机唱片两用油",
+          "code": "C040012",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "显微镜用香柏油",
+          "code": "C040013",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "白油",
+          "code": "C040014",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "硬化油",
+          "code": "C040015",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "溶剂油",
+          "code": "C040016",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "精密仪器油",
+          "code": "C040017",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "切割油",
+          "code": "C040018",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "皮带油",
+          "code": "C040019",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "车轮防滑膏",
+          "code": "C040024",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "武器用润滑油",
+          "code": "040011",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "传动带用润滑油",
+          "code": "040033",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "润滑油",
+          "code": "040042",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "润滑石墨",
+          "code": "040052",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "润湿油",
+          "code": "040056",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "润滑脂",
+          "code": "040060",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "润滑剂",
+          "code": "040063",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "齿轮油",
+          "code": "040118",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "轻油",
+          "code": "C040021",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "加脂油",
+          "code": "C040022",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "导热油",
+          "code": "C040023",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "硬化油（工业用氢化油）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钻井润滑剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "保护皮革用油和脂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "石墨润滑剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业润滑剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用矿物油脂（非燃料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机动车发动机润滑油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "润滑剂用非化学添加剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "发动机油用非化学添加剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "脱模油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用非矿物油（非燃料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用非矿物油脂（非燃料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "合成润滑油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机器用润滑剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机器用润滑油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车润滑脂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "枪管用油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "润滑油脂用非化学添加剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "靴用油脂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人造石油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车润滑油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用动物油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用棉花籽油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用熟油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "矿物润滑油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用玉米油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用橄榄油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "原油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "石油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "车辆用发动机油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用固体润滑剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "润滑油（工业润滑剂）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用亚麻籽油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用羊毛脂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用花生油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用紫苏油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用黄豆油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用芝麻油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用牛脂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用椰子油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用核桃油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "棒球手套用护理油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自行车用链条油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮革保护剂（油和脂）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "显微镜油（即香柏油）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制化妆品和护肤品用矿物质油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制造化妆品用羊毛脂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车润滑剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车用润滑剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "航空器引擎用润滑剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "齿轮用工业油脂",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:25.145Z"
+}

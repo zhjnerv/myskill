@@ -1,0 +1,761 @@
+{
+  "groupCode": "0748",
+  "groupName": "发电机，非陆地车辆用马达和引擎，马达和引擎零部件",
+  "classCode": "07",
+  "notes": [
+    "注：1.本类似群第各部分之间商品不类似；",
+    "2.本类似群第（二）部分商品与0738商品类似；",
+    "3. 马达和引擎用节油器与第十版及以前版本1107燃料节省器，节油器交叉检索；",
+    "4. 本类似群第(二)部分与第七版及以前版本1202汽车零部件，汽车配件，1203摩托车配件及其他现属于0738、0748的发动机零部件等商品交叉检索；",
+    "5. 本类似群第(二)部分与第七版及以前版本0750汽化器，活塞(机器或发动机部件)，活塞(机器或发动机零件)，活塞环，马达引擎用消声器，发动机和引擎用排气装置交叉检索；",
+    "6. 净化冷却空气用过滤器(引擎用)，机油滤清器(引擎部件)，空气滤清器(引擎部件)，柴油滤清器(引擎部件)，燃料滤清器(引擎部件)与0750过滤器(机器或引擎部件)类似；",
+    "7.第（二）部分与第九版及以前版本第（一）部分冰箱电机交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "（一）",
+      "items": [
+        {
+          "name": "交流发电机",
+          "code": "070018",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "发电机刷",
+          "code": "070033",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "自行车用发电机",
+          "code": "070047",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "炭刷（电）",
+          "code": "070093",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "电流发生器",
+          "code": "070124",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "发电机传动带",
+          "code": "070126",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "马达和引擎启动器",
+          "code": "070150",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "发电机",
+          "code": "070160",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "发电设备",
+          "code": "070171",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "点火式磁发电机",
+          "code": "070244",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "定子（机器部件）",
+          "code": "070354",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "紧急发电机",
+          "code": "070492",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "摩托车用脚踏启动器",
+          "code": "070516",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "电刷（发电机部件）",
+          "code": "C070446",
+          "type": "marked",
+          "section": "（一）"
+        }
+      ]
+    },
+    {
+      "label": "（二）",
+      "items": [
+        {
+          "name": "净化冷却空气用过滤器（引擎用）",
+          "code": "070010",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "飞机引擎",
+          "code": "070029",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "活塞环",
+          "code": "070032",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "引擎喷油嘴",
+          "code": "070077",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "接头（引擎部件）",
+          "code": "070118",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "密封接头（引擎部件）",
+          "code": "070118",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "引擎汽缸盖",
+          "code": "070137",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "机器汽缸",
+          "code": "070139",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "汽缸活塞",
+          "code": "070197",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "非陆地车辆用传动马达",
+          "code": "070241",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "非陆地车辆用喷气发动机",
+          "code": "070272",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "马达和引擎用防污染装置",
+          "code": "070273",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "引擎活塞",
+          "code": "070274",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "活塞（机器或发动机部件）",
+          "code": "070302",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "马达和引擎用传动带",
+          "code": "070343",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "气垫船用引擎",
+          "code": "070380",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "马达和引擎用风扇",
+          "code": "070381",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "航空引擎",
+          "code": "070386",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "气动引擎",
+          "code": "070391",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "马达和引擎用节油器",
+          "code": "070400",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "船用引擎",
+          "code": "070401",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "船用马达",
+          "code": "070402",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "非陆地车辆用引擎",
+          "code": "070433",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "非陆地车辆用马达",
+          "code": "070433",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "马达和引擎用风扇皮带",
+          "code": "070441",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "马达和引擎用汽缸",
+          "code": "070446",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "马达和引擎用排气装置",
+          "code": "070451",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "非陆地车辆用电动机",
+          "code": "070452",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "液压引擎和马达",
+          "code": "070461",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "马达和引擎冷却器",
+          "code": "070464",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "引擎用排气歧管",
+          "code": "070497",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "马达和引擎用消声器",
+          "code": "070519",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "非陆地车辆用发动机支架",
+          "code": "070557",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "舷外马达",
+          "code": "070622",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "汽车发动机冷却用散热器",
+          "code": "C070397",
+          "type": "marked",
+          "section": "（二）"
+        },
+        {
+          "name": "汽车发动机冷却用水箱",
+          "code": "C070398",
+          "type": "marked",
+          "section": "（二）"
+        },
+        {
+          "name": "汽车发动机冷却用散热器水管",
+          "code": "C070399",
+          "type": "marked",
+          "section": "（二）"
+        },
+        {
+          "name": "汽车发动机冷却用散热器盖",
+          "code": "C070400",
+          "type": "marked",
+          "section": "（二）"
+        },
+        {
+          "name": "汽车发动机冷却用风扇",
+          "code": "C070401",
+          "type": "marked",
+          "section": "（二）"
+        },
+        {
+          "name": "汽车发动机冷却用风扇护风罩",
+          "code": "C070402",
+          "type": "marked",
+          "section": "（二）"
+        },
+        {
+          "name": "汽车发动机冷却用风扇离合器",
+          "code": "C070403",
+          "type": "marked",
+          "section": "（二）"
+        },
+        {
+          "name": "汽车发动机排气净化装置（催化反应器）",
+          "code": "C070404",
+          "type": "marked",
+          "section": "（二）"
+        },
+        {
+          "name": "汽车发动机废气再循环系统",
+          "code": "C070405",
+          "type": "marked",
+          "section": "（二）"
+        },
+        {
+          "name": "汽车发动机消声器",
+          "code": "C070406",
+          "type": "marked",
+          "section": "（二）"
+        },
+        {
+          "name": "汽车发动机消声器进排气管",
+          "code": "C070407",
+          "type": "marked",
+          "section": "（二）"
+        },
+        {
+          "name": "汽车发动机排气系共振器",
+          "code": "C070408",
+          "type": "marked",
+          "section": "（二）"
+        },
+        {
+          "name": "汽车发动机活塞",
+          "code": "C070409",
+          "type": "marked",
+          "section": "（二）"
+        },
+        {
+          "name": "发动机汽缸",
+          "code": "C070410",
+          "type": "marked",
+          "section": "（二）"
+        },
+        {
+          "name": "机油滤清器（引擎部件）",
+          "code": "C070412",
+          "type": "marked",
+          "section": "（二）"
+        },
+        {
+          "name": "空气滤清器（引擎部件）",
+          "code": "C070413",
+          "type": "marked",
+          "section": "（二）"
+        },
+        {
+          "name": "柴油滤清器（引擎部件）",
+          "code": "C070414",
+          "type": "marked",
+          "section": "（二）"
+        },
+        {
+          "name": "燃料滤清器（引擎部件）",
+          "code": "C070447",
+          "type": "marked",
+          "section": "（二）"
+        },
+        {
+          "name": "冰箱用电动机",
+          "code": "C070452",
+          "type": "marked",
+          "section": "（二）"
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "非陆地车辆用汽油发动机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电梯用马达",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "船用发电机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "直流发电机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "引擎用排气消音器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马达和引擎机油滤清器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非陆地车辆用引擎反冲启动器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "交流伺服电动机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "发动机燃油喷射系统",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业马达用正时皮带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "活塞环（发动机部件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马达启动器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "挖掘机用液压马达",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "涡轮螺旋桨发动机（非陆地车辆用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "引擎启动器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具引擎用燃油滤清器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "引擎用机油冷却器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "喷气发动机（非陆地车辆用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陆地和水上运载工具引擎用燃料喷射器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马达用排气消音器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "绞车马达",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非陆地车辆用火箭发动机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "移动式发电机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "飞机马达",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马达和引擎用过滤器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "引擎用点火式磁发电机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非陆地车辆用冲压式喷气发动机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车发动机用空气过滤器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "应急发电机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马达用消声器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马达和引擎用冷却器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马达和引擎用冷却散热器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "气动发电机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "地热发电机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高压发电机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "废热发电机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "发动机冷却散热器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "引擎用传动带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铣磨马达",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "柴油机废气处理装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蒸汽发电机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车油底壳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车引擎用汽缸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车发动机缸体",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "模型玩具用发动机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车引擎用空气滤清器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "气球驾驶用引擎",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "定子（机器零件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "燃料电池发电机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "缝纫机用数控马达",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "发动机传动带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车用排气管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "发电机组",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马达和引擎用正时皮带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "模型船用马达",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具发动机用活塞",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "载客电梯用马达",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "模型车用引擎和马达",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马达和引擎用催化转换器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马达和引擎用机油冷却器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机器引擎用风扇",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马达和引擎用进气歧管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "带高频电转换器和电源装置的高频电动机主轴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陆地车辆用交流发电机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机器用活塞",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "涡轮发电机",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:17.308Z"
+}

@@ -1,0 +1,387 @@
+{
+  "groupCode": "1108",
+  "groupName": "水暖管件",
+  "classCode": "11",
+  "notes": [
+    "注：1.本类似群各部分之间商品不类似；",
+    "2.本类似群第（一）部分商品与0602商品类似，与第八版及以前版本1107水暖装置交叉检索；",
+    "3.自来水设备的调节和安全附件与1107自来水或煤气设备和管道的调节附件，自来水或煤气设备和管道的保险附件类似，与第十版及以前版本1107供水或供煤气的设备和管道的调节附件，供水或供煤气的设备和管道的保险附件交叉检索；",
+    "4.管道（卫生设备部件），卫生设备用水管，引水管道设备与1109浴室用管子装置类似；",
+    "5.农业用排灌机与 0701 排水机类似；",
+    "6.第（二）部分与第七版及以前版本 0701 农业用排灌机交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "（一）",
+      "items": [
+        {
+          "name": "消防栓",
+          "code": "110049",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "龙头防溅喷嘴",
+          "code": "110055",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "龙头（管和管道用）",
+          "code": "110068",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "旋塞（管和管道用）",
+          "code": "110068",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "供暖装置",
+          "code": "110073",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "水供暖装置",
+          "code": "110076",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "中央供暖装置用散热器",
+          "code": "110083",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "中央供暖散热器用增湿器",
+          "code": "110084",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "水分配设备",
+          "code": "110096",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "管道（卫生设备部件）",
+          "code": "110103",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "卫生设备用水管",
+          "code": "110103",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "引水管道设备",
+          "code": "110104",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "喷水器",
+          "code": "110126",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "压力水箱",
+          "code": "110127",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "散热器（供暖）",
+          "code": "110198",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "龙头*",
+          "code": "110218",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "自来水龙头垫圈",
+          "code": "110219",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "水管用混水龙头",
+          "code": "110239",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "自来水设备的调节和安全附件",
+          "code": "110241",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "进水装置",
+          "code": "110276",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "中央供暖装置用膨胀水箱",
+          "code": "110313",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "地暖装置和设备",
+          "code": "110371",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "水塔",
+          "code": "C110023",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "暖气片",
+          "code": "C110024",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "地漏",
+          "code": "C110025",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "水暖装置用管子气门",
+          "code": "C110038",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "水暖装置用管子水门",
+          "code": "C110039",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "水暖装置用管子水嘴",
+          "code": "C110040",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "水暖装置用管子三通",
+          "code": "C110041",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "水暖装置用管子四通",
+          "code": "C110042",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "水暖装置用管子接头",
+          "code": "C110043",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "水暖装置用管子箍",
+          "code": "C110044",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "水暖装置用管子补芯",
+          "code": "C110045",
+          "type": "marked",
+          "section": "（一）"
+        }
+      ]
+    },
+    {
+      "label": "（二）",
+      "items": [
+        {
+          "name": "自动浇水装置",
+          "code": "110001",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "装饰喷泉",
+          "code": "110175",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "滴灌喷射器（灌溉设备配件）",
+          "code": "110323",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "农业用排灌机",
+          "code": "110327",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "水培种植系统",
+          "code": "110361",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "灌溉施肥设备",
+          "code": "110392",
+          "type": "standard",
+          "section": "（二）"
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "柔性管（洗涤槽管子装置部件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "柔性管（水池管子装置部件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "柔性管（淋浴器管子装置部件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "灌溉用喷洒器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "柔性管（浴室管子装置部件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "空间供暖装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水龙头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自动水龙头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "农业灌溉装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水龙头水量控制阀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "地暖设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "坐浴盆用水龙头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水龙头用节水起泡器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业空气调节用散热器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "龙头把手",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "喷泉式饮水器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "盥洗盆用水龙头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "洗涤槽用单杆水龙头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "厨房水池用喷洒龙头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水管龙头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "管道龙头（栓）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "管道旋塞（塞子）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "节水水龙头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "热水浴缸用喷水器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水暖装置用管子补心",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:53.663Z"
+}

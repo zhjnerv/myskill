@@ -1,0 +1,177 @@
+{
+  "groupCode": "2203",
+  "groupName": "袋子，装卸、包装用物品",
+  "classCode": "22",
+  "notes": [
+    "注：本类似群各部分之间商品不类似。"
+  ],
+  "sections": [
+    {
+      "label": "（一）",
+      "items": [
+        {
+          "name": "运输和贮存散装物用麻袋",
+          "code": "220068",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "运输和储存散装物用麻袋",
+          "code": "220068",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "包装用纺织品袋（信封、小袋）",
+          "code": "220069",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "邮袋",
+          "code": "220104",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "存放尿布专用布袋",
+          "code": "220116",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "脏衣收纳袋",
+          "code": "220118",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "尼龙编织袋（仿麻袋）",
+          "code": "C220011",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "面袋",
+          "code": "C220012",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "编织袋",
+          "code": "C220013",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "集装袋",
+          "code": "C220014",
+          "type": "marked",
+          "section": "（一）"
+        }
+      ]
+    },
+    {
+      "label": "（二）",
+      "items": [
+        {
+          "name": "草制瓶封套",
+          "code": "220080",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "瓶用草制包装物",
+          "code": "220080",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "草制瓶用包装物",
+          "code": "220080",
+          "type": "standard",
+          "section": "（二）"
+        }
+      ]
+    },
+    {
+      "label": "（三）",
+      "items": [
+        {
+          "name": "裹尸袋",
+          "code": "220107",
+          "type": "standard",
+          "section": "（三）"
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "手提包用纺织品收纳袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "稻草袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用麻布袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用化纤袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用棉布袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺织原料制包装袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺织品制工业包装容器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "包裹植物用麻袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "包装用纺织品袋（包）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运输和贮存散装物用口袋（麻袋）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "洗内衣用网袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "储物用布袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "储物用网袋",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:57.565Z"
+}

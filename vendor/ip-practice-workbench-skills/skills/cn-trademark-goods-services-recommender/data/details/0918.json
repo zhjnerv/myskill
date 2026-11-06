@@ -1,0 +1,56 @@
+{
+  "groupCode": "0918",
+  "groupName": "工业用X光机械设备",
+  "classCode": "09",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "工业用放射设备",
+          "code": "090418",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非医用X光产生装置和设备",
+          "code": "090420",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非医用X光管",
+          "code": "090421",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非医用X光装置",
+          "code": "090425",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "工业用放射屏幕",
+          "code": "090526",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "工业用X光装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "X射线衍射仪",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:39.232Z"
+}

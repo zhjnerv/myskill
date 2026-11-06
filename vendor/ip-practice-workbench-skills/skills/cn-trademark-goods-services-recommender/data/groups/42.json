@@ -1,0 +1,62 @@
+[
+  {
+    "groupCode": "4209",
+    "groupName": "提供科学技术研究服务",
+    "classCode": "42"
+  },
+  {
+    "groupCode": "4210",
+    "groupName": "提供地质调查、研究、开发服务",
+    "classCode": "42"
+  },
+  {
+    "groupCode": "4211",
+    "groupName": "提供化学研究服务",
+    "classCode": "42"
+  },
+  {
+    "groupCode": "4212",
+    "groupName": "提供生物学、医学研究服务",
+    "classCode": "42"
+  },
+  {
+    "groupCode": "4213",
+    "groupName": "提供气象情报服务",
+    "classCode": "42"
+  },
+  {
+    "groupCode": "4214",
+    "groupName": "提供测试服务",
+    "classCode": "42"
+  },
+  {
+    "groupCode": "4216",
+    "groupName": "外观设计服务",
+    "classCode": "42"
+  },
+  {
+    "groupCode": "4217",
+    "groupName": "建筑物的设计、咨询服务",
+    "classCode": "42"
+  },
+  {
+    "groupCode": "4218",
+    "groupName": "服装设计服务",
+    "classCode": "42"
+  },
+  {
+    "groupCode": "4220",
+    "groupName": "计算机编程及相关服务",
+    "classCode": "42"
+  },
+  {
+    "groupCode": "4224",
+    "groupName": "提供艺术品鉴定服务",
+    "classCode": "42"
+  },
+  {
+    "groupCode": "4227",
+    "groupName": "单一服务",
+    "classCode": "42"
+  }
+]

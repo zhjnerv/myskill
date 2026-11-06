@@ -1,0 +1,145 @@
+{
+  "groupCode": "3107",
+  "groupName": "种子",
+  "classCode": "31",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "未加工谷种",
+          "code": "310023",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蘑菇繁殖菌",
+          "code": "310025",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "培育植物用胚芽（种子）",
+          "code": "310065",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "植物种子",
+          "code": "310068",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "苹果树种子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "农作物种子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "农业用种子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "园艺用种子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "播种用种子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "草籽",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "漆树种子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蔬菜种子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水果种子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "农业用未加工种子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工的含油种子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "花的种子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工的奇亚籽",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工亚麻种子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工的黄瓜种子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工的西葫芦种子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "小麦种子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "粳稻种子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "棉花种子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水稻种子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "籼稻种子",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:53.695Z"
+}

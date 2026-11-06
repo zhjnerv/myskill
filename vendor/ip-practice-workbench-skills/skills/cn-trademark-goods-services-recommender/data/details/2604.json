@@ -1,0 +1,115 @@
+{
+  "groupCode": "2604",
+  "groupName": "假发，假胡须",
+  "classCode": "26",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "假胡须",
+          "code": "260014",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "假发",
+          "code": "260043",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "发辫",
+          "code": "260044",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "发束",
+          "code": "260044",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "假髭",
+          "code": "260072",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "假发套",
+          "code": "260079",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "遮秃假发",
+          "code": "260089",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "接发片",
+          "code": "260125",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "人类的头发",
+          "code": "260126",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "日式传统发型的燕尾部分用假发",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日式传统发型用假发绺",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日式传统发型用假发",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日式传统发型用假发髻",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "遮秃假发（假发）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "假胡子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "小丑假发",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人造毛发",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "男子假发",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:16.338Z"
+}

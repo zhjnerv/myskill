@@ -1,0 +1,268 @@
+{
+  "groupCode": "4008",
+  "groupName": "食物、饮料加工服务",
+  "classCode": "40",
+  "notes": [
+    "注：本类似群与4001碾磨加工类似，与第九版及以前版本的4002碾磨加工交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "榨水果",
+          "code": "400032",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食物熏制",
+          "code": "400033",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "面粉加工",
+          "code": "400044",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食物和饮料的防腐处理",
+          "code": "400066",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "油料加工",
+          "code": "400091",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食物冷冻",
+          "code": "400117",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "为他人酿造啤酒",
+          "code": "400128",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "定制生产面包",
+          "code": "400129",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食品和饮料的巴氏杀菌",
+          "code": "400130",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "为他人酿造葡萄酒",
+          "code": "400131",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "葡萄酒酿造咨询",
+          "code": "400132",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "奶酪熟化（奶酪加工服务）",
+          "code": "400138",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食品辐照",
+          "code": "400140",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "茶叶加工",
+          "code": "C400001",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "饲料加工",
+          "code": "C400002",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "食品加工机器和设备出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人酿苹果酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人酿酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "饮料加工机器和设备出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人蒸馏烈酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生产用食品的加工",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食品加工",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "酿造服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食物防腐处理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "酿酒厂服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "啤酒酿造",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "咖啡豆烘焙与加工",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制造罐头食品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "石磨碾磨",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人榨果汁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蔬菜腌制",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人酿造威士忌",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "朗姆酒酿造咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "定做生日蛋糕",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "农业粮食加工",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "海鲜食品加工",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "熏制食品的烟熏室服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "谷物磨制",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "定制生产巧克力",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人酿造米酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "饮料的辐照",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "威士忌酿造领域的咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "啤酒酿造领域的咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人酿造利口酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人酿造朗姆酒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "利口酒酿造领域的咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "稻米加工",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:35.668Z"
+}

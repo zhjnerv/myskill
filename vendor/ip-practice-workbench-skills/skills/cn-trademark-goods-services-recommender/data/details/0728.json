@@ -1,0 +1,80 @@
+{
+  "groupCode": "0728",
+  "groupName": "化肥设备",
+  "classCode": "07",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "化肥制造设备",
+          "code": "C070191",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "合成塔（化肥制造设备）",
+          "code": "C070192",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "冷凝塔",
+          "code": "C070193",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "铜洗塔",
+          "code": "C070194",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "碱洗塔",
+          "code": "C070195",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "氨分离塔",
+          "code": "C070196",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "滤油塔",
+          "code": "C070197",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "尿素合成塔",
+          "code": "C070198",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "水洗塔",
+          "code": "C070199",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "有机废物堆肥机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "堆肥机",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:05.660Z"
+}

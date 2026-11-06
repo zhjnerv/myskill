@@ -1,0 +1,69 @@
+{
+  "groupCode": "0309",
+  "groupName": "动物用化妆品",
+  "classCode": "03",
+  "notes": [
+    "注:1.宠物用沐浴露（不含药物的清洁制剂），动物用沐浴露（不含药物的清洁制剂）与0504牲畜用洗涤剂（杀虫剂），狗用洗涤液（杀虫剂），动物用洗涤剂（杀虫剂），动物用杀虫沐浴露，兽医用杀虫洗涤剂，含药物的宠物用沐浴露类似，与第十版及以前版本0504牲畜用洗涤剂，狗用洗涤液，动物用洗涤剂，狗用洗涤剂交叉检索。",
+    "2. 跨类似群保护商品:个人或动物用除臭剂(0306，0309)。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "动物用化妆品",
+          "code": "030063",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "个人或动物用除臭剂",
+          "code": "030180",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "宠物用沐浴露（不含药物的清洁制剂）",
+          "code": "030196",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "宠物用除臭剂",
+          "code": "030217",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "动物用沐浴露（不含药物的清洁制剂）",
+          "code": "030242",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "不含药物的宠物沐浴露",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宠物爪用不含药物的香膏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宠物用不含药物的漱口水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "不含药物的宠物洗发液",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:23.985Z"
+}

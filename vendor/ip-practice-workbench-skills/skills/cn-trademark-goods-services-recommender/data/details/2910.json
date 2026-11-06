@@ -1,0 +1,84 @@
+{
+  "groupCode": "2910",
+  "groupName": "食用果胶",
+  "classCode": "29",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "明胶*",
+          "code": "290003",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食品用果冻（非甜食）",
+          "code": "290048",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烹饪用果胶",
+          "code": "290093",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烹饪用藻酸盐",
+          "code": "290116",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烹饪用琼脂",
+          "code": "290250",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "水晶冻",
+          "code": "C290073",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "琼脂（食用）",
+          "code": "C290074",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "口香糖胶基",
+          "code": "C290075",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "魔芋冻",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用干琼脂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蒟蒻冻",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用琼脂",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:36.135Z"
+}

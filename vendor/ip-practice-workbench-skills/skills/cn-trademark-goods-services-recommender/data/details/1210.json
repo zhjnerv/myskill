@@ -1,0 +1,574 @@
+{
+  "groupCode": "1210",
+  "groupName": "水用运载工具",
+  "classCode": "12",
+  "notes": [
+    "注：1.本类似群与 1211 类似,与第十二版及以前版本 0916 消防船,0919 救生筏,0919救生艇,2807冲浪皮划艇交叉检索；",
+    "2.本类似群商品与1211商品类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "船",
+          "code": "120021",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "渡船",
+          "code": "120028",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "船体",
+          "code": "120035",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "船壳",
+          "code": "120035",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "船钩头篙",
+          "code": "120036",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "船舶转向装置",
+          "code": "120037",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "船只分离装置",
+          "code": "120038",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "船舶下水台",
+          "code": "120039",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "船用螺旋桨",
+          "code": "120040",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "桨",
+          "code": "120041",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "船只吊杆",
+          "code": "120048",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "驳船",
+          "code": "120063",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "汽艇",
+          "code": "120064",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "舵",
+          "code": "120070",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "船舶烟囱",
+          "code": "120073",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "船的木龙骨",
+          "code": "120082",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "挖泥船",
+          "code": "120105",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电动运载工具",
+          "code": "120110",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "船桅",
+          "code": "120118",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "双桨艇用桨",
+          "code": "120131",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "船尾橹",
+          "code": "120131",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "舷窗",
+          "code": "120133",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "水上运载工具",
+          "code": "120149",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "轮船",
+          "code": "120150",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "轮船用螺旋桨（推进器）",
+          "code": "120151",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "独木舟桨",
+          "code": "120153",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "趸船",
+          "code": "120159",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "螺旋桨",
+          "code": "120166",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "系索耳（船用）",
+          "code": "120179",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "桨架",
+          "code": "120182",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "陆、空、水或铁路用机动运载工具",
+          "code": "120193",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "游艇",
+          "code": "120202",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "气垫船",
+          "code": "120237",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "船舶护舷垫",
+          "code": "120252",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "遥控运载工具（非玩具）",
+          "code": "120257",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "船用桅杆",
+          "code": "120259",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "独木舟",
+          "code": "120274",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "水下探测用远程控制运载工具",
+          "code": "120294",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "海底探测用自动潜航器",
+          "code": "120295",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "潜水钟",
+          "code": "120322",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "水上摩托艇（个人用船只）",
+          "code": "120329",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "救生船",
+          "code": "120332",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "战列舰",
+          "code": "120343",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "航空母舰",
+          "code": "120344",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "皮艇",
+          "code": "120348",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "常压潜水装具",
+          "code": "120351",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "消防船",
+          "code": "120353",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "救生筏",
+          "code": "120354",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "救生艇",
+          "code": "120355",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "浮桥（橡胶制）",
+          "code": "C120008",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "船用导缆器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "帆船",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "转舵装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "渔船",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "拖船",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "摩托艇",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "船屋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "船舶转向舵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "船的压力水舱（船的结构部件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "小艇",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "娱乐用喷气船",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "海底电缆铺设船",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "船舶用蒸汽操舵装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "船（小船和船舰）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "船只护舷垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水下远程操作的运输用运载工具（遥控潜水器）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "潜艇",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "船舵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "舱口盖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "充气船",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "油轮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "划艇",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "货船",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "客船",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "筏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "浮船",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水上摩托",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮艇桨",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "船用钢制舱口盖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "船拖钩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "船舶的悬臂支架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "船用碰垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "船用防擦装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "舷窗（船用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "船用电力操舵装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "船舶用舵轮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "船和海上运载工具专用盖罩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "船用桁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "船舵柄",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "平底小船",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水翼船",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "船的水翼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "载人潜水器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无篷小船",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "船舶操舵装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "系索耳（航海）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "船用导缆钳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "油船",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "船用齿轮箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "护卫舰",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "船体结构件",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:02.774Z"
+}

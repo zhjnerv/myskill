@@ -1,0 +1,21 @@
+{
+  "groupCode": "3605",
+  "groupName": "海关经纪",
+  "classCode": "36",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "海关金融经纪服务",
+          "code": "360011",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [],
+  "crawledAt": "2026-06-09T19:00:09.715Z"
+}

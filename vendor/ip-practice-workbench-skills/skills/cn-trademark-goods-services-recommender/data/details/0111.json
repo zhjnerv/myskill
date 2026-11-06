@@ -1,0 +1,65 @@
+{
+  "groupCode": "0111",
+  "groupName": "淬火用化学制剂",
+  "classCode": "01",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "金属退火剂",
+          "code": "010393",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属回火剂",
+          "code": "010682",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "淬火剂",
+          "code": "C010249",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "淬火油",
+          "code": "C010250",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "回火剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属加工用淬火液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于焊接的回火用化学品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于金属加工的回火用化学品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属回火剂（回火化学制剂）",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:11.298Z"
+}

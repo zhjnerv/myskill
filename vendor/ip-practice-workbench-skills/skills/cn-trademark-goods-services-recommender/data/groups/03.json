@@ -1,0 +1,52 @@
+[
+  {
+    "groupCode": "0301",
+    "groupName": "肥皂，香皂及其他人用洗洁物品，洗衣用漂白剂及其他物料",
+    "classCode": "03"
+  },
+  {
+    "groupCode": "0302",
+    "groupName": "清洁、去渍用制剂",
+    "classCode": "03"
+  },
+  {
+    "groupCode": "0303",
+    "groupName": "抛光、擦亮制剂",
+    "classCode": "03"
+  },
+  {
+    "groupCode": "0304",
+    "groupName": "研磨用材料及其制剂",
+    "classCode": "03"
+  },
+  {
+    "groupCode": "0305",
+    "groupName": "香料，香精油",
+    "classCode": "03"
+  },
+  {
+    "groupCode": "0306",
+    "groupName": "化妆品（不包括动物用化妆品）",
+    "classCode": "03"
+  },
+  {
+    "groupCode": "0307",
+    "groupName": "牙膏，洗牙用制剂",
+    "classCode": "03"
+  },
+  {
+    "groupCode": "0308",
+    "groupName": "熏料",
+    "classCode": "03"
+  },
+  {
+    "groupCode": "0309",
+    "groupName": "动物用化妆品",
+    "classCode": "03"
+  },
+  {
+    "groupCode": "0310",
+    "groupName": "室内芳香剂",
+    "classCode": "03"
+  }
+]

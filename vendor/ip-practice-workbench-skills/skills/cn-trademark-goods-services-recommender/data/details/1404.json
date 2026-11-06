@@ -1,0 +1,472 @@
+{
+  "groupCode": "1404",
+  "groupName": "钟，表，计时器及其零部件",
+  "classCode": "14",
+  "notes": [
+    "注：本类似群与 0901 智能手表，智能手表（数据处理）类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "钟针",
+          "code": "140002",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "钟",
+          "code": "140011",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "摆（钟表制造）",
+          "code": "140013",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "发条匣（钟表制造）",
+          "code": "140014",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "手表",
+          "code": "140016",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "手表带",
+          "code": "140017",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "表带",
+          "code": "140017",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "钟表盘（钟表制造）",
+          "code": "140021",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "日晷",
+          "code": "140022",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "钟表发条装置",
+          "code": "140023",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "表链",
+          "code": "140025",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "计时器（手表）",
+          "code": "140027",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "精密计时器",
+          "code": "140028",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "瞬时计",
+          "code": "140029",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "计时仪器",
+          "code": "140030",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电子钟表",
+          "code": "140032",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "原子钟",
+          "code": "140042",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "主时钟",
+          "code": "140043",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "钟外壳",
+          "code": "140044",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "表*",
+          "code": "140057",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "表发条",
+          "code": "140058",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "表蒙",
+          "code": "140059",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "表玻璃",
+          "code": "140059",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "钟表机芯",
+          "code": "140060",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "闹钟",
+          "code": "140082",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "簧片（钟表制造）",
+          "code": "140106",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "表壳",
+          "code": "140144",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "表用礼品盒",
+          "code": "140145",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "秒表",
+          "code": "140164",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "表针",
+          "code": "140174",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "棋钟",
+          "code": "140188",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "语言报时钟",
+          "code": "C140011",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "电子万年台历",
+          "code": "C140012",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "表袋（套）",
+          "code": "C140013",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "表带扣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "带有收音机的时钟",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钟表",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "座钟壳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运动手表",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手表机芯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手表专用盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钟外壳（钟的部件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钟表的摆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钟摆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机械手表",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "全自动手表",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "小型时钟",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钟罩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手表表柄",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属、皮革或塑料制表带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "户外用手表",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钟表指针",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "表盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "表袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "座钟",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "摆钟",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "记时器（手表）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "挂钟",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "旅行钟",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "落地钟",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车用钟",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "潜水表",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手镯表",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "女士手表",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮制手表带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "怀表",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钟表发条",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "台钟",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "时装表",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钟表制造用钟表盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计时装置和仪器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属制或镀有贵金属的表",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "内嵌收音机的时钟",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子计时仪器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运动表",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运动用表",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钟表指针（钟表制造）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钟表机件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "表盒（礼品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手表自动上弦器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "落地摆钟",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "LED指环表",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钟盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手表表冠",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:08.167Z"
+}

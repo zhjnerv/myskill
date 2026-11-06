@@ -1,0 +1,357 @@
+{
+  "groupCode": "4501",
+  "groupName": "安全服务",
+  "classCode": "45",
+  "notes": [
+    "注：本类似群与第七版及以前版本4208交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "私人保镖",
+          "code": "450001",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "侦探服务",
+          "code": "450003",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "夜间护卫服务",
+          "code": "450006",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "寻人调查",
+          "code": "450053",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "警卫服务",
+          "code": "450099",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "实体安全保卫咨询",
+          "code": "450117",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "安全及防盗警报系统的监控",
+          "code": "450194",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "行李安检",
+          "code": "450196",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "个人背景调查",
+          "code": "450199",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "工厂安全检查",
+          "code": "450202",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "追踪被盗财产",
+          "code": "450222",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "救生员服务",
+          "code": "450243",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "无人机监控服务",
+          "code": "450251",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医疗警报监控",
+          "code": "450255",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "通过远程监控系统对设施进行安全保护",
+          "code": "450256",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "对失踪人员进行定位和追踪",
+          "code": "450257",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "视频监控摄像机出租",
+          "code": "450262",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "对丢失物品进行定位和追踪",
+          "code": "450263",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "职业安全咨询",
+          "code": "450267",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "入职背景调查服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "被盗运载工具追回服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防止盗贼入侵的护卫服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "追踪被盗运载工具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "夜班警卫服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "设施的安全保卫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "失踪人口调查",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "失踪人员调查",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "监视服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "安全系统监控",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "保镖服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机场行李安检服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为配发身份证件进行安全调查",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工作场所安全咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供侦察和监视服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "追捕逃犯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日夜护卫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为安全目的进行的行李检查",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "侦探调查",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "背景调查",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "报警器监控",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "安全保卫咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "航空行李安全检查",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "安全监控设备出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "航班旅客安检服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人流控制栅栏出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防弹衣出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "护卫队服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "就业前的背景调查服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "安保服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商业和工业公司安保领域的咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人提供安全检查服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供公共安全领域的建议",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家庭安全警报系统的监控",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "安全监控机器人的出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "住宅物业安全检查服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "定位和追踪失踪人员和财产",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "走失儿童的定位服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "火灾探测系统的监控",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "安保用犬出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "守夜人服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "替他人寻找丢失宠物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供儿童保护安保服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供职业安全信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "职业安全风险评估服务",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:59.237Z"
+}

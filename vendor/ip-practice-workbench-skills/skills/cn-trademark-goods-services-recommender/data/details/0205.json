@@ -1,0 +1,751 @@
+{
+  "groupCode": "0205",
+  "groupName": "涂料，油漆及附料（不包括绝缘漆）",
+  "classCode": "02",
+  "notes": [
+    "注:1. “瓷釉（漆），瓷漆，釉料（漆、亮面漆）与 0104 第（四）部分陶瓷釉类似，与第十版及以前版本 0104 第（四）部分陶瓷釉料交叉检索；",
+    "2.“油漆稀释剂，亮面漆用稀释剂，松节油（涂料稀释剂），稀料，松香水，天那水，信那水与 0104 第（十）部分清漆溶剂，0302 去漆剂类似；",
+    "3.防水粉（涂料）与1705防水隔热粉类似；",
+    "4.虫胶与0207商品类似；",
+    "5.本类似群与0104第（二十）部分，1912商品类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "油漆*",
+          "code": "020001",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "清漆*",
+          "code": "020003",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铝涂料",
+          "code": "020007",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "银涂料",
+          "code": "020014",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "银镀粉",
+          "code": "020016",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "黑亮漆",
+          "code": "020017",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "杀菌漆",
+          "code": "020019",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "粉刷用石灰浆",
+          "code": "020020",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "沥青清漆",
+          "code": "020025",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "木材涂料（油漆）",
+          "code": "020026",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "青铜漆",
+          "code": "020031",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "屋顶毡用涂料（油漆）",
+          "code": "020036",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "陶瓷涂料",
+          "code": "020037",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具底盘防蚀涂层",
+          "code": "020040",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具底盘底漆",
+          "code": "020040",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "粉刷用石灰水",
+          "code": "020042",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "油漆稀释剂",
+          "code": "020053",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "亮面漆用稀释剂",
+          "code": "020054",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "油漆增稠剂",
+          "code": "020055",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "刷墙粉",
+          "code": "020062",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "瓷釉（漆）",
+          "code": "020064",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "瓷漆",
+          "code": "020065",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "油漆催干剂",
+          "code": "020068",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "涂料（油漆）",
+          "code": "020070",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "固定剂（清漆）",
+          "code": "020072",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "釉料（漆、亮面漆）",
+          "code": "020075",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "虫胶",
+          "code": "020077",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "防火漆",
+          "code": "020085",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "油漆凝结剂",
+          "code": "020087",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "油漆黏合剂",
+          "code": "020087",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "清漆用苏模鞣料",
+          "code": "020102",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "底漆",
+          "code": "020108",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "粉刷用白垩灰浆",
+          "code": "020110",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "苯乙烯树脂漆",
+          "code": "020114",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "亮面漆",
+          "code": "020115",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "防污涂料",
+          "code": "020122",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "松节油（涂料稀释剂）",
+          "code": "020124",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "油漆补片（可替换的）",
+          "code": "020125",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "防涂鸦涂料（油漆）",
+          "code": "020131",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "木地板面漆",
+          "code": "020134",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "防尿油漆",
+          "code": "020135",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "导电油漆",
+          "code": "020136",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "稀料",
+          "code": "C020003",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "松香水",
+          "code": "C020004",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "可赛银",
+          "code": "C020005",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "防水冷胶料",
+          "code": "C020006",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "水溶性内外墙有光喷塑料",
+          "code": "C020007",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "聚乙烯胶泥",
+          "code": "C020008",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "无黏性化学涂料（不粘锅用）",
+          "code": "C020009",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "天那水",
+          "code": "C020010",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "信那水",
+          "code": "C020011",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "防水粉（涂料）",
+          "code": "C020012",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "树脂胶泥",
+          "code": "C020013",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "磁漆",
+          "code": "C020018",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "混凝土地面用环氧涂料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车用漆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "调和漆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "荧光漆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "油性漆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "阻燃油漆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "合成树脂涂料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防腐油漆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防腐蚀涂料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "地板保护清漆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "船体底壳漆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "橱柜制作用清漆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "虫胶清漆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "车辆用防锈制剂涂层",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "玻璃钢游泳池和水疗场所用非金属彩色表面涂层",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "混凝土地面用油漆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "军事设备用伪装漆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "标记路面用热塑性油漆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "反光喷漆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防腐蚀油漆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防涂鸦用油漆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防锈涂料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "房屋用漆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业装置用油漆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "海事用油漆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "合成涂料（油漆）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "绘画漆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机器用油漆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家具制造用油漆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑物外表面用彩色油漆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "耐热漆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "内墙漆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "喷漆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车制造用油漆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生产加工用油漆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陶瓷制造用油漆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "透明涂料（油漆）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "外墙漆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无溶剂油漆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用作涂料干燥剂的催干剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有色涂料（油漆）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具涂层用透明保护剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具用透明防护涂料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用作涂料稀释剂的松节油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸涂层用漆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防火油漆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防锈漆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "粉末涂料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "搪瓷漆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "地板用漆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抗风化涂料（油漆）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "混凝土用辐射固化涂料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "清漆（非绝缘漆）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工艺品漆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家具上光用涂料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商业船舶用防腐油漆类涂料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "发光漆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑油漆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陶器瓷漆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于表面涂漆做准备的底漆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "待涂表面用底漆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防潮油漆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "油漆类不粘涂层（涂料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "具有防水特性的涂料制剂（油漆）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "装饰用喷涂式涂料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木器漆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "油漆和油灰用黏合剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "聚氨酯清漆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防水油漆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家具制造用清漆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用作表面涂料的虫胶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "刷墙粉（水性涂料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防火涂料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "荧光涂料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "混凝土地板用油漆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防水粉（油漆）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "油毛毡用涂料（油漆）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防水涂料（油漆）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水性漆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抗病毒涂料（油漆）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "漆稀释剂",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:17.176Z"
+}

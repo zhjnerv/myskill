@@ -1,0 +1,104 @@
+{
+  "groupCode": "0710",
+  "groupName": "酿酒、饮料工业用机械",
+  "classCode": "07",
+  "notes": [
+    "注:1. 本类似群与第八版及以前版本0709瓶子冲冼机交叉检索；",
+    "2. 跨类似群保护商品:瓶子冲冼机(0709，0710)；电动榨果汁机（0709，0710，0723）。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "抽啤酒用压力装置",
+          "code": "070012",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "饮料加气设备",
+          "code": "070056",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "瓶子冲洗机",
+          "code": "070065",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "酿酒机器",
+          "code": "070066",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "酿葡萄酒用压榨机",
+          "code": "070102",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "汽水加气设备",
+          "code": "070163",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "饮用水矿化设备",
+          "code": "070164",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电动制饮料机",
+          "code": "070315",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电动榨果汁机",
+          "code": "070565",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "制备饮料用机械臂",
+          "code": "070611",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "饮料加工机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽水制造机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽水饮料制造机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制矿泉水机械",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动饮料制造机",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:54.545Z"
+}

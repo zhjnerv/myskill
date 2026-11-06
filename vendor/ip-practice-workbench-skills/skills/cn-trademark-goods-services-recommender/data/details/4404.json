@@ -1,0 +1,534 @@
+{
+  "groupCode": "4404",
+  "groupName": "农业、水产养殖、园艺和林业服务",
+  "classCode": "44",
+  "notes": [
+    "注：1.本类似群与第七版及以前版本4206交叉检索；",
+    "2.花环制作与第七版及以前版本4226花圈制作交叉检索；",
+    "3.灭鼠（为农业、园艺或林业目的）与第十一版及以前版本 3717 灭鼠交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "庭院风景布置",
+          "code": "440012",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "花环制作",
+          "code": "440037",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "园艺学",
+          "code": "440072",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "园艺",
+          "code": "440077",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "农场设备出租",
+          "code": "440084",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "植物养护",
+          "code": "440094",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "空中和地面化肥及其他农用化学品的喷洒",
+          "code": "440115",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "花卉摆放",
+          "code": "440143",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "草坪修整",
+          "code": "440148",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "树木修补",
+          "code": "440166",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "灭害虫（为农业、水产养殖业、园艺或林业目的）",
+          "code": "440168",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "除草",
+          "code": "440171",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "园林景观设计",
+          "code": "440199",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "为碳抵消目的植树",
+          "code": "440206",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "再造林服务",
+          "code": "440217",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "虫害防治服务（为农业、水产养殖业、园艺或林业目的）",
+          "code": "440220",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "为园艺维护出租动物",
+          "code": "440222",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "葡萄栽培服务",
+          "code": "440227",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "葡萄栽培咨询",
+          "code": "440228",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "植物栽培",
+          "code": "440231",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "树木修剪",
+          "code": "440243",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "树木移植",
+          "code": "440244",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "园林景观规划",
+          "code": "440245",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "提供社区园艺设施",
+          "code": "440248",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "园艺器具出租",
+          "code": "440261",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "虫害防治熏蒸（为农业、园艺或林业目的）",
+          "code": "440276",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "飞机播种",
+          "code": "440279",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "商业捕鱼服务",
+          "code": "440284",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "灭鼠（为农业、园艺或林业目的）",
+          "code": "C440004",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "草坪修剪服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "插花出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "苗木培育",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "灭害虫（为农业、园艺和林业目的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "树木种植",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "飞机撒肥",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "修复森林",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "农作物保护产品的喷洒服务（为农业目的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为园艺目的喷洒杀虫剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水培养殖服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "园艺树木种植",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "花园或花圃的护理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "剪草机出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "农业设备出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供园艺信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "盆栽出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "肥料喷洒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供园艺用植物和花的鉴别信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "农具出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "除草服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人设计庭园风景",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "农业灭虫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "喷洒农业杀虫剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "草坪修剪设备出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "农业虫害防治",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "农业喷洒机械出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人种植植物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防治虫害服务（为农业、园艺和林业目的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供有关为农业、园艺或林业目的灭害虫的信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供与园艺植树相关的信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "地面化肥喷洒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "园艺咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "植物养护服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供有关农场设备出租的信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "林业用杀虫剂喷洒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "植物育种",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "草皮种植服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "施肥领域的农业咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "树木修剪服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人播种农业作物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人耕种农业作物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人收割农作物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "草坪培育",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用菌栽培咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水果和蔬菜种植",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "树木栽培",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "香蕉栽培咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "园林景观设计咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "园林景观规划服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "园艺虫害防治服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "割草机器人出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有关树木种植的咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "林业虫害防治服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水产养殖业虫害防治服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "花卉种植领域的咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "柑橘栽培咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "樱桃栽培服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "果树栽培咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "藜麦种植领域的咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "柑橘栽培服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "果树栽培服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "樱桃栽培咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "土壤改良剂撒布",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "园林设计服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为环境保护目的植树",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "农业机械出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "农业用化学品的空中喷洒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "灌木修剪",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:58.090Z"
+}

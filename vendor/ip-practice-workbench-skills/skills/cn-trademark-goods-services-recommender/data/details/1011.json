@@ -1,0 +1,139 @@
+{
+  "groupCode": "1011",
+  "groupName": "眼镜及附件",
+  "classCode": "10",
+  "notes": [
+    "注：本类似群与 0919 体育用护目镜，护目镜类似，与第十二版及以前版本 0921（3D眼镜、擦眼镜布除外），0919 防眩光眼镜，第九版及以前版本 0919 体育用风镜交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "眼镜*",
+          "code": "100328",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "眼镜片",
+          "code": "100329",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "眼镜框",
+          "code": "100330",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "眼镜架",
+          "code": "100330",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "眼镜链",
+          "code": "100331",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "眼镜挂绳",
+          "code": "100332",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "色觉缺陷矫正眼镜",
+          "code": "100333",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "眼镜盒",
+          "code": "100334",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "眼镜套",
+          "code": "100334",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "隐形眼镜",
+          "code": "100335",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "隐形眼镜盒",
+          "code": "100336",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "具有超声波清洗功能的隐形眼镜盒",
+          "code": "100337",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "矫正镜片",
+          "code": "100338",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "太阳镜",
+          "code": "100339",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "防眩光眼镜",
+          "code": "100341",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "夹鼻眼镜",
+          "code": "100342",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "老花镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "夹鼻眼镜挂绳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "太阳镜框",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "太阳镜挂绳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "眼镜（光学）",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:49.480Z"
+}

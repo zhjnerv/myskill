@@ -1,0 +1,50 @@
+{
+  "groupCode": "2808",
+  "groupName": "游泳池及跑道",
+  "classCode": "28",
+  "notes": [
+    "注：本类似群各部分之间商品不类似。"
+  ],
+  "sections": [
+    {
+      "label": "（一）",
+      "items": [
+        {
+          "name": "游泳池（娱乐用品）",
+          "code": "280095",
+          "type": "standard",
+          "section": "（一）"
+        }
+      ]
+    },
+    {
+      "label": "（二）",
+      "items": [
+        {
+          "name": "塑胶跑道",
+          "code": "C280084",
+          "type": "standard",
+          "section": "（二）"
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "可充气游泳池（娱乐用品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "泳池赛道分道线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "塑料跑道",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:27.972Z"
+}

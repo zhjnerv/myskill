@@ -1,0 +1,1328 @@
+{
+  "groupCode": "0907",
+  "groupName": "通讯导航设备",
+  "classCode": "09",
+  "notes": [
+    "注：1.电话机与0903电传真设备，传真机类似；",
+    "2.本类似群与第九版及以前版本 2601 已接受商品手机带，手机挂带交叉检索；",
+    "3.智能手机屏幕专用保护膜，手机屏幕保护贴，手机屏幕专用保护膜与第十版及以前版本1703已接受商品手机屏幕保护膜交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "通话筒",
+          "code": "090017",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "天线",
+          "code": "090045",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "防无线电干扰设备（电子）",
+          "code": "090048",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "分线盒（电）",
+          "code": "090094",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "交换机",
+          "code": "090146",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "声呐装置",
+          "code": "090179",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电话听筒",
+          "code": "090207",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电子信号发射器",
+          "code": "090227",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "发射机（电信）",
+          "code": "090228",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "无线电设备",
+          "code": "090270",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "内部通信装置",
+          "code": "090308",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "导航仪器",
+          "code": "090358",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "成套无线电话机",
+          "code": "090407",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "成套无线电报机",
+          "code": "090408",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "雷达设备",
+          "code": "090416",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具用无线电设备",
+          "code": "090417",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电话机",
+          "code": "090423",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "遥控信号用电动装置",
+          "code": "090447",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "声波定位仪器",
+          "code": "090455",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电报机（装置）",
+          "code": "090467",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "无线电天线杆",
+          "code": "090471",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电话话筒",
+          "code": "090473",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电传中断器",
+          "code": "090474",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "发射器（电信）",
+          "code": "090488",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "调制解调器",
+          "code": "090611",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电话答录机",
+          "code": "090629",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "可视电话",
+          "code": "090653",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具用导航仪器（随载计算机）",
+          "code": "090659",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "无绳电话",
+          "code": "090661",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "无线电寻呼机",
+          "code": "090673",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "卫星导航仪器",
+          "code": "090674",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "步话机",
+          "code": "090677",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电话用成套免提工具",
+          "code": "090688",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "信号转发器",
+          "code": "090693",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "全球定位系统（GPS）设备",
+          "code": "090701",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "手机带",
+          "code": "090703",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "智能手机",
+          "code": "090719",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "移动电话",
+          "code": "090734",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "手机",
+          "code": "090734",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "穿戴式行动追踪器",
+          "code": "090737",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "智能手机用套",
+          "code": "090740",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "智能手机用壳",
+          "code": "090741",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "智能手机屏幕专用保护膜",
+          "code": "090775",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "卫星寻星仪",
+          "code": "090792",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "首饰形式的通信设备",
+          "code": "090805",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "家居智能型集线器",
+          "code": "090846",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "智能家居集线器",
+          "code": "090846",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "可折叠智能手机",
+          "code": "090854",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "手机屏幕保护贴",
+          "code": "090863",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "手机指环扣",
+          "code": "090866",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "手机指环支架",
+          "code": "090867",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "移动电话和智能手机专用支架",
+          "code": "090881",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "手机和智能手机专用支架",
+          "code": "090881",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "车载手机支架",
+          "code": "090882",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "移动电话和智能手机专用仪表板防滑垫",
+          "code": "090896",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "手机和智能手机专用仪表板防滑垫",
+          "code": "090896",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "计算机网络路由器",
+          "code": "090906",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "频率拓展器",
+          "code": "090907",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "导弹预警系统",
+          "code": "090909",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "船舶自主导航系统",
+          "code": "090910",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "带键盘的智能手机壳",
+          "code": "090913",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "手机挂绳",
+          "code": "090920",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "智能手机用稳定器",
+          "code": "090922",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "载波设备",
+          "code": "C090026",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "驱动斩波器",
+          "code": "C090027",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "光通信设备",
+          "code": "C090028",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "寻呼机套",
+          "code": "C090029",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "电话机套",
+          "code": "C090030",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "程控电话交换设备",
+          "code": "C090031",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "半导体捕鱼器",
+          "code": "C090032",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "网络通信设备",
+          "code": "C090125",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "手机屏幕专用保护膜",
+          "code": "C090138",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "手机用自拍杆",
+          "code": "C090146",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "手机专用套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手机专用支架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手提电话",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数码电话机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "双向无线对讲机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "天线合路器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "同声传译接收器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "外接调制解调器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "网络电话机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "网络路由器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "微波天线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卫星传送用圆盘式卫星电视天线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卫星导航装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卫星接收器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卫星天线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抛物面天线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮制手机套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车天线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人工电报机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "声音和信号再现用无线电监控器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "事故信号发射器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "视频多路复用器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手表式智能手机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手机键盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手机壳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手机套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "空中交通管制用无线电设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "雷达反射器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "内置传真装置的移动电话机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "内置调制解调器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机网络集线器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机网络交换机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机网络桥接器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "解调器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "广域网（WAN）路由器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "海上巡查雷达",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "航海用无线电设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "基于openwire协议的传输设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "公共电话机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "公共广播系统",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "固定电话机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "固定电台用单通道无线电通信设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "光接收机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "短距离无线电设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "对讲机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "多路复用器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子导航和定位用设备和仪器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子导航仪器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "带有放大器的雷达接收器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "带有屏幕和键盘的成套电话器具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电报传送装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电话录音机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电话套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电话终端设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电视播放用发射和接收设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电视发射器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电视机天线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电信发射器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电信用自动交换机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "船用导航设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "GPS导航设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "板状天线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "成套电话器具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "远距离传输用发射和接收设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "远距离无线电导航仪器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "振幅调谐器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "智能手机用保护壳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "智能手机用保护套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "智能手机用翻盖式保护套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自动电报机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自动电话拨号器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自动电话交换机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自动电话应答机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "寻呼机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "寻呼设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "寻呼装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "遥控用无线电发射机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "遥控用无线电接收机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "移动电话用免提装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于发送无线电节目和信息的微波传送装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有线电视发射器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "圆盘式卫星电视天线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无绳电话设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无线电测向仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无线电传送设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无线电发射机和接收机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无线电发射器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无线电广播用发射和接收设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无线电和电视设备用中继器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无线电话设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无线电接收机和发射机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无线电接收器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无线电设备用天线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无线电收发机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无线电通话机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无线电通话终端",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无线电信标设备及装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无线电信号调谐器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无线发射器和接收器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无线路由器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电信多路复用器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含内部通信系统的电话机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "会议电话机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "雷达干扰装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "雷达天线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "雷达显示器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "全球定位系统接收器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "射频发射器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "射频接收器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "射频天线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通信调制解调器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卫星广播接收天线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卫星收发器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无线电波发射天线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "智能手机或相机用自拍单脚架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "智能手机用键盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "专用分组交换机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手机插孔用防尘塞",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电话联接器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "解复用器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "免提扬声电话机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "腕戴式智能电话",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "USB无线路由器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "便携式应急对讲机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "GPS（全球定位系统）接收器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可视电话机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "智能手机用防水保护套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车导航装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无线通信设备用天线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "雷达设备和装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通信传送设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电信交换器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "罗兰远程无线电导航设备和装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "利用全球定位系统和蜂窝通信网络定位丢失物品用的电子设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "航空用无线电通信机器和设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "智能手机屏幕放大器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "包含时钟的无线电设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "航空无线通讯机器和设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手机便携套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "移动电话用屏幕保护膜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "导航仪专用表面保护膜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "导航仪专用屏幕保护膜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "移动无线电话",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "以太网交换机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "以太网开关",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "智能电话机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无线适配器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "路由器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无线电话",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无线电话终端",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无线电发射机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无线局域网控制器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无线对讲机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "USB集线器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "信号分配器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "移动电话机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卫星通信设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无线宽频无线电设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自动电话交换设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手机触摸屏用保护膜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子导航和定位设备和仪器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "智能手机用键盘套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "布莱尔盲文手机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "内部调制调解器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水听器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "VOIP电话机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "折叠屏智能手机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "智能手机镜头专用保护膜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电信交换机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通信集线器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "智能手机用内置散热风扇",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卫星电话",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "携带手机用腕带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卫星通信终端",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:32.926Z"
+}

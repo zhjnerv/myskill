@@ -1,0 +1,37 @@
+[
+  {
+    "groupCode": "0401",
+    "groupName": "工业用油及油脂，润滑油，润滑剂（不包括燃料用油）",
+    "classCode": "04"
+  },
+  {
+    "groupCode": "0402",
+    "groupName": "液体、气体燃料和照明燃料",
+    "classCode": "04"
+  },
+  {
+    "groupCode": "0403",
+    "groupName": "固体燃料",
+    "classCode": "04"
+  },
+  {
+    "groupCode": "0404",
+    "groupName": "工业用蜡",
+    "classCode": "04"
+  },
+  {
+    "groupCode": "0405",
+    "groupName": "照明用蜡烛和灯芯",
+    "classCode": "04"
+  },
+  {
+    "groupCode": "0406",
+    "groupName": "吸收、润湿和粘结灰尘用合成物",
+    "classCode": "04"
+  },
+  {
+    "groupCode": "0407",
+    "groupName": "能源",
+    "classCode": "04"
+  }
+]

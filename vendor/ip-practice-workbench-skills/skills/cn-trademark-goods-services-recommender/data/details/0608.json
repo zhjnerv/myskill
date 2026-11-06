@@ -1,0 +1,347 @@
+{
+  "groupCode": "0608",
+  "groupName": "家具及门窗的金属附件",
+  "classCode": "06",
+  "notes": [
+    "注：1.类似群与第十版及以前版本 0603 金属闩交叉检索；",
+    "2.金属门把手，球形金属把手与第九版及以前版本 0609 金属把手包头交叉检索；",
+    "3.跨类似群保护商品：五金器具（0607，0608，0609）；小五金器具（0607，0608，0609）。",
+    "4.铜环，金属门环与0607金属环类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "金属门闩",
+          "code": "060022",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属制窗挡",
+          "code": "060035",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属制门挡",
+          "code": "060036",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属铰链*",
+          "code": "060068",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属安全链",
+          "code": "060071",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属铰链连接器",
+          "code": "060073",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "提拉窗用金属滑轮",
+          "code": "060075",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "窗用金属滑轮",
+          "code": "060075",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "窗扉栓",
+          "code": "060104",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铜环",
+          "code": "060110",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属窗栓",
+          "code": "060125",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "窗用金属附件",
+          "code": "060130",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属关门器（非电动）",
+          "code": "060135",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属制门弹簧（非电动）",
+          "code": "060135",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "床用金属脚轮",
+          "code": "060166",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属闩",
+          "code": "060167",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属门环",
+          "code": "060180",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "家具用金属脚轮",
+          "code": "060187",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属衣服挂钩",
+          "code": "060202",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属门把手",
+          "code": "060216",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属门插销",
+          "code": "060220",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "五金器具*",
+          "code": "060227",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "小五金器具*",
+          "code": "060227",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属挡块",
+          "code": "060238",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "扁插销",
+          "code": "060247",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "球形金属把手",
+          "code": "060301",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属开门器（非电动）",
+          "code": "060320",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属合页",
+          "code": "060327",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "滑动门用金属滑轨",
+          "code": "060348",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "挂衣杆用金属钩",
+          "code": "060352",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "家具用金属附件",
+          "code": "060380",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "床用金属附件",
+          "code": "060393",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "门用金属附件",
+          "code": "060394",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属开窗器（非电动）",
+          "code": "060443",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属关窗器（非电动）",
+          "code": "060444",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属制浴缸扶手",
+          "code": "060451",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属制窗锁",
+          "code": "060454",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属制门用锁紧装置",
+          "code": "060455",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "家具用金属角码",
+          "code": "060464",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "磁碰块",
+          "code": "C060026",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "家用金属滑轨",
+          "code": "C060040",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "窗用金属摇把",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "橱柜用金属阻挡物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属制邮件口",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属挂帽钩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属窗框栓",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属制地板铰链",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属固定式插销",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "普通金属制门把手",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属制门踢板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "门用金属阻尼器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "滑动门用金属小滑轮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属制淋浴扶手",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抽屉用金属把手",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "柜用金属把手",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "挂衣杆用金属挂钩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "支架用金属角码",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:38.711Z"
+}

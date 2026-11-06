@@ -1,0 +1,156 @@
+{
+  "groupCode": "1617",
+  "groupName": "绘画用具（不包括绘图仪器，笔）",
+  "classCode": "16",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "画家用靠手架",
+          "code": "160019",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "画家用画架",
+          "code": "160087",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "绘木纹用梳具",
+          "code": "160122",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "绘画板",
+          "code": "160123",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "绘画材料",
+          "code": "160124",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "艺术家用水彩颜料碟",
+          "code": "160166",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "画家用调色板",
+          "code": "160207",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "房屋油漆用辊子",
+          "code": "160215",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "油画布",
+          "code": "160216",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "颜料盒（学校用品）",
+          "code": "160217",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "画蔓叶花饰器具",
+          "code": "160263",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蚀刻针",
+          "code": "160309",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "颜料盘",
+          "code": "160358",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "画箱",
+          "code": "C160099",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "绘画膜",
+          "code": "C160100",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "水彩画用画板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "黑板绘画材料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "绘画板（画家用品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "画架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "刷漆用辊",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "刷漆用辊子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "丝绸画布（画家用物品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水彩保湿盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "绘画板（美术用品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "画家用帆布衬板",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:19.284Z"
+}

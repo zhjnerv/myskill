@@ -1,0 +1,971 @@
+{
+  "groupCode": "2804",
+  "groupName": "球类及器材",
+  "classCode": "28",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "运动球类球胆",
+          "code": "280001",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "体育活动用球",
+          "code": "280011",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "台球桌垫",
+          "code": "280013",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "台球",
+          "code": "280019",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "台球球杆用白垩",
+          "code": "280020",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "台球记分器",
+          "code": "280021",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "滚球游戏用球",
+          "code": "280030",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "保龄球设备和器械",
+          "code": "280031",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "球拍用肠线",
+          "code": "280033",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "高尔夫球杆",
+          "code": "280034",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "球拍线",
+          "code": "280042",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "板球包",
+          "code": "280047",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "曲棍球棒",
+          "code": "280048",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "带轮或不带轮的高尔夫球袋",
+          "code": "280061",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运动用网",
+          "code": "280064",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "网球场地用网",
+          "code": "280065",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "球拍",
+          "code": "280081",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "球棒",
+          "code": "280081",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "乒乓球台",
+          "code": "280111",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "羽毛球",
+          "code": "280116",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "台球杆",
+          "code": "280121",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "台球球杆头",
+          "code": "280122",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "台球桌",
+          "code": "280123",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "投币启动式台球桌",
+          "code": "280124",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "网球抛球仪器",
+          "code": "280173",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "修复草皮工具（高尔夫球运动用）",
+          "code": "280179",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "高尔夫果岭叉",
+          "code": "280179",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "投球机",
+          "code": "280220",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "高尔夫球袋车",
+          "code": "280225",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运动球类充气用气针",
+          "code": "280232",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运动球类充气专用气泵",
+          "code": "280233",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "高尔夫球袋吊牌",
+          "code": "280259",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "保龄球",
+          "code": "280263",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "网球拍",
+          "code": "C280034",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "羽毛球拍",
+          "code": "C280035",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "乒乓球拍",
+          "code": "C280036",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "板羽球拍",
+          "code": "C280037",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "球网",
+          "code": "C280038",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "门球器材",
+          "code": "C280039",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "球拍胶粒",
+          "code": "C280040",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "球及球拍专用袋",
+          "code": "C280041",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "高尔夫球的清洁机（高尔夫球运动用或高尔夫球场用）",
+          "code": "C280098",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "高尔夫球的挑选机（高尔夫球运动用或高尔夫球场用）",
+          "code": "C280099",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "高尔夫球的运送机（高尔夫球运动用或高尔夫球场用）",
+          "code": "C280100",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "高尔夫球的分配机（高尔夫球运动用或高尔夫球场用）",
+          "code": "C280101",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "高尔夫球杆把手",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高尔夫球袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高尔夫球",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "棒球垒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "棒球棍袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "棒球棍",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "板球拍",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高尔夫球杆柄",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高尔夫球杆头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高尔夫球位标",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高尔夫球座袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "垒球",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "球拍用保护罩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "软式网球",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "橡胶棒球",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "足球门",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "美式橄榄球练习用阻挡橇",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "棒球发球机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "保龄球机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冰壶石",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "足球球门",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "排球网标志杆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "网球",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "网球拍避震器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "篮球的篮板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "篮球篮框",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "篮球篮圈",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "篮球球篮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "棒球",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冰球杆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冰球球门",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "篮球",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "曲棍球球门",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "板球",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "曲棍球用球",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "板球运动用球",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "保龄球袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "乒乓球",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "乒乓球拍盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "乒乓球网",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "壁球",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "羽毛球网",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高尔夫球杆用套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高尔夫球杆罩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "足球",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "英式橄榄球",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高尔夫球杆袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冰壶刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "台球设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "台球用白垩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "草地曲棍球运动用球",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "羽子板游戏用球拍",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "斯诺克台球杆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "羽子板游戏用羽毛球",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "斯诺克台球桌",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高尔夫球杆专用架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "台球杆头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冰球",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高尔夫球练习网",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "壁球拍",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "长曲棍球运动用球",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冰球运动用球",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "网球盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "杂技用球",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高尔夫球杆头专用罩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冰球球网",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手球运动用球",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "法式滚球运动用球",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "意大利式室外地滚球运动用球",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "美式壁球运动用球",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "藤球运动用球",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "躲避球运动用球",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "地掷球",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "瑜伽健身球",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "球拍套（网球或羽毛球）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "曲棍球拍线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高尔夫装备用拉杆包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "推杆练习垫（高尔夫器具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "球拍用肠线（网球或羽毛球）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "斯诺克台球杆用白垩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "棒球（硬式）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "网球（非软式）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "网球网和立柱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "长曲棍球球棍",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高尔夫球推杆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高尔夫球捡球器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "排球",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "排球网",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "网球捡球器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "台球用三角框",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无挡板篮球",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "台球杆用架杆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "棒球打击练习器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高尔夫球杆头套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "足球训练用标志碟",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "台球摆球架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "棒球击球笼网",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "美式橄榄球",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "台球杆盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "长曲棍球球棍专用袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "垒球棒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水球运动用球",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "乒乓球网架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "旱地冰球用球杆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "旱地冰球用球",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "板式网球用球",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "网球柱防撞护套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "球网架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "投手板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "网球球网中分带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "室内五人制足球用球",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "玻璃制篮板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "篮筐网",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "沙狐球饼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "沙狐球游戏用推杆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "乒乓球发射机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "网球发射机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "球类运动用网",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "瑜伽球",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高尔夫杆头套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冰球杆包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "保龄球瓶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高尔夫球座",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "保龄球球道护栏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "橄榄球开球座",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "保龄球置瓶器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "棒球投球网",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "斯诺克台球架杆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运动用球",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高尔夫球铁球杆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高尔夫球袋背带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "棒球和垒球用摩擦泥",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "草地滚球比赛用球",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "羽毛球球拍线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "台球杆用盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "排球立柱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "棒球棒专用包",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:25.646Z"
+}

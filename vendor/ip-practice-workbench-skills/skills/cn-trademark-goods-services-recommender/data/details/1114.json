@@ -1,0 +1,29 @@
+{
+  "groupCode": "1114",
+  "groupName": "单一商品",
+  "classCode": "11",
+  "notes": [
+    "注：非医用个人降温冰袋与 1004 医用冰袋类似"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "非医用个人降温冰袋",
+          "code": "110408",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非兽医用宠物冷敷垫",
+          "code": "110419",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [],
+  "crawledAt": "2026-06-09T18:57:57.379Z"
+}

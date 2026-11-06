@@ -1,0 +1,933 @@
+{
+  "groupCode": "0807",
+  "groupName": "非动力手工具（不包括刀、剪）",
+  "classCode": "08",
+  "notes": [
+    "1.跨类似群保护商品：手动的手工具（0801，0802，0803，0804，0805，0806，0807，0808，0809，0810）。",
+    "2. 本类似群与第十版及以前版本 2807 滑雪板用刮板交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "针锉",
+          "code": "080005",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "锥子",
+          "code": "080008",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "镗孔棒（手工具）",
+          "code": "080009",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铰刀",
+          "code": "080010",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铰刀座",
+          "code": "080011",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "螺丝攻曲柄的延伸管件",
+          "code": "080012",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "钻头（手工具部件）",
+          "code": "080016",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "丁字尺（手工具）",
+          "code": "080017",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "环形搓丝板",
+          "code": "080020",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "弓锯",
+          "code": "080021",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "手动拔钉器",
+          "code": "080023",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "手动的手钻",
+          "code": "080028",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "凿榫凿",
+          "code": "080029",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "凿孔斧",
+          "code": "080030",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "凿榫斧",
+          "code": "080030",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "拔钉器（手工具）",
+          "code": "080034",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "凿石锤",
+          "code": "080036",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铆锤（手工具）",
+          "code": "080038",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "石锤",
+          "code": "080047",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "钢丝锯",
+          "code": "080048",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "套锤（手工具）",
+          "code": "080051",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "手锯架",
+          "code": "080054",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "锯（手工具）",
+          "code": "080055",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "丝锥扳手",
+          "code": "080063",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "扳手（手工具）",
+          "code": "080064",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "板牙（手工具）",
+          "code": "080066",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "丝锥板牙（手工具）",
+          "code": "080066",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "板牙套丝器（手工具）",
+          "code": "080066",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "斧",
+          "code": "080069",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "刨",
+          "code": "080071",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "手动的手工具",
+          "code": "080072",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "拔钉钳",
+          "code": "080074",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "夯土锤（手工具）",
+          "code": "080083",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铣刀（手工具）",
+          "code": "080085",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "木工用钻子",
+          "code": "080104",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "凿孔用钻头（手工具部件）",
+          "code": "080108",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "刨用刀片",
+          "code": "080119",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "钻子（手工具）",
+          "code": "080124",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "凿（手工具）",
+          "code": "080129",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "槽刨",
+          "code": "080135",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "小斧",
+          "code": "080137",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "横口斧（工具）",
+          "code": "080141",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "夹钳（木工或制桶工业用）",
+          "code": "080147",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "锯条（手工具部件）",
+          "code": "080151",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "撬杠",
+          "code": "080153",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "木槌（手工具）",
+          "code": "080155",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "锤（手工具）",
+          "code": "080156",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "大锤",
+          "code": "080157",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "砸石锤",
+          "code": "080158",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "凿子*",
+          "code": "080159",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "撞杵（手工具）",
+          "code": "080172",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "撞锤（手工具）",
+          "code": "080172",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "中心穿孔器（手工具）",
+          "code": "080175",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "刨刀",
+          "code": "080177",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "粗锉（手工具）",
+          "code": "080178",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "锯柄",
+          "code": "080186",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "利器（手工具）",
+          "code": "080192",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "螺丝攻（手工具）",
+          "code": "080193",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "钻（手工具）",
+          "code": "080194",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非电动螺丝刀",
+          "code": "080195",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "钻头（手工具）",
+          "code": "080197",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "胸压式手摇钻",
+          "code": "080199",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "钳子",
+          "code": "080206",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "小钳子",
+          "code": "080207",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "钳*",
+          "code": "080207",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "夹钳*",
+          "code": "080207",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "夯锤（手工具）",
+          "code": "080211",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "剪票器具",
+          "code": "080212",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "钻柄（手工具）",
+          "code": "080218",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "剪切器（手动器具）",
+          "code": "080223",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "锉刀",
+          "code": "080227",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "穿孔钳（手工具）",
+          "code": "080228",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "打孔器（手工具）",
+          "code": "080229",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "切割工具（手工具）",
+          "code": "080230",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "切削工具（手工具）",
+          "code": "080237",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "台钳",
+          "code": "080244",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "携带工具用腰带",
+          "code": "080247",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "撬棍",
+          "code": "080250",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "辅锯箱（手工具）",
+          "code": "080253",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金刚砂",
+          "code": "",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "安全锤",
+          "code": "080290",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "携带工具用背心",
+          "code": "080302",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "锉",
+          "code": "080257",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "剥线钳（手工具）",
+          "code": "080259",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "台虎钳（手工器具）",
+          "code": "080261",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "滑雪板用刮板",
+          "code": "080274",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "平头凿",
+          "code": "080305",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "锛",
+          "code": "C080002",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "钎具",
+          "code": "C080003",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "木工用钳（起钉钳）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木工用双柄刮刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "扭矩扳手",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手动铆接工具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "树枝锯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "双人大锯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "套筒扳手",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "板牙扳手",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "大斧",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "带活动头的扳手",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钢丝钳（养路工用钳）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "管钳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "横切锯片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "螺旋扳手",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可调节的扳手",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "螺母扳手",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高尔夫鞋钉用扳手",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木工用撬棒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钳（手工具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "去除瓷砖卡子用手工具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手动弓锯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手动铣刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手工具用螺丝刀头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "斜口虎钳（手工具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "装配用钳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "撞杵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "起钉锤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "凿子（手动的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "锉刀（手动的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铰刀（手动的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "棘轮扳手（手工具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手动切割工具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "剪线钳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属切割锯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "六角扳手",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手锯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "活动扳手",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "火花塞扳手",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "套筒扳手（手工具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手钻",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冰斧",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "梅花扳手",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "扳手",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "锤镐（凿石锤）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "登山冰镐（冰斧）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "刨干鲣鱼片用非电动刨（鱼片刨）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "登山冰锤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手动凿子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "扳手（手动的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手动竖锯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手状钩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "锯（手动的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手用螺丝攻",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "弯管用手动工具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机油滤清器用扳手",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钓鱼钳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金刚砂锉080257",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冰钓用手动冰钻",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卸胎铁棒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鸟刨（手工具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "壁炉炉钳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "车窗除冰用手动刮板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "起钉器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木工刨",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "大锯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手钻（手工具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "锯条（手工具零件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "锤（手动的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "拔钉器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "螺丝刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "台虎钳（手工具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "弓摇钻",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "刨刀片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "台虎钳（手动工具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手动扭力倍增器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "（携带工具用）工具带080247",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:25.003Z"
+}

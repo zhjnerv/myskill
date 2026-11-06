@@ -1,0 +1,44 @@
+{
+  "groupCode": "0508",
+  "groupName": "宠物尿布",
+  "classCode": "05",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "宠物尿布",
+          "code": "050440",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "垫宠物箱用一次性吸收垫",
+          "code": "050509",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "宠物用一次性训练尿垫",
+          "code": "050511",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "宠物用一次性尿布",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宠物用生理裤",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:33.731Z"
+}

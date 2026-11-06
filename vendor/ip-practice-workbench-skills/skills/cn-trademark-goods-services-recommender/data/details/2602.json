@@ -1,0 +1,370 @@
+{
+  "groupCode": "2602",
+  "groupName": "不属别类的服饰品，饰针",
+  "classCode": "26",
+  "notes": [
+    "注：1.第一自然段商品与2601商品类似。",
+    "2.电和非电的发卷（非手工具）与0806烫发钳，烫发用铁夹，卷发用手工具类似，与第九版及以前版本0806卷发用手工具（非电），0924电热卷发器交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "鸵鸟羽毛（服装附属品）",
+          "code": "260011",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "帽用饰物",
+          "code": "260016",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鞋用饰物",
+          "code": "260035",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "绳绒线织物（花边）",
+          "code": "260037",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "衣服装饰品",
+          "code": "260064",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "云母亮片（服饰用）",
+          "code": "260071",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鸟羽毛（服装配件）",
+          "code": "260074",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "衣服装饰用亮片",
+          "code": "260077",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "羽毛（服装饰件）",
+          "code": "260082",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "头饰（小绒球）",
+          "code": "260083",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "玫瑰花饰（缝纫用品）",
+          "code": "260085",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非制首饰用珠子",
+          "code": "260123",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "补花（缝纫用品）",
+          "code": "260128",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "小饰物（非首饰、非钥匙圈、非钥匙链用）",
+          "code": "260133",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "头发饰带",
+          "code": "260140",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "帽用别针（非首饰）",
+          "code": "260143",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "手机用小饰物",
+          "code": "260151",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "别针徽章扣",
+          "code": "260156",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "发卡",
+          "code": "260015",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "臂章",
+          "code": "260024",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "臂带（服装配件）",
+          "code": "260024",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "胸针（服装配件）",
+          "code": "260027",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "头发装饰品",
+          "code": "260038",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "卷发夹",
+          "code": "260039",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "发夹",
+          "code": "260040",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "发针",
+          "code": "260041",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "发网",
+          "code": "260042",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "长别针",
+          "code": "260090",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "别针（非首饰）",
+          "code": "260100",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非贵金属制佩戴徽章",
+          "code": "260101",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "装饰徽章（扣）",
+          "code": "260113",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "发用蝴蝶结",
+          "code": "260114",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "染发用帽",
+          "code": "260115",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "绶带",
+          "code": "260117",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "卷发纸",
+          "code": "260121",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电和非电的发卷（非手工具）",
+          "code": "260127",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "服装用人造花",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "围巾夹（非首饰）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "安全别针",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "发圈",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "胡须罩网",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食品服务行业用胡须罩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "固定别针",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日式传统发型发髻用穗状装饰物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "梳子状的发饰品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非用于制造珠宝的珠子（服饰用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "军用臂章",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卷发器（非手工具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "服装用胸针",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "发扣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "和服带留",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "标记别针",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马尾辫用发圈",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "服装布贴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "波浪形发卡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "海绵杠发卷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "染发用锡纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非贵金属制鞋饰品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "服装用刺绣贴片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属箔（服装饰品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "发爪夹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "发簪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "帽子用非装饰别针",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:15.206Z"
+}

@@ -1,0 +1,1414 @@
+{
+  "groupCode": "1605",
+  "groupName": "办公、日用纸制品",
+  "classCode": "16",
+  "notes": [
+    "注：1.本类似群各部分之间商品不类似，但皮制行李标签与非纺织品标签类似；",
+    "2.本类似群与1601纸类似；",
+    "3.第（一）部分与 1611 文具，学校用品（文具），办公文具，1614 书写材料类似，与第十一版及以前版本 1611 家具除外的办公必需品交叉检索；与第十二版及以前版本 2606 纸拉花交叉检索",
+    "4.日历与1606第（一）部分印刷出版物类似；",
+    "5.纸张(文具)，写字纸与1602复印纸(文具)，复写纸类似；",
+    "6.印刷品与 1606，1607 第一自然段类似；",
+    "7.第（一）部分与第十版及以前版本 1615 不干胶纸交叉检索。",
+    "8.雪茄用环状标签与第十一版及以前版本1605第（一）部分雪茄烟用套环交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "（一）",
+      "items": [
+        {
+          "name": "影集",
+          "code": "160013",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "剪贴集",
+          "code": "160013",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "票",
+          "code": "160038",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "绘画便笺簿",
+          "code": "160041",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "便笺本",
+          "code": "160042",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "小册子",
+          "code": "160046",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "绣花图样（纸样）",
+          "code": "160047",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "书写本",
+          "code": "160058",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "描图图样",
+          "code": "160061",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "笔记本",
+          "code": "160068",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "卡片*",
+          "code": "160070",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "图表",
+          "code": "160070",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "索引卡片（文具）",
+          "code": "160072",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "纸张（文具）",
+          "code": "160074",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "提花机穿孔卡",
+          "code": "160077",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "目录册",
+          "code": "160080",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "索引卡标签条",
+          "code": "160081",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "图形印刷品",
+          "code": "160121",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "信封（文具）",
+          "code": "160127",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "纹章牌（纸封签）",
+          "code": "160137",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "分类账本",
+          "code": "160153",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "索引卡片",
+          "code": "160154",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "表格（印刷好的）",
+          "code": "160158",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "复制图",
+          "code": "160167",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "明信片",
+          "code": "160174",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "印刷品",
+          "code": "160175",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "手册",
+          "code": "160180",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "写字纸",
+          "code": "160182",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "小册子（手册）",
+          "code": "160189",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "复写本（文具）",
+          "code": "160192",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "封条",
+          "code": "160206",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "蓝图",
+          "code": "160223",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "平面图",
+          "code": "160223",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "书签",
+          "code": "160249",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "贺卡",
+          "code": "160250",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "日历",
+          "code": "160270",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "通知卡片（文具）",
+          "code": "160284",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "纸制旗",
+          "code": "160286",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "临摹用字帖",
+          "code": "160303",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "纸制或卡纸板制标签",
+          "code": "160308",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "贴纸（文具）",
+          "code": "160328",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "音乐贺卡",
+          "code": "160336",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非游戏用集换式卡片",
+          "code": "160354",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "传单",
+          "code": "160360",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "优惠券（印刷品）",
+          "code": "160369",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "印刷好的乐谱",
+          "code": "160374",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "纸制横幅",
+          "code": "160375",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "纸制旗帜",
+          "code": "160376",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "纸质行李领取标签",
+          "code": "160390",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "雪茄用环状标签",
+          "code": "160016",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "填色图",
+          "code": "160394",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "折纸用纸",
+          "code": "160395",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "白板用挂纸",
+          "code": "160401",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "可种植的种子纸（文具）",
+          "code": "160403",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "地板贴花纸",
+          "code": "160404",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "聚会用纸制装饰品",
+          "code": "160410",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "稿纸",
+          "code": "C160045",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "口取纸",
+          "code": "C160046",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "名片",
+          "code": "C160048",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "请帖",
+          "code": "C160049",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "证书",
+          "code": "C160050",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "练习本",
+          "code": "C160051",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "不干胶纸",
+          "code": "C160097",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "记事贴",
+          "code": "C160117",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "纸拉花",
+          "code": "C160119",
+          "type": "marked",
+          "section": "（一）"
+        }
+      ]
+    },
+    {
+      "label": "（二）",
+      "items": [
+        {
+          "name": "硬纸管",
+          "code": "160078",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "混凝纸制小雕像",
+          "code": "160155",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "混凝纸制小塑像",
+          "code": "160155",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "纸制声管",
+          "code": "C160047",
+          "type": "marked",
+          "section": "（二）"
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "通信卡片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贴花纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "收藏用集换式卡片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "票据簿",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "空白的活页挂图",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "印刷的活页挂图",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "备忘录",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "笔记本分隔签",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "壁纸样品册",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "访客留名簿",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日程簿",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生日贺卡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "左侧带分隔线的便签本",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "档案卡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮面日记簿",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸标签",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "记录簿",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "桌面记事台历",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "活页纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高尔夫球记分卡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通知卡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贴纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贴纸书",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "印有抬头的信纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "优惠券册",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "订货单",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "带日历的纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "药品信息宣传单",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "印刷奖状",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸制礼品标签",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸制三角旗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "信纸（成品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "婚礼相册",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "活页乐谱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "乐谱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "便携备忘录",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "评分表",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "印刷图表和图示",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "活页便笺",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "颜色样本印刷品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸制名牌",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "记分单",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "活动手册",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "活页笔记本",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "撕页日历",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "素描本",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "速写本",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "剪贴簿",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "信封",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "习字帖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "相册",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "信头纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "笔记簿",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "笔记用纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "账簿",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "便笺",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "记分簿",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "记分卡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "记录用卡片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "记事本",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纪念册",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "文具纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸样",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "墙用贴花纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "银行支票",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日程记事本",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日计划表",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日记本",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "入场券",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "印刷日历",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "签名簿",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "挂历",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "支票簿",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "空白日志本",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通讯簿",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通讯录",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "集邮册",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "便笺簿",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "弹出式贺卡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有插画的记事本",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "名录簿用纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "练习本封面",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "体育集换卡片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "账目报表",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "账目表单",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "现金收据本",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸锦旗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "备忘便笺条",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "备忘便笺本",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "活页账簿",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贴纸收集册",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "印刷的食谱卡片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车保险杠装饰贴纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无磁性编码的信用卡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "学校用练习本",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑平面图",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "镶画卡纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "客票",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硬币收集册",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车保险杠贴纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可用于任何表面的3D贴花纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "便携式日历",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "台历",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "素描簿",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属制书签",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸制小雕像",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贴画簿",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "胶黏便条纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车用装饰贴纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "毛笔字帖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钢笔字帖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "集换式体育卡片专用携带套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "收藏型集换式卡片专用携带套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "座位名卡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "头盔用装饰贴纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "剪贴簿内页",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "带底板的便笺簿",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "个人备忘记事本",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "旗（纸制）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自黏性便条",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "旅行支票",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "邮购目录",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食谱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "丝网印刷品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "记分卡（印制的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "印制的非游戏用集换式卡片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "印制的记录卡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "印制的建筑平面图",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "印制的名片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "印制的明信片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "印制的日历（年历）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "印制的生日贺卡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日程表",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "印制的日程表",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可撕式印刷日历",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "印制的笔记本",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "印制的订货单",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "印制的计分表",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "印制的记分簿",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "印制的袖珍日历",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "装饰用汽车轮毂贴条",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "药品信息页（印刷品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "绘画用草稿本",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "备忘录（印刷品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宾客登记簿（印刷品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "草稿本（印刷品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "档案卡（印刷品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "分类账簿（印刷品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高尔夫记分卡（印刷品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "活动节目单（印刷品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "入场券（印刷品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "音乐贺卡（印刷品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "桌上计划表（印刷品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "记录簿（印刷品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "乐谱（印刷品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工作日志（印刷品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "会计报表（印刷品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "记账表格（印刷品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "每日计划表（印刷品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "签名簿（印刷品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "书写用空白日记本",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "台历（印刷品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通讯簿（印刷品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通讯录（印刷品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通知卡（印刷品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "习字帖（印刷品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "现金收据簿（印刷品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "信函卡（印刷品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "优惠券簿（印刷品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "预约簿（印刷品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "账簿（印刷品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "支票簿（印刷品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贺卡（印刷品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "请柬（印刷品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日记本（印刷品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "信纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "印刷图表",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日历（年历）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "单词卡（印刷品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钢琴谱（印刷品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "印刷的证书",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "印刷的纸标签",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "印刷的票",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "印刷的收据簿",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "相册内页",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "印制的食谱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "印刷的电话索引本",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "横格纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "索引标签贴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "印制的疫苗接种记录表",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鞋底用装饰贴纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "印刷的代金券",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "一次性纹身贴纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "台垫式日历",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:12.922Z"
+}

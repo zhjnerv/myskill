@@ -1,0 +1,62 @@
+[
+  {
+    "groupCode": "2501",
+    "groupName": "衣物",
+    "classCode": "25"
+  },
+  {
+    "groupCode": "2502",
+    "groupName": "婴儿纺织用品",
+    "classCode": "25"
+  },
+  {
+    "groupCode": "2503",
+    "groupName": "特种运动服装",
+    "classCode": "25"
+  },
+  {
+    "groupCode": "2504",
+    "groupName": "不透水服装",
+    "classCode": "25"
+  },
+  {
+    "groupCode": "2505",
+    "groupName": "戏装",
+    "classCode": "25"
+  },
+  {
+    "groupCode": "2507",
+    "groupName": "鞋",
+    "classCode": "25"
+  },
+  {
+    "groupCode": "2508",
+    "groupName": "帽",
+    "classCode": "25"
+  },
+  {
+    "groupCode": "2509",
+    "groupName": "袜",
+    "classCode": "25"
+  },
+  {
+    "groupCode": "2510",
+    "groupName": "手套（不包括特种手套）",
+    "classCode": "25"
+  },
+  {
+    "groupCode": "2511",
+    "groupName": "领带，围巾，披巾，面纱",
+    "classCode": "25"
+  },
+  {
+    "groupCode": "2512",
+    "groupName": "腰带，服装带",
+    "classCode": "25"
+  },
+  {
+    "groupCode": "2513",
+    "groupName": "单一商品",
+    "classCode": "25"
+  }
+]

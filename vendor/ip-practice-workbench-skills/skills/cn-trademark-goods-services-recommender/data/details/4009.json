@@ -1,0 +1,44 @@
+{
+  "groupCode": "4009",
+  "groupName": "剥制加工服务",
+  "classCode": "40",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "动物标本剥制",
+          "code": "400055",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "动物屠宰",
+          "code": "400094",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "剥制加工",
+          "code": "400095",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "屠宰",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生猪屠宰",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:36.318Z"
+}

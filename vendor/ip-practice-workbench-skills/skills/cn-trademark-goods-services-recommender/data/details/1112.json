@@ -1,0 +1,43 @@
+{
+  "groupCode": "1112",
+  "groupName": "不属别类的打火器具",
+  "classCode": "11",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "点煤气用摩擦点火器",
+          "code": "110018",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "气体引燃器",
+          "code": "110019",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "点燃本生灯用摩擦打火机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "焦炉煤气点火器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "燃气灶用脉冲点火器",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:56.196Z"
+}

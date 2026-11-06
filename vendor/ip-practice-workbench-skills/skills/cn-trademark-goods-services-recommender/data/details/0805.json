@@ -1,0 +1,41 @@
+{
+  "groupCode": "0805",
+  "groupName": "渔业用手工具",
+  "classCode": "08",
+  "notes": [
+    "注：跨类似群保护商品：手动的手工具（0801，0802，0803，0804，0805，0806，0807，0808，0809，0810）。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "手动的手工具",
+          "code": "080072",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鱼叉*",
+          "code": "080140",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "剥牡蛎器",
+          "code": "080143",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "捕鱼鱼叉",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:23.877Z"
+}

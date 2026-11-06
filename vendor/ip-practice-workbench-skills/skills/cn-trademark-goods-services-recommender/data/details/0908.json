@@ -1,0 +1,1547 @@
+{
+  "groupCode": "0908",
+  "groupName": "音像设备",
+  "classCode": "09",
+  "notes": [
+    "注：1.CD盘（音像），光盘（音像）与0901光盘，CD盘（只读存储器），光学数据介质以及第九版及以前版本0901密纹光盘（可读存储器），光学数据媒介交叉检索；",
+    "2.唱片，录音带，录像带，CD盘（音像），盒式录像带，光盘（音像）与0901电子出版物（可下载），可下载的手机铃音，可下载的音乐文件，可下载的影像文件，手机用可下载图像，可下载的视频文件类似；",
+    "3.学习机，电子教学学习机，带有图书的电子发声装置与1606带有电子发声装置的儿童图书类似。",
+    "4.辅助人类和供人娱乐用具有交流和学习功能的拟人机器人与第十一版及以前版本0901 具有人工智能的人形机器人交叉检索"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "声导管",
+          "code": "090015",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "唱片",
+          "code": "090016",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "投币式自动点唱机",
+          "code": "090062",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "磁带消磁装置",
+          "code": "090076",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "录音机",
+          "code": "090077",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "磁带",
+          "code": "090078",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "扬声器音箱",
+          "code": "090087",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "唱机的拾音器支臂",
+          "code": "090095",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "录音载体",
+          "code": "090111",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非医用监控装置",
+          "code": "090151",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "振动膜（音响）",
+          "code": "090182",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "扬声器",
+          "code": "090190",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电唱机",
+          "code": "090192",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "唱片清洁装置",
+          "code": "090230",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "录音带",
+          "code": "090231",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "音频视频接收器",
+          "code": "090289",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电视机用投币启动机械装置",
+          "code": "090340",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "扩音器",
+          "code": "090341",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "麦克风",
+          "code": "090351",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "声音传送装置",
+          "code": "090450",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "录音装置",
+          "code": "090451",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "声音复制装置",
+          "code": "090452",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "唱机针",
+          "code": "090462",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "唱机用唱针",
+          "code": "090462",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电视机",
+          "code": "090468",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "讲词提示器",
+          "code": "090472",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电唱机速度调节器",
+          "code": "090486",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "录像带",
+          "code": "090495",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电唱机磁针更换器",
+          "code": "090503",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "磁头清洗带",
+          "code": "090535",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "录像机",
+          "code": "090536",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "扬声器喇叭",
+          "code": "090575",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "CD盘（音像）",
+          "code": "090587",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "声耦合器",
+          "code": "090593",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "计算机用自动电唱机",
+          "code": "090604",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "摄像机",
+          "code": "090630",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "盒式磁带播放机",
+          "code": "090631",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "CD播放机",
+          "code": "090632",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "盒式录像带",
+          "code": "090650",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "便携式收录机",
+          "code": "090663",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "头戴式耳机",
+          "code": "090671",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "DVD播放机",
+          "code": "090685",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "便携式媒体播放器",
+          "code": "090702",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "数码相框",
+          "code": "090711",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电子图书阅读器",
+          "code": "090718",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "婴儿监控器",
+          "code": "090721",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "可视婴儿监控器",
+          "code": "090722",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "乐器用电动和电子效果器",
+          "code": "090768",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "音频接口",
+          "code": "090769",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "均衡器（音频装置）",
+          "code": "090770",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "低音喇叭",
+          "code": "090771",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "头戴式虚拟现实装置",
+          "code": "090776",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "混音器",
+          "code": "090779",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "安全监控机器人",
+          "code": "090789",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具用后视摄像头",
+          "code": "090796",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "穿戴式视频显示器",
+          "code": "090807",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "哇音踏板",
+          "code": "090811",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "耳机用耳垫",
+          "code": "090818",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "远距离交流用耳机",
+          "code": "090835",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具用平视显示装置",
+          "code": "090848",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "智能音箱",
+          "code": "090849",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "穿戴式扬声器",
+          "code": "090852",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "薄膜式扬声器",
+          "code": "090857",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "带扬声器的无线麦克风",
+          "code": "090858",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "头戴式耳麦",
+          "code": "090868",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "视频游戏用头戴式耳麦",
+          "code": "090869",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "作为音频接口的乐器数字接口控制器",
+          "code": "090878",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "便携式音箱",
+          "code": "090889",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "吉他效果器踏板",
+          "code": "090893",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "辅助人类和供人娱乐用具有交流和学习功能的拟人机器人",
+          "code": "090908",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "视频混合器",
+          "code": "090915",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "虚拟现实控制器",
+          "code": "090930",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "音乐序列器设备",
+          "code": "090940",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "行车记录仪",
+          "code": "090944",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "虚拟镜子（交互式电子显示屏）",
+          "code": "090961",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电视摄像机",
+          "code": "C090033",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "自动广告机",
+          "code": "C090034",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "延时混响器",
+          "code": "C090035",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "耳机",
+          "code": "C090037",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "拾音器",
+          "code": "C090038",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "光盘（音像）",
+          "code": "C090039",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "半导体收音机",
+          "code": "C090124",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "学习机",
+          "code": "C090128",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "电子教学学习机",
+          "code": "C090129",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "带有图书的电子发声装置",
+          "code": "C090130",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "机顶盒",
+          "code": "C090144",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "磁带录音机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "磁带录音机用空白磁带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "磁带抹音器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "磁带清洁器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "磁头清洗装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "CD播放器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "DVD盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "DVD录制机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "MP3播放器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "MP4播放器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "闭路电视摄像机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "便携式多媒体播放器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "便携式盒式录像摄像机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "便携式收音机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "超高清电视机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "车载磁带播放器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "车载电视",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "车载录像机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "智能手机用无线耳机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "重低音音箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "扬声器箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "液晶电视",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "移动电话用耳机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "音乐CD盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "音乐磁带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "音乐耳机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "音频切换器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "音频扬声器外壳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "影碟播放机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有线电视接收器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "与计算机连用的头戴耳机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "与语音传输设备连用的个人耳机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "语音传输设备用个人头戴耳机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "预先录制好的音乐DVD盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "预先录制好的音乐录像带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "预先录制好的音乐视频磁带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "预先录制好的音乐音频磁带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无线电设备用布制滤音器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手提式扩音器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数字多媒体广播电视机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数字声音处理器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "图像增强器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "网络摄像机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "配音设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "配有集成放大器的混音器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车音响设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "声耦合装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "声音传送装置用话筒挑杆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "声音和图像载体用播放装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "声音和图像载体用录制装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "声音信息的无线传送装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "视盘播放机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "视频监控器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "视频录制播放器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "视频信号接收机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "收音机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卡拉OK机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "空白盒式录像带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "空白盒式录音磁带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "空白录像带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "空白录音磁带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "立体声调谐器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "留声机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "留声机唱片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "录像机用磁头清洗带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "录音带播放机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "录有动画片的录像带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "录有动画片的视频光盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "密纹唱片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抹音磁头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "监视和检查核电站设备用摄像机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "盒式磁带录像机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "盒式磁带录音机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "盒式录音机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "环绕扬声器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "混音控制台",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "活页式CD包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "吉他扩音器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高清电视机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "个人录像机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用内窥镜摄像头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "光盘播放器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子书阅读器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子音频设备减振器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "分析高尔夫挥杆用摄像机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "带内置放大器的扬声器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "带有时钟的收音机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "等离子电视",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "等离子显示屏电视",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电话耳机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电话用耳机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电及电子视频监控设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电视接收器（电视机）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电视解码器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电视显示器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "磁带录像机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "CD录制机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "便携式声音复制设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "固态硬盘录像机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "均衡器（音频设备）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车音频扬声器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "条形音箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卫星电视接收设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无线宽频收音机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "音频传送器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "与计算机连用的CD播放器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "扬声器用信号处理器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "头戴式视频显示器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无线扬声器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "虚拟现实游戏用耳机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "耳机插孔防尘塞",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "入耳式耳机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "空白的音频光盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "降噪耳机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "双路立体声录音麦克风",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "预录制的运动锻炼DVD盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "户外监控摄像机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自动电唱机（音乐）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "投币启动的音乐装置（自动电唱机）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "便携式音频播放器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数码录音器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通信设备用拾音器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通信设备用麦克风",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "远程通信设备用麦克风",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "吉他和贝斯用电子拾音器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "话筒挑杆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "吉他音效处理器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "麦克风支架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "芯片式录音机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "虚拟现实眼镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "视频游戏用头戴式虚拟现实装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手机用头戴式耳麦",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电视机解码器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "内置盒式录像机的便携式摄像机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "MP3播放器专用表面保护膜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "MP3播放器专用屏幕保护膜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "便携式媒体播放机专用屏幕保护膜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "便携式摄像机的防水罩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "骨传导耳机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "已录制的数字视频光盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "已录制的音频光盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数码摄像头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "已录制视频光盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "磁带录放机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "网络摄像头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机顶盒（数字信号接收器）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "闭路电视摄像机用镜头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "声音接收装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蓝牙耳机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "乐器拾音器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "音响设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无线蓝牙耳机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "预先录制的视频光盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "视频处理器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电视电脑一体机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手机用无线耳机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机用扬声器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机用音频扬声器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "音频视频转换器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "音频数字转换器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "摄像机用镜头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电话用头戴耳机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电话用头戴式耳机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "个人电脑用摄像头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车扬声器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "音乐唱片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "音乐光盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自动电唱机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "放映用电视机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电视接收器（电视成套器具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "掌上型电视",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手机摄像头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子监控装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "视频混音台",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "个人语音传输耳机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车用盲区摄像头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "移动电话用头戴式耳机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "便携式摄像机用防水罩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数码录像机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "头戴耳机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "低音扬声器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "便携式媒体播放器保护套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "壁挂式无线音箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数字音频播放器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "便携式媒体播放器用保护套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "便携式共振音箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数码摄像机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "头戴式无线耳机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "智能电视机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无线电收音机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "音频接收器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "音频扬声器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "预录制的健身DVD盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "立体声耳机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "虚拟现实设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "便携式DVD播放机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "DVD盘刻录机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子图书阅读器用套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "虚拟现实头戴耳机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "辅助人类和供人娱乐用具有交流和学习功能的类人机器人",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "太阳能收音机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "耳机盒",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:33.491Z"
+}

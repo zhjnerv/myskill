@@ -1,0 +1,116 @@
+{
+  "groupCode": "4004",
+  "groupName": "木材加工服务",
+  "classCode": "40",
+  "notes": [
+    "注：本类似群与4001打磨，层压，材料刨削处理，材料锯切服务类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "木器制作",
+          "code": "400009",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "木材砍伐和加工",
+          "code": "400067",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "细木工服务（定制生产木制品）",
+          "code": "400137",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "伐木机器和设备出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "胶合板制造机器和设备出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木材加工机器和设备出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贴面板机器和设备出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "藤加工",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木材切削服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "树皮加工",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "竹子加工",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制贴面板用机器和设备出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "锯木刨削",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "刨平（锯木厂）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "锯木（锯木厂）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家具的定制制造",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "锯木厂服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木材阻燃处理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木材防腐处理",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:33.281Z"
+}

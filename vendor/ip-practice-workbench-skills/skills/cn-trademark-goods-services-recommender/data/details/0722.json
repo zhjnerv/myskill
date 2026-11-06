@@ -1,0 +1,27 @@
+{
+  "groupCode": "0722",
+  "groupName": "民用煤加工机械",
+  "classCode": "07",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "蜂窝煤机",
+          "code": "C070158",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "煤球机",
+          "code": "C070159",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [],
+  "crawledAt": "2026-06-09T18:57:01.890Z"
+}

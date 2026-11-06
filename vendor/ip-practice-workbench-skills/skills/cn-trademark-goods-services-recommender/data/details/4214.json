@@ -1,0 +1,183 @@
+{
+  "groupCode": "4214",
+  "groupName": "提供测试服务",
+  "classCode": "42",
+  "notes": [
+    "注：材料测试与4209质量检测类似；"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "材料测试",
+          "code": "420058",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纺织品测试",
+          "code": "420109",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "车辆性能检测",
+          "code": "420195",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "新车和二手车的售前检查服务",
+          "code": "420291",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "建筑物的能源性能测试",
+          "code": "420310",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "机器功能测试",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "设备和仪器的功能测试",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "原材料测试",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑用五金件的检测",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "过滤器测试",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "药品检测",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "产品测试",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算设备检测",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化学品检测",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化妆品检测",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电气工程领域的设备检测",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "测试电源用负载箱出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "材料检测咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "消费品安全测试",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "材料检测",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为买卖车辆的人提供新车和二手车的检测服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宝石的材料测试",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "飞机性能测试",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动汽车适航性测试",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动汽车性能检测",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车碰撞测试",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "智能手机摄像头性能检测",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车车轮检测",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "辐照食品检测",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "材料的实验室检测",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "材料检测服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "燃气器具的安全检测",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:48.886Z"
+}

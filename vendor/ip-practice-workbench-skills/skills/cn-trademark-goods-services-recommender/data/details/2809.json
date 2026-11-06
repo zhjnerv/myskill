@@ -1,0 +1,560 @@
+{
+  "groupCode": "2809",
+  "groupName": "运动防护器具及冰鞋",
+  "classCode": "28",
+  "notes": [
+    "注：1.本类似群各部分之间商品不类似；",
+    "2.翼型浮袋，游泳圈，游泳浮力背心与 0919 救生圈，救生衣类似，与第九版及以前版本 0919 游泳救生圈，游泳救生衣交叉检索。",
+    "3.第（一）部分与第十一版及以前版本 2807 第（一）部分游泳用打水板，第九版及以前版本 0919 洗澡或游泳用浮囊，游泳圈交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "（一）",
+      "items": [
+        {
+          "name": "击球手用手套（运动器件）",
+          "code": "280015",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "拳击手套",
+          "code": "280032",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "运动用护胫",
+          "code": "280046",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "护胫（体育用品）",
+          "code": "280046",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "竞技手套",
+          "code": "280072",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "游泳脚蹼",
+          "code": "280093",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "击剑用面罩",
+          "code": "280131",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "击剑用防护手套",
+          "code": "280132",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "击剑手套",
+          "code": "280132",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "棒球手套",
+          "code": "280141",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "护肘（体育用品）",
+          "code": "280143",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "护膝（体育用品）",
+          "code": "280144",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "运动用护膝",
+          "code": "280144",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "保护垫（运动服部件）",
+          "code": "280147",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "高尔夫球手套",
+          "code": "280153",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "举重用皮带（体育用品）",
+          "code": "280176",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "运动员用松香",
+          "code": "280186",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "下体弹力护身（体育用品）",
+          "code": "280196",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "翼型浮袋",
+          "code": "280211",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "游泳浮带",
+          "code": "280212",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "游泳浮力背心",
+          "code": "280213",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "游泳用打水板",
+          "code": "280205",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "潜水用脚蹼",
+          "code": "280247",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "游泳手蹼",
+          "code": "280248",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "男性运动护裆",
+          "code": "280258",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "运动用腹部护具",
+          "code": "280284",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "运动用护腰",
+          "code": "C280085",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "运动用护掌",
+          "code": "C280086",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "运动用护腿",
+          "code": "C280087",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "运动用护臂",
+          "code": "C280088",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "运动用护肚",
+          "code": "C280089",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "运动腰带",
+          "code": "C280090",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "运动用护面",
+          "code": "C280091",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "运动用护胸",
+          "code": "C280092",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "运动用护腕",
+          "code": "C280094",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "游泳圈",
+          "code": "C280103",
+          "type": "marked",
+          "section": "（一）"
+        }
+      ]
+    },
+    {
+      "label": "（二）",
+      "items": [
+        {
+          "name": "旱冰鞋",
+          "code": "280098",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "（冰刀）冰鞋",
+          "code": "280099",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "轮滑鞋",
+          "code": "280182",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "雪鞋",
+          "code": "280187",
+          "type": "standard",
+          "section": "（二）"
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "保龄球手套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冰鞋冰刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "橄榄球手套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "肩膀和手肘用保护支具（体育用品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "接球手面罩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "剑道用胸甲",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运动用胫垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "溜冰运动用护肘垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "跆拳道手套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "足球运动用护腿板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "剑道用面具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "射箭用护指皮套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "充气式游泳浮囊",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "空手道用护腿板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "滑板运动用护臂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "击剑用手套（防护）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "击球手用手套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "棒球护胸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "滑板运动用护腕",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "滑板运动用护膝",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "滑板运动用护肘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "射箭用手套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "游泳板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "游泳用浮板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "曲棍球护胸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "跆拳道腹部保护物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "脚蹼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "盔甲防护手套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "长曲棍球用手套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运动用缠手带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水肺潜水用脚蹼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于体育活动中改善手部握力的防滑粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "棒球护臂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "美式橄榄球用护肘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "美式橄榄球用护膝",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "美式橄榄球用手套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "美式橄榄球用护胸垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "美式橄榄球用身体护具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "举重手套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "滑水手套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "垒球手套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运动用脚背护具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "游泳用臂浮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "娱乐用浮板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "台球专用手套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "帆板运动手套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冰刀保护套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手球手套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冰球守门员用保护垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "游泳用浮囊",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "（四轮）旱冰鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "滚轴溜冰鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "浮水板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "连冰刀的溜冰鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "篮球运动用护指",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "举重腕带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冰球护脖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "草地曲棍球手套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "男性下体弹力护身（体育用品）",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:28.540Z"
+}

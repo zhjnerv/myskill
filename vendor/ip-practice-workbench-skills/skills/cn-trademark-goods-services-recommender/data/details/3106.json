@@ -1,0 +1,738 @@
+{
+  "groupCode": "3106",
+  "groupName": "新鲜蔬菜",
+  "classCode": "31",
+  "notes": [
+    "注：1.大黄（新鲜蔬菜）与第十版及以前版本3103大黄交叉检索。",
+    "2.人或动物食用的未加工藻类与第十版及以前版本3108人或动物食用海藻交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "人或动物食用的未加工海藻",
+          "code": "310003",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "新鲜甜菜",
+          "code": "310015",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "新鲜角豆（带荚）",
+          "code": "310022",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "新鲜蘑菇",
+          "code": "310024",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "菊苣根",
+          "code": "310029",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "新鲜菊苣",
+          "code": "310030",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "新鲜黄瓜",
+          "code": "310037",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "新鲜蔬菜",
+          "code": "310042",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "新鲜南瓜",
+          "code": "310043",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鲜豆（带荚）",
+          "code": "310054",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "新鲜莴苣",
+          "code": "310075",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "新鲜小扁豆（带荚）",
+          "code": "310076",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "新鲜洋葱",
+          "code": "310092",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "新鲜韭葱",
+          "code": "310108",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "新鲜豌豆（带荚）",
+          "code": "310109",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "新鲜土豆",
+          "code": "310110",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "大黄（新鲜蔬菜）",
+          "code": "310116",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "新鲜块菌",
+          "code": "310121",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "新鲜菠菜",
+          "code": "310149",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "新鲜洋蓟",
+          "code": "310153",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "新鲜蒜",
+          "code": "310158",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "新鲜西葫芦",
+          "code": "310159",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食用鲜花",
+          "code": "310170",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "新鲜姜",
+          "code": "310171",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "新鲜黄豆（带荚）",
+          "code": "310172",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鲜食用菌",
+          "code": "C310020",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "新鲜青蒜",
+          "code": "C310025",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "食用新鲜芦荟",
+          "code": "C310026",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "食用新鲜仙人掌",
+          "code": "C310027",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "新鲜球芽甘蓝",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜秋葵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜蕨菜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜韭菜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜胡萝卜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜甘薯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜豆荚",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜圣女果",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工的番茄",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜松露",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜西红柿",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜细叶芹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜小白菜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人食用的未加工海藻",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "动物食用海藻",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜四季豆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜芝麻菜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜细香葱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜山葵根",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜青葱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜的鹰嘴豆（带荚）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜的可食用根茎",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜蚕豆（带荚）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜白胡萝卜（秘鲁胡萝卜）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜薄荷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜卷心菜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜芦笋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜茄子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜山药",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鲜香菇",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜大蒜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜豆芽",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜桔梗根",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜竹笋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工的蔬菜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工褐藻（海藻）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工海带（海藻）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工海白菜（海藻）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工海藻（裙带菜）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工的螺旋藻",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工的火葱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜辣椒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜生姜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜柿子椒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工的甜菜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜紫苏叶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜厨用香草",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜甘蓝",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜花椒叶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜山葵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜香芹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工的西洋葵菜根",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工紫菜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "毛豆（新鲜连荚大豆）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工蘑菇",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工土豆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工的姜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜胡椒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜蒜薹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜竹荪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜的欧防根",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜红葱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜银耳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜牛蒡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜荸荠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜薯蓣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鲜平菇",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用鲜黑木耳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜百合（可食用鳞茎）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜芥菜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜玉米笋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜海带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜红薯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜地瓜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜莲藕",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜白菜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜大白菜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜藕带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人或动物食用的未加工藻类",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "芫根（新鲜蔬菜）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜甜薯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜扁豆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "青蒜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用芦荟",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "洋葱（新鲜蔬菜）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用仙人掌",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜角豆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜地瓜叶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "荸荠（新鲜的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜芡实",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜辣根",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜黄花菜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用新鲜茼蒿",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜地环（蔬菜）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用鲜百合",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜食用茼蒿",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜杏鲍菇",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜的食用绣球菌",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜的西洋菜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜姬菇",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用鲜银耳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用新鲜马齿苋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜猴头菇",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜芹菜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜生菜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜萝卜芽",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜油麦菜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜芋头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜粉葛",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:53.133Z"
+}

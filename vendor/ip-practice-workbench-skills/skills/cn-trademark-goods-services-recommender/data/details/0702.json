@@ -1,0 +1,261 @@
+{
+  "groupCode": "0702",
+  "groupName": "渔牧业用机械及器具",
+  "classCode": "07",
+  "notes": [
+    "注：1.本类似群各部分之间商品不类似；",
+    "2.跨类似群保护商品：粉碎机（0702第（二）部分，0725，0733，0752）；工业用切碎机（机器）（0702第（二）部分，0709，0752）；",
+    "3.本类似群第（二）部分与第八版及以前版本的0753粉碎机，粉碎机（机器），工业用切碎机（机器）交叉检索；",
+    "4.第（六）部分根据商品的功能、用途确定类似商品。"
+  ],
+  "sections": [
+    {
+      "label": "（一）",
+      "items": [
+        {
+          "name": "水族池通气泵",
+          "code": "070005",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "收网机（捕鱼具）",
+          "code": "070478",
+          "type": "standard",
+          "section": "（一）"
+        }
+      ]
+    },
+    {
+      "label": "（二）",
+      "items": [
+        {
+          "name": "粉碎机",
+          "code": "070153",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "轧饲料机",
+          "code": "070195",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "工业用切碎机（机器）",
+          "code": "070419",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "机械化牲畜喂食器",
+          "code": "070517",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "饲料粉碎机",
+          "code": "C070006",
+          "type": "marked",
+          "section": "（二）"
+        },
+        {
+          "name": "青饲料切割机",
+          "code": "C070007",
+          "type": "marked",
+          "section": "（二）"
+        },
+        {
+          "name": "块根切碎机",
+          "code": "C070008",
+          "type": "marked",
+          "section": "（二）"
+        },
+        {
+          "name": "饲料蒸煮器（饲料加工机械部件）",
+          "code": "C070009",
+          "type": "marked",
+          "section": "（二）"
+        }
+      ]
+    },
+    {
+      "label": "（三）",
+      "items": [
+        {
+          "name": "挤奶机",
+          "code": "070367",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "挤奶机用吸杯",
+          "code": "070368",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "孵化器",
+          "code": "070442",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "蜜蜂巢础机",
+          "code": "C070010",
+          "type": "marked",
+          "section": "（三）"
+        },
+        {
+          "name": "蛋鸡笼养设备",
+          "code": "C070011",
+          "type": "marked",
+          "section": "（三）"
+        },
+        {
+          "name": "摇蜜机",
+          "code": "C070012",
+          "type": "marked",
+          "section": "（三）"
+        }
+      ]
+    },
+    {
+      "label": "（四）",
+      "items": [
+        {
+          "name": "动物剪毛机",
+          "code": "070431",
+          "type": "standard",
+          "section": "（四）"
+        }
+      ]
+    },
+    {
+      "label": "（五）",
+      "items": [
+        {
+          "name": "盐池压平机",
+          "code": "C070441",
+          "type": "standard",
+          "section": "（五）"
+        },
+        {
+          "name": "起盐机",
+          "code": "C070442",
+          "type": "standard",
+          "section": "（五）"
+        }
+      ]
+    },
+    {
+      "label": "（六）",
+      "items": [
+        {
+          "name": "遛马机",
+          "code": "C070458",
+          "type": "standard",
+          "section": "（六）"
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "电动剪毛机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "草料切割机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "草料混合机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水族池用泵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "动物用电喂食机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "养蚕机器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "粗茎粉碎机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "雏鸡孵化器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "孵蛋器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "桑叶切碎机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "孵卵器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水族池用造浪泵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "挤奶机用奶头杯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "切碎机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "渔用增氧机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "渔业养殖用增氧机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鱼塘增氧机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "投饵机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "饲料压碎机（饲料磨碎机）",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:49.849Z"
+}

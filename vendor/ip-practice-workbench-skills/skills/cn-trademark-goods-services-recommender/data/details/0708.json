@@ -1,0 +1,74 @@
+{
+  "groupCode": "0708",
+  "groupName": "制茶工业用机械",
+  "classCode": "07",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "制茶机械",
+          "code": "C070089",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "揉捻机（制茶工业用）",
+          "code": "C070090",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "萎凋机（制茶工业用）",
+          "code": "C070091",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "杀青机（制茶工业用）",
+          "code": "C070092",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "烘干机（制茶工业用）",
+          "code": "C070093",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "斜锅机（制茶工业用）",
+          "code": "C070094",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "解块机（制茶工业用）",
+          "code": "C070095",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "压茶砖机",
+          "code": "C070096",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "茶叶拣选机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制茶机",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:53.407Z"
+}

@@ -1,0 +1,49 @@
+{
+  "groupCode": "3712",
+  "groupName": "保险装置的维修",
+  "classCode": "37",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "保险库的保养和修理",
+          "code": "370018",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "保险柜的保养和修理",
+          "code": "370027",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "修保险锁",
+          "code": "370125",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "保险柜的保养或修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "修锁服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "锁的安装、更换和修理",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:19.263Z"
+}

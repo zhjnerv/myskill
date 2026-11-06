@@ -1,0 +1,84 @@
+{
+  "groupCode": "2810",
+  "groupName": "圣诞树用的装饰品",
+  "classCode": "28",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "合成材料制圣诞树",
+          "code": "280006",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "拉炮（聚会助兴道具）",
+          "code": "280027",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "圣诞树用烛台",
+          "code": "280029",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "圣诞树用小铃",
+          "code": "280039",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "装饰用人造雪",
+          "code": "280096",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "圣诞树用人造雪",
+          "code": "280096",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "圣诞树用装饰品（灯、蜡烛和糖果除外）",
+          "code": "280119",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "圣诞树架",
+          "code": "280120",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "人造圣诞树",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "圣诞树裙",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "装饰圣诞树用闪亮金属片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "圣诞树用装饰品（照明用物品和糖果除外）",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:29.101Z"
+}

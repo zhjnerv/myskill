@@ -1,0 +1,104 @@
+{
+  "groupCode": "2115",
+  "groupName": "家用灭虫、灭鼠用具",
+  "classCode": "21",
+  "notes": [
+    "注：本类似群与第九版及以前版本 0924 诱杀昆虫用电力装置交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "蝇拍",
+          "code": "210069",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "捕虫器",
+          "code": "210150",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "捕鼠机",
+          "code": "210198",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "捕鼠器",
+          "code": "210216",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "诱杀昆虫用电力装置",
+          "code": "210345",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "捕蝇器",
+          "code": "210351",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "驱蚊剂用插电式扩散器",
+          "code": "210368",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "超声波驱虫器",
+          "code": "210422",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "昆虫采集笼",
+          "code": "210439",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "昆虫收集盒",
+          "code": "210440",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "除蚊器",
+          "code": "C210052",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "超声波驱蚊器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "灭蚊灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水族池用涡虫捕捉器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电苍蝇拍",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:55.835Z"
+}

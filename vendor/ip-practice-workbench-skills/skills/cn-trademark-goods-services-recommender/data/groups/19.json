@@ -1,0 +1,77 @@
+[
+  {
+    "groupCode": "1901",
+    "groupName": "木材",
+    "classCode": "19"
+  },
+  {
+    "groupCode": "1902",
+    "groupName": "土，沙，石，石料，灰泥，炉渣等建筑用料",
+    "classCode": "19"
+  },
+  {
+    "groupCode": "1903",
+    "groupName": "石膏",
+    "classCode": "19"
+  },
+  {
+    "groupCode": "1904",
+    "groupName": "水泥",
+    "classCode": "19"
+  },
+  {
+    "groupCode": "1905",
+    "groupName": "水泥预制构件",
+    "classCode": "19"
+  },
+  {
+    "groupCode": "1906",
+    "groupName": "建筑砖瓦",
+    "classCode": "19"
+  },
+  {
+    "groupCode": "1907",
+    "groupName": "非金属耐火材料及制品",
+    "classCode": "19"
+  },
+  {
+    "groupCode": "1908",
+    "groupName": "柏油，沥青及制品",
+    "classCode": "19"
+  },
+  {
+    "groupCode": "1909",
+    "groupName": "非金属建筑材料及构件（不包括水泥预制构件）",
+    "classCode": "19"
+  },
+  {
+    "groupCode": "1910",
+    "groupName": "非金属建筑物",
+    "classCode": "19"
+  },
+  {
+    "groupCode": "1911",
+    "groupName": "建筑用玻璃及玻璃材料",
+    "classCode": "19"
+  },
+  {
+    "groupCode": "1912",
+    "groupName": "建筑用涂层",
+    "classCode": "19"
+  },
+  {
+    "groupCode": "1913",
+    "groupName": "建筑用粘合料",
+    "classCode": "19"
+  },
+  {
+    "groupCode": "1914",
+    "groupName": "石、混凝土、大理石雕塑品",
+    "classCode": "19"
+  },
+  {
+    "groupCode": "1915",
+    "groupName": "棺椁墓碑",
+    "classCode": "19"
+  }
+]

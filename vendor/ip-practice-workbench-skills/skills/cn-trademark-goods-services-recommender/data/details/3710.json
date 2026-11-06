@@ -1,0 +1,58 @@
+{
+  "groupCode": "3710",
+  "groupName": "影视器材维修",
+  "classCode": "37",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "照相器材修理",
+          "code": "370002",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电影放映机的修理和维护",
+          "code": "370046",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "电影放映机的修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "照相机修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "摄影机器和设备的修理或维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "修理照相机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电影摄影机修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "照相机清洁",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:17.990Z"
+}

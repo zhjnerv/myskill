@@ -1,0 +1,78 @@
+{
+  "groupCode": "1303",
+  "groupName": "烟火，爆竹",
+  "classCode": "13",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "焰火",
+          "code": "130013",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "信号烟火",
+          "code": "130017",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烟火产品",
+          "code": "130054",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "爆炸性烟雾信号",
+          "code": "130064",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鞭炮",
+          "code": "130072",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "爆竹",
+          "code": "C130005",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "烟花",
+          "code": "C130006",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "烽火信号",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "发光的爆炸性烟雾信号",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烟幕弹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烟雾信号",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:05.078Z"
+}

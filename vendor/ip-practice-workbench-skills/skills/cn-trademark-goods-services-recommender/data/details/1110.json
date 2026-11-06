@@ -1,0 +1,436 @@
+{
+  "groupCode": "1110",
+  "groupName": "消毒和净化设备",
+  "classCode": "11",
+  "notes": [
+    "注：1.饮水机与1104 电热水壶，电热水瓶，电开水器类似，与第十版及以前版本1104 电热壶交叉检索；",
+    "2.跨类似群保护商品：空气或水处理用电离设备（1106 第（一）部分，1110 第（一）部分）。",
+    "3.消毒用臭氧发生器与第十一版及以前版本0910 第（三）部分臭氧发生器交叉检索。",
+    "（二）注：原第（二）部分便携式一次性消毒小袋第十一版时删除。",
+    "注：本类似群原各部分之间商品不类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "消毒设备",
+          "code": "110115",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "海水淡化装置",
+          "code": "110116",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "水净化装置",
+          "code": "110123",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "水过滤器",
+          "code": "110124",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "水消毒器",
+          "code": "110128",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "污水净化设备",
+          "code": "110135",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "饮用水过滤器",
+          "code": "110147",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "空气或水处理用电离设备",
+          "code": "110174",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "巴氏灭菌器",
+          "code": "110178",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "水净化设备和机器",
+          "code": "110206",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "消毒器",
+          "code": "110226",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "水软化设备和装置",
+          "code": "110243",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非个人用除臭装置",
+          "code": "110275",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "油净化器",
+          "code": "110277",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "水族池过滤设备",
+          "code": "110307",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "游泳池用氯化装置",
+          "code": "110318",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "书籍消毒装置",
+          "code": "110339",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用消毒设备",
+          "code": "110342",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "将溶液分配到卫生设施水管的消毒装置",
+          "code": "110377",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "反渗透装置用膜",
+          "code": "110378",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "水处理设备用膜过滤装置",
+          "code": "110379",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "水过滤装置用过滤器",
+          "code": "110380",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "水处理用反渗透膜过滤器",
+          "code": "110381",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "反渗透装置",
+          "code": "110385",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "处理废水用生物反应器",
+          "code": "110390",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "处理废物用生物反应器",
+          "code": "110397",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "水过滤设备用膜",
+          "code": "110401",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "消毒用臭氧发生器",
+          "code": "110404",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医疗器械用消毒器",
+          "code": "110405",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "矿泉壶",
+          "code": "C110028",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "磁水器",
+          "code": "C110029",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "污水处理设备",
+          "code": "C110030",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "消毒碗柜",
+          "code": "C110031",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "饮水机",
+          "code": "C110032",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "水净化设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牛奶消毒器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "饮用水过滤设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用超声波消毒器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用鞋子消毒器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水处理用氯化装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "雨水净化装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙刷消毒器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸币消毒机器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸币消毒设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用电解水机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用盘消毒装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用水净化装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用水净化器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用电净水器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用水龙头过滤器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "污水净化装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "废水处理箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自来水净化设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水净化机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用电动洗澡水净化装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水净化器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电热奶瓶消毒锅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "奶瓶用电消毒器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家庭卫生间用紫外线消毒器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水处理过滤器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "滤水器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水淡化装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "臭氧消毒机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "喷雾消毒机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用粉扑紫外线消毒器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水净化罐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具轮胎消毒设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具轮子消毒设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "污水处置设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用消毒器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水处理用紫外线消毒器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用离子水机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "海水淡化设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水过滤装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "喷雾器（消毒设备）110418",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "空气处理电离设备",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:54.839Z"
+}

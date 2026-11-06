@@ -1,0 +1,110 @@
+{
+  "groupCode": "4502",
+  "groupName": "提供人员服务",
+  "classCode": "45",
+  "notes": [
+    "注：本类似群与第七版及以前版本4221中除日间托儿所（看孩子）外的其它服务交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "社交陪伴",
+          "code": "450002",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "社交护送（陪伴）",
+          "code": "450002",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "临时照看婴孩",
+          "code": "450195",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "临时看管房子",
+          "code": "450197",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "临时照料宠物",
+          "code": "450198",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "遛狗服务",
+          "code": "450232",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "为他人提供个人购物服务",
+          "code": "450254",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "代客排队服务",
+          "code": "450259",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "产妇陪护服务",
+          "code": "450261",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "为个人提供非医疗性的居家护理服务",
+          "code": "450265",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "为他人整理个人物品",
+          "code": "450279",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "家务服务",
+          "code": "C450001",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "临时照看婴孩服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "保姆服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "（儿童的）保姆服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宠物单日照料",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:59.859Z"
+}

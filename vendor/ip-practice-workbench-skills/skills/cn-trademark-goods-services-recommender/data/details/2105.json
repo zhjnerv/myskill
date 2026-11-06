@@ -1,0 +1,573 @@
+{
+  "groupCode": "2105",
+  "groupName": "茶具、酒具、咖啡具及饮水用具",
+  "classCode": "21",
+  "notes": [
+    "注：1.本类似群与 2101 第一自然段，2102玻璃碗，玻璃杯（容器），彩色玻璃器皿，日用玻璃器皿（包括杯、盘、壶、缸），2103商品交叉检索；",
+    "2.本类似群与第八版及以前版本 1402 功能、用途属于 2105 类似群的贵金属制品交叉检索，例如贵重金属茶叶罐，贵重金属酒具（托盘），贵重金属茶托等；",
+    "3.本类似群与第十版及以前版本 2106 旅行饮水瓶，第九版及以前版本 2008 饮用麦秆吸管，饮用麦管交叉检索；",
+    "4.运动用饮水瓶与第十版及以前版本 2106 葫芦瓶交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "啤酒杯",
+          "code": "210032",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "饮用器皿",
+          "code": "210034",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "茶叶罐",
+          "code": "210038",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "酒具（托盘）",
+          "code": "210058",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "细颈圆酒瓶",
+          "code": "210063",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "角形饮水器",
+          "code": "210086",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "碳酸水用虹吸瓶",
+          "code": "210118",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "加气水用虹吸瓶",
+          "code": "210118",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运动用饮水瓶",
+          "code": "210144",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "酒具",
+          "code": "210155",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "品酒用吸量管",
+          "code": "210178",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "品酒用虹吸管",
+          "code": "210178",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "茶具（餐具）",
+          "code": "210209",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "茶托",
+          "code": "210212",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "茶壶",
+          "code": "210222",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "有柄大杯",
+          "code": "210232",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "滤茶球",
+          "code": "210248",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "茶叶浸泡器",
+          "code": "210248",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "手动磨咖啡器",
+          "code": "210254",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "咖啡具（餐具）",
+          "code": "210255",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非电咖啡过滤器",
+          "code": "210256",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非电咖啡渗滤壶",
+          "code": "210257",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非电咖啡壶",
+          "code": "210287",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "滤茶器",
+          "code": "210288",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "单柄大酒杯",
+          "code": "210291",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "饮水玻璃杯",
+          "code": "210319",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "饮用吸管",
+          "code": "210342",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "扁酒壶",
+          "code": "210348",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "葡萄酒醒酒器",
+          "code": "210374",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "茶包托",
+          "code": "210393",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "葡萄酒倒酒器",
+          "code": "210413",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "由水袋和吸管组成的个人用饮水包",
+          "code": "210463",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "旅行用饮水瓶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "玛格丽塔酒杯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "清酒壶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运动用水瓶（空）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "浅口高脚杯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "玻璃啤酒杯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "茶杯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "咖啡杯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "饮用玻璃器皿",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陶瓷咖啡具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "窄口大肚酒杯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "威士忌玻璃杯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "瓷制咖啡具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "煮咖啡用非电咖啡渗滤器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "酒杯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烈酒杯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "茶罐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日式茶壶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "饮水杯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鸡尾酒杯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "由杯和碟组成的小型咖啡具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非纸制咖啡过滤器（非电动咖啡机部件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "双层隔热杯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "啤酒扎壶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "饮料杯用可漂浮杯座",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "饮料杯用充气杯座",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非电俄式茶炊",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "真空保温杯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "白兰地杯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "酒囊",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非电动磨咖啡器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "苏打水用虹吸瓶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "吸液管（品酒用具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非电茶壶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有柄大旅行杯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非贵金属制饮水杯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属制日式茶壶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "清酒杯（非贵金属制）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属制茶托",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非贵金属制茶托",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属制咖啡具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非贵金属制咖啡壶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非贵金属制茶叶浸泡器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非贵金属制茶具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非贵金属有柄大杯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属制大啤酒杯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属制茶叶浸泡器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属制茶壶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属制茶具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非电咖啡压滤壶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "保温杯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "便携式茶叶罐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "红酒盛酒瓶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "饮酒用高脚玻璃杯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "平底大口杯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "玻璃咖啡杯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "耐热玻璃制米酒杯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "玻璃饮料杯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "玻璃制饮用器皿",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "饮料用玻璃杯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非电虹吸式咖啡壶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "调酒棒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "葡萄酒滤酒器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "葡萄酒瓶托架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可生物降解的大米制饮用吸管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有柄瓷杯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "葡萄酒壶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陶土制有柄大杯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "旅行杯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "饮料隔热杯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可重复使用的饮用器皿",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可重复使用的不锈钢饮用吸管",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:50.025Z"
+}
