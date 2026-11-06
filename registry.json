@@ -75,40 +75,17 @@
       "notes": ""
     },
     {
-      "name": "cn-patent-fast-track-screener",
-      "origin": "own",
-      "fork": null,
-      "upstream": null,
-      "branch": null,
+      "name": "ip-practice-workbench-skills",
+      "origin": "vendored",
+      "fork": "https://github.com/zhjnerv/ip-practice-workbench-skills",
+      "upstream": "https://github.com/zhjnerv/ip-practice-workbench-skills",
+      "branch": "main",
       "subpath": null,
-      "vendoredAt": null,
-      "lastSync": null,
-      "lastSyncTree": null,
-      "notes": "Locally authored skill migrated from the patent-work open_skills package; scripts, data, tests and evals are self-contained."
-    },
-    {
-      "name": "cn-office-action-prior-art-collector",
-      "origin": "own",
-      "fork": null,
-      "upstream": null,
-      "branch": null,
-      "subpath": null,
-      "vendoredAt": null,
-      "lastSync": null,
-      "lastSyncTree": null,
-      "notes": "Locally authored skill migrated from the patent-work open_skills package; scripts, references, tests and evals are self-contained."
-    },
-    {
-      "name": "cn-trademark-goods-services-recommender",
-      "origin": "own",
-      "fork": null,
-      "upstream": null,
-      "branch": null,
-      "subpath": null,
-      "vendoredAt": null,
-      "lastSync": null,
-      "lastSyncTree": null,
-      "notes": "Locally authored skill migrated from the patent-work open_skills package; scripts, data, templates, tests and evals are self-contained."
+      "localPrefix": "vendor/ip-practice-workbench-skills",
+      "vendoredAt": "2026-11-06T13:57:52Z",
+      "lastSync": "2026-11-06T13:57:52Z",
+      "lastSyncTree": "c6600b396b542a3726c2d9ec607d0f4406771291",
+      "notes": "Own public package. Develop and release in ip-practice-workbench-skills; myskill syncs the complete package and deploys its three skills. Do not edit the vendored copy as a second source."
     }
   ]
 }

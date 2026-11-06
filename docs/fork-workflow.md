@@ -165,6 +165,8 @@ diff 清晰（你改了哪些文件）、目录结构正确（能直接 merge）
 
 ## 已知坑
 
+**整包内技能的单独部署**：`skill-deploy.ps1 -Name` 按技能技术 ID 选择，先扫描顶层和 `registry.localPrefix` 对应包的 `skills/`，再判定是否存在。同步仍按 registry 包名执行。完整例子见 [知产实务工作台技能包](skills/ip-practice-workbench-skills.md)；部署回归用 `python -B -X utf8 -m unittest scripts.test_skill_deploy`，在临时目录验证真实 Windows junction，`-DryRun` 不创建安装目录。
+
 **上游带 GitHub Actions 时首次追平会被拒**：上游提交只要碰了 `.github/workflows/`，
 推送就要求 OAuth token 带 `workflow` scope，`gh repo sync` 会直接报错。授权一次即可，全局生效：
 

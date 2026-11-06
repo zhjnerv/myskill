@@ -24,6 +24,7 @@
 myskill/
 ├── registry.json          # 每个 skill 的来源与同步状态（唯一元数据来源）
 ├── skills/<name>/         # 一个目录一个 skill，SKILL.md 必需
+├── vendor/<package>/     # 独立开源的整仓技能包
 ├── scripts/               # 引入 / 同步 / 提 PR / 部署
 └── docs/
     ├── usage.md           # 按场景查的操作手册 ← 日常看这个
@@ -31,17 +32,22 @@ myskill/
     └── skills/            # 引入 skill 的本地改动账，规则在该目录 README.md
 ```
 
-## 自研实务技能
+## 知产实务工作台技能包
 
-以下三个技能由已有知识产权业务方法整理而来，各目录包含独立脚本、参考资料、测试和评测用例，必要数据与模板随包保存。核心脚本只需 Python 标准库。
+以下三个技能在独立仓库 `zhjnerv/ip-practice-workbench-skills` 开发、开源发布。本仓库通过 subtree 整包引入到 [vendor/ip-practice-workbench-skills](vendor/ip-practice-workbench-skills/README.md)，统一同步和部署；不再保留顶层 own 副本。管理方法与迁移经验见 [技能包说明](docs/skills/ip-practice-workbench-skills.md)。
 
 | Skill | 用途 | 使用与数据说明 |
 | --- | --- | --- |
-| [cn-patent-fast-track-screener](skills/cn-patent-fast-track-screener/SKILL.md) | 专利预审、优先审查与 IPC 分类范围初筛 | [README](skills/cn-patent-fast-track-screener/README.md) |
-| [cn-office-action-prior-art-collector](skills/cn-office-action-prior-art-collector/SKILL.md) | 审查意见通知书解析、专利号规范化与对比文件收集 | [README](skills/cn-office-action-prior-art-collector/README.md) |
-| [cn-trademark-goods-services-recommender](skills/cn-trademark-goods-services-recommender/SKILL.md) | 商标大类、类似群和商品服务项目推荐，校验后导出申报表 | [README](skills/cn-trademark-goods-services-recommender/README.md) |
+| [cn-patent-fast-track-screener](vendor/ip-practice-workbench-skills/skills/cn-patent-fast-track-screener/SKILL.md) | 专利预审、优先审查与 IPC 分类范围初筛 | [README](vendor/ip-practice-workbench-skills/skills/cn-patent-fast-track-screener/README.md) |
+| [cn-office-action-prior-art-collector](vendor/ip-practice-workbench-skills/skills/cn-office-action-prior-art-collector/SKILL.md) | 审查意见通知书解析、专利号规范化与对比文件收集 | [README](vendor/ip-practice-workbench-skills/skills/cn-office-action-prior-art-collector/README.md) |
+| [cn-trademark-goods-services-recommender](vendor/ip-practice-workbench-skills/skills/cn-trademark-goods-services-recommender/SKILL.md) | 商标大类、类似群和商品服务项目推荐，校验后导出申报表 | [README](vendor/ip-practice-workbench-skills/skills/cn-trademark-goods-services-recommender/README.md) |
 
-各技能 README 保留原有许可证、数据来源和时效说明；公开发布前需完成其中列出的许可确认。
+根许可证、资料来源和统一测试入口随整包保留。数据与模板的权利范围见 [随包说明](vendor/ip-practice-workbench-skills/DATA_SOURCES.md)。
+
+```powershell
+.\scripts\skill-sync.ps1 -Name ip-practice-workbench-skills
+.\scripts\skill-deploy.ps1 -Name cn-patent-fast-track-screener
+```
 
 ## 命令速查
 

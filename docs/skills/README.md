@@ -50,3 +50,4 @@
 - [md2word](md2word.md)
 - [gzh-design](gzh-design.md)
 - [qu-ai-wei](qu-ai-wei.md)
+- [知产实务工作台技能包](ip-practice-workbench-skills.md)
