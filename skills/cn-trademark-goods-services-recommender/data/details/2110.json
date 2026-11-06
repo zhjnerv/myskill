@@ -1,0 +1,341 @@
+{
+  "groupCode": "2110",
+  "groupName": "化妆用具",
+  "classCode": "21",
+  "notes": [
+    "注：1.本类似群与0306 化妆用棉签，化妆棉，唇膏盒类似，与第十版及以前版本0306 棉签（梳妆用品），第九版及以前版本0306 成套化妆用具交叉检索；",
+    "2.沐浴海绵与 2405 搓澡巾类似；",
+    "3.本类似群与第十一版及以前版本 2112 沐浴海绵，第八版及以前版本 1402 贵重金属制随身携带的粉饼盒交叉检索；",
+    "4.卸妆器具与第九版及以前版本0924卸妆用电力器具交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "化妆用具",
+          "code": "210087",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "梳妆盒",
+          "code": "210115",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "专用化妆包",
+          "code": "210115",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "沐浴海绵",
+          "code": "210123",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "粉扑",
+          "code": "210148",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "空的粉饼盒",
+          "code": "210195",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "眉刷",
+          "code": "210215",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "喷香水器",
+          "code": "210228",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "香水喷瓶",
+          "code": "210228",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "修面刷",
+          "code": "210240",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "修面刷架",
+          "code": "210241",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "擦皮肤用摩擦海绵",
+          "code": "210331",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "卸妆器具",
+          "code": "210344",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "化妆用刮板",
+          "code": "210349",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "化妆用海绵",
+          "code": "210354",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "化妆刷",
+          "code": "210361",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "睫毛刷",
+          "code": "210365",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "美甲用泡沫材料制分趾器",
+          "code": "210367",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "化妆用滴管",
+          "code": "210397",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "擦皮肤用摩擦手套",
+          "code": "210418",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "空的化妆用印章",
+          "code": "210430",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "微晶磨皮用美容器具",
+          "code": "210441",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电动和非电动洁面刷",
+          "code": "210459",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "修眉线",
+          "code": "210464",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "睫毛分离器",
+          "code": "210465",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电动洁面仪",
+          "code": "210477",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "美容用粉刺吸出器",
+          "code": "210482",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "美容用黑头吸出器",
+          "code": "210482",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "颊刷",
+          "code": "C210036",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "眼影刷",
+          "code": "C210037",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "粉饼盒（空的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "唇彩刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "去角质刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卸妆器具（电）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卸妆器具（非电）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "扑爽身粉用海绵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "香水瓶（空）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "香水喷瓶（空的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "出售时为空的香水喷瓶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属制粉饼盒（空的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "粉扑收纳架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "面部去角质垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化妆用滴管（空的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化妆用上妆棒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化妆用刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "成套化妆用具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "面部上妆用海绵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "去死皮用垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "染发碗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "去死皮用手套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "面部清洁用海绵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "睫毛梳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "美容用微晶磨皮海绵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮肤清洁刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "售时为空的化妆用印章",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "沐浴用天然海绵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "剃须刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动化妆品涂抹器",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:52.897Z"
+}

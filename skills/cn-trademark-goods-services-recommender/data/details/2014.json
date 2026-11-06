@@ -1,0 +1,499 @@
+{
+  "groupCode": "2014",
+  "groupName": "非金属紧固件及门窗附件",
+  "classCode": "20",
+  "notes": [
+    "注：1.非金属门把手，门的非金属附件与2012球形非金属把手类似，与第九版2103球形瓷把手交叉检索，与第八版及以前版本2103瓷制门把手交叉检索。",
+    "2.非金属钥匙与0610金属钥匙类似，与第十版及以前版本0610钥匙交叉检索。",
+    "3.运载工具用非金属锁，非金属锁（非电），非金属挂锁（非电子）与 0610 除金属钥匙以外的其他商品，0920 第二自然段类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "窗帘环",
+          "code": "200011",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属合页",
+          "code": "200056",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属螺母",
+          "code": "200097",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "安装在墙上的窗帘钩",
+          "code": "200101",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "窗帘滚轴",
+          "code": "200121",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "窗用非金属附件",
+          "code": "200123",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "门用非金属附件",
+          "code": "200125",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "板条式室内遮帘",
+          "code": "200136",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属闩",
+          "code": "200140",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属制帐篷地钉",
+          "code": "200168",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "窗帘轨",
+          "code": "200171",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "窗帘杆",
+          "code": "200175",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "窗帘钩",
+          "code": "200176",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非纺织品制窗帘扣",
+          "code": "200177",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具用非金属锁",
+          "code": "200181",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属螺丝",
+          "code": "200215",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属铆钉",
+          "code": "200216",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属销钉",
+          "code": "200217",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属销栓",
+          "code": "200217",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属螺栓",
+          "code": "200218",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "缆绳用非金属接线螺钉",
+          "code": "200224",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属膨胀螺栓",
+          "code": "200232",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属锁（非电）",
+          "code": "200240",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属杆",
+          "code": "200242",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "遮帘用塑料滑轮",
+          "code": "200262",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "窗用木编织室内遮帘",
+          "code": "200269",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "窗用室内遮帘（家具）",
+          "code": "200272",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属门把手",
+          "code": "200273",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属门插销",
+          "code": "200280",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "窗用纸制室内遮帘",
+          "code": "200281",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "窗用纺织品制室内遮帘",
+          "code": "200282",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属门铃（非电动）",
+          "code": "200283",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属门环",
+          "code": "200286",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "紧固管道用非金属环",
+          "code": "200291",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属、非橡胶制门挡",
+          "code": "200296",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属、非橡胶制窗挡",
+          "code": "200297",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属制窗锁",
+          "code": "200298",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属窗栓",
+          "code": "200299",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属制门用锁紧装置",
+          "code": "200300",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "塑料钥匙",
+          "code": "200305",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鞋用非金属钉",
+          "code": "200322",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鞋用非金属销钉",
+          "code": "200323",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属关门器（非电动）",
+          "code": "200335",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属制门弹簧（非电动）",
+          "code": "200335",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "滑动门用非金属滑轨",
+          "code": "200336",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属开门器（非电动）",
+          "code": "200340",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属开窗器（非电动）",
+          "code": "200341",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属关窗器（非电动）",
+          "code": "200342",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "窗用非金属滑轮",
+          "code": "200343",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "提拉窗用非金属滑轮",
+          "code": "200343",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属挂锁（非电子）",
+          "code": "200344",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属钉",
+          "code": "200369",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属平头钉",
+          "code": "200370",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属双脚钉",
+          "code": "200370",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "金属制室内百叶窗帘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "室内软百叶帘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属锁芯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属门闩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "浴帘杆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "窗用室内百叶帘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属螺纹钉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "浴帘挂钩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属窗帘杆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属窗帘杆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属窗帘轨",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属窗帘轨",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "室内百叶帘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "室内窗用百叶帘（家具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺织品制室内窗用百叶帘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "室内窗用遮光帘（家具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木编织百叶帘（家具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸制百叶帘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "窗帘用塑料滑轮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木钉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属浴帘杆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "塑料门把手",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属扣钉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "浴帘环",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属窗把手",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "淋浴帘挂杆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属制挂画钩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "竹制室内遮帘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "瓷制门把手",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "塑料门挡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木制门挡",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:47.012Z"
+}

@@ -1,0 +1,261 @@
+{
+  "groupCode": "1007",
+  "groupName": "假肢，假发和假器官",
+  "classCode": "10",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "人造颚",
+          "code": "100111",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "假肢",
+          "code": "100117",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "外科用人造皮肤",
+          "code": "100125",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "人造乳房",
+          "code": "100141",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "人造眼睛",
+          "code": "100159",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "植发用毛发",
+          "code": "100192",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "外科移植用假眼球",
+          "code": "100194",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "由人造材料组成的外科移植物",
+          "code": "100208",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用机械外骨骼",
+          "code": "100264",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "由人造材料组成的骨间空隙填充物",
+          "code": "100275",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "人造韧带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人造软骨",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "外科手术用骨替代物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人造鼓膜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "植入用人造骨",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "外科整形用人造髋关节",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人造关节",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "骨骼替代品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "肌腱替代品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "内脏用人造组织",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "腔壁用人造组织",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "韧带替代品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "软骨替代品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "植入式人工喉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "血管用人造组织",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "移植用人造皮下瓣膜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人造材料组成的骨缝填充物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "移植物（人造材料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "内置假体",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "外科植入用心瓣膜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人造髋部移植物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于固定假肢的假肢接受腔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人造骨",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人工晶体",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "脊柱植入物（人造材料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "耳蜗植入物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人造心脏瓣膜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "主要由人造材料制成的外科修补网片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "骨植入物（人造材料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人造血管移植物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人造材料制人工耳蜗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人工关节",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人造外科移植物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "关节假体",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人造心脏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人造乳房植入物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人造角膜",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:47.054Z"
+}

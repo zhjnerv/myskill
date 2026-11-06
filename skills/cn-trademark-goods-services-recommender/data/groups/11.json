@@ -1,0 +1,67 @@
+[
+  {
+    "groupCode": "1101",
+    "groupName": "照明用设备、器具（不包括汽灯、油灯）",
+    "classCode": "11"
+  },
+  {
+    "groupCode": "1103",
+    "groupName": "汽灯，油灯",
+    "classCode": "11"
+  },
+  {
+    "groupCode": "1104",
+    "groupName": "烹调及民用电气加热设备（不包括厨房用手工用具，食品加工机器）",
+    "classCode": "11"
+  },
+  {
+    "groupCode": "1105",
+    "groupName": "制冷、冷藏设备（不包括冷藏车）",
+    "classCode": "11"
+  },
+  {
+    "groupCode": "1106",
+    "groupName": "干燥、通风、空调设备（包括冷暖房设备），气体净化设备",
+    "classCode": "11"
+  },
+  {
+    "groupCode": "1107",
+    "groupName": "加温、蒸汽设备（包括工业用炉、锅炉，不包括机车锅炉、锅驼机锅炉、蒸汽机锅炉）",
+    "classCode": "11"
+  },
+  {
+    "groupCode": "1108",
+    "groupName": "水暖管件",
+    "classCode": "11"
+  },
+  {
+    "groupCode": "1109",
+    "groupName": "卫生设备（不包括盥洗室用具）",
+    "classCode": "11"
+  },
+  {
+    "groupCode": "1110",
+    "groupName": "消毒和净化设备",
+    "classCode": "11"
+  },
+  {
+    "groupCode": "1111",
+    "groupName": "小型取暖器",
+    "classCode": "11"
+  },
+  {
+    "groupCode": "1112",
+    "groupName": "不属别类的打火器具",
+    "classCode": "11"
+  },
+  {
+    "groupCode": "1113",
+    "groupName": "核能反应设备",
+    "classCode": "11"
+  },
+  {
+    "groupCode": "1114",
+    "groupName": "单一商品",
+    "classCode": "11"
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "groupCode": "4101",
+    "groupName": "教育",
+    "classCode": "41"
+  },
+  {
+    "groupCode": "4102",
+    "groupName": "组织和安排教育、文化、娱乐等活动",
+    "classCode": "41"
+  },
+  {
+    "groupCode": "4103",
+    "groupName": "图书馆服务",
+    "classCode": "41"
+  },
+  {
+    "groupCode": "4104",
+    "groupName": "出版服务",
+    "classCode": "41"
+  },
+  {
+    "groupCode": "4105",
+    "groupName": "文娱、体育活动的服务",
+    "classCode": "41"
+  },
+  {
+    "groupCode": "4106",
+    "groupName": "驯兽",
+    "classCode": "41"
+  },
+  {
+    "groupCode": "4107",
+    "groupName": "单一服务",
+    "classCode": "41"
+  }
+]

@@ -1,0 +1,283 @@
+{
+  "groupCode": "3503",
+  "groupName": "为他人推销",
+  "classCode": "35",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "进出口代理",
+          "code": "350005",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "拍卖",
+          "code": "350030",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "为他人推销",
+          "code": "350071",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "为他人采购（为其他企业购买商品或服务）",
+          "code": "350085",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "市场营销",
+          "code": "350106",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电话市场营销",
+          "code": "350107",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "为商品和服务的买卖双方提供在线市场",
+          "code": "350120",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "定向市场营销",
+          "code": "350150",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "软件出版框架下的市场营销",
+          "code": "350155",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "通过有影响者推销商品",
+          "code": "350179",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "通过有影响者进行市场营销",
+          "code": "350180",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "在虚拟环境中通过植入式广告为他人进行市场营销",
+          "code": "350187",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "为他人安排和组织市场促销",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车拍卖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "市场营销服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供在线拍卖服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "拍卖服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "安排拍卖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "在线拍卖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商品进出口代理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "安排和组织拍卖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电话和电视拍卖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供市场营销信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有关化学品市场营销的建议",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人采购酒精饮料（为其他企业购买商品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "实施拍卖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过互联网提供拍卖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "组织网上拍卖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人进行网上竞价拍卖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "市场营销咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "能源领域的进出口代理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过互联网进行的在线拍卖服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "资产拍卖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人的商品和服务进行市场营销",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供社会媒体领域的市场营销咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过电信网络提供拍卖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "不动产拍卖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "网站流量优化领域的市场营销服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商业营销服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "网络市场营销咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人安排商品采购的外包服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过发行和管理贵宾卡为他人推销",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过分发印刷品和促销竞赛为他人推销商品和服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "不动产市场营销分析",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "活动营销",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过短视频为他人推销",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "使用视听媒体的促销式营销服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人推销商品和服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "联盟营销",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "在线市场营销服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "逆向拍卖服务",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:03.914Z"
+}

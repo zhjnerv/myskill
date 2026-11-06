@@ -1,0 +1,377 @@
+{
+  "groupCode": "0602",
+  "groupName": "普通金属管及其配件",
+  "classCode": "06",
+  "notes": [
+    "※管道用金属墙钩C060046",
+    "注：1.本类似群商品与1108第（一）部分商品类似；",
+    "2.金属阀门（非机器部件），金属排水阱（阀），金属水管阀与0749第（二）部分商品类似。",
+    "3.本类似群与第九版及以前版本 0608 管道用金属墙钩交叉检索；",
+    "4.跨类似群保护商品：缆绳和管道用金属夹（0602，0606）。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "钢管",
+          "code": "060011",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属喷头*",
+          "code": "060014",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属喷嘴",
+          "code": "060021",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "绳索用金属套管",
+          "code": "060058",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "中央供暖装置用金属管道",
+          "code": "060076",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "中央供热装置用金属管道",
+          "code": "060076",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属水管",
+          "code": "060091",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属套筒（金属制品）",
+          "code": "060092",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "管道用金属弯头",
+          "code": "060099",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属套管柱",
+          "code": "060111",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属排水管",
+          "code": "060114",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属管",
+          "code": "060127",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "滑油嘴",
+          "code": "060151",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属制管套筒",
+          "code": "060173",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "管道用金属接头",
+          "code": "060229",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属阀门（非机器部件）",
+          "code": "060243",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属管道",
+          "code": "060258",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "压缩空气管道用金属配件",
+          "code": "060267",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "管道用金属加固材料",
+          "code": "060275",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "紧固管道用金属环",
+          "code": "060312",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "管道用金属墙钩",
+          "code": "C060046",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "缆绳和管道用金属夹",
+          "code": "060313",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属排水阱（阀）",
+          "code": "060335",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "油井用金属套管",
+          "code": "060337",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属雨水管",
+          "code": "060356",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属水管阀",
+          "code": "060359",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属分岔管",
+          "code": "060366",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "通风和空调设备用金属管",
+          "code": "060415",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "管道用金属歧管",
+          "code": "060420",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属压力水管",
+          "code": "060421",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "管道用金属夹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属阀门（非机器零件）（包括钢钛合金制）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属管道（包括钢钛合金制）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属管（包括钢钛合金制）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属连接管道（包括钢钛合金制）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "管道金属弯头（包括钢钛合金制）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "液体和气体传送用金属管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属分岔管（包括钢钛合金制）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "旋转式管道用金属接头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属制缆绳套管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "管道用金属分岔管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铜合金管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铜管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "管道用金属连接器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "镍合金管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属排水阱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属套管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "不锈钢管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属制软管夹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "空调装置金属管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通风用金属管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属污水管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属制地下排水管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通风装置金属管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生铁管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可折叠金属管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属制管道支架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属阀（非机器部件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建造地下室防水系统用金属排水管道",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "压缩空气管用金属配件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属阀门（非机器零件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属制管夹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用金属管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "软管用金属弯头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属制空调通风管道",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:34.972Z"
+}

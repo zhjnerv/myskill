@@ -1,0 +1,127 @@
+{
+  "groupCode": "0405",
+  "groupName": "照明用蜡烛和灯芯",
+  "classCode": "04",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "点火用纸捻",
+          "code": "040005",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蜡烛*",
+          "code": "040015",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "小蜡烛",
+          "code": "040015",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "照明用蜡",
+          "code": "040029",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蜡烛芯",
+          "code": "040046",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "灯芯",
+          "code": "040061",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "小盏蜡烛",
+          "code": "040076",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "夜间照明物（蜡烛）",
+          "code": "040076",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "香味蜡烛",
+          "code": "040105",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "火绒",
+          "code": "040108",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "大豆制蜡烛",
+          "code": "040121",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "照明用蜡烛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "茶蜡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "细蜡烛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "照明用蜡烛芯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "带香味的蜡烛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "夜间照明用蜡烛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蜡烛（照明用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "香薰蜡烛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "油灯用灯芯",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:27.533Z"
+}

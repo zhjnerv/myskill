@@ -1,0 +1,196 @@
+{
+  "groupCode": "0903",
+  "groupName": "其他办公用机械（不包括打字机、誊写机、油印机）",
+  "classCode": "09",
+  "notes": [
+    "注：1.电传真设备，传真机与0907电话机类似；",
+    "2.本类似群与第十版及以前版本 0902 第（一）部分考勤钟（时间记录装置）交叉检索；",
+    "3.跨类似群保护商品：打印机和复印机用未填充的鼓粉盒（0901，0903），打印机和复印机用未填充的墨盒090810（0901，0903）；"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "办公室用打卡机",
+          "code": "090097",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "晒蓝图设备",
+          "code": "090106",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "复印机（照相、静电、热）",
+          "code": "090154",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电传真设备",
+          "code": "090394",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电传打字机",
+          "code": "090464",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "绘图机",
+          "code": "090596",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "传真机",
+          "code": "090600",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "考勤钟（时间记录装置）",
+          "code": "090649",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "打印机和复印机用未填充的鼓粉盒",
+          "code": "090720",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "打印机和复印机用未填充的墨盒",
+          "code": "090810",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "考勤机",
+          "code": "C090011",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "传真发送机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "传真设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "传真收发装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "传真装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "便携式传真机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制蓝图机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子绘图机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "复印设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "复印机器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "复印机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "复印传真一体机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "绘图仪用打印头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "静电复印机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "热敏复印机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数字绘图机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数字彩色复印机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "静电复印设备和装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "传真机用未填充墨盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "传真机用未填充鼓粉盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "带指纹识别的计算机化考勤钟",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "XY绘图机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "复印机用未填充的墨盒",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:30.451Z"
+}

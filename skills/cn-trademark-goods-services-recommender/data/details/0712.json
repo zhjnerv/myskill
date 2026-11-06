@@ -1,0 +1,96 @@
+{
+  "groupCode": "0712",
+  "groupName": "皮革工业用机械",
+  "classCode": "07",
+  "notes": [
+    "注：1.压花机与0707印花花筒雕刻设备类似；",
+    "2.跨类似群保护商品： 砑光辊（0704第（一）部分，0706，0712）； 砑光机（07040704第（一）部分，0706，0712）。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "制革机",
+          "code": "070136",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "剥皮革机",
+          "code": "070157",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "去肉机（皮革工业用）",
+          "code": "070166",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "砑光辊",
+          "code": "070240",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "砑光机",
+          "code": "070292",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鞣制机（皮革工业用）",
+          "code": "C070118",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "磨革机",
+          "code": "C070119",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "喷光机（皮革工业用）",
+          "code": "C070120",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "压花机",
+          "code": "C070121",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "烫平机（皮革工业用）",
+          "code": "C070122",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "喷色机（皮革工业用）",
+          "code": "C070123",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "皮革喷浆机",
+          "code": "C070124",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "皮革修整机",
+          "code": "C070125",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [],
+  "crawledAt": "2026-06-09T18:56:55.683Z"
+}

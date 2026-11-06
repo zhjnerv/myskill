@@ -1,0 +1,415 @@
+{
+  "groupCode": "3906",
+  "groupName": "货物的贮藏",
+  "classCode": "39",
+  "notes": [
+    "注：本类似群与3901废物的运输和贮藏类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "货物储存",
+          "code": "390028",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "储藏",
+          "code": "390034",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "仓库储存",
+          "code": "390034",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "仓库出租",
+          "code": "390035",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "冰箱出租",
+          "code": "390043",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "冷冻食品柜出租",
+          "code": "390043",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "提供关于储藏服务的信息",
+          "code": "390076",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "集装箱出租",
+          "code": "390080",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电子数据或文件载体的物理储存",
+          "code": "390094",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "冰柜出租",
+          "code": "390099",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "出租电酒窖",
+          "code": "390112",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "行李寄存",
+          "code": "390116",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "钥匙暂存",
+          "code": "390121",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "带锁储物柜出租",
+          "code": "390125",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "衣帽寄存服务",
+          "code": "390130",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "为他人储存捕获的二氧化碳",
+          "code": "390135",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "生物组织的极低温保存（仓库储存）",
+          "code": "390141",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "服装的贮藏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "个人物品的临时保管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冷藏货物的贮藏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "旅行箱出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商品仓储",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "货物集装箱出租服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商业用冰柜出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "放射性废物贮藏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "危险物质仓库贮存",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用冰箱出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用冰柜出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "仓库空间出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "仓储信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "仓储服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "货盘出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "服装存放和保管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冷冻机器和设备出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "递送物品的临时贮藏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "农业食品的存储",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "航空燃料的贮存",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人提供私人仓储设施",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "（剧院、酒店）衣帽存放服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冷藏库贮存",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "个人财物临时保管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冷藏仓储",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "以电子方式存储的数字图像的物理存储",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "以电子方式存储的计算机游戏的物理存储",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "以电子方式存储的数字音乐的物理存储",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "气体储存",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "海鲜冷藏储存",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "废油的存储",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "药物储存",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家具储存",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "外科器械和设备的储存",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "农产品储存",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冷藏储存",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "递送物品的临时储藏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "放射性废物储藏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "航空燃料的储存",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冷藏货物的储藏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "危险物质仓库储存",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "服装的储藏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人物理储存可再生天然气",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "裘皮储存",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "温室气体的物理储存（为他人）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "信箱出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "货物贮存",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "仓库贮存",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贮藏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供关于贮藏服务的信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贮藏信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子数据或文件载体的物理贮存",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "保税货物的存储",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "裘皮储藏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "石油储存",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "乘客行李寄存",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "货物的冷藏存储",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "仓库存储",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "筒仓出租",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:27.597Z"
+}

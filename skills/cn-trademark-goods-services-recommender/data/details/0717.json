@@ -1,0 +1,45 @@
+{
+  "groupCode": "0717",
+  "groupName": "制电池机械",
+  "classCode": "07",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "电池机械",
+          "code": "C070139",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "轧线机（电池制造机械）",
+          "code": "C070140",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "电池芯加工机",
+          "code": "C070141",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "上电池底机",
+          "code": "C070142",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "蓄电池工业专用机械",
+          "code": "C070143",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [],
+  "crawledAt": "2026-06-09T18:56:58.834Z"
+}

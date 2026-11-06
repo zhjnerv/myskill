@@ -1,0 +1,75 @@
+{
+  "groupCode": "0727",
+  "groupName": "玻璃工业用机械",
+  "classCode": "07",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "玻璃加工机",
+          "code": "070382",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "玻璃工业用机器设备（包括日用玻璃机械）",
+          "code": "C070183",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "自动吹制机（玻璃加工机械）",
+          "code": "C070184",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "制瓶机",
+          "code": "C070185",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "脱管机（玻璃加工机械）",
+          "code": "C070186",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "卷管机（玻璃加工机械）",
+          "code": "C070187",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "管件磨口机（玻璃加工机械）",
+          "code": "C070188",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "磨光玻璃抛光机",
+          "code": "C070189",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "玻璃切割机",
+          "code": "C070190",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "玻璃器皿制造机",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:04.993Z"
+}

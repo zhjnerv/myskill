@@ -1,0 +1,92 @@
+[
+  {
+    "groupCode": "3701",
+    "groupName": "建设、维修信息服务",
+    "classCode": "37"
+  },
+  {
+    "groupCode": "3702",
+    "groupName": "建筑工程服务",
+    "classCode": "37"
+  },
+  {
+    "groupCode": "3703",
+    "groupName": "开采服务",
+    "classCode": "37"
+  },
+  {
+    "groupCode": "3704",
+    "groupName": "建筑物装饰修理服务",
+    "classCode": "37"
+  },
+  {
+    "groupCode": "3705",
+    "groupName": "供暖设备的安装与修理",
+    "classCode": "37"
+  },
+  {
+    "groupCode": "3706",
+    "groupName": "机械、电器设备的安装与修理",
+    "classCode": "37"
+  },
+  {
+    "groupCode": "3707",
+    "groupName": "陆地机械车辆维修",
+    "classCode": "37"
+  },
+  {
+    "groupCode": "3708",
+    "groupName": "飞机维修",
+    "classCode": "37"
+  },
+  {
+    "groupCode": "3709",
+    "groupName": "船只建造和维修服务",
+    "classCode": "37"
+  },
+  {
+    "groupCode": "3710",
+    "groupName": "影视器材维修",
+    "classCode": "37"
+  },
+  {
+    "groupCode": "3711",
+    "groupName": "钟表修理",
+    "classCode": "37"
+  },
+  {
+    "groupCode": "3712",
+    "groupName": "保险装置的维修",
+    "classCode": "37"
+  },
+  {
+    "groupCode": "3713",
+    "groupName": "特殊处理服务",
+    "classCode": "37"
+  },
+  {
+    "groupCode": "3714",
+    "groupName": "轮胎维修服务",
+    "classCode": "37"
+  },
+  {
+    "groupCode": "3715",
+    "groupName": "家具的修复、保养",
+    "classCode": "37"
+  },
+  {
+    "groupCode": "3716",
+    "groupName": "衣服、皮革的修补、保护、洗涤服务",
+    "classCode": "37"
+  },
+  {
+    "groupCode": "3717",
+    "groupName": "灭菌，灭虫，消毒服务",
+    "classCode": "37"
+  },
+  {
+    "groupCode": "3718",
+    "groupName": "单一服务",
+    "classCode": "37"
+  }
+]

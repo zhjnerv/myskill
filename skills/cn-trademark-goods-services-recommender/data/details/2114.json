@@ -1,0 +1,406 @@
+{
+  "groupCode": "2114",
+  "groupName": "不属别类的动植物器具",
+  "classCode": "21",
+  "notes": [
+    "注：1.本类似群各部分之间商品不类似；",
+    "2.本类似群第（一）部分与2009商品类似；",
+    "3.本类似群第（二）部分与2106花瓶，花盆，窗台花箱类似，与第九版及以前版本2106室内养殖池（种植物用），室内培养池（种植物用），第八版及以前版本 1620 室内观赏植物园（仿自然动物和植物园），室内观赏植物（人工动物或植物园），室内水族池，水族池罩交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "（一）",
+      "items": [
+        {
+          "name": "饮水槽",
+          "code": "210001",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "喂料槽",
+          "code": "210002",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "家禽环",
+          "code": "210011",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "鸟环",
+          "code": "210018",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "鸟食台*",
+          "code": "210019",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "鸟笼",
+          "code": "210059",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "动物饲料槽",
+          "code": "210074",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "人造留窝鸡蛋",
+          "code": "210164",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "家养宠物用笼子",
+          "code": "210302",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "宠物排泄用盒",
+          "code": "210306",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "宠物排泄用盘",
+          "code": "210306",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "动物梳毛手套",
+          "code": "210403",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "宠物喂食碗",
+          "code": "210414",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "宠物自动喂食碗",
+          "code": "210415",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "宠物舔食垫",
+          "code": "210473",
+          "type": "standard",
+          "section": "（一）"
+        }
+      ]
+    },
+    {
+      "label": "（二）",
+      "items": [
+        {
+          "name": "室内植物培养箱",
+          "code": "210305",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "室内水族池",
+          "code": "210336",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "水缸（室内水族池）",
+          "code": "210336",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "水族池罩",
+          "code": "210337",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "室内生态培养箱",
+          "code": "210338",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "水族池用抄鱼网",
+          "code": "210472",
+          "type": "standard",
+          "section": "（二）"
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "宠物用喂食器皿",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "养金鱼用玻璃碗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牲畜用饮水槽",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "动物自启动喂食器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "动物自启动喝水器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "动物用室内生态培养箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "动物用饮水槽",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "昆虫用室内生态培养箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "兽用喂料槽",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "狗粮勺",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宠物自动喂食器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宠物用笼子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水族池装饰物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鸟食台（非建筑物）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家禽用鸟笼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可便携式给宠物喂水的非机械化宠物饮水器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "动物饲料槽（牲畜食槽）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "携带宠物用笼子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宠物饮水碗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "室内蚂蚁生态巢",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鸟用识别环",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家禽饮水槽",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "装宠物零食用罐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鸟喂食台",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宠物用自动便盆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "室内昆虫生态培养箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "室内昆虫栖息地",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蚂蚁生态箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自启动式动物喂食器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "猫砂盆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "园艺种植箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宠物进食和饮水用碗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "能刺激动物的牲畜喂食器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "兽用饮水槽",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "能刺激动物的牲畜饮水器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "养鱼用水箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宠物排泄用盒（盘）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "小动物喂食器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非机械化动物喂食器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牛用饮水槽",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "猪饲槽",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家禽料槽",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "爬宠饲养箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鸟笼站杠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水母缸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鸟戏水台210019",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鸟戏水台（非建筑物）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宠物喂食盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "喂鸟器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属鸟笼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "园艺用植物换盆垫",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:55.271Z"
+}

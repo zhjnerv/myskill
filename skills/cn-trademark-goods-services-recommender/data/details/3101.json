@@ -1,0 +1,153 @@
+{
+  "groupCode": "3101",
+  "groupName": "未加工的林业产品",
+  "classCode": "31",
+  "notes": [
+    "注：跨类似群保护商品：植物（3101，3103），籽苗（3101，3103）。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "树木",
+          "code": "310008",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "圣诞树*",
+          "code": "310009",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "树干",
+          "code": "310010",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "灌木",
+          "code": "310011",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "未切锯木材",
+          "code": "310017",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "制木浆的木片",
+          "code": "310018",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "未加工木材",
+          "code": "310019",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "植物",
+          "code": "310071",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "籽苗",
+          "code": "310072",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "未加工软木",
+          "code": "310078",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "棕榈叶（棕榈树叶）",
+          "code": "310100",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "棕榈树",
+          "code": "310101",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "未加工树皮",
+          "code": "310139",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "桑拿用桦树条",
+          "code": "310175",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "树苗",
+          "code": "C310028",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "砍下的圣诞树",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未剥皮木材",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "棕榈叶（未加工或半加工原料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "活树木",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "原木",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "榴莲树苗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "玫瑰树",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "盆栽矮树",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "植物（活的）",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:50.192Z"
+}

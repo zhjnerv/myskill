@@ -1,0 +1,590 @@
+{
+  "groupCode": "0113",
+  "groupName": "食品、药品及化妆品工业用化学品（不包括食品用防腐盐）",
+  "classCode": "01",
+  "notes": [
+    "注：1.本类似群与第十二版及以前版本 0305 制香料香水用油，烟用香精，工业用香料，化妆品用香料，香皂香精及其他未指明具体用途的香精及香精油商品，与第十一版水果催熟用激素与 0105 第一自然段，0109 植物生长调节剂，植物用生物刺激剂，0505 第一自然段类似；",
+    "2.本类似群与第十一版及以前版本 0104 第（十九）部分制药工业用保存剂交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "醋化用细菌制剂",
+          "code": "010009",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食物防腐用化学品",
+          "code": "010044",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "酿葡萄酒用杀菌剂（制葡萄酒用化学制剂）",
+          "code": "010096",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "工业用邻苯甲酰磺酰亚胺",
+          "code": "010113",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "工业用糖精",
+          "code": "010114",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "啤酒澄清剂",
+          "code": "010121",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "（未发酵）葡萄汁澄清剂",
+          "code": "010200",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "葡萄酒澄清剂",
+          "code": "010205",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "制药工业用保存剂",
+          "code": "010210",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "饮料工业用的过滤制剂",
+          "code": "010296",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "熏肉用化学制剂",
+          "code": "010317",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "水果催熟用激素",
+          "code": "010346",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "保存食物用油",
+          "code": "010348",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "化学用奶发酵剂",
+          "code": "010374",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "工业用嫩肉剂",
+          "code": "010545",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "防止蔬菜发芽剂",
+          "code": "010571",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "工业用人造增甜剂",
+          "code": "010607",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "啤酒防腐剂",
+          "code": "010619",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食品工业用酶制剂",
+          "code": "010660",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食品工业用酶",
+          "code": "010661",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食品工业用葡萄糖",
+          "code": "010662",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食品工业用卵磷脂",
+          "code": "010663",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食品工业用果胶",
+          "code": "010665",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食品工业用酒石酸氢钾",
+          "code": "010667",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食品工业用藻酸盐",
+          "code": "010669",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食品工业用谷蛋白",
+          "code": "010670",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食品工业用乳糖",
+          "code": "010672",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食品工业用奶发酵剂",
+          "code": "010675",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "工业用奶发酵剂",
+          "code": "010676",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食品工业用酪蛋白",
+          "code": "010677",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "制药用茶提取物",
+          "code": "010684",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食品工业用茶提取物",
+          "code": "010685",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "制化妆品用茶提取物",
+          "code": "010687",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "制食品补充剂用维生素",
+          "code": "010691",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食品工业用维生素",
+          "code": "010692",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "制化妆品用抗氧化剂",
+          "code": "010694",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "制药用抗氧化剂",
+          "code": "010695",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "制食品补充剂用抗氧化剂",
+          "code": "010696",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "制食品补充剂用蛋白质",
+          "code": "010698",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食品工业用蛋白质",
+          "code": "010699",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "制药用维生素",
+          "code": "010701",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "制化妆品用维生素",
+          "code": "010702",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食品工业用碱水",
+          "code": "010723",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食品工业用植物提取物",
+          "code": "010728",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "制化妆品用植物提取物",
+          "code": "010729",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "制药用植物提取物",
+          "code": "010730",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食品工业用人造增甜剂",
+          "code": "010733",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食品工业用糖精",
+          "code": "010734",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "工业用阿斯巴甜",
+          "code": "010735",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食品工业用阿斯巴甜",
+          "code": "010736",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食品工业用动物提取物",
+          "code": "010738",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "制药用活性化学成分",
+          "code": "010741",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "生产用香精油",
+          "code": "010744",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食品工业用草本提取物",
+          "code": "010747",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "生产用麝香",
+          "code": "010749",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "生产用香兰素",
+          "code": "010750",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "用于生产食品的工业用卵磷脂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烘焙食品工业用酶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制食品用乳糖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制化妆品用胶原蛋白原料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制化妆品用化学添加剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制化妆品用谷氨酸原料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制化妆品用蛋白质",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "酿造工业用酶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食品制造用化学添加剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "添加到食品中的细菌培养物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "葡萄酒发酵用化学品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食品防腐剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食品防腐用化学制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食品保存用化学品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食品保存用化合物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "稳定食品用化学品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食品防腐用亚硫酸盐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食品生产用乳化剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食品保鲜防腐用化学品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食物防腐用亚硫酸盐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食品制造用乳酸杆菌",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食品工业用细菌制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "从植物中提取的化妆品工业用化学品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食品储存用化学品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "面包工业用酶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食品工业用抗坏血酸钙",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食品工业用抗坏血酸钠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制食品和饮料用抗氧化剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食品副产品加工用酶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "酿葡萄酒用杀菌剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制食品用卵磷脂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食品工业用牛奶发酵剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用牛奶发酵剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化学用牛奶发酵剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "糖精",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食品工业用除香精油外的植物提取物010728",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制化妆品用除香精油外的植物提取物010729",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制药用除香精油外的植物提取物010730",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "甘蔗加工用酶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食品制造用瓜尔胶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制化妆品用颜色分散剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于食品制造的细菌",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于食品工业的阿斯巴甜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于食品工业的山梨酸钾",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于食品工业苯甲酸钠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食品工业用小麦极性脂质",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "饮料澄清用化学制剂",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:12.582Z"
+}

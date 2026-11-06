@@ -1,0 +1,32 @@
+{
+  "groupCode": "2008",
+  "groupName": "食品用塑料装饰品",
+  "classCode": "20",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "食品用塑料装饰品",
+          "code": "200003",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "塑料制蛋糕顶饰",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "塑料制蛋糕装饰品",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:43.395Z"
+}

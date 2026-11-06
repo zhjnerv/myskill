@@ -1,0 +1,411 @@
+{
+  "groupCode": "1602",
+  "groupName": "技术用纸（不包括绝缘纸）",
+  "classCode": "16",
+  "notes": [
+    "注：1.本类似群与1601纸类似；",
+    "2.本类似群与第十版及以前版本 0107 传真纸，热敏纸交叉检索；",
+    "3.复印纸（文具），复写纸与1605纸张（文具），写字纸类似；"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "描图纸",
+          "code": "160062",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "描图布",
+          "code": "160063",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "复写纸",
+          "code": "160066",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "记录机用纸",
+          "code": "160067",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "心电图纸",
+          "code": "160140",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "滤纸",
+          "code": "160156",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纸制过滤材料",
+          "code": "160157",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "发光纸",
+          "code": "160190",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "速印机用墨纸",
+          "code": "160199",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "无线电报纸",
+          "code": "160233",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "文件复印机用墨纸",
+          "code": "160241",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "复印纸（文具）",
+          "code": "160332",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蜡纸",
+          "code": "160339",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "绘画和书法用纸",
+          "code": "160347",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "编织机用空白打孔卡片",
+          "code": "160411",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "唱片芯纸",
+          "code": "C160012",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "扬声器纸",
+          "code": "C160013",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "石蜡纸",
+          "code": "C160014",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "黑照相卡纸",
+          "code": "C160015",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "蜡光纸",
+          "code": "C160016",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "胶卷感光防护纸",
+          "code": "C160017",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "不透光纸",
+          "code": "C160018",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "电传用纸",
+          "code": "C160019",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "红外线光谱分析纸",
+          "code": "C160020",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "地图纸",
+          "code": "C160021",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "海图纸",
+          "code": "C160022",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "镜头纸",
+          "code": "C160023",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "防腐纸",
+          "code": "C160024",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "制图纸",
+          "code": "C160025",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "裱纸",
+          "code": "C160026",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "有光纸",
+          "code": "C160027",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "绘画用纸",
+          "code": "C160028",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "打字蜡纸",
+          "code": "C160030",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "防锈纸",
+          "code": "C160031",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "传真纸",
+          "code": "C160114",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "热敏纸",
+          "code": "C160116",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "坐标纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "激光打印纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "复印纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "笔记本用纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "热敏感温纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算器用打印纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "吸墨纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算器材用纸卷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "平面艺术用纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "印刷机用盘纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "信封纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "方格纸（成品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "名片纸（半成品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "复写纸（成品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防水纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "书法用纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蜡纸（成品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "标签纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蜡纸（油印纸）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "静电复印纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "耐酸纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算器用纸带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日式手工纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算器材用纸带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "打字机纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "喷漆用遮蔽纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "热转印纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "复印机和打印机用清洁纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "半成品名片纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "荧光纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "刻字蜡纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "盲文纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "油印纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "中国书法绘画用纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "书画纸(用于中国绘画和书法)",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:11.026Z"
+}

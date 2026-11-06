@@ -1,0 +1,374 @@
+{
+  "groupCode": "4403",
+  "groupName": "为动物提供服务",
+  "classCode": "44",
+  "notes": [
+    "注：1.本类似群与第七版及以前版本4205交叉检索；",
+    "2.动物养殖，水产养殖服务与4305类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "动物养殖",
+          "code": "440009",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "兽医辅助",
+          "code": "440111",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "动物清洁",
+          "code": "440131",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "宠物清洁",
+          "code": "440173",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "水产养殖服务",
+          "code": "440207",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蜂箱出租",
+          "code": "440223",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "野生动物管理",
+          "code": "440234",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "由兽医实验室提供的兽医诊疗分析服务",
+          "code": "440285",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "人工授精（为动物）",
+          "code": "C440002",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "体外授精（为动物）",
+          "code": "C440003",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "动物牙科",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宠物美容服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家畜饲养",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马的配种服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牲畜配种服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为识别目的替宠物文身",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "养牛服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "养蜂服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宠物洗澡服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "狗美容服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "动物烙印",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "昆虫养殖服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "动物饲养服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "兽医服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宠物医院服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "兽医外科",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "动物美容护理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "试管受精（替动物）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供兽医信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "在线提供兽医信息服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供动物养殖相关信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为动物提供医疗按摩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牲畜育种养殖服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牲畜养殖育种服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牲畜养殖服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "养猫服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马匹按摩服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "养马服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "养羊服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "体外授精（替动物）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人工授精（替动物）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "奶牛养殖服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "锦鲤养殖服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马养殖服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牲畜牧放",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为诊断或治疗目的进行动物基因检测",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "动物育种",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "动物绝育服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "动物绝育诊所服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "肉兔养殖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "种蛋孵化器出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "动物配种服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "动物卫生保健",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "动物脊椎按摩服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为医疗目的对动物进行X光检查",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宠物驱虫服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "犬养殖服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宠物牙科",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "以诊断或治疗目的的兽医分析服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "兽医针灸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "养猪服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宠物指甲护理服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "移动式宠物指甲护理服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "移动式宠物美容服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宠物营养咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宠物体检服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宠物临终关怀服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "兽医检查服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "上门提供宠物美容和洗澡服务",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:57.506Z"
+}

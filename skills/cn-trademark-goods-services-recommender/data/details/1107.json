@@ -1,0 +1,898 @@
+{
+  "groupCode": "1107",
+  "groupName": "加温、蒸汽设备（包括工业用炉、锅炉，不包括机车锅炉、锅驼机锅炉、蒸汽机锅炉）",
+  "classCode": "11",
+  "notes": [
+    "注：1.本类似群各部分之间商品不类似；",
+    "2.蒸汽锅炉（非机器部件）与0737蒸汽机锅炉类似；",
+    "3.自来水或煤气设备和管道的调节附件，自来水或煤气设备和管道的保险附件与1108自来水设备的调节和安全附件类似；",
+    "4.窑具（支架）与第八版及以前版本1907陶瓷窑具交叉检索；",
+    "5.第（二）部分与第七版及以前版本 0718 舞台烟雾机交叉检索；",
+    "6.第（一）部分与第九版及以前版本 1102 乙炔发生器交叉检索；",
+    "7.太阳炉与1109太阳能集热器，太阳能收集器类似；",
+    "8.跨类似群保护商品:水箱液面控制阀(1107第(一)部分，1109)；",
+    "9.第（一）部分与第十版及以前版本 0731 回转窑，焙烧炉交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "（一）",
+      "items": [
+        {
+          "name": "蓄热器",
+          "code": "110002",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "乙炔燃烧器",
+          "code": "110003",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "乙炔发生器",
+          "code": "110004",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "热风烘箱",
+          "code": "110008",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "热气装置",
+          "code": "110016",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "熔炉冷却装置",
+          "code": "110032",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "熔炉冷却槽",
+          "code": "110032",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "锅炉（非机器部件）",
+          "code": "110047",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "窑",
+          "code": "110048",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "散热器盖",
+          "code": "110050",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "水加热器*",
+          "code": "110052",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "实验室燃烧器",
+          "code": "110058",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "石油工业用火炬塔",
+          "code": "110059",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "燃烧器",
+          "code": "110060",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "杀菌燃烧器",
+          "code": "110061",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "洗衣房用煮衣锅",
+          "code": "110063",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "洗衣用铜锅",
+          "code": "110063",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "加热装置",
+          "code": "110067",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "回热器",
+          "code": "110069",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "耐火陶土制炉灶配件",
+          "code": "110070",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "加热用锅炉",
+          "code": "110077",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "供暖装置用锅炉管道（管）",
+          "code": "110078",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "固体、液体、气体燃料加热器",
+          "code": "110080",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "电加热装置",
+          "code": "110082",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "加热元件",
+          "code": "110085",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "熨斗加热器",
+          "code": "110086",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "浸入式加热器",
+          "code": "110090",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "胶加热器",
+          "code": "110100",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "蒸馏塔",
+          "code": "110101",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "蒸馏装置*",
+          "code": "110120",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "热交换器（非机器部件）",
+          "code": "110129",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "蒸发器",
+          "code": "110142",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "轻便锻炉",
+          "code": "110149",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非实验室用炉",
+          "code": "110150",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非实验室用烘箱",
+          "code": "110150",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "炉用成型配件",
+          "code": "110151",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "熔炉炉栅",
+          "code": "110152",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "壁炉炉床",
+          "code": "110153",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "炉灰箱",
+          "code": "110154",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "燃气锅炉",
+          "code": "110162",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "蒸汽锅炉（非机器部件）",
+          "code": "110165",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "焚化炉",
+          "code": "110173",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "水箱液面控制阀",
+          "code": "110194",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "氢氧燃烧器",
+          "code": "110197",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "油炉",
+          "code": "110199",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "加热板",
+          "code": "110201",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "蒸汽供暖装置用气阀",
+          "code": "110205",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "精炼蒸馏塔",
+          "code": "110208",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "热气流调节器",
+          "code": "110215",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "自来水或煤气设备和管道的调节附件",
+          "code": "110216",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "自来水或煤气设备和管道的保险附件",
+          "code": "110217",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "旋管（蒸馏、加热或冷却装置的部件）",
+          "code": "110224",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "炉膛灰渣自动输送装置",
+          "code": "110231",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "蒸汽发生设备",
+          "code": "110232",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "煤气管道的调节和安全附件",
+          "code": "110240",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "蒸汽储存器",
+          "code": "110242",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "蒸馏器*",
+          "code": "110246",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "供水设备",
+          "code": "110252",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "煤气设备的调节和安全附件",
+          "code": "110259",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "加热锅炉用管道",
+          "code": "110264",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "壁炉（家用）",
+          "code": "110267",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "热泵",
+          "code": "110268",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "太阳炉",
+          "code": "110270",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "暖气锅炉给水设备",
+          "code": "110273",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "窑具（支架）",
+          "code": "110279",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "工业用层析设备",
+          "code": "110292",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "加热用电热丝",
+          "code": "110293",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "水族池加热器",
+          "code": "110308",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "牙科用烘箱",
+          "code": "110311",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "恒温阀（供暖装置部件）",
+          "code": "110319",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "工业用微波炉",
+          "code": "110328",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "热风枪",
+          "code": "110340",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "工业用发酵装置",
+          "code": "110391",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "供热装置用聚丙烯耐热管",
+          "code": "110398",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "锅炉报警器",
+          "code": "C110021",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "石墨坩埚",
+          "code": "C110022",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "回转窑",
+          "code": "C110058",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "焙烧炉",
+          "code": "C110059",
+          "type": "marked",
+          "section": "（一）"
+        }
+      ]
+    },
+    {
+      "label": "（二）",
+      "items": [
+        {
+          "name": "雾发生机",
+          "code": "110370",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "烟发生机",
+          "code": "110409",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "舞台烟雾机",
+          "code": "C110049",
+          "type": "marked",
+          "section": "（二）"
+        },
+        {
+          "name": "演出用肥皂泡和泡沫发生器",
+          "code": "C110050",
+          "type": "marked",
+          "section": "（二）"
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "化学加工用蒸馏器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用垃圾焚化炉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "垃圾焚化炉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "燃气取暖炉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "熔化金属用熔炉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电锅炉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化学加工用蒸发器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化学加工用热交换器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "恒温阀（加热装置部件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用烤箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用垃圾焚化炉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用炉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "废金属提炼用熔炉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "感应式水加热器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业废气污染控制用催化焚烧炉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业废气污染控制用直燃式焚烧炉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "垃圾处理用熔炉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "瞬时水加热器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用电烤炉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用蒸汽供暖设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "供暖装置用锅炉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "回热式换热器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化学品加工用蒸烫机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "煤气管道的调节附件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非科学用蒸馏装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "耐火炉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用回转窑",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "熔炉（工业用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "气体发生炉（工业用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "热高炉（工业用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "煅烧窑（工业用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加热炉（工业用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "均热炉（工业用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "对流加热器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电热锅炉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用电炉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蒸汽发生器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "固体燃料燃烧炉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化学工业和玻璃制造业用熔炉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "给水加热器（工业用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用电磁炉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "垃圾处理焚化炉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "炭化炉（工业用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "路面加热装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冷却蒸发器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "游泳池用加热器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "集中供热锅炉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水床加热器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用再热炉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "火炉栅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "炉条",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水加热器用防止冷凝、渗漏和溢出的专用接水盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用储水池加热器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "壁炉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "液体加热装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "风扇式加热器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "坩埚",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "垃圾焚化机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用垃圾焚化机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用垃圾焚化机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水蒸馏装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "焙烧窑",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "柴火炉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高炉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用真空蒸馏塔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "桑拿加热器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "桑拿炉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加热设备用散热器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用扩散炉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用燃气燃烧器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冷却设备用散热器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通风设备用散热器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用给水加热器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烟雾机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "太阳能供暖装置",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:53.047Z"
+}

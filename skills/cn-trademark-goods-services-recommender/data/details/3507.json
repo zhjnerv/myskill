@@ -1,0 +1,173 @@
+{
+  "groupCode": "3507",
+  "groupName": "财会",
+  "classCode": "35",
+  "notes": [
+    "注：1.商业审计，税务筹划，税务申报服务，财务审计与3602税审服务类似；",
+    "2.本类似群与第十二版及以前版本 3506 开发票交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "会计",
+          "code": "350015",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "簿记",
+          "code": "350015",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "编制账目报表",
+          "code": "350016",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "商业审计",
+          "code": "350017",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "拟备工资单",
+          "code": "350067",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "税务筹划",
+          "code": "350073",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "开发票",
+          "code": "350098",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "税务申报服务",
+          "code": "350123",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "财务审计",
+          "code": "350144",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "会计咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "行政会计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "养老基金会计服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "并购会计服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "农业企业成本会计服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为第三方提供会计服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "成本会计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "财务报表的审计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人提供公共事业费率的审计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "会计服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "账目审计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有关会计的咨询和信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机化的会计服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "法务会计服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "绘制账单、账目报表",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "会计咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人进行企业工资单管理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "开发票服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "开商业发票服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "销售账目管理",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:05.723Z"
+}

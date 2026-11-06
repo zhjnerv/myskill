@@ -1,0 +1,261 @@
+{
+  "groupCode": "0507",
+  "groupName": "填塞牙孔用料，牙科用蜡",
+  "classCode": "05",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "牙用研磨剂",
+          "code": "050001",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "假牙黏合剂",
+          "code": "050003",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "牙科用贵金属合金",
+          "code": "050010",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "牙科用汞合金",
+          "code": "050012",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "牙科用橡胶",
+          "code": "050066",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "牙科用水门汀",
+          "code": "050082",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "牙医用造型蜡",
+          "code": "050084",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "牙医制模用蜡",
+          "code": "050084",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "牙填料",
+          "code": "050110",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "牙科用印模材料",
+          "code": "050111",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "牙用光洁剂",
+          "code": "050112",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "牙用黏剂",
+          "code": "050113",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "假牙用瓷料",
+          "code": "050115",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "出牙剂",
+          "code": "050116",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "牙科用金汞合金",
+          "code": "050230",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "牙科用金属底涂剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙齿密封材料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙冠材料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙齿修复材料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙齿填充材料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙桥材料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙科用蜡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙科用密封剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙科用模型蜡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙科用陶瓷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙科和牙医专用裂隙密封物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙科用烤瓷材料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙科用合金",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙科用复合材料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "假牙用材料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙科用合成材料制填料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙科用瓷填料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙科用导电漆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙科和牙科技术用复合材料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙填塞材料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙科用填衬料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙科用成形金属",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙科修复用牙齿贴面",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙科用固定材料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙用胶黏剂050113",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙科和牙科工艺用贵金属合金",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙科用黏合剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙科用树脂水门汀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙用上光剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙科用牙清漆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非永久性牙桥、牙冠、牙齿贴面用牙科树脂",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:33.172Z"
+}

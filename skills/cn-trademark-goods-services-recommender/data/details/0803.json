@@ -1,0 +1,102 @@
+{
+  "groupCode": "0803",
+  "groupName": "林业、园艺用手工具",
+  "classCode": "08",
+  "notes": [
+    "注:1. 杀虫剂用喷雾器（手工具），杀虫剂用喷洒器与0701喷雾机类似，与第十版及以前版本0701喷雾器（机器），喷雾机（机器）交叉检索；",
+    "2.跨类似群保护商品：手动的手工具（0801，0802，0803，0804，0805，0806，0807，0808，0809，0810）。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "手动的手工具",
+          "code": "080072",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "水果采摘用具（手工具）",
+          "code": "080079",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "泥铲（园艺用）",
+          "code": "080086",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "消灭植物寄生虫用手动装置",
+          "code": "080088",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "树木嫁接工具（手工具）",
+          "code": "080134",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "杀虫剂用喷雾器（手工具）",
+          "code": "080144",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "园艺工具（手动的）",
+          "code": "080145",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "杀虫剂用喷洒器",
+          "code": "080202",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "杀虫剂用手动喷雾器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "园艺用泥铲",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "种植球茎用手动工具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手动草坪打孔通气机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手动移苗器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手动起草皮铲",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "园艺用三齿耙（手工具）",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:22.755Z"
+}

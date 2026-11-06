@@ -1,0 +1,3186 @@
+{
+  "groupCode": "0901",
+  "groupName": "电子计算机及其外部设备",
+  "classCode": "09",
+  "notes": [
+    "注:1. 光盘，CD 盘(只读存储器)，光学数据介质与0908CD 盘(音像)，光盘(音像)类似，与第九版及以前版本0908密纹盘(音像)，密纹声像盘交叉检索；",
+    "2. 电子出版物（可下载），可下载的手机铃音，可下载的音乐文件，可下载的影像文件，手机用可下载图像，可下载的视频文件与 0908 唱片，录音带，录像带，CD盘（音像），盒式录像带，光盘（音像）类似；",
+    "3. 本类似群与第八版及以前版本0911光学字符读出器，光学字符阅读机，光学数据介质，光学数据媒介交叉检索；",
+    "4. 本类似群与第九版及以前版本 0908 电视游戏卡交叉检索；",
+    "5. 本类似群与第十版及以前版本 0902 第（一）部分计算尺交叉检索；",
+    "6. 跨类似群保护商品:打印机和复印机用未填充的鼓粉盒(0901，0903)，打印机和复印机用未填充的墨盒090810（0901，0903）；",
+    "7. 本类似群与第十版及以前版本 0902 第（五）部分商品电子标签交叉检索；",
+    "8. 计算机屏幕专用保护膜与第十版及以前版本1703已接受商品计算机屏幕保护膜交叉检索；",
+    "9. 智能手表，智能手表（数据处理）与 1404 类似。",
+    "10.触摸屏用触控笔与 1614 带有操作触屏设备笔头的笔（书写工具）类似"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "加法器",
+          "code": "090019",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "计算圆尺",
+          "code": "090101",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "计算尺",
+          "code": "090102",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "计算机器",
+          "code": "090103",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "数据处理设备",
+          "code": "090306",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "计算机存储装置",
+          "code": "090342",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "计算机",
+          "code": "090372",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "已录制的计算机程序",
+          "code": "090373",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "磁性身份识别卡",
+          "code": "090529",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "磁盘",
+          "code": "090533",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "软盘",
+          "code": "090534",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "计算机键盘",
+          "code": "090537",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "条形码读出器",
+          "code": "090581",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "CD盘（只读存储器）",
+          "code": "090588",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "已录制的计算机操作程序",
+          "code": "090589",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "计算机外围设备",
+          "code": "090590",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "计算机软件（已录制）",
+          "code": "090591",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "连接器（数据处理设备）",
+          "code": "090594",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "视觉演示装置用电子笔",
+          "code": "090598",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电子笔（视觉演示装置）",
+          "code": "090598",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "已编码磁卡",
+          "code": "090599",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "计算机用接口",
+          "code": "090603",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "磁性数据介质",
+          "code": "090607",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "磁性编码器",
+          "code": "090608",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "计算机用磁带装置",
+          "code": "090609",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "微处理机",
+          "code": "090610",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "监视器（计算机硬件）",
+          "code": "090612",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "监视程序（计算机程序）",
+          "code": "090613",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "计算机鼠标",
+          "code": "090614",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "光学字符识别器",
+          "code": "090615",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "光学数据介质",
+          "code": "090616",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "光盘",
+          "code": "090617",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "与计算机连用的打印机*",
+          "code": "090618",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "中央处理器（CPU）",
+          "code": "090619",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "读出器（数据处理设备）",
+          "code": "090620",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "数据处理用扫描仪",
+          "code": "090622",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "计算机用磁盘驱动器",
+          "code": "090634",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电子字典",
+          "code": "090636",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "商品电子标签",
+          "code": "090637",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "集成电路卡",
+          "code": "090640",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "智能卡（集成电路卡）",
+          "code": "090640",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "笔记本电脑",
+          "code": "090642",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "计算器",
+          "code": "090644",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "视频游戏卡",
+          "code": "090651",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电子出版物（可下载）",
+          "code": "090657",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "可下载的计算机程序",
+          "code": "090658",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鼠标垫",
+          "code": "090662",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "与计算机配套使用的腕垫",
+          "code": "090664",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "已录制的计算机游戏软件",
+          "code": "090670",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "磁性编码身份鉴别手环",
+          "code": "090692",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "可下载的手机铃音",
+          "code": "090694",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "可下载的音乐文件",
+          "code": "090695",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "可下载的影像文件",
+          "code": "090696",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "USB闪存盘",
+          "code": "090700",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "便携式计算机",
+          "code": "090707",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "便携式计算机专用包",
+          "code": "090709",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "便携式计算机用套",
+          "code": "090710",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "可下载的计算机应用软件",
+          "code": "090717",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "打印机和复印机用未填充的鼓粉盒",
+          "code": "090720",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "平板电脑",
+          "code": "090724",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "已编码钥匙卡",
+          "code": "090725",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "视频游戏机用内存卡",
+          "code": "090727",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "计算机硬件",
+          "code": "090732",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "与计算机连用的操纵杆（视频游戏用除外）",
+          "code": "090747",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "智能眼镜（数据处理）",
+          "code": "C090139",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "智能手表（数据处理）",
+          "code": "C090140",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "智能眼镜",
+          "code": "090748",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "智能手表",
+          "code": "090749",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "计算机屏幕专用保护膜",
+          "code": "090751",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "用户认证用硬件形式安全令牌",
+          "code": "090755",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "安全令牌（加密装置）",
+          "code": "090755",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "个人数字助理（PDA）用套",
+          "code": "090757",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "平板电脑用套",
+          "code": "090762",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "黑匣子（数据记录仪）",
+          "code": "090763",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "交互式触屏终端",
+          "code": "090766",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "智能指环",
+          "code": "090767",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电子交互式白板",
+          "code": "090777",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "可下载的电子乐谱",
+          "code": "090782",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "个人数字助理（PDA）",
+          "code": "090790",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "已录制的或可下载的计算机软件平台",
+          "code": "090791",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "精简型客户端计算机",
+          "code": "090795",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "掌上型电子字典",
+          "code": "090797",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "已录制的或可下载的计算机屏保软件",
+          "code": "090802",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "手机用可下载图像",
+          "code": "090804",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "移动电话用可下载图像",
+          "code": "090804",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "穿戴式计算机",
+          "code": "090806",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "打印机和复印机用未填充的墨盒",
+          "code": "090810",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "投影键盘",
+          "code": "090814",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "数据手套",
+          "code": "090819",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "手机用可下载的表情符号",
+          "code": "090821",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "远程临场机器人",
+          "code": "090822",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "可下载的计算机游戏软件",
+          "code": "090829",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "笔记本电脑专用支架",
+          "code": "090831",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "票据打印机",
+          "code": "090837",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "可下载的电子钱包",
+          "code": "090842",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "生物特征识别卡",
+          "code": "090845",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "已录制的或可下载的数据集",
+          "code": "090847",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "3D扫描仪",
+          "code": "090856",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非医用触觉反馈服",
+          "code": "090860",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "量子计算机",
+          "code": "090877",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "头戴式显示器",
+          "code": "090883",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "与便携式计算机和移动设备连用的便携式无线打印机",
+          "code": "090884",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非医用感知神经元头盔",
+          "code": "090888",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "便携式计算机用散热垫",
+          "code": "090891",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "计算机内置冷却风扇",
+          "code": "090892",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "作为医疗设备的可下载软件（SaMD）",
+          "code": "090894",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "便携式文档扫描仪",
+          "code": "090912",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "用户可编程的未配置的拟人机器人",
+          "code": "090917",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "用于虚拟环境的可下载应用软件",
+          "code": "090934",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "触屏设备用电容式手指套",
+          "code": "090939",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电子货架标签",
+          "code": "090942",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电子存储介质",
+          "code": "090943",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "可下载的视频文件",
+          "code": "090950",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "触摸屏用触控笔",
+          "code": "090951",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "近场通信（NFC）标签",
+          "code": "090965",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "轨迹球（计算机外围设备）",
+          "code": "090820",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "计算器袋（套）",
+          "code": "C090001",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "鼠标器套",
+          "code": "C090002",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "键盘罩",
+          "code": "C090003",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "软盘盒",
+          "code": "C090004",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "电话铃音（可下载）",
+          "code": "C090127",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "计算机用光盘驱动器",
+          "code": "C090136",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "智能戒指（数据处理）",
+          "code": "C090141",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "可下载的手机应用软件",
+          "code": "C090142",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "鼠标（计算机外围设备）090614",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手提电脑",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数据处理设备用存储器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数据处理设备用印刷电路接口卡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数据管理用计算机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数码图像扫描仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数字光盘驱动器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数字化输入输出扫描仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数字模拟转换器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数字信号处理器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数字语音信号处理器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "台式电脑",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "台式电子计算器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "条形码打印机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "条形码扫描器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过互联网下载的计算机游戏程序",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通信计算机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "图像处理用电子卡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "图像扫描仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "图形加速器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "外接计算机硬盘驱动器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "网卡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "网络服务器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "微芯片卡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "微型计算机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "平板电脑专用支架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "平板显示器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "热敏打印机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "软盘驱动器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "软盘驱动器（计算机用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "闪存卡读出器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "闪存卡适配器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "上网本电脑",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "射频识别（RFID）标签",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "射频识别（RFID）阅读器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "视频影像打印机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "视频游戏卡带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手持式扫描仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "局域网服务器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可从互联网下载的数字音乐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可从全球计算机网络下载的计算机游戏软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可通过全球计算机网络和无线设备下载的计算机游戏软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可下载的电子游戏程序",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "空白USB卡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "空白USB闪存驱动器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "空白磁盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "空白磁性数据载体",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "空白光盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "空白集成电路卡（空白智能卡）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "空白计算机光盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "空白记录盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "空白闪存卡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "空白智能卡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "连接便携式电脑设备和计算机网络的局域网电脑卡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "模拟数字转换器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "内存板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "内存扩展卡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "内存扩展模块",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机网络服务器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机显示器专用托架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机用内部冷却风扇",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机用柔性平板显示器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机用文件打印机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机用无线鼠标",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机游戏卡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机中央处理器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机终端设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机主板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机专用机柜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机专用托架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机专用旋转台",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机子板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "记笔记用掌上电脑",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "光盘驱动器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "光学扫描仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "光学字符识别装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "光栅图像处理器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含存储印刷字体的数据载体",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "互联网服务器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机白板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机操纵杆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机服务器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机机箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机监视器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机输入装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "个人电脑",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "光盘盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "固态硬盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "管理飞机控制装置用计算机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "光笔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "光盘储存夹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "光盘存储器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "光盘读出器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子计算器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子日记本",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子日记本用盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子钥匙卡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "读卡设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "读取信用卡用电子机器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电泳显示器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子笔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子存储器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子电路卡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子读卡器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子个人记事本",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "磁性编码借记卡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "磁性编码身份识别手镯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "磁性编码信用卡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "打印机用打印头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "大屏幕液晶显示器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "带有集成电路的卡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电脑打印机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电脑专用包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电信用计算机硬件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "处理信息、数据、声音和图像用中央处理器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "磁盘盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "磁盘驱动器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "磁盘用保护盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "CD-ROM刻录机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "CD刻录机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "DVD驱动器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "LED显示器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "SIM卡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "USB读卡器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "安全数码（SD）记忆卡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "半导体存储单元",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "半导体存储器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "编解码装置和仪器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "编码磁卡读卡器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "编码和解码装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "便携式计算器套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "载有磁性记录或编码信息的标签",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "载有电子记录或编码信息的标签",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "载有光学记录或编码信息的标签",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "掌上电脑",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "照片打印机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "只读光盘驱动器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "指纹成像仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "指纹扫描仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "智能卡读卡器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "中央处理器用散热器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "液晶显示器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "已编码的身份识别卡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "银行用计算机终端",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硬盘驱动器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于支付服务的电子和磁性身份识别卡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "与计算机连用的存储器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "与计算机连用的文件打印机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "芯片卡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "芯片卡读卡器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "信用卡编码机（计算机外围设备）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "信用卡读卡器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "袖珍电子计算器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "彩色文档打印机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "磁条读取器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "存储卡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子编码的身份腕带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "管理电子数据表用计算机软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "激光文档打印机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机访问控制用计算机软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机硬件用装配支架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可下载的平面设计模板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "内存模块",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "喷墨彩色文档打印机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "喷墨文档打印机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "身份鉴别用安全编码卡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数字彩色文档打印机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "文件管理用计算机软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医学教学用虚拟现实软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于授权访问数据库的计算机软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制作财务模型用计算机软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "预订出租车用手机应用软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "网络托管用服务器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机网络附加存储（NAS）硬件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "存储卡读卡器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "光学读取器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电脑棒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "激光彩色文件打印机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "安全数字（SD）卡读卡器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可通过电子传输下载的打印字体",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水下用计算机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "光学读码器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机触控笔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "空白CD盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高尔夫教学方面的可下载电子书",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机轨迹球",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机程序（可下载软件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "已录制的计算机游戏程序",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "图形处理器（GPU）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数位板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "闪存卡读卡器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "笔记本电脑用散热垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机键盘防尘罩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子记事本",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可下载的连环漫画",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鼠标扫描仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机并行端口",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机用散热器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子钱包（可下载计算机软件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数字钱包（可下载计算机软件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可编程逻辑控制器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "互联网和万维网用计算机程序",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "编码和解码装置和仪器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "空的闪存卡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "资信筛选软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数字输入及输出扫描仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可通过电子传输下载的印刷字体",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "处理数字音乐文件用计算机软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手势识别软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "已录制的计算机程序（程序）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "遥控检索计算机和计算机网络内容用计算机程序",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "接入或进入控制用计算机程序",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子现金登记系统用计算机程序",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "控制和管理访问服务器应用程序用计算机软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "控制自助终端用计算机软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "传真机程序编制用计算机软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "使照片能够传送到手机的计算机软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用户界面设计用计算机程序",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子字典专用表面保护膜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子字典专用屏幕保护膜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "光学字符识别软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "液晶监视器专用屏幕保护膜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "掌上电脑专用屏幕保护膜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "笔记本电脑专用表面保护膜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "笔记本电脑专用屏幕保护膜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "便携式电脑专用表面保护膜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数字彩色打印机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "信用卡用读卡器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "收据打印机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "虚拟现实游戏软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数码照片打印机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "移动电话用计算机游戏软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "移动电话用应用软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数据库管理用计算机软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "视频显示器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "视频游戏程序",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "显示器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "交互式多媒体计算机游戏程序",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数据压缩软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "网络管理用计算机软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "液晶监视器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "液晶显示器用保护膜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "液晶显示器用带有偏光板的保护膜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "空白计算机盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "平板电脑保护套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "平板电脑外壳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "文件管理用计算机程序",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "声卡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "喷墨打印机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "射频识别标签",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "射频识别阅读器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "存储器板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "操作系统程序",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机显示适配器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电脑程序",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机操作程序",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机操作软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "便携式打印机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "DVD光驱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "IC卡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "LCD显示器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "等离子显示器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "彩色打印机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "彩色喷墨打印机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "光学阅读机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机游戏程序",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机显示器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加密用计算机软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子卡读出器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "平板电脑用屏幕保护膜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机用打印机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "激光打印机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "编辑图像、声音和视频用计算机程序",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "印刷电路形式的数据处理设备用接口卡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机应用程序（执行计算机维护工作用程序）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "创建和编辑音乐和声音用计算机软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "编译软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "远程连接计算机或计算机网络用计算机程序",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "芯片读卡器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "芯片电路卡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "远程检索计算机和计算机网络内容用计算机程序",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "收银机系统用计算机程序",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "掌上型电子词典",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "音频和视频设备操作控制用计算机软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于远程检索计算机和计算机网络内容的计算机程序",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "视频游戏和计算机游戏用程序",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于测定放射治疗中放射量的软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机软件应用程序（可下载）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "音乐作曲软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "模拟对话用聊天机器人软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家庭网络系统用服务器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无线内容传送用计算机软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机屏保软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "喷墨彩色打印机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "仓库管理软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机游戏软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鼠标脚垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机键盘用键帽",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可下载的儿童丛书",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "录制音乐用机器可读的计算机软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "处理半导体晶片用计算机软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "放射治疗领域内放射量测定用软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "保障电子邮件安全的软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "图像、图表和文字处理软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "便携式磁卡和电子卡操作管理用软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "控制和改善音响设备音质的软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "处理数字图像用计算机软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "维护和运行计算机系统的计算机软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手持式电子词典",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鼠标垫（计算机外围设备）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "存储器扩容模块",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可下载手机图像",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可下载的音乐录音制品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车导航用计算机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机磁盘驱动器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机网络硬件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "个人数字助理用套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可下载的海报",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可下载的公路交通图",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可下载的明信片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可下载的视频游戏程序",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可编程控制器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机网络适配器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机无线外围设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可下载的绘画小说",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数据处理器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可下载的漫画",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可下载的缝纫图样",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可下载的可打印日历",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可下载的日历软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可下载的表情符号",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "三维立体扫描仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可下载的铃声",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可下载的地图",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "三维扫描仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手持式3D扫描仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可下载的智能手机游戏软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可下载的智能手机心率监测软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "深度学习领域用于数据收集、分析和整理的可下载计算机软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "菊轮打印机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "触屏显示器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "击打式打印机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "超级计算机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "预约出租车用可下载手机应用程序",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可下载的疫苗接种记录表",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机用曲面监视器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可下载的益智游戏软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可下载的视频游戏软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可下载的计算机游戏程序",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数据处理装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "旋转编码器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有关有形和虚拟空间、电子网络以及电子数据文档的进入控制软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于在虚拟游戏环境中提供实时数据的计算机软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于增强网络的带宽和可靠性",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "将两个或者多个计算机网络组合一个单项虚拟网络的计算机软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于微型处理器控制系统或者虚拟焊接设备的计算机软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于生成和虚拟化环绕声音的计算机程序",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于实时和三维模拟及虚拟现实计算的光学仪器商用软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "在线游戏和虚拟现实游戏用计算机软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于建立和链接虚拟计算机基础结构和网络以及存储空间的计算机软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于虚拟现实游戏的计算机软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于虚拟转发器安全传输的软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于虚拟转发器创建和运作的软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于开发虚拟个人网络的计算机软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于计算机网络虚拟基础结构管理的计算机软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "即对配置性能的变化",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "配置的变化",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "重要事件以及性能数据进行检验",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "分析以及报告的软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于提供对在线三维虚拟环境的多用户访问权的软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于提供多种用户对在线三维虚拟环境访问的软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于通过全球卫星系统对虚拟环境中对二维和三维的移动物体进行实时综合处理的计算机软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于对机械电子系统、控制系统以及机械系统及其产品的功能性性能进行虚拟模拟和分析的软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于体验学习、商业、管理以及领导能力训练的虚拟现实的游戏软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "射频标签",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机接口板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "具有预安装计算机软件并能够提供网络安全服务和虚拟专用网服务的计算机设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可下载的虚拟现实电脑游戏软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于创造、控制、参与3D虚拟环境的计算机软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于操作系统、应用程序和桌面虚拟化的计算机软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "信号处理器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过虚拟计算机监视器用于提高计算机安全的计算机软件(已录制)",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数字化视频光盘机的只读存储器解码的虚拟现实游戏软件(已录制)",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "虚拟磁带存储器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "虚拟个人网络(VPN)服务器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "虚拟化计算机软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "虚拟化用计算机程序",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "虚拟化游戏软件(已录制)",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "虚拟键盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "虚拟键盘驱动软件(已录制)",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "虚拟键盘用软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "虚拟实景游戏软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "虚拟实境游戏软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "虚拟鼠标(可下载软件)",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "虚拟现实电脑游戏软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "虚拟现实计算机软件(已录制)",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "虚拟现实计算机游戏软件(已录制)",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "虚拟现实软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "虚拟现实软件(已录制)",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "虚拟现实系统(已录制的计算机软件)",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "虚拟现实系统用计算机程序(可下载软件)",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "虚拟现实系统用计算机软件(已录制)",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "虚拟现实系统用计算机硬件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "虚拟现实系统用计算机游戏软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "虚拟现实游戏的计算机软件(已录制)",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "虚拟专用网操作软件(已录制)",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "虚拟专用网络操作软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "虚拟专用网络软件(已录制)",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "虚拟专用网用计算机硬件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于建立、促进及管理远距电脑、区域网络、虚拟私人网络、广域网络及全球电脑网络安全远距存取及通信的计算机软件(已录制)",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于建立、促进及管理远距电脑、区域网络、虚拟私人网络、广域网络及全球电脑网络安全远距存取及通信的计算机硬件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于建立和管理一个可以通过多种实体服务器、虚拟化平台及其他云服务器来部署和管理应用程序的作为基础设施服务的混合云服务器的计算机软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于建立和维护防火墙的虚拟私人网络计算机硬件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于建立虚拟专用网络的计算机软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供在三维虚拟环境中对多重对象的描述以便利数字内容导航的计算机软件(录制好的计算机程序)",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于计算机虚拟专用网的软件(已录制)",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "录制在光盘上的虚拟现实游戏软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "网络服务器虚拟化用计算机软件(已录制)",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于电子商务和电子贸易",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "对电子商务系统进行管理和开发",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "并能创建及支持虚拟企业的软件(已录制)",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "将用户位置映射到虚拟环境中并允许在互联网中进行通信会议的服务器软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供虚拟化技术的计算机软件(已录制)",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供虚拟化技术的计算机硬件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供虚拟用户/设备接口设备的计算机操作程序(已录制)",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供虚拟用户/设备接口设备的计算机软件(已录制)",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可刻录的空白DVD盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机的备份驱动器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于创编虚拟社区和通过数字人物和人物形象进行创编以及与其他技能或者组队搭配打法玩家进行互动的计算机软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于创建虚拟专用网络的计算机软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于对声音、震荡、磨损和撕裂、强度、安全性、碰撞和撞击阻力、运动、车辆的动态路面运转和路面定位进行虚拟模拟和分析的软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用来优化网络云和虚拟化数据中心的计算机软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "虚拟磁盘服务器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "虚拟个人网络操作软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "虚拟空间游戏软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于表现人物及其运动",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "并可在虚拟世界中与该人互动的三维演示软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于表现一个人物及其运动",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "并可在虚拟世界中与其互动的三维软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于机器自动化控制的虚拟软件程序",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "虚拟现实模拟器用软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "虚拟现实游戏用计算机软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "虚拟现实游戏用软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "虚拟专用网络（虚拟专用网络）的操作软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于电视",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机以及其他电子和虚拟游戏的软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "已录制的虚拟现实游戏软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于对虚拟磁盘驱动器的文档和目录进行加密的软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于操作和管理虚拟化计算机环境的计算机软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于操作和管理虚拟化计算机环境的可移动的介质载体存储计算机软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为用户提供与虚拟化计算机环境连接的计算机软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子笔(虚拟显示装置用)",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通讯设备用虚拟现实电子游戏软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供虚拟机和虚拟机映像数据库的计算机软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供对虚拟机械进行在线访问的计算机软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于跟踪驾驶员行为的计算机硬件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "动物电子身份识别装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于量化虚拟系统性能的计算机软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供多用户访问在线三维虚拟环境的软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于虚拟现实系统的计算机软件(已录制)",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于虚拟现实游戏的计算机软件(已录制)",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "已录制的虚拟现实游戏计算机软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于创建虚拟私人网络的计算机软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机用小型键盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "射频识别电子标签",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "网络访问服务器硬件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "掌上电脑用套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "已录制在磁介质上的字型字体",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "扫描仪（数据处理设备）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "模数转换器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用户可编程的未配置的类人机器人",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于使用人工智能从文本生成图像的可下载计算机软件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人工智能眼镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子加密装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可下载的打印字体",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机键盘控制器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "磁编码礼品卡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生物识别身份卡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可下载的电子地图",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "视频服务器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机串行端口",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "动态随机存取存储器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "超导量子计算原型机",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:29.268Z"
+}

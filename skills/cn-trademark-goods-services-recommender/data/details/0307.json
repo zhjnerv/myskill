@@ -1,0 +1,205 @@
+{
+  "groupCode": "0307",
+  "groupName": "牙膏，洗牙用制剂",
+  "classCode": "03",
+  "notes": [
+    "注：本类似群与 0501 含药物的洁牙剂，含药物的牙膏类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "非医用漱口剂",
+          "code": "030031",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "洁牙剂*",
+          "code": "030079",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "假牙清洁剂",
+          "code": "030194",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "假牙用抛光剂",
+          "code": "030198",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "口气清新喷雾",
+          "code": "030204",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "牙用漂白凝胶",
+          "code": "030210",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "口气清新片",
+          "code": "030216",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "牙齿美白贴",
+          "code": "030235",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "个人卫生用口气清新剂",
+          "code": "030250",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "牙膏*",
+          "code": "030258",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "牙齿美白笔",
+          "code": "030276",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "口香水",
+          "code": "C030065",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "固体牙膏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "清洁假牙制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "湿牙粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "美白牙膏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙齿清洗液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙齿清洁制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙齿抛光剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "浸增白剂的牙齿增白条（化妆品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "不含药物的牙齿清洗剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非医用牙科冲洗剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "口香糖式的洁牙剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙齿美白制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可吞咽牙膏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "漱口剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "漱口水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "固体洁牙剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "不含药物的洁牙剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "不含药物的漱口水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙齿美白霜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "不含药物的漱口剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙齿保持器用清洁片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "洁牙液",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:22.857Z"
+}

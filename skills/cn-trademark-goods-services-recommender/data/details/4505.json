@@ -1,0 +1,285 @@
+{
+  "groupCode": "4505",
+  "groupName": "单一服务",
+  "classCode": "45",
+  "notes": [
+    "注：1.本类似群为单一服务，各自然段间互不类似；",
+    "2.本类似群各自然段与第七版及以前版本4227各单一服务交叉检索；",
+    "3.计划和安排婚礼服务与第九版及以前版本4102组织安排婚庆活动、婚庆主持（司仪）交叉检索；",
+    "4.保险箱出租与第九版及以前版本3602保险箱出租交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "开保险锁",
+          "code": "450033",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "交友服务",
+          "code": "450005",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "婚姻介绍",
+          "code": "450112",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "在线网络社交服务",
+          "code": "450218",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "社交介绍所服务",
+          "code": "450253",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "消防",
+          "code": "450179",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "火警报警器出租",
+          "code": "450203",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "灭火器出租",
+          "code": "450204",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "组织宗教集会",
+          "code": "450184",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "举行宗教仪式",
+          "code": "450231",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "领养代理",
+          "code": "450193",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "失物招领",
+          "code": "450200",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "保险箱出租",
+          "code": "450215",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "护卫犬出租",
+          "code": "450274",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "救生衣出租",
+          "code": "450275",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "潜水服出租",
+          "code": "450276",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "防护服装出租",
+          "code": "450277",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "防护用头盔出租",
+          "code": "450278",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "宗谱研究",
+          "code": "450216",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "计划和安排婚礼服务",
+          "code": "450217",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "为特殊场合释放鸽子",
+          "code": "450219",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "互联网域名租赁",
+          "code": "450233",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "动物领养服务",
+          "code": "450264",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "互联网聊天室内容审核",
+          "code": "450266",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "失物招领处服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供和组织非宗派、非宗教的世俗婚礼仪式",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "火警监控",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "交友介绍服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "开门锁服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "收养安置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为纪念逝世亲人组织遗属聚会",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "炸弹探测服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "婚姻咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "婚介服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防火咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "消防服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供婚礼司仪服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机交友服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "失物招领局服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供和组织非宗教民间婚礼仪式",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "婚礼策划及安排咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "举行民事结婚仪式",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "互联网域名出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "互联网交友服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "视频交友服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "在线约会俱乐部服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宠物埋葬服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为宠物提供停尸房",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:01:01.547Z"
+}

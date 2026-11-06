@@ -1,0 +1,108 @@
+{
+  "groupCode": "0609",
+  "groupName": "日用五金器具",
+  "classCode": "06",
+  "notes": [
+    "注：1.跨类似群保护商品：五金器具（0607，0608，0609）；小五金器具（0607，0608，0609）。",
+    "2.金属制手持旗杆与第十版及以前版本2003旗杆交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "手杖用金属包头",
+          "code": "060064",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "门前鞋底刮板",
+          "code": "060113",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属门铃（非电动）",
+          "code": "060121",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "手柄用金属包头",
+          "code": "060172",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "普通金属制钥匙圈",
+          "code": "060221",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "五金器具*",
+          "code": "060227",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "小五金器具*",
+          "code": "060227",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铃*",
+          "code": "060241",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属包头",
+          "code": "060262",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属挂包钩",
+          "code": "060463",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "袋子用金属封口夹",
+          "code": "060469",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属制手持旗杆",
+          "code": "060480",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属钥匙链",
+          "code": "C060027",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "帐圈",
+          "code": "C060028",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "金属钥匙环",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:39.324Z"
+}

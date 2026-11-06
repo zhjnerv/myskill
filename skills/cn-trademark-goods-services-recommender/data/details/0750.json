@@ -1,0 +1,1082 @@
+{
+  "groupCode": "0750",
+  "groupName": "机器传动用联轴节，传动带及其他机器零部件",
+  "classCode": "07",
+  "notes": [
+    "注：1.本类似群各部分之间商品不类似；",
+    "2.第(一)部分与第十版及以前版本 0748 机器、引擎或马达用控制缆,机器、引擎或马达用机械控制装置,机器、引擎或马达用控制装置,第九版及以前版本 0924 电动关门器,电动开门器交叉检索;",
+    "3.第(三)部分与第十二版及以前版本 0734 升降机传动带交叉检索；",
+    "4. 汽车发动机飞轮,汽车发动机曲轴,汽车发动机凸轮轴与第七版及以前版本1202汽车零部件,汽车配件及其他属于本类似群的商品交叉检索；",
+    "5. 过滤器(机器或引擎部件)与 0748 净化冷却空气用过滤器(引擎用),机油滤清器(引擎部件),空气滤清器(引擎部件),柴油滤清器(引擎部件),燃料滤清器(引擎部件),0749 液压滤油器类似,与第十版及以前版本 0748 机油滤清器,空气滤清器,柴油滤清器交叉检索；",
+    "6. 电操作刷(机器部件)与第十版及以前版本 0748 电操作刷交叉检索。",
+    "7.非陆地车辆用离合器垫与第十二版及以前版本 1702 离合器垫交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "（一）",
+      "items": [
+        {
+          "name": "联轴器（机器）",
+          "code": "070001",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "机器轴",
+          "code": "070020",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "曲轴",
+          "code": "070021",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非陆地车辆用传动轴",
+          "code": "070022",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "润滑环（机器部件）",
+          "code": "070031",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "机器、马达和引擎用连杆",
+          "code": "070048",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "刷子（机器部件）",
+          "code": "070068",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "注油器（机器部件）",
+          "code": "070085",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "滑轮*",
+          "code": "070099",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "机器用凿子",
+          "code": "070107",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "滑轮（机器部件）",
+          "code": "070117",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "给水除气设备",
+          "code": "070147",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "去油脂装置（机器）",
+          "code": "070149",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "蒸汽或油分离器",
+          "code": "070152",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "减压器（机器部件）",
+          "code": "070154",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "机械绕轴装置",
+          "code": "070155",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "水加热器（机器部件）",
+          "code": "070165",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非陆地车辆用离合器",
+          "code": "070174",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "筛（机器或机器部件）",
+          "code": "070187",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "润滑油箱（机器部件）",
+          "code": "070204",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "机器导轨",
+          "code": "070209",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "曲柄（机器部件）",
+          "code": "070230",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非陆地车辆用推进装置",
+          "code": "070252",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非陆地车辆用传动装置",
+          "code": "070253",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "调节器（机器部件）",
+          "code": "070254",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "机器、马达和引擎调速器",
+          "code": "070275",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非陆地车辆用飞轮",
+          "code": "070279",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "轴颈箱（机器部件）",
+          "code": "070289",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "压力调节器（机器部件）",
+          "code": "070317",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "弹簧（机器部件）",
+          "code": "070330",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "机器用齿轮装置",
+          "code": "070335",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "机器轮",
+          "code": "070336",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "机器飞轮",
+          "code": "070337",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "滑动台架（机器部件）",
+          "code": "070365",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "轴颈（机器部件）",
+          "code": "070366",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "机器联动装置",
+          "code": "070369",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "软管用机械式卷盘",
+          "code": "070376",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非陆地车辆用联轴节",
+          "code": "070385",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "缓冲活塞（机器部件）",
+          "code": "070395",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "减震器栓塞",
+          "code": "070395",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "减震器活塞（机器部件）",
+          "code": "070395",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "机器用耐摩擦垫",
+          "code": "070396",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非运载工具用刹车垫",
+          "code": "070405",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非运载工具用制动蹄",
+          "code": "070406",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非运载工具用刹车扇形片",
+          "code": "070407",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非陆地车辆用变速箱",
+          "code": "070409",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "电操作刷（机器部件）",
+          "code": "070413",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "过滤机滤筒",
+          "code": "070424",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非陆地车辆用驱动链",
+          "code": "070425",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非陆地车辆用转矩变换器",
+          "code": "070426",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非陆地车辆用传动链",
+          "code": "070427",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "机器、引擎或马达用控制缆",
+          "code": "070434",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "机器、引擎或马达用机械控制装置",
+          "code": "070435",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "水分离器",
+          "code": "070439",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非陆地车辆用齿轮传动装置",
+          "code": "070443",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非陆地车辆用减速齿轮",
+          "code": "070447",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "热交换器（机器部件）",
+          "code": "070450",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "过滤器（机器或引擎部件）",
+          "code": "070457",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "机器、马达和引擎用曲柄轴箱",
+          "code": "070474",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "万向节",
+          "code": "070479",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "升降机铰链（机器部件）",
+          "code": "070491",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "膨胀水箱（机器部件）",
+          "code": "070493",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "工业用振荡器（机器）",
+          "code": "070509",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "液压开门器",
+          "code": "070515",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "气动开门器",
+          "code": "070520",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非运载工具用刹车片",
+          "code": "070524",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "电动关门器",
+          "code": "070538",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "电动开门器",
+          "code": "070539",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "电动开窗器",
+          "code": "070545",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "电动关窗器",
+          "code": "070546",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "液压开窗器",
+          "code": "070547",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "液压关窗器",
+          "code": "070548",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "气动开窗器",
+          "code": "070549",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "气动关窗器",
+          "code": "070550",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "液压关门器",
+          "code": "070551",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "气动关门器",
+          "code": "070552",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "作为机器部件的操纵杆（游戏机用除外）",
+          "code": "070567",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "运载工具引擎用凸轮轴",
+          "code": "070568",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "起动器小齿轮",
+          "code": "070606",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "机械密封件（机器部件）",
+          "code": "070621",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非陆地车辆用离合器垫",
+          "code": "070623",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "减震器（机器部件）",
+          "code": "C070352",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "牛油杯",
+          "code": "C070353",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "机器拉带",
+          "code": "C070354",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "汽车发动机飞轮",
+          "code": "C070419",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "汽车发动机曲轴",
+          "code": "C070420",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "汽车发动机凸轮轴",
+          "code": "C070421",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "润滑设备",
+          "code": "C070356",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "机用皮件（包括皮辊、皮圈、皮垫、皮碗）",
+          "code": "C070357",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "机械密封件",
+          "code": "C070358",
+          "type": "marked",
+          "section": "（一）"
+        }
+      ]
+    },
+    {
+      "label": "（二）",
+      "items": [
+        {
+          "name": "自动加油轴承",
+          "code": "070027",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "滚珠轴承",
+          "code": "070049",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "机器轴承托架",
+          "code": "070091",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "轴承（机器部件）",
+          "code": "070130",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "传动轴轴承",
+          "code": "070290",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "滚柱轴承",
+          "code": "070338",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "轴承滚珠环",
+          "code": "070339",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "机器用耐磨轴承",
+          "code": "070396",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "轴瓦",
+          "code": "C070431",
+          "type": "marked",
+          "section": "（二）"
+        }
+      ]
+    },
+    {
+      "label": "（三）",
+      "items": [
+        {
+          "name": "输送机传输带",
+          "code": "070036",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "机器传动带",
+          "code": "070074",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "滑轮胶带",
+          "code": "070314",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "橡胶履带（履带式建筑工程机械部件）",
+          "code": "070569",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "橡胶履带（履带式装卸机械部件）",
+          "code": "070570",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "橡胶履带（履带式农业机械部件）",
+          "code": "070571",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "橡胶履带（履带式采矿机械部件）",
+          "code": "070572",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "橡胶履带（履带式扫雪机部件）",
+          "code": "070573",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "平行胶带（包括运输带",
+          "code": "",
+          "type": "marked",
+          "section": "（三）"
+        },
+        {
+          "name": "传送带",
+          "code": "",
+          "type": "marked",
+          "section": "（三）"
+        },
+        {
+          "name": "不包括陆地车辆引擎传动带）",
+          "code": "C070359",
+          "type": "marked",
+          "section": "（三）"
+        },
+        {
+          "name": "三角胶带",
+          "code": "C070360",
+          "type": "marked",
+          "section": "（三）"
+        },
+        {
+          "name": "风扇胶带（不包括陆地车辆引擎风扇传动带）",
+          "code": "C070361",
+          "type": "marked",
+          "section": "（三）"
+        },
+        {
+          "name": "升降机传动带",
+          "code": "C070457",
+          "type": "marked",
+          "section": "（三）"
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "工业机器用制动闸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电梯用齿轮传动装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电滑轮组",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机器用减震器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机器用滚柱轴承",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "农业运载机器用传动带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "衬套（机器部件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "发动机推杆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机器用弹簧减震器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机器用动力传动带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机器用离合器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机器用制动器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机器用轴承衬套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机器轴承座",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属滑轮（机器零件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马达摇杆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "膜状过滤器（机器部件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "凸轮链轮（引擎定时组件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "橡胶履带（装卸机械部件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "橡胶履带（扫雪机部件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "橡胶履带（农业机械部件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "橡胶履带（建筑机械部件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "橡胶履带（建筑工程机械部件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "橡胶履带（采矿机械部件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "引擎用摇臂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "引擎轴承",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机器用齿轮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非陆地车辆用传动带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "凸轮轴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机器用动力联动和传动装置（非陆地车辆用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动大门操作器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "液压大门操作器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "块式制动器（非陆地车辆用机器部件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "刷（机器部件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "花园软管用电动卷轴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮带轮（机器部件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "凸轮（机器部件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "液压联轴器（机器部件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "怠速滑轮（机器部件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "滚子链（机器部件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "变速齿轮（机器部件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "多片式钢板弹簧（机器部件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "锥形制动器（机器部件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "盘式制动器（机器部件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "液压扭矩变换器（非陆地车辆用机器元件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "联轴器（机器部件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "减速齿轮（机器部件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机器正时皮带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "轴承保持架（机器部件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机器用滑动轴承",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "油分离器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "船用变速器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "轴承（机器零件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动闭门器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机器或发动机用控制缆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "凸轮链条（引擎定时组件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非陆地车辆用带闸（机器部件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "丝网输送带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非陆地车辆用联动机件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马达和引擎用曲柄轴箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马达和引擎用连杆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "凸轮链",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非陆地车辆用带式制动器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "传动轴轴承（机器部件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马达和引擎用调速器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "花园软管用电动绕轴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "发动机用凸轮轴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "凸轮链轮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "软管用机械绕轴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马达和引擎用推杆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "平行胶带（包括运输带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "传送带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "不包括陆地车辆引擎传动带）C070359",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "输送带挡板",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:18.440Z"
+}

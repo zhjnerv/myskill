@@ -1,0 +1,987 @@
+{
+  "groupCode": "4209",
+  "groupName": "提供科学技术研究服务",
+  "classCode": "42",
+  "notes": [
+    "注：1.本类似群各部分之间服务不类似；",
+    "2.第（一）部分与第十一版及以前版本 4220 已接受项目人工智能领域的技术咨询，人工智能领域的研究，第十版及以前版本4214物理研究，机械研究交叉检索；",
+    "3.工程绘图与4217建筑制图类似。",
+    "4.质量检测与4214材料测试类似。",
+    "5.技术研究，技术项目研究，科学研究与 4210 地质研究，4211 化学研究，化妆品研究，4212 细菌学研究，生物学研究，医学研究，基因学领域的科学研究类似；",
+    "6.技术研究,技术项目研究,科学研究与 4210 地质研究,4211 化学研究,化妆品研究,4212细菌学研究,生物学研究,医学研究,基因学领域的科学研究,兽医学研究类似;；",
+    "7.第（二）部分与第十二版及以前版本 4210 校准（测量）交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "（一）",
+      "items": [
+        {
+          "name": "技术研究",
+          "code": "420040",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "技术项目研究",
+          "code": "420061",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "工程学*",
+          "code": "420064",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "物理研究",
+          "code": "420096",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "机械研究",
+          "code": "420101",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "为他人研究和开发新产品",
+          "code": "420161",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "城市规划",
+          "code": "420192",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "节能领域的咨询",
+          "code": "420207",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "环境保护领域的科学研究",
+          "code": "420208",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "提供关于碳抵消的科学信息、建议和咨询",
+          "code": "420212",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "水质分析",
+          "code": "420216",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "科学实验室服务",
+          "code": "420217",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "能源审计",
+          "code": "420218",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "科学研究",
+          "code": "420222",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "电信技术咨询",
+          "code": "420233",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "撰写科技文稿",
+          "code": "420236",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "自然灾害领域的科学和技术研究",
+          "code": "420251",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "关于专利地图的科学和技术研究",
+          "code": "420253",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "电信技术领域的研究",
+          "code": "420255",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "焊接领域的研究",
+          "code": "420256",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "人工智能技术咨询",
+          "code": "420277",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "人工智能技术领域的研究",
+          "code": "420278",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "提供与净零排放有关的科学信息、建议和咨询",
+          "code": "420289",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "芯片设计",
+          "code": "420309",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "声学测量服务",
+          "code": "420312",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "工程绘图",
+          "code": "C420015",
+          "type": "marked",
+          "section": "（一）"
+        }
+      ]
+    },
+    {
+      "label": "（二）",
+      "items": [
+        {
+          "name": "校准（测量）",
+          "code": "420136",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "质量控制",
+          "code": "420157",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "活立木的质量评估",
+          "code": "420213",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "羊毛质量评估",
+          "code": "420214",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "质量检测",
+          "code": "C420006",
+          "type": "marked",
+          "section": "（二）"
+        },
+        {
+          "name": "质量评估",
+          "code": "C420007",
+          "type": "marked",
+          "section": "（二）"
+        },
+        {
+          "name": "质量体系认证",
+          "code": "C420008",
+          "type": "marked",
+          "section": "（二）"
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "在动物身上研究化合物合用的作用机理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "物理学研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "填充用装置和机器的设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "科学研究和开发",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "环境科学方面的技术咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "关于赛车的机械研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "多媒体产品的设计和开发",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电信设备和部件的设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "产品质量检测服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "产品质量评估",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "集成电路设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "技术开发领域的咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "药物开发服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "药物研究服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "以医疗为目的的科学调查",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "研究和开发新产品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "环境测试和检查服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "减少碳排放的研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "假体的设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "半导体加工技术研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机械工程学研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "航空学领域的技术研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可替代能源产生领域的技术咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "温室气体排放量的测量和分析",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "污染检测领域的技术咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "环境工程领域的技术咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "替第三方研究和开发塑料原料新产品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "质量控制（为他人）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "能源研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "农业研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "产品质量检测",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工程设计服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "实验设备和仪器出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "产品安全检测服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "环境保护研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "航空器设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食品研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "关于温室和田地作物害虫的综合科学研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "光学组件的设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有关机械工程分析的技术咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "航空航天工程方面的技术咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电气安全性研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水质监测",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "与食品和膳食补充剂的研究有关的技术咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "与饮食方面的技术研究有关的技术咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "物理研究和开发服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "头发护理研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "河水质量分析",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机械制造的研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电信工程咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商品和服务的质量控制",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑木材质量评估",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "出租技术绘图仪器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "服务的质量控制",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "集成电路的设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "半导体的设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "半导体封装设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有关园林设计的工程绘图服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "发电站设计服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "半导体设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "技术研究咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "天文学咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "与物理相关的研究和开发服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于无线联络、电子数据处理、消费电子及汽车电子设备的电路制造技术开发",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "消费者产品安全检测",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "产品开发咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机械工程",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电气工程学",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人开发产品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木材分级",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人工智能领域的技术咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人工智能领域的研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "车辆无人驾驶技术领域的研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "光学实验室",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "核能发电技术领域的研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "量子通信技术领域的研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "特高压技术领域的研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业 X 光检测服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "辐射测量服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氢燃料电池领域的研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "深度学习领域的研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "低温工程研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "石油工业的磁共振成像的判读分析",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "环境保护领域的研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "能源领域的科学研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可控核聚变技术领域的研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "材料科学领域的研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "产品缺陷分析服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "超视距雷达技术领域的研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "磁流体发电技术领域的研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "洁净煤技术领域的研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "内燃机系统设计服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "溪流水质监测",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可再生能源领域的科学研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "海水淡化技术研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机器视觉技术研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "量子精密测量领域的研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生物塑料技术研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手机屏幕指纹识别领域的技术研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电力领域的科学研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供科学研究用风洞设施",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "科学研究的咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "太阳能光伏系统的设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "3D光学测量技术研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "3D激光成形技术研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "4D打印技术研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "量子模拟领域的技术研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "异构计算领域的技术研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "超声波指纹识别技术研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "智能手机屏下摄像头技术研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "虹膜识别技术研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "暗物质领域的研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "校准服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "农业灌溉领域的科学研究咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "微芯片设计服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "核子密度仪的校准",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑检测鉴定设备的校准",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硅光芯片制造技术研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "城市规划领域的研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "移动支付技术研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "气体流量测量服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "磁悬浮技术研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动汽车无线充电技术研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机器人流程自动化技术研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "磁光记录领域的技术研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "流式计算领域的研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食品领域的研发服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工程领域的研发服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "农业研究实验室服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "DNA芯片技术领域的研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "激光切割领域的技术研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "热塑性弹性材料领域的研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "DNA 芯片的研究与开发",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "噪声测量服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "航空发动机领域的技术研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卫星成像技术研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "遥感领域的技术研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "风光互补发电领域的研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "具身智能领域的研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工程研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新产品开发的设计与测试",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "实验用风洞设备出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于检测水中污染物的环境测试服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "环境技术领域的技术咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为能源审计目的替他人提供能源监测服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "光伏系统的设计与开发",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "环境技术领域的工程服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "能源技术领域的工程服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "空气质量分析",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "环境工程服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "天文学领域的研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "介入磁共振成像技术研究",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:45.785Z"
+}

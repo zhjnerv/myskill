@@ -1,0 +1,99 @@
+{
+  "groupCode": "0716",
+  "groupName": "工业用雕刻、打标机械",
+  "classCode": "07",
+  "notes": [
+    "注：1.本类似群商品与第十版及以前版本0705塑料套管印字切割机，塑料导线印字机，0742电线印号机交叉检索。",
+    "注：2.跨类似群保护商品：工业用喷墨打印机（0705，0716）"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "雕刻机",
+          "code": "070207",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "工业用喷墨打印机",
+          "code": "070580",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "便携式激光雕刻机",
+          "code": "070597",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "塑料套管印字切割机",
+          "code": "C070055",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "塑料导线印字机",
+          "code": "C070056",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "电线印号机",
+          "code": "C070295",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "电脑刻绘机",
+          "code": "C070373",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "电脑刻字机",
+          "code": "C070374",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "电脑割字机",
+          "code": "C070375",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "工业打标机",
+          "code": "C070440",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "木材加工用激光雕刻机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "激光雕刻机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木材雕刻机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电脑雕刻机",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:58.261Z"
+}

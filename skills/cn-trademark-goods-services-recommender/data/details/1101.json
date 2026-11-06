@@ -1,0 +1,975 @@
+{
+  "groupCode": "1101",
+  "groupName": "照明用设备、器具（不包括汽灯、油灯）",
+  "classCode": "11",
+  "notes": [
+    "注：1.本类似群各部分之间商品不类似；",
+    "2.本类似群第（一）部分的灯，照明设备和装置与第（二）部分商品以及1103商品类似；",
+    "3.本类似群第（二）部分商品与第（一）部分的灯，照明设备和装置，1211运载工具防眩光装置，运载工具遮光装置类似，与第十一版及以前版本第（一）部分照明器械及装置，1211运载工具转向信号装置，第九版及以前版本1202车辆转向信号灯，车辆转向信号装置，车辆防眩光装置，车辆遮光装置交叉检索；",
+    "4.第（三）部分与 1003 医用紫外线灯类似，与第十二版及以前版本 1003 医用紫外线杀菌灯交叉检索；",
+    "5.第（一）部分与第十一版及以前版本 1103 照明用提灯，第九版及以前版本 1103 提灯交叉检索。",
+    "6.本类似群第（三）部分非医用紫外线灯与第（四）部分非医用固化灯类似。"
+  ],
+  "sections": [
+    {
+      "label": "（一）",
+      "items": [
+        {
+          "name": "灯泡",
+          "code": "110021",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "电灯泡",
+          "code": "110022",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "弧光灯",
+          "code": "110023",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "电灯",
+          "code": "110024",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "灯",
+          "code": "110040",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "照明用提灯",
+          "code": "110041",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "白炽灯",
+          "code": "110043",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "弧光灯碳棒",
+          "code": "110072",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "玻璃灯罩",
+          "code": "110091",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "照明用放电管",
+          "code": "110111",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "灯光漫射器",
+          "code": "110118",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "电灯灯头",
+          "code": "110122",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "照明设备和装置",
+          "code": "110130",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "枝形吊灯",
+          "code": "110133",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "顶灯",
+          "code": "110136",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "电灯丝",
+          "code": "110145",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "球形灯罩",
+          "code": "110169",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "实验室灯",
+          "code": "110176",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "安全灯",
+          "code": "110182",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "灯光反射镜",
+          "code": "110183",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "灯笼",
+          "code": "110185",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "照明用发光管",
+          "code": "110189",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "照明用镁丝",
+          "code": "110190",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "矿灯",
+          "code": "110192",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "发光门牌",
+          "code": "110196",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "手电筒",
+          "code": "110051",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "探照灯",
+          "code": "110202",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "灯罩",
+          "code": "110237",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "灯罩座",
+          "code": "110238",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "路灯",
+          "code": "110263",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "水族池照明灯",
+          "code": "110309",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "潜水灯",
+          "code": "110322",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "发光二极管（LED）照明器具",
+          "code": "110333",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "节日装饰用彩色小灯",
+          "code": "110344",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "节日装饰用串灯",
+          "code": "110344",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "头戴式手电筒",
+          "code": "110346",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "便携式头灯",
+          "code": "110346",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "装蜡烛的提灯",
+          "code": "110355",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "落地灯",
+          "code": "110367",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "投影灯",
+          "code": "110369",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "使用电池的荧光棒",
+          "code": "110384",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "照明用荧光棒",
+          "code": "110399",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "智能灯泡",
+          "code": "110402",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "发光二极管（LED）灯泡",
+          "code": "110414",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "植物生长灯",
+          "code": "110420",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "电夜灯",
+          "code": "110422",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "舞台灯具",
+          "code": "C110001",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "照相用回光灯",
+          "code": "C110002",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "日光灯管",
+          "code": "C110003",
+          "type": "marked",
+          "section": "（一）"
+        }
+      ]
+    },
+    {
+      "label": "（二）",
+      "items": [
+        {
+          "name": "空中运载工具用照明设备",
+          "code": "110007",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "运载工具用灯",
+          "code": "110027",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "汽车前灯",
+          "code": "110031",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "自行车车灯",
+          "code": "110045",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "运载工具转向信号装置用灯泡",
+          "code": "110071",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "摩托车车灯",
+          "code": "110110",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "运载工具前灯",
+          "code": "110200",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "运载工具用光反射镜",
+          "code": "110212",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "运载工具用照明装置",
+          "code": "110229",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "运载工具用防眩光装置（灯配件）",
+          "code": "110249",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "汽车灯",
+          "code": "110256",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "自行车转向灯",
+          "code": "110358",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "运载工具用示宽灯",
+          "code": "110394",
+          "type": "standard",
+          "section": "（二）"
+        }
+      ]
+    },
+    {
+      "label": "（三）",
+      "items": [
+        {
+          "name": "空气净化用杀菌灯",
+          "code": "110166",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "非医用紫外线灯",
+          "code": "110180",
+          "type": "standard",
+          "section": "（三）"
+        }
+      ]
+    },
+    {
+      "label": "（四）",
+      "items": [
+        {
+          "name": "烫发用灯",
+          "code": "110158",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "美甲烤灯",
+          "code": "110347",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "非医用固化灯",
+          "code": "110360",
+          "type": "standard",
+          "section": "（四）"
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "灯光遮罩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "轨道灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "红外照明装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水银灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "微型灯泡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "壁挂灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "荧光灯管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具尾灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "枝状电烛台",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "地下用安全灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "船用航行灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "夜灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "LED安全灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "便携探照灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子蜡烛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "吊灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "发光二极管手电筒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "红外灯装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "节日装饰用灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "室内用强光灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有机发光二极管照明装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "照明装置用滤光器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "照明装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "帐篷用灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具用聚光灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具发电机灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "平板照明器械",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具用刹车灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "书灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "LED灯具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "LED灯泡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "红外灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "舞台灯光设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卤素灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卤素灯泡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "阅读灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陈列柜用照明设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "壁灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "照明灯具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "便携式纸灯笼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "荧光灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "立式纸灯笼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "诱鱼灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "车辆用照明设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "聚光灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "灯座",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "射灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "台灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "太阳能灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "遮光罩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "紫外线卤素金属蒸气灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "晒黑灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无焰蜡烛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "LED景观灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "LED水下照明灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "照明器械及装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电灯笼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "荧光灯泡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "指甲油LED烘干器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "移动式照明塔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "迪斯科舞厅彩球灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化学荧光棒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "笔形手电筒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鱼缸用紫外线灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自行车反光片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "太阳能提灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "船用航行照明灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动轨道照明设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手持探照灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "袖珍手电筒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车转向指示器用灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "照明灯（曳光管）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "节日装饰彩色小灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车防眩光装置（灯配件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "脚踏车车灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "便携式探照灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "照明电筒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "照明器具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "照明设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手提灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车尾灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "LED灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电照明装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "泛光灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "LED氛围灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "腕式手电筒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "节庆用电灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "太阳灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "舞台照明装置用滤光片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "夜间钓鱼用头灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "拖车车灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "LED蜡烛灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手持式聚光灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车用LED灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无焰LED蜡烛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "LED照明装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "智能照明灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "船用光反射镜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "LED茶蜡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可通过无线及蓝牙控制的智能灯泡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "照明装置用彩色滤光片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "太阳能路灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "发光二极管照明器具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "发光二极管灯泡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "LED照明灯具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手电筒挂绳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "照明用环形灯",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:50.047Z"
+}

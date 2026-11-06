@@ -1,0 +1,370 @@
+{
+  "groupCode": "0402",
+  "groupName": "液体、气体燃料和照明燃料",
+  "classCode": "04",
+  "notes": [
+    "注：1.跨类似群保护商品：燃料（0402，0403）；",
+    "2. 挥发性混合燃料，燃料，照明用油，汽油，轻石油，柴油，粗柴油，煤油，发动机燃料，燃料油，石油气与 0401 石油（原油或精炼油）类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "甲基化酒精",
+          "code": "040002",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "酒精（燃料）",
+          "code": "040003",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "以酒精为主的燃料",
+          "code": "040004",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "挥发性混合燃料",
+          "code": "040020",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "燃料*",
+          "code": "040025",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "照明用油",
+          "code": "040039",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "照明燃料",
+          "code": "040041",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "汽油",
+          "code": "040043",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "轻石油",
+          "code": "040045",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "柴油",
+          "code": "040048",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "粗柴油",
+          "code": "040048",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "煤油",
+          "code": "040059",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "碳氢燃料",
+          "code": "040081",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "发动机燃料",
+          "code": "040081",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "燃料油",
+          "code": "040084",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "发动机燃料用非化学添加剂",
+          "code": "040085",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "乙醇（燃料）",
+          "code": "040107",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "苯燃料",
+          "code": "040112",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "二甲苯燃料",
+          "code": "040113",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "氢燃料",
+          "code": "040123",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "天然气",
+          "code": "040124",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "照明用气体",
+          "code": "040040",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "气体燃料",
+          "code": "040049",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "石油气",
+          "code": "040050",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "固态气体（燃料）",
+          "code": "040088",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "发生炉煤气",
+          "code": "040103",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "液化天然气",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "液体燃料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "原油燃料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "打火机用燃料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用汽油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烃类燃料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "甲基化酒精燃料（变性燃料乙醇）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "煤基燃料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "燃料用非化学添加剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生物柴油燃料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "液化石油气",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "航空燃料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "灯油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "固态气体燃料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家庭采暖用煤油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "甲醇燃料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烹饪用燃料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "轻质汽油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "香烟打火机用液体燃料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "压缩天然气",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "丙烷（燃料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "乙醇燃料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "煤气",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生物燃料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "丁烷燃料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "取暖用油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽油（燃料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "灯用燃料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "柴油机燃料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "发动机燃料非化学添加剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车燃料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "照明用油脂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含驱虫剂的灯油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生物甲烷燃料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马达用燃料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽油用非化学添加剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机动车燃料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "飞机燃料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生物燃气",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:25.747Z"
+}

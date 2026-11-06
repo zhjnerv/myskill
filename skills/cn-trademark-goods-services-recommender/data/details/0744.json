@@ -1,0 +1,143 @@
+{
+  "groupCode": "0744",
+  "groupName": "静电、电子工业用设备",
+  "classCode": "07",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "半导体制造机",
+          "code": "070607",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "制造用半导体曝光设备",
+          "code": "070608",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "光纤熔接机",
+          "code": "070619",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "静电工业设备",
+          "code": "C070329",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "电子工业设备",
+          "code": "C070330",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "静电消除器",
+          "code": "C070331",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "印刷电路板处理机",
+          "code": "C070396",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "半导体晶片处理设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "静电发生器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "半导体晶片加工机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制造显示面板用的蚀刻设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "存储芯片制造机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "液晶显示器组装机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "液晶显示装置制造机器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "半导体制造设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "离子注入机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "半导体芯片制造设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "集成电路制造机械（电子工业设备）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "半导体制造用光刻机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子元件制造设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "印制电路板加工机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "等离子刻蚀机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "光纤拉锥机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "半导体芯片制造用热压键合机",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:15.003Z"
+}

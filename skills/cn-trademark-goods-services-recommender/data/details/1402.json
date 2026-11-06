@@ -1,0 +1,112 @@
+{
+  "groupCode": "1402",
+  "groupName": "贵金属盒和首饰盒",
+  "classCode": "14",
+  "notes": [
+    "注：本类似群与第八版及以前版本 2006 非贵重金属首饰盒交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "贵金属制盒",
+          "code": "140113",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "首饰盒",
+          "code": "140166",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "首饰包",
+          "code": "140170",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "首饰用礼品盒",
+          "code": "140173",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "宝石用礼品盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "保护戒指环和宝石免受碰撞、磨损和损伤的戒指专用罩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "旅行用首饰收纳卷包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "首饰收纳盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "首饰专用袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "存储用首饰包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木制首饰盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "音乐首饰盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属制首饰盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属制装饰盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属制小首饰盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非贵金属制首饰盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木制珠宝盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮革制首饰盒",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:07.014Z"
+}

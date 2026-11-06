@@ -1,0 +1,161 @@
+{
+  "groupCode": "3003",
+  "groupName": "糖",
+  "classCode": "30",
+  "notes": [
+    "注：1.天然增甜剂与第十一版及以前版本0113 人造增甜剂（化学制剂）交叉检索；",
+    "2.跨类似群保护商品：糖（3003，3004）。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "天然增甜剂",
+          "code": "300053",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "糖*",
+          "code": "300069",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烹饪用葡萄糖",
+          "code": "300077",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "冰糖*",
+          "code": "300153",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "棕榈糖",
+          "code": "300219",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烹饪用人造增甜剂",
+          "code": "300315",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烹饪用糖精",
+          "code": "300316",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烹饪用阿斯巴甜",
+          "code": "300317",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烹饪用糖替代品",
+          "code": "300319",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "白糖",
+          "code": "C300004",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "红糖",
+          "code": "C300005",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "方糖",
+          "code": "C300007",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "食用果糖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冰糖片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烹饪用低聚糖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "原糖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "赤砂糖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冰糖（非糖果）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "焦糖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "砂糖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "糖粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用葡萄糖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "细白砂糖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蛋糕装饰用冰糖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食品装饰用冰糖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蔗糖",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:40.188Z"
+}

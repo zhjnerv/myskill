@@ -1,0 +1,52 @@
+[
+  {
+    "groupCode": "1201",
+    "groupName": "火车及其零部件",
+    "classCode": "12"
+  },
+  {
+    "groupCode": "1202",
+    "groupName": "汽车、电车、摩托车及其零部件（不包括轮胎）",
+    "classCode": "12"
+  },
+  {
+    "groupCode": "1204",
+    "groupName": "自行车、三轮车及其零部件（不包括轮胎）",
+    "classCode": "12"
+  },
+  {
+    "groupCode": "1205",
+    "groupName": "缆车，架空运输设备",
+    "classCode": "12"
+  },
+  {
+    "groupCode": "1206",
+    "groupName": "轮椅，手推车，儿童推车",
+    "classCode": "12"
+  },
+  {
+    "groupCode": "1207",
+    "groupName": "畜力车辆，雪橇",
+    "classCode": "12"
+  },
+  {
+    "groupCode": "1208",
+    "groupName": "轮胎及轮胎修理工具",
+    "classCode": "12"
+  },
+  {
+    "groupCode": "1209",
+    "groupName": "空用运载工具（不包括飞机轮胎）",
+    "classCode": "12"
+  },
+  {
+    "groupCode": "1210",
+    "groupName": "水用运载工具",
+    "classCode": "12"
+  },
+  {
+    "groupCode": "1211",
+    "groupName": "运载工具零部件",
+    "classCode": "12"
+  }
+]

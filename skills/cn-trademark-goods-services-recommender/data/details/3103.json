@@ -1,0 +1,330 @@
+{
+  "groupCode": "3103",
+  "groupName": "花卉，草本植物",
+  "classCode": "31",
+  "notes": [
+    "注：1.花粉（原材料）与2904食用花粉类似；",
+    "2.跨类似群保护商品：植物（3101，3103），籽苗（3101，3103）。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "未加工的啤酒花果穗",
+          "code": "310038",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "自然花制花环",
+          "code": "310044",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "草制覆盖物",
+          "code": "310046",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "自然花",
+          "code": "310055",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "装饰用干花",
+          "code": "310056",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "花粉（原材料）",
+          "code": "310057",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "干草",
+          "code": "310058",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "自然草皮",
+          "code": "310063",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "新鲜的园艺草本植物",
+          "code": "310070",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "植物",
+          "code": "310071",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "籽苗",
+          "code": "310072",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "未加工的啤酒花",
+          "code": "310073",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "球茎",
+          "code": "310091",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "花卉球茎",
+          "code": "310091",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "荨麻",
+          "code": "310096",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "藤本植物",
+          "code": "310104",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "辣椒（植物）",
+          "code": "310106",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "装饰用干植物",
+          "code": "310107",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蔷薇丛",
+          "code": "310117",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "芦荟（植物）",
+          "code": "310148",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "猫薄荷",
+          "code": "310179",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "鲜花插花",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜胸花",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜园栽草",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自然的开花植物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "干花",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鲜花",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "玫瑰",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工的草本植物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "装饰用干玉米壳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鲜切花",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "装饰用干草",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鲜切花制花环",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鲜切花制花圈",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "园艺用球茎",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "农业用球茎",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜小麦草",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "装饰用干插花",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "盆栽矮化树（盆景）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "盆栽新鲜草本植物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜草本植物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水果植物（活的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "活灌木",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜山茱萸（活植物）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "百合（鲜花）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "苜蓿",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "装饰用保鲜花",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "凉粉草（植物）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "天然盆景树",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "郁金香（自然花）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "活的藤植物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蛇麻球果",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牡丹（自然花）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "向日葵（自然花）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "波斯菊（自然花）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "百合花（自然花）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "栀子花（自然花）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "装饰用干玫瑰花",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:51.368Z"
+}

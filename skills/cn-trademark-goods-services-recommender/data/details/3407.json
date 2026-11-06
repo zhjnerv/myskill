@@ -1,0 +1,86 @@
+{
+  "groupCode": "3407",
+  "groupName": "电子烟及其部件",
+  "classCode": "34",
+  "notes": [
+    "注：本类似群商品与第十二版及以前版本 3402 吸烟者用口腔雾化器，第十一版及以前版本 3401 电子香烟，电子香烟烟液，以及其他属于本类似群的已接受商品交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "电子烟",
+          "code": "340039",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电子烟用烟液",
+          "code": "340040",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "吸烟者用口腔雾化器",
+          "code": "340041",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "用作传统香烟替代品的电子香烟",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子香烟用尼古丁液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子香烟用尼古丁替代液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子烟用尼古丁液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用作传统香烟替代品的电子烟",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子香烟烟液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子香烟",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "销售时已填充丙三醇的吸烟用一次性口腔雾化器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "销售时已填充丙三醇的吸烟用口腔雾化器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子烟烟盒",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:02.169Z"
+}

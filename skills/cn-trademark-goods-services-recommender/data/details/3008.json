@@ -1,0 +1,515 @@
+{
+  "groupCode": "3008",
+  "groupName": "米，面粉（包括五谷杂粮）",
+  "classCode": "30",
+  "notes": [
+    "注：1.人食用的去壳谷物，薄片（谷类产品）与3006燕麦食品，燕麦片，燕麦粥类似；",
+    "2.跨类似群保护商品：人食用小麦胚芽（3006，3008）；",
+    "3.本类似群与第十版及以前版本 3011 豆粉交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "谷类制品",
+          "code": "300034",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "谷粉*",
+          "code": "300057",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "豆类粗粉",
+          "code": "300058",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "玉米粉",
+          "code": "300059",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "玉米面",
+          "code": "300059",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "大麦粗粉",
+          "code": "300061",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "大豆粉",
+          "code": "300062",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "面粉",
+          "code": "300063",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蛋糕粉",
+          "code": "300071",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "人食用的去壳谷物",
+          "code": "300080",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "玉米（磨过的）",
+          "code": "300091",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "玉米（烘过的）",
+          "code": "300092",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "去壳大麦",
+          "code": "300100",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "碾碎的大麦",
+          "code": "300105",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "米*",
+          "code": "300119",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "西米",
+          "code": "300121",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "粗面粉",
+          "code": "300124",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "粗燕麦粉",
+          "code": "300142",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "去壳燕麦",
+          "code": "300143",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "薄片（谷类产品）",
+          "code": "300161",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "玉米片（碾碎的玉米粒）",
+          "code": "300197",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "玉米粗粉",
+          "code": "300198",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "人食用小麦胚芽",
+          "code": "300213",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "坚果粉",
+          "code": "300229",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "制咸薄饼用混合粉",
+          "code": "300236",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "加工过的藜麦",
+          "code": "300258",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "碾碎的干小麦",
+          "code": "300259",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "加工过的荞麦",
+          "code": "300260",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "荞麦粉",
+          "code": "300261",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "制面糊用混合粉",
+          "code": "300283",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "加工过的斯佩尔特小麦",
+          "code": "300306",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "加工过的小粒斯佩尔特小麦",
+          "code": "300308",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蚕豆粉",
+          "code": "300326",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "汤圆粉",
+          "code": "C300072",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "生糯粉",
+          "code": "C300073",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "米粉（粉状）",
+          "code": "C300134",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "红豆",
+          "code": "C300142",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "绿豆",
+          "code": "C300143",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "黄豆",
+          "code": "C300144",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "小米",
+          "code": "C300145",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "加工过的高粱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "刀切燕麦粒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "捣碎的小麦",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "薄烤饼用混合粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用豆粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用荞麦粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烤制的谷物粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "营养强化米（未煮过的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "干麦麸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "绿豆粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烘过的玉米粒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加工过的粗粒小麦粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制饼干用混合粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "糯米",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用大麦粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加工过的燕麦",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "薏米粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人造米（未烹调）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "大麦仁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "荞麦粉（食品用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "黑麦面粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "糙米",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用薏仁粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加工过的苔麸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未去麸的大米",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "面粉（食用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "玉米面（食品用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加工过的小麦",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加工过的谷物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用面粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "糯米粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "大米",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食物用豆粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "豆粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "荞麦面粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "薏米",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "红豆粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "红小豆粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "黄豆粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "黑豆粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人食用的糙米粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "干芡实",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "玉米面包粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "比萨饼混合粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用谷粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制蛋糕用混合粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "青稞粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "莜麦面粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生的营养强化米",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "籼米",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "粳米",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:43.089Z"
+}

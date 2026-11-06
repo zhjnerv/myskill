@@ -1,0 +1,77 @@
+{
+  "groupCode": "1805",
+  "groupName": "手杖",
+  "classCode": "18",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "铁头登山杖",
+          "code": "180001",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "登山杖",
+          "code": "180001",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "手杖*",
+          "code": "180015",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "带凳手杖",
+          "code": "180016",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "手杖柄",
+          "code": "180060",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "徒步杖",
+          "code": "180140",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "藤手杖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "折叠手杖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "步行杖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "涉水杖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可伸缩登山杖",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:28.945Z"
+}

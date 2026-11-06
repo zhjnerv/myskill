@@ -1,0 +1,117 @@
+{
+  "groupCode": "1915",
+  "groupName": "棺椁墓碑",
+  "classCode": "19",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "墓穴用非金属围栏",
+          "code": "190081",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属墓板",
+          "code": "190088",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属纪念标牌",
+          "code": "190089",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属纪念碑",
+          "code": "190117",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "墓碑",
+          "code": "190144",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "墓石",
+          "code": "190144",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属墓",
+          "code": "190174",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属墓穴",
+          "code": "190215",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属墓（纪念物）",
+          "code": "190225",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属墓碑柱",
+          "code": "190226",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属墓碑标牌",
+          "code": "190247",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "大理石纪念碑",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "混凝土纪念碑",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "石制纪念牌",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纪念碑石",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "石、混凝土或大理石制墓碑",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "石头、混凝土或大理石墓碑",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "石制纪念碑",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:38.816Z"
+}

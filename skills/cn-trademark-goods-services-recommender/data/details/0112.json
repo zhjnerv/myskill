@@ -1,0 +1,65 @@
+{
+  "groupCode": "0112",
+  "groupName": "焊接用化学制剂",
+  "classCode": "01",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "铜焊制剂",
+          "code": "010137",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "焊接用化学品",
+          "code": "010487",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铜焊助剂",
+          "code": "010583",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "助焊剂",
+          "code": "010584",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "金属焊接用助剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水管助焊剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "焊接和铜焊用化学品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无铅助焊剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铜焊用化学品",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:11.904Z"
+}

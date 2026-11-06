@@ -1,0 +1,58 @@
+{
+  "groupCode": "2504",
+  "groupName": "不透水服装",
+  "classCode": "25",
+  "notes": [
+    "注：1.防水服与0919防水衣类似；",
+    "2.跨类似群保护商品：服装（2501，2502，2503，2504，2505），防水服（2501，2504）。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "服装*",
+          "code": "250045",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "防水服",
+          "code": "250087",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "雨衣",
+          "code": "C250011",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "雨披",
+          "code": "C250033",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "防水夹克",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防雨夹克",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防雨裤",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:09.252Z"
+}

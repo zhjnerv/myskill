@@ -1,0 +1,92 @@
+{
+  "groupCode": "3908",
+  "groupName": "供水电气服务",
+  "classCode": "39",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "给水",
+          "code": "390003",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "配水",
+          "code": "390030",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "配电",
+          "code": "390031",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "能源分配",
+          "code": "390090",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "煤气站",
+          "code": "C390002",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "液化气站",
+          "code": "C390003",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "可再生能源分配",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "煤气供应（分配）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "燃气输配",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "供热（分配）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "给水（分配）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为建筑物供暖和制冷进行能源分配",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可再生天然气配气",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生物甲烷燃料的分配",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:28.721Z"
+}

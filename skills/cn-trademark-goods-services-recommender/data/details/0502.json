@@ -1,0 +1,423 @@
+{
+  "groupCode": "0502",
+  "groupName": "医用营养品，人用膳食补充剂，婴儿食品",
+  "classCode": "05",
+  "notes": [
+    "注：1.含药物的糖果，医用树胶，医用冰糖与 0501 第（一）部分第一自然段类似；",
+    "2. 第二自然段与 0501 第（一）部分第一自然段，3005 类似；",
+    "3.婴儿含乳面粉，婴儿食品，婴儿配方奶粉，婴儿奶粉与 2907 奶，奶制品，奶饮料（以奶为主），蛋白奶，奶粉类似，与第十一版及以前版本 2907 牛奶，牛奶饮料（以牛奶为主），牛奶制品，白朊牛奶，蛋白质牛奶交叉检索；",
+    "4.医用口香糖与0501除口臭药片类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "医用白朊食品",
+          "code": "050006",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用白朊制剂",
+          "code": "050007",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "含药物的糖果",
+          "code": "050057",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "糖尿病人食用的面包",
+          "code": "050121",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用树胶",
+          "code": "050161",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用麦乳精饮料",
+          "code": "050188",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "药用乳糖",
+          "code": "050192",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用口香糖",
+          "code": "050198",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "药用杏仁乳",
+          "code": "050300",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用糖果",
+          "code": "050310",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用冰糖",
+          "code": "050310",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用营养食物",
+          "code": "050297",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用营养饮料",
+          "code": "050307",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用营养品",
+          "code": "050350",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "矿物质膳食补充剂",
+          "code": "050382",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "营养补充剂",
+          "code": "050384",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "白朊膳食补充剂",
+          "code": "050420",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "亚麻籽膳食补充剂",
+          "code": "050421",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "亚麻籽油膳食补充剂",
+          "code": "050422",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "小麦胚芽膳食补充剂",
+          "code": "050423",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "酵母膳食补充剂",
+          "code": "050424",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蜂王浆膳食补充剂",
+          "code": "050425",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蜂胶膳食补充剂",
+          "code": "050427",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "花粉膳食补充剂",
+          "code": "050428",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "酶膳食补充剂",
+          "code": "050429",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "葡萄糖膳食补充剂",
+          "code": "050430",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "卵磷脂膳食补充剂",
+          "code": "050431",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "藻酸盐膳食补充剂",
+          "code": "050432",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "酪蛋白膳食补充剂",
+          "code": "050434",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蛋白质膳食补充剂",
+          "code": "050435",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用冻干食物",
+          "code": "050460",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用均质食物",
+          "code": "050461",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用冻干肉",
+          "code": "050463",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "巴西莓粉膳食补充剂",
+          "code": "050482",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "乳清蛋白膳食补充剂",
+          "code": "050504",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "啤酒酵母膳食补充剂",
+          "code": "050505",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "初乳膳食补充剂",
+          "code": "050529",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "婴儿含乳面粉",
+          "code": "050145",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "婴儿食品",
+          "code": "050298",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "婴儿配方奶粉",
+          "code": "050448",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "婴儿奶粉",
+          "code": "050449",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "灵芝孢子粉膳食补充剂",
+          "code": "C050064",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "作为医用食品添加剂使用的葡萄糖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含药口香糖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "大豆异黄酮膳食补充剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用的营养糖果",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用营养糖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "药用糖果",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用的使口气清新的口香糖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "松花粉膳食补充剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "刺激益生菌生长的膳食补充剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "大豆蛋白膳食补充剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用奶糖（乳糖）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用营养浸液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "维生素软糖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医疗饮食用代糖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "叶酸膳食补充剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "活性炭膳食补充剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用维生素饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用营养制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "婴儿饼干",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "小球藻膳食补充剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "锌膳食补充剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "辅酶Q10膳食补充剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "叶黄素膳食补充剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "婴儿用液态配方奶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "糖尿病人用的医用带果肉果汁饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "DHA藻油膳食补充剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "主要由铁组成的膳食补充剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "主要由铁组成的营养补充剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "营养补充冲饮粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用作膳食补充剂的亚麻籽纤维粉",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:29.894Z"
+}

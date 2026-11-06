@@ -1,0 +1,1032 @@
+{
+  "groupCode": "2106",
+  "groupName": "家庭日用及卫生器具",
+  "classCode": "21",
+  "notes": [
+    "注：1.本类似群各部分间不类似；",
+    "2.便壶，痰盂与1004卧床病人用便盆，卧床病人用尿壶类似，与第九版及以前版本1004病床上用便盆，尿壶（容器）交叉检索；",
+    "3.痰盂与1004医用痰盂类似；",
+    "4.水桶，提桶与2101盆（容器），铁桶，2002非金属桶，非金属大桶类似；",
+    "5.第（一）部分与第八版及以前版本 1402 贵重金属蜡烛架（烛台），贵重金属烛台，贵重金属熄烛器，贵重金属烛环，贵重金属花瓶交叉检索；",
+    "6.本类似群各种瓶与2101瓶类似；",
+    "7.第（二）部分与第八版及以前版本 1402 贵重金属制祭祀容器交叉检索；",
+    "8.花瓶、花盆、窗台花箱与2114第（二）部分商品类似；",
+    "9.第（三）部分与第十二版及以前版本 2102 空的智能药瓶交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "（一）",
+      "items": [
+        {
+          "name": "搓衣板",
+          "code": "210006",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "洒水器*",
+          "code": "210015",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "喷壶",
+          "code": "210016",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "水桶",
+          "code": "210023",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "提桶",
+          "code": "210023",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "倾倒用尖嘴管",
+          "code": "210027",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "肥皂盒",
+          "code": "210037",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "脱靴器",
+          "code": "210041",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "家用细筛",
+          "code": "210061",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "煤渣用筛（家用器皿）",
+          "code": "210067",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "熨衣板套（成形的）",
+          "code": "210093",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "领带压平器",
+          "code": "210094",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "筛（家用器具）",
+          "code": "210097",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "洗涤桶",
+          "code": "210106",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "衣服熨斗搁架",
+          "code": "210112",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "皂液分配瓶",
+          "code": "210117",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "鞋撑具",
+          "code": "210120",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "洗衣用晾衣架",
+          "code": "210126",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "纺织品制桶",
+          "code": "210127",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "花和植物用固定物（插花用具）",
+          "code": "210132",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "花盆",
+          "code": "210133",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "家用除烟器",
+          "code": "210139",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "手套撑具",
+          "code": "210141",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "压裤器",
+          "code": "210171",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "熨衣板",
+          "code": "210179",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "喷水壶喷头",
+          "code": "210183",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "喷壶莲蓬头",
+          "code": "210183",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "花瓶",
+          "code": "210190",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "肥皂碟",
+          "code": "210191",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "便壶",
+          "code": "210192",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "家用垃圾箱",
+          "code": "210194",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "家用垃圾桶",
+          "code": "210194",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "浇花和植物用洒水器",
+          "code": "210206",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "浇花和植物用喷水器",
+          "code": "210206",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "鞋拔",
+          "code": "210213",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "衣服撑架",
+          "code": "210221",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "纽扣钩",
+          "code": "210223",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "存钱罐",
+          "code": "210224",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "蜡烛滴环",
+          "code": "210242",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "烛台托盘",
+          "code": "210242",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "花枝烛台",
+          "code": "210245",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "蜡烛架",
+          "code": "210245",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "蜡烛架（烛台）",
+          "code": "210245",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非纸制花盆套",
+          "code": "210253",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "个人用除臭装置",
+          "code": "210277",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "熄烛器",
+          "code": "210295",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "婴儿浴盆（便携式）",
+          "code": "210301",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "衣夹",
+          "code": "210313",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "清理堵塞排水管用手压皮碗",
+          "code": "210329",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "毛巾架和毛巾挂环",
+          "code": "210334",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "卫生纸架",
+          "code": "210335",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "拖把绞干器",
+          "code": "210339",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "废纸篓",
+          "code": "210340",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "窗台花箱",
+          "code": "210341",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "靴撑具",
+          "code": "210347",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "蜡烛罐",
+          "code": "210352",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "拖把脱水桶",
+          "code": "210362",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "零钱罐",
+          "code": "210376",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "婴儿充气浴盆",
+          "code": "210391",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "便携式婴儿浴盆用支架",
+          "code": "210392",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "伞式晾衣架",
+          "code": "210395",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "尿布垃圾桶",
+          "code": "210409",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "家用收纳盘（盛小物件用托盘）",
+          "code": "210425",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "家用软管挤压器",
+          "code": "210426",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "家用自动开闭的垃圾桶",
+          "code": "210432",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "纸巾盒套",
+          "code": "210442",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "未填充洗衣剂的洗衣球",
+          "code": "210445",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "成人和儿童用一次性便携式便器",
+          "code": "210448",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "儿童用便盆",
+          "code": "210453",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "烘干机用干燥球",
+          "code": "210454",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "洗发挡水帽",
+          "code": "210460",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "浴室用长柄水瓢",
+          "code": "210470",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "洗澡用热水搅拌棒",
+          "code": "210471",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "烛台*",
+          "code": "210474",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "纸巾架",
+          "code": "210476",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "桌布坠",
+          "code": "210481",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "痰盂",
+          "code": "C210031",
+          "type": "marked",
+          "section": "（一）"
+        }
+      ]
+    },
+    {
+      "label": "（二）",
+      "items": [
+        {
+          "name": "电和非电的熏香炉",
+          "code": "210056",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "电和非电的芳香油扩香器（香薰藤条除外）",
+          "code": "210406",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "芳香油扩香盘",
+          "code": "210407",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "香味蜡烛加热器（电或非电）",
+          "code": "210416",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "祭祀容器",
+          "code": "C210055",
+          "type": "marked",
+          "section": "（二）"
+        },
+        {
+          "name": "香炉",
+          "code": "C210057",
+          "type": "marked",
+          "section": "（二）"
+        }
+      ]
+    },
+    {
+      "label": "（三）",
+      "items": [
+        {
+          "name": "空的智能药瓶",
+          "code": "210424",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "个人用药片收纳盒",
+          "code": "210461",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "个人用药片电子收纳盒",
+          "code": "210462",
+          "type": "standard",
+          "section": "（三）"
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "防风烛台",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "挂墙式肥皂碟",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "花盆碟",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "花盆托架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用煤斗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "晾衣架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鞋撑",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "玻璃烛台",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抓痒器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用筛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用洗衣篮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "搔背器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "头皮抓挠器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马桶搋子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "垃圾筐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "养花用碗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属存钱罐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "液体香皂分配器（家用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "浴室用桶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "熨衣板套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "窗台上的花盆箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卫生纸卷架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "拖把桶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "尿布桶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "毛巾杆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "煤斗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙刷架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "踏板式垃圾桶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陶瓷花盆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水桶或提桶专用盖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "儿童塑料浴缸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用废纸篓",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于洗涤、上浆及拉伸后和服的干燥板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "多连灯烛台",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "毛巾挂环",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "桑拿用浇水桶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用脏衣分类篮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "瓶用倾倒嘴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "漂洗用桶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "剃须碗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非贵金属制烛台",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "靴楦（撑具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鞋楦（撑具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烛环",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "便携式儿童便盆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属制烛台",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属烛环",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非贵金属制熄烛器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属制养花用碗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属制花瓶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非贵金属制毛巾架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非贵金属制毛巾挂环",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "安装在天花板上的升降式晾衣架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "安装在墙壁上的晾衣架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木制靴撑",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "个人用药盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "玻璃制落地花瓶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陶土制落地花瓶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "筛子（家庭用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用煤桶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蜡烛盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "储蓄罐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "塑料水桶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "香熏炉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "废物箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "废纸篮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "花盆托盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可折叠水桶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鞋楦（鞋撑）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "洗涤盆（非卫生器具部件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "婴儿用可折叠澡盆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "植物篮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "草坪洒水器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "柱蜡用盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "植物盆用塑料盖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家庭用堆肥容器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "花园水管用洒水枪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "园艺用注射器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "脏衣篮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "挤牙膏器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "裤子撑架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "剃须皂碗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸制花盆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "壁式烛台",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "特种服装专用晾衣架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "装干花瓣与香料混合物用盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "存放洗澡玩具用塑料桶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "熏香炉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "肥皂分配器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "垃圾桶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "芳香油扩香器（非香薰藤条）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸巾盒用陶瓷套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "喷水壶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "洗头挡水帽",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "熨斗架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "毛巾架",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:50.614Z"
+}

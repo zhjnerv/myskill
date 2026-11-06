@@ -1,0 +1,417 @@
+{
+  "groupCode": "1702",
+  "groupName": "非金属密封减震制品",
+  "classCode": "17",
+  "notes": [
+    "注：1.密封裂缝用化学合成物，聚氨酯泡沫填缝剂，补裂缝用化学合成物，补漏用化学合成物与 0115 类似;",
+    "2.本类似群与第十一版及以前版本0104 已接受商品聚氨酯泡沫填缝剂，1703 橡胶或硫化纤维制阀交叉检索;",
+    "3.填缝用油灰与 0104 第（二十）部分类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "橡皮圈",
+          "code": "170004",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "密封环",
+          "code": "170009",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "防水圈",
+          "code": "170009",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "瓶用橡胶密封物",
+          "code": "170012",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "挡风条",
+          "code": "170013",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "挡风雨条",
+          "code": "170013",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "挡风雨条材料",
+          "code": "170015",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "橡皮塞子",
+          "code": "170018",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "橡胶制瓣阀",
+          "code": "170019",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "橡胶制减震缓冲器",
+          "code": "170021",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "管道垫圈",
+          "code": "170030",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "管道接头垫圈",
+          "code": "170030",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "填缝材料",
+          "code": "170040",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "密封裂缝用化学合成物",
+          "code": "170042",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "密封垫片",
+          "code": "170043",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "填充垫圈",
+          "code": "170043",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "部分加工的刹车衬垫材料",
+          "code": "170048",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "封泥",
+          "code": "170066",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属制管套筒",
+          "code": "170067",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属制管套",
+          "code": "170067",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "保护机器部件用橡胶套",
+          "code": "170068",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "接头用密封物",
+          "code": "170069",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "橡胶或硫化纤维垫圈",
+          "code": "170076",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "橡胶或硫化纤维制阀",
+          "code": "170082",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非文具用、非化妆用、非医用、非家用胶带",
+          "code": "170085",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "压缩空气管道用非金属附件",
+          "code": "170086",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "管道用非金属加固材料",
+          "code": "170089",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非文具用、非化妆用、非医用、非家用自粘胶带",
+          "code": "170092",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "橡皮挡块",
+          "code": "170093",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "密封管道用胶带",
+          "code": "170118",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "橡胶制门挡",
+          "code": "170119",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "橡胶制窗挡",
+          "code": "170120",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "码头防撞用橡胶垫",
+          "code": "170123",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "油封",
+          "code": "170130",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "O形密封圈",
+          "code": "170131",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "橡胶制防滑垫",
+          "code": "170132",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "变速箱用液态密封胶",
+          "code": "170136",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "补裂缝用化学合成物",
+          "code": "C170030",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "补漏用化学合成物",
+          "code": "C170031",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "危险警示胶带",
+          "code": "170138",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "填缝用油灰",
+          "code": "170139",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "高压锅圈",
+          "code": "C170004",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "胶衬",
+          "code": "C170005",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "胶套",
+          "code": "C170006",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "胶壳",
+          "code": "C170007",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "石棉油盘根",
+          "code": "C170008",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "聚氨酯泡沫填缝剂",
+          "code": "C170027",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "管道接头胶带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防尘用密封物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "瓶用橡胶塞",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硅酮密封物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "管子用橡胶制识别套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "管道接头密封用橡胶圈",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "聚氨酯密封物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防锈密封物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业包装容器用橡皮塞子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "地毯接缝胶带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防水密封物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "接头用密封剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "堵缝用复合物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "干壁接缝胶带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "管道胶带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "安装在码头岸壁的防止码头、船舶受损用橡胶缓冲材料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "弹性膨胀接头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "保护机器零件用橡胶套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "橡胶或硬纤维垫圈",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "离合器衬片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "泵用石墨盘根",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "橡胶或硫化纤维制阀（不包括机器元件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车用挡风雨条",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:22.815Z"
+}

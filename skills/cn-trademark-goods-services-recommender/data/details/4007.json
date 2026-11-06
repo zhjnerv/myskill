@@ -1,0 +1,39 @@
+{
+  "groupCode": "4007",
+  "groupName": "陶器加工服务",
+  "classCode": "40",
+  "notes": [
+    "注：本类似群与4001打磨，研磨，研磨抛光，喷砂处理服务类似，及第九版及以前版本的4002研磨加工，研磨抛光交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "烧制陶器",
+          "code": "400015",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "用于陶瓷品制造的材料处理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陶瓷加工",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陶瓷上釉",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:35.036Z"
+}

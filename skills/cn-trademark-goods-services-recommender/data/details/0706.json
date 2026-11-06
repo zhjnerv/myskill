@@ -1,0 +1,528 @@
+{
+  "groupCode": "0706",
+  "groupName": "纤维加工及纺织、针织工业用机械及部件",
+  "classCode": "07",
+  "notes": [
+    "注：1.纺织工业用机器与0707商品类似；",
+    "2.旋转式脱水机（非加热）与第八版及以前版本的0704脱水机交叉检索；",
+    "3.跨类似群保护商品：旋转式脱水机（非加热）（0706，0724）； 砑光辊（0704第（一）部分，0706，0712）； 砑光机（0704第（一）部分，0706，0712）；轧光机（0704第（一）部分，0706）；",
+    "4.本类似群与第九版及以前版本的0712砑光机交叉检索。",
+    "5.本类似群与第十一版及以前版本2605 梳羊毛机用针，针织机针，纺织钢针，经编机针，横机针，棉毛针交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "织布机卷线轴",
+          "code": "070054",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "织袜机（机器）",
+          "code": "070057",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "针布（梳棉机部件）",
+          "code": "070079",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "旋转式脱水机（非加热）",
+          "code": "070084",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "针织机滑动架",
+          "code": "070097",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "针织机滑板",
+          "code": "070097",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "制花边机",
+          "code": "070151",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "喷射器",
+          "code": "070170",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纺织机",
+          "code": "070190",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纺车",
+          "code": "070191",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "织布机传动齿轮",
+          "code": "070212",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "织机轴",
+          "code": "070224",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "砑光辊",
+          "code": "070240",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "织布机（机器）",
+          "code": "070259",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "精纺机",
+          "code": "070260",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "梭（机器部件）",
+          "code": "070280",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "砑光机",
+          "code": "070292",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "起绒毛机",
+          "code": "070325",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "织补机",
+          "code": "070329",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "梳棉机",
+          "code": "070364",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "织带机",
+          "code": "070372",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "编织机",
+          "code": "070374",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纺织工业用机器",
+          "code": "070496",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "针织机用针",
+          "code": "070602",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "羊毛精梳机用针",
+          "code": "070604",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "轧光机",
+          "code": "C070024",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "轧花机",
+          "code": "C070057",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "清花机",
+          "code": "C070058",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "棉籽脱绒机",
+          "code": "C070059",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "棉花烘干机",
+          "code": "C070060",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "弹花机",
+          "code": "C070061",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "风力清籽机",
+          "code": "C070062",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "弹花齿条",
+          "code": "C070063",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "剥麻机",
+          "code": "C070064",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "揉搓机",
+          "code": "C070065",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "弹麻机",
+          "code": "C070066",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "野生纤维整经机",
+          "code": "C070067",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "羽绒加工设备",
+          "code": "C070068",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "缫丝机械",
+          "code": "C070069",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "绢纺机械",
+          "code": "C070070",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "纸质纱管（纺织机配件）",
+          "code": "C070071",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "人造丝机械",
+          "code": "C070074",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "维尼龙抽丝设备",
+          "code": "C070075",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "合成纤维设备",
+          "code": "C070076",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "制地毯机械",
+          "code": "C070077",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "地毯植绒机",
+          "code": "C070078",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "电动织毯机",
+          "code": "C070079",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "平毯机",
+          "code": "C070080",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "针织机针",
+          "code": "C070454",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "经编机针",
+          "code": "C070455",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "横机针",
+          "code": "C070456",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "苎麻剥皮机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "苎麻刷光机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化学纤维纺织机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自动织布机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纤维切断机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纤维清花机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制毡机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纤维清棉机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "喷雾给湿机（纺织品处理用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "定长纤维切断机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "湿蒸呢机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "丝线成束机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "丝线绕线机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "丝线重卷机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纱线卷绕机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纱线拉伸机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纱线并条机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺纱机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "码布机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "捻丝机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "粗纱机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "动力织布机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "印刷机（纺织品用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纱线成条和梳理机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纱线整经机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "毡梳理机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "毡制品缩绒（呢）机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纱线绕线机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺织用轮转压花机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "织渔网机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺织用拉绒机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "开放式转杯纺织机用纺纱箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生丝加工机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺织品轧光机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "连续练漂机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺织品清棉机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用纺织品清洗机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "梭（织机零件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "织布机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "织袜机",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:52.217Z"
+}

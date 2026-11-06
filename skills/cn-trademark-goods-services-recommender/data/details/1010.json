@@ -1,0 +1,29 @@
+{
+  "groupCode": "1010",
+  "groupName": "单一商品",
+  "classCode": "10",
+  "notes": [
+    "注:宠物用太阳镜与第十二版 0924 宠物用太阳镜，第十一版及以前版本 0921 已接受商品宠物用太阳镜，1806 已接受商品宠物用太阳镜交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "宠物助行器",
+          "code": "100327",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "宠物用太阳镜",
+          "code": "100340",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [],
+  "crawledAt": "2026-06-09T18:57:48.922Z"
+}

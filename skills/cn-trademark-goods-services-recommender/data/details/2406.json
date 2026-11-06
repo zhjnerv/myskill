@@ -1,0 +1,485 @@
+{
+  "groupCode": "2406",
+  "groupName": "床上用品",
+  "classCode": "24",
+  "notes": [
+    "注：1.床单和枕套，枕套，装饰用枕套与2013枕头，羽绒枕头类似；",
+    "2.本类似群与第十一版及以前版本1802 皮褥子，皮床单，皮凉席交叉检索；",
+    "3.本类似群与第九版及以前版本 2405 毛巾被，枕巾交叉检索；",
+    "4.婴儿更换尿布用布单与 2013 可重复使用的婴儿更换尿布用垫类似，与第十一版及以前版本2013 婴儿更换尿布用垫交叉检索；",
+    "5.跨类似群保护商品：家庭日用纺织品（2405，2406，2407第（一）部分）；",
+    "6.睡袋与第十版及以前版本 2013 野营睡袋交叉检索。",
+    "7.本类似群与第十版及以前版本 2502 婴儿睡袋，第八版及以前版本 2013 睡袋交叉检索；"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "床罩",
+          "code": "240029",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "被子",
+          "code": "240029",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "床垫遮盖物",
+          "code": "240030",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纸制床罩",
+          "code": "240032",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "旅行用毯（膝盖保暖用）",
+          "code": "240034",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "床单",
+          "code": "240040",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鸭绒被",
+          "code": "240045",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "床单和枕套",
+          "code": "240068",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "家庭日用纺织品",
+          "code": "240071",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "褥垫套",
+          "code": "240074",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蚊帐",
+          "code": "240079",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "枕套",
+          "code": "240080",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "睡袋衬里",
+          "code": "240100",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "装饰用枕套",
+          "code": "240112",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "床上用毯",
+          "code": "240114",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "婴儿更换尿布用布单",
+          "code": "240120",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "家养宠物用毯",
+          "code": "240121",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "婴儿用睡袋",
+          "code": "240122",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "婴儿用包被",
+          "code": "240123",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "睡袋",
+          "code": "240124",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "婴儿用睡袋",
+          "code": "240122",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "床沿挂布",
+          "code": "240125",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "婴儿床防撞围（床用织品）",
+          "code": "240126",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "睡袋防水罩",
+          "code": "240128",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "皮床单",
+          "code": "240138",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "毛巾被",
+          "code": "C240028",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "枕巾",
+          "code": "C240030",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "被絮",
+          "code": "C240032",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "被面",
+          "code": "C240033",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "褥子（床用织品）",
+          "code": "C240034",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "棉毯",
+          "code": "C240036",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "毛毯",
+          "code": "C240037",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "丝毯",
+          "code": "C240038",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "帐沿",
+          "code": "C240039",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "床沿",
+          "code": "C240040",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "帐帘",
+          "code": "C240041",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "床帏",
+          "code": "C240042",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "塑料床单",
+          "code": "C240043",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "被罩",
+          "code": "C240049",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "皮褥子",
+          "code": "C240050",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "皮凉席",
+          "code": "C240051",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "布床幔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "婴儿床床单",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "塑料床单（非失禁用垫）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "床垫套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "毛巾床罩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "经编被子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "大被子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "四边可包住床垫的床单",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "四边可包住床垫的床罩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "儿童用毯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "丝绸床毯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "旅行毯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "盖膝用毯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "户外用毯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "羊毛毯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "休闲毯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺织品被子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "阿富汗毛毯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "床毯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "床裙",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "被套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蚕丝毯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "羽绒被",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "毛巾被单",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "涂有杀昆虫剂的蚊帐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "床上铺的褥垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蚕丝被",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "婴儿睡袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "婴儿用睡袋(被子替代物)",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "婴儿的睡袋（被褥）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "婴儿和儿童用的睡袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "婴儿和小孩睡袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "毯子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "野营用睡袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "婴儿睡袋（用于代替被子的套子）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "褥子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "（野外用的）睡袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "床幔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "婴儿用毯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "露营用睡袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "睡袋（被子替代物)",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "床单（纺织品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防水床单",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:04.081Z"
+}

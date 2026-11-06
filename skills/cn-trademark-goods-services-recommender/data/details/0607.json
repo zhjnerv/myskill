@@ -1,0 +1,260 @@
+{
+  "groupCode": "0607",
+  "groupName": "钉及标准紧固件",
+  "classCode": "06",
+  "notes": [
+    "注：1.跨类似群保护商品：五金器具（0607，0608，0609）；小五金器具（0607，0608，0609）。",
+    "注：2.金属环与0608铜环，金属门环类似"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "金属垫圈",
+          "code": "060037",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属环*",
+          "code": "060038",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属止动环",
+          "code": "060038",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "盒用金属紧固扣件",
+          "code": "060048",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属螺栓",
+          "code": "060049",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "垫片（填隙片）",
+          "code": "060063",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属销钉",
+          "code": "060078",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属销栓",
+          "code": "060078",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属开尾销",
+          "code": "060082",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属钉",
+          "code": "060085",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属双脚钉",
+          "code": "060086",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属平头钉",
+          "code": "060086",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属膨胀螺栓",
+          "code": "060087",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属钩（扣钉）",
+          "code": "060102",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属扣钉（钩）",
+          "code": "060102",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属螺丝",
+          "code": "060118",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "销（五金件）",
+          "code": "060141",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "有眼螺栓",
+          "code": "060143",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "吊环螺钉",
+          "code": "060143",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "攀登用鞋底钉",
+          "code": "060149",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属制帐篷地钉",
+          "code": "060208",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属铆钉",
+          "code": "060217",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "五金器具*",
+          "code": "060227",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "小五金器具*",
+          "code": "060227",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "普通金属扣（五金器具）",
+          "code": "060298",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属螺母",
+          "code": "060364",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鞋用金属钉",
+          "code": "060470",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鞋用金属销钉",
+          "code": "060471",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属塞",
+          "code": "060481",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "键销",
+          "code": "C060025",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "车辆紧固用螺丝",
+          "code": "C060039",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "金属卡扣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属六角头螺栓",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属销",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属制U型夹扣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "模板用金属加固销",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "桥梁连接用金属制锚定螺栓",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属装饰钉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属吊环螺钉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "固定螺丝用金属胀紧套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "固定螺丝用金属制膨胀套管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属锚栓",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:38.135Z"
+}

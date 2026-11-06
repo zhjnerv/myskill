@@ -1,0 +1,68 @@
+{
+  "groupCode": "2607",
+  "groupName": "硬托衬骨",
+  "classCode": "26",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "妇女紧身衣上衬骨",
+          "code": "260012",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "织补架",
+          "code": "260020",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "衣领托",
+          "code": "260046",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "衣领撑",
+          "code": "260046",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "服装垫肩",
+          "code": "260118",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "胸罩用钢圈",
+          "code": "260149",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "胸罩用可拆卸丰胸垫",
+          "code": "260158",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "领撑",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "胸罩衬骨",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:18.075Z"
+}

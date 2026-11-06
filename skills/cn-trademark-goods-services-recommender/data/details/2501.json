@@ -1,0 +1,1975 @@
+{
+  "groupCode": "2501",
+  "groupName": "衣物",
+  "classCode": "25",
+  "notes": [
+    "注：1.本类似群与第十二版及以前版本 1111 电热服装,电热马甲,第十版及以前版本 0924 原第(二)部分电暖衣服,电马甲,第九版及以前版本2505莎丽服交叉检索;；",
+    "2.童装与2502商品类似；",
+    "3.本类似群与第九版及以前版本 2505 莎丽服交叉检索；",
+    "4.跨类似群保护商品：服装（2501，2502，2503，2504，2505） ，防水服（2501，2504）；",
+    "5.服装与2513婚纱类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "工装裤",
+          "code": "250010",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "工作服",
+          "code": "250010",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "毛衣",
+          "code": "250034",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "套头衫",
+          "code": "250034",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "衬衫",
+          "code": "250042",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "短袖衬衫",
+          "code": "250044",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "服装*",
+          "code": "250045",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "裘皮服装",
+          "code": "250049",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "套服*",
+          "code": "250056",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "成品衣",
+          "code": "250057",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "马裤",
+          "code": "250063",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "马裤（穿着）",
+          "code": "250063",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "裤子",
+          "code": "250064",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "外衣",
+          "code": "250066",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "针织服装",
+          "code": "250071",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "华达呢（服装）",
+          "code": "250077",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "束腹紧身衣",
+          "code": "250079",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "马甲*",
+          "code": "250082",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "外套",
+          "code": "250086",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "防水服",
+          "code": "250087",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "紧身套衫",
+          "code": "250089",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "裙子",
+          "code": "250090",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "仆侍人员、行会会员等穿的制服",
+          "code": "250093",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运动衫",
+          "code": "250094",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "围裙（衣服）",
+          "code": "250096",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "皮制长外衣",
+          "code": "250103",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "连衣裙",
+          "code": "250109",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "大衣",
+          "code": "250115",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "轻便大衣",
+          "code": "250115",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "宽外袍",
+          "code": "250117",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "制服",
+          "code": "250119",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "呢绒夹克（服装）",
+          "code": "250120",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "夹克（服装）",
+          "code": "250121",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纸衣服",
+          "code": "250122",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "带帽风雪大衣",
+          "code": "250143",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "仿皮服装",
+          "code": "250150",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "皮衣",
+          "code": "250151",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "莎丽服",
+          "code": "250154",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "T恤衫",
+          "code": "250155",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "钓鱼背心",
+          "code": "250159",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "裙裤",
+          "code": "250164",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "斗篷",
+          "code": "250165",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纱笼",
+          "code": "250166",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "紧腿裤（裤子）",
+          "code": "250168",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "无袖罩裙",
+          "code": "250169",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "背心式紧身运动衣",
+          "code": "250172",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "和服",
+          "code": "250181",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "绣花服装",
+          "code": "250184",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "乳胶服装",
+          "code": "250188",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "装有LED灯的服装",
+          "code": "250190",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "胸贴",
+          "code": "250192",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "装有数字传感器的运动服",
+          "code": "250198",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "朝鲜族传统服装",
+          "code": "250199",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "乳贴（内衣）",
+          "code": "250201",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "胸罩肩带",
+          "code": "250202",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非手术室用医护制服",
+          "code": "250204",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电热服装",
+          "code": "250206",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "女用背心",
+          "code": "250022",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "平脚短裤",
+          "code": "250023",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "紧身围腰（女内衣）",
+          "code": "250025",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "内衣",
+          "code": "250026",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "睡袍",
+          "code": "250033",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "紧身衣裤",
+          "code": "250051",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "连裤内衣",
+          "code": "250053",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "吸汗内衣",
+          "code": "250054",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "胸衣",
+          "code": "250055",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "紧身胸衣（内衣）",
+          "code": "250078",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "背心*",
+          "code": "250082",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "海滨浴场用衣",
+          "code": "250104",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "睡衣裤",
+          "code": "250108",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "睡衣",
+          "code": "250108",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "内裤",
+          "code": "250112",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "乳罩",
+          "code": "250114",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "浴衣",
+          "code": "250127",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "衬裙",
+          "code": "250144",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "连身衬裙",
+          "code": "250146",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "女式连身内衣",
+          "code": "250147",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "女式内裤*",
+          "code": "250171",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "护衣汗垫",
+          "code": "250017",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "衣领（衣服）",
+          "code": "250020",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "衬衫前胸",
+          "code": "250043",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "可拆的衣领",
+          "code": "250050",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "成品衬里（服装的一部分）",
+          "code": "250068",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "衬衫抵肩",
+          "code": "250072",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "袖口",
+          "code": "250095",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "袖口（衣服）",
+          "code": "250095",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "服装口袋",
+          "code": "250106",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "风衣",
+          "code": "C250001",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "羽绒服装",
+          "code": "C250002",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "旗袍",
+          "code": "C250003",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "妇女腹带",
+          "code": "C250004",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "童装",
+          "code": "C250005",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "磁疗衣",
+          "code": "C250006",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "胸罩衬垫（胸衬、胸垫）",
+          "code": "C250007",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "红外线衣",
+          "code": "C250030",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "药物用衣",
+          "code": "C250031",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "摄影背心",
+          "code": "C250032",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "电热马甲",
+          "code": "C250033",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "连身衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "热身服",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "沙滩装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可反光的外套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可反光的夹克",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "军装式风雨衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "橄榄球运动上衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "橄榄球运动短裤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "衬衫式外套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "针织内衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运动夹克",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运动背心",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "雪地服",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "套裙",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无袖背心",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "保护衣领用护领",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "保护衣领用衣领垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "女式套装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "骑士夹克",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无袖夹克",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抹胸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "男式上衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牛仔布夹克",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牛仔布裤子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "晚礼服大衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "网球服",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "网球裙",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "围裙",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无肩带乳罩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "苏格兰式短裙",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "连帽粗呢外套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "露腹短上衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有袖夹克",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运动胸罩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "狩猎夹克",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宽松工装裤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "羊皮夹克",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "羊皮外套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "女式上衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "灯芯绒裤子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "灯芯绒衬衫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牛仔裤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "分组背心",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "沙滩罩衫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "长袖马甲",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "晨礼服",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "珠地布衬衫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "正装长裤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "亚麻布服装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "小山羊皮夹克",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "长夹克",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "衬裤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防汗内衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "女士礼服",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "和服（普通长度的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "粗呢连帽大衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "圆领毛衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "紧身胸衣（妇女紧身胸衣）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "渔夫用夹克",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "羽织纽（和服短褂的系纽）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "女式睡裙",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无带乳罩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "苎麻衬衫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "摩托车夹克",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "理发师用工作服",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宽松半长裤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "短套装（服装）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "羊毛紧身衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "紧身背带裤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "连身背带短裤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮质裙装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "配西装的衬衫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "腰缠布（服装）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "针织衬衫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "女士内衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "女士睡衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "朝鲜女服短上衣（赤古里）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "朝鲜传统女背心",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "针织夹克",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "针织马球衫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贴身内裤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "女式内衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "女式裙裤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "女式套服",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无尾晚礼服",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "女式无袖胸衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "和服外褂（羽织）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "女用内衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "针织睡衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "连帽套衫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "连帽运动衫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "连身工作服",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "休闲服",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "长袖套头衫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "长袖运动衫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "长运动裤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "跑步服",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "棒球服",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马球衫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高尔夫球裤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高尔夫球衫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "慢跑服",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "慢跑运动裤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "厚呢短大衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮制套装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高领套头衫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "迷你裙",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "平角内裤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "棉上衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "校服",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "胸罩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "长袍",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "衬衫式长睡衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "伴娘礼服",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮裤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "训练套装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "羊毛短裤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "礼服",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "比赛用滑雪服",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "七分裤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "两件套衫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "长款厚大衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "带有领尖扣的衬衫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "和服衬领（半领）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无袖运动衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "吸烟夹克",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "和服中衣（襦袢）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "袴（和服）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "短袖运动衬衫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "紧身胸衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "衣领",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "套衫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汗衫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "短上衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "厚夹克",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "厚外套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "女式开襟短上衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "女式衬衫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "短衬裙",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有领衬衫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运动套装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "短裤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "男式套装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "羽绒服",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "滑雪裤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "滑雪衫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运动服",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "丁字内裤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运动服套装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运动裤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冬衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "束腰女上衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水手服",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "结婚礼服",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日式睡衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "滑雪服",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "单板滑雪服",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "单板滑雪裤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "粗斜纹棉布上衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "外裤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "正装衬衫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "晚礼服",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防风背心",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防风夹克",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "开襟羊毛衫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "开领衫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可拆卸衣领",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "女士长睡袍",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宽松裤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蓝色牛仔裤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卡夫坦长衫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "棉服夹克",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "塑身内衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抓绒衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "骑马裤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "百褶裙",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "女士晚礼服",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防水裤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "吊带裙",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鸡尾酒会礼服",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "瑜伽上衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "女式灯笼裤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "沙滩裤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "定做的女式服装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "男式短裤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运动发汗裤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卡多尔罩袍",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "连裤女内衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "布卡罩袍",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "羊绒衫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "九分裤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "连帽浴袍",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "紧身内衣（服装）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "带肩带的女式长内衣（内衣）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "妇女连衫衬裤（内衣）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "沙滩防晒服装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "飞行员夹克",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "休闲裤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "保暖背心",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮夹克",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮外套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "吸汗衬衫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "吸汗短裤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "毛线衫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "背心式上衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "沙滩外衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运动马甲",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "户外防风夹克",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "男短衬裤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "紧身衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "女式晨衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "长睡衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "拳击手短裤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运动上衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "成衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "吊带衫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "吊带上衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运动衬衫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "内裤（服装）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "睡裤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "睡裙",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "浴袍",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "荷叶边式夹克衫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宽松上衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "针织背心",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "女式睡袍",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "连体羽绒服",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "橄榄球分队背心",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "床上穿的短上衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "女式紧身马甲",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "女式紧身连体衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无钢托文胸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "前扣式短袖花衬衫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "底裤（服装）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "上衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "裘皮外套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "哺乳胸罩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "长袖衬衫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "保暖内衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "弹力全身紧身衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运动短裤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "瑜伽裤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运动制服",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "针织上装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贴身上衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "带兜帽的风雪大衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "V字领毛衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "吸湿排汗运动衫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "连体服",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮护腿套裤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "西装外套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运动外套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贴身下装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "吸湿排汗运动胸衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "吸湿排汗运动裤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "连衫裤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "一次性围裙",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "罩衫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "羽绒夹克",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "环颈式露背上装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高领衫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "孕妇内衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宽松睡裤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "摇粒绒上装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "女士长裤套装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "披风",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高尔夫短裤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "带帽外套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "狩猎背心",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "塑料裤子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "瑜伽衫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "外套式衬衫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汉服（中国传统服装）",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:07.559Z"
+}

@@ -1,0 +1,537 @@
+{
+  "groupCode": "1806",
+  "groupName": "动物用具",
+  "classCode": "18",
+  "notes": [
+    "注:本类似群与第八版及以前版本 0615 狗用项圈，金属马镫，金属马掌，1402 贵重金属马具配件，1708 非金属马掌交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "鞍架",
+          "code": "180004",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "牵引动物用皮索",
+          "code": "180005",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "系狗皮带",
+          "code": "180005",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "马鞍扣栓",
+          "code": "180006",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "小勒缰",
+          "code": "180011",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "动物嚼子（马具）",
+          "code": "180017",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "马轭",
+          "code": "180025",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "马毯",
+          "code": "180026",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "动物用口套",
+          "code": "180028",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "动物项圈*",
+          "code": "180030",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "马具用带",
+          "code": "180033",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "马缰绳",
+          "code": "180033",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "皮带（鞍具）",
+          "code": "180034",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "马镫橡皮件",
+          "code": "180045",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "马镫皮带",
+          "code": "180046",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鞭子",
+          "code": "180049",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "秣囊（草料袋）",
+          "code": "180050",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "马用护膝",
+          "code": "180053",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "动物外套",
+          "code": "180054",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "动物用挽具",
+          "code": "180055",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "眼罩（马具）",
+          "code": "180056",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "挽绳（马具）",
+          "code": "180057",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "笼头",
+          "code": "180059",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "马笼头",
+          "code": "180059",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "九尾鞭",
+          "code": "180061",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "缰绳",
+          "code": "180072",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "皮肚带",
+          "code": "180080",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "马鞍",
+          "code": "180081",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鞍具",
+          "code": "180082",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "马鞍套",
+          "code": "180097",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "辔头（马具）",
+          "code": "180112",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "马鞍用垫",
+          "code": "180117",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "马镫",
+          "code": "180119",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "马具配件",
+          "code": "180120",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "马掌",
+          "code": "180121",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鞍褥",
+          "code": "180129",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "马鞍包*",
+          "code": "180134",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "宠物服装",
+          "code": "180135",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "与牵狗带配套使用的狗便袋分配器",
+          "code": "180148",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "狗用外套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "狗项圈",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "猫穿的上衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "动物用喂料袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "猫项圈",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马用服装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牵狗带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "驯马用牵引索",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "动物护腿",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "系狗带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "动物用头罩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "骑师用棒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马术用调教索",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铁制马具配件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "挽具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮制鞍具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "狗鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "狗用服装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宠物项圈",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "动物服装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "动物嚼子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马嚼子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马眼罩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马用挽具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马用眼罩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "动物皮带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "动物挽具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鞍带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "短马鞭",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "缰绳（马具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马腿套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "狗肚带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "动物用牵引索",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马嚼子（马具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "拴动物皮带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "带有医学信息的宠物项圈",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马鞍毯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马辔头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家禽用防打架眼罩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宠物狗用雨衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "狗用连帽防寒服",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马绑腿",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "护蹄",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马鞍垫毯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马鞭",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "动物服饰",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马用防蝇面罩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "塑料马掌",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马用雨衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宠物用披风",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宠物帽子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "狩猎用鞭子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宠物牵引带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马尾护套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防蝇马衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马耳罩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宠物用雨衣",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:29.572Z"
+}

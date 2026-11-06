@@ -1,0 +1,306 @@
+{
+  "groupCode": "4002",
+  "groupName": "金属材料处理或加工服务",
+  "classCode": "40",
+  "notes": [
+    "注：1.镀锡与3713重新镀锡类似；",
+    "2.本类似群服务项目与4001打磨，碾磨加工，层压，研磨，研磨抛光，喷砂处理服务，材料刨削处理，材料锯切服务类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "磁化",
+          "code": "400004",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "镀银",
+          "code": "400007",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "锡焊",
+          "code": "400011",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "镀镉",
+          "code": "400013",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "镀铬",
+          "code": "400017",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属电镀",
+          "code": "400018",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "涂金",
+          "code": "400024",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电镀",
+          "code": "400026",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "镀锡",
+          "code": "400027",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铁器加工",
+          "code": "400029",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铣削加工",
+          "code": "400031",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "镀锌",
+          "code": "400034",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属处理",
+          "code": "400042",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属回火",
+          "code": "400043",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "镀镍",
+          "code": "400045",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "镀金",
+          "code": "400085",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "激光划线",
+          "code": "400086",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "精炼",
+          "code": "400093",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "锅炉制造",
+          "code": "400099",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属铸造",
+          "code": "400100",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "配钥匙",
+          "code": "400108",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "焊接服务",
+          "code": "400125",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "金属层压",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属镀釉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属精炼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "气焊设备出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属熔炼服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属热处理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "锡器加工",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属硬化",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "银器制作",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "焊接",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属加工",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "热浸镀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "模具铸造",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "退火",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "消磁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "退磁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属冲压",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电焊设备出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "对不锈钢片材和卷材进行表面处理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "物体表面金属化服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属电镀及层压",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金器加工",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铝的处理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属管的热处理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属钻孔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属焊接",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属蚀刻",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属切割",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属钎焊",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属压铸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属雕刻",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:32.156Z"
+}

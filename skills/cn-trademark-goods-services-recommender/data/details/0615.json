@@ -1,0 +1,87 @@
+{
+  "groupCode": "0615",
+  "groupName": "动物用金属制品",
+  "classCode": "06",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "拴牲畜的链子",
+          "code": "060044",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "马掌钉",
+          "code": "060077",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "靴刺",
+          "code": "060122",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "动物挂铃",
+          "code": "060240",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属制兽笼",
+          "code": "060433",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属制狗便袋分配器器",
+          "code": "060452",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "金属制家禽笼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家畜用金属耳标",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属制狗便袋分配器060452",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鸟戏水台（金属结构）060280",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属制固定式狗用垃圾袋分配器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鸟食台（金属结构）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属制马掌钉",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:42.882Z"
+}

@@ -1,0 +1,55 @@
+{
+  "groupCode": "0310",
+  "groupName": "室内芳香剂",
+  "classCode": "03",
+  "notes": [
+    "注：本类似群与0503商品类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "空气芳香剂",
+          "code": "030215",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "无芯香氛蜡（芳香制剂）",
+          "code": "030268",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "家用芳香剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "室内用空气芳香剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "车用芳香剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "带香味的织物清新喷雾剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "室内芳香喷雾",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:24.545Z"
+}

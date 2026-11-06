@@ -1,0 +1,353 @@
+{
+  "groupCode": "0303",
+  "groupName": "抛光、擦亮制剂",
+  "classCode": "03",
+  "notes": [
+    "注：1.皮革保护剂（抛光剂），皮革膏，皮革用蜡与0401皮革保护用油脂，皮革保护油类似，与第十版及以前版本0401皮革防腐剂（油和脂），皮革保护剂（油和脂）交叉检索。",
+    "2.皮革漂白制剂，皮革洗涤剂与 0301 第二自然段类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "抛光铁丹",
+          "code": "030011",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "皮革漂白制剂",
+          "code": "030025",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "擦鞋膏",
+          "code": "030039",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "抛光制剂",
+          "code": "030045",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鞋蜡",
+          "code": "030046",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "家具或地板用抛光剂",
+          "code": "030047",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "擦亮用剂",
+          "code": "030048",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鞋匠用蜡",
+          "code": "030049",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鞋线蜡",
+          "code": "030050",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "拼花地板蜡",
+          "code": "030053",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "抛光蜡",
+          "code": "030054",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "裁缝用蜡",
+          "code": "030055",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "皮革保护剂（抛光剂）",
+          "code": "030061",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "抛光乳膏",
+          "code": "030070",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "磨剃刀皮带用软膏",
+          "code": "030073",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "皮革膏",
+          "code": "030074",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "皮革用蜡",
+          "code": "030074",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "抛光用纸",
+          "code": "030139",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "抛光石",
+          "code": "030144",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "抛光用硅藻石",
+          "code": "030164",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "地板防滑蜡",
+          "code": "030207",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "地板防滑液",
+          "code": "030208",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "植物叶子增光剂",
+          "code": "030212",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鞋油",
+          "code": "030228",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "地板蜡",
+          "code": "030241",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "上光剂",
+          "code": "C030023",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "夹克油",
+          "code": "C030024",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "鞋粉",
+          "code": "C030025",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "帽粉",
+          "code": "C030026",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "汽车、自行车上光蜡",
+          "code": "C030027",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "擦铜水",
+          "code": "C030028",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "皮革擦亮纸（浸擦亮剂）",
+          "code": "C030029",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "皮革洗涤剂",
+          "code": "C030030",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "水果擦亮剂",
+          "code": "C030066",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "地板用液体抛光剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "地板用天然蜡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "地板抛光剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木材处理用抛光制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车上光剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车上光蜡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车用蜡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮革上光剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮革保护剂（上光）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鞋和靴用乳膏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "植物叶片用光亮剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家具上光剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮革护理剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鍍鉻表面用抛光剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属表面用抛光剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "吉他琴体上光剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮革清洁皂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鞋用抛光剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家具和地板用抛光剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮革漂白剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮革抛光剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "磨剃须刀皮带用软膏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水果抛光剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抛光粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "乐器用抛光剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "镀铬件抛光剂",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:20.392Z"
+}

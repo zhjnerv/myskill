@@ -1,0 +1,311 @@
+{
+  "groupCode": "1002",
+  "groupName": "牙科设备及器具",
+  "classCode": "10",
+  "notes": [
+    "注：本类似群商品与1001医疗器械和仪器类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "牙科医生用扶手椅",
+          "code": "100048",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "假牙",
+          "code": "100052",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "牙钻",
+          "code": "100072",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "牙科设备和仪器",
+          "code": "100073",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "假牙种植钉",
+          "code": "100074",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "全口假牙",
+          "code": "100076",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "牙科用镜",
+          "code": "100078",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用或牙科用扶手椅",
+          "code": "100088",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电动牙科设备",
+          "code": "100179",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "畸齿矫正仪器",
+          "code": "100214",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "牙科用牙齿保护器",
+          "code": "100240",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "牙科用牙齿美白仪",
+          "code": "100349",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "防磨牙用护齿",
+          "code": "100350",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "牙用植入物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙医用外科设备和器械",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙挖器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙科用钻",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙髓针",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙科用钻具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙科用种植桥",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙科用种植基牙",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙科用研磨盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙科用切割盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙科用切割轮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙齿矫正器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙科用打磨轮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙科专用镊钳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙科用比色板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙科用修复工具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "颊面管",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙科用汞合金输送器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙科用椅子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙科用椅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙科用聚合装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用护牙套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙科用充填器械",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙科用口腔内照相机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙基台支架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗阻塞性睡眠呼吸暂停的牙科器械",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙冠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "齿科取模托盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙科用口腔冲洗器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙科咬合架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "畸齿校整仪器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙科用拉刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙科用固化灯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙科用印模材料注射器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙钻钻头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "正畸保持器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙科检查椅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙科治疗用牙探针",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "假牙套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙钳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙科用印模托盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牙科用橡皮障",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:44.143Z"
+}

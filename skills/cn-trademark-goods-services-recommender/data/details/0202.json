@@ -1,0 +1,416 @@
+{
+  "groupCode": "0202",
+  "groupName": "颜料（不包括食用、绝缘用），绘画、装饰、印刷和艺术用金属箔及金属粉",
+  "classCode": "02",
+  "notes": [
+    "注：1.二氧化钛（颜料）与0102第（三）部分工业用二氧化钛类似；",
+    "2.跨类似群保护商品：着色剂（0201，0202）。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "绘画用铝粉",
+          "code": "020008",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "石棉颜料",
+          "code": "020009",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "水彩固定剂",
+          "code": "020011",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "银乳剂（颜料）",
+          "code": "020015",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金胺",
+          "code": "020018",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "赭石土（颜料）",
+          "code": "020029",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "绘画用青铜粉",
+          "code": "020032",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铅白",
+          "code": "020038",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "炭黑（颜料）",
+          "code": "020039",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "氧化钴（颜料）",
+          "code": "020044",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "胭脂虫红",
+          "code": "020045",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "着色剂*",
+          "code": "020047",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "颜料",
+          "code": "020059",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "灯黑（颜料）",
+          "code": "020073",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "绘画用藤黄",
+          "code": "020076",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "氧化锌（颜料）",
+          "code": "020081",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铅黄",
+          "code": "020089",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "黄丹",
+          "code": "020089",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "绘画、装饰、印刷和艺术用金属粉",
+          "code": "020090",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "绘画、装饰、印刷和艺术用金属箔",
+          "code": "020092",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铅红",
+          "code": "020095",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "红丹",
+          "code": "020095",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "胭脂树橙（颜料）",
+          "code": "020098",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烟灰色（颜料）",
+          "code": "020101",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "二氧化钛（颜料）",
+          "code": "020106",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "艺术用水彩",
+          "code": "020126",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "艺术用油彩",
+          "code": "020127",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "家具修复用补色笔",
+          "code": "020130",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "绘画用闪粉",
+          "code": "020140",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "水彩画留白液",
+          "code": "020141",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "色母粒",
+          "code": "C020001",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "立德粉（锌钡白）",
+          "code": "C020014",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "有机颜料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "油性颜料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无机颜料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制化妆品用着色剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺织纤维颜料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "画家、装饰家、印刷商和艺术家用金属箔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "画家、装饰家、印刷商和艺术家用金属粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "画家、装饰家、印刷商和艺术家用有色金属箔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "画家、装饰家、印刷商和艺术家用有色金属粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "画家、装饰家、印刷商和艺术家用有色金属粉末",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "群青（颜料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "装饰用金属箔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制墨用颜料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "着色用铝粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "红丹（铅红）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钛白",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "艺术家用颜料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水彩颜料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蛋彩画颜料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "彩色颜料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "朱砂红",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "画家、装饰家、印刷商和艺术家用铅合金粉末",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "画家、装饰家、印刷商和艺术家用铅合金箔片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "画家、装饰家、印刷商和艺术家用铅粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "画家、装饰家、印刷商和艺术家用铅箔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化学防护颜料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "茜红",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "艺术家用丙烯颜料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "丙烯颜料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "绘画、装饰、印刷和艺术用贵金属粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "绘画、装饰、印刷和艺术用贵金属箔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "油画颜料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生产化妆品用颜料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "绘画用铜粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "绘画用镁粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "绘画用钽粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "绘画用铌粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "绘画用锌粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "光致变色颜料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "热变色颜料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "磷光颜料",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:15.454Z"
+}

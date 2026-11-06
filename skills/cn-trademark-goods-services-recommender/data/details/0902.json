@@ -1,0 +1,435 @@
+{
+  "groupCode": "0902",
+  "groupName": "记录、记数检测器",
+  "classCode": "09",
+  "notes": [
+    "注：1.本类似群各部分之间商品不类似；",
+    "2.第（五）部分内的商品互相之间不判为类似商品；",
+    "3.第（一）部分与第七版及以前版本 2106 计时沙漏交叉检索。",
+    "4.全息图与第十版及以前版本0909 全息图交叉检索",
+    "5. 第（六）部分与第十版及以前版本第（三）验手纹机交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "（一）",
+      "items": [
+        {
+          "name": "计步器",
+          "code": "090137",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "计数器",
+          "code": "090138",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "数量显示器",
+          "code": "090301",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "停车计时器",
+          "code": "090383",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "时间记录装置",
+          "code": "090478",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "计时器（时间记录装置）",
+          "code": "090586",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "算盘",
+          "code": "090627",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "电子记事器",
+          "code": "090628",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "煮蛋计时器（沙漏）",
+          "code": "090683",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "沙漏",
+          "code": "090683",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "电子计分器",
+          "code": "C090009",
+          "type": "marked",
+          "section": "（一）"
+        }
+      ]
+    },
+    {
+      "label": "（二）",
+      "items": [
+        {
+          "name": "邮戳检查装置",
+          "code": "090149",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "邮戳检验器",
+          "code": "090149",
+          "type": "standard",
+          "section": "（二）"
+        }
+      ]
+    },
+    {
+      "label": "（三）",
+      "items": [
+        {
+          "name": "钱点数和分拣机",
+          "code": "090053",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "验钞机",
+          "code": "090173",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "收银机",
+          "code": "090525",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "自助取款机（ATM）",
+          "code": "090686",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "信用卡终端机",
+          "code": "090843",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "自助结账终端",
+          "code": "090911",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "POS机",
+          "code": "090924",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "支票记录机",
+          "code": "C090006",
+          "type": "marked",
+          "section": "（三）"
+        },
+        {
+          "name": "支票证明机",
+          "code": "C090007",
+          "type": "marked",
+          "section": "（三）"
+        }
+      ]
+    },
+    {
+      "label": "（四）",
+      "items": [
+        {
+          "name": "投币启动设备用机械装置",
+          "code": "090063",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "投币计数启动设备用机械装置",
+          "code": "090064",
+          "type": "standard",
+          "section": "（四）"
+        }
+      ]
+    },
+    {
+      "label": "（五）",
+      "items": [
+        {
+          "name": "口述听写机",
+          "code": "090188",
+          "type": "standard",
+          "section": "（五）"
+        },
+        {
+          "name": "全息图",
+          "code": "090291",
+          "type": "standard",
+          "section": "（五）"
+        },
+        {
+          "name": "衣裙下摆贴边标示器",
+          "code": "090313",
+          "type": "standard",
+          "section": "（五）"
+        },
+        {
+          "name": "投票机",
+          "code": "090499",
+          "type": "standard",
+          "section": "（五）"
+        },
+        {
+          "name": "摇奖机",
+          "code": "C090005",
+          "type": "marked",
+          "section": "（五）"
+        }
+      ]
+    },
+    {
+      "label": "（六）",
+      "items": [
+        {
+          "name": "验手纹机",
+          "code": "C090010",
+          "type": "standard",
+          "section": "（六）"
+        },
+        {
+          "name": "人脸识别设备",
+          "code": "C090145",
+          "type": "standard",
+          "section": "（六）"
+        },
+        {
+          "name": "生物特征识别扫描仪",
+          "code": "090952",
+          "type": "standard",
+          "section": "（六）"
+        }
+      ]
+    },
+    {
+      "label": "（七）",
+      "items": [
+        {
+          "name": "电子出票机",
+          "code": "090086",
+          "type": "standard",
+          "section": "（七）"
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "现金自动分拣计数机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "销售终端机（POS机）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硬币兑换机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硬币点数和分拣机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自动收银机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "沙漏（时间记录装置）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "货币识别机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子自动检票机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高速公路收费用电子终端设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "停车场电子出票机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "货币汇兑电子换算器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生物识别虹膜扫描仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生物识别视网膜扫描仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生物识别扫描仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子记分牌",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "验钞仪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "发动机工作小时表",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "厨房用电子计时器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硬币检测机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "厨房用定时器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非电厨房定时器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电信业用收款机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "燃油加油机的室外电子自动收款机(安装于燃油加油机上或独立安装)",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "厨房计时器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "销售点终端收款机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "旋转计数器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无线收款机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "现金收款机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子收款机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子收款机键盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子收款机系统用现金收入记录机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子收款机用抽拉舱(装钱币用)",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子收款设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子货币收款机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "假币检测器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宠物用计步器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自助取款机",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:29.844Z"
+}

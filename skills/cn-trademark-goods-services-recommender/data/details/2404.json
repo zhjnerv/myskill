@@ -1,0 +1,49 @@
+{
+  "groupCode": "2404",
+  "groupName": "毡及毡制品",
+  "classCode": "24",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "毡*",
+          "code": "240027",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纺织品制印刷机垫",
+          "code": "240106",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "造纸毛毯",
+          "code": "C240027",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "无纺毡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "压毡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机织毛毡",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:02.906Z"
+}

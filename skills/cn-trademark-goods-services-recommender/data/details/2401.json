@@ -1,0 +1,751 @@
+{
+  "groupCode": "2401",
+  "groupName": "纺织品，布料",
+  "classCode": "24",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "仿兽皮织物",
+          "code": "240003",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "装饰织品",
+          "code": "240004",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "台球布",
+          "code": "240007",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "织物*",
+          "code": "240008",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "筛布",
+          "code": "240009",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "硬（麻）布",
+          "code": "240010",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "锦缎",
+          "code": "240011",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纺织织物",
+          "code": "240012",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "布*",
+          "code": "240013",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "挂毯和刺绣用粗帆布",
+          "code": "240015",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "麻织物",
+          "code": "240017",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "麻布",
+          "code": "240018",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "片状纺织品帽衬",
+          "code": "240019",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鞋的衬里织物",
+          "code": "240020",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鞋用织物",
+          "code": "240021",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "舍味呢（布料）",
+          "code": "240023",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "丝绒",
+          "code": "240026",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "棉织品",
+          "code": "240028",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "坚质条纹棉布（亚麻布）",
+          "code": "240031",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "绉布（织物）",
+          "code": "240035",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "重绉纹织物",
+          "code": "240036",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "缎子",
+          "code": "240037",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "内衣用织物",
+          "code": "240038",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "衬料（纺织品）",
+          "code": "240039",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "弹性纺织织物",
+          "code": "240046",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "绣花图案布",
+          "code": "240049",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "刺绣用描绘布",
+          "code": "240049",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "法兰绒（织物）",
+          "code": "240050",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "起绒粗呢（布）",
+          "code": "240052",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "干酪布",
+          "code": "240053",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "粗斜纹布",
+          "code": "240054",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纱布（布）",
+          "code": "240056",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "马毛与绒布混织物（粗麻布）",
+          "code": "240058",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "印花用丝织品",
+          "code": "240060",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "印花棉布",
+          "code": "240061",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "平针织物",
+          "code": "240062",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "黄麻织品",
+          "code": "240063",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "毛料布",
+          "code": "240064",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "毛织品",
+          "code": "240064",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "亚麻布",
+          "code": "240067",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "菱形花纹亚麻布",
+          "code": "240069",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "斜纹厚绒布",
+          "code": "240077",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "苎麻织品",
+          "code": "240083",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "人造丝织品",
+          "code": "240084",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "丝绸（布料）",
+          "code": "240088",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "薄纱",
+          "code": "240089",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "茅草纤维织物",
+          "code": "240090",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "塔夫绸（布）",
+          "code": "240091",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "编织织物",
+          "code": "240092",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "轻薄织物（布料）",
+          "code": "240094",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "白布",
+          "code": "240095",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "绳绒线织物",
+          "code": "240111",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "平纹细布",
+          "code": "240127",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "凸纹条格细平布",
+          "code": "240131",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蜡染印花布",
+          "code": "240139",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "聚酯纤维织物",
+          "code": "240140",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蕾丝花边织物",
+          "code": "240141",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "牛津布",
+          "code": "C240001",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "帆布",
+          "code": "C240002",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "毛巾布",
+          "code": "C240003",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "蚊帐织布",
+          "code": "C240004",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "衬布",
+          "code": "C240005",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "纱绢",
+          "code": "C240006",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "单丝筛绢",
+          "code": "C240007",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "夏布罗纹",
+          "code": "C240008",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "麻皮布",
+          "code": "C240009",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "蓖麻绢纺",
+          "code": "C240010",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "麻绒",
+          "code": "C240011",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "静电植绒布",
+          "code": "C240012",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "呢绒",
+          "code": "C240013",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "亚麻织物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纱罗织物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "精纺丝织品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "装饰织物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "灯芯绒织物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "真麻织物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "服装针织面料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "毛线编织织物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "以丝为主的混纺织物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手工绢丝织物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "台球呢（台面呢）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无机纤维混纺织物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "以棉为主的混纺织物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "以羊毛为主的混纺织物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "废棉织物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "网眼编织织物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "仿兽皮的纺织织物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "合成纤维织物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "毛棉混纺织物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "服装用弹性织物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化纤织物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "黄麻织物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "混合纤维织物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机织物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "精纺织物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "丝毛混纺织物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "丝棉混纺织物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "棉纱编织织物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "半合成纤维织物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "起绒布",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "粗纺毛织物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "丝线编织织物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "丝织物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化纤纱编织织物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牛仔布",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "以麻纤维为主的混纺织物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "麻纱织物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "麻毛混合织物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "麻棉混合织物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "麻丝混合织物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "羊毛纱织物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "窄幅机织物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "再生纤维纱线制织物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "裁缝用按规格裁切布",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "服装用纺织品衬料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "毛绒面料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "弹性纱混合织物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化学纤维为主的混纺织物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属纤维面料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺织用纸纱织物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "榻榻米垫边饰用布",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "内衣用纺织织物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数码印花用纺织面料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "色丁布",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "塔夫绸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "印花丝织品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "亚麻织品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鞋用衬里织物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "香云纱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺织的弹性布料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "窗帘布",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "粘胶纤维织物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺织纤维织物",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:01.164Z"
+}

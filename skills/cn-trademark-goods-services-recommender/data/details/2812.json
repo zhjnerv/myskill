@@ -1,0 +1,92 @@
+{
+  "groupCode": "2812",
+  "groupName": "单一商品",
+  "classCode": "28",
+  "notes": [
+    "注：1.本类似群各部分之间商品不类似；",
+    "2.本类似群第（一）部分为单一商品，各自然段间互不类似；",
+    "3.抽奖用刮刮卡，印制的彩票与第九版及以前版本 16 类 1605 已接受商品彩票，刮刮卡等类似商品交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "（一）",
+      "items": [
+        {
+          "name": "啦啦队用指挥棒",
+          "code": "280164",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "印制的彩票",
+          "code": "280285",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "伪装掩蔽物（体育用品）",
+          "code": "280195",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "抽奖用刮刮卡",
+          "code": "280207",
+          "type": "standard",
+          "section": "（一）"
+        }
+      ]
+    },
+    {
+      "label": "（二）",
+      "items": [
+        {
+          "name": "球拍手胶",
+          "code": "280277",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "球拍用吸汗带",
+          "code": "C280096",
+          "type": "marked",
+          "section": "（二）"
+        },
+        {
+          "name": "运动用吸汗带",
+          "code": "C280104",
+          "type": "marked",
+          "section": "（二）"
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "打猎用伪装掩蔽物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "棒球棒用握把胶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高尔夫球杆握把胶带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "啦啦队用绒球",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冰球杆握把胶带",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:30.372Z"
+}

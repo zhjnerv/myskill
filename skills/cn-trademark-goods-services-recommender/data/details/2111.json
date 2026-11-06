@@ -1,0 +1,224 @@
+{
+  "groupCode": "2111",
+  "groupName": "保温保冷用具",
+  "classCode": "21",
+  "notes": [
+    "注：1.本类似群各种瓶与2101瓶类似；",
+    "2.本类似群与第九版及以前版本 2610 茶壶保暖套交叉检索；",
+    "3.暖水瓶与1104电热水瓶类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "食物保温容器",
+          "code": "210007",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "饮料隔热容器",
+          "code": "210035",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "隔热瓶",
+          "code": "210046",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "保温瓶",
+          "code": "210046",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "冷藏瓶",
+          "code": "210047",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "隔热容器",
+          "code": "210062",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "冰块模",
+          "code": "210099",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "冷却容器（冰桶）",
+          "code": "210196",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "冰桶",
+          "code": "210196",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非电动制冰块和冰淇淋器",
+          "code": "210211",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非电便携式冷藏箱",
+          "code": "210261",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "保温袋",
+          "code": "210323",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "茶壶保暖套",
+          "code": "210343",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "冷却食物和饮料用冷却包",
+          "code": "210369",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "可重复使用的冰块",
+          "code": "210370",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "保温午餐袋",
+          "code": "210466",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "制备食物和饮料用发热包",
+          "code": "210478",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "暖水瓶",
+          "code": "C210039",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "暖水瓶壳",
+          "code": "C210040",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "非电冷酒器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冰镇葡萄酒用小桶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制冰格",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冰桶专用衬",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "保温瓶（隔热瓶）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食物或饮料用保温袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食物或饮料用保温容器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "热水瓶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冰酒器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "保温罐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "便携式冷藏盒（非电）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非电便携式冷藏盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "葡萄酒冷却器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用罐装饮料保温容器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鱼子酱非电冰镇器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "保温水壶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制冰和冷饮的金属容器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鱼用非电动冷藏箱",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:53.508Z"
+}

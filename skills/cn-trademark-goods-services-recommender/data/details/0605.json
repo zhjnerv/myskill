@@ -1,0 +1,290 @@
+{
+  "groupCode": "0605",
+  "groupName": "非电气用缆索和金属线、网、带",
+  "classCode": "06",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "钢箍",
+          "code": "060003",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "钢丝",
+          "code": "060004",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铝丝",
+          "code": "060019",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "装卸用金属吊带",
+          "code": "060026",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "带刺金属丝",
+          "code": "060041",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "高架缆车的缆绳",
+          "code": "060057",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "普通金属线",
+          "code": "060108",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铁箍",
+          "code": "060131",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铁丝",
+          "code": "060132",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属丝网",
+          "code": "060184",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "普通金属合金丝（除保险丝外）",
+          "code": "060268",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "捆扎用金属带",
+          "code": "060285",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "包装或捆扎用金属带",
+          "code": "060285",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "捆扎用金属线",
+          "code": "060286",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "装卸用金属带",
+          "code": "060305",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "装卸用金属吊索",
+          "code": "060306",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属制非电气缆绳",
+          "code": "060311",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "农业用金属捆扎线",
+          "code": "060319",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属绳索",
+          "code": "060341",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非绝缘铜线",
+          "code": "060353",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属捆扎物",
+          "code": "060363",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属捆扎线",
+          "code": "060396",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属绳",
+          "code": "060427",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属扎带",
+          "code": "060487",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属束线带",
+          "code": "060487",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属制落石防护网",
+          "code": "060500",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电焊网",
+          "code": "C060020",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "钢带",
+          "code": "C060044",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "铁带",
+          "code": "C060045",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "黄铜丝",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "普通金属制非电气用缆绳和线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "带刺钢丝网",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "滑坡防护用铁丝网",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钢丝绳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属制网和丝网",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属薄带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铁丝织网",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "普通金属线（非电气用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属制吊货索",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钛丝",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钢缆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "岩滑防护铁丝网",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "带刺铁丝",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钨丝",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钼丝",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属吊索",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非电气用单股金属线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "捆扎包裹用金属条",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "不锈钢丝",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:36.972Z"
+}

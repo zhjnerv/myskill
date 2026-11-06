@@ -1,0 +1,82 @@
+{
+  "groupCode": "3603",
+  "groupName": "珍品估价",
+  "classCode": "36",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "古玩估价",
+          "code": "360051",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "艺术品估价",
+          "code": "360052",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "珠宝估价",
+          "code": "360061",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "首饰估价",
+          "code": "360061",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "钱币估价",
+          "code": "360062",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "邮票估价",
+          "code": "360064",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "宝石估价",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硬币估价",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "游艇估价",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马匹估价",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "二手手表估价",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数字艺术品的估价",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:08.560Z"
+}

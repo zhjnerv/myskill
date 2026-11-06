@@ -1,0 +1,313 @@
+{
+  "groupCode": "2003",
+  "groupName": "不属别类的工业、建筑配件",
+  "classCode": "20",
+  "notes": [
+    "注：1.本类似群与第十版及以前版本 2807 软梯交叉检索。",
+    "2.钳工台（家具）与第十版及以前版本0612金属制钳工台交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "缆绳和管道用非金属夹",
+          "code": "200016",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纱线、丝线、绳子用绕线木轴",
+          "code": "200025",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "刷子托座",
+          "code": "200033",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "壁炉隔屏（家具）",
+          "code": "200046",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铁路货车用非金属载量规杆",
+          "code": "200055",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "木或塑料梯",
+          "code": "200092",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "乘客登乘用可移动非金属梯",
+          "code": "200093",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "洗涤槽用可拆卸的罩",
+          "code": "200099",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "软管用非机械式、非金属卷盘",
+          "code": "200103",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "楼梯地毯固定杆",
+          "code": "200105",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "工作台",
+          "code": "200106",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属台阶（梯子）",
+          "code": "200147",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "塑料阀门（非机器部件）",
+          "code": "200186",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "挂钥匙用钥匙板",
+          "code": "200197",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "钳工台（家具）",
+          "code": "200209",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "塑料排水阱（阀）",
+          "code": "200231",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "塑料水管阀",
+          "code": "200236",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属系船浮标",
+          "code": "200251",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "锯木架",
+          "code": "200263",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "锯台（家具）",
+          "code": "200287",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属梯凳",
+          "code": "200289",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属制钥匙圈",
+          "code": "200294",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属挂包钩",
+          "code": "200304",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "袋子用塑料封口夹",
+          "code": "200313",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "车辆用塑料坡道",
+          "code": "200328",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属制手持旗杆",
+          "code": "200333",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "洗涤槽用可拆卸的垫或罩",
+          "code": "200352",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "庭院伞底座支架",
+          "code": "200373",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属喷嘴*",
+          "code": "200379",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "车辆救援用非金属制牵引板",
+          "code": "200380",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属球阀",
+          "code": "C200011",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "塑料线卡",
+          "code": "C200012",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "电缆、电线塑料槽",
+          "code": "C200013",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "软梯",
+          "code": "C200041",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "塑料角阀（非机器零件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "缆绳用非金属夹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手操作陶瓷阀门（非机器部件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属电缆夹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属梯子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "塑料阀（非机器零件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属花园用桩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工作台面",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "袋子用非金属封口夹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属制钳工台",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属制钳工台",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属折梯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "洗涤槽用可拆卸的垫200352",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "花园浇水软管用手动式非金属卷盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "码头用非金属制系缆角",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "软管用非机械、非金属卷轴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "软管用非机械、非金属绕轴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "管道用塑料夹",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:40.513Z"
+}

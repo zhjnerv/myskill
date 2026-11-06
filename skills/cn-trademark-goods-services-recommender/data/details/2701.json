@@ -1,0 +1,70 @@
+{
+  "groupCode": "2701",
+  "groupName": "地毯",
+  "classCode": "27",
+  "notes": [
+    "注：本类似群商品与2403纺织品制墙上挂毯，纺织品制壁挂类似，与第九版及以前版本2403纺织品挂毯（墙上挂帘帷），纺织品壁挂交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "地毯*",
+          "code": "270011",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "小地毯*",
+          "code": "270011",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "方块地毯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "嵌入式地毯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "浴室地毯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "小方地毯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺织品小方地毯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铺地用小方地毯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "（穆斯林）祈祷用跪毯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "长条地毯",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:21.345Z"
+}

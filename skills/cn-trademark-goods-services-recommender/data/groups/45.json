@@ -1,0 +1,32 @@
+[
+  {
+    "groupCode": "4501",
+    "groupName": "安全服务",
+    "classCode": "45"
+  },
+  {
+    "groupCode": "4502",
+    "groupName": "提供人员服务",
+    "classCode": "45"
+  },
+  {
+    "groupCode": "4503",
+    "groupName": "提供服饰服务",
+    "classCode": "45"
+  },
+  {
+    "groupCode": "4504",
+    "groupName": "殡仪服务",
+    "classCode": "45"
+  },
+  {
+    "groupCode": "4505",
+    "groupName": "单一服务",
+    "classCode": "45"
+  },
+  {
+    "groupCode": "4506",
+    "groupName": "法律服务",
+    "classCode": "45"
+  }
+]

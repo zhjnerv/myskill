@@ -1,0 +1,153 @@
+{
+  "groupCode": "4503",
+  "groupName": "提供服饰服务",
+  "classCode": "45",
+  "notes": [
+    "注：:本类似群与第七版及以前版本 4218 夜礼服出租,衣服出租,服装租赁,制服出租交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "晚礼服出租",
+          "code": "450046",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "服装出租",
+          "code": "450081",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "个人服装搭配咨询",
+          "code": "450227",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "协助穿着和服",
+          "code": "450234",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "与服装选择相关的个人色彩分析服务",
+          "code": "450268",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "首饰出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "礼服出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手提包出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "正装出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制服出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "出租鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手表出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鞋出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "珠宝出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "女士手拿包出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新娘用手拿包出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新娘首饰出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新娘礼服出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "晚装出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "男士无尾半正式晚礼服出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "帽子出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "学士服出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冲浪服出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "在线出租服装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "婚纱出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "旗袍出租",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:01:00.419Z"
+}

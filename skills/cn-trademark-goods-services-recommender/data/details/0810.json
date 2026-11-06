@@ -1,0 +1,837 @@
+{
+  "groupCode": "0810",
+  "groupName": "刀剪（不包括机械刀片，文具刀）",
+  "classCode": "08",
+  "notes": [
+    "注：1.非电动开罐器与2101 开塞钻（电或非电），开瓶器（电或非电）类似，与第十版及以前版本2101 开瓶刀，开塞钻交叉检索；",
+    "2.跨类似群保护商品：手动的手工具（0801，0802，0803，0804，0805，0806，0807，0808，0809，0810）。",
+    "4.毛球修剪器与第十版及以前版本 0806 已接受商品毛球修剪器交叉检索"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "牲畜修剪刀",
+          "code": "080033",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "削蹄刀",
+          "code": "080039",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "剪刀*",
+          "code": "080040",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "折叠刀",
+          "code": "080046",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "猎刀",
+          "code": "080053",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "大剪刀*",
+          "code": "080060",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "大剪刀刀片",
+          "code": "080061",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "手动的手工具",
+          "code": "080072",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "手动蔬菜切片器",
+          "code": "080073",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "手动蔬菜切丝器",
+          "code": "080073",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "切肉刀",
+          "code": "080077",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "刮鳞刀",
+          "code": "080095",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "修枝剪",
+          "code": "080097",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "长柄修枝剪",
+          "code": "080098",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "接芽刀",
+          "code": "080099",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "树枝修剪刀",
+          "code": "080100",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "切边大剪刀",
+          "code": "080112",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "刈草坪刀（手工器具）",
+          "code": "080127",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蹄铁匠用刀",
+          "code": "080132",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "削皮刀",
+          "code": "080133",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "剁菜刀",
+          "code": "080136",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "斩骨刀",
+          "code": "080138",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "修枝刀",
+          "code": "080146",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "刀片（手工具）",
+          "code": "080149",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "大砍刀",
+          "code": "080154",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "灯芯剪（剪刀）",
+          "code": "080164",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非电动开罐器",
+          "code": "080169",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "刀*",
+          "code": "080205",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "动物剪毛器（手工具）",
+          "code": "080222",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "刮削刀（手工具）",
+          "code": "080235",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "剔肉刀",
+          "code": "080236",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "切碎刀",
+          "code": "080236",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "剁肉刀",
+          "code": "080236",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "奶酪切片器（非电动）",
+          "code": "080248",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "切比萨饼用刀（非电动）",
+          "code": "080249",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鸡蛋切片器（非电动）",
+          "code": "080251",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "陶瓷刀",
+          "code": "080266",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "手动螺旋切菜器",
+          "code": "080278",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "手动蔬菜削皮器",
+          "code": "080279",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "开箱刀",
+          "code": "080280",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "葡萄酒瓶用手动切箔器",
+          "code": "080283",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "水果分割器",
+          "code": "080284",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "水果去芯器",
+          "code": "080285",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "厨房用多功能擦菜器",
+          "code": "080286",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "分肉爪",
+          "code": "080287",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "切菜刀",
+          "code": "080291",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "多功能刀",
+          "code": "080294",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "手动玉米脱粒器",
+          "code": "080295",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "手动水果切片器",
+          "code": "080296",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "手动食品处理器",
+          "code": "080297",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "手动水果去核器",
+          "code": "080301",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "拆线刀",
+          "code": "080304",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "切刀080076",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "针线剪刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "剪刀刀刃",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "剪纸刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属剪切用剪刀（铁皮剪）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "潜水刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "潜水刀盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铁皮剪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "薄刃厨房刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "插花用剪刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "刀（手工具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "儿童用剪刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "缝纫剪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "狗用修剪工具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "刮鱼鳞器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用剪刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "剪刀刀片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鱼线剪刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "绣花剪刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "小折刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "小剪刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "齿牙剪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "大蒜切碎器（非电）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "切蒜器（非电）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "土豆削皮器（非电）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "斜切刀（手工具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "园艺剪刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "园艺用大剪刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "比萨饼切片器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "缝纫用剪刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮刀鞘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "地毯刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "削皮器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "羊毛剪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水果刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "刀鞘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "刀套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "砍刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "切片刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "面包刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "厨房用刀具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "厨房用剪刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "片鱼厨刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "剁榻榻米垫用刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非电动食品切片器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手动锡剪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "薯条切刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手动铁皮剪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "裁缝用粉笔削刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非电动蔬菜剥皮器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水果雕刻刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非电动奶酪切片机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非电动切比萨饼用刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非电动鸡蛋切片器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可生物降解的刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手动鱼鳞刨",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "大折合刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手动切碎机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手动香蕉切片器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "小型长柄砍刀（手工具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "切硬面包圈用刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "比萨饼剪刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非电动奶酪切片器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "渔刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "文具剪刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蔬菜去心器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水果削皮器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "苹果去芯器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纱剪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "开罐头刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "厨师刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "葡萄柚树修剪器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "切比萨用刀（非电）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手动剪毛器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "苹果去核器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "户外运动刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鱼刮鳞器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家禽剪刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蔬菜切丝器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蔬菜切片器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "削木刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "切葡萄柚刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "油漆刮刀（手工具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "层压板刻痕刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手动菠萝挖眼器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蔬菜削皮器（手工具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钓鱼线剪刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非电动削皮器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非电动剥橙器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烛芯剪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "剔肉刀（手工具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "切碎刀（手工具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "意式面食制作用手动切割器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "修枝用大剪刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "奶酪切片器（非电）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "切比萨饼用刀（非电）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鸡蛋切片器（非电）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用大剪刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蛋糕切刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "奶酪刀",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:26.791Z"
+}

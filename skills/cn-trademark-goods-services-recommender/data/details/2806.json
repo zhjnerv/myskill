@@ -1,0 +1,122 @@
+{
+  "groupCode": "2806",
+  "groupName": "射箭运动器材",
+  "classCode": "28",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "箭弓",
+          "code": "280007",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "射箭用器具",
+          "code": "280008",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "靶",
+          "code": "280038",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "泥鸽投射器",
+          "code": "280080",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "泥鸽（靶子）",
+          "code": "280101",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电子靶",
+          "code": "280193",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "箭术用箭",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "箭术用靶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "弓弦",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日式弓",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "箭筒套（体育器材）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "箭（箭术用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "箭术器具（日式和西式）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "射箭用弓弦",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "弓箭瞄用开放式准器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "射箭用箭头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "泥鸽靶发射器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "弩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "箭袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "狩猎用箭头",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:26.777Z"
+}

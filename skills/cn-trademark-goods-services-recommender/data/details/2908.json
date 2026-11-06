@@ -1,0 +1,392 @@
+{
+  "groupCode": "2908",
+  "groupName": "食用油脂",
+  "classCode": "29",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "食用油脂",
+          "code": "290005",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食用可可脂",
+          "code": "290009",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "椰子油脂",
+          "code": "290010",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食用菜油",
+          "code": "290022",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食用菜籽油",
+          "code": "290022",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食用油",
+          "code": "290032",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "制食用脂肪用脂肪物",
+          "code": "290053",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "以脂肪为主的面包片抹酱",
+          "code": "290054",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食用玉米油",
+          "code": "290058",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食用棕榈果仁油",
+          "code": "290059",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食用芝麻油",
+          "code": "290060",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食用棕榈油",
+          "code": "290084",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食用橄榄油",
+          "code": "290091",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食用骨油",
+          "code": "290092",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "猪油",
+          "code": "290103",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食用板油",
+          "code": "290108",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食用葵花籽油",
+          "code": "290111",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "椰子脂",
+          "code": "290121",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食用椰子油",
+          "code": "290122",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食用亚麻籽油",
+          "code": "290175",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烹饪用卵磷脂",
+          "code": "290177",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食用特级初榨橄榄油",
+          "code": "290207",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食用豆油",
+          "code": "290216",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食用杏仁油",
+          "code": "290266",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食用植物油",
+          "code": "290272",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "类可可脂",
+          "code": "C290072",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "种子酱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用动物油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用茶籽油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可可脂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用芥花油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "椰子油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用动物油脂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "芝麻油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用猪油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烹饪用亚麻籽油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硬化油（食品用氢化油）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "玉米油（食品用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "米糠油（食用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "花生油（食用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用调和油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用椰子油脂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用花生油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "玉米油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "芝麻油（食用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "芥花油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "豆油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "坚果油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "起酥油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烹调用黄豆油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "橄榄油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用油和脂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "特级初榨橄榄油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用葡萄籽油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用牛油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用米糠油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用混合油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用坚果油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用奇亚籽油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食品用可可脂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用山茶油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烹饪用油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "色拉油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用文冠果油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食品用板油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "奶精（植脂末）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用玉米胚芽油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用南瓜籽油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "涂面包片用脂肪混合物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用植物调和油",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:35.001Z"
+}

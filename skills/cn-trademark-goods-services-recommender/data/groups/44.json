@@ -1,0 +1,27 @@
+[
+  {
+    "groupCode": "4401",
+    "groupName": "医疗服务",
+    "classCode": "44"
+  },
+  {
+    "groupCode": "4402",
+    "groupName": "卫生、美容服务",
+    "classCode": "44"
+  },
+  {
+    "groupCode": "4403",
+    "groupName": "为动物提供服务",
+    "classCode": "44"
+  },
+  {
+    "groupCode": "4404",
+    "groupName": "农业、水产养殖、园艺和林业服务",
+    "classCode": "44"
+  },
+  {
+    "groupCode": "4405",
+    "groupName": "单一服务",
+    "classCode": "44"
+  }
+]

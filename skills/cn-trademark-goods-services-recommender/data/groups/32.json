@@ -1,0 +1,17 @@
+[
+  {
+    "groupCode": "3201",
+    "groupName": "啤酒",
+    "classCode": "32"
+  },
+  {
+    "groupCode": "3202",
+    "groupName": "不含酒精饮料",
+    "classCode": "32"
+  },
+  {
+    "groupCode": "3203",
+    "groupName": "糖浆及其他供饮料用的制剂",
+    "classCode": "32"
+  }
+]

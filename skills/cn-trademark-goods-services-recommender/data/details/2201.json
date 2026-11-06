@@ -1,0 +1,358 @@
+{
+  "groupCode": "2201",
+  "groupName": "缆，绳，线，带",
+  "classCode": "22",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "绑藤本植物的带子",
+          "code": "220003",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "麻带",
+          "code": "220015",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属绳索",
+          "code": "220020",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "绳索*",
+          "code": "220021",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鞭绳",
+          "code": "220022",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "绳梯",
+          "code": "220023",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "打包带",
+          "code": "220032",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "细绳",
+          "code": "220035",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "船用束帆索",
+          "code": "220036",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纸绳",
+          "code": "220038",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "捆扎纱",
+          "code": "220042",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "固定式百叶窗用梯带",
+          "code": "220045",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "固定式百叶窗用带子",
+          "code": "220045",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蜡绳",
+          "code": "220055",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "包装或捆扎用非金属带",
+          "code": "220078",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "捆扎用非金属线",
+          "code": "220079",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "装卸用非金属吊带",
+          "code": "220081",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "装卸用非金属带",
+          "code": "220082",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "装卸用非金属吊索",
+          "code": "220083",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属缆",
+          "code": "220084",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "农业用非金属捆扎线",
+          "code": "220086",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "拉窗绳",
+          "code": "220088",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "挂图片用绳",
+          "code": "220089",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "打包绳",
+          "code": "220091",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "汽车拖缆",
+          "code": "220103",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属捆扎物",
+          "code": "220112",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属扎带",
+          "code": "220119",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属束线带",
+          "code": "220119",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "丝绳",
+          "code": "C220001",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "绽子绳",
+          "code": "C220002",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "塑料打包带",
+          "code": "C220003",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "塑料线（包扎用）",
+          "code": "C220004",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "锚索",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "捆绑用橡皮筋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "天然纺织纤维制捆扎绳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺织纤维制绳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "航海用绳索",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "庭园用塑料扎带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家庭用塑料扎带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "合股绳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "草绳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "登山绳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "合股线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "麻制绳索",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "栏杆用绳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车用牵引绳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "攀岩绳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "弹力绑绳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "捆包绳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "装卸用织物制吊索",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "缆绳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "弹力绳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "软百叶窗用梯形带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "套索",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "包装绳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "包装带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宠物玩具用绳索",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "塑料绑扎带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "尼龙捆绑带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "降落伞绳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属弹力绳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "软百叶帘用梯形带",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:56.399Z"
+}

@@ -1,0 +1,118 @@
+{
+  "groupCode": "0110",
+  "groupName": "灭火、防火用合成物",
+  "classCode": "01",
+  "notes": [
+    "注：本类似群与第十版及以前版本 0104 第（三）部分阻燃剂交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "灭火合成物",
+          "code": "010288",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "防火制剂",
+          "code": "010294",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "阻燃剂",
+          "code": "C010199",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "消防泡沫液",
+          "code": "C010247",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "灭火药粉",
+          "code": "C010248",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "商业用和家用阻燃合成物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺织品阻燃涂层用化学制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "消防泡沫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "灭火制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "灭火阻燃剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "阻燃防火液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "阻燃合成物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "阻燃制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑用灭火合成物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可喷涂的防火制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于处理木材、纺织品、塑料和楼房用绝缘材料的阻燃剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用作纺织物火焰阻燃剂的化学制品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "灭火用化学合成物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防火合成物",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:10.735Z"
+}

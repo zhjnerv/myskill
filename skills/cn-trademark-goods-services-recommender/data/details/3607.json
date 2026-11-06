@@ -1,0 +1,52 @@
+{
+  "groupCode": "3607",
+  "groupName": "慈善募捐",
+  "classCode": "36",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "募集慈善基金",
+          "code": "360015",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "为预警和预防灾难募集慈善基金",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "募集慈善基金服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过组织和开展活动进行慈善募捐服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过音乐会筹集慈善基金",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过跑步和步行活动筹集慈善资金",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为提高对树木和环境保护认识的慈善筹款服务",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:10.978Z"
+}

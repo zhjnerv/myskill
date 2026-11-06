@@ -1,0 +1,27 @@
+{
+  "groupCode": "0619",
+  "groupName": "（测气象或风力的）金属风标",
+  "classCode": "06",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "金属风向标",
+          "code": "060148",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属风力驱鸟器",
+          "code": "060432",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [],
+  "crawledAt": "2026-06-09T18:56:45.213Z"
+}

@@ -1,0 +1,96 @@
+{
+  "groupCode": "4302",
+  "groupName": "提供房屋设施的服务",
+  "classCode": "43",
+  "notes": [
+    "注：本类似群与第七版及以前版本4202交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "提供野营场地设施",
+          "code": "430026",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "活动房屋出租",
+          "code": "430160",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "会议室出租",
+          "code": "430187",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "帐篷出租",
+          "code": "430189",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "水烟休息室服务",
+          "code": "430201",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "移动式更衣室出租",
+          "code": "430207",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "提供机场休息室",
+          "code": "430214",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "预订和安排机场休息室的使用",
+          "code": "430215",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "可移动建筑物出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为社交集会出租房间",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供会议室",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "组装式活动房屋出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "雪茄休息室服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "度假小屋出租",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:53.472Z"
+}

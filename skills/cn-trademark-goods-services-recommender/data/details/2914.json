@@ -1,0 +1,44 @@
+{
+  "groupCode": "2914",
+  "groupName": "肠衣",
+  "classCode": "29",
+  "notes": [
+    "注：本类似群与第十版及以前版本1807商品交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "天然或人造的香肠肠衣",
+          "code": "290226",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "人造的香肠肠衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制香肠肠衣用肠子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制香肠用的肠衣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "香肠肠衣",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:38.515Z"
+}

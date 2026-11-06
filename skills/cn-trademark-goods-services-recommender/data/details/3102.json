@@ -1,0 +1,228 @@
+{
+  "groupCode": "3102",
+  "groupName": "未加工的谷物及农产品（不包括蔬菜，种子）",
+  "classCode": "31",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "燕麦*",
+          "code": "310012",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "未加工可可豆",
+          "code": "310020",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "小麦",
+          "code": "310061",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "谷（谷类）",
+          "code": "310066",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "玉米*",
+          "code": "310082",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "大麦*",
+          "code": "310095",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "黑麦",
+          "code": "310118",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "未加工的食用芝麻",
+          "code": "310120",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "未加工稻谷",
+          "code": "310144",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "未加工的食用亚麻籽",
+          "code": "310160",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "未加工的甜玉米棒（剥皮的或未剥皮的）",
+          "code": "310164",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "未加工藜麦",
+          "code": "310165",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "未加工荞麦",
+          "code": "310166",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "未加工的南瓜籽",
+          "code": "310176",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "未加工的斯佩尔特小麦",
+          "code": "310178",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "未加工的小的斯佩尔特小麦",
+          "code": "310180",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "未加工的咖啡果",
+          "code": "310182",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "未加工的谷物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜豆子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工的亚麻籽",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜印加豆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工玉米",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工的红豆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工的藜麦",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜燕麦",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工黍",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工粟",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工的糖料作物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工日本稗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜鹰嘴豆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工的高粱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工的小麦",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新鲜小麦",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工大麦",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工的苔麸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "莜麦",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工谷类",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工稻谷（籼稻）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工稻谷（粳稻）",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:50.774Z"
+}

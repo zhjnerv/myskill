@@ -1,0 +1,820 @@
+{
+  "groupCode": "2507",
+  "groupName": "鞋",
+  "classCode": "25",
+  "notes": [
+    "注：本类似群与第十二版及以前版本 1111 电热靴,第十版及以前版本 0924原第(二)部分电靴,第九版及以前版本 2506 交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "足球靴",
+          "code": "250075",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "足球鞋",
+          "code": "250075",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "体操鞋",
+          "code": "250085",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "足球鞋钉",
+          "code": "250134",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "滑雪靴",
+          "code": "250145",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鞋跟保护套",
+          "code": "250185",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鞋（脚上的穿着物）*",
+          "code": "250003",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "浴室凉鞋",
+          "code": "250004",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "浴室拖鞋",
+          "code": "250005",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "靴*",
+          "code": "250014",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "中筒靴",
+          "code": "250015",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "麻绳编制厚底鞋",
+          "code": "250073",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "橡胶套鞋",
+          "code": "250080",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "拖鞋",
+          "code": "250101",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "海滨浴场用鞋",
+          "code": "250105",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "木鞋",
+          "code": "250110",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "凉鞋",
+          "code": "250111",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鞋*",
+          "code": "250130",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运动鞋",
+          "code": "250132",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运动靴",
+          "code": "250141",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "毡靴",
+          "code": "250173",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "短靴",
+          "code": "250175",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鞋用防滑配件",
+          "code": "250001",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鞋尖",
+          "code": "250016",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "靴帮",
+          "code": "250040",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鞋内底",
+          "code": "250041",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鞋用金属配件",
+          "code": "250048",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鞋面",
+          "code": "250061",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "护腿鞋罩",
+          "code": "250062",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "护腿鞋罩用系带",
+          "code": "250083",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鞋后跟",
+          "code": "250116",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鞋用滚边",
+          "code": "250118",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鞋底",
+          "code": "250129",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鞋跟",
+          "code": "250131",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "护踝鞋罩",
+          "code": "250193",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "跳鞋",
+          "code": "C250015",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "跑鞋（带金属钉）",
+          "code": "C250016",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "爬山鞋",
+          "code": "C250017",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "雨鞋",
+          "code": "C250018",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "鞋垫",
+          "code": "C250019",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "爬山鞋（带金属钉）",
+          "code": "C250029",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "电热靴",
+          "code": "C250035",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "藤编的日式草屐的上底面",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "芭蕾舞软鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "芭蕾舞鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "登山靴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "凉拖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木屐式凉鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "女鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "骑马鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "骑摩托车穿的靴子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日式草屐的上底面",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "雨天穿的高齿木屐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "维修用鞋底",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工作靴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工作鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "徒步鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "滑雪鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "橡胶或塑料制压纹鞋跟",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "橡胶或塑料制压纹鞋底",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "女式短靴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "夹趾凉鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "夹趾拖鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "晴天用矮齿木屐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "矮齿木屐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日式毡凉鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日式草屐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日式草屐底",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高尔夫球鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "篮球鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "雪地靴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "训练鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马靴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "乙烯塑料鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "帆布便鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "帆布鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非运动用鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "休闲鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "橄榄球鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "靴套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木底鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "排球鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮拖鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有搭扣带的鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "骑自行车鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "涉水鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "男鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "女靴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "球鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "曲棍球鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "拳击鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "女士可折叠拖鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日式分趾工作鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日式木屐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日式皮凉鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "登山鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钓鱼用鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冬靴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "田径运动鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "徒步靴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "拖鞋鞋底",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "网球鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日式草鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日式木屐的木屐台",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "棒球鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "保龄球鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "橡胶鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "甲板鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日式木屐用金属配件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鞋（矫形鞋除外）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鞋靴用鞋垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日式木屐的木屐齿",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日式木屐带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "胶底布鞋用橡胶鞋底",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木鞋（鞋）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手球运动鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鹿皮软底鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "带钉跑鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "正装鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "跑鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "俄罗斯羊毛毡靴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高筒裘里雪地靴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "军靴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "护士鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "便于穿脱的鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "修脚时穿的泡沫拖鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鞋舌",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鞋掌",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鞋中底",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "便鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "步行鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "系带靴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "童鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自行车鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "靴用金属配件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "平底鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人字拖鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "交谊舞鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "（雨天穿的）高齿木屐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "舞鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "攀岩鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "夹趾凉鞋用防滑垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "一次性拖鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "套鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高筒橡胶套鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "儿童雨靴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "厚底鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "草鞋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钓鱼用防水长靴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鞋用保护性构件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "系带靴子",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:10.430Z"
+}

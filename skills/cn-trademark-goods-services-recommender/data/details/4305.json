@@ -1,0 +1,70 @@
+{
+  "groupCode": "4305",
+  "groupName": "为动物提供食宿",
+  "classCode": "43",
+  "notes": [
+    "注：本类似群与4403 动物养殖，水产养殖服务类似，与第十版及以前版本4403 动物饲养，宠物饲养，第七版及以前版本4205动物寄养，动物饲养，宠物饲养，动物喂养，为动物提供膳食，爱畜饲养交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "动物寄养",
+          "code": "430134",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "动物收容服务",
+          "code": "430203",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "宠物日间护理服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马寄养",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宠物旅馆服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宠物寄养服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宠物寄养",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日间看护狗服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宠物旅馆住宿服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "动物寄养服务",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:55.186Z"
+}

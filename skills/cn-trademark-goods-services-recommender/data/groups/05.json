@@ -1,0 +1,42 @@
+[
+  {
+    "groupCode": "0501",
+    "groupName": "药品，消毒剂，中药药材，药酒",
+    "classCode": "05"
+  },
+  {
+    "groupCode": "0502",
+    "groupName": "医用营养品，人用膳食补充剂，婴儿食品",
+    "classCode": "05"
+  },
+  {
+    "groupCode": "0503",
+    "groupName": "净化制剂",
+    "classCode": "05"
+  },
+  {
+    "groupCode": "0504",
+    "groupName": "兽药，动物用膳食补充剂",
+    "classCode": "05"
+  },
+  {
+    "groupCode": "0505",
+    "groupName": "杀虫剂，除莠剂，农药",
+    "classCode": "05"
+  },
+  {
+    "groupCode": "0506",
+    "groupName": "卫生用品，绷敷材料，医用保健袋",
+    "classCode": "05"
+  },
+  {
+    "groupCode": "0507",
+    "groupName": "填塞牙孔用料，牙科用蜡",
+    "classCode": "05"
+  },
+  {
+    "groupCode": "0508",
+    "groupName": "宠物尿布",
+    "classCode": "05"
+  }
+]

@@ -1,0 +1,214 @@
+{
+  "groupCode": "2509",
+  "groupName": "袜",
+  "classCode": "25",
+  "notes": [
+    "注:本类似群与第十二版及以前版本 1111 电热袜,电暖脚套,第十版及以前版本 0924 原第(二)部分电热袜交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "长袜*",
+          "code": "250006",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "吸汗长袜",
+          "code": "250007",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "长袜后跟",
+          "code": "250008",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "袜",
+          "code": "250013",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "短袜*",
+          "code": "250036",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "吊袜带",
+          "code": "250037",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "袜带",
+          "code": "250038",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "吊袜带（长袜用）",
+          "code": "250039",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "紧腿裤（暖腿套）",
+          "code": "250088",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "暖腿套",
+          "code": "250088",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非电暖脚套",
+          "code": "250133",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "吸汗袜",
+          "code": "250176",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电热袜",
+          "code": "250207",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电热或非电热暖脚套",
+          "code": "250208",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "袜裤",
+          "code": "C250022",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "袜套",
+          "code": "C250023",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "新娘用吊袜带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "及膝长袜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日式分趾袜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "羊毛袜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运动用长袜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "裤袜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "男式短袜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防汗袜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "绑腿",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "分趾袜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "瑜伽袜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新娘用袜带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "连裤袜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "短筒袜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "过膝袜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "连体袜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "保暖袜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "拖鞋袜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防滑袜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "踝袜",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:11.584Z"
+}

@@ -1,0 +1,138 @@
+{
+  "groupCode": "1914",
+  "groupName": "石、混凝土、大理石雕塑品",
+  "classCode": "19",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "石、混凝土或大理石制塑像",
+          "code": "190170",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "石、混凝土或大理石制艺术品",
+          "code": "190193",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "石、混凝土或大理石制半身像",
+          "code": "190202",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "石、混凝土或大理石制小塑像",
+          "code": "190224",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "石、混凝土或大理石制小雕像",
+          "code": "190224",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "石、混凝土或大理石制雕像纪念杯",
+          "code": "190272",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "石、混凝土或大理石制奖杯",
+          "code": "190273",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "混凝土小雕像",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "大理石半身雕像",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "石雕",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "石雕像",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "混凝土制小雕像",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "混凝土雕塑",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "大理石小雕像",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "大理石雕塑",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "石制小雕像",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "混凝土半身雕像",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "石头小雕像",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "石、混凝土或大理石半身雕塑像",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "石、混凝土或大理石像",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "石、混凝土或大理石小雕像",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "石、混凝土或大理石小塑像",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "大理石小塑像",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:38.164Z"
+}

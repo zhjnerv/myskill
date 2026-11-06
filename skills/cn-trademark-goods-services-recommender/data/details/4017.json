@@ -1,0 +1,34 @@
+{
+  "groupCode": "4017",
+  "groupName": "航空器定制生产服务",
+  "classCode": "40",
+  "notes": [
+    "注:本类似群与与第十一版及以前版本3708已接受服务飞机制造交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "定制生产航空器",
+          "code": "400136",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "航空器的定制装配",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "飞机定制组装服务",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:41.040Z"
+}

@@ -1,0 +1,391 @@
+{
+  "groupCode": "0705",
+  "groupName": "印刷工业用机械及器具",
+  "classCode": "07",
+  "notes": [
+    "注：1.印刷版，印刷胶版，胶印锌版，外文模板（印刷用）与1618凸印版，胶版，电铸版类似，与第九版及以前版本1618印版，胶印版，电版交叉检索；",
+    "注：2.跨类似群保护商品：工业用喷墨打印机（0705，0716）。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "排字机（印刷）",
+          "code": "070076",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "字模盒（印刷用）",
+          "code": "070081",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "排字机（照相排版）",
+          "code": "070112",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铸字机",
+          "code": "070120",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "印刷滚筒",
+          "code": "070140",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "印刷机上墨装置",
+          "code": "070175",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "在金属薄板上使用的印刷机器",
+          "code": "070216",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "印刷版",
+          "code": "070217",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "印刷机器",
+          "code": "070218",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "印刷机",
+          "code": "070219",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "印刷机用油墨辊",
+          "code": "070220",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "进纸机（印刷）",
+          "code": "070246",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "凸版印刷机",
+          "code": "070303",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "工业用书籍装订装置和机器",
+          "code": "070327",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "轮转印刷机",
+          "code": "070334",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "上光机",
+          "code": "070345",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铅板印刷机",
+          "code": "070355",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "压纸格（印刷机部件）",
+          "code": "070377",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "凸版印刷机械",
+          "code": "070378",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "印刷用字模",
+          "code": "070436",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "工业用喷墨打印机",
+          "code": "070580",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "浇铅条机",
+          "code": "C070030",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "铅字刨床",
+          "code": "C070031",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "胶印机",
+          "code": "C070032",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "三色版机（印刷工业机械）",
+          "code": "C070033",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "自动配页机",
+          "code": "C070034",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "折页机",
+          "code": "C070035",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "整理机（印刷工业机械）",
+          "code": "C070036",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "打眼机",
+          "code": "C070037",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "铸铅板机",
+          "code": "C070038",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "出纸型机",
+          "code": "C070039",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "制版机",
+          "code": "C070040",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "晒版机",
+          "code": "C070041",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "打样机",
+          "code": "C070042",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "裁纸机",
+          "code": "C070043",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "烫金机",
+          "code": "C070044",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "划线机（印刷工业机械）",
+          "code": "C070045",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "涂刷机",
+          "code": "C070046",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "透明胶蜡网线版",
+          "code": "C070047",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "印刷胶版",
+          "code": "C070048",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "印刷胶辊",
+          "code": "C070049",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "胶印锌版",
+          "code": "C070050",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "外文模板（印刷用）",
+          "code": "C070051",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "铜网（印刷用）",
+          "code": "C070052",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "照相制版用腐蚀机",
+          "code": "C070053",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "高速烂版机",
+          "code": "C070054",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "印刷用镍网",
+          "code": "C070369",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "轮转印刷机用滚轴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "平版印刷机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "苯胺印刷机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "凸印版用着墨装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "照相凹版印刷机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "凹版印刷机器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "丝网印刷机器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "压纹印刷机器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业印刷机器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用书籍装订机器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陶瓷材料用印刷机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "照相制版机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "丝网印刷设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "压印机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自动压印机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "装订机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "折纸机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用螺旋装订机",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:51.601Z"
+}

@@ -1,0 +1,29 @@
+{
+  "groupCode": "3907",
+  "groupName": "潜水工具出租",
+  "classCode": "39",
+  "notes": [
+    "注：本类似群与4105浮潜设备出租类似，与第八版及以前版本4105潜水贴身设备租赁，潜水设备出租交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "潜水钟出租",
+          "code": "390078",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "潜水装具出租",
+          "code": "390079",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [],
+  "crawledAt": "2026-06-09T19:00:28.158Z"
+}

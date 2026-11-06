@@ -1,0 +1,99 @@
+{
+  "groupCode": "2912",
+  "groupName": "菌类干制品",
+  "classCode": "29",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "冬菇",
+          "code": "C290086",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "木耳",
+          "code": "C290087",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "干食用菌",
+          "code": "C290089",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "食用干银耳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用干黑木耳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "干香菇",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "干的松露",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "干制竹荪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "干姬菇",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "干茶树菇",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "干平菇",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "干羊肚菌",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "干牛肝菌",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "干制的食用绣球菌",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用干杏鲍菇",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用干姬松茸",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:37.380Z"
+}

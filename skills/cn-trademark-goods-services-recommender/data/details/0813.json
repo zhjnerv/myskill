@@ -1,0 +1,51 @@
+{
+  "groupCode": "0813",
+  "groupName": "手工具柄",
+  "classCode": "08",
+  "notes": [
+    "注：本类似群与第十版及以前版本0609金属工具柄，金属刀柄，金属镰刀柄，2003非金属刀柄，非金属镰刀柄，非金属工具柄交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "手工操作手工具用工具柄",
+          "code": "080275",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "刀柄",
+          "code": "080276",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "镰刀柄",
+          "code": "080277",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "棘轮手柄",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手工具用加长杆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手动手工具用木制手柄",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:28.603Z"
+}

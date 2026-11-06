@@ -1,0 +1,121 @@
+{
+  "groupCode": "3715",
+  "groupName": "家具的修复、保养",
+  "classCode": "37",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "家具保养",
+          "code": "370001",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "家具修复",
+          "code": "370060",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "木工服务",
+          "code": "370132",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "安装家具时的组装服务",
+          "code": "370161",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "细木工服务（木制品修理）",
+          "code": "370162",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "榻榻米垫的修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木工",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日式榻榻米的修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "橱柜安装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家具清洁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "橱柜表面翻新",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "油漆家具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家具上光",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "厨房家具的安装、维护和修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "充气家具维修",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "柜子修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家具修复、修理和保养",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家具修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家具的安装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "储物柜安装",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:20.969Z"
+}

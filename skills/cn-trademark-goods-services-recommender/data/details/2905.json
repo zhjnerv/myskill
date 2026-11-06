@@ -1,0 +1,1158 @@
+{
+  "groupCode": "2905",
+  "groupName": "加工过的蔬菜",
+  "classCode": "29",
+  "notes": [
+    "注：1.酱菜与3016酱菜（调味品）类似；",
+    "2.番茄泥，烹调用番茄汁，番茄酱与3016番茄酱（调味品），番茄调味酱类似，与第十版及以前版本番茄酱交叉检索；",
+    "3.汤与 2901 烹饪用肉汁，牛肉清汤，牛肉清汤汤料，肉汤，肉汤浓缩汁，牛肉清汤浓缩汁，3016 调味肉汁类似，与第十二版及以前版本 2901 肉汁，第十一版及以前版本 2901浓肉汁交叉检索。",
+    "4.本类似群与第十版及以前版本 2909 蔬菜色拉交叉检索；",
+    "5.本类似群与第十版及以前版本 3007 速冻玉米交叉检索；",
+    "6.本类似群与第十版及以前版本 3009 烹饪用米浆交叉检索。",
+    "7.烹饪用米浆与第十二版及以前版本 3009 玉米浆，第十版及以前版本 3009 米浆交叉检索"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "德式泡菜",
+          "code": "290020",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "汤",
+          "code": "290026",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "腌小黄瓜",
+          "code": "290028",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "腌制蔬菜",
+          "code": "290029",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "熟蔬菜",
+          "code": "290030",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "干蔬菜",
+          "code": "290031",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "姜酱",
+          "code": "290051",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食用腌黄豆",
+          "code": "290052",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蔬菜汤料",
+          "code": "290066",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烹饪用蔬菜汁",
+          "code": "290067",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "腌扁豆",
+          "code": "290077",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "腌制的洋葱",
+          "code": "290089",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "泡菜",
+          "code": "290095",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "腌制豌豆",
+          "code": "290096",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "制汤剂",
+          "code": "290099",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "番茄泥",
+          "code": "290101",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蔬菜色拉",
+          "code": "290102",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烹调用番茄汁",
+          "code": "290110",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "腌制块菌",
+          "code": "290113",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "腌制蘑菇",
+          "code": "290120",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "腌豆",
+          "code": "290123",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "炸薯饼",
+          "code": "290148",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "土豆泥片",
+          "code": "290154",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "腌紫菜",
+          "code": "290159",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "朝鲜泡菜",
+          "code": "290162",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "腌辣椒",
+          "code": "290165",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蔬菜慕斯",
+          "code": "290169",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食用预制芦荟",
+          "code": "290172",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "腌制蒜",
+          "code": "290173",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "番茄酱",
+          "code": "290184",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "西葫芦泥",
+          "code": "290185",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "茄子泥",
+          "code": "290186",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烹饪用花生浆",
+          "code": "290187",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烹饪用杏仁浆",
+          "code": "290188",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "腌制洋蓟",
+          "code": "290190",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "炸洋葱圈",
+          "code": "290200",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "中东炸豆丸子",
+          "code": "290201",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烹饪用柠檬汁",
+          "code": "290202",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "冻干蔬菜",
+          "code": "290206",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "加工过的甜玉米粒",
+          "code": "290211",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "土豆丸子",
+          "code": "290213",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烹饪用椰浆",
+          "code": "290221",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烹饪用米浆",
+          "code": "290223",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "黄豆泥饼",
+          "code": "290231",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "加工过的蔬菜",
+          "code": "290236",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "法式杂菜烩",
+          "code": "290238",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "薯饼",
+          "code": "290244",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烹饪用浓缩蔬菜汁",
+          "code": "290247",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烹饪用浓缩水果汁",
+          "code": "290248",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蔬菜制抹酱",
+          "code": "290249",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食用干花",
+          "code": "290255",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "腌制姜",
+          "code": "290257",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "酸姜",
+          "code": "290258",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "浆果汤",
+          "code": "290259",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "幼儿蔬菜餐",
+          "code": "290261",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烹饪用酸果汁",
+          "code": "290262",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "切好的蔬菜",
+          "code": "290270",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "加工过的海藻",
+          "code": "290274",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "咸菜",
+          "code": "C290044",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "五味姜",
+          "code": "C290045",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "榨菜",
+          "code": "C290046",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "五香萝卜",
+          "code": "C290047",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "脱水菜",
+          "code": "C290048",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "速冻方便菜肴",
+          "code": "C290049",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "冬菜",
+          "code": "C290050",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "萝卜干",
+          "code": "C290051",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "白菜干",
+          "code": "C290052",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "干菜笋",
+          "code": "C290053",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "大头菜",
+          "code": "C290054",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "黑菜",
+          "code": "C290055",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "百合菜",
+          "code": "C290056",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "酱菜",
+          "code": "C290057",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "腐乳",
+          "code": "C290058",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "速冻菜",
+          "code": "C290059",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "紫菜",
+          "code": "C290060",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "海菜",
+          "code": "C290061",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "海带",
+          "code": "C290062",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "海带粉",
+          "code": "C290063",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "笋干",
+          "code": "C290064",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "黄花菜",
+          "code": "C290065",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "土豆泥",
+          "code": "C290109",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "豌豆粒",
+          "code": "C290110",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "速冻玉米",
+          "code": "C290111",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "蔬菜制肉替代品",
+          "code": "C290116",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "汤酱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汤料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "调过味的紫菜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "速冻蔬菜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人食用的加工过的海藻",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "去皮西红柿",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纳豆（发酵豆）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "辣味泡菜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卷心菜沙拉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制汤料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "油腌蔬菜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "预制汤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "发酵的黄豆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加工过的洋蓟",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "即食汤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "即食味噌汤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加工过的茄子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加工过的青葱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "糖渍姜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "预制的味噌汤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "腌制剁椒（非调味品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烹饪用果汁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加工过的豆芽",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加工过的洋葱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "浓缩固体汤料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蔬菜干",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蔬菜泥",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "茶泡饭用海苔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "焗豆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "干小扁豆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "腌制的大豆食品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "腌制桔梗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "清麴酱汤（由浓味豆酱和豆腐构成）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "萝卜制朝鲜泡菜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烤海苔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "黄瓜制朝鲜泡菜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蘑菇浓汤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冷冻大白菜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鸡尾洋葱（小洋葱）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "盐渍洋葱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "盐渍胡椒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汤粉块",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "预先做好的咖喱汁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加工过的甘薯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烤紫菜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冷冻竹笋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加工过的甜菜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汤浓缩汁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加工的橄榄酱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制备好的汤料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用盐腌制的发酵竹笋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "意大利式蔬菜烘蛋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "莳萝泡菜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "醋腌制的蔬菜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加工过的食用海藻",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蔬菜干粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加工过的甘蓝",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "干食用海藻",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用干海带片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冷冻蕨菜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "干紫菜片（干海苔）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "豆类沙拉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "发酵的蔬菜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加工过的羽衣甘蓝",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "去皮胡萝卜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "去皮土豆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "腌制番茄",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "干制秋葵",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加工过的欧防根",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冻蔬菜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "干黄花菜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "干制山药",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加工过的薯蓣",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "干制红薯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "干海带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "银耳羹",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加工过的球芽甘蓝",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "削皮番茄",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "发酵豆（纳豆）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烤制蔬菜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "预先做好的汤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汤料粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "半成品汤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加工过的朝鲜蓟",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "酸辣泡菜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "荸荠片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加工过的南瓜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "绿豆汤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "笋片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "笋丝",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "西红柿酱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "混合汤料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "姜片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "干海苔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蔬菜粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "速溶汤料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "腌荸荠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烤土豆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "豆腐乳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烤红薯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "臭豆腐乳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "味噌汤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "红薯泥",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "泡辣椒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烹制好的豆子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用干栀子花",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "甘薯泥",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "香菇酱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "酱油煮制豆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蔬菜高汤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加工过的西洋菜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烹饪用西洋菜汁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "阿吉瓦（腌辣椒）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "海鲜杂烩浓汤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加工过的青葱（用作蔬菜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "不是调料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "大蒜抹酱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "速冻熟玉米",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冻干萝卜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冻干菠菜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蘑菇泥",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "以大豆为主的预制食物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蔬菜酱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "颗粒状浓缩蘑菇汤料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蔬菜天妇罗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "炸蔬菜",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:33.291Z"
+}

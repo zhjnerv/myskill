@@ -1,0 +1,387 @@
+{
+  "groupCode": "4306",
+  "groupName": "单一服务",
+  "classCode": "43",
+  "notes": [
+    "注：1.本类似群各部分之间服务不类似；",
+    "2.本类似群第（五）部分为单一服务，各自然段间互不类似；",
+    "3.第（一）部分与第七版及以前版本 4227 桌子、椅子、桌布和玻璃器皿出租交叉检索；",
+    "4.第（五）部分第一自然段与 4105 剧院或电视演播室用灯光设备出租类似。"
+  ],
+  "sections": [
+    {
+      "label": "（一）",
+      "items": [
+        {
+          "name": "出租椅子、桌子、桌布和玻璃器皿",
+          "code": "430186",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "家具出租",
+          "code": "430210",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "办公家具出租",
+          "code": "430211",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "餐具出租",
+          "code": "C430004",
+          "type": "marked",
+          "section": "（一）"
+        }
+      ]
+    },
+    {
+      "label": "（二）",
+      "items": [
+        {
+          "name": "烹饪设备出租",
+          "code": "430190",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "火锅出租",
+          "code": "430216",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "家用电烤面包片机出租",
+          "code": "C430006",
+          "type": "marked",
+          "section": "（二）"
+        },
+        {
+          "name": "家用微波炉出租",
+          "code": "C430007",
+          "type": "marked",
+          "section": "（二）"
+        }
+      ]
+    },
+    {
+      "label": "（三）",
+      "items": [
+        {
+          "name": "饮水机出租",
+          "code": "430191",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "制饮料用机器人出租",
+          "code": "430212",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "饮料分配机出租",
+          "code": "C430008",
+          "type": "marked",
+          "section": "（三）"
+        }
+      ]
+    },
+    {
+      "label": "（四）",
+      "items": [
+        {
+          "name": "厨房洗涤槽出租",
+          "code": "430206",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "厨房操作台出租",
+          "code": "C430011",
+          "type": "marked",
+          "section": "（四）"
+        }
+      ]
+    },
+    {
+      "label": "（五）",
+      "items": [
+        {
+          "name": "照明设备出租*",
+          "code": "430192",
+          "type": "standard",
+          "section": "（五）"
+        },
+        {
+          "name": "被子出租",
+          "code": "C430009",
+          "type": "marked",
+          "section": "（五）"
+        },
+        {
+          "name": "地毯出租",
+          "code": "C430010",
+          "type": "marked",
+          "section": "（五）"
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "毛毯出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "枕头出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用烹饪设备出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非电烹饪加热器出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "床出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "小地毯出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日式被褥出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用便携式电烹饪炉出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商用厨房洗涤槽的出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用厨房洗涤槽的出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "办公室家具出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "出租家具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "桌椅出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "酒店窗帘租赁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "酒店壁挂出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "酒店家具租赁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "酒店地板覆盖物出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制备即食食品用厨房工作台的出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "台式烹饪炉出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "装饰私人住宅用照明设备出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "保温餐炉出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "桌布出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动巧克力喷泉机出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "饮料喷泉机出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烹饪炉出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "餐盘出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "台式电烹饪炉出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烹饪用高压锅出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用烤面包机出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用燃气炉出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "餐桌出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "沙发出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冷热饮料机出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "圣诞树用电灯出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用电蒸锅出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "婴儿玩耍用携带式围栏出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "餐桌用冰桶出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "衣帽架出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "服装架出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "便携式书桌出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "床垫出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "扶手椅出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "杂志架出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非医用充气床垫出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用烤面包片机出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "咖啡机出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "出租有小脚轮的茶具台",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "地垫租赁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "床单和枕套出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "剧院用便携式座椅出租",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:55.804Z"
+}

@@ -1,0 +1,164 @@
+{
+  "groupCode": "0812",
+  "groupName": "餐具刀、叉、匙",
+  "classCode": "08",
+  "notes": [
+    "注：本类似群商品与第八版及以前版本2101勺子（餐具），非贵重金属餐具类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "餐具（刀、叉和匙）",
+          "code": "080059",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "餐叉",
+          "code": "080070",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "刀叉餐具",
+          "code": "080078",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "匙*",
+          "code": "080080",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "长柄勺（手工具）",
+          "code": "080081",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "碎冰锥",
+          "code": "080128",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "银餐具（刀、叉、匙）",
+          "code": "080203",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "塑料制餐刀、餐叉和匙",
+          "code": "080272",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "婴儿用餐刀、餐叉和匙",
+          "code": "080273",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "切肉餐叉",
+          "code": "080292",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "切肉餐刀",
+          "code": "080293",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "餐刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "茶匙",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "叉（餐具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "塑料制匙、餐叉和餐刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "婴儿用匙、餐叉和餐刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "黄油餐刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "餐匙",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "挖葡萄柚果肉用勺",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牛排刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属匙",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属制刀叉餐具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蜗牛叉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汤匙",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "甜点匙",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冰茶匙",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "咖啡匙",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:28.028Z"
+}

@@ -1,0 +1,203 @@
+{
+  "groupCode": "1619",
+  "groupName": "教学用具（不包括教学实验用仪器）",
+  "classCode": "16",
+  "notes": [
+    "注：本类似群各部分之间商品不类似，但第（二）部分商品与第（一）部分粉笔，做标记用粉笔，彩色粉笔（蜡笔）类似，与第八版及以前版本印记用粉笔交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "（一）",
+      "items": [
+        {
+          "name": "石笔",
+          "code": "160024",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "印制的算术表",
+          "code": "160027",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "印制的计算表",
+          "code": "160027",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "印制的计算表",
+          "code": "160027",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "印制的算术表",
+          "code": "160027",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "显微镜用生物样本（教学材料）",
+          "code": "160039",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "教学材料（仪器除外）",
+          "code": "160071",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "教学用组织剖面图",
+          "code": "160106",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "粉笔",
+          "code": "160109",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "粉笔盒",
+          "code": "160112",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "地球仪",
+          "code": "160165",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "做标记用粉笔",
+          "code": "160193",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "黑板",
+          "code": "160201",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "彩色粉笔（蜡笔）",
+          "code": "160211",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "喷雾粉笔",
+          "code": "160368",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "磁性留言板（办公用品）",
+          "code": "160400",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "黑板擦",
+          "code": "C160104",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "教学用模型标本",
+          "code": "C160105",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "数学教具",
+          "code": "C160106",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "磁性写字板",
+          "code": "C160107",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "教学挂图",
+          "code": "C160108",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "电动吸尘擦",
+          "code": "C160109",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "教学教鞭",
+          "code": "C160110",
+          "type": "marked",
+          "section": "（一）"
+        }
+      ]
+    },
+    {
+      "label": "（二）",
+      "items": [
+        {
+          "name": "裁缝用粉块",
+          "code": "160111",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "裁缝画线用滑石块",
+          "code": "160251",
+          "type": "standard",
+          "section": "（二）"
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "小黑板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "黑板檫（粉笔擦）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "白板擦",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "彩色粉笔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "粉笔板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "黑板擦（粉笔擦）",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:20.436Z"
+}

@@ -1,0 +1,74 @@
+{
+  "groupCode": "2410",
+  "groupName": "纺织品制或塑料制旗",
+  "classCode": "24",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "纺织品制或塑料制横幅",
+          "code": "240006",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纺织品制或塑料制旗",
+          "code": "240042",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纺织品制或塑料制旗帜",
+          "code": "240043",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "纺织品制旗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "塑料制旗帜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "布制旗帜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "塑料旗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "锦缎制旗帜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺织品制细长三角旗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "塑料旗帜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺织品制横幅",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:06.415Z"
+}

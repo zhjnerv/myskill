@@ -1,0 +1,23 @@
+{
+  "groupCode": "1912",
+  "groupName": "建筑用涂层",
+  "classCode": "19",
+  "notes": [
+    "注：本类似群与0205商品类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "涂层（建筑材料）",
+          "code": "190129",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [],
+  "crawledAt": "2026-06-09T18:58:36.983Z"
+}

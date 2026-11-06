@@ -1,0 +1,183 @@
+{
+  "groupCode": "0304",
+  "groupName": "研磨用材料及其制剂",
+  "classCode": "03",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "磨光用石头",
+          "code": "030002",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "研磨剂",
+          "code": "030003",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "磨利用制剂",
+          "code": "030003",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属碳化物（研磨料）",
+          "code": "030035",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "碳化硅（研磨料）",
+          "code": "030036",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金刚砂（研磨用）",
+          "code": "030062",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金刚铝（研磨料）",
+          "code": "030082",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金刚砂纸",
+          "code": "030084",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金刚砂布",
+          "code": "030086",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金刚砂",
+          "code": "030094",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "砂纸",
+          "code": "030140",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "浮石",
+          "code": "030145",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "砂布",
+          "code": "030160",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "玻璃砂布",
+          "code": "030161",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "研磨材料*",
+          "code": "030165",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "研磨纸",
+          "code": "030166",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "磨光粉",
+          "code": "C030032",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "研磨膏",
+          "code": "C030033",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "玻璃砂（研磨用）",
+          "code": "C030034",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "研磨用刚玉砂",
+          "code": "C030035",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "白刚玉",
+          "code": "C030036",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "裁布机用砂带",
+          "code": "C030073",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "砂纸卷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "研磨带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "磨脚石",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "研磨砂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "个人用磨脚石",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "研磨纸（砂纸）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "磨光石",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:20.959Z"
+}

@@ -1,0 +1,512 @@
+{
+  "groupCode": "1902",
+  "groupName": "土，沙，石，石料，灰泥，炉渣等建筑用料",
+  "classCode": "19",
+  "notes": [
+    "注：石板，屋顶石板片，花岗石，大理石，人造石与1906商品类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "板岩粉",
+          "code": "190008",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "细沙",
+          "code": "190010",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "制陶器用黏土",
+          "code": "190011",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "混凝土",
+          "code": "190023",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "制砖用土",
+          "code": "190039",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "石灰石",
+          "code": "190043",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "筑路或铺路材料",
+          "code": "190051",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "石灰",
+          "code": "190052",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "建筑灰浆",
+          "code": "190053",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "砂浆",
+          "code": "190053",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "片岩",
+          "code": "190059",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "未加工的白垩",
+          "code": "190072",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "建筑用石英",
+          "code": "190073",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "石料*",
+          "code": "190094",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "黏土*",
+          "code": "190096",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "沙砾",
+          "code": "190099",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "建筑用砂石",
+          "code": "190100",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "炉渣（建筑材料）",
+          "code": "190104",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铺路用道渣",
+          "code": "190105",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "碎石",
+          "code": "190116",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "建筑用橄榄石",
+          "code": "190132",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "建筑石料",
+          "code": "190141",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "矿渣石",
+          "code": "190143",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "石灰华",
+          "code": "190145",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "石砌体",
+          "code": "190146",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "砂（铸造砂除外）",
+          "code": "190166",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "硅石（石英）",
+          "code": "190168",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "赤土（建筑材料）",
+          "code": "190172",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属铺路块料",
+          "code": "190200",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "含钙泥灰土",
+          "code": "190211",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "水族池砾石",
+          "code": "190233",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "水族池用沙",
+          "code": "190234",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "块石",
+          "code": "190237",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "斑岩（石头）",
+          "code": "190244",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "水晶石",
+          "code": "190253",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "建筑用灰泥*",
+          "code": "190054",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "玩耍用沙",
+          "code": "190269",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "石板*",
+          "code": "190006",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "屋顶石板片",
+          "code": "190007",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "花岗石",
+          "code": "190098",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "大理石",
+          "code": "190120",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "人造石",
+          "code": "190142",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "膨胀珍珠岩",
+          "code": "C190004",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "建筑用石粉",
+          "code": "C190005",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "饰面砂浆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "巨石",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卵石",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑用沙袋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水族箱装饰石",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "方解石",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "石材贴面（建筑材料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑用石灰",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "铺路石",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑用冻石",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "沙",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "混凝土块",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "火山灰",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "基石",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "流纹岩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "耐火混凝土",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硅石",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "砂石",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "天然石材",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "即用型混凝土",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑用闪石",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑用水晶石",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑用蛇纹石",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑用凝灰岩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "土木工程用工业混凝土",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "墙石",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑或工程用非金属矿物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑沙",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑用矿石颗粒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "灌浆混合物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "屋顶覆盖层用石板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "幕墙用石板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于建筑施工的自流平混凝土",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "大理石（建筑材料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "长石",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "混凝土块料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑用黏结灰浆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "黏土灰",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑用黏合灰泥",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "煤矸石",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陶土（原材料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "灰浆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "赤土",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "瓷石",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "彩色闪光环氧灌浆料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "火磨石（砂岩）",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:30.781Z"
+}

@@ -1,0 +1,877 @@
+{
+  "groupCode": "2907",
+  "groupName": "奶及乳制品",
+  "classCode": "29",
+  "notes": [
+    "注：1.乳清与3202乳清饮料类似；",
+    "2.酸奶与3013冻酸奶（冰冻甜点）类似；",
+    "3.奶，奶制品，奶饮料（以奶为主），蛋白奶，奶粉与 0502 婴儿用含乳面粉，婴儿食品，婴儿配方奶粉，婴儿奶粉类似；",
+    "4. 第二自然段与 3001 加奶可可饮料，加奶咖啡饮料，加奶巧克力饮料，咖啡饮料，可可饮料，巧克力饮料，3002 第（二）部分，3202 类似，与第十一版及以前版本 3001含牛奶的巧克力饮料，第十版及以前版本 3011 豆汁交叉检索；",
+    "5.本类似群与第十版及以前版本3011豆浆，豆奶粉，豆浆精，3202豆浆，豆浆精，第九版及以前版本0502蛋白牛奶，白朊牛奶，第八版及以前版本3202豆奶交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "黄油",
+          "code": "290008",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "奶油（奶制品）",
+          "code": "290033",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "奶酪",
+          "code": "290034",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "奶",
+          "code": "290039",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "小牛皱胃中的凝乳（制干酪用）",
+          "code": "290042",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "酸奶",
+          "code": "290065",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "奶饮料（以奶为主）",
+          "code": "290072",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "乳清",
+          "code": "290073",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "奶制品",
+          "code": "290074",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "人造黄油",
+          "code": "290078",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "搅打过的奶油",
+          "code": "290141",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "凝乳",
+          "code": "290161",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蛋白奶",
+          "code": "290174",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烹饪用奶发酵剂",
+          "code": "290178",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "炼乳",
+          "code": "290180",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "斯美塔那酸奶油",
+          "code": "290181",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "熟酸乳",
+          "code": "290182",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "酸牛奶",
+          "code": "290183",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "奶粉*",
+          "code": "290192",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "植物奶油",
+          "code": "290205",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "奶替代品",
+          "code": "290217",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "炸白干酪饼",
+          "code": "290228",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "夸克奶酪",
+          "code": "290252",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "乡村奶酪",
+          "code": "290253",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "牛奶酱",
+          "code": "C290097",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "克非尔奶酒（奶饮料）",
+          "code": "290070",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "马奶酒（奶饮料）",
+          "code": "290071",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "乳酒（奶饮料）",
+          "code": "290071",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "豆奶",
+          "code": "290163",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "奶昔",
+          "code": "290164",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "无酒精蛋奶酒",
+          "code": "290168",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "米浆",
+          "code": "290189",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "燕麦浆",
+          "code": "290204",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "杏仁浆",
+          "code": "290218",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "花生浆",
+          "code": "290219",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "椰浆",
+          "code": "290220",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "以椰浆为主的饮料",
+          "code": "290222",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "以杏仁浆为主的饮料",
+          "code": "290224",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "以花生浆为主的饮料",
+          "code": "290225",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "乳酸饮料",
+          "code": "290254",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "奶茶（以奶为主）",
+          "code": "C290069",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "可可奶（以奶为主）",
+          "code": "C290070",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "豆浆",
+          "code": "C290112",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "豆奶粉",
+          "code": "C290098",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "豆浆精",
+          "code": "C290113",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "新鲜生奶酪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "羊奶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "羊奶干酪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "脱乳奶酪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无水黄油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "咖啡奶精（奶制品为主）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "奶酪抹酱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "乳清粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "软质白奶酪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "软质奶酪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鲜奶油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "酸奶饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "酸奶制成的饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "酸奶制饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "酸乳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "固体奶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "白奶酪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "白脱牛奶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "发酵牛奶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "饮用酸奶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "干酪粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "乳酪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "低脂奶酱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "切达干酪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "奶酪蘸酱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "奶油干酪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "凝固型酸奶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牛奶制成的饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "调味奶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "成熟干酪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "成熟奶酪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加工过的奶酪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含香草的奶酪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含香料的奶酪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蘸食用的奶酪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "奶油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "奶油粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "霉菌成熟干酪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "奶酪代用品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蒜味黄油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "酥油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用奶粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "混合奶酪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "以牛奶为主的饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含水果的牛奶饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食物用奶粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "营养奶粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人造奶油（乳制品替代物）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "软质白酸奶酪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高含奶量的牛奶饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含水果的牛奶饮品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蜂蜜黄油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加可可的牛奶饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可可味的牛奶饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "羊奶粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "嗜酸乳杆菌乳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "淡奶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "椰子味牛奶（以奶为主）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制饮料用奶油（奶制品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "以豆浆为主的饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "豆浆饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "椰浆粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "杏仁乳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "酸奶酪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "涂抹干酪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "豆奶（牛奶替代品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "米浆（牛奶替代品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "羊奶饮料（以羊奶为主）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "花生奶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "以奶为主的奶饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "粉末状的奶酪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "澄清黄油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蛋白牛奶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "孕妇用奶粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制甜点用奶油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制作小吃用奶酪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "中老年人专用奶粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "孕妇、哺乳期妇女食用奶粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "孕妇及哺乳期妇女用牛奶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "酸乳酒（牛奶饮料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加过调味品的牛奶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加水果的酸奶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "以牛奶为主的牛奶饮料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "羊奶茶（以羊奶为主）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "羊奶油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "羊奶制奶酪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "羊奶制品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "羊乳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "羊乳制品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "液态奶油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "液态酸奶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "液态鲜奶油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非乳制的奶替代品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "植物基奶替代品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "凝脂奶油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "全脂牛奶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "低脂牛奶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "复原乳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水牛奶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含水果的牛奶饮料（以牛奶为主）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牛奶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无脂奶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蓝纹奶酪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "布里奶酪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "脱脂奶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马苏里拉奶酪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烟熏奶酪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牛奶饮料（以牛奶为主）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牛奶制品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蛋白质牛奶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烹饪用牛奶发酵剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "俄式熟酸乳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "俄式酸牛奶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牛奶替代品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "椰乳粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "核桃乳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "炸奶酪",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:34.444Z"
+}

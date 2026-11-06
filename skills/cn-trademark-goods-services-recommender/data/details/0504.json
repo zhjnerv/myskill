@@ -1,0 +1,330 @@
+{
+  "groupCode": "0504",
+  "groupName": "兽药，动物用膳食补充剂",
+  "classCode": "05",
+  "notes": [
+    "注:1. 牲畜用洗涤剂（杀虫剂），狗用洗涤液（杀虫剂），动物用洗涤剂（杀虫剂），动物用杀虫沐浴露，兽医用杀虫洗涤剂，含药物的宠物用沐浴露与0309宠物用沐浴露（不含药物的清洁制剂），动物用沐浴露（不含药物的清洁制剂）类似，与第十版及以前版本0309宠物用香波交叉检索；",
+    "2. 本类似群与0501防寄生虫制剂，驱肠虫药，医用及兽医用细菌学研究制剂，医用和兽医用细菌制剂，医用或兽医用微生物培养物，医用或兽医用微生物制剂，杀寄生虫药，医用或兽医用化学试剂，人和动物用微量元素制剂类似，与第九版及以前版本0501防寄生虫制剂(人或兽用)，打虫药(人或兽用)，驱虫剂(人或兽用)，医用或兽医用培养基，医用或兽医用微生物培养体，杀寄生虫药(人或兽用)，人用和兽用微量元素制剂交叉检索；",
+    "3. 兽医用试纸与第十版及以前版本0501试纸（医用或兽医用）交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "牲畜用洗涤剂（杀虫剂）",
+          "code": "050051",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "狗用洗涤液（杀虫剂）",
+          "code": "050075",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "狗用驱虫剂",
+          "code": "050076",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "动物蹄用胶合剂",
+          "code": "050083",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "动物用防寄生虫颈圈",
+          "code": "050087",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "兽医用油脂",
+          "code": "050164",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "动物用洗涤剂（杀虫剂）",
+          "code": "050189",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "兽医用洗液",
+          "code": "050220",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "兽医用制剂",
+          "code": "050287",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "兽医用药",
+          "code": "050329",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "兽医用生物制剂",
+          "code": "050361",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "兽医用化学制剂",
+          "code": "050363",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "兽医用酶",
+          "code": "050369",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "兽医用酶制剂",
+          "code": "050371",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "兽医用氨基酸",
+          "code": "050377",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "兽医用干细胞",
+          "code": "050404",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "兽医用生物组织培养物",
+          "code": "050406",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "动物用膳食补充剂",
+          "code": "050419",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "动物用蛋白质补充剂",
+          "code": "050436",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "含药物的饲料",
+          "code": "050445",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "兽医用诊断制剂",
+          "code": "050446",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "兽医用试纸",
+          "code": "050464",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "动物用杀虫沐浴露",
+          "code": "050469",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "兽医用杀虫洗涤剂",
+          "code": "050470",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "含药物的宠物用沐浴露",
+          "code": "050478",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "兽医用抗感染品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗宠物体内蠕虫用医药制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "动物用灭蚤颈圈",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "动物用维生素",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "兽医基因检测用试剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "兽医用狗洗涤剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "兽医用诊断试剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "动物用取食刺激剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "兽医用医疗食品添加剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "动物用护肤药品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "动物皮肤护理用医药制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "动物用灭跳蚤粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用动物食品营养添加剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用饲料添加剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牛用疫苗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "兽医用疫苗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防跳蚤颈圈",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人工授精用动物精液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马用疫苗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "治疗肠道细菌的兽医制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宠物用维生素",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宠物用防蚤项圈",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鱼用抗生素",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "兽医用活细胞",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鸟类助消化用砂砾",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "兽医用氨基酸制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宠物用膳食补充剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "狗用杀寄生虫洗液",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "动物用医用营养食物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "兽医用细菌学研究制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "兽医用细菌制剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医用和兽医用核酸序列",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:31.274Z"
+}

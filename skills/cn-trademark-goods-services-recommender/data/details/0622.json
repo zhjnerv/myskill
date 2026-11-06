@@ -1,0 +1,89 @@
+{
+  "groupCode": "0622",
+  "groupName": "普通金属艺术品，青铜（艺术品）",
+  "classCode": "06",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "青铜制艺术品",
+          "code": "060056",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "普通金属塑像",
+          "code": "060244",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "普通金属艺术品",
+          "code": "060278",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "普通金属制半身像",
+          "code": "060307",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "普通金属小雕像",
+          "code": "060382",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "普通金属小塑像",
+          "code": "060382",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "普通金属制雕塑纪念杯",
+          "code": "060489",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "普通金属制奖杯",
+          "code": "060490",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "普通金属制半身塑像",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非贵金属制宗教人物雕像",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非贵金属制艺术品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "普通金属制蛋糕顶饰",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非贵金属制塑像",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:47.156Z"
+}

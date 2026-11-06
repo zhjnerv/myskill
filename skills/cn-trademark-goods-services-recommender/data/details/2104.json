@@ -1,0 +1,169 @@
+{
+  "groupCode": "2104",
+  "groupName": "玻璃、瓷、陶、黏土工艺品",
+  "classCode": "21",
+  "notes": [
+    "注：本类似群与第十版及以前版本 2006 水晶画交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "装饰用玻璃球",
+          "code": "210044",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "瓷器装饰品",
+          "code": "210078",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "瓷、陶瓷、陶土、赤陶、黏土或玻璃制塑像",
+          "code": "210217",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "瓷、陶瓷、陶土、赤陶或玻璃制塑像",
+          "code": "210217",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "瓷、陶瓷、陶土、赤陶、黏土或玻璃制艺术品",
+          "code": "210234",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "瓷、陶瓷、陶土、赤陶或玻璃制艺术品",
+          "code": "210234",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "瓷、陶瓷、陶土、赤陶、黏土或玻璃制半身像",
+          "code": "210252",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "瓷、陶瓷、陶土、赤陶或玻璃制半身像",
+          "code": "210252",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "瓷、陶瓷、陶土、赤陶、黏土或玻璃制小雕像",
+          "code": "210285",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "瓷、陶瓷、陶土、赤陶或玻璃制小雕像",
+          "code": "210285",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蛋糕用瓷、陶瓷、陶土、赤陶或玻璃制小雕像",
+          "code": "210427",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "瓷、陶瓷、陶土、赤陶或玻璃制雕像纪念杯",
+          "code": "210447",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "瓷、陶瓷、陶土、赤陶或玻璃制奖杯",
+          "code": "210450",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "唐三彩",
+          "code": "C210030",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "水晶工艺品",
+          "code": "C210054",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "水晶画",
+          "code": "C210058",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "装饰沙瓶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "玻璃制艺术品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "瓷制艺术品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "彩绘玻璃小雕像",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "瓷、陶瓷、陶土、赤陶或玻璃制半身雕像",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陶制半身雕像",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "玻璃制半身雕像",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "赤陶小雕像",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "瓷制蛋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "陶瓷小雕像",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水晶装饰品",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:49.441Z"
+}

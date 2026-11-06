@@ -1,0 +1,77 @@
+[
+  {
+    "groupCode": "2101",
+    "groupName": "厨房炊事用具及容器（包括不属别类的餐具）",
+    "classCode": "21"
+  },
+  {
+    "groupCode": "2102",
+    "groupName": "不属别类的玻璃器皿",
+    "classCode": "21"
+  },
+  {
+    "groupCode": "2103",
+    "groupName": "瓷器，陶器（茶具，酒具除外）",
+    "classCode": "21"
+  },
+  {
+    "groupCode": "2104",
+    "groupName": "玻璃、瓷、陶、黏土工艺品",
+    "classCode": "21"
+  },
+  {
+    "groupCode": "2105",
+    "groupName": "茶具、酒具、咖啡具及饮水用具",
+    "classCode": "21"
+  },
+  {
+    "groupCode": "2106",
+    "groupName": "家庭日用及卫生器具",
+    "classCode": "21"
+  },
+  {
+    "groupCode": "2107",
+    "groupName": "梳子，刷子（不包括牙刷），制刷材料",
+    "classCode": "21"
+  },
+  {
+    "groupCode": "2108",
+    "groupName": "刷牙用具",
+    "classCode": "21"
+  },
+  {
+    "groupCode": "2109",
+    "groupName": "牙签",
+    "classCode": "21"
+  },
+  {
+    "groupCode": "2110",
+    "groupName": "化妆用具",
+    "classCode": "21"
+  },
+  {
+    "groupCode": "2111",
+    "groupName": "保温保冷用具",
+    "classCode": "21"
+  },
+  {
+    "groupCode": "2112",
+    "groupName": "家务用具",
+    "classCode": "21"
+  },
+  {
+    "groupCode": "2113",
+    "groupName": "未加工或半加工玻璃（不包括建筑用玻璃）",
+    "classCode": "21"
+  },
+  {
+    "groupCode": "2114",
+    "groupName": "不属别类的动植物器具",
+    "classCode": "21"
+  },
+  {
+    "groupCode": "2115",
+    "groupName": "家用灭虫、灭鼠用具",
+    "classCode": "21"
+  }
+]

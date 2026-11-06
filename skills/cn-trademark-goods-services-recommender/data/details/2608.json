@@ -1,0 +1,33 @@
+{
+  "groupCode": "2608",
+  "groupName": "修补纺织品用热粘胶片",
+  "classCode": "26",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "修补纺织品用热黏合补片",
+          "code": "260081",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纺织品装饰用热黏合补片（缝纫用品）",
+          "code": "260111",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "夹克衫装饰用黏合补片",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:18.650Z"
+}

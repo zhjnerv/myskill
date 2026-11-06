@@ -1,0 +1,154 @@
+{
+  "groupCode": "1701",
+  "groupName": "不属别类的橡胶，古塔胶，树胶",
+  "classCode": "17",
+  "notes": [
+    "注：1.液态橡胶，橡胶水与0115商品类似；",
+    "2.跨类似群保护商品：生橡胶或半成品橡胶（1701，1703第（一）部分）。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "巴拉塔树胶",
+          "code": "170010",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "生橡胶或半成品橡胶",
+          "code": "170017",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "合成橡胶",
+          "code": "170020",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "古塔胶",
+          "code": "170050",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "乳胶（天然胶）",
+          "code": "170064",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "液态橡胶",
+          "code": "170113",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "橡胶水",
+          "code": "170114",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "未加工或半加工树胶",
+          "code": "170117",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "再生橡胶",
+          "code": "C170001",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "固体古马隆",
+          "code": "C170002",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "硅橡胶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "丁苯橡胶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "乙丙橡胶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "聚硫橡胶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氟橡胶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "丁腈橡胶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "丁基橡胶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "天然橡胶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生橡胶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用乳胶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氯化橡胶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "泡沫橡胶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "丙烯酸酯橡胶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可降解合成橡胶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "回收橡胶",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:22.145Z"
+}

@@ -1,0 +1,988 @@
+{
+  "groupCode": "3016",
+  "groupName": "芥末，味精，沙司，酱等调味品",
+  "classCode": "30",
+  "notes": [
+    "注：1.酱菜（调味品）与2905酱菜类似；",
+    "2.本类似群商品与3014，3015商品类似；",
+    "3.调味肉汁与 2901 烹饪用肉汁，牛肉清汤，牛肉清汤汤料，肉汤，肉汤浓缩汁，牛肉清汤浓缩汁，2905 汤类似，与第十二版及以前版本 2901 肉汁，第十一版及以前版本 2901浓肉汁交叉检索；",
+    "4.除香精油外的饮料用调味品与第十一版及以前版本3203饮料香精交叉检索；",
+    "5.跨类似群保护商品：除香精油外的蛋糕用调味品（3016，3018）；除香精油外的食物用调味品（3016，3018）；除香精油外的饮料用调味品（3016，3018）。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "海藻（调味品）",
+          "code": "300002",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "茴香子",
+          "code": "300006",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "八角大茴香",
+          "code": "300007",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非医用浸液",
+          "code": "300009",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "调味料",
+          "code": "300012",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "肉桂（调味品）",
+          "code": "300030",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "腌制刺山柑花蕾（调味品）",
+          "code": "300031",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "咖喱粉（调味品）",
+          "code": "300033",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "丁香（调味品）",
+          "code": "300040",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "调味品",
+          "code": "300041",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "姜黄*",
+          "code": "300051",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "香辛料",
+          "code": "300054",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "多香果（香料）",
+          "code": "300056",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "芥末粉",
+          "code": "300060",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蛋糕用调味品",
+          "code": "300070",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "除香精油外的蛋糕用调味品",
+          "code": "300070",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "姜粉",
+          "code": "300073",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "番茄酱（调味品）",
+          "code": "300082",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "芥末",
+          "code": "300101",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "肉豆蔻（调味品）",
+          "code": "300102",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "辣椒（调味品）",
+          "code": "300111",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "胡椒",
+          "code": "300113",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "藏红花（佐料）",
+          "code": "300120",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "调味酱汁",
+          "code": "300122",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烹饪用香草调味品",
+          "code": "300130",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食物用调味品",
+          "code": "300140",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "除香精油外的食物用调味品",
+          "code": "300140",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "饮料用调味品",
+          "code": "300141",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "酱菜（调味品）",
+          "code": "300162",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "佐料（调味品）",
+          "code": "300167",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "海水（烹饪用）",
+          "code": "300169",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "番茄调味酱",
+          "code": "300171",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蛋黄酱",
+          "code": "300172",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "（印度式）酸辣酱（调味品）",
+          "code": "300182",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "色拉用调味品",
+          "code": "300188",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "调味肉汁",
+          "code": "300193",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "味噌",
+          "code": "300194",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "腌制香草（调料）",
+          "code": "300201",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "水果酱汁（调味料）",
+          "code": "300206",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "腌泡汁",
+          "code": "300207",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "香蒜酱",
+          "code": "300209",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "火腿糖汁",
+          "code": "300210",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "意式面食调味酱",
+          "code": "300217",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蒜末（调味品）",
+          "code": "300230",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烹饪用亚麻籽（调味品）",
+          "code": "300212",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "用作调味品的加工过的种子",
+          "code": "300255",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "芝麻（调味品）",
+          "code": "300256",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "酸辣泡菜（调味品）",
+          "code": "300257",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蔓越莓酱（调味品）",
+          "code": "300262",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "苹果酱（调味品）",
+          "code": "300263",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "酸角（调味品）",
+          "code": "300276",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烹饪用橙花水",
+          "code": "300287",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "哈里萨辣酱（调味品）",
+          "code": "300290",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "姜酱（调味品）",
+          "code": "300291",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "柠檬汁晶（调味品）",
+          "code": "300303",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "加工过的南瓜籽（调味品）",
+          "code": "300304",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "大酱（调味品）",
+          "code": "300311",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "朝鲜族传统辣酱",
+          "code": "300312",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "小豆蔻（调味品）",
+          "code": "300324",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "漆树（香料）",
+          "code": "300325",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烹饪用花水",
+          "code": "300327",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蛋黄奶油酸辣酱",
+          "code": "300328",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "涮羊肉调料",
+          "code": "C300105",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "豆豉",
+          "code": "C300106",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "香糟",
+          "code": "C300107",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "虾油",
+          "code": "C300108",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "糟油",
+          "code": "C300109",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "蚝油",
+          "code": "C300110",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "鱼露",
+          "code": "C300111",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "鲜虾露",
+          "code": "C300112",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "鸡精（调味品）",
+          "code": "C300113",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "鱼沙司",
+          "code": "C300114",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "虾味汁",
+          "code": "C300115",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "桂皮",
+          "code": "C300116",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "果子油",
+          "code": "C300117",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "辣椒油",
+          "code": "C300118",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "花椒粉",
+          "code": "C300119",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "鱼味粉",
+          "code": "C300120",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "五香粉",
+          "code": "C300121",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "海味粉",
+          "code": "C300122",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "食用烟熏多味料",
+          "code": "C300123",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "蒜汁",
+          "code": "C300124",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "味精",
+          "code": "C300125",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "调味酱",
+          "code": "C300126",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "豉油",
+          "code": "C300127",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "料酒",
+          "code": "C300141",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "食用香辛料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "肉桂粉（调味品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烘焙用香辛料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "胡椒粉（调味品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "芥末粉（香料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "咖喱酱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "丁香粉（调味品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "辣椒粉（调味品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "炖菜用混合调味料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "已调味的豆瓣酱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "除香精油外的奶酪用调味品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "除香精油外的汤用调味品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纯素蛋黄酱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鞑靼沙拉酱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "大蒜粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "墨西哥式夹饼用调味料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "混合调味品（涂抹用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "混合香辛料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "照烧酱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "味噌豆酱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用作调味品的已加工大蒜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "咖喱调味料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "辣椒粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "辣椒酱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "辣椒酱（调味品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "辣椒调味料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鸡尾酒用盐水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烹饪用盐水",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "红辣椒粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "香辛料粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食品调料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "酸辣酱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "酸辣酱（调味品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加工过的辣根（调料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加工过的青葱（用作调料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无花果制调味品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "主要由番茄酱和萨尔萨辣酱制成的食物调味品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "是拉差辣椒酱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用姜黄",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "色拉酱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烧烤酱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "辣椒油（调味品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "干香菜籽（调味品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "干香菜（调味品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用紫苏粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "调制好的酱汁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "胡椒（香料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含有奶油的色拉用调味品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "参巴辣椒酱（调味品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烤肉用调味酱汁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "腌辣椒酱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "墨西哥式番茄辣酱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蒜泥蛋黄酱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "盐肤木粉（调味品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "棕醬",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "调味豆酱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "萨尔萨辣酱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "意面白酱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加工过的日式芥末",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于食物或饮料的杏仁制调味品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于食品或饮料的柠檬制调味品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食品用调味料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "黄油用调味品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "奶酪用调味品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "酸黄咖喱酱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用调味品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水果调味酱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汤用调味品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "塔可酱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "豆酱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "花椒（调味品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "比萨饼酱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烹饪用调味酱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮肯特酱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "姜汁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "白胡椒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "黑胡椒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "肉豆蔻",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "姜（调味品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "豆酱（调味品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "香蒜酱（调味料）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "味噌（调味品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "咖喱粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用芥末粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "肉桂粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "胡椒粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用作调味品的花椒油",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "藤椒油（调味品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "海苔(调味品)",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "花椒油（调味品）",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:47.743Z"
+}

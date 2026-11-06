@@ -1,0 +1,383 @@
+{
+  "groupCode": "3506",
+  "groupName": "办公事务",
+  "classCode": "35",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "复印服务",
+          "code": "350009",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "打字",
+          "code": "350022",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "速记",
+          "code": "350043",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "谈话记录（办公事务）",
+          "code": "350045",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "计算机化的文档管理",
+          "code": "350061",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "文秘",
+          "code": "350072",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "为外出客户应接电话",
+          "code": "350074",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "文字处理",
+          "code": "350075",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "为他人订阅报纸",
+          "code": "350076",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "将信息编入计算机数据库",
+          "code": "350080",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "计算机数据库信息系统化",
+          "code": "350081",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "复印机出租",
+          "code": "350083",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "为他人在计算机文件中检索数据",
+          "code": "350086",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "报刊剪贴",
+          "code": "350088",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "为他人预订电信服务",
+          "code": "350094",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "对购买订单进行行政处理",
+          "code": "350095",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "为推销优化搜索引擎",
+          "code": "350111",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "网站流量优化",
+          "code": "350112",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "在计算机数据库中更新和维护数据",
+          "code": "350117",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "为他人写简历",
+          "code": "350126",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "为商业或广告目的编制网页索引",
+          "code": "350127",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "预约安排服务（办公事务）",
+          "code": "350129",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "预约提醒服务（办公事务）",
+          "code": "350130",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "书面的讯息和数据的登记",
+          "code": "350133",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "已登记信息的更新和维护",
+          "code": "350134",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "为商业或广告目的汇编信息索引",
+          "code": "350135",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电话总机应接服务",
+          "code": "350162",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医疗转诊的行政服务",
+          "code": "350165",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "访客接待服务（办公事务）",
+          "code": "350168",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "提供电话簿信息",
+          "code": "350170",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "为他人预订电子收费（ETC）服务",
+          "code": "350171",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "数据处理服务（办公事务）",
+          "code": "350173",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医疗记录和档案的计算机化管理",
+          "code": "350176",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "餐馆外卖和送餐的在线预订服务",
+          "code": "350177",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "库存转储记录（办公事务）",
+          "code": "350190",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "为他人订阅多媒体内容",
+          "code": "350192",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "计算机数据录入服务",
+          "code": "C350006",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "文件或磁带归档（办公事务）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商业文档管理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "文件复印",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "打字机和复印机出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电话应接服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "速记打字",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "文字处理和打字服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "速记秘书服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机化文件的管理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "文件复制（影印服务）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "信息誊写",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为第三方安排电话接待和接听服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人安排出版物订阅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机文字处理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "速记服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "速记誊写",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "安排电信服务订购（为他人）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "文秘服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "文件或磁带归档（办公服务）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机录入服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "对邮购企业服务框架内的购买订单进行行政处理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人复印文件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电话会议听录服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "话务员服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "犬种登记表的维护",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为推广他人的网站进行搜索引擎优化",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "准备结算清单",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "文件归档（办公事务）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "邮件列表的准备",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:05.138Z"
+}

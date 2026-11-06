@@ -1,0 +1,315 @@
+{
+  "groupCode": "1603",
+  "groupName": "生活用纸",
+  "classCode": "16",
+  "notes": [
+    "注：1.本类似群与1601纸类似；",
+    "2.卫生纸，纸手帕，卸妆用薄纸，纸餐巾，纸巾，纸制洗脸巾，清洁用纸抹布，纸制抹布与 0506 卫生棉条，卫生巾，卫生护垫，浸药液的薄纸，浸卫生消毒剂的湿巾，消毒纸巾类似，与第十版及以前版本 0506 卫生垫，第九版及以前版本 0506 月经垫，浸药液的卫生纸交叉检索；",
+    "3.卫生纸，纸手帕，卸妆用薄纸，纸餐巾，纸巾，纸制洗脸巾与 0306 浸化妆水的薄纸，浸卸妆液的薄纸，浸卸妆液的卸妆棉类似，与第九版及以前版本 0306 浸化妆品的卫生纸，浸化妆品的薄纸交叉检索；",
+    "4.纸制啤酒杯垫，纸制杯盘垫，纸制杯垫与2101纸盘，家用纸托盘类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "纸制啤酒杯垫",
+          "code": "160037",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "卫生纸",
+          "code": "160094",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纸制餐桌用布",
+          "code": "160186",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纸手帕",
+          "code": "160198",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纸桌布",
+          "code": "160200",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纸制花盆套",
+          "code": "160229",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纸制杯盘垫",
+          "code": "160254",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纸围涎",
+          "code": "160276",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纸制杯垫",
+          "code": "160283",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "卸妆用薄纸",
+          "code": "160294",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纸餐巾",
+          "code": "160295",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纸制餐具垫",
+          "code": "160296",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纸巾",
+          "code": "160306",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纸制洗脸巾",
+          "code": "160307",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "抽屉用衬纸（有或没有香味）",
+          "code": "160344",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纸蝴蝶结（非缝纫用品、非发饰）",
+          "code": "160351",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纸制桌旗",
+          "code": "160373",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医用检查台用垫纸",
+          "code": "160382",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "牙科托盘用纸制罩",
+          "code": "160383",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纸制带袖围涎",
+          "code": "160384",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "清洁用纸抹布",
+          "code": "160391",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "彩色皱纹纸",
+          "code": "C160032",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "木纹纸",
+          "code": "C160033",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "纸制抹布",
+          "code": "C160034",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "纸手巾",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "礼品包装用纸制蝴蝶结",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "餐巾纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸制礼品包装带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蛋糕用纸制装饰品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食品用纸板制装饰品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "绉纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸制蛋糕顶饰",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纤维素制桌旗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸板杯垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卸妆用纸巾",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卫生纸手帕",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "包装用装饰性纸蝴蝶结",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化妆用粗纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "面巾纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食品用纸制装饰品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸抹布",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家具用纸制花边小垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马桶坐垫纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "玻璃器皿用纸制杯垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抽屉用香味衬纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "搁架用衬纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "婴儿纸围涎",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸制筷子套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鸡尾酒用装饰纸伞",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马桶用纸衬垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卫生间用粗纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "啤酒杯用卡片纸垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马桶座圈垫纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸制拍嗝垫",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:11.623Z"
+}

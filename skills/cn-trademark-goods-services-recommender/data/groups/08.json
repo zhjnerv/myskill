@@ -1,0 +1,67 @@
+[
+  {
+    "groupCode": "0801",
+    "groupName": "手动研磨器具",
+    "classCode": "08"
+  },
+  {
+    "groupCode": "0802",
+    "groupName": "小农具（不包括农业、园艺用刀剪）",
+    "classCode": "08"
+  },
+  {
+    "groupCode": "0803",
+    "groupName": "林业、园艺用手工具",
+    "classCode": "08"
+  },
+  {
+    "groupCode": "0804",
+    "groupName": "畜牧业用手工具",
+    "classCode": "08"
+  },
+  {
+    "groupCode": "0805",
+    "groupName": "渔业用手工具",
+    "classCode": "08"
+  },
+  {
+    "groupCode": "0806",
+    "groupName": "理发工具，修指甲刀，文身器具",
+    "classCode": "08"
+  },
+  {
+    "groupCode": "0807",
+    "groupName": "非动力手工具（不包括刀、剪）",
+    "classCode": "08"
+  },
+  {
+    "groupCode": "0808",
+    "groupName": "非动力手工器具",
+    "classCode": "08"
+  },
+  {
+    "groupCode": "0809",
+    "groupName": "专业用手工具",
+    "classCode": "08"
+  },
+  {
+    "groupCode": "0810",
+    "groupName": "刀剪（不包括机械刀片，文具刀）",
+    "classCode": "08"
+  },
+  {
+    "groupCode": "0811",
+    "groupName": "除火器外的随身武器",
+    "classCode": "08"
+  },
+  {
+    "groupCode": "0812",
+    "groupName": "餐具刀、叉、匙",
+    "classCode": "08"
+  },
+  {
+    "groupCode": "0813",
+    "groupName": "手工具柄",
+    "classCode": "08"
+  }
+]

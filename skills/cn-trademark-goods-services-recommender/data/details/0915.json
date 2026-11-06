@@ -1,0 +1,21 @@
+{
+  "groupCode": "0915",
+  "groupName": "非空气、非水处理用电离设备",
+  "classCode": "09",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "非空气、非水处理用电离设备",
+          "code": "090311",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [],
+  "crawledAt": "2026-06-09T18:57:37.888Z"
+}

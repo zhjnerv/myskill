@@ -1,0 +1,1693 @@
+{
+  "groupCode": "3602",
+  "groupName": "金融事务",
+  "classCode": "36",
+  "notes": [
+    "注：1.有价证券经纪，碳信用证经纪，股票经纪服务，股票和债券经纪，商业经纪，汽车经纪人服务，期货经纪与第十一版及以前版本 3502 已接受服务商业经纪，3605 经纪交叉检索；",
+    "2.金融评估（保险、银行、不动产）与3604不动产估价类似；",
+    "3.税审服务与 3507 商业审计，税务筹划，税务申报服务，财务审计类似，与第十一版及以前版本3507税款准备，第十版及以前版本3507审计交叉检索；",
+    "4.活立木的金融评估与第九版及以前版本3502建筑木材评估交叉检索；",
+    "5.羊毛的金融评估与第九版及以前版本3502羊毛评估交叉检索；",
+    "6.知识产权资产的金融评估与第十一版及以前版本 4227 无形资产评估交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "分期付款的贷款",
+          "code": "360002",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "信用社",
+          "code": "360006",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "债务托收代理",
+          "code": "360009",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "银行",
+          "code": "360013",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "共有基金",
+          "code": "360016",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "资本投资",
+          "code": "360017",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "兑换货币",
+          "code": "360019",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "发行旅行支票",
+          "code": "360020",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金融票据交换",
+          "code": "360021",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "保险箱寄存服务",
+          "code": "360022",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "组织收款",
+          "code": "360023",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金融贷款",
+          "code": "360024",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "财政估算",
+          "code": "360025",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金融评估（保险、银行、不动产）",
+          "code": "360026",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "保付代理服务",
+          "code": "360027",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "融资服务",
+          "code": "360029",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金融管理",
+          "code": "360030",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "抵押贷款",
+          "code": "360040",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "银行储蓄服务",
+          "code": "360041",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "融资租赁",
+          "code": "360042",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "有价证券经纪",
+          "code": "360043",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金融分析",
+          "code": "360046",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "支票核查",
+          "code": "360053",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金融咨询",
+          "code": "360054",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "信用卡支付处理",
+          "code": "360056",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "借记卡支付处理",
+          "code": "360057",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电子转账",
+          "code": "360058",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "提供金融信息",
+          "code": "360059",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金融信息",
+          "code": "360059",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "租金托收",
+          "code": "360063",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "发行预付费代金券",
+          "code": "360065",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "贵重物品存放",
+          "code": "360066",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "证券交易行情",
+          "code": "360067",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "发行信用卡",
+          "code": "360068",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "支付退休金",
+          "code": "360070",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金融赞助",
+          "code": "360071",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "网上银行",
+          "code": "360072",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "贸易清算（金融）",
+          "code": "360073",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "修理费评估（金融评估）",
+          "code": "360103",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "碳信用证经纪",
+          "code": "360104",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "活立木的金融评估",
+          "code": "360105",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "羊毛的金融评估",
+          "code": "360107",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "公积金服务",
+          "code": "360109",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "股票经纪服务",
+          "code": "360110",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "债务咨询服务",
+          "code": "360111",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "为建筑项目安排资金",
+          "code": "360112",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "通过网站提供金融信息",
+          "code": "360113",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "为他人提供补偿支付的金融管理",
+          "code": "360114",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "基金投资",
+          "code": "360115",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "股票和债券经纪",
+          "code": "360116",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "通过使用会员卡为他人在参与机构提供折扣",
+          "code": "360117",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "关于响应招标的金融评估",
+          "code": "360120",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "石油、天然气和采矿业开发成本的金融评估",
+          "code": "360121",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金融研究",
+          "code": "360122",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "知识产权资产的金融评估",
+          "code": "360125",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "为成本估算目的准备报价",
+          "code": "360126",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "众筹",
+          "code": "360127",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电子钱包支付服务",
+          "code": "360128",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "通过区块链技术提供电子资金转账",
+          "code": "360130",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "发行礼品券",
+          "code": "360131",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "手机银行服务",
+          "code": "360132",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金融事务管理",
+          "code": "360133",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "与税费相关的金融建议",
+          "code": "360134",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "商业经纪",
+          "code": "360135",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金融资助",
+          "code": "360136",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金融建议",
+          "code": "360137",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "发行预付费礼品卡",
+          "code": "360138",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "汽车经纪人服务",
+          "code": "360141",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金融工程学",
+          "code": "360144",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "支付终端设备出租",
+          "code": "360146",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "期货经纪",
+          "code": "C360001",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "陆地车辆赊售（融资租赁）",
+          "code": "C360003",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "通信设备赊售（融资租赁）",
+          "code": "C360004",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "税审服务",
+          "code": "C360005",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "与信用卡有关的调查",
+          "code": "C360006",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "在线实时货币交易",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "银行柜员机服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "现金和外汇交易",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为出租和租赁提供资金",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为保险目的的金融评估",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "外汇信息服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "外汇兑换所",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供证券市场信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "权益性资本投资",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车融资租赁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "期货交易服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "货币权利的取得和转让",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "货币交易",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "风险资本融资",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "债务管理服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "账单支付服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "债务追收服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "不动产投资咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "不停车电子收费服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抵押经纪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子信用卡交易处理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金融风险评估服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "投资风险评估服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "投资银行服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "债务整合服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金融信用评分服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "员工持股计划管理服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过电话提供银行账户信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "储蓄账户管理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "进行金融可行性研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "风险投资资金管理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为投资人提供金融信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "雇员退休金计划金融管理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "煤气费收款代理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "资本投资经纪服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金融投资经纪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供银行信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金融建议和咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "资本投资服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "支票核查服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "资本投资基金的管理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "证券指数期货交易",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "支票发行",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "资本投资咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "证券借贷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "证券期权交易",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "证券清算经纪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "不动产投资服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金融资产管理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "信用卡发行",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "信用卡核查",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "信用卡交易处理服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "银行服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金融预测",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "股票经纪人服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "安排贷款",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "信用证发行",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金融信息处理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金融信息和咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "信用咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "股价信息服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供学生贷款",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贷款融资",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "货币转账",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "外汇交易",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "货币兑换服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "货币兑换业务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "海外市场有价证券期货交易",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "信贷服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "旅行支票发行",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "互惠基金经纪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "项目融资",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "融资租赁经纪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商品期货交易代理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供股市信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商业银行服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "发行银行支票",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有价证券交易",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "收购融资",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "私募股权基金投资服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金融分析和研究服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "债券经纪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "证券承销",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "债务托收",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电话银行服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "资金电子转账",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "融资和贷款服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "应收账款融资",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汇款服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金融信息和评估",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "银行支票发行",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金融投资分析和股票研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "退休金融规划",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "证券投资组合的管理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可转让证券投资组合的管理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子支票承兑服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有关汽车的融资",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金融规划和投资的咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机股票交易信息分析",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过互联网方式进行金融管理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "点钞机及硬币计数机出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电费收款代理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "按揭再融资",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过网站提供账单付款服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "证券交易信息服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "股票及债券经纪服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供证券交易信息和数据",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "应付账款借记服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "关于退休的金融咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "财政评估建议",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "财政估算建议",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "共同基金咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过电信方式进行电子资金转账",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "财政担保融资",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业活动融资",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "股票市场的价格报价",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金融估值",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商业信贷核查服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "借助于全球计算机网络的电子银行（互联网银行）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "股票及其他证券经纪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "股票或债券及其他证券经纪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "能源项目融资咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为股票及其他有价证券贸易组织证券交易",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "债务清偿谈判服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "债务清偿服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金融数据分析",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汇票服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通信设备融资租赁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自助取款机出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸币和硬币点数或分拣用机器的出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "慈善基金投资",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "向新兴和创业公司提供风险投资服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "货币转账服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "网上银行服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "二手车估价",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "股票期权估值服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金融服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑木材的金融评估",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "在线实时外汇交易",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金融研究和信息服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为出租和租赁提供基金",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "按揭经纪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金融市场分析",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "股票经纪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金融交易所",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "期货交易",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贷款经纪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子信用卡交易",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "向个人筹措资金的众筹服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供与涉及环保投资的金融业有关的金融信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "车辆租赁资金筹措",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "外汇兑换信息服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "风险投资金融",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "账单付款服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "债务追偿服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "投资管理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "储蓄账户服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金融风险管理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "支票兑现",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "租赁资产证券化",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "活期存款账户服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "退税服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无纸化电子银行服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无纸化电子支票帐户服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车贷款经纪服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "租金支付服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "收取结算欠款",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商业贷款服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "投资经纪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金融投资组合管理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过电子方式提供的金融信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "发行储值卡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "现金管理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金融分析和咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "私募股权基金管理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "共同基金投资",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "个人房产和不动产的金融评估",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "发行用作旅游电子票的储值卡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "借款信用报告服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "借款信用调查和咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子金融交易服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "游艇融资服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "租购贷款",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "投资基金分销",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "保理代理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供大学奖学金",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供由商业票据担保的贷款",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人建立共同基金",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "消费贷款服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "房屋净值贷款",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "以电子方式提供证券交易经纪服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为彩票中奖者提供的金融咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工资税扣款服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汇率（金融信息）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金融信用评级服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为投资证券发行人提供转让代理服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "维护抵押贷款代管账户",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供学生贷款信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过预付卡进行的电子支付",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硬币计数和分拣机的出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供在线金融投资评估",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金融信息分析",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人进行基金投资",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过互联网提供证券交易行情",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "对冲基金投资服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子证券交易服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "在线基金投资信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "在线金融投资服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "在线金融资产管理服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "发行借记卡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "羊驼毛纤维的金融评估",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高速公路通行费的收费服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "经济学领域的金融研究",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "循环贷款",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "不动产开发项目融资",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "基金投资咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "信用风险管理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "信用卡授权服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自助取款机服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供临时贷款",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子贷款发放服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供营运资金",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "发行预付费电话卡",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "公司信用的财务评估",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "支付验证服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "在线商业筹款服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "对冲基金管理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "医疗报销安排的金融管理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为私人客户管理基金",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过自助取款机（ATM）提供货币兑换服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人办理进口税退税",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "债券交易",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "债务管理咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家庭银行服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "保险库（保险箱寄存）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "发行有价证券",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钻石的金融评估",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金融票据交换所",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贵金属估值",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "存款账户服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金融工程",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "投资基金管理服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "财务尽职调查服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "资产转移规划",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:07.998Z"
+}

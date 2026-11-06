@@ -1,0 +1,626 @@
+{
+  "groupCode": "3007",
+  "groupName": "方便食品",
+  "classCode": "30",
+  "notes": [
+    "注：方便米饭与3009方便面，方便粉丝类似；"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "比萨饼",
+          "code": "300112",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "（意大利式）方形饺",
+          "code": "300117",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "肉馅饼",
+          "code": "300133",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "法式肉派",
+          "code": "300134",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "古斯古斯饭",
+          "code": "300163",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "寿司",
+          "code": "300170",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "春卷",
+          "code": "300183",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "墨西哥式夹饼",
+          "code": "300184",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "墨西哥式薄饼",
+          "code": "300185",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "俄式肉饺",
+          "code": "300224",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "包子",
+          "code": "300231",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "饺子",
+          "code": "300233",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "咸薄饼",
+          "code": "300235",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "卷饼",
+          "code": "300237",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "紫菜包饭",
+          "code": "300238",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "韩式紫菜包饭",
+          "code": "300238",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "面粉制丸子",
+          "code": "300243",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "主要由米制成的冻干食品",
+          "code": "300246",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "石锅拌饭",
+          "code": "300250",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "饭团",
+          "code": "300251",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "方便米饭",
+          "code": "300252",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "土豆薄面饼",
+          "code": "300265",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "泡菜煎饼",
+          "code": "300269",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "韩式泡菜煎饼",
+          "code": "300269",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "意大利汤团",
+          "code": "300301",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "幼儿面条餐",
+          "code": "300307",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "炒饭",
+          "code": "C300048",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "粥",
+          "code": "C300049",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "年糕",
+          "code": "C300050",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "粽子",
+          "code": "C300051",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "元宵",
+          "code": "C300052",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "煎饼",
+          "code": "C300053",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "八宝饭",
+          "code": "C300054",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "醪糟",
+          "code": "C300056",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "火烧",
+          "code": "C300057",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "大饼",
+          "code": "C300058",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "馒头",
+          "code": "C300059",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "花卷",
+          "code": "C300060",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "豆包",
+          "code": "C300061",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "盒饭",
+          "code": "C300062",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "肉泡馍",
+          "code": "C300064",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "泡粑",
+          "code": "C300065",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "叶儿粑",
+          "code": "C300066",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "新鲜比萨饼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蒸米饭",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "馄饨",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "比萨饺",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "（意大利式）方形饺（加工好的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "发糕",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "米团",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "墨西哥式综合卷饼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "墨西哥式炸卷饼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "墨西哥式玉米面团包馅卷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "墨西哥式辣椒乳酪肉馅玉米卷饼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "墨西哥式干酪馅夹饼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "乳酪碎肉末玉米饼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "意大利式烩饭",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "意式加馅粗管面",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "肉馅饼（已制好）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烧卖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "熟米饭",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "肉包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "绿豆粥",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "米粥",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "南瓜粥",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "朝鲜拌饭（混合有蔬菜和牛肉的熟米饭）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "软质椒盐卷饼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "干米饭",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "萨莫萨三角饺",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烙饼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "葱油饼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "红豆粥",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "馕",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "肉馅卷饼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "糯米年糕",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "已加工的比萨饼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用薄饼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "油条",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "西班牙海鲜饭",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "豆沙包",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "糍粑",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生鱼片寿司",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "碗团（以荞麦面为主蒸制而成的面食）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "馅饼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "（墨西哥）炸玉米卷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "面粉制饺子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "荷叶饭（用荷叶包裹的加馅料的米饭）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冷冻比萨饼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "饹馇",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "米饭",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "肉燕（福州馄饨）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "肉夹馍",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "土豆饺子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "椒盐卷饼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冷冻的花椰菜制比萨饼皮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冷冻的披萨饼皮",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家禽肉和猎物肉制馅饼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烧麦",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "锅馅饼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汤圆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "粗麦蒸糕",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "乌克兰饺子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日式煎菜饼（御好烧）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "挪威土豆薄饼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "甜醅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "玉米粥",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "预包装午餐食品（以米为主",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "也包括肉、鱼或蔬菜）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "中东传统薄面饼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "以谷物组成的预制食物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无酵面饼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "墨西哥式厚玉米饼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "大米粥",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:42.517Z"
+}

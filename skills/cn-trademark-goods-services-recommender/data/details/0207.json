@@ -1,0 +1,80 @@
+{
+  "groupCode": "0207",
+  "groupName": "未加工的天然树脂",
+  "classCode": "02",
+  "notes": [
+    "注：本类似群与0205虫胶近似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "加拿大香脂",
+          "code": "020022",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "松香*",
+          "code": "020046",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "天然硬树脂",
+          "code": "020050",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "未加工的天然树脂",
+          "code": "020061",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "树胶脂",
+          "code": "020078",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "天然树脂",
+          "code": "020091",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "山达脂",
+          "code": "020100",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "加拿大香脂（未加工天然树脂）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "达马树脂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "未加工天然树脂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生产黏合剂用未加工天然树脂",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:18.340Z"
+}

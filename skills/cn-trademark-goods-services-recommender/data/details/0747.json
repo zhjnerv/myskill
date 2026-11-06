@@ -1,0 +1,81 @@
+{
+  "groupCode": "0747",
+  "groupName": "喷漆机具",
+  "classCode": "07",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "涂漆机",
+          "code": "070297",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "油漆喷枪",
+          "code": "070298",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "喷颜色用喷枪",
+          "code": "070514",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "喷漆机",
+          "code": "C070339",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "喷漆枪",
+          "code": "C070340",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "静电喷涂用自动喷射机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自动静电喷漆机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "粉末涂料喷枪",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "喷涂机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "喷漆机用漆杯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "涂漆机器人",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "喷漆枪枪嘴",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:16.720Z"
+}

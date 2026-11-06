@@ -1,0 +1,338 @@
+{
+  "groupCode": "2803",
+  "groupName": "棋，牌及辅助器材",
+  "classCode": "28",
+  "notes": [
+    "注：本类似群与第七版及以前版本 1608 交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "国际跳棋",
+          "code": "280049",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "骰子",
+          "code": "280050",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "国际象棋",
+          "code": "280055",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "国际象棋棋盘",
+          "code": "280056",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "跳棋棋盘",
+          "code": "280057",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "骰子杯",
+          "code": "280074",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "十五子棋",
+          "code": "280114",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "桌游器具",
+          "code": "280156",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "麻将牌",
+          "code": "280160",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "滑雪板专用袋",
+          "code": "280166",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "宾果游戏牌",
+          "code": "280178",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纸牌",
+          "code": "280191",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "扑克牌",
+          "code": "280191",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "游戏用集换式卡片",
+          "code": "280245",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "棋盘游戏器具",
+          "code": "280078",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "集换式卡片游戏器具",
+          "code": "280269",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纸牌游戏器具",
+          "code": "280270",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "棋",
+          "code": "C280024",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "象棋",
+          "code": "C280025",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "跳棋",
+          "code": "C280027",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "围棋",
+          "code": "C280028",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "足球棋",
+          "code": "C280029",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "动物棋",
+          "code": "C280030",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "克朗棋",
+          "code": "C280031",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "全自动麻将桌",
+          "code": "C280033",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "围棋盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "骰子游戏器具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "棋子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "将棋板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "将棋（日本象棋）的棋子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "朝鲜骨牌",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "朝鲜象棋棋子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "朝鲜象棋棋盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "成套的国际象棋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "成套的西洋跳棋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "西洋跳棋棋子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "西洋跳棋游戏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日式花纸牌",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日本歌牌",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日本双六棋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "将棋（日本象棋）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "麻将游戏器具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纸牌洗牌设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日本扑克牌（歌牌）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "围棋子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "朝鲜花牌",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "游戏牌",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "围棋罐",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "魔术表演用纸牌",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "中国跳棋（游戏）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "中国跳棋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "中国象棋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卡牌游戏器具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "朝鲜族尤茨游戏器具",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宾果游戏用标记片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "全自动麻将桌（机）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "集换式游戏卡片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "普通扑克牌",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "益智类棋盘游戏器具",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:25.081Z"
+}

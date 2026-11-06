@@ -1,0 +1,52 @@
+{
+  "groupCode": "0754",
+  "groupName": "电镀设备",
+  "classCode": "07",
+  "notes": [
+    "注：本类似群与第九版及以前版本0915电镀设备，真空喷镀机械，电镀参数测试仪等电镀类商品交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "电镀机",
+          "code": "070535",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "镀锌机",
+          "code": "070536",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "真空喷镀机械",
+          "code": "C070443",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "电镀参数测试仪",
+          "code": "C070444",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "镀镍机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电镀用电解装置",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:20.907Z"
+}

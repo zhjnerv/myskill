@@ -1,0 +1,119 @@
+{
+  "groupCode": "1907",
+  "groupName": "非金属耐火材料及制品",
+  "classCode": "19",
+  "notes": [
+    "注: 本类似群与1705隔热耐火材料类似，与第十版及以前版本1706绝缘耐火材料交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "石棉灰泥",
+          "code": "190005",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "耐火砖",
+          "code": "190012",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "火磨石（砂岩）",
+          "code": "190012",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "耐火黏土",
+          "code": "190048",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "熟耐火黏土",
+          "code": "190048",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "防火水泥涂层",
+          "code": "190056",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属耐火建筑材料",
+          "code": "190242",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "建筑用耐火石",
+          "code": "190277",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "耐火砂",
+          "code": "C190015",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "耐火纤维",
+          "code": "C190016",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "硅酸铝耐火纤维",
+          "code": "C190017",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "耐火瓦",
+          "code": "C190018",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "陶瓷纤维棉、毡",
+          "code": "C190019",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "矽砂",
+          "code": "C190020",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "矽砂火泥",
+          "code": "C190021",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "镁泥",
+          "code": "C190023",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "炉用耐火材料（电炉瓷盘）",
+          "code": "C190024",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [],
+  "crawledAt": "2026-06-09T18:58:34.021Z"
+}

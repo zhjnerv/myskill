@@ -1,0 +1,99 @@
+{
+  "groupCode": "4504",
+  "groupName": "殡仪服务",
+  "classCode": "45",
+  "notes": [
+    "注：本类似群与第七版及以前版本4226交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "火化服务",
+          "code": "450047",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "下葬服务",
+          "code": "450056",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "殡仪",
+          "code": "450057",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "尸体防腐服务",
+          "code": "450220",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "举行葬礼",
+          "code": "450229",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "入殓师服务",
+          "code": "450250",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "伴有火化的宠物葬礼服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "伴有火化的葬礼服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "丧葬服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宠物火化服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "安排葬礼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "火葬",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "带火化的丧葬服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "丧葬",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "带火化的宠物丧葬服务",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:01:00.982Z"
+}

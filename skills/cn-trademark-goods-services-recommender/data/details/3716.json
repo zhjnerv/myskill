@@ -1,0 +1,225 @@
+{
+  "groupCode": "3716",
+  "groupName": "衣服、皮革的修补、保护、洗涤服务",
+  "classCode": "37",
+  "notes": [
+    "注：皮革保养、清洁和修补，皮毛保养、清洁和修补与4010皮革修整，鞣革，皮革染色，裘皮染色，裘皮上光，皮毛防蛀处理，使裘皮具有缎子光泽类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "洗烫衣服",
+          "code": "370010",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "服装翻新",
+          "code": "370022",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "修补衣服",
+          "code": "370032",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "皮革保养、清洁和修补",
+          "code": "370034",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "皮毛保养、清洁和修补",
+          "code": "370048",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "清洗衣服",
+          "code": "370050",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "清洗亚麻制品",
+          "code": "370056",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "熨衣服",
+          "code": "370062",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "亚麻制品熨烫",
+          "code": "370079",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "清洗尿布",
+          "code": "370102",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "干洗",
+          "code": "370103",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "洗衣机出租",
+          "code": "370135",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "衣物甩干机出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "服装织补",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "干衣机出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "服装修补",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "地毯清洗",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "洗衣店服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺织品洗烫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "包或袋的修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供洗衣设施",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供清洗和烘干衣物的设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供自助洗衣设施",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺织品洗涤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "布料洗烫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "衣物洗涤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "织物洗涤",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电干衣机出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "洗衣设备出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "布料熨烫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "修补帽子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "织物熨烫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "熨烫衣服",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "衣物熨烫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "帽子修复",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "棒球手套的重新系带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺织品熨烫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "地毯除臭服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "地毯修复",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:21.563Z"
+}

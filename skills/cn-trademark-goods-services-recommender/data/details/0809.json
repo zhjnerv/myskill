@@ -1,0 +1,199 @@
+{
+  "groupCode": "0809",
+  "groupName": "专业用手工具",
+  "classCode": "08",
+  "notes": [
+    "注：1.本类似群与第十版及以前版本 0810 调色刀交叉检索；",
+    "2.跨类似群保护商品：手动的手工具（0801，0802，0803，0804，0805，0806，0807，0808，0809，0810）。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "调色刀",
+          "code": "080013",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "抹刀（手工具）",
+          "code": "080014",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "镊子",
+          "code": "080042",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "雕刻工具（手工具）",
+          "code": "080043",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "制图用刮刀",
+          "code": "080049",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "楦（鞋匠手工具）",
+          "code": "080056",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "手动的手工具",
+          "code": "080072",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "泥刀",
+          "code": "080087",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "划玻璃刀（手工具部件）",
+          "code": "080089",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "雕刻针",
+          "code": "080131",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "涂底漆用铁器（手工具）",
+          "code": "080196",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "美工刀",
+          "code": "080264",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "调配油漆用搅拌棒",
+          "code": "080282",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "手缝锥",
+          "code": "080303",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "刻字笔",
+          "code": "C080008",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "钉碗钻",
+          "code": "C080009",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "元镜机",
+          "code": "C080010",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "雕刻钻",
+          "code": "C080011",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "制钟表工具",
+          "code": "C080012",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "三排冲墩",
+          "code": "C080013",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "开表器",
+          "code": "C080014",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "修理天平专用工具",
+          "code": "C080015",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "加工猪鬃用工具",
+          "code": "C080016",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "艺术家用抹刀",
+          "code": "080270",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "雕刻家用凿子",
+          "code": "080271",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "玻璃刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "砖瓦匠用泥刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "油灰刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "混凝土用泥刀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制鞋用楦（手动的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鞋楦头（手工具）",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:26.147Z"
+}

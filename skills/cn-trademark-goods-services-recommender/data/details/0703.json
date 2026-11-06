@@ -1,0 +1,261 @@
+{
+  "groupCode": "0703",
+  "groupName": "伐木、锯木、木材加工及火柴生产用机械及器具",
+  "classCode": "07",
+  "notes": [
+    "注：锯条（机器部件），机锯（机器）与0742链锯，带锯，圆锯片（机器零件），龙锯，截锯（机器零件），往复锯类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "锯台（机器部件）",
+          "code": "070035",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "木材加工机",
+          "code": "070055",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "凿榫机",
+          "code": "070071",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "刨花机",
+          "code": "070071",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "锯条（机器部件）",
+          "code": "070226",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "锯条夹（机器部件）",
+          "code": "070227",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "机锯（机器）",
+          "code": "070341",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "铰盘机",
+          "code": "C070013",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "编筏机",
+          "code": "C070014",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "原木传送机",
+          "code": "C070015",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "制木屑的机器",
+          "code": "C070016",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "拼板机",
+          "code": "C070017",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "火柴生产工业用机器",
+          "code": "C070018",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "胶合板压合机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "便携机锯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "伐木用带锯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "胶合板接合机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "树桩切割机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木地板用砂光机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木材采伐机械",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "胶合板涂胶机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "胶合板表面处理机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "锯木机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动锯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电刨",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "圆锯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木工车床",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木工刨床",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木工铣床",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "砂光机（木工）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木工锯齿定型机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动曲线锯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动锯木机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "锯齿定型机（用于伐木或木工用锯）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "开榫机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木材碾碎机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木工钻床",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木片切削机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "胶合板裁剪机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木工用圆锯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "胶合板制造机器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用于切劈烧柴木头的动力机械",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木材剥皮机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机锯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木材加工用砂光机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "切劈木柴用机器",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:50.422Z"
+}

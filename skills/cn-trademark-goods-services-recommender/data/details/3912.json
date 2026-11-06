@@ -1,0 +1,84 @@
+{
+  "groupCode": "3912",
+  "groupName": "单一服务",
+  "classCode": "39",
+  "notes": [
+    "注：1.本类似群为单一服务，各自然段间互不类似；",
+    "2.管道运输与 3901 货运，运输，物流运输类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "管道运输",
+          "code": "390041",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "轮椅出租",
+          "code": "390092",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "为他人发射卫星",
+          "code": "390095",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "灌装服务",
+          "code": "390100",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "送货机器人出租",
+          "code": "390138",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "婴儿车出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "独轮手推小车出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为他人发射航天器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卡丁车出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "燃料管道运输",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过管道输送石油或天然气",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "飞机残骸打捞",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:31.013Z"
+}

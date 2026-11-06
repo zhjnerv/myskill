@@ -1,0 +1,647 @@
+{
+  "groupCode": "0101",
+  "groupName": "工业气体，单质",
+  "classCode": "01",
+  "notes": [
+    "注：1.本类似群各部分之间商品不类似；",
+    "2.氨，无水氨与0102第（二）部分工业用挥发碱（氨水），工业用氨水（挥发性碱）类似，与第九版及以前版本工业用挥发碱（氨），工业用氨（挥发性碱），工业用挥发性碱（氨水）交叉检索。",
+    "3.碱土金属与0601镁类似。"
+  ],
+  "sections": [
+    {
+      "label": "（一）",
+      "items": [
+        {
+          "name": "氨*",
+          "code": "010061",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "无水氨",
+          "code": "010066",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "氩",
+          "code": "010082",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "氮",
+          "code": "010092",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "一氧化二氮",
+          "code": "010093",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "氯气",
+          "code": "010183",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "氟",
+          "code": "010302",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "焊接用保护气体",
+          "code": "010326",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "工业用固态气体",
+          "code": "010328",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "干冰（二氧化碳）",
+          "code": "010333",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "氦",
+          "code": "010344",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "氢",
+          "code": "010359",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "氪",
+          "code": "010372",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "氖",
+          "code": "010401",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "工业用氧",
+          "code": "010413",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "氡",
+          "code": "010457",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "氙",
+          "code": "010551",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "工业用二氧化碳",
+          "code": "010732",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "液体二氧化硫",
+          "code": "C010001",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "三氧化硫",
+          "code": "C010002",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "液体二氧化碳",
+          "code": "C010003",
+          "type": "marked",
+          "section": "（一）"
+        }
+      ]
+    },
+    {
+      "label": "（二）",
+      "items": [
+        {
+          "name": "碱土金属",
+          "code": "010039",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "锑",
+          "code": "010074",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "砷",
+          "code": "010084",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "砹",
+          "code": "010086",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "钡",
+          "code": "010101",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "铋",
+          "code": "010125",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "碳",
+          "code": "010148",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "镥",
+          "code": "010153",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "铈",
+          "code": "010161",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "铯",
+          "code": "010163",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "镝",
+          "code": "010250",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "铒",
+          "code": "010276",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "铕",
+          "code": "010287",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "化学用硫华",
+          "code": "010299",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "工业用石墨",
+          "code": "010305",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "钆",
+          "code": "010318",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "镓",
+          "code": "010321",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "钬",
+          "code": "010345",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "化学用碘",
+          "code": "010365",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "工业用碘",
+          "code": "010368",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "镧",
+          "code": "010375",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "锂",
+          "code": "010379",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "汞",
+          "code": "010387",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "准金属",
+          "code": "010390",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "钕",
+          "code": "010400",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "磷",
+          "code": "010430",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "钾",
+          "code": "010447",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "镨",
+          "code": "010449",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "铼",
+          "code": "010463",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "铷",
+          "code": "010466",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "钐",
+          "code": "010470",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "钪",
+          "code": "010473",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "硒",
+          "code": "010479",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "硅",
+          "code": "010483",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "钠",
+          "code": "010485",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "硫",
+          "code": "010493",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "锶",
+          "code": "010498",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "锝",
+          "code": "010516",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "碲",
+          "code": "010517",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "铽",
+          "code": "010519",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "稀土",
+          "code": "010526",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "铊",
+          "code": "010532",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "铥",
+          "code": "010534",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "镱",
+          "code": "010552",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "钇",
+          "code": "010553",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "碱金属",
+          "code": "010560",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "化学用溴",
+          "code": "010585",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "石墨烯",
+          "code": "010715",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "钙",
+          "code": "C010004",
+          "type": "marked",
+          "section": "（二）"
+        },
+        {
+          "name": "工业硅",
+          "code": "C010005",
+          "type": "marked",
+          "section": "（二）"
+        },
+        {
+          "name": "结晶硅",
+          "code": "C010006",
+          "type": "marked",
+          "section": "（二）"
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "液态氯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "游泳池用氯气",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "光气（碳酰氯）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "焊接用固态保护气体",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蓄电池用碳粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蓄电池用人造石墨",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "碳酸气",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "液态空气",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用人造石墨",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用天然石墨",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氧",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硫化氢",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "溴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "天然石墨",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "稀土金属",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硫（非金属元素）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硫（非金属矿物）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "亚硫酸气体（二氧化硫）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "锑粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "混合稀土金属",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硫磺",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "太阳能电池用硅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "六氟化硫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "溴素",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氘气",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氙气",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "氢气",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "半导体用硅",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "压缩氮气",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "压缩氢气",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "二氧化氯",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "一氧化碳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "二氧化硫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业用氨",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "液氨",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纳米石墨烯",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:05.532Z"
+}

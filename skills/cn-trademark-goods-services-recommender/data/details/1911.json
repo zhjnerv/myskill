@@ -1,0 +1,186 @@
+{
+  "groupCode": "1911",
+  "groupName": "建筑用玻璃及玻璃材料",
+  "classCode": "19",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "建筑用磨砂玻璃",
+          "code": "190002",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "建筑用玻璃",
+          "code": "190063",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "路标用玻璃颗粒",
+          "code": "190121",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "建筑用隔热玻璃",
+          "code": "190180",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "窗玻璃（运载工具窗玻璃除外）",
+          "code": "190181",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "建筑用窗玻璃",
+          "code": "190183",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "安全玻璃",
+          "code": "190192",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "建筑用彩饰玻璃",
+          "code": "190255",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "建筑用智能玻璃",
+          "code": "190274",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "镀膜玻璃",
+          "code": "C190034",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "建筑用夹层平板玻璃",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑用彩色玻璃薄板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑用普通玻璃薄板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑用装饰玻璃",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑用改性玻璃薄板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑用夹丝玻璃板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑用玻璃厚板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑用带图案的玻璃",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑用泡沫玻璃",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑用红外线吸收玻璃",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑用钢化玻璃",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑用发光玻璃",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑用安全玻璃",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "道路标线用玻璃颗粒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑用强化玻璃",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "夹层平板玻璃（建筑用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "隔热玻璃（建筑）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑用改性平板玻璃",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑物用普通玻璃",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑物用彩色窗玻璃",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "装饰玻璃（建筑物用）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑用玻璃板",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:36.411Z"
+}

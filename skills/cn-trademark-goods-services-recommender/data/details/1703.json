@@ -1,0 +1,584 @@
+{
+  "groupCode": "1703",
+  "groupName": "橡胶，树脂，纤维制品",
+  "classCode": "17",
+  "notes": [
+    "注：1.本类似群各部分之间商品不类似，第（四）部分各商品之间互不类似；",
+    "2.跨类似群保护商标：生橡胶或半成品橡胶（1701，1703第（一）部分）；",
+    "3.管道用非金属接头，软管用非金属附件，硬管用非金属附件与1704，非金属软管浇水软管，纺织材料制软管，运载工具散热器用连接软管；1909 第（一）部分第一自然段类似，与第九版及以前版本本来1704车辆取暖器软管，车辆水箱用连接软管交叉检索；",
+    "4.塑料管，塑料板，塑料杆，塑料条与1909建筑用塑料管，建筑用塑料板，建筑用塑料杆，建筑用塑料条类似。",
+    "5.第（一）部分与第十一版及以前版本第（二）部分塑料板，塑料杆，塑料条交叉检索。",
+    "6.服装用橡胶制缝制标签与第十一版及以前版本2007 服装用塑料或橡胶制缝制标签，第十版及以前版本1605非纺织品标签交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "（一）",
+      "items": [
+        {
+          "name": "半加工醋酸纤维素",
+          "code": "170001",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "半加工丙烯酸树脂",
+          "code": "170002",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "生橡胶或半成品橡胶",
+          "code": "170017",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "橡胶绳",
+          "code": "170031",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "硬橡胶",
+          "code": "170036",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非纺织用弹性线",
+          "code": "170038",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非纺织用弹性纱",
+          "code": "170038",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "硫化纤维",
+          "code": "170046",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "塑料焊丝",
+          "code": "170047",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "焊接用塑料线",
+          "code": "170047",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非包装用再生纤维素箔",
+          "code": "170053",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非包装用再生纤维素片",
+          "code": "170053",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "半加工人造树脂",
+          "code": "170075",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "半加工合成树脂",
+          "code": "170075",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非包装用粘胶纤维纸",
+          "code": "170083",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非纺织用橡胶线",
+          "code": "170095",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非纺织用碳纤维",
+          "code": "170096",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "半加工塑料物质",
+          "code": "170097",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "硬橡胶铸模",
+          "code": "170100",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非纺织用塑料纤维",
+          "code": "170102",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "非纺织用塑料线",
+          "code": "170105",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "半加工泡沫塑料制过滤材料",
+          "code": "170106",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "翻新轮胎用橡胶材料",
+          "code": "170109",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "插花用泡沫支撑物（半成品）",
+          "code": "170112",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "半加工塑料膜制过滤材料",
+          "code": "170124",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "3D打印用塑料丝",
+          "code": "170125",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "半加工丙烯酸玻璃",
+          "code": "170127",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "半加工有机玻璃",
+          "code": "170128",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "半成品海绵",
+          "code": "C170014",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "塑料板",
+          "code": "C170024",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "塑料杆",
+          "code": "C170025",
+          "type": "marked",
+          "section": "（一）"
+        },
+        {
+          "name": "塑料条",
+          "code": "C170026",
+          "type": "marked",
+          "section": "（一）"
+        }
+      ]
+    },
+    {
+      "label": "（二）",
+      "items": [
+        {
+          "name": "汽缸接头",
+          "code": "170033",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "管道用非金属接头",
+          "code": "170073",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "软管用非金属附件",
+          "code": "170121",
+          "type": "standard",
+          "section": "（二）"
+        },
+        {
+          "name": "硬管用非金属附件",
+          "code": "170122",
+          "type": "standard",
+          "section": "（二）"
+        }
+      ]
+    },
+    {
+      "label": "（三）",
+      "items": [
+        {
+          "name": "非包装用塑料膜",
+          "code": "170072",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "农业用塑料膜",
+          "code": "170111",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "窗户用染色防强光薄膜",
+          "code": "170115",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "窗户用防强光薄膜（染色膜）",
+          "code": "170115",
+          "type": "standard",
+          "section": "（三）"
+        },
+        {
+          "name": "农用地膜",
+          "code": "C170013",
+          "type": "marked",
+          "section": "（三）"
+        },
+        {
+          "name": "电控透光塑料薄膜",
+          "code": "C170016",
+          "type": "marked",
+          "section": "（三）"
+        }
+      ]
+    },
+    {
+      "label": "（四）",
+      "items": [
+        {
+          "name": "服装用橡胶制缝制标签",
+          "code": "170129",
+          "type": "standard",
+          "section": "（四）"
+        },
+        {
+          "name": "橡胶榔头",
+          "code": "C170010",
+          "type": "marked",
+          "section": "（四）"
+        },
+        {
+          "name": "储气囊",
+          "code": "C170011",
+          "type": "marked",
+          "section": "（四）"
+        },
+        {
+          "name": "渔业用浮球",
+          "code": "C170012",
+          "type": "marked",
+          "section": "（四）"
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "护根用覆盖膜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防潮用聚氨酯薄膜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生产加工用自粘塑料片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "3D打印用半加工ABS塑料纤维",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "3D打印用半加工聚乳酸纤维",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "喷丸加工时结合物品用弹性体",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运载工具窗户用染色塑料膜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "农业用塑料薄膜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "半加工天然树脂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "盐酸橡胶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "橡胶绳和橡胶带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非包装用聚丙烯箔",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "半加工橡胶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生产用挤压成形塑料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "半加工树脂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "半加工塑料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "橡胶片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非纺织用橡皮线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非纺织用再生纤维线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生产加工用涂胶塑料膜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制造充气游乐设施用乙烯基薄膜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电路制造用聚合物薄膜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "橡胶棒和橡胶条",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生产用挤压成形塑料材料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "窗户用夹层塑料膜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "层压纸用塑料薄膜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "窗户用有色塑料薄膜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "半加工的丙烯酸树脂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "管道用非金属弯头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "消防水龙带用非金属连接器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "软管用非金属接头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "深加工用塑料型材",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "硬管用非金属接头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "管道用非金属附件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "窗用防眩光塑料染色薄膜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "窗用遮光膜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "管道用橡胶接头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生产加工用丙烯酸板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "生产加工用聚合物薄膜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防潮用聚氨酯膜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "太阳能电池用转光塑料膜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "过滤材料（半加工泡沫或塑料膜）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "塑料薄板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "太阳能聚氨酯制玻璃层压用塑料膜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制造计算机监视器用塑料膜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制造移动电话用塑料膜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "过滤材料（未加工泡沫或塑料膜）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "人造树脂（半成品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "半加工塑料片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车后视镜用塑料制防雾膜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贮气囊",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "窗户用反射塑料薄膜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "农业用可生物降解塑料薄膜",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "橡胶条",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:23.377Z"
+}

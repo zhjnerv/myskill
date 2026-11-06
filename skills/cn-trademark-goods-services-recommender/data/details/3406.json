@@ -1,0 +1,41 @@
+{
+  "groupCode": "3406",
+  "groupName": "香烟用调味品",
+  "classCode": "34",
+  "notes": [
+    "注:本类似群与第十二版及以前版本 0305 烟用香精交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "烟草用调味品",
+          "code": "340042",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "除香精油外的烟草用调味品",
+          "code": "340042",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "除香精油外的电子烟用调味品",
+          "code": "340043",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "除香精油外的电子香烟用调味品",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:01.608Z"
+}

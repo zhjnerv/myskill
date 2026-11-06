@@ -1,0 +1,161 @@
+{
+  "groupCode": "3010",
+  "groupName": "谷物膨化食品",
+  "classCode": "30",
+  "notes": [
+    "注：跨类似群保护商品：以谷物为主的零食小吃（3006，3010）；以米为主的零食小吃（3006，3010）；脆米饼（3006，3010）。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "玉米花",
+          "code": "300044",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "以谷物为主的零食小吃",
+          "code": "300195",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "以米为主的零食小吃",
+          "code": "300196",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "脆米饼",
+          "code": "300268",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "大米花",
+          "code": "C300079",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "虾味条",
+          "code": "C300080",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "锅巴",
+          "code": "C300081",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "米果（膨化食品）",
+          "code": "C300082",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "爆米花",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "裹糖的爆米花",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "焦糖爆米花",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "焦糖爆玉米花",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "已调味的爆米花",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加工过的爆米花",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "锅巴（膨化食品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "咸甜味爆米花",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "甜味爆米花",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "油炸玉米花",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "膨化锅巴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "甜味玉米花",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "大米锅巴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "焦糖玉米花",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "奶酪味膨化玉米花",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "糯米锅巴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "包有糖衣的玉米花",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "薄脆谷物片",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "奶酪味的膨化玉米零食小吃",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:44.262Z"
+}

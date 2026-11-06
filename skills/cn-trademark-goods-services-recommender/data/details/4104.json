@@ -1,0 +1,221 @@
+{
+  "groupCode": "4104",
+  "groupName": "出版服务",
+  "classCode": "41",
+  "notes": [
+    "注：1.本类似群各部分之间服务不类似；",
+    "2.录像带发行与4105电影发行类似，与第十一版及以前版本4105电影胶片的分配（发行）交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "（一）",
+      "items": [
+        {
+          "name": "文字出版（广告宣传文本除外）",
+          "code": "410016",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "书籍出版",
+          "code": "410024",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "电子书籍和杂志的在线出版",
+          "code": "410091",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "电子桌面排版",
+          "code": "410092",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "提供不可下载的在线电子出版物",
+          "code": "410099",
+          "type": "standard",
+          "section": "（一）"
+        },
+        {
+          "name": "除广告以外的版面设计",
+          "code": "410187",
+          "type": "standard",
+          "section": "（一）"
+        }
+      ]
+    },
+    {
+      "label": "（二）",
+      "items": [
+        {
+          "name": "录像带发行",
+          "code": "C410001",
+          "type": "standard",
+          "section": "（二）"
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "目录出版",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "关于培训、科学、公共法律和社会事务的文件出版",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "小册子出版",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "期刊出版",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "报纸出版",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "图书出版",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "杂志出版",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "杂志的出版",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "音乐文本的出版",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过全球计算机网络出版电子报纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非广告版面设计",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "在线提供非下载的综合性杂志",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供在线非下载漫画和图画小说",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "教科书的出版",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "书籍和书评出版",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过全球计算机网络出版网站编辑内容",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有关的医疗技术科学论文的出版和发行",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "评论出版",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子杂志的出版",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手册出版",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "网页杂志的出版",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "图书和期刊的在线电子出版",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "日历出版",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新闻刊物出版",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "在线电子书籍和杂志的出版",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "文字出版（广告宣传材料除外）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "地图出版",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有声读物出版",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "期刊在线出版",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新闻刊物的出版",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "盲文书籍出版",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:43.490Z"
+}

@@ -1,0 +1,203 @@
+{
+  "groupCode": "3013",
+  "groupName": "食用冰，冰制品",
+  "classCode": "30",
+  "notes": [
+    "注：1.冻酸奶（冰冻甜点）与2907酸奶类似；",
+    "2.果汁刨冰与3202无酒精果汁，无酒精果汁饮料，果汁，葡萄汁，柠檬水，未发酵的葡萄汁，果汁冰水（饮料），无酒精饮料，无酒精鸡尾酒，带果肉果汁饮料，酸梅汤，植物饮料，乌梅浓汁（不含酒精）等含果汁的饮料类似，与第十版及以前版本3202无酒精果茶交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "冰淇淋",
+          "code": "300046",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "冰淇淋凝结剂",
+          "code": "300074",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "天然或人造冰",
+          "code": "300075",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "冰（冻结的水）",
+          "code": "300076",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "小吃用冰",
+          "code": "300076",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "果汁刨冰",
+          "code": "300125",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "食用冰",
+          "code": "300136",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "冰淇淋粉",
+          "code": "300137",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "冻酸奶（冰冻甜点）",
+          "code": "300181",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "（加入饮料用的）冰块",
+          "code": "300254",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蜜红豆刨冰",
+          "code": "300270",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "冰棍",
+          "code": "300288",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "冰糕",
+          "code": "C300101",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "冰砖",
+          "code": "C300102",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "冰淇淋混合粉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "沙冰",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水果冰",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用水果冰",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水果冰淇淋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水果冰棍",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "牛奶冰棒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "大豆冰淇淋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含有甜红豆的刨冰",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蛋筒冰淇淋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冰冻果子露混合物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冰冻果子露（糖果冰）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冰块",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冻酸奶甜点",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冰",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含酒精冰激凌",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含酒精的果汁刨冰",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "素食冰淇淋",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "食用冰凝结剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "已调味的食用冰",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:45.976Z"
+}

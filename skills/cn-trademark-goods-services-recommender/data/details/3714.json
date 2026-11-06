@@ -1,0 +1,65 @@
+{
+  "groupCode": "3714",
+  "groupName": "轮胎维修服务",
+  "classCode": "37",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "轮胎翻新",
+          "code": "370077",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "轮胎硫化处理（修理）",
+          "code": "370113",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "轮胎动平衡服务",
+          "code": "370138",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "橡胶轮胎修补",
+          "code": "C370016",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "橡胶轮胎修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车轮胎硫化处理（修理）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "轮胎修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "轮胎养护服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "轮胎的换位和平衡",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:20.412Z"
+}

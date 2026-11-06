@@ -1,0 +1,245 @@
+{
+  "groupCode": "2911",
+  "groupName": "加工过的坚果",
+  "classCode": "29",
+  "notes": [
+    "注：1.跨类似群保护商品：以果蔬为主的零食小吃（2904第（一）部分，2911）",
+    "2.本类似群与第十版及以前版本 3004 糖松子，糖核桃，鱼皮花生，琥珀花生，怪味豆交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "加工过的坚果",
+          "code": "290085",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "加工过的花生",
+          "code": "290118",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "加工过的葵花籽",
+          "code": "290166",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "加工过的种子",
+          "code": "290171",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "糖渍坚果",
+          "code": "290195",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "已调味的坚果",
+          "code": "290196",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "加工过的榛子",
+          "code": "290197",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "加工过的瓜子",
+          "code": "C290076",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "加工过的松子",
+          "code": "C290077",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "加工过的香榧",
+          "code": "C290078",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "加工过的开心果",
+          "code": "C290080",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "糖炒栗子",
+          "code": "C290081",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "开花豆",
+          "code": "C290082",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "五香豆",
+          "code": "C290083",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "熟芝麻",
+          "code": "C290085",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "以果蔬为主的零食小吃",
+          "code": "C290093",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "糖松子",
+          "code": "C290102",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "糖核桃",
+          "code": "C290103",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "鱼皮花生",
+          "code": "C290104",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "琥珀花生",
+          "code": "C290105",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "怪味豆",
+          "code": "C290106",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "加工过的核桃",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "盐焗腰果",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加工过的南瓜子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加工过的西瓜籽",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烘制过的坚果",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加工过的夏威夷果",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加工过的杏仁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加工过的可食用种子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加工过的碧根果",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加工过的胡桃",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加工过的奇亚籽",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "松仁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "加工过的食用奇亚籽",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "熟芝麻（非调味品）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "坚果和种子制零食棒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "以种子为主的零食小吃",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "油炸花生米",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "糖渍肉豆蔻果",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "炒豆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鹰嘴豆制零食小吃",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:36.691Z"
+}

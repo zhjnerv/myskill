@@ -1,0 +1,305 @@
+{
+  "groupCode": "2508",
+  "groupName": "帽",
+  "classCode": "25",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "贝雷帽",
+          "code": "250009",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "无檐便帽",
+          "code": "250024",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "风帽（服装）",
+          "code": "250027",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "帽衬架（支撑架）",
+          "code": "250028",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "帽檐",
+          "code": "250030",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "帽",
+          "code": "250046",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "帽子",
+          "code": "250012",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "耳套（服装）",
+          "code": "250059",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "大礼帽",
+          "code": "250076",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "头带（服装）",
+          "code": "250142",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "纸帽子（服装）",
+          "code": "250162",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "空顶帽",
+          "code": "250170",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "帽（头戴物）",
+          "code": "250186",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "斗笠",
+          "code": "C250020",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "沙滩帽",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "箬笠",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "船形帽",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "平底硬草帽",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无檐针织帽",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "自行车帽",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "针织帽",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "小帽子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "带帽舌的帽子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宽顶无沿圆帽",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "头部吸汗带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "防汗用头带",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "运动帽",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "雨帽",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "羊毛帽",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "毛皮帽子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "睡帽",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "帽舌",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "时装帽",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "皮帽",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "棒球帽",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "高尔夫球帽",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "耳套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "儿童帽",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "系带软帽",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "浅顶软呢帽",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "渔夫帽",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "土耳其毡帽",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "巴拉克拉瓦头套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钟形女帽",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "御寒用耳罩（服装）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "带檐帽",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "软帽",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无边帽",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无边女帽",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无沿便帽",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "制帽用帽舌",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无边软帽",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "圆锥形绒线帽",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "骑行帽",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "遮阳帽舌",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:11.013Z"
+}

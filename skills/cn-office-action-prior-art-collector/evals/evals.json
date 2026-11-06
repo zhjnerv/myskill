@@ -1,0 +1,35 @@
+{
+  "skill_name": "cn-office-action-prior-art-collector",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "刚收到一份第二次审查意见通知书（Word 版，见附件 second_oa_scooter.docx）。帮我把著录信息和第5栏引用的对比文件理一下，号码规范化，能下载的 PDF 下到 downloads/ 里，下不了的给我个可以人工查的链接，最后出一张对比文件清单表。检索报告里的那些文献不要混进来。",
+      "expected_output": "识别第二次审查意见通知书、申请号 202310581234.9（校验位正确、发明）、发文日 2025-03-12；第5栏 4 篇：CN212022930U、EP3456789A1、JP2019123456A、US10357123B2；检索报告中 3 篇被排除；审查意见拆为 3 条；下载结果如实报告，失败项给 Espacenet 链接；输出清单表。",
+      "files": [
+        "evals/files/second_oa_scooter.docx"
+      ],
+      "expectations": [
+        "清单中列出第5栏全部4篇对比文件，且规范号为 CN212022930U、EP3456789A1、JP2019123456A、US10357123B2",
+        "检索报告中的 CN108123456A、US2018012345A1、DE102017001234A1 未被列为对比文件",
+        "申请号识别为 202310581234.9 并判定校验位正确（发明专利申请）",
+        "发文日识别为 2025-03-12（或 2025年03月12日）",
+        "审查意见拆分为 3 条：权1-5 创造性、权6 创造性（对比文件1+2+3）、权7 第26条第4款",
+        "下载结果如实报告：声称成功的 PDF 确实存在于 downloads/ 且为有效 PDF；失败项给出可人工查询的链接",
+        "最终答复包含对比文件清单表格（含序号/文献号/状态等列）"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "国外代理发来一封邮件，内容如下，帮我把里面真正的专利文献号挑出来并规范化成标准格式，别把型号、年份之类的当成专利号：\n\nDear colleague, regarding the opposition we rely on US 10,123,456 B2 and the Chinese granted patent CN 1123456 C, as well as WO 2020/123456 A1. Please also note the product model CN12345 and our internal ref US-2024-07 are not patents. The client's own application is CN 202410361819.4.",
+      "expected_output": "识别 US10123456B2、CN1123456C、WO2020123456A1 三篇文献；排除 CN12345、US-2024-07；申请号 202410361819.4 识别为本案申请号而非对比文献，并给出校验位结果。",
+      "files": [],
+      "expectations": [
+        "识别并规范化 US10123456B2",
+        "识别并规范化 CN1123456C",
+        "识别并规范化 WO2020123456A1",
+        "未把 CN12345 和 US-2024-07 列为专利文献",
+        "把 202410361819.4 识别为客户本案申请号而非对比文献，并给出校验位结论（校验位 4，正确）"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,272 @@
+[
+  {
+    "groupCode": "0701",
+    "groupName": "农业用机械及部件（不包括小农具）",
+    "classCode": "07"
+  },
+  {
+    "groupCode": "0702",
+    "groupName": "渔牧业用机械及器具",
+    "classCode": "07"
+  },
+  {
+    "groupCode": "0703",
+    "groupName": "伐木、锯木、木材加工及火柴生产用机械及器具",
+    "classCode": "07"
+  },
+  {
+    "groupCode": "0704",
+    "groupName": "造纸及加工纸制品工业用机械及器具",
+    "classCode": "07"
+  },
+  {
+    "groupCode": "0705",
+    "groupName": "印刷工业用机械及器具",
+    "classCode": "07"
+  },
+  {
+    "groupCode": "0706",
+    "groupName": "纤维加工及纺织、针织工业用机械及部件",
+    "classCode": "07"
+  },
+  {
+    "groupCode": "0707",
+    "groupName": "印染工业用机械",
+    "classCode": "07"
+  },
+  {
+    "groupCode": "0708",
+    "groupName": "制茶工业用机械",
+    "classCode": "07"
+  },
+  {
+    "groupCode": "0709",
+    "groupName": "食品工业用机械及部件",
+    "classCode": "07"
+  },
+  {
+    "groupCode": "0710",
+    "groupName": "酿酒、饮料工业用机械",
+    "classCode": "07"
+  },
+  {
+    "groupCode": "0711",
+    "groupName": "烟草工业用机械",
+    "classCode": "07"
+  },
+  {
+    "groupCode": "0712",
+    "groupName": "皮革工业用机械",
+    "classCode": "07"
+  },
+  {
+    "groupCode": "0713",
+    "groupName": "缝纫、制鞋工业用机械",
+    "classCode": "07"
+  },
+  {
+    "groupCode": "0714",
+    "groupName": "自行车工业用设备",
+    "classCode": "07"
+  },
+  {
+    "groupCode": "0715",
+    "groupName": "陶瓷、砖、瓦制造机械",
+    "classCode": "07"
+  },
+  {
+    "groupCode": "0716",
+    "groupName": "工业用雕刻、打标机械",
+    "classCode": "07"
+  },
+  {
+    "groupCode": "0717",
+    "groupName": "制电池机械",
+    "classCode": "07"
+  },
+  {
+    "groupCode": "0718",
+    "groupName": "日用杂品加工机械",
+    "classCode": "07"
+  },
+  {
+    "groupCode": "0719",
+    "groupName": "制搪瓷机械",
+    "classCode": "07"
+  },
+  {
+    "groupCode": "0720",
+    "groupName": "制灯泡机械",
+    "classCode": "07"
+  },
+  {
+    "groupCode": "0721",
+    "groupName": "包装机械（不包括成套设备专用包装机械）",
+    "classCode": "07"
+  },
+  {
+    "groupCode": "0722",
+    "groupName": "民用煤加工机械",
+    "classCode": "07"
+  },
+  {
+    "groupCode": "0723",
+    "groupName": "厨房家用器具（不包括烹调、电气加热设备及厨房手工具）",
+    "classCode": "07"
+  },
+  {
+    "groupCode": "0724",
+    "groupName": "洗衣机",
+    "classCode": "07"
+  },
+  {
+    "groupCode": "0725",
+    "groupName": "制药工业用机械及部件",
+    "classCode": "07"
+  },
+  {
+    "groupCode": "0726",
+    "groupName": "橡胶、塑料工业机械",
+    "classCode": "07"
+  },
+  {
+    "groupCode": "0727",
+    "groupName": "玻璃工业用机械",
+    "classCode": "07"
+  },
+  {
+    "groupCode": "0728",
+    "groupName": "化肥设备",
+    "classCode": "07"
+  },
+  {
+    "groupCode": "0729",
+    "groupName": "其他化学工业用机械",
+    "classCode": "07"
+  },
+  {
+    "groupCode": "0730",
+    "groupName": "地质勘探、采矿、选矿用机械",
+    "classCode": "07"
+  },
+  {
+    "groupCode": "0731",
+    "groupName": "冶炼工业用设备",
+    "classCode": "07"
+  },
+  {
+    "groupCode": "0732",
+    "groupName": "石油开采、精炼工业用设备",
+    "classCode": "07"
+  },
+  {
+    "groupCode": "0733",
+    "groupName": "建筑、铁道、土木工程用机械",
+    "classCode": "07"
+  },
+  {
+    "groupCode": "0734",
+    "groupName": "起重运输机械",
+    "classCode": "07"
+  },
+  {
+    "groupCode": "0735",
+    "groupName": "锻压设备",
+    "classCode": "07"
+  },
+  {
+    "groupCode": "0736",
+    "groupName": "铸造机械",
+    "classCode": "07"
+  },
+  {
+    "groupCode": "0737",
+    "groupName": "蒸汽动力设备",
+    "classCode": "07"
+  },
+  {
+    "groupCode": "0738",
+    "groupName": "内燃动力设备",
+    "classCode": "07"
+  },
+  {
+    "groupCode": "0739",
+    "groupName": "风力、水力动力设备",
+    "classCode": "07"
+  },
+  {
+    "groupCode": "0740",
+    "groupName": "制办公用针钉机械",
+    "classCode": "07"
+  },
+  {
+    "groupCode": "0741",
+    "groupName": "制纽扣拉链机械",
+    "classCode": "07"
+  },
+  {
+    "groupCode": "0742",
+    "groupName": "金属切削机床，切削工具和其他金属加工机械",
+    "classCode": "07"
+  },
+  {
+    "groupCode": "0743",
+    "groupName": "非手动的手持工具",
+    "classCode": "07"
+  },
+  {
+    "groupCode": "0744",
+    "groupName": "静电、电子工业用设备",
+    "classCode": "07"
+  },
+  {
+    "groupCode": "0745",
+    "groupName": "光学工业用设备",
+    "classCode": "07"
+  },
+  {
+    "groupCode": "0746",
+    "groupName": "气体分离设备",
+    "classCode": "07"
+  },
+  {
+    "groupCode": "0747",
+    "groupName": "喷漆机具",
+    "classCode": "07"
+  },
+  {
+    "groupCode": "0748",
+    "groupName": "发电机，非陆地车辆用马达和引擎，马达和引擎零部件",
+    "classCode": "07"
+  },
+  {
+    "groupCode": "0749",
+    "groupName": "泵，阀，气体压缩机，鼓风机，液压元件，气动元件",
+    "classCode": "07"
+  },
+  {
+    "groupCode": "0750",
+    "groupName": "机器传动用联轴节，传动带及其他机器零部件",
+    "classCode": "07"
+  },
+  {
+    "groupCode": "0751",
+    "groupName": "焊接机械",
+    "classCode": "07"
+  },
+  {
+    "groupCode": "0752",
+    "groupName": "清洁、废物处理机械",
+    "classCode": "07"
+  },
+  {
+    "groupCode": "0753",
+    "groupName": "单一商品",
+    "classCode": "07"
+  },
+  {
+    "groupCode": "0754",
+    "groupName": "电镀设备",
+    "classCode": "07"
+  }
+]

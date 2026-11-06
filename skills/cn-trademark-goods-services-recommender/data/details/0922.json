@@ -1,0 +1,544 @@
+{
+  "groupCode": "0922",
+  "groupName": "电池，充电器",
+  "classCode": "09",
+  "notes": [
+    "注:太阳能电池，发电用太阳能电池板与第十一版及以前版本0603光伏电池组成的金属屋顶板，1909光伏电池组成的非金属屋顶板，太阳能电池组成的非金属屋顶板，第十版及以前版本0603太阳能电池组成的金属屋顶板交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "运载工具用蓄电池",
+          "code": "090007",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "运载工具用电池",
+          "code": "090007",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蓄电瓶",
+          "code": "090008",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电瓶",
+          "code": "090008",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蓄电池箱",
+          "code": "090009",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电池箱",
+          "code": "090009",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电池极板",
+          "code": "090012",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "点火用电池",
+          "code": "090031",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "阳极",
+          "code": "090043",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "阳极电池",
+          "code": "090044",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "高压电池",
+          "code": "090044",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蓄电池充电器",
+          "code": "090083",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "原电池",
+          "code": "090218",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电池充电器",
+          "code": "090266",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "原电池组",
+          "code": "090272",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电池铅板",
+          "code": "090287",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电池",
+          "code": "090360",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蓄电池",
+          "code": "090361",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "阴极反腐蚀装置",
+          "code": "090412",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "对阴极",
+          "code": "090507",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "光伏电池",
+          "code": "090531",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "阴极",
+          "code": "090543",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "太阳能电池",
+          "code": "090557",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "发电用太阳能电池板",
+          "code": "090733",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电子烟用充电器",
+          "code": "090738",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电动运载工具用充电站",
+          "code": "090765",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电子烟用电池",
+          "code": "090780",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "手机充电器",
+          "code": "090862",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "便携式充电器",
+          "code": "090874",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "核电池",
+          "code": "090957",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "移动电源（可充电电池）",
+          "code": "C090137",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "可充电电池",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可充电设备用充电装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "锂离子电池",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "锂蓄电池",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "机动车辆用充电装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "光伏发电板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "干电池",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电池充电装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电池盒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电池应急启动器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电话用电池充电器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "USB充电器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "助听器用电池",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "移动电话电池",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蓄电池用充电器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无线充电器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手电筒用电池",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "湿电池",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为电动车辆提供动力的充电电池",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "镍镉蓄电池",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "燃料电池",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电池引线",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车电池",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "太阳能发电用光伏装置和设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "太阳能供电的充电器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蓄电池隔板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "备用电池组",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "便携式计算机用电池充电器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手机电池充电器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "平板电脑用电池充电器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "智能手机用无线充电器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "光电池",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电池端子",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "晶体硅太阳能电池",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电脑游戏操纵杆用充电器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "智能手机电池充电器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家用视频游戏机用电池充电器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子香烟电池充电器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "智能手机用充电器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无线电池充电器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车用蓄电池",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蓄电池充电装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "车载手机电池充电器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "光伏发电设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "袖珍灯用电池",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "太阳能电池组件",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "车载移动电话充电器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "移动电话用电池",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "锂离子电池壳",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "与汽车点烟器连用的USB充电器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动汽车用充电桩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子烟电池充电器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子香烟用充电器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "全固态电池",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电池组",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钠硫电池",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "原子能电池",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "太阳能充电电池",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手机电池",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "聚合物锂电池",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "三元锂电池",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "石墨烯电池",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "异质结电池",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "叠层电池",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "N型隧穿氧化层钝化接触太阳能电池",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "钙钛矿太阳能电池",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "背接触电池",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "金属空气电池",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:41.515Z"
+}

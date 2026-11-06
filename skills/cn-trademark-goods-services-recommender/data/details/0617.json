@@ -1,0 +1,47 @@
+{
+  "groupCode": "0617",
+  "groupName": "锚，停船用金属浮动船坞，金属下锚桩",
+  "classCode": "06",
+  "notes": [
+    "注：锚与0734船用自动锚类似，与第九版及以前版本的0734航海自动小锚，1210船锚，小船用锚，锚链交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "金属下锚柱",
+          "code": "060271",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "船只停泊用金属浮动船坞",
+          "code": "060272",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "锚*",
+          "code": "060273",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属系船浮标",
+          "code": "060412",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "船用锚",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:44.056Z"
+}

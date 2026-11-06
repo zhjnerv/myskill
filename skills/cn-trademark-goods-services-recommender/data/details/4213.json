@@ -1,0 +1,78 @@
+{
+  "groupCode": "4213",
+  "groupName": "提供气象情报服务",
+  "classCode": "42",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "提供气象信息",
+          "code": "420076",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "气象预报",
+          "code": "420234",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "提供气候变化方面的科学信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供全球变暖方面的科学信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "研究气候变化",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供天气信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "天气预报服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "气象信息服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供有关影响滑雪条件和道路封闭的天气状况信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "替他人分析气象数据",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过网站提供天气信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供实时气象信息",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:48.331Z"
+}

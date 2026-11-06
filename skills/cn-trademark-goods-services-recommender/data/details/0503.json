@@ -1,0 +1,183 @@
+{
+  "groupCode": "0503",
+  "groupName": "净化制剂",
+  "classCode": "05",
+  "notes": [
+    "注: 1. 化学盥洗室用消毒剂，卫生间用芳香除臭剂，厕所除臭剂与0302厕所清洗剂类似；",
+    "2. 漂白粉（消毒）与0301 漂白盐，漂白碱，洗衣用漂白剂，漂白水，家用漂白剂（脱色剂）类似，与第九版及以前版本0104 第（一）部分漂白剂交叉检索；",
+    "3. 化学盥洗室用消毒剂与0501杀真菌剂，杀菌剂，灭菌剂，卫生消毒剂，消毒剂，0505灭干朽真菌制剂，灭微生物剂，土壤消毒制剂，农业用杀菌剂类似，与第九版及以前版本0505土壤消毒剂交叉检索；",
+    "4.本类似群与0310商品类似。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "空气净化制剂",
+          "code": "050005",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "净化剂",
+          "code": "050117",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非人用、非动物用除臭剂",
+          "code": "050119",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "除霉化学制剂",
+          "code": "050202",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "化学盥洗室用消毒剂",
+          "code": "050380",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "衣服和纺织品用除臭剂",
+          "code": "050400",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "空气除臭剂",
+          "code": "050401",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "排泄盘用除臭剂",
+          "code": "050501",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "卫生间用芳香除臭剂",
+          "code": "050502",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "冰箱除味剂",
+          "code": "C050029",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "厕所除臭剂",
+          "code": "C050030",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "漂白粉（消毒）",
+          "code": "C050031",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "地毯除臭剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "纺织品用除臭剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "服装用除臭剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "织物除臭剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "室内装潢品用除臭剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "室内除臭喷雾剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "汽车除臭剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "活性炭空气除臭剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冰箱除臭剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冰箱除臭剂（去味剂）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "空气和房间用除臭剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "浴室除臭剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "服装和纺织品用气味中和剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宠物猫砂箱用除臭剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "鞋除臭剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "垃圾桶除臭剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "垃圾粉碎机用除臭剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "除霉剂",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:30.639Z"
+}

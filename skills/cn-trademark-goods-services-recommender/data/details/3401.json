@@ -1,0 +1,177 @@
+{
+  "groupCode": "3401",
+  "groupName": "烟草及其制品",
+  "classCode": "34",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "烟草",
+          "code": "340003",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "嚼烟",
+          "code": "340012",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "雪茄",
+          "code": "340013",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非医用含烟草代用品的香烟",
+          "code": "340019",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "香烟*",
+          "code": "340020",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "小雪茄",
+          "code": "340025",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烟用草本植物*",
+          "code": "340028",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "鼻烟",
+          "code": "340033",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "用作烟草代用品的尼古丁袋（非医用）",
+          "code": "340047",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "烟丝",
+          "code": "C340001",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "烟末",
+          "code": "C340002",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "手卷烟",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卷烟",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "过滤嘴香烟",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "吸烟用烟草",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子雪茄",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烟斗用含薄荷醇烟草",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "含薄荷醇的烟草",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "香烟用烟草",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "已调味的烟草",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非医用烟草代用品",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烟草叶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无烟烟草",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "薄荷香烟",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水烟用烟丝",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "雪茄烟",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "小雪茄烟",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烟草（处理过和加工过的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烟草筒芯用烟草",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非医用含有烟草替代品的香烟",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:58.644Z"
+}

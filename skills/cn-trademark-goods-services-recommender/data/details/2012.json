@@ -1,0 +1,205 @@
+{
+  "groupCode": "2012",
+  "groupName": "非金属家具附件",
+  "classCode": "20",
+  "notes": [
+    "注：1.木制家具隔板，桌面，家具门与2001商品类似。",
+    "2.球形非金属把手与2014非金属门把手，门的非金属附件类似，与第九版2103球形瓷把手交叉检索，与第八版及以前版本2103瓷制门把手交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "装饰用木条",
+          "code": "200027",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属挂衣钩",
+          "code": "200080",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "挂衣杆用非金属钩",
+          "code": "200080",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "家具用非金属附件",
+          "code": "200113",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "床用非金属附件",
+          "code": "200124",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "床用非金属脚轮",
+          "code": "200139",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "木制家具隔板",
+          "code": "200148",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "家具用非金属脚轮",
+          "code": "200149",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属的衣服挂钩",
+          "code": "200166",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "桌面",
+          "code": "200169",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "家具门",
+          "code": "200170",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "家具的塑料缘饰",
+          "code": "200173",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "球形非金属把手",
+          "code": "200277",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非金属制浴缸扶手",
+          "code": "200290",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "家具用非金属角码",
+          "code": "200306",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "婴儿床栏用防撞条（非床用织品）",
+          "code": "200314",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "家具腿",
+          "code": "200318",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "家具脚",
+          "code": "200319",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "家具的抽屉",
+          "code": "200346",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "抽屉分格整理盒",
+          "code": "200353",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "衣柜用分格收纳挂架",
+          "code": "200354",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "家具用防撞条",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "家具腿保护毡垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属球形把手",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抽屉",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "瓷制球形把手",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属挂帽钩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非金属衣钩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抽屉隔断",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抽屉（家具部件）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "塑料制球形把手",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "球形木把手",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "木制球形门把手",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:45.857Z"
+}

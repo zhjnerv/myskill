@@ -1,0 +1,547 @@
+{
+  "groupCode": "1109",
+  "groupName": "卫生设备（不包括盥洗室用具）",
+  "classCode": "11",
+  "notes": [
+    "注：1.非医用熏蒸设备与 1001 医用熏蒸设备类似；",
+    "2.太阳能集热器，太阳能收集器与1104太阳灶以及1107太阳炉类似；",
+    "3.“蒸汽浴装置，沐浴用设备，淋浴热水器，淋浴器，桑拿浴设备，太阳能热水器，洗涤用热水器（煤气或电加热）与第十版及以前版本1104 煤气热水器，电热水器，第九版及以前版本热水器交叉检索；",
+    "4.浴室用管子装置与1108管道（卫生设备部件），卫生设备用水管，引水管道设备类似，与第九版及以前版本1108排水管道设备交叉检索；",
+    "5.跨类似群保护商品：水箱液面控制阀（1107第（一）部分，1109）。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "蒸汽浴装置",
+          "code": "110017",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "澡盆",
+          "code": "110033",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "坐浴浴盆",
+          "code": "110035",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "便携式蒸汽浴室",
+          "code": "110036",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "沐浴用设备",
+          "code": "110037",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "淋浴热水器",
+          "code": "110038",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "浴室用管子装置",
+          "code": "110039",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "浴室装置",
+          "code": "110039",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "（洗下身用的）坐浴盆",
+          "code": "110046",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "可移动盥洗室",
+          "code": "110064",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "冲水槽",
+          "code": "110075",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "抽水马桶",
+          "code": "110105",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "淋浴器*",
+          "code": "110121",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "盥洗池（卫生设备部件）",
+          "code": "110186",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "盥洗盆（卫生设备部件）",
+          "code": "110186",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "水箱液面控制阀",
+          "code": "110194",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "卫生器械和设备",
+          "code": "110221",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "卫生间用干手器",
+          "code": "110223",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "坐便器",
+          "code": "110235",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "马桶座圈",
+          "code": "110236",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "太阳能集热器",
+          "code": "110269",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "日光浴床",
+          "code": "110271",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "冲水装置",
+          "code": "110272",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "水冲洗设备",
+          "code": "110272",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "蒸脸仪",
+          "code": "110278",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "面部熏蒸仪",
+          "code": "110278",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "矿泉浴盆（容器）",
+          "code": "110291",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "桑拿浴设备",
+          "code": "110297",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "淋浴隔间",
+          "code": "110298",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "洗涤槽",
+          "code": "110299",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "小便池（卫生设施）",
+          "code": "110301",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "喷射旋涡设备",
+          "code": "110320",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "清洁室（卫生装置）",
+          "code": "110325",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "水按摩洗浴设备",
+          "code": "110334",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "洗浴用微气泡发生器",
+          "code": "110349",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "装有集成台面的厨房水槽",
+          "code": "110382",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "全身烘干机",
+          "code": "110403",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "喷雾器（消毒设备）",
+          "code": "110418",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "太阳能热水器",
+          "code": "C110027",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "冷热湿巾机",
+          "code": "C110036",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "冷热柔巾机",
+          "code": "C110037",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "太阳能收集器",
+          "code": "C110051",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "浴霸",
+          "code": "C110053",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "洗涤用热水器（煤气或电加热）",
+          "code": "C110057",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "非医用熏蒸设备C",
+          "code": "",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "日光浴机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马桶水箱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "淋浴用站板",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "淋浴屏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "理发店用蒸汽焗油机",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "厨房洗涤槽",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "手持式淋浴器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "便携式电足浴盆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电热风干手器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马桶水箱球",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "浴缸喷水口用儿童安全保护盖",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "淋浴隔屏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "浴缸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电加热毛巾架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "小便池",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "沐浴用热水器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "淋浴喷头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "涡流式浴缸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "淋浴架",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "浴盆喷嘴",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "带有清洁水喷头的坐便器组合",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非接触式手干燥装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卫生间台面洗涤槽",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "马桶用冲水手柄",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "盥洗室用电动干手器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "淋浴混合阀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "热水浴缸用喷射器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "淋浴器喷头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电动足浴盆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "淋浴房底盘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "晒皮肤器械（日光浴床）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蒸脸器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "儿童用马桶座圈",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "儿童坐便器（卫生设备）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "婴儿湿纸巾用电加热器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蹲便器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "空气能热水器",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蒸气浴装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "便携式土耳其浴室",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "节水马桶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "空气能热水器（空气源热泵热水器）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非医用电热石蜡浴装置",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "晒皮肤设备（日光浴床）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "热水浴缸专用衬套",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "水疗池专用罩",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "淋浴器花洒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抽水马桶水箱用浮球",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抽水马桶水箱用浮球阀",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "面部桑拿设备",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "带集成式洁身冲洗器的马桶",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非医用熏蒸设备C110064",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:57:54.249Z"
+}

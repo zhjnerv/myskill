@@ -1,0 +1,1152 @@
+{
+  "groupCode": "3802",
+  "groupName": "通讯服务",
+  "classCode": "38",
+  "notes": [
+    "注：1.卫星传送与3801服务类似；",
+    "2.提供全球计算机网络用户接入服务，提供数据库接入服务与第八版及以前版本4220为计算机用户间交换数据提供即时连接服务交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "信息传送",
+          "code": "380004",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电报传送",
+          "code": "380006",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电报业务",
+          "code": "380007",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电报通信",
+          "code": "380008",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电话业务",
+          "code": "380009",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电话通信",
+          "code": "380010",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电传业务",
+          "code": "380011",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "手机通信服务",
+          "code": "380022",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "移动电话通信",
+          "code": "380022",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "计算机终端通信",
+          "code": "380023",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "计算机辅助信息和图像传送",
+          "code": "380024",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电子邮件传输",
+          "code": "380025",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "传真发送",
+          "code": "380026",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "提供电信信息",
+          "code": "380027",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电信信息",
+          "code": "380027",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "寻呼（无线电、电话或其他电子通信工具）",
+          "code": "380028",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "信息传输设备出租",
+          "code": "380029",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "光纤通信",
+          "code": "380030",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "传真设备出租",
+          "code": "380031",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "调制解调器出租",
+          "code": "380032",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电信设备出租",
+          "code": "380033",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电话机出租",
+          "code": "380034",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "卫星传送",
+          "code": "380035",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电子公告牌服务（通信服务）",
+          "code": "380036",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "提供与全球计算机网络的电信连接服务",
+          "code": "380037",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电信路由节点服务",
+          "code": "380038",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电话会议服务",
+          "code": "380039",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "提供全球计算机网络用户接入服务",
+          "code": "380040",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "全球计算机网络访问时间出租",
+          "code": "380041",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "为电话购物提供电信渠道",
+          "code": "380042",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "提供互联网聊天室",
+          "code": "380043",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "提供数据库接入服务",
+          "code": "380044",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "语音邮件服务",
+          "code": "380045",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "在线贺卡传送",
+          "code": "380046",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "数字文件传送",
+          "code": "380047",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "视频会议服务",
+          "code": "380049",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "提供在线论坛",
+          "code": "380050",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "数据流传输",
+          "code": "380051",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "无线电通信",
+          "code": "380052",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "视频点播传输",
+          "code": "380053",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "播客视频传输",
+          "code": "380054",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "智能手机出租",
+          "code": "380055",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "位置定位服务（电信服务）",
+          "code": "380056",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "提供区块链网络接入服务",
+          "code": "380057",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "在虚拟环境中提供聊天室",
+          "code": "380058",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "为工作协作提供基于虚拟现实的在线论坛",
+          "code": "380059",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "电话答录机出租",
+          "code": "380060",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "由计算机进行的电话号码簿查询",
+          "code": "C380001",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "基于文字信息传送建立的虚拟聊天室服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电脑控制的电话服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电话语音信息传送服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为第三方用户提供电信基础设施接入服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无线数字信息传送服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "寻呼服务（无线电、电话）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "声音、图像、信号和数据的网络传送",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "声音、图像、信号和数据的卫星传送",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "声音、图像、信号和数据的有线传送",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供安全电子邮件的电子传输",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供即时信息传送服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卫星传输带宽出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为社交网络提供在线聊天室",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子邮件的电子传输",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子信息传送服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "远程信息处理用设备和装置的出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "邮件和信息的电子传送",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电话视频会议服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无线电传送和接收",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过卫星传送无线电和电视节目",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供电邮传真服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过电信进行数据转移",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过电传打字机传送数据",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "传送与药品、药物和卫生用品相关的信息和图像",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "视听领域的信息传送",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过连接到远程信息处理网络的计算机传送信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过全国或全球网络传送信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "声音、图片和数据信号传送",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "声音、视频和信息传送",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过电信媒介传送股票市场信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过电信系统和数据通信系统为电子商务提供信号传输服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供数据网络中的计算机程序用户接入服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过互联网网站发送信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机辅助图像传送",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "移动电话出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "移动电话业务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "移动通信",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "呼叫限制服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "呼叫转移服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "音频远程会议服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "寻呼服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机辅助信息传送",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "网络电话服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供互联网接入服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电信咨询服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过电信网络传送数据库信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卫星传送服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过卫星传送数据、声音和图像",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可视电话服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子数据传输",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供全球计算机网络接入服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过电子媒体传送信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子数据交换",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "语音信箱服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子公告牌服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供视频会议服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "短信传送",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "短信服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子信息传输",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子信息传送",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无线电寻呼",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过数字网络进行信息传输",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电话录音服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "视频点播传送",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子指令传送服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过卫星传送声音和图像",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过电传打字机传送信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供电信网络的接入服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电信网络运营者用高位速率数据传输服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过远程信息处理代码进行信息传输",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过电传打字机进行信息传输",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供虚拟专用网（VPN）服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "移动无线电电话业务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供电子通信连接",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为转移和传播信息提供全球计算机网络多用途接入服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机电话服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宽带无线通信服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卫星广播传输",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有线广播传输",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "社交网络在线聊天室服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "利用赫兹波进行通信",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过电信网络进行数据库中存储数据的电子交换",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通话筛选服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子邮件转发服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "利用互联网提供聊天线路",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为计算机用户之间传送信息提供在线论坛",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "在互联网上提供数字音乐网站接入服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为远程会诊提供对中心文件夹电子存储数据或文件的访问服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供电子网站访问服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "跨国电信网络通信",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过访问代码或终端进行计算机信息传输",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "图像传送装置出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过电脑终端进行的数据和文档电子传送",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "路由器出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "传真通信",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "光纤网络通信",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电信设备和装置出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电信接入服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通信设备出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "航空通信服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电信装置出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供互联网或数据库的电信连接",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过电子通信网络进行信息传输",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过光纤通信网络传送信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电信线路出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电视会议通信",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过电视传送提供的通信服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数字网络通信服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过电子邮件进行数据通信",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通信装置及器具出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过电子通信网络传送信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过视频通信系统传送信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "计算机通信用设备和仪器的出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "出租电信设备（包括电话机和传真设备）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为辅助决策通过数据通信传送信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "新闻电子传输",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电讯设施出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "宽频无线电通讯服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电脑电话服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数据和声音电子邮件服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为第三方用户提供电信基础设施访问服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电话语音信息发送服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供电子邮件服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "安全电子邮件服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电子邮件通信服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "Web通信",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过全球计算机网络流式传输音频、视频以及视听资料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "在计算机用户之间电子传送数据和文件的通信服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "网关服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "信息和数据的电子传输",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "卫星通信服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "IP网络电话服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过计算机终端进行数据和文件的电子传输",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供全球计算机信息网络的多用户接入服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "网络会议服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "语音自动拨号服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "综合业务数字网（ISDN）通信服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为数据传输提供帧中继连接服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过互联网提供独立电影和影片的视频流式传输",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无线专用分组交换机（PBX）服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "无线宽带通信服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "国际电话服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供互联网多用户无线接入",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "远程电话通信服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "传输基于位置的信息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "有线电视传输",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "音频流式传输",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过互联网传送数据",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "音频数据传输",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供与区块链网络的电信连接服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过互联网传送音频内容",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电信咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供聊天室接入服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数据流式传输",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电视传播咨询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过数字网络交互式传送视频",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "由电脑进行的电话号码簿查询",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "远程信息处理的信息发送",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "个人通信服务（电信服务）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过卫星转播图像",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过互联网传输消息",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过互联网进行视频播送",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供电话会议服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "移动电话通讯服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "提供数据库和互联网的电信接入服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "视频广播播放",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "通过互联网的数据流式传输服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "影片传输",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "数字信息传送",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:24.061Z"
+}

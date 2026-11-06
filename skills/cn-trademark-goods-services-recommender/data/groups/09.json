@@ -1,0 +1,117 @@
+[
+  {
+    "groupCode": "0901",
+    "groupName": "电子计算机及其外部设备",
+    "classCode": "09"
+  },
+  {
+    "groupCode": "0902",
+    "groupName": "记录、记数检测器",
+    "classCode": "09"
+  },
+  {
+    "groupCode": "0903",
+    "groupName": "其他办公用机械（不包括打字机、誊写机、油印机）",
+    "classCode": "09"
+  },
+  {
+    "groupCode": "0904",
+    "groupName": "衡器",
+    "classCode": "09"
+  },
+  {
+    "groupCode": "0905",
+    "groupName": "量具",
+    "classCode": "09"
+  },
+  {
+    "groupCode": "0906",
+    "groupName": "信号器具",
+    "classCode": "09"
+  },
+  {
+    "groupCode": "0907",
+    "groupName": "通讯导航设备",
+    "classCode": "09"
+  },
+  {
+    "groupCode": "0908",
+    "groupName": "音像设备",
+    "classCode": "09"
+  },
+  {
+    "groupCode": "0909",
+    "groupName": "摄影、电影用具及仪器",
+    "classCode": "09"
+  },
+  {
+    "groupCode": "0910",
+    "groupName": "测量仪器仪表，实验室用器具，电测量仪器，科学仪器",
+    "classCode": "09"
+  },
+  {
+    "groupCode": "0911",
+    "groupName": "光学仪器",
+    "classCode": "09"
+  },
+  {
+    "groupCode": "0912",
+    "groupName": "光电传输材料",
+    "classCode": "09"
+  },
+  {
+    "groupCode": "0913",
+    "groupName": "电器用晶体及碳素材料，电子、电气通用元件",
+    "classCode": "09"
+  },
+  {
+    "groupCode": "0914",
+    "groupName": "电器成套设备及控制装置",
+    "classCode": "09"
+  },
+  {
+    "groupCode": "0915",
+    "groupName": "非空气、非水处理用电离设备",
+    "classCode": "09"
+  },
+  {
+    "groupCode": "0916",
+    "groupName": "灭火器具",
+    "classCode": "09"
+  },
+  {
+    "groupCode": "0918",
+    "groupName": "工业用X光机械设备",
+    "classCode": "09"
+  },
+  {
+    "groupCode": "0919",
+    "groupName": "安全救护器具",
+    "classCode": "09"
+  },
+  {
+    "groupCode": "0920",
+    "groupName": "警报装置，电铃",
+    "classCode": "09"
+  },
+  {
+    "groupCode": "0921",
+    "groupName": "眼镜及附件",
+    "classCode": "09"
+  },
+  {
+    "groupCode": "0922",
+    "groupName": "电池，充电器",
+    "classCode": "09"
+  },
+  {
+    "groupCode": "0923",
+    "groupName": "电影片，已曝光材料",
+    "classCode": "09"
+  },
+  {
+    "groupCode": "0924",
+    "groupName": "单一商品",
+    "classCode": "09"
+  }
+]

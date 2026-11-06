@@ -1,0 +1,78 @@
+{
+  "groupCode": "2505",
+  "groupName": "戏装",
+  "classCode": "25",
+  "notes": [
+    "注：跨类似群保护商品：服装*（2501，2502，2503，2504，2505）。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "服装*",
+          "code": "250045",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "化装舞会用服装",
+          "code": "250153",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "戏装",
+          "code": "C250012",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "秧歌服",
+          "code": "C250013",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "舞衣",
+          "code": "C250014",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "芭蕾舞短裙",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "化妆舞会用服装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "万圣节服装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "舞蹈服",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "角色表演游戏用服装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "儿童装扮游戏中使用的戏装",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:59:09.840Z"
+}

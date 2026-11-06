@@ -1,0 +1,102 @@
+[
+  {
+    "groupCode": "1601",
+    "groupName": "工业用纸",
+    "classCode": "16"
+  },
+  {
+    "groupCode": "1602",
+    "groupName": "技术用纸（不包括绝缘纸）",
+    "classCode": "16"
+  },
+  {
+    "groupCode": "1603",
+    "groupName": "生活用纸",
+    "classCode": "16"
+  },
+  {
+    "groupCode": "1604",
+    "groupName": "纸板",
+    "classCode": "16"
+  },
+  {
+    "groupCode": "1605",
+    "groupName": "办公、日用纸制品",
+    "classCode": "16"
+  },
+  {
+    "groupCode": "1606",
+    "groupName": "印刷出版物",
+    "classCode": "16"
+  },
+  {
+    "groupCode": "1607",
+    "groupName": "照片，图片，图画",
+    "classCode": "16"
+  },
+  {
+    "groupCode": "1609",
+    "groupName": "纸及不属别类的塑料包装物品",
+    "classCode": "16"
+  },
+  {
+    "groupCode": "1610",
+    "groupName": "办公装订、切削用具",
+    "classCode": "16"
+  },
+  {
+    "groupCode": "1611",
+    "groupName": "办公_文具（不包括笔，墨，印，胶水）",
+    "classCode": "16"
+  },
+  {
+    "groupCode": "1612",
+    "groupName": "墨，砚",
+    "classCode": "16"
+  },
+  {
+    "groupCode": "1613",
+    "groupName": "印章，印油",
+    "classCode": "16"
+  },
+  {
+    "groupCode": "1614",
+    "groupName": "笔",
+    "classCode": "16"
+  },
+  {
+    "groupCode": "1615",
+    "groupName": "办公或家庭用胶带或粘合剂",
+    "classCode": "16"
+  },
+  {
+    "groupCode": "1616",
+    "groupName": "办公室用绘图仪器，绘画仪器",
+    "classCode": "16"
+  },
+  {
+    "groupCode": "1617",
+    "groupName": "绘画用具（不包括绘图仪器，笔）",
+    "classCode": "16"
+  },
+  {
+    "groupCode": "1618",
+    "groupName": "打字机、誊写机、油印机及其附件（包括印刷铅字、印版）",
+    "classCode": "16"
+  },
+  {
+    "groupCode": "1619",
+    "groupName": "教学用具（不包括教学实验用仪器）",
+    "classCode": "16"
+  },
+  {
+    "groupCode": "1620",
+    "groupName": "室内模型物（不包括教学用模型标本）",
+    "classCode": "16"
+  },
+  {
+    "groupCode": "1621",
+    "groupName": "单一商品",
+    "classCode": "16"
+  }
+]

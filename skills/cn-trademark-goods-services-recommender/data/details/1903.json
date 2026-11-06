@@ -1,0 +1,49 @@
+{
+  "groupCode": "1903",
+  "groupName": "石膏",
+  "classCode": "19",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "雪花石膏",
+          "code": "190003",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "石膏（建筑材料）",
+          "code": "190102",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "石膏板",
+          "code": "C190006",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "建筑用熟石膏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "表面装饰用石膏",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "熟石膏（建筑用）",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:31.429Z"
+}

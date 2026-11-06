@@ -1,0 +1,285 @@
+{
+  "groupCode": "2013",
+  "groupName": "垫，枕",
+  "classCode": "20",
+  "notes": [
+    "注：1.枕头，羽绒枕头与2406床单和枕套，枕套，装饰用枕套类似；",
+    "2.软垫与第十版及以前版本1802皮垫，第八版及以前版本2407坐垫(非纸制)，纺织品垫交叉检索；",
+    "3.可重复使用的婴儿更换尿布用垫与2406 婴儿更换尿布用布单类似。",
+    "4.本类似群与第十一版及以前版本2702枕席交叉检索"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "床用垫褥（床用织品除外）",
+          "code": "200077",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "软垫*",
+          "code": "200078",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "枕头*",
+          "code": "200157",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非医用充气枕",
+          "code": "200158",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "草垫",
+          "code": "200159",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "垫枕",
+          "code": "200195",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "非医用充气软垫",
+          "code": "200201",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "婴儿游戏围栏用垫",
+          "code": "200275",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "可重复使用的婴儿更换尿布用垫",
+          "code": "200279",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "野营用睡垫",
+          "code": "200293",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "野营床垫",
+          "code": "200327",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "婴儿头部支撑垫",
+          "code": "200330",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "婴儿防滚垫",
+          "code": "200331",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "婴儿头部定型枕",
+          "code": "200332",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "竹或草制凉席",
+          "code": "200368",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "浴枕",
+          "code": "200374",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "哺乳枕",
+          "code": "200377",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "打坐用软垫",
+          "code": "200381",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "瑜伽枕",
+          "code": "200382",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "瑜伽垫枕",
+          "code": "200384",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "羽绒枕头",
+          "code": "C200033",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "玉枕",
+          "code": "C200034",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "磁疗枕",
+          "code": "C200035",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "枕席",
+          "code": "C200044",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "软垫（家具）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "椅垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "U形枕",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "哺乳用枕头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "乳胶枕头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "颈枕",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "颈部靠枕",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "颈部靠垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可充气颈垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可充气枕头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "抱枕",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "用毛发填充的软垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "竹枕",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非医用充气垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "孕妇用枕",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "旅行枕头",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非医用气垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "非医用气枕",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "头部支撑枕",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "午睡垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "荞麦填充枕",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "可重复使用的尿布更换垫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "蚕丝枕",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "婴儿抱枕",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:58:46.451Z"
+}

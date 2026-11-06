@@ -1,0 +1,331 @@
+{
+  "groupCode": "3704",
+  "groupName": "建筑物装饰修理服务",
+  "classCode": "37",
+  "notes": [
+    "注：本类似群与第十版及以前版本 3702 扫路机出租交叉检索。"
+  ],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "清洁建筑物（内部）",
+          "code": "370009",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "室内装潢修理",
+          "code": "370017",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "清扫烟囱",
+          "code": "370026",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "招牌的油漆或修理",
+          "code": "370040",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "清洁窗户",
+          "code": "370045",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "贴墙纸",
+          "code": "370064",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "室内装潢",
+          "code": "370067",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "室内外油漆",
+          "code": "370068",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "涂清漆服务",
+          "code": "370086",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "清洁建筑物（外表面）",
+          "code": "370112",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "清扫街道",
+          "code": "370124",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "扫路机出租",
+          "code": "370121",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "除雪",
+          "code": "370149",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "建筑物维护和修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "油漆招牌",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "除雪服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贴墙纸服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "装饰性的室内粉刷服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "拖把出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "标志牌修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "地板防滑安全保护层涂刷",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为建筑物涂覆涂料",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为建筑物涂覆防护漆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "修理招牌",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "室内装潢清洁服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "工业场所清洁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "清洁建筑物外表面",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "清洁建筑物",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "地板上光",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "油漆服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "清洁建筑物正面",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "排水管清洗服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "贴挂壁纸",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "地板清洁机器出租",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "修理窗用百叶帘",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "门框修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "室内装潢的清洁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "洗手间清洁服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "装饰油漆服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "清洗烟囱",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑物清洁服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "房屋清洁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "商业场所的清洁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "窗框上油漆",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "场所的专业清洁服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "清理和清洁檐沟",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "体育场清洁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "地毯的铺设",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "砖石墙壁和砖石结构的修复",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "清洗建筑玻璃幕墙",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "住宅清洁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "街道清扫服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "公路标志牌修理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "冷暖设备安装",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "烟囱维修服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "游乐园的清洁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "公园的清洁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "公共海滩的清洁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "隧道的清洁",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "清井",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:14.469Z"
+}

@@ -1,0 +1,194 @@
+{
+  "groupCode": "3717",
+  "groupName": "灭菌，灭虫，消毒服务",
+  "classCode": "37",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "消毒",
+          "code": "370038",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "灭害虫（非农业、非水产养殖业、非园艺、非林业目的）",
+          "code": "370091",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医疗器械的杀菌",
+          "code": "370141",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "虫害防治服务（非农业、非水产养殖业、非园艺、非林业目的）",
+          "code": "370143",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "室内装潢的除臭",
+          "code": "370163",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医疗器械的辐照",
+          "code": "370164",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "室内装潢的消毒",
+          "code": "370166",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "外科器械的消毒",
+          "code": "370167",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "医疗器械用消毒设备的出租",
+          "code": "370169",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "虫害防治熏蒸（非农业、非园艺、非林业目的）",
+          "code": "370177",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "为霉菌污染修复进行表面清洁",
+          "code": "370181",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "外科设备消毒",
+          "code": "C370014",
+          "type": "marked",
+          "section": ""
+        },
+        {
+          "name": "灭鼠（非农业、非园艺、非林业目的）",
+          "code": "C370017",
+          "type": "marked",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "灭害虫（非农业、非水产养殖业、非林业、非园艺目的）",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "电话听筒消毒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为居民房屋喷洒杀虫剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为商业建筑喷洒杀虫剂",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "为商业建筑灭虫",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "餐具消毒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "住宅虫害防治",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "个人防护装备的杀菌服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑物内部表面的消毒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "消毒剂的静电式喷雾",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "窗帘除臭",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "邮件辐照灭菌服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑物内部表面消毒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "室内装潢除臭",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "建筑物熏蒸杀虫处理",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "从住宅和商业建筑物驱赶鸟类",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "对房屋内表面进行消毒",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "以减少病毒和微生物的传播",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "玩具消毒服务",
+      "code": "",
+      "type": "nonstandard"
+    },
+    {
+      "name": "净水器的消毒与清洗",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T19:00:22.153Z"
+}

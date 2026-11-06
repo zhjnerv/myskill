@@ -1,0 +1,87 @@
+{
+  "groupCode": "0624",
+  "groupName": "金属棺（埋葬用），金属棺材扣件，棺材用金属器材",
+  "classCode": "06",
+  "notes": [],
+  "sections": [
+    {
+      "label": "",
+      "items": [
+        {
+          "name": "墓碑用青铜制品",
+          "code": "060055",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "墓碑用青铜制纪念物",
+          "code": "060055",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属纪念碑",
+          "code": "060190",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属墓",
+          "code": "060254",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属墓穴",
+          "code": "060323",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "棺材用金属附件",
+          "code": "060324",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "墓穴用金属围栏",
+          "code": "060367",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属墓板",
+          "code": "060385",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "墓碑用金属制纪念物",
+          "code": "060386",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属墓碑标牌",
+          "code": "060387",
+          "type": "standard",
+          "section": ""
+        },
+        {
+          "name": "金属墓碑柱",
+          "code": "060388",
+          "type": "standard",
+          "section": ""
+        }
+      ]
+    }
+  ],
+  "nonstandardItems": [
+    {
+      "name": "非贵金属制墓碑铭牌",
+      "code": "",
+      "type": "nonstandard"
+    }
+  ],
+  "crawledAt": "2026-06-09T18:56:48.449Z"
+}
