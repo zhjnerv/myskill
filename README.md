@@ -1,93 +1,131 @@
-# myskill
+# 加快程序初筛
 
-个人 Claude Code / Codex Skill 集合。装两类东西：自己写的 skill，以及从别人那里引入的 skill。
+知产实务工作台 · 实务技能 | `cn-patent-fast-track-screener`
 
-外部 skill **一律以自己的 fork 为基线**，不直接对接原作者仓库。fork 负责日常同步与提 PR，
-原作者仓库只用来把 fork 追平。
+**中国专利快速审查通道初筛工具（专利预审 / 优先审查 / IPC 初筛）**
 
-```
-   原作者仓库              我的 fork                  本仓库
-   upstream/main          zhjnerv/xxx                skills/<name>/
-        │                      │                          │
-        │ ① skill-fork-sync    │                          │
-        └───── 追平 ──────────►│                          │
-                               │ ② skill-sync             │
-                               ├───── subtree pull ──────►│
-                               │                          │
-                               │ ③ skill-push             │
-     ◄── ④ PR ── myskill/<name>│◄──── subtree push ───────┤
-```
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](#许可证)
 
-## 布局
+---
 
-```
-myskill/
-├── registry.json          # 每个 skill 的来源与同步状态（唯一元数据来源）
-├── skills/<name>/         # 一个目录一个 skill，SKILL.md 必需
-├── vendor/<package>/     # 独立开源的整仓技能包
-├── scripts/               # 引入 / 同步 / 提 PR / 部署
-└── docs/
-    ├── usage.md           # 按场景查的操作手册 ← 日常看这个
-    ├── fork-workflow.md   # 设计理由、取舍、已知坑
-    └── skills/            # 引入 skill 的本地改动账，规则在该目录 README.md
-```
+## 项目简介
 
-## 知产实务工作台技能包
+在专利代理和知识产权企业实务中，技术方案在申请前经常面临一个核心问题：**“这个案子能不能走快速通道早点拿授权？”**
 
-以下三个技能在独立仓库 `zhjnerv/ip-practice-workbench-skills` 开发、开源发布。本仓库通过 subtree 整包引入到 [vendor/ip-practice-workbench-skills](vendor/ip-practice-workbench-skills/README.md)，统一同步和部署；不再保留顶层 own 副本。管理方法与迁移经验见 [技能包说明](docs/skills/ip-practice-workbench-skills.md)。
+专利加快主要有两条并行通道：
+1. **申请前·专利预审**：通过地方设立的国家级知识产权保护中心完成快速审查，发明专利通常 3~6 个月即可结案授权。但预审有极其严格的“主体所在地”和“受保护产业 IPC 范围”要求。
+2. **审查中·优先审查**：进入实质审查阶段后，根据国家知识产权局《专利优先审查管理办法》，符合国家战略重点产业（新材料、芯片、AI、新能源等）或具备实施准备的案件可申请加快审查。
 
-| Skill | 用途 | 使用与数据说明 |
-| --- | --- | --- |
-| [cn-patent-fast-track-screener](vendor/ip-practice-workbench-skills/skills/cn-patent-fast-track-screener/SKILL.md) | 专利预审、优先审查与 IPC 分类范围初筛 | [README](vendor/ip-practice-workbench-skills/skills/cn-patent-fast-track-screener/README.md) |
-| [cn-office-action-prior-art-collector](vendor/ip-practice-workbench-skills/skills/cn-office-action-prior-art-collector/SKILL.md) | 审查意见通知书解析、专利号规范化与对比文件收集 | [README](vendor/ip-practice-workbench-skills/skills/cn-office-action-prior-art-collector/README.md) |
-| [cn-trademark-goods-services-recommender](vendor/ip-practice-workbench-skills/skills/cn-trademark-goods-services-recommender/SKILL.md) | 商标大类、类似群和商品服务项目推荐，校验后导出申报表 | [README](vendor/ip-practice-workbench-skills/skills/cn-trademark-goods-services-recommender/README.md) |
+本项目是一个**完全独立、零外部第三方依赖、开箱即用**的开源 Agent Skill / CLI 工具包。支持根据技术方案推断出的 IPC 分类号及申请人所在省市，一键秒级筛查可申报的知识产权保护中心与国家重点产业优先审查目录。
 
-根许可证、资料来源和统一测试入口随整包保留。数据与模板的权利范围见 [随包说明](vendor/ip-practice-workbench-skills/DATA_SOURCES.md)。
+---
 
-```powershell
-.\scripts\skill-sync.ps1 -Name ip-practice-workbench-skills
-.\scripts\skill-deploy.ps1 -Name cn-patent-fast-track-screener
-```
+## 核心特性
 
-## 命令速查
+- **双轨加速通道并行筛查**：同时输出知识产权保护中心预审路径与国家知识产权局优先审查路径，明确两者的区别与互补关系。
+- **覆盖全国 76 家保护中心**：收录全国 76 家国家级知识产权保护中心的正式受理分类号，涵盖全国 29 个省级行政区。
+- **精细化优审体系匹配**：内置国家知识产权局发布的 4 部官方专利分类体系表（包含近 4 万个标准 IPC 组/小组号），支持前缀与排除项规则的精确匹配。
+- **零外部 API 依赖**：纯 Python 标准库实现，所有核心数据经结构化精简并高倍压缩打包在本地（总数据包仅约 550KB），无需配置外部商业模型 API 或网络密钥。
+- **专业 IPC 标准化与定义**：自带 IPC 代码提取、4 位小类与完整号格式校验，并集成官方中英文小类术语定义。
 
-完整用法（含合集仓库的处理、迁移已有 skill、故障排查）见 **[docs/usage.md](docs/usage.md)**。
+---
 
-```powershell
-# 自研
-.\scripts\skill-new.ps1 -Name contract-review -Description "当用户需要审查合同条款风险时使用。不要用于合同起草。"
+## 目录结构
 
-# 引入（-Subpath 用于"skill 是合集仓库里的一个子目录"；没 fork 过就加 -CreateFork）
-.\scripts\skill-vendor.ps1 -Name git-workflow -Upstream cat-xierluo/legal-skills -Subpath skills/git-workflow
-.\scripts\skill-vendor.ps1 -Name pdf-tool -Upstream owner/pdf-tool-skill -CreateFork
-
-# 看状态
-.\scripts\skill-status.ps1            # 离线：相对上次同步点改了哪些
-.\scripts\skill-status.ps1 -Remote    # 联网：本地 vs fork、fork vs 原作者
-
-# 同步
-.\scripts\skill-fork-sync.ps1         # ① fork 追平原作者
-.\scripts\skill-sync.ps1              # ② fork -> 本仓库
-.\scripts\skill-sync.ps1 -FromUpstream    # ①②一起
-
-# 提 PR
-.\scripts\skill-push.ps1 -Name pdf-tool -Pr
-
-# 部署到 Agent（NTFS junction，改仓库即时生效）
-.\scripts\skill-deploy.ps1 -Prune
-.\scripts\skill-deploy.ps1 -TargetRoot "$env:USERPROFILE\.codex\skills"
+```text
+cn-patent-fast-track-screener/
+├── SKILL.md                  # Agent Skill 规范定义与触发指引
+├── README.md                 # 项目使用说明
+├── scripts/                  # 核心运行与构建脚本
+│   ├── normalize_ipc.py      # IPC 分类号标准化与有效性校验
+│   ├── match_preexam.py      # 知识产权保护中心预审范围匹配
+│   ├── check_priority_review.py # 国家知识产权局优先审查核对
+│   ├── screen.py             # 综合一键初筛 CLI
+│   └── build_data.py         # 原始完整数据精简与再生工具
+├── references/               # 判定规则细则与数据说明
+│   ├── determination_rules.md # 预审 vs 优审制度深度对比与规则细则
+│   ├── data_sources.md       # 76 家保护中心与 4 部优审分类表公开来源
+│   └── ipc_prompting_guide.md# 技术方案推断 IPC 的思考指引与高频对照表
+├── data/                     # 运行时精简数据包（标准库 gzip 自动解压）
+│   ├── preexam_ready.json.gz # 76 家保护中心预审分类号映射（~16KB）
+│   ├── priority_review.json.gz # 4 部官方优审分类体系规则（~432KB）
+│   └── ipc_subclass_definitions.json.gz # IPC 小类中英文官方定义（~94KB）
+└── tests/                    # 单元测试（基于标准库 unittest）
+    └── test_screener.py      # 完整功能单元测试
 ```
 
-所有脚本都支持 `-DryRun` 或 `-WhatIf` 语义的预览（见各脚本 `Get-Help`）。
+---
 
-## 部署模型
+## 安装与快速上手
 
-`skills/<name>/` 通过 NTFS 目录联接挂到 `~\.claude\skills\<name>`。
-用 junction 而非符号链接是因为 junction 不需要管理员权限；用链接而非复制是因为
-单一事实来源必须是本仓库，复制会立刻产生"改了哪边"的歧义。
+本项目不需要 `pip install` 安装任何外部依赖，只要系统有 Python 3.8+ 即可直接运行：
 
-## 依赖
+### 1. 综合一键初筛（预审 + 优审）
+```bash
+python scripts/screen.py \
+  --province "浙江省" \
+  --city "杭州市" \
+  --primary-ipc "G06N 3/08" \
+  --secondary-ipc "G06V 10/40"
+```
 
-- Git（含 `git subtree`，Git for Windows 自带）
-- GitHub CLI `gh`，已登录。用于推导 fork 地址、创建 fork、`gh repo sync`、开 PR。
-  没有 `gh` 时这些能力降级为手工操作，subtree 部分不受影响。
+### 2. 单独查询保护中心预审受理范围
+```bash
+# 查询广东省深圳市申请人，涉及锂电池技术（H01M 10/0525）
+python scripts/match_preexam.py -p "广东省" -c "深圳市" -i "H01M 10/0525"
+
+# 查询特殊保护区域（如北京市中关村示范区）
+python scripts/match_preexam.py -p "北京市" -s "中关村" -i "G06F 30/27"
+```
+
+### 3. 单独核对国家知识产权局优先审查（优审）
+```bash
+# 核对具体完整 IPC 号是否落入官方重点产业目录
+python scripts/check_priority_review.py -i "E02D 17/20"
+
+# 检索特定 IPC 号对应的官方分类表技术分支名称与出处
+python scripts/check_priority_review.py --search "G06N 3/08"
+
+# 查看《专利优先审查管理办法》全部 6 类法定情形及所需证明材料指引
+python scripts/check_priority_review.py --list-conditions
+```
+
+### 4. IPC 代码格式校验与官方中文/英文定义查询
+```bash
+python scripts/normalize_ipc.py G06F30/27 H01M10/0525 --with-definitions
+```
+
+### 5. 运行自测单元测试
+```bash
+python -m unittest discover tests
+```
+
+---
+
+## 数据来源与时效性声明
+
+1. **预审数据来源**：
+   - 整理自全国 76 家已通过验收的国家级知识产权保护中心官方网站、各省市知识产权局/市场监督管理局官方公告及官方微信公众号文件。
+   - 官方直采比例超过 81%（62 家为 P0 级官网直接公示文件，14 家为对应保护中心明确备案要求的官方公开指引）。
+2. **优审数据来源**：
+   - 依据国家知识产权局公开发布的 4 部产业分类体系表：
+     - 《战略性新兴产业分类与国际专利分类参照关系表（2021）（试行）》
+     - 《关键数字技术专利分类体系（2023）》
+     - 《绿色技术专利分类体系》（2023）
+     - 《“新三样”相关技术专利分类体系（2024）》
+3. **时效性提醒**：
+   - 各保护中心公布的预审小类目录与国家优审技术体系会随产业升级动态调整。
+   - 本工具收录数据整理于 2026 年中；在做出实际代理申报、立项或客户报价前，请务必前往对应保护中心官方网站核对最新公示信息。
+
+---
+
+## 免责声明
+
+本工具仅用于专利加快程序分类范围初筛与信息检索参考，不代表知识产权保护中心或国家知识产权局必然受理，不作为对技术方案新颖性、创造性或专利授权前景的评价。因实际申报涉及主体资质备案、文书撰写质量、审查员自由裁量等多重因素，使用者须自行核实相关政策并承担实务决策后果。
+
+---
+
+## 许可证
+
+原创代码与文档采用 [MIT](LICENSE)。随包数据、模板和第三方资料的来源与许可边界见 [NOTICE.md](NOTICE.md)。
