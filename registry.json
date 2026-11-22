@@ -83,8 +83,8 @@
       "subpath": "skills/cn-patent-fast-track-screener",
       "localPrefix": "skills/cn-patent-fast-track-screener",
       "vendoredAt": "2026-11-06T13:57:52Z",
-      "lastSync": "2026-11-06T13:57:52Z",
-      "lastSyncTree": null,
+      "lastSync": "2026-11-22T19:32:33Z",
+      "lastSyncTree": "915621808d2aed742cca7ad91fd6419744edd737",
       "notes": "Own public package. Develop and release in ip-practice-workbench-skills; myskill syncs this skill subdirectory."
     },
     {
@@ -96,8 +96,8 @@
       "subpath": "skills/cn-office-action-prior-art-collector",
       "localPrefix": "skills/cn-office-action-prior-art-collector",
       "vendoredAt": "2026-11-06T13:57:52Z",
-      "lastSync": "2026-11-06T13:57:52Z",
-      "lastSyncTree": null,
+      "lastSync": "2026-11-22T19:32:33Z",
+      "lastSyncTree": "d8c5a2f42c1938c1e2d56f7c88e763891d079d90",
       "notes": "Own public package. Develop and release in ip-practice-workbench-skills; myskill syncs this skill subdirectory."
     },
     {
@@ -109,8 +109,8 @@
       "subpath": "skills/cn-trademark-goods-services-recommender",
       "localPrefix": "skills/cn-trademark-goods-services-recommender",
       "vendoredAt": "2026-11-06T13:57:52Z",
-      "lastSync": "2026-11-06T13:57:52Z",
-      "lastSyncTree": null,
+      "lastSync": "2026-11-22T19:32:33Z",
+      "lastSyncTree": "a000de38ba0facbc53d8bc1053bc9fdc1204a0f1",
       "notes": "Own public package. Develop and release in ip-practice-workbench-skills; myskill syncs this skill subdirectory."
     }
   ]
