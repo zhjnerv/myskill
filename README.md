@@ -1,93 +1,104 @@
-# myskill
+# 商标分类检索
 
-个人 Claude Code / Codex Skill 集合。装两类东西：自己写的 skill，以及从别人那里引入的 skill。
+知产实务工作台 · 实务技能 | `cn-trademark-goods-services-recommender`
 
-外部 skill **一律以自己的 fork 为基线**，不直接对接原作者仓库。fork 负责日常同步与提 PR，
-原作者仓库只用来把 fork 追平。
+中国商标商品与服务选类推荐引擎（Agent Skill）
+
+一个完全独立、零外部依赖（纯 Python 3 标准库）、可离线运行的中国商标申请选类推荐与申报文件生成 Skill。基于国家知识产权局《类似商品和服务区分表》（尼斯分类），通过三轮专业推断漏斗（大类初筛 → 类似群定位 → 具体商品/服务匹配），为企业产品与商业服务推荐最佳商标保护组合，并支持一键生成符合商标局网上申请系统规范的 Excel 导入模版和 CSV 清单。
+
+---
+
+## 核心特性
+
+- **纯标准库实现**：无第三方依赖（无 Node.js、无 openpyxl、无 requests），纯 Python 3.8+ 标准库即可运行，解压/复制即可在任意主机或 Agent 宿主环境中使用。
+- **三轮递进推断**：
+  - **第一轮：大类初选（45 选 ≤10）**：区分“核心业务”与“扩展保护”（销售渠道、平台服务、软件载体等），给出推荐度与选类理由。
+  - **第二轮：类似群定位（选 ≤20）**：精确下钻到相关类似群，展示官方审查注释与跨类别交叉检索规则。
+  - **第三轮：商品/服务项选取（每群 1~10 项）**：涵盖规范项（带官方 6 位代码）、重点推荐项（带※）与非规范项目，覆盖关键分段。
+- **严格存在性校验与去重**：校验拟申报项目是否真实收录于官方区分表对应群组，自动补齐商品代码，去除重复条目，并把群组代码标准化为申报所需的两位群码。
+- **商标局官方 Excel 导入模版导出**：使用原生 `zipfile` + XML 生成完全合规的 `.xlsx` 表格，包含“导入商品信息”工作表、两位群码转换、类间空行分隔以及大类推荐顺位浅色阶背景高亮；同时支持带 UTF-8 BOM 的 CSV 导出。
+- **全量内置数据集**：内嵌 45 个大类、498 个类似群、31,749 项商品/服务条目的完整离线索引及审查注释。
+
+---
+
+## 目录结构
 
 ```
-   原作者仓库              我的 fork                  本仓库
-   upstream/main          zhjnerv/xxx                skills/<name>/
-        │                      │                          │
-        │ ① skill-fork-sync    │                          │
-        └───── 追平 ──────────►│                          │
-                               │ ② skill-sync             │
-                               ├───── subtree pull ──────►│
-                               │                          │
-                               │ ③ skill-push             │
-     ◄── ④ PR ── myskill/<name>│◄──── subtree push ───────┤
+cn-trademark-goods-services-recommender/
+├── SKILL.md                          # Agent Skill 核心规范与指令入口 (<400行)
+├── README.md                         # 项目开源说明与数据合规声明
+├── TASKS.md                          # 任务清单与验证记录
+├── DECISIONS.md                      # 维护决策与取舍
+├── CHANGELOG.md                      # 已完成版本记录
+├── assets/                           # 静态资源与官方空模板
+│   └── 导入商品信息.xlsx             # 商标局网上申请系统空白导入模版
+├── data/                             # 区分表完整离线数据集 (~5.3MB)
+│   ├── manifest.json                 # 数据清单与元数据
+│   ├── classes.json                  # 45 个大类定义及注释
+│   ├── groups/                       # 45 个大类的类似群索引 JSON
+│   └── details/                      # 498 个类似群的明细 JSON
+├── references/                       # 深度领域规范与知识库
+│   ├── three_round_methodology.md   # 三轮选类方法学与常见行业保护策略
+│   ├── data_schema.md                # 区分表数据集字段字典与结构
+│   └── export_template_spec.md       # 商标局申报表格格式约束
+├── scripts/                          # 纯标准库自包含 CLI 工具集
+│   ├── build_data.py                 # 数据包校验与构建工具
+│   ├── list_classes.py               # 第一轮：大类查询与关键词检索
+│   ├── list_groups.py                # 第二轮：类似群查询
+│   ├── list_items.py                 # 第三轮：类似群内商品项及审查注释查看
+│   ├── search_items.py               # 全局跨类别关键词检索
+│   ├── validate_selection.py         # 选类结果合法性校验与去重
+│   └── export_selection.py           # 导出商标局申报 Excel / CSV
+└── tests/                            # 自动化测试套件
+    └── test_recommender.py           # 基于 Python 标准库 unittest 的单元测试
 ```
 
-## 布局
+---
 
-```
-myskill/
-├── registry.json          # 每个 skill 的来源与同步状态（唯一元数据来源）
-├── skills/<name>/         # 一个目录一个 skill，SKILL.md 必需
-├── vendor/<package>/     # 独立开源的整仓技能包
-├── scripts/               # 引入 / 同步 / 提 PR / 部署
-└── docs/
-    ├── usage.md           # 按场景查的操作手册 ← 日常看这个
-    ├── fork-workflow.md   # 设计理由、取舍、已知坑
-    └── skills/            # 引入 skill 的本地改动账，规则在该目录 README.md
-```
+## 快速使用
 
-## 知产实务工作台技能包
+### 1. 命令行直接调用
 
-以下三个技能在独立仓库 `zhjnerv/ip-practice-workbench-skills` 开发、开源发布。本仓库通过 subtree 整包引入到 [vendor/ip-practice-workbench-skills](vendor/ip-practice-workbench-skills/README.md)，统一同步和部署；不再保留顶层 own 副本。管理方法与迁移经验见 [技能包说明](docs/skills/ip-practice-workbench-skills.md)。
+```bash
+# 1. 查找大类（例如查找关于“智能宠物设备”的相关大类）
+python3 scripts/list_classes.py -q "器具"
 
-| Skill | 用途 | 使用与数据说明 |
-| --- | --- | --- |
-| [cn-patent-fast-track-screener](vendor/ip-practice-workbench-skills/skills/cn-patent-fast-track-screener/SKILL.md) | 专利预审、优先审查与 IPC 分类范围初筛 | [README](vendor/ip-practice-workbench-skills/skills/cn-patent-fast-track-screener/README.md) |
-| [cn-office-action-prior-art-collector](vendor/ip-practice-workbench-skills/skills/cn-office-action-prior-art-collector/SKILL.md) | 审查意见通知书解析、专利号规范化与对比文件收集 | [README](vendor/ip-practice-workbench-skills/skills/cn-office-action-prior-art-collector/README.md) |
-| [cn-trademark-goods-services-recommender](vendor/ip-practice-workbench-skills/skills/cn-trademark-goods-services-recommender/SKILL.md) | 商标大类、类似群和商品服务项目推荐，校验后导出申报表 | [README](vendor/ip-practice-workbench-skills/skills/cn-trademark-goods-services-recommender/README.md) |
+# 2. 查看第 21 类和第 09 类的类似群
+python3 scripts/list_groups.py 21 09
 
-根许可证、资料来源和统一测试入口随整包保留。数据与模板的权利范围见 [随包说明](vendor/ip-practice-workbench-skills/DATA_SOURCES.md)。
+# 3. 检索群内具体商品项目（例如类似群 2114）
+python3 scripts/list_items.py 2114 -q "喂食"
 
-```powershell
-.\scripts\skill-sync.ps1 -Name ip-practice-workbench-skills
-.\scripts\skill-deploy.ps1 -Name cn-patent-fast-track-screener
+# 4. 全局搜索具体关键词
+python3 scripts/search_items.py "宠物自动喂食器"
+
+# 5. 校验选类 JSON 文件
+python3 scripts/validate_selection.py selection.json -o validated.json
+
+# 6. 导出为商标局网报 Excel 模版
+python3 scripts/export_selection.py validated.json -o 商标申报表.xlsx
 ```
 
-## 命令速查
+### 2. 结合 AI Agent（如 Claude Code / OpenClaw / Codex / Antigravity）使用
 
-完整用法（含合集仓库的处理、迁移已有 skill、故障排查）见 **[docs/usage.md](docs/usage.md)**。
+将本目录直接复制到项目的 `.claude/skills/` 或 Agent 的技能目录下，当用户提出类似“帮我推荐商标类别”、“做宠物智能硬件该注册哪些商标”等问题时，Agent 会自动阅读 `SKILL.md`，自主调用脚本完成检索、推断、校验并输出导出文件。
 
-```powershell
-# 自研
-.\scripts\skill-new.ps1 -Name contract-review -Description "当用户需要审查合同条款风险时使用。不要用于合同起草。"
+---
 
-# 引入（-Subpath 用于"skill 是合集仓库里的一个子目录"；没 fork 过就加 -CreateFork）
-.\scripts\skill-vendor.ps1 -Name git-workflow -Upstream cat-xierluo/legal-skills -Subpath skills/git-workflow
-.\scripts\skill-vendor.ps1 -Name pdf-tool -Upstream owner/pdf-tool-skill -CreateFork
+## 数据来源与版本说明
 
-# 看状态
-.\scripts\skill-status.ps1            # 离线：相对上次同步点改了哪些
-.\scripts\skill-status.ps1 -Remote    # 联网：本地 vs fork、fork vs 原作者
+- **官方源头**：中华人民共和国国家知识产权局商标局（CNIPA）公布的《类似商品和服务区分表》（基于世界知识产权组织 WIPO《商标注册用商品和服务国际分类》（尼斯分类 Nice Classification）第十二版）。
+- **当前数据版本**：2026 年数据快照（对应 `data/manifest.json`，数据采集时间 2026-06，共收录 45 大类、498 类似群、12,576 项官方规范项、19,173 项历年已接受非规范项及 1,006 条审查注释）。
 
-# 同步
-.\scripts\skill-fork-sync.ps1         # ① fork 追平原作者
-.\scripts\skill-sync.ps1              # ② fork -> 本仓库
-.\scripts\skill-sync.ps1 -FromUpstream    # ①②一起
+---
 
-# 提 PR
-.\scripts\skill-push.ps1 -Name pdf-tool -Pr
+## 时效性与免责声明
 
-# 部署到 Agent（NTFS junction，改仓库即时生效）
-.\scripts\skill-deploy.ps1 -Prune
-.\scripts\skill-deploy.ps1 -TargetRoot "$env:USERPROFILE\.codex\skills"
-```
+1. **时效性提示**：国家知识产权局商标局通常于每年 1 月 1 日前后发布当年度《类似商品和服务区分表》微调及《类似商品和服务区分表补充分类》通知。如遇商标局新增或调整项目，请以商标局最新官方公告为准。
+2. **法律责任免除**：本 Skill 的推断结果基于区分表结构与商业惯例推荐，仅供企业规划与代理人核稿参考，**不构成正式的商标法律意见**，亦不承诺商标必然通过商标局的形式审查与实质审查。进行正式网上申报前，请由专业商标代理师进行商标近似检索与禁用条款审查。
 
-所有脚本都支持 `-DryRun` 或 `-WhatIf` 语义的预览（见各脚本 `Get-Help`）。
+---
 
-## 部署模型
+## 许可证
 
-`skills/<name>/` 通过 NTFS 目录联接挂到 `~\.claude\skills\<name>`。
-用 junction 而非符号链接是因为 junction 不需要管理员权限；用链接而非复制是因为
-单一事实来源必须是本仓库，复制会立刻产生"改了哪边"的歧义。
-
-## 依赖
-
-- Git（含 `git subtree`，Git for Windows 自带）
-- GitHub CLI `gh`，已登录。用于推导 fork 地址、创建 fork、`gh repo sync`、开 PR。
-  没有 `gh` 时这些能力降级为手工操作，subtree 部分不受影响。
+原创代码与文档采用 [MIT](LICENSE)。随包数据、模板和第三方资料的来源与许可边界见 [NOTICE.md](NOTICE.md)。
