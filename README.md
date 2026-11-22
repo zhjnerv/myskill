@@ -1,93 +1,114 @@
-# myskill
+# 审查意见答复 · 材料准备
 
-个人 Claude Code / Codex Skill 集合。装两类东西：自己写的 skill，以及从别人那里引入的 skill。
+知产实务工作台 · 实务技能 | `cn-office-action-prior-art-collector`
 
-外部 skill **一律以自己的 fork 为基线**，不直接对接原作者仓库。fork 负责日常同步与提 PR，
-原作者仓库只用来把 fork 追平。
+用于中国专利"审查中"阶段自动化解析审查意见通知书（OA）、提取著录项目与审查意见、规范化专利申请号与公开号，并通过公开开放渠道（Google Patents / Espacenet）检索公开号与批量下载对比文件说明书 PDF 的轻量级开源 Agent Skill。
 
-```
-   原作者仓库              我的 fork                  本仓库
-   upstream/main          zhjnerv/xxx                skills/<name>/
-        │                      │                          │
-        │ ① skill-fork-sync    │                          │
-        └───── 追平 ──────────►│                          │
-                               │ ② skill-sync             │
-                               ├───── subtree pull ──────►│
-                               │                          │
-                               │ ③ skill-push             │
-     ◄── ④ PR ── myskill/<name>│◄──── subtree push ───────┤
-```
+---
 
-## 布局
+## 特性亮点
 
-```
-myskill/
-├── registry.json          # 每个 skill 的来源与同步状态（唯一元数据来源）
-├── skills/<name>/         # 一个目录一个 skill，SKILL.md 必需
-├── vendor/<package>/     # 独立开源的整仓技能包
-├── scripts/               # 引入 / 同步 / 提 PR / 部署
-└── docs/
-    ├── usage.md           # 按场景查的操作手册 ← 日常看这个
-    ├── fork-workflow.md   # 设计理由、取舍、已知坑
-    └── skills/            # 引入 skill 的本地改动账，规则在该目录 README.md
-```
+1. **零外部强制依赖（Pure Python 3.8+）**：
+   - 核心脚本全部使用 Python 标准库（`urllib.request`、`zipfile`、`xml.etree`、`re`、`json`、`argparse`）实现。
+   - 解析 DOCX、解析文本、解析基础 PDF、网络检索与下载无需额外 `pip install` 任何第三方包。
+   - 可选安装 `pymupdf`（`fitz`）以增强复杂 PDF 文本层的解析精度；若未安装，自动无缝降级至内置轻量流解析器。
+2. **严密的专利规则算法库**：
+   - 内置中国专利申请号校验位模 11 权重算法（权重数组 `[2, 3, 4, 5, 6, 7, 8, 9, 2, 3, 4, 5]`）。
+   - 覆盖中国 (CN)、美国 (US)、世界知识产权组织 (WO/PCT)、欧洲 (EP)、日本 (JP) 等专利文献号的补零、年份展开与格式规范化。
+   - 自动依据中国申请号第 5 位代码或各国种类代码（Kind Code）推断法律类型（发明/实用新型/外观）。
+3. **精准的通知书栏目边界控制**：
+   - 严格限定仅从通知书“第 5 栏”（对比文件引用栏）抽取对比文件号，自动过滤文末附带的“检索报告”，避免引入无关背景技术文献。
+   - 自动识别并排除本案申请号本身。
+   - 提取正文审查意见段落、具体法条依据（如《专利法》第 22 条第 3 款），并将权利要求编号范围展开（如 `权利要求1-3` -> `[1, 2, 3]`）。
+4. **自由资料文档防误报过滤**：
+   - 针对交底书、文献清单等非标准文档，收紧数字位数下限（CN 8位、US 7位、WO/EP 6位），有效屏蔽产品型号（如 `CN12345`）及年份数字（如 `US2024年`）。
+5. **健壮的公开网络取材与官方兜底**：
+   - 自动将中国申请号去除校验位后请求 Google Patents XHR 检索获取本案公开文献号与著录信息。
+   - 多候选 URL 链路（直链 -> `zh.pdf` 中文版 -> `en.pdf` 原文版）下载说明书，严格校验 `%PDF-` 字节头与长度。
+   - 当公开源未收录 PDF 时，自动生成欧洲专利局（Espacenet）官方文献页详情链接作为备用查阅入口。
+6. **无缝对接 LLM 兜底阅读**：
+   - 面向扫描件或非标准版式，提供清晰的 Agent 提示词与标准 JSON Schema，便于多模态大模型直接执行视觉兜底抽取并无缝接入后续下载。
 
-## 知产实务工作台技能包
+---
 
-以下三个技能在独立仓库 `zhjnerv/ip-practice-workbench-skills` 开发、开源发布。本仓库通过 subtree 整包引入到 [vendor/ip-practice-workbench-skills](vendor/ip-practice-workbench-skills/README.md)，统一同步和部署；不再保留顶层 own 副本。管理方法与迁移经验见 [技能包说明](docs/skills/ip-practice-workbench-skills.md)。
+## 目录结构
 
-| Skill | 用途 | 使用与数据说明 |
-| --- | --- | --- |
-| [cn-patent-fast-track-screener](vendor/ip-practice-workbench-skills/skills/cn-patent-fast-track-screener/SKILL.md) | 专利预审、优先审查与 IPC 分类范围初筛 | [README](vendor/ip-practice-workbench-skills/skills/cn-patent-fast-track-screener/README.md) |
-| [cn-office-action-prior-art-collector](vendor/ip-practice-workbench-skills/skills/cn-office-action-prior-art-collector/SKILL.md) | 审查意见通知书解析、专利号规范化与对比文件收集 | [README](vendor/ip-practice-workbench-skills/skills/cn-office-action-prior-art-collector/README.md) |
-| [cn-trademark-goods-services-recommender](vendor/ip-practice-workbench-skills/skills/cn-trademark-goods-services-recommender/SKILL.md) | 商标大类、类似群和商品服务项目推荐，校验后导出申报表 | [README](vendor/ip-practice-workbench-skills/skills/cn-trademark-goods-services-recommender/README.md) |
-
-根许可证、资料来源和统一测试入口随整包保留。数据与模板的权利范围见 [随包说明](vendor/ip-practice-workbench-skills/DATA_SOURCES.md)。
-
-```powershell
-.\scripts\skill-sync.ps1 -Name ip-practice-workbench-skills
-.\scripts\skill-deploy.ps1 -Name cn-patent-fast-track-screener
-```
-
-## 命令速查
-
-完整用法（含合集仓库的处理、迁移已有 skill、故障排查）见 **[docs/usage.md](docs/usage.md)**。
-
-```powershell
-# 自研
-.\scripts\skill-new.ps1 -Name contract-review -Description "当用户需要审查合同条款风险时使用。不要用于合同起草。"
-
-# 引入（-Subpath 用于"skill 是合集仓库里的一个子目录"；没 fork 过就加 -CreateFork）
-.\scripts\skill-vendor.ps1 -Name git-workflow -Upstream cat-xierluo/legal-skills -Subpath skills/git-workflow
-.\scripts\skill-vendor.ps1 -Name pdf-tool -Upstream owner/pdf-tool-skill -CreateFork
-
-# 看状态
-.\scripts\skill-status.ps1            # 离线：相对上次同步点改了哪些
-.\scripts\skill-status.ps1 -Remote    # 联网：本地 vs fork、fork vs 原作者
-
-# 同步
-.\scripts\skill-fork-sync.ps1         # ① fork 追平原作者
-.\scripts\skill-sync.ps1              # ② fork -> 本仓库
-.\scripts\skill-sync.ps1 -FromUpstream    # ①②一起
-
-# 提 PR
-.\scripts\skill-push.ps1 -Name pdf-tool -Pr
-
-# 部署到 Agent（NTFS junction，改仓库即时生效）
-.\scripts\skill-deploy.ps1 -Prune
-.\scripts\skill-deploy.ps1 -TargetRoot "$env:USERPROFILE\.codex\skills"
+```text
+cn-office-action-prior-art-collector/
+├── SKILL.md                          # Skill 入口主说明与流程规范
+├── README.md                         # 本开源说明文档
+├── scripts/                          # 可独立运行的自包含脚本
+│   ├── normalize_patent_number.py    # 专利号与申请号清洗、规范化、校验与推断
+│   ├── extract_citations.py          # 通知书著录项、对比文件与审查意见抽取
+│   ├── fetch_patent_documents.py     # 公开号检索、PDF 下载与 Espacenet 备用链接
+│   └── selftest.py                   # 标准库 unittest 单元测试套件
+└── references/                       # 按需加载的细则参考文档
+    ├── patent_number_rules.md        # 专利号编码规则与校验位算法详述
+    ├── oa_structure_guide.md         # 审查意见通知书结构与解析边界要点
+    ├── llm_fallback_prompt.md        # 扫描件 LLM 兜底抽取指令与 JSON Schema
+    └── public_data_sources.md        # 公开数据接口与网络下载机制说明
 ```
 
-所有脚本都支持 `-DryRun` 或 `-WhatIf` 语义的预览（见各脚本 `Get-Help`）。
+---
 
-## 部署模型
+## 快速使用
 
-`skills/<name>/` 通过 NTFS 目录联接挂到 `~\.claude\skills\<name>`。
-用 junction 而非符号链接是因为 junction 不需要管理员权限；用链接而非复制是因为
-单一事实来源必须是本仓库，复制会立刻产生"改了哪边"的歧义。
+### 1. 运行自测套件验证环境
+```bash
+python3 scripts/selftest.py
+```
 
-## 依赖
+### 2. 专利号规范化与校验
+```bash
+# 规范化并验证中国申请号校验位
+python3 scripts/normalize_patent_number.py "202410361819.4" "202110532557x"
 
-- Git（含 `git subtree`，Git for Windows 自带）
-- GitHub CLI `gh`，已登录。用于推导 fork 地址、创建 fork、`gh repo sync`、开 PR。
-  没有 `gh` 时这些能力降级为手工操作，subtree 部分不受影响。
+# 规范化美国和 PCT 公开号
+python3 scripts/normalize_patent_number.py "US2014261802A1" "WO0210929A1"
+```
+
+### 3. 从通知书或资料中抽取对比文件
+```bash
+# 解析审查意见通知书文件 (.pdf / .docx / .txt / .md)
+python3 scripts/extract_citations.py "审查意见通知书.pdf" -o citations.json
+
+# 解析自由技术资料或文献清单
+python3 scripts/extract_citations.py "技术资料.docx" -m free -o citations.json
+```
+
+### 4. 检索本案公开号与下载对比文件 PDF
+```bash
+# 从已生成的 citations.json 进行批量下载
+python3 scripts/fetch_patent_documents.py --from-json citations.json -o ./downloads
+
+# 演练（dry-run）模式：仅生成候选链接与备用查阅入口，不发起实际下载
+python3 scripts/fetch_patent_documents.py --dry-run "CN114528944A" "US20200234567A1"
+
+# 根据申请号查询公开文献号
+python3 scripts/fetch_patent_documents.py --resolve-app "202210380486.0"
+```
+
+### 5. 一键管道流水线
+```bash
+# 从原始文本直接解析并执行取材演练
+python3 scripts/extract_citations.py "oa_text.txt" | python3 scripts/fetch_patent_documents.py --dry-run -o ./downloads
+```
+
+---
+
+## 可选依赖说明
+
+本项目默认不需要安装任何第三方 Python 库即可运行全部功能。若需要增强复杂格式 PDF 的文字提取精度，可按需安装：
+
+```bash
+pip install pymupdf
+```
+
+- 若安装了 `pymupdf`，`extract_citations.py` 会优先使用其高精度布局引擎提取 PDF 文本；
+- 若未安装，将自动使用内置纯 Python 标准库的流解压（`zlib`）与 CMap 解析器，确保开箱即用。
+
+---
+
+## 许可证
+
+原创代码与文档采用 [MIT](LICENSE)。随包数据、模板和第三方资料的来源与许可边界见 [NOTICE.md](NOTICE.md)。
