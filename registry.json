@@ -75,17 +75,43 @@
       "notes": ""
     },
     {
-      "name": "ip-practice-workbench-skills",
+      "name": "cn-patent-fast-track-screener",
       "origin": "vendored",
       "fork": "https://github.com/zhjnerv/ip-practice-workbench-skills",
       "upstream": "https://github.com/zhjnerv/ip-practice-workbench-skills",
       "branch": "main",
-      "subpath": null,
-      "localPrefix": "vendor/ip-practice-workbench-skills",
+      "subpath": "skills/cn-patent-fast-track-screener",
+      "localPrefix": "skills/cn-patent-fast-track-screener",
       "vendoredAt": "2026-11-06T13:57:52Z",
       "lastSync": "2026-11-06T13:57:52Z",
-      "lastSyncTree": "c6600b396b542a3726c2d9ec607d0f4406771291",
-      "notes": "Own public package. Develop and release in ip-practice-workbench-skills; myskill syncs the complete package and deploys its three skills. Do not edit the vendored copy as a second source."
+      "lastSyncTree": null,
+      "notes": "Own public package. Develop and release in ip-practice-workbench-skills; myskill syncs this skill subdirectory."
+    },
+    {
+      "name": "cn-office-action-prior-art-collector",
+      "origin": "vendored",
+      "fork": "https://github.com/zhjnerv/ip-practice-workbench-skills",
+      "upstream": "https://github.com/zhjnerv/ip-practice-workbench-skills",
+      "branch": "main",
+      "subpath": "skills/cn-office-action-prior-art-collector",
+      "localPrefix": "skills/cn-office-action-prior-art-collector",
+      "vendoredAt": "2026-11-06T13:57:52Z",
+      "lastSync": "2026-11-06T13:57:52Z",
+      "lastSyncTree": null,
+      "notes": "Own public package. Develop and release in ip-practice-workbench-skills; myskill syncs this skill subdirectory."
+    },
+    {
+      "name": "cn-trademark-goods-services-recommender",
+      "origin": "vendored",
+      "fork": "https://github.com/zhjnerv/ip-practice-workbench-skills",
+      "upstream": "https://github.com/zhjnerv/ip-practice-workbench-skills",
+      "branch": "main",
+      "subpath": "skills/cn-trademark-goods-services-recommender",
+      "localPrefix": "skills/cn-trademark-goods-services-recommender",
+      "vendoredAt": "2026-11-06T13:57:52Z",
+      "lastSync": "2026-11-06T13:57:52Z",
+      "lastSyncTree": null,
+      "notes": "Own public package. Develop and release in ip-practice-workbench-skills; myskill syncs this skill subdirectory."
     }
   ]
 }

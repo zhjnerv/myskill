@@ -12,7 +12,14 @@ import subprocess
 import sys
 from urllib.parse import unquote, urlsplit
 
-ROOT = Path(__file__).resolve().parents[1]
+PACKAGE_ROOT = Path(__file__).resolve().parents[1]
+ROOT = PACKAGE_ROOT if any(
+    (PACKAGE_ROOT / "skills" / name).is_dir() for name in (
+        "cn-trademark-goods-services-recommender",
+        "cn-patent-fast-track-screener",
+        "cn-office-action-prior-art-collector",
+    )
+) else PACKAGE_ROOT.parent.parent
 SKILLS = (
     "cn-trademark-goods-services-recommender",
     "cn-patent-fast-track-screener",
@@ -56,8 +63,8 @@ def check_files() -> None:
             elif path.suffix == ".py":
                 compile(path.read_text(encoding="utf-8"), str(path), "exec")
 
-    docs = [p for p in ROOT.rglob("*.md")
-            if not any(x in p.relative_to(ROOT).parts for x in (".git", ".local"))]
+    docs = [p for p in PACKAGE_ROOT.rglob("*.md")
+            if not any(x in p.relative_to(PACKAGE_ROOT).parts for x in (".git", ".local"))]
     for path in docs:
         text = path.read_text(encoding="utf-8")
         text = re.sub(r"(?ms)^```.*?^```[^\n]*", "", text)
@@ -67,10 +74,10 @@ def check_files() -> None:
                 continue
             resolved = (path.parent / unquote(url.path)).resolve() if url.path else path
             if not resolved.is_relative_to(ROOT) or not resolved.exists():
-                raise ValueError(f"Broken/local-outside link in {path.relative_to(ROOT)}: {target}")
+                raise ValueError(f"Broken/local-outside link in {path.relative_to(PACKAGE_ROOT)}: {target}")
             if url.fragment and resolved.suffix == ".md":
                 if unquote(url.fragment) not in headings(resolved.read_text(encoding="utf-8")):
-                    raise ValueError(f"Missing heading in {path.relative_to(ROOT)}: {target}")
+                    raise ValueError(f"Missing heading in {path.relative_to(PACKAGE_ROOT)}: {target}")
             link_count += 1
     print(f"PASS: skill names, Python syntax, {json_count} JSON files, evaluation attachments, {link_count} local links", flush=True)
 

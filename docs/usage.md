@@ -44,7 +44,7 @@ fork 地址默认按「你的 GitHub 账号 + 原仓库名」推导，不用填�
 
 同一个合集 fork 供多个 skill 用时，`-CreateFork` 只在第一条命令上加。
 
-技能如果共用仓库根上的法源、脚本或模板，不要按子目录拆开引入。整仓放到 `vendor/<仓库名>`，并在 `registry.json` 写 `localPrefix`。`skill-deploy.ps1` 会把包里的每个 skill 接到 Agent，并把包根本身接到 `~\.codex\vendor\<仓库名>`。`cn-patent-agent-skills` 就是这种。`ip-practice-workbench-skills` 同样整包引入，以保留根许可证、资料说明和统一验证入口；其独立仓库是开发源，myskill 只同步和部署，见 [管理说明](skills/ip-practice-workbench-skills.md)。
+只有技能本身依赖仓库根上的法源、脚本或模板时，才将整个技能包放到 `vendor/<仓库名>`，并在 `registry.json` 写 `localPrefix`。例如 `cn-patent-agent-skills`。如果技能目录可独立安装，即使源仓库是技能合集，也应分别同步到 `skills/<name>/`；`ip-practice-workbench-skills` 的三个技能采用这种布局，包根资料仍保留在 vendor 目录，见[管理说明](skills/ip-practice-workbench-skills.md)。
 
 
 ### 部署
@@ -55,7 +55,7 @@ fork 地址默认按「你的 GitHub 账号 + 原仓库名」推导，不用填�
 .\scripts\skill-deploy.ps1 -TargetRoot "$env:USERPROFILE\.codex\skills"   # 部署给别的 Agent
 ```
 
-`-Name` 使用单个技能的技术 ID，支持顶层和 vendor 整包内技能；同步则使用 registry 中的包名。目标位置已经被别的东西占了会拒绝执行并说明原因，加 `-Force` 才替换（实体目录先带时间戳备份）。`-DryRun` 不创建安装或包根目录。
+`-Name` 使用单个技能的技术 ID。目标位置已经被别的东西占了会拒绝执行并说明原因，加 `-Force` 才替换（实体目录先带时间戳备份）。`-DryRun` 不创建安装目录。
 
 ---
 

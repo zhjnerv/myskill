@@ -2,20 +2,22 @@
 
 ## 来源和维护边界
 
-独立仓库 `zhjnerv/ip-practice-workbench-skills` 是开发与公开发布源；myskill 在 [registry.json](../../registry.json) 用一个 `vendored` 条目管理整个包，位置为 `vendor/ip-practice-workbench-skills`。其中三个技能保留原技术 ID。
+独立仓库 `zhjnerv/ip-practice-workbench-skills` 是开发与公开发布源；myskill 在 [registry.json](../../registry.json) 为三个技能分别登记源子路径，并将技能本体放在标准 `skills/<name>/` 目录。包根的许可证、资料说明、统一验证入口仍保留在 `vendor/ip-practice-workbench-skills`。三个技能保留原技术 ID。
 
-源仓库的代码、许可证、数据说明和测试一起同步；myskill 不再保留三个顶层 `own` 副本。本文件记录 myskill 的集成方式，上游变更记录仍随包保留。
+各技能目录按自身上游子路径同步，包根许可证、数据说明和统一验证入口则在 `vendor/ip-practice-workbench-skills` 保留快照。技能本体是 vendored 来源，不作为 myskill 自研副本；本文件记录集成方式，上游变更记录随技能目录保留。
+
+同步方向是双向的：上游更新由现有定时/手动同步工作流带入 myskill；myskill 的三个技能目录进入 `main` 后，由 [反向同步工作流](../../.github/workflows/sync-ip-practice-skills-back.yml) 为各自源子目录创建或更新 PR，不会自动合并。要启用反向工作流，需先在 `zhjnerv/myskill` 仓库配置 Actions secret `IP_PRACTICE_WORKBENCH_TOKEN`，值为仅对 `zhjnerv/ip-practice-workbench-skills` 有 Contents（读写）和 Pull requests（读写）权限的 fine-grained token。当前 GitHub Actions secrets 尚未配置该 secret；配置前工作流会明确失败，不会静默丢弃修改。
 
 ## 日常操作
 
-在独立仓库修改、验证并发布后，在干净的 myskill 工作区同步：
+在独立仓库修改、验证并发布后，在干净的 myskill 工作区按技能名同步：
 
 ```powershell
-.\scripts\skill-sync.ps1 -Name ip-practice-workbench-skills
-.\scripts\skill-status.ps1 -Name ip-practice-workbench-skills
+.\scripts\skill-sync.ps1 -Name cn-patent-fast-track-screener
+.\scripts\skill-status.ps1 -Name cn-patent-fast-track-screener
 ```
 
-`fork` 与 `upstream` 都指向本人的公开仓库，不需要另建 fork。同步单位是整个包；[定时同步](../../.github/workflows/sync-upstream-skills.yml) 同样读取该登记。
+`fork` 与 `upstream` 都指向本人的公开仓库，不需要另建 fork。同步单位是单个技能目录；可对 `cn-office-action-prior-art-collector` 和 `cn-trademark-goods-services-recommender` 使用相同命令。三个技能都保留原始目录结构及其运行资源。
 
 按单个技能安装到 Agent：
 
@@ -25,7 +27,7 @@
 .\scripts\skill-deploy.ps1 -Name cn-trademark-goods-services-recommender
 ```
 
-安装入口是指向 myskill 包内技能的 junction。独立仓库中的未提交编辑不会自动同步；需要先发布并更新 myskill。完整包还保留统一验证脚本，可从 myskill 根目录运行 `python -B -S -X utf8 vendor/ip-practice-workbench-skills/scripts/verify.py`。
+三个技能位于标准 `skills/<name>/` 目录，可由常规技能安装器直接发现，也可按技能名部署。源仓库 PR 合并后，现有上游同步工作流会把更新带回 myskill；myskill 的本地提交推到 `main` 后则自动创建源仓库 PR。完整源包还保留统一验证脚本，可从 myskill 根目录运行 `python -B -S -X utf8 vendor/ip-practice-workbench-skills/scripts/verify.py`。
 
 ## 保留的经验
 
