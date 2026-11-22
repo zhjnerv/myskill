@@ -12,11 +12,11 @@
 ## 步骤与验证
 - [x] 检查三个技能当前触发描述及 Git 现场。结果：prior-art 现有描述以 OA 案卷解析为主，未直接点名一般“对比文件查找”；工作区含大量前序暂存文件，需提交时按路径隔离。
 - [x] 更新三个技能触发描述。结果：加快通道覆盖专利预审/优审/快速审查问法；prior-art 明确写入“对比文件查找/检索/下载/收集”触发语并保留答复撰写边界；商标技能覆盖选类/尼斯分类/类似群/网报项目表达。
-- [x] 验证并提交、推送 myskill。结果：三个技能各自测试、附件/JSON/链接和商标数据校验通过；具体提交与推送 OID 待完成后补记。
-- [ ] 同步回独立源仓库。完成标准：源仓库包含相同 description，经 review 合并；上游同步后 myskill 与源仓库对应文件一致。
+- [x] 验证并提交、推送 myskill。结果：三个技能和顶层目录迁移随 myskill PR #1 合入，head `a95bcf05`、merge commit `9d1b6a29`；同步状态由 myskill PR #2 合入，merge commit `89f57797`。
+- [x] 同步回独立源仓库。结果：源仓库 PR #2 已合并，merge commit `15e5e5de`；PR #1 因本机自动身份错误关闭。两端三份 SKILL.md SHA-256 一致；registry tree hashes 与本地目录一致。
 
 ## 当前进度
-准备调整触发描述并完成用户明确要求的提交、推送和源仓库同步；现有工作区的其他暂存内容不得混入。
+触发词已更新并交付两端。myskill PR #1 合入目录迁移、回推工作流及三项描述；源仓库 PR #2 合入三项描述；myskill PR #2 记录同步时间和 tree hashes。双向自动 PR workflow 已写入，但 Actions 缺少 `IP_PRACTICE_WORKBENCH_TOKEN` secret，因此将来的自动回推尚未启用。
 
 ## 下一步动作
-改写 descriptions，运行验证，精确提交推送，再按源仓库 PR 流程同步并核对最终两端内容。
+无剩余代码动作。若要启用未来的自动回推，在 `zhjnerv/myskill` 配置具有源仓库 Contents 与 Pull requests 读写权限的 `IP_PRACTICE_WORKBENCH_TOKEN` secret；本次改动已通过人工 PR 流程完成双端同步。
