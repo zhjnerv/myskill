@@ -1,0 +1,52 @@
+name: Sync IP practice skills back
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "skills/cn-patent-fast-track-screener/**"
+      - "skills/cn-office-action-prior-art-collector/**"
+      - "skills/cn-trademark-goods-services-recommender/**"
+  workflow_dispatch:
+    inputs:
+      skills:
+        description: Comma-separated skill names; blank syncs changed skills from the last commit
+        required: false
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: sync-ip-practice-skills-back
+  cancel-in-progress: false
+
+jobs:
+  open-upstream-prs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Configure GitHub CLI Git credentials
+        env:
+          GH_TOKEN: ${{ secrets.IP_PRACTICE_WORKBENCH_TOKEN }}
+        run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo "Missing repository secret IP_PRACTICE_WORKBENCH_TOKEN" >&2
+            exit 1
+          fi
+          gh auth setup-git
+
+      - name: Create or update source repository PRs
+        env:
+          GH_TOKEN: ${{ secrets.IP_PRACTICE_WORKBENCH_TOKEN }}
+          SKILLS_INPUT: ${{ inputs.skills }}
+          BEFORE_SHA: ${{ github.event.before }}
+          AFTER_SHA: ${{ github.sha }}
+        run: python scripts/sync_ip_practice_skills_to_upstream.py

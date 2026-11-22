@@ -10,9 +10,9 @@
 
 | 场景 | Skill | 处理内容 |
 | --- | --- | --- |
-| 商标分类检索 | [cn-trademark-goods-services-recommender](skills/cn-trademark-goods-services-recommender/README.md) | 从业务描述定位大类、类似群与商品服务项，校验选择并导出申报表 |
-| 加快程序初筛 | [cn-patent-fast-track-screener](skills/cn-patent-fast-track-screener/README.md) | 根据技术方案、申请主体所在地和 IPC 分类，提供预审或优先审查路径线索 |
-| 审查意见答复 · 材料准备 | [cn-office-action-prior-art-collector](skills/cn-office-action-prior-art-collector/README.md) | 解析通知书、整理文献号，收集公开文本与对比文件；不生成答复策略或意见陈述书 |
+| 商标分类检索 | [cn-trademark-goods-services-recommender](../../skills/cn-trademark-goods-services-recommender/README.md) | 从业务描述定位大类、类似群与商品服务项，校验选择并导出申报表 |
+| 加快程序初筛 | [cn-patent-fast-track-screener](../../skills/cn-patent-fast-track-screener/README.md) | 根据技术方案、申请主体所在地和 IPC 分类，提供预审或优先审查路径线索 |
+| 审查意见答复 · 材料准备 | [cn-office-action-prior-art-collector](../../skills/cn-office-action-prior-art-collector/README.md) | 解析通知书、整理文献号，收集公开文本与对比文件；不生成答复策略或意见陈述书 |
 
 场景顺序与门户一致。英文目录名和 `SKILL.md` 的 `name` 保持稳定，供安装和工具调用使用；[品牌与能力映射](docs/brand.md) 记录展示名称及能力边界。
 

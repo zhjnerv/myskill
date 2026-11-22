@@ -12,7 +12,7 @@
 
 `docs/skills/<registry 里的 name>.md`
 
-`vendor/` 下的整包也用 registry 的 `name`，不按里面的子 skill 拆账。没有本地改动就不建文件。
+`vendor/` 下的整包用 registry 的 `name` 记账；其中可独立安装的技能可单独登记到 `skills/<name>/` 并按技能记账。没有本地改动就不建文件。
 
 每次改一个引入的 skill：
 

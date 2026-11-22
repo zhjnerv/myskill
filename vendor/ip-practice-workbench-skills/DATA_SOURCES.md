@@ -8,9 +8,9 @@
 
 | 材料 | 当前证据 | 本地核查与后续事项 |
 | --- | --- | --- |
-| [预审与优审数据](skills/cn-patent-fast-track-screener/NOTICE.md) | gzip JSON 中有整理时间、来源等级和分类表名称；预审 76 家、其中 P0 62 家，P3_substitute 14 家 | 已解压核查结构和元数据；公开来源说明不等于完整逐项许可凭证，替代来源应继续补充可复核依据 |
-| [商标分类数据与空白模板](skills/cn-trademark-goods-services-recommender/NOTICE.md) | manifest 记录 2026-06-09 快照；README 声明依据区分表；模板为四列表头 | 当前包未附完整逐项来源/再分发许可凭证，公开数据包前应完成来源核对 |
-| [审查材料示例](skills/cn-office-action-prior-art-collector/NOTICE.md) | DOCX 文本采用“浙江某某出行科技有限公司”等占位内容，与评测用例配套 | 已读取 XML 文本和压缩包条目，未发现图片、嵌入对象、批注或作者信息；未逐项核实示例专利号的现实归属 |
+| [预审与优审数据](../../skills/cn-patent-fast-track-screener/NOTICE.md) | gzip JSON 中有整理时间、来源等级和分类表名称；预审 76 家、其中 P0 62 家，P3_substitute 14 家 | 已解压核查结构和元数据；公开来源说明不等于完整逐项许可凭证，替代来源应继续补充可复核依据 |
+| [商标分类数据与空白模板](../../skills/cn-trademark-goods-services-recommender/NOTICE.md) | manifest 记录 2026-06-09 快照；README 声明依据区分表；模板为四列表头 | 当前包未附完整逐项来源/再分发许可凭证，公开数据包前应完成来源核对 |
+| [审查材料示例](../../skills/cn-office-action-prior-art-collector/NOTICE.md) | DOCX 文本采用“浙江某某出行科技有限公司”等占位内容，与评测用例配套 | 已读取 XML 文本和压缩包条目，未发现图片、嵌入对象、批注或作者信息；未逐项核实示例专利号的现实归属 |
 
 ## 记录原则
 

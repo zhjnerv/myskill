@@ -34,18 +34,18 @@ myskill/
 
 ## 知产实务工作台技能包
 
-以下三个技能在独立仓库 `zhjnerv/ip-practice-workbench-skills` 开发、开源发布。本仓库通过 subtree 整包引入到 [vendor/ip-practice-workbench-skills](vendor/ip-practice-workbench-skills/README.md)，统一同步和部署；不再保留顶层 own 副本。管理方法与迁移经验见 [技能包说明](docs/skills/ip-practice-workbench-skills.md)。
+以下三个技能在独立仓库 `zhjnerv/ip-practice-workbench-skills` 开发、开源发布，并分别同步到本仓库标准的 `skills/<name>/` 目录，供安装器直接发现。上游仓库根目录的许可证、资料说明和统一验证入口仍保留在 [vendor/ip-practice-workbench-skills](vendor/ip-practice-workbench-skills/README.md)。管理方法见 [技能说明](docs/skills/ip-practice-workbench-skills.md)。
 
 | Skill | 用途 | 使用与数据说明 |
 | --- | --- | --- |
-| [cn-patent-fast-track-screener](vendor/ip-practice-workbench-skills/skills/cn-patent-fast-track-screener/SKILL.md) | 专利预审、优先审查与 IPC 分类范围初筛 | [README](vendor/ip-practice-workbench-skills/skills/cn-patent-fast-track-screener/README.md) |
-| [cn-office-action-prior-art-collector](vendor/ip-practice-workbench-skills/skills/cn-office-action-prior-art-collector/SKILL.md) | 审查意见通知书解析、专利号规范化与对比文件收集 | [README](vendor/ip-practice-workbench-skills/skills/cn-office-action-prior-art-collector/README.md) |
-| [cn-trademark-goods-services-recommender](vendor/ip-practice-workbench-skills/skills/cn-trademark-goods-services-recommender/SKILL.md) | 商标大类、类似群和商品服务项目推荐，校验后导出申报表 | [README](vendor/ip-practice-workbench-skills/skills/cn-trademark-goods-services-recommender/README.md) |
+| [cn-patent-fast-track-screener](skills/cn-patent-fast-track-screener/SKILL.md) | 专利预审、优先审查与 IPC 分类范围初筛 | [README](skills/cn-patent-fast-track-screener/README.md) |
+| [cn-office-action-prior-art-collector](skills/cn-office-action-prior-art-collector/SKILL.md) | 审查意见通知书解析、专利号规范化与对比文件收集 | [README](skills/cn-office-action-prior-art-collector/README.md) |
+| [cn-trademark-goods-services-recommender](skills/cn-trademark-goods-services-recommender/SKILL.md) | 商标大类、类似群和商品服务项目推荐，校验后导出申报表 | [README](skills/cn-trademark-goods-services-recommender/README.md) |
 
-根许可证、资料来源和统一测试入口随整包保留。数据与模板的权利范围见 [随包说明](vendor/ip-practice-workbench-skills/DATA_SOURCES.md)。
+按技能名部署，例如 `scripts/skill-deploy.ps1 -Name cn-patent-fast-track-screener`。三个登记项各自从源仓库对应技能目录同步；配置 [最小权限 token](docs/skills/ip-practice-workbench-skills.md) 后，myskill 的技能改动进入 `main` 会自动为源仓库创建/更新 PR。根许可证、资料来源和统一测试入口随 [上游包资料](vendor/ip-practice-workbench-skills/DATA_SOURCES.md) 保留。
 
 ```powershell
-.\scripts\skill-sync.ps1 -Name ip-practice-workbench-skills
+.\scripts\skill-sync.ps1 -Name cn-patent-fast-track-screener
 .\scripts\skill-deploy.ps1 -Name cn-patent-fast-track-screener
 ```
 
