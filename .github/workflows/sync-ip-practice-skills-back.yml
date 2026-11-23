@@ -64,8 +64,17 @@ jobs:
         run: |
           # 最小权限的 fine-grained token 只授权源仓库，读 myskill 应返回 404。
           # 能读到说明权限范围更宽（例如带 repo scope 的 classic token），不中止，只提示。
+          scopes=$(gh api -i repos/zhjnerv/myskill 2>/dev/null \
+            | tr -d '\r' \
+            | grep -i '^x-oauth-scopes:' \
+            | cut -d: -f2- \
+            | tr -d ' ')
+          if [ -n "$scopes" ]; then
+            echo "::warning::IP_PRACTICE 是 classic token，scopes=$scopes，权限宽于最小权限"
+            exit 0
+          fi
           if gh api repos/zhjnerv/myskill >/dev/null 2>&1; then
-            echo "::warning::IP_PRACTICE 也可以访问 zhjnerv/myskill，权限范围比最小权限更宽"
+            echo "::warning::IP_PRACTICE 是 fine-grained token，但也可访问 zhjnerv/myskill，授权仓库多于最小权限"
           else
             echo "IP_PRACTICE 无法访问 zhjnerv/myskill，符合只授权源仓库的最小权限预期"
           fi
