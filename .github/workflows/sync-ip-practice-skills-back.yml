@@ -35,17 +35,32 @@ jobs:
 
       - name: Configure GitHub CLI Git credentials
         env:
-          GH_TOKEN: ${{ secrets.IP_PRACTICE_WORKBENCH_TOKEN }}
+          GH_TOKEN: ${{ secrets.IP_PRACTICE }}
         run: |
           if [ -z "$GH_TOKEN" ]; then
-            echo "Missing repository secret IP_PRACTICE_WORKBENCH_TOKEN" >&2
+            echo "Missing repository secret IP_PRACTICE" >&2
             exit 1
           fi
           gh auth setup-git
 
+      - name: Verify token can push to source repository
+        env:
+          GH_TOKEN: ${{ secrets.IP_PRACTICE }}
+        run: |
+          repo=zhjnerv/ip-practice-workbench-skills
+          if ! can_push=$(gh api "repos/$repo" --jq '.permissions.push'); then
+            echo "无法读取 $repo：IP_PRACTICE 缺少该仓库的访问权限或已失效" >&2
+            exit 1
+          fi
+          if [ "$can_push" != "true" ]; then
+            echo "IP_PRACTICE 无 $repo 的写权限（permissions.push=$can_push）" >&2
+            echo "该 token 需要 Contents: Read and write 与 Pull requests: Read and write" >&2
+            exit 1
+          fi
+
       - name: Create or update source repository PRs
         env:
-          GH_TOKEN: ${{ secrets.IP_PRACTICE_WORKBENCH_TOKEN }}
+          GH_TOKEN: ${{ secrets.IP_PRACTICE }}
           SKILLS_INPUT: ${{ inputs.skills }}
           BEFORE_SHA: ${{ github.event.before }}
           AFTER_SHA: ${{ github.sha }}

@@ -30,6 +30,12 @@ def load_entries() -> dict[str, dict]:
     }
 
 
+def tree_at(source: Path, rev: str, path: str) -> str | None:
+    """Resolve the tree hash of `path` at `rev`, or None when it does not exist."""
+    result = run(["git", "rev-parse", f"{rev}:{path}"], cwd=source, check=False)
+    return result.stdout.strip() or None
+
+
 def changed_skills(entries: dict[str, dict]) -> list[str]:
     requested = [name.strip() for name in os.environ.get("SKILLS_INPUT", "").split(",") if name.strip()]
     if requested:
@@ -74,6 +80,18 @@ def sync_one(name: str, entry: dict, temp_root: Path) -> None:
     if diff.returncode == 0:
         print(f"[current] {name}")
         return
+
+    # myskill 只会把本地目录整体覆盖到上游。若上游自上次同步后已经改动，
+    # 覆盖就会把上游的新内容删掉，因此先要求拉回上游再推送。
+    last_tree = entry.get("lastSyncTree")
+    upstream_tree = tree_at(source, f"origin/{branch}", target_path)
+    if not last_tree or upstream_tree != last_tree:
+        raise RuntimeError(
+            f"{name}: upstream {branch} 的 {target_path} 自上次同步后已变化，"
+            f"myskill 尚未拉回（lastSyncTree={last_tree or 'missing'}, upstream={upstream_tree or 'missing'}）。"
+            f"先运行 scripts/skill-sync.ps1 -Name {name} 拉回上游，再推送，避免覆盖上游改动。"
+        )
+
     run(["git", "config", "user.name", "github-actions[bot]"], cwd=source)
     run(["git", "config", "user.email", "41898282+github-actions[bot]@users.noreply.github.com"], cwd=source)
     stamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
@@ -104,7 +122,7 @@ def sync_one(name: str, entry: dict, temp_root: Path) -> None:
 
 def main() -> int:
     if not os.environ.get("GH_TOKEN"):
-        raise RuntimeError("Missing IP_PRACTICE_WORKBENCH_TOKEN secret")
+        raise RuntimeError("Missing IP_PRACTICE secret")
     entries = load_entries()
     names = changed_skills(entries)
     if not names:

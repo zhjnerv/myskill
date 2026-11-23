@@ -6,7 +6,7 @@
 
 各技能目录按自身上游子路径同步，包根许可证、数据说明和统一验证入口则在 `vendor/ip-practice-workbench-skills` 保留快照。技能本体是 vendored 来源，不作为 myskill 自研副本；本文件记录集成方式，上游变更记录随技能目录保留。
 
-同步方向是双向的：上游更新由现有定时/手动同步工作流带入 myskill；myskill 的三个技能目录进入 `main` 后，由 [反向同步工作流](../../.github/workflows/sync-ip-practice-skills-back.yml) 为各自源子目录创建或更新 PR，不会自动合并。要启用反向工作流，需配置 Actions secret `IP_PRACTICE_WORKBENCH_TOKEN`。其最小权限、创建和验证步骤见[Token 配置指南](../github-actions-token-setup.md)。当前 GitHub Actions secrets 尚未配置该 secret；配置前工作流会明确失败，不会静默丢弃修改。
+同步方向是双向的：上游更新由现有定时/手动同步工作流带入 myskill；myskill 的三个技能目录进入 `main` 后，由 [反向同步工作流](../../.github/workflows/sync-ip-practice-skills-back.yml) 为各自源子目录创建或更新 PR，不会自动合并。反向工作流读取 Actions secret `IP_PRACTICE`，其最小权限、创建和验证步骤见[Token 配置指南](../github-actions-token-setup.md)。反向工作流只在 myskill 不落后于上游时推送：若上游自上次同步后已改动而 myskill 尚未拉回，脚本会中止并提示先运行 `skill-sync.ps1`，不会用本地目录覆盖上游改动。
 
 ## 日常操作
 

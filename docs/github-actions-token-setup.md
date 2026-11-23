@@ -21,13 +21,13 @@
 
 在 `zhjnerv/myskill` 仓库打开 **Settings → Secrets and variables → Actions → New repository secret**：
 
-- Name：`IP_PRACTICE_WORKBENCH_TOKEN`
+- Name：`IP_PRACTICE`
 - Secret：粘贴刚创建的 token
 
 也可在已登录 `gh` 的终端交互式设置；命令不带 token 参数，CLI 会从标准输入读取：
 
 ```bash
-gh secret set IP_PRACTICE_WORKBENCH_TOKEN --repo zhjnerv/myskill
+gh secret set IP_PRACTICE --repo zhjnerv/myskill
 ```
 
 不要使用 `--body TOKEN`，避免 token 留在 shell 历史或进程参数中。Secret 保存后 GitHub 不会再次显示其值。
@@ -48,8 +48,13 @@ gh secret list --repo zhjnerv/myskill
 
 工作流会在缺少 secret 时明确失败。不要为规避失败而改用个人全权限 OAuth token，也不要把 token 值提交到任何仓库。
 
+工作流在推送前还有两道前置检查，失败会在留下任何上游分支之前中止：
+
+- 用 `gh api repos/zhjnerv/ip-practice-workbench-skills` 读 `permissions.push`，不为 `true` 就报错。这一步能发现 token 选错了仓库、权限只给了只读、或已过期。
+- 脚本在提交前比对 `registry.json` 的 `lastSyncTree` 与上游 `origin/main` 的目录 tree。不等说明上游已经前进而 myskill 还没拉回，脚本会提示先运行 `scripts/skill-sync.ps1 -Name <技能名>`，不会用旧内容覆盖上游。
+
 ## 后续维护
 
 - 定期检查 token 到期时间；轮换时创建新 token、更新同名 Actions secret，成功验证后再撤销旧 token。
-- 如需撤销，先删除 `zhjnerv/myskill` 的 `IP_PRACTICE_WORKBENCH_TOKEN` secret，再在 GitHub token 设置中撤销 token。
+- 如需撤销，先删除 `zhjnerv/myskill` 的 `IP_PRACTICE` secret，再在 GitHub token 设置中撤销 token。
 - 即使 token 失效，已有源仓库与 myskill 内容不受影响；只有未来的自动回推会失败。
