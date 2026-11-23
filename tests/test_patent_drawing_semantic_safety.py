@@ -14,6 +14,7 @@ ROOT = Path(__file__).resolve().parents[1]
 SKILL = ROOT / "skills/cn-patent-diagram-generator"
 SANITIZER = SKILL / "scripts/sanitize_drawing_reference.py"
 VALIDATOR = SKILL / "scripts/validate_drawing_brief.py"
+DRAWIO_SKILL_VERIFIER = SKILL / "scripts/verify_patent_drawings.py"
 
 
 def load_module(path: Path, name: str):
@@ -23,6 +24,15 @@ def load_module(path: Path, name: str):
     sys.modules[name] = module
     spec.loader.exec_module(module)
     return module
+
+
+def drawio_skill_or_skip():
+    """与生产验证器共用同一解析入口；外部依赖缺失时跳过。"""
+    verifier = load_module(DRAWIO_SKILL_VERIFIER, "semantic_safety_drawio_locator")
+    try:
+        return verifier.find_drawio_skill(None)
+    except FileNotFoundError:
+        pytest.skip("本机未安装 drawio-skill（可用 CN_PATENT_DRAWIO_SKILL_DIR 指定）")
 
 
 def run(script: Path, *args: str) -> subprocess.CompletedProcess[str]:
@@ -80,10 +90,10 @@ def test_f05_complete_node_text_rejects_contradictory_suffix_and_allows_whitespa
         "relations": [{"id": "R", "source": "A", "target": "B", "preferred_direction": "vertical", "direct_connection_required": True}],
     }
     policy = {"mode": "monochrome", "grayscale_safe": True, "color_semantics_redundant": True, "max_nonwhite_fills": 1, "allowed_fill_colors": ["#FFFFFF"], "allowed_stroke_colors": ["#000000"]}
-    report = verifier.verify_drawio(drawing, figure, policy, Path.home() / ".codex/skills/drawio-skill")
+    report = verifier.verify_drawio(drawing, figure, policy, drawio_skill_or_skip())
     assert "DRAWING-LABEL" not in {item["code"] for item in report["errors"]}
     drawing.write_text(drawing.read_text(encoding="utf-8").replace("B 判断", "B 判断（禁止执行）"), encoding="utf-8")
-    report = verifier.verify_drawio(drawing, figure, policy, Path.home() / ".codex/skills/drawio-skill")
+    report = verifier.verify_drawio(drawing, figure, policy, drawio_skill_or_skip())
     assert "DRAWING-LABEL" in {item["code"] for item in report["errors"]}
 
 
@@ -137,7 +147,7 @@ def valid_drawing(tmp_path):
         item["kind"] = kind
 
     def check():
-        return verifier.verify_drawio(path, figure, helpers.restrained_policy(), helpers.DRAWIO_SKILL)
+        return verifier.verify_drawio(path, figure, helpers.restrained_policy(), drawio_skill_or_skip())
 
     assert check()["passed"] is True
     return path, figure, check

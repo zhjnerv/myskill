@@ -599,6 +599,27 @@ def _prepare_delete_choice(tmp_path):
     return item, source, pending, out_json, docx
 
 
+def test_windows_crlf_pending_file_reads_and_refreshes(tmp_path):
+    """记事本/Word 存成 CRLF 的待决文件必须与 LF 一致；Windows 用户改完不能读不回来。"""
+
+    item, _source, pending, out_json, docx = _prepare_delete_choice(tmp_path)
+    pending.write_bytes(pending.read_text(encoding="utf-8").replace("\n", "\r\n").encode("utf-8"))
+
+    resolution = tmp_path / "待决决议.json"
+    read = _run_read(pending, resolution)
+    assert read.returncode == 0, read.stderr
+    chosen = json.loads(resolution.read_text(encoding="utf-8"))["items"][0]
+    assert chosen["selected_option"] == "删除权利要求2"
+    assert chosen["resolved"] is True
+
+    # 第二轮机刷也要能在这个 CRLF 文件上继续，并保留人的决定。
+    res, _ = _run_collect(tmp_path, [item], docx=docx)
+    assert res.returncode == 0, res.stderr
+    payload = json.loads(out_json.read_text(encoding="utf-8"))
+    assert {entry["key"] for entry in payload["decisions"]} == {"claim.two.keep"}
+    assert payload["resolutions"][0]["selected_option"] == "删除权利要求2"
+
+
 def _evidence(tmp_path, source, content_version, *, case_id=None, sha=None, key="claim.two.keep"):
     payload = {
         "schema_id": "cn-patent-pending-application-evidence/v1",

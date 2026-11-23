@@ -22,6 +22,8 @@
 
 ## 验证
 
-- 核心与回归测试：`python3 -m pytest -q`
-- 包边界检查：`python3 scripts/verify_package.py`
+- 核心与回归测试：`python -m pytest -q`（Linux/macOS 无 `python` 时用 `python3`；解释器需装好 `.[dev,docx]`）
+- 包边界检查：`python scripts/verify_package.py`，须在干净树或分发副本中运行；工作区里未跟踪的浏览器残留和补丁包会让它如实报 FAIL，那不是代码回归
+- 少数回归确实只能用 POSIX 语义验证（`os.mkfifo`、`os.fork`、`/proc` 进程组枚举、可捕获的 SIGTERM）；这类用例用 `skipif` 注明平台原因并跳过，不当成失败，也不要为了变绿而弱化断言
+- Windows 的 `Popen.terminate()` 不可捕获，安装器的中断恢复走 Ctrl+Break（`SIGBREAK`）；`drawio` 可能只是 WindowsApps 空壳别名，判断 CLI 是否可用要实际执行 `--version`，不能只看 `shutil.which`
 - Skill 重大修改后运行 Skill Lint。

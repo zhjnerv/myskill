@@ -47,6 +47,8 @@ ROOT="${CN_PATENT_AGENT_SKILLS_ROOT:-${CN_PATENT_CREATOR_ROOT:-${CLAUDE_PATENT_C
 
 ## 动手前的计划
 
+脚本清单里三个模块不单独运行，由其他脚本 import：`scripts/cn_drafting_io.py`（输入边界与原子写）、`scripts/pending_file.py`（待决文件读写）、`scripts/template_style_contract.py`（风格合同校验）。其余脚本都有独立 CLI，命令在对应阶段给出。
+
 完整战役开始前，先按 `$ROOT/skills/cn-patent-workflow/references/workflow-plan.md` 在案件目录生成 `full-application` 计划，把全部步骤按顺序告诉用户，再进入阶段 0。每走完一步立刻回写。目录里已有计划时，只从 `workflow_plan.py next` 给出的步骤继续；进行中的步骤要重做，不要另起一份对话清单。
 
 ## 阶段 0——受理
@@ -83,7 +85,7 @@ python3 "$ROOT/scripts/run_python.py" "$ROOT/skills/cn-patent-application-creato
   --output "<search-query.json>"
 ```
 
-**检索渠道优先级：① 度衍命令检索（uyanip.com，首选）→ ② CNIPA 专利检索及分析系统人工检索 → ③ Google Patents / BigQuery（补充验证）**；检索式构造与鼠标操作要点见 `docs/uyanip-command-search-sop.md`。
+**检索渠道优先级：① 度衍命令检索（uyanip.com，首选）→ ② CNIPA 专利检索及分析系统人工检索 → ③ Google Patents / BigQuery（补充验证）**；检索式构造与鼠标操作要点见 [references/uyanip-command-search-sop.md](references/uyanip-command-search-sop.md)。
 
 `search-query.json` 固定输出 `cn-patent-template-search/v1`，含 `uyanip_plan`（现成检索式 + 结果页直开 URL）、`target_ipc` 判定状态、BigQuery SQL 与 CNIPA 人工检索清单；`target_ipc.status` 仅在显式提供 `ipc_codes` 时为 `determined`，否则不得进入范本排序。
 

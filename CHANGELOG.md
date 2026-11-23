@@ -3,6 +3,9 @@
 ## Unreleased
 
 - 项目包名改为 `cn-patent-agent-skills`，GitHub 地址同步改为 <https://github.com/zhjnerv/cn-patent-agent-skills>。README 与运行根目录说明改为通用 Agent Skills 定位；新增 `CN_PATENT_AGENT_SKILLS_ROOT`，原有 `CN_PATENT_CREATOR_ROOT`、`CLAUDE_PATENT_CREATOR_CN_ROOT` 和 `CLAUDE_PLUGIN_ROOT` 继续兼容。七个 `cn-patent-*` Skill 名称不变。
+- 七个 SKILL.md 按 skill-creator 原则收口：`$ROOT` 样板每个文件只定义一次，命令统一走 `scripts/run_python.py`；度衍 SOP 从不分发的 `docs/` 移入 `cn-patent-application-creator/references/`；删除两个无消费者的样例文件，入口资源整体可达。
+- `drawio-skill` 定位改为「显式参数 → `CN_PATENT_DRAWIO_SKILL_DIR` → 候选根扫描」，同根兄弟 Skill 优先，不再写死 `~/.codex`。
+- 修复 Windows 平台缺陷：待决文件解析统一行尾，记事本存成 CRLF 也能回读；安装器不再直接读 `signal.SIGKILL`，并按 `SIGBREAK` 注册中断处理器，Ctrl+Break 中断后能还原旧安装。
 - DOCX 复验沿实际图片引用检查图号顺序、摘要附图和媒体字节，拒绝重复同名附图分节；坏 ZIP 保留结构化错误，失败时不签发图片已验证声明。见[组装规范](skills/cn-patent-application-creator/references/docx-assembly.md)。
 - 附图显式拒绝或检查失败不再转成普通待决；稳定性适配器按多图清单复核全部来源、母版与 PNG，合成图片仅由测试在临时目录生成。见[附图门禁](skills/cn-patent-diagram-generator/references/quality-gates.md)。
 - [安装器](scripts/install_codex_skill.py)在恢复旧目录前终止并核对受跟踪的依赖进程；无法证明停止时保留事务现场而不盲目恢复。必需资源预检与 pip 解耦，`--skip-deps` 不跳过模板、脚本、合同和法源检查；拒绝绝对路径、驱动器路径与目录逃逸。
@@ -31,7 +34,7 @@
 
 - 新增待决事项机制 `cn-patent-pending-decisions/v1`：阶段门（检索/范本/IPC 缺用户原话）、台账（未检索/缺效果/表述抽象）、架构门（简要性与核心保护点复核未批准）、附图（视觉复核与样式简报未批准）等判断题门不再阻断，改为保守默认 + `pending_decisions` + 继续；`collect_pending_decisions.py` 汇总为 JSON 与《待决事项清单.md》；DOCX 组装新增 `--copy review|submission`，审稿版对 `【待决-Dnnn】` 段落黄色高亮，提交副本剥离标记并由 `DOCX-PENDING-MARKS` 复核。产物有效性门（哈希、编号、引用、DOCX 结构）保持硬阻断。
 - 实现创造性防御地图 `cn-patent-inventive-step-map/v1`（schema、`validate_inventive_step_map.py`、参考文档）：特征 × 对比文件矩阵含 `COMMON_KNOWLEDGE` 虚拟条目；最小集合覆盖复算、显式优先级分级、耦合须有说明书逐字锚点且无单篇同时覆盖；claim_set 由权利要求自动推导（每个独权及其直接从属项各自成组）；partial 不计覆盖但过半提示，公知常识 medium 与未检索特征按最坏情况参与分级并写入待决；核心保护点须为最小 defensible 特征集之一。
-- 台账构建器新增 `CN-LEDGER-ABSTRACT-001`（区别特征表述缺少条件/位置/参数/绑定/时序限定时提示复核，判句法结构不判词表）；`CN-LEDGER-PRIOR-002` 升级为阻断。新增创造性防御地图 `cn-patent-inventive-step-map/v1` 设计稿（`docs/process-improvements/2026-09-22-inventive-step-map/`，待实现）。
+- 台账构建器新增 `CN-LEDGER-ABSTRACT-001`（区别特征表述缺少条件/位置/参数/绑定/时序限定时提示复核，判句法结构不判词表）；`CN-LEDGER-PRIOR-002` 升级为阻断。创造性防御地图的设计稿见 [`docs/process-improvements/2026-09-22-inventive-step-map/design.md`](docs/process-improvements/2026-09-22-inventive-step-map/design.md)，实现见下一条。
 - 新增区别特征形态清单（`references/distinguishing-feature-patterns.md`）与抽象层级测试；阶段 1 和 2-C 按六种形态发现区别特征，2-C 增加"争议地带"第三态；权利要求 1 增加句法规则与起草期删除测试；阶段 5a 攻击响应改为换特征→重述问题→降层级→加特征强制顺序，向权 1 加字须书面说明。
 
 - 新增权利要求分项字数上限与核心保护点落位门：权利要求 1 ≤400 字（`CN-CLAIM-LENGTH-002`）、权利要求 2 ≤500 字（`CN-CLAIM-LENGTH-003`），其余各项沿用 600 字（`CN-CLAIM-LENGTH-001`），三者均为上限而非目标；`CN-CLAIM-CORE-001` 检查权利要求 2 直接且仅引用权利要求 1；`cn-patent-claim-architecture/v1` 新增必填 `core_protection_point`，登记权利要求 2 承载的核心区别特征并要求复核批准。

@@ -6,7 +6,7 @@
 
 ## 依赖发现
 
-1. 从可用 Skill 列表定位 `drawio-skill` 并读取其 `SKILL.md`。
+1. 从可用 Skill 列表定位 `drawio-skill` 并读取其 `SKILL.md`。验证脚本按 `--drawio-skill-dir` → 环境变量 `CN_PATENT_DRAWIO_SKILL_DIR` → 候选根目录（`$CODEX_HOME/skills`、`~/.agents/skills`、`~/.codex/skills`、`~/.claude/skills`、`~/.cc-switch/skills`、`~/.config/magpie/library/skills`）的顺序解析；判据是该目录下存在 `scripts/validate.py`。人工定位时直接用同一判据核对，不要假设固定安装根。
 2. 按需读取其根目录下的（路径相对 `drawio-skill`，不是本 Skill）：
    - `drawio-skill/references/diagram-types.md`
    - `drawio-skill/references/xml-authoring.md`
@@ -112,7 +112,7 @@ drawio -x -f png --size diagram --width 2000 --border 10 \
 最终图使用本 Skill 的薄包装器，它仍调用同一 Draw.io Desktop CLI，并写入 DPI 与哈希报告：
 
 ```bash
-python scripts/export_patent_drawio.py \
+python3 "$ROOT/scripts/run_python.py" "$ROOT/skills/cn-patent-diagram-generator/scripts/export_patent_drawio.py" \
   --input 02-申请文件/说明书附图/图1.drawio \
   --png 02-申请文件/说明书附图/图1.png \
   --dpi 300 \

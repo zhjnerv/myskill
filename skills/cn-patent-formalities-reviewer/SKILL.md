@@ -7,18 +7,17 @@ description: 本技能应在审查中国发明专利申请文件组成、说明�
 
 本技能只接受直接提交的中国发明专利申请，输出 `cn-patent-review-raw-report/v2`。PCT 国家阶段必须拒绝或交给后续条件模块，不得套用直接申请规则。输出固定 `jurisdiction=CN`、`review_type=formalities`、`legal_effect=ADVISORY_ONLY`；形式检查通过不代表实体授权条件通过，也不产生“可申报”结论。
 
-## 共享本地法源（执行前读取）
+## 运行根目录与本地法源（执行前读取）
 
-涉及中国专利法律规则、条款或审查方法时，优先读取仓库内的统一法源，不再为已收录内容默认联网搜索：
+本文命令用 `$ROOT` 指代运行根目录，第一次执行前定义一次；Windows 上把 `python3` 换成 `python`：
 
-- 法源先读取 `${CN_PATENT_AGENT_SKILLS_ROOT:-${CN_PATENT_CREATOR_ROOT:-${CLAUDE_PATENT_CREATOR_CN_ROOT:-${CLAUDE_PLUGIN_ROOT:-${CODEX_HOME:-$HOME/.codex}/vendor/cn-patent-agent-skills}}}}/references/cn-legal-sources/source-index.json`，再按主题读取分章；不得默认加载 `guide-full.md`。
-- 专利法：`${CN_PATENT_AGENT_SKILLS_ROOT:-${CN_PATENT_CREATOR_ROOT:-${CLAUDE_PATENT_CREATOR_CN_ROOT:-${CLAUDE_PLUGIN_ROOT:-${CODEX_HOME:-$HOME/.codex}/vendor/cn-patent-agent-skills}}}}/references/cn-legal-sources/专利法(2020-10-17).md`
-- 专利法实施细则：`${CN_PATENT_AGENT_SKILLS_ROOT:-${CN_PATENT_CREATOR_ROOT:-${CLAUDE_PATENT_CREATOR_CN_ROOT:-${CLAUDE_PLUGIN_ROOT:-${CODEX_HOME:-$HOME/.codex}/vendor/cn-patent-agent-skills}}}}/references/cn-legal-sources/专利法实施细则(2023-12-21).md`
-- 审查指南全文：`${CN_PATENT_AGENT_SKILLS_ROOT:-${CN_PATENT_CREATOR_ROOT:-${CLAUDE_PATENT_CREATOR_CN_ROOT:-${CLAUDE_PLUGIN_ROOT:-${CODEX_HOME:-$HOME/.codex}/vendor/cn-patent-agent-skills}}}}/references/cn-legal-sources/审查指南2026MD/guide-full.md`
-- 审查指南分章：`${CN_PATENT_AGENT_SKILLS_ROOT:-${CN_PATENT_CREATOR_ROOT:-${CLAUDE_PATENT_CREATOR_CN_ROOT:-${CLAUDE_PLUGIN_ROOT:-${CODEX_HOME:-$HOME/.codex}/vendor/cn-patent-agent-skills}}}}/references/cn-legal-sources/审查指南2026MD/chapters/`
-- 统一法源目录：`${CN_PATENT_AGENT_SKILLS_ROOT:-${CN_PATENT_CREATOR_ROOT:-${CLAUDE_PATENT_CREATOR_CN_ROOT:-${CLAUDE_PLUGIN_ROOT:-${CODEX_HOME:-$HOME/.codex}/vendor/cn-patent-agent-skills}}}}/skills/cn-patent-reviewer/references/cn-source-catalog.md`
+```bash
+ROOT="${CN_PATENT_AGENT_SKILLS_ROOT:-${CN_PATENT_CREATOR_ROOT:-${CLAUDE_PATENT_CREATOR_CN_ROOT:-${CLAUDE_PLUGIN_ROOT:-${CODEX_HOME:-$HOME/.codex}/vendor/cn-patent-agent-skills}}}}"
+```
 
-本地文本用于条款和章节目定位。只有核对后续修订、施行状态，或处理本地文本缺失与冲突时才联网，并优先使用 CNIPA 官方来源。
+`$ROOT` 下必须同时存在 `skills/`、`references/cn-legal-sources/source-index.json` 和至少一个平台插件清单，否则停止并报告，不得猜测路径。
+
+涉及中国专利法律规则、条款或审查方法时，先读 `$ROOT/references/cn-legal-sources/source-index.json`，按主题只加载其中列出的分章，不默认加载 `guide-full.md`。专利法、实施细则和分章目录都在 `$ROOT/references/cn-legal-sources/` 下，主题到条文的对照见 `$ROOT/skills/cn-patent-reviewer/references/cn-source-catalog.md`。本地文本用于条款和章节目定位；只有核对后续修订、施行状态，或处理本地文本缺失与冲突时才联网，并优先使用 CNIPA 官方来源。
 
 ## 输入
 
@@ -74,7 +73,7 @@ Manifest 版本为 `cn-patent-application-manifest/v2`。本检查器只使用 `
 2. 运行确定性检查。检查器只读取 UTF-8 无 BOM 文本、Markdown 和 JSON，不解析 PDF/DOCX、不运行 OCR、不联网：
 
    ```bash
-   python3 "${CN_PATENT_AGENT_SKILLS_ROOT:-${CN_PATENT_CREATOR_ROOT:-${CLAUDE_PATENT_CREATOR_CN_ROOT:-${CLAUDE_PLUGIN_ROOT:-${CODEX_HOME:-$HOME/.codex}/vendor/cn-patent-agent-skills}}}}/scripts/run_python.py" "${CN_PATENT_AGENT_SKILLS_ROOT:-${CN_PATENT_CREATOR_ROOT:-${CLAUDE_PATENT_CREATOR_CN_ROOT:-${CLAUDE_PLUGIN_ROOT:-${CODEX_HOME:-$HOME/.codex}/vendor/cn-patent-agent-skills}}}}/skills/cn-patent-formalities-reviewer/scripts/check_formalities_cn.py" \
+   python3 "$ROOT/scripts/run_python.py" "$ROOT/skills/cn-patent-formalities-reviewer/scripts/check_formalities_cn.py" \
      --manifest "<application-manifest.json>" \
      --output "<formalities-report.json>"
    ```

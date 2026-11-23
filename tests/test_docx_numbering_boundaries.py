@@ -183,7 +183,8 @@ def _relocate_report(evidence, subdirectory: str) -> None:
         value = os.path.relpath(actual.resolve(), new_path.parent)
         assert not Path(value).is_absolute()
         if subdirectory:
-            assert value.startswith("../"), value
+            # relpath 在 Windows 上返回 "..\\output.docx"；按路径分量判断，不写死分隔符。
+            assert Path(value).parts[0] == "..", value
         return value
 
     report["output"] = relative(report["output"])

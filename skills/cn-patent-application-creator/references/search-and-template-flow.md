@@ -1,7 +1,5 @@
 # 2-A：生成检索清单并人工筛选范本
 
-### 2-A：生成检索清单并人工筛选范本
-
 先把阶段 1 的幸存方案整理成 UTF-8 JSON。**查找范本之前必须先判断目标技术方案的 IPC 分类号**，并把人工判断后的分类号显式写入 `ipc_codes`；自动领域映射只能作为建议，不能替代这一判断。至少还应提供一个可检索的关键词、部件、算法、技术问题、技术方案或 CPC 分类号；能人工确定的英文词放进 `keywords_en`，不要要求脚本猜译专有名词：
 
 ```json
@@ -44,7 +42,7 @@ python3 "$ROOT/scripts/run_python.py" "$ROOT/skills/cn-patent-application-creato
 - 布尔运算 `AND`/`OR`/`NOT`、括号分组与嵌套、`*` 前缀通配符均可用
 - 详情页 `https://www.uyanip.com/detail?aid=<申请号>` 可直接读取权利要求与说明书正文，并获取附图与 PDF 下载
 - 所有 `window.open` 类操作要求标签页处于前台，否则改用结果页 URL 直开
-- 完整字段表、实测数据与自动化要点见仓库 `docs/uyanip-command-search-sop.md`
+- 完整字段表、实测数据与自动化要点见 [uyanip-command-search-sop.md](uyanip-command-search-sop.md)
 
 随后在 CNIPA 专利检索及分析系统人工执行并留档检索日期、检索式、命中数和筛选理由。结果同时完成两件事：
 
@@ -52,6 +50,8 @@ python3 "$ROOT/scripts/run_python.py" "$ROOT/skills/cn-patent-application-creato
 2. 形成 1—10 篇 `cn-patent-template-candidates/v1` 范本候选，逐篇给出 `technical_relevance_score`（0—1）及理由，并逐篇著录 **`applicant`（申请人）与 `agency`（专利代理机构）**。著录项取自度衍详情页或 CNIPA 检索结果的申请人、代理机构字段，不得凭印象填写。
 
 候选优先同领域、已授权、权利要求不少于 10 项、说明书和附图完整；但**技术与 IPC 通常多篇同时达标，真正决定范本的是撰写主体**——申请人/代理机构默认合计占一半权重，未著录主体信息的候选按 0 分计并在阶段门触发待决项。
+
+候选清单与选择结果的机读结构分别是 `references/template-candidates-schema.json` 和 `references/template-selection-schema.json`（v1 旧合同在 `references/legacy/template-selection-schema-v1.json`，仅供旧案件回放）；范本风格指南的结构见 `references/template-style-schema.json`，提取与合成流程见 [template-style-learning.md](template-style-learning.md)。
 
 候选 IPC 获取顺序固定为：**EPO OPS provider → 有来源记录的分类缓存 → 候选输入**。通过 `--epo-provider-command` 或 `CN_PATENT_EPO_PROVIDER_COMMAND` 调用独立 provider，不下载 PDF，也不得反向 import 其他项目；provider 未配置、EPO 未收录或调用失败时，必须记录失败状态和降级来源。未取得逐篇 IPC 的候选不得成为推荐或最终范本。
 

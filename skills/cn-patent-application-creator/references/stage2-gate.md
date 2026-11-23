@@ -1,10 +1,8 @@
 # 2-E：阶段门（未过门不得起草）
 
-### 2-E：阶段门（未过门不得起草）
-
 约束写成文档口号就等于没有约束。"人工检索未完成时必须写未完成"这句话，在"写了未完成再继续"的路径下字面合规——上一轮正是这样在检索未完成、范本未确认的情况下产出了权利要求和说明书，事后才补范本学习并返工三轮。
 
-因此检索、IPC 判定、范本加权选择、用户确认和区别特征表必须变成机器状态位。新案件写进 `cn-patent-stage2-gate/v2`（schema 见 `references/stage2-gate-schema-v2.json`）；v1 只用于旧案件回放，不满足新流程的 IPC 证据要求：
+因此检索、IPC 判定、范本加权选择、用户确认和区别特征表必须变成机器状态位。新案件写进 `cn-patent-stage2-gate/v2`（schema 见 `references/stage2-gate-schema-v2.json`）；v1（`references/legacy/stage2-gate-schema.json`）只用于旧案件回放，不满足新流程的 IPC 证据要求：
 
 ```bash
 python3 "$ROOT/scripts/run_python.py" "$ROOT/skills/cn-patent-application-creator/scripts/check_stage_gate.py" \
