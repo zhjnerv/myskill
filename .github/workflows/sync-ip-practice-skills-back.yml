@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
     inputs:
       skills:
-        description: Comma-separated skill names; blank syncs changed skills from the last commit
+        description: Comma-separated skill names; leave blank to sync all three skills
         required: false
         type: string
 
