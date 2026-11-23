@@ -48,11 +48,14 @@ gh secret list --repo zhjnerv/myskill
 
 工作流会在缺少 secret 时明确失败。不要为规避失败而改用个人全权限 OAuth token，也不要把 token 值提交到任何仓库。
 
-工作流在推送前有三道前置检查，前两道失败会在留下任何上游分支之前中止：
+工作流在推送前有两道前置检查，失败都会在留下任何上游分支之前中止：
 
 - 用 `gh api repos/zhjnerv/ip-practice-workbench-skills` 读 `permissions.push`，不为 `true` 就报错。这一步能发现 token 选错了仓库、权限只给了只读、或已过期。
 - 脚本在提交前比对 `registry.json` 的 `lastSyncTree` 与上游 `origin/main` 的目录 tree。不等说明上游已经前进而 myskill 还没拉回，脚本会提示先运行 `scripts/skill-sync.ps1 -Name <技能名>`，不会用旧内容覆盖上游。
-- 读 `gh api -i repos/zhjnerv/myskill` 的响应头判断 token 类型：带 `X-OAuth-Scopes` 说明是 classic token，或能访问 myskill 说明 fine-grained token 授权了多个仓库，两种情况都只看运行日志里的 warning，不中止任务。日志没有 warning 才说明 token 只授权了源仓库。
+
+另有一道只提示不中止的检查：读源仓库 API 的响应头，带 `X-OAuth-Scopes` 说明是 classic token，会在日志里报 warning。fine-grained token 不返回这个头。
+
+判断不了的是 fine-grained token 到底授权了哪些仓库——API 不提供这个信息，而 `zhjnerv/myskill` 是 public 仓库，任何 token 甚至未认证都能读它，所以「能读到 myskill」不能当作授权范围宽的证据。要核实授权范围，只能看 GitHub 上该 token 的 **Repository access** 设置。
 
 ## 后续维护
 

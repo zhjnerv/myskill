@@ -58,25 +58,22 @@ jobs:
             exit 1
           fi
 
-      - name: Check token scope breadth
+      - name: Report token type
         env:
           GH_TOKEN: ${{ secrets.IP_PRACTICE }}
         run: |
-          # 最小权限的 fine-grained token 只授权源仓库，读 myskill 应返回 404。
-          # 能读到说明权限范围更宽（例如带 repo scope 的 classic token），不中止，只提示。
-          scopes=$(gh api -i repos/zhjnerv/myskill 2>/dev/null \
+          # classic token 会在响应头回 X-OAuth-Scopes，fine-grained token 不回。
+          # classic token 按 scope 覆盖账号下所有仓库，做不到只授权一个仓库，因此只提示不中止。
+          # 不能用"能否读取某个仓库"判断授权范围：myskill 是 public，任何 token 甚至未认证都能读。
+          scopes=$(gh api -i repos/zhjnerv/ip-practice-workbench-skills 2>/dev/null \
             | tr -d '\r' \
             | grep -i '^x-oauth-scopes:' \
             | cut -d: -f2- \
             | tr -d ' ')
           if [ -n "$scopes" ]; then
-            echo "::warning::IP_PRACTICE 是 classic token，scopes=$scopes，权限宽于最小权限"
-            exit 0
-          fi
-          if gh api repos/zhjnerv/myskill >/dev/null 2>&1; then
-            echo "::warning::IP_PRACTICE 是 fine-grained token，但也可访问 zhjnerv/myskill，授权仓库多于最小权限"
+            echo "::warning::IP_PRACTICE 是 classic token（scopes=$scopes），权限覆盖所有仓库，宽于最小权限"
           else
-            echo "IP_PRACTICE 无法访问 zhjnerv/myskill，符合只授权源仓库的最小权限预期"
+            echo "IP_PRACTICE 是 fine-grained token（响应头无可枚举 scope）"
           fi
 
       - name: Create or update source repository PRs

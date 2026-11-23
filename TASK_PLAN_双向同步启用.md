@@ -36,7 +36,7 @@
 - [x] 给守卫补回归测试。结果：新增 `scripts/test_sync_ip_practice_skills_to_upstream.py`，3 个用例（上游前进、基线缺失、内容一致）全部通过；移除守卫后其中 2 个失败，确认测试有效。
 - [x] 补 token 权限前置检查。结果：workflow 在 `gh auth setup-git` 之后读取 `repos/zhjnerv/ip-practice-workbench-skills` 的 `permissions.push`，读不到或不为 `true` 就中止；这样 token 选错仓库、只给只读或已过期时不会先在上游留下分支。
 - [x] 手动运行 back-sync workflow 验证。结果：`45209965462`（提交 `c72f01b`）与 `45210477755`（`15ad029`）均 success，日志三个 `[current]`，上游未新增分支或 PR。
-- [x] 补 token 权限范围检查。结果：workflow 读 `gh api -i repos/zhjnerv/myskill` 响应头区分 classic / fine-grained；`45211364887` 报 `IP_PRACTICE 是 fine-grained token，但也可访问 zhjnerv/myskill，授权仓库多于最小权限`。
+- [x] 补 token 类型提示。结果：workflow 读源仓库响应头的 `X-OAuth-Scopes` 区分 classic / fine-grained；`45211364887` 为 fine-grained。原写法用"能否读 myskill"判断授权范围，是错的——myskill 是 public，未认证也能读，已改正。
 - [ ] 制造一次真实差异验证开 PR 路径。完成标准：上游出现 `myskill-sync/<name>` 分支与对应 PR，内容只含该技能目录。
 
 ## 当前进度
@@ -55,5 +55,6 @@
 
 ## 凭据待确认
 
-已确认 `IP_PRACTICE` 是 fine-grained token（响应头无 `X-OAuth-Scopes`），但它能读 `zhjnerv/myskill`，说明授权仓库不止 `ip-practice-workbench-skills`。
-这不算凭据泄露风险，但违反最小权限：一旦 token 泄漏，攻击面比只授权一个仓库更大。建议在 GitHub 上把该 token 的 Repository access 收紧到仅 `ip-practice-workbench-skills`。
+已确认 `IP_PRACTICE` 是 fine-grained token（响应头无 `X-OAuth-Scopes`）。
+具体授权了哪些仓库无法从 API 判断：fine-grained token 不暴露授权仓库清单，且 `zhjnerv/myskill` 是 public，读得到它证明不了任何事。
+要核实最小权限，只能到 GitHub 网页看该 token 的 **Repository access** 是否只勾了 `ip-practice-workbench-skills`。
