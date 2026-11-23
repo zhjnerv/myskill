@@ -8,6 +8,7 @@ import html
 import importlib.util
 import json
 import math
+import os
 import re
 import subprocess
 import sys
@@ -538,17 +539,66 @@ def normalize_color(value: str | None) -> str | None:
     return value.upper()
 
 
-def find_drawio_skill(raw: Path | None) -> Path:
-    candidates = [
-        raw,
-        Path.home() / ".codex/skills/drawio-skill",
-        Path.home() / ".claude/skills/drawio-skill",
-        Path.home() / ".cc-switch/skills/drawio-skill",
+DRAWIO_SKILL_DIR_ENV = "CN_PATENT_DRAWIO_SKILL_DIR"
+
+
+def drawio_skill_search_roots() -> list[Path]:
+    """按当前 Skill 运行形态列出可能存放 drawio-skill 的根目录。
+
+    第一位是本 Skill 自己所在的 skills 根：同一安装位置的兄弟 Skill 与安装根无关，
+    其余位置只是兼容不同客户端的默认目录。
+    """
+    home = Path.home()
+    codex_home = Path(os.environ.get("CODEX_HOME") or home / ".codex").expanduser()
+    roots = [
+        SCRIPT_DIR.parents[1],
+        codex_home / "skills",
+        home / ".agents/skills",
+        home / ".codex/skills",
+        home / ".claude/skills",
+        home / ".cc-switch/skills",
+        home / ".config/magpie/library/skills",
     ]
-    for candidate in candidates:
-        if candidate and (candidate / "scripts/validate.py").is_file():
-            return candidate.resolve()
-    raise FileNotFoundError("未找到 drawio-skill/scripts/validate.py")
+    unique: list[Path] = []
+    for root in roots:
+        if root not in unique:
+            unique.append(root)
+    return unique
+
+
+def _drawio_skill_at(path: Path | None) -> Path | None:
+    """接受 skill 目录或 skills 根目录，命中判据是存在 scripts/validate.py。"""
+    if path is None:
+        return None
+    for base in (path, path / "drawio-skill"):
+        if (base / "scripts/validate.py").is_file():
+            return base.resolve()
+    return None
+
+
+def find_drawio_skill(raw: Path | None) -> Path:
+    """定位 drawio-skill：显式参数 → 环境变量 → 按运行形态扫描已知根目录。"""
+    if raw is not None:
+        found = _drawio_skill_at(raw)
+        if found is None:
+            raise FileNotFoundError(f"指定目录缺少 drawio-skill/scripts/validate.py：{raw}")
+        return found
+    configured = os.environ.get(DRAWIO_SKILL_DIR_ENV)
+    if configured:
+        found = _drawio_skill_at(Path(configured).expanduser())
+        if found is None:
+            raise FileNotFoundError(f"{DRAWIO_SKILL_DIR_ENV} 指向的目录缺少 scripts/validate.py：{configured}")
+        return found
+    searched: list[str] = []
+    for root in drawio_skill_search_roots():
+        searched.append(str(root / "drawio-skill"))
+        found = _drawio_skill_at(root / "drawio-skill")
+        if found is not None:
+            return found
+    raise FileNotFoundError(
+        "未找到 drawio-skill/scripts/validate.py；已搜索：" + "、".join(searched)
+        + f"。可用 --drawio-skill-dir 或环境变量 {DRAWIO_SKILL_DIR_ENV} 指定。"
+    )
 
 
 def run_drawio_lint(drawio_skill: Path, drawing: Path) -> dict[str, Any]:

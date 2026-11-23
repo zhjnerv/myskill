@@ -52,6 +52,13 @@ def run_installer(source: Path, home: Path, *extra: str) -> subprocess.Completed
                           text=True, capture_output=True, check=False)
 
 
+def snapshot(path: Path) -> dict[str, bytes]:
+    return {
+        item.relative_to(path).as_posix(): item.read_bytes()
+        for item in path.rglob("*") if item.is_file()
+    }
+
+
 def test_distribution_rejects_nested_local_archive_and_unreviewed_pdf(tmp_path):
     source, _, module = fixture(tmp_path)
     (source / "skills/cn-patent-workflow/.local-case-archive").mkdir()
@@ -138,6 +145,60 @@ def test_manifest_failure_rolls_back_runtime_and_copy_fallback_entries(tmp_path,
     assert restored_entry_state == old_entry_state
 
 
+@pytest.mark.skipif(os.name != "nt", reason="只在 Windows 验证 Ctrl+Break 可捕获中断")
+def test_ctrl_break_restores_runtime_and_entries(tmp_path):
+    """Windows 的 terminate() 不可捕获，但用户按 Ctrl+Break 时必须恢复旧安装。"""
+    source, home, module = fixture(tmp_path)
+    first = run_installer(source, home)
+    assert first.returncode == 0, first.stderr
+    runtime = home / "vendor" / module.PLUGIN_NAME
+    before = snapshot(runtime)
+    marker = tmp_path / "ready.json"
+    helper = tmp_path / "break_worker.py"
+    helper.write_text(
+        "import importlib.util, sys, time\n"
+        "from pathlib import Path\n"
+        "script, source, home, ready = map(Path, sys.argv[1:])\n"
+        "spec = importlib.util.spec_from_file_location('worker_installer', script)\n"
+        "m = importlib.util.module_from_spec(spec); spec.loader.exec_module(m)\n"
+        "original = Path.replace\n"
+        "def hold(path, target):\n"
+        "    if Path(target) == Path(home) / 'vendor' / m.PLUGIN_NAME and path.name == m.PLUGIN_NAME and path.parent != Path(target).parent:\n"
+        "        ready.write_text('ready')\n"
+        "        deadline = time.time() + 60\n"
+        "        while time.time() < deadline:\n"
+        "            time.sleep(0.05)\n"
+        "    return original(path, target)\n"
+        "Path.replace = hold\n"
+        "sys.argv = [str(script), '--source', str(source), '--codex-home', str(home), '--skip-deps', '--force']\n"
+        "m.main()\n", encoding="utf-8")
+    proc = subprocess.Popen(
+        [sys.executable, str(helper), str(INSTALLER), str(source), str(home), str(marker)],
+        stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True,
+        creationflags=subprocess.CREATE_NEW_PROCESS_GROUP,
+        env={**os.environ, "PYTHONDONTWRITEBYTECODE": "1"},
+    )
+    try:
+        deadline = time.monotonic() + 45
+        while not marker.exists() and proc.poll() is None and time.monotonic() < deadline:
+            time.sleep(0.02)
+        assert marker.exists(), "未到达中断注入点"
+        proc.send_signal(signal.CTRL_BREAK_EVENT)
+        proc.communicate(timeout=30)
+    finally:
+        if proc.poll() is None:
+            proc.kill()
+            proc.wait(timeout=5)
+    # 128 + SIGBREAK 是中断退出码；恢复完成后不得留下备份或事务日志。
+    assert proc.returncode == 128 + signal.SIGBREAK, proc.returncode
+    assert runtime.is_dir()
+    assert snapshot(runtime) == before
+    assert all((home / "skills" / name / "SKILL.md").is_file() for name in module.REQUIRED_SKILLS)
+    assert not (home / "vendor" / module.BACKUP_NAME).exists()
+    assert not (home / "vendor" / module.TRANSACTION_NAME).exists()
+
+
+@pytest.mark.skipif(os.name != "posix", reason="Windows 的 terminate() 是强制终止，没有可捕获的 SIGTERM 优雅回滚路径")
 def test_real_sigterm_at_rename_gap_restores_runtime_and_entries(tmp_path):
     source, home, module = fixture(tmp_path)
     first = run_installer(source, home)
@@ -189,18 +250,21 @@ def test_sigkill_leaves_recoverable_journal_and_next_startup_recovers(tmp_path):
     marker = tmp_path / "ready.json"
     helper = tmp_path / "sigkill_worker.py"
     helper.write_text(
-        "import importlib.util, json, signal, sys\n"
+        "import importlib.util, json, sys, time\n"
         "from pathlib import Path\n"
         "script, source, home, ready = map(Path, sys.argv[1:])\n"
         "spec = importlib.util.spec_from_file_location('worker_installer', script)\n"
         "m = importlib.util.module_from_spec(spec); spec.loader.exec_module(m)\n"
         "original = Path.replace\n"
-        "def pause(path, target):\n"
+        "def hold(path, target):\n"
         "    if Path(target) == Path(home) / 'vendor' / m.PLUGIN_NAME and path.name == m.PLUGIN_NAME and path.parent != Path(target).parent:\n"
         "        ready.write_text('ready')\n"
-        "        signal.pause()\n"
+        "        # 不用 signal.pause()：Windows 没有这个函数，且这里只需要停住等外部强杀。\n"
+        "        deadline = time.time() + 60\n"
+        "        while time.time() < deadline:\n"
+        "            time.sleep(0.05)\n"
         "    return original(path, target)\n"
-        "Path.replace = pause\n"
+        "Path.replace = hold\n"
         "sys.argv = [str(script), '--source', str(source), '--codex-home', str(home), '--skip-deps', '--force']\n"
         "m.main()\n", encoding="utf-8")
     proc = subprocess.Popen([sys.executable, str(helper), str(INSTALLER), str(source), str(home), str(marker)],

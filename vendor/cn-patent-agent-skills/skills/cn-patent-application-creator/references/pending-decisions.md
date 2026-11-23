@@ -8,6 +8,8 @@
 
 人读和人改的文件只有一份：与最终专利申请文件放在同一目录的 `待决文件.md`。审稿版 docx 里的黄底标记继续保留，二者同时存在。
 
+三份 JSON 的机读结构：`references/pending-decisions-schema-v1.json`（汇总清单）、`references/pending-resolutions-schema-v1.json`（人工回读）、`references/pending-application-evidence-schema-v1.json`（落实证据）。
+
 ## 三种载体
 
 1. **JSON**（`pending-decisions.json`，[`cn-patent-pending-decisions/v1`](pending-decisions-schema-v1.json)）

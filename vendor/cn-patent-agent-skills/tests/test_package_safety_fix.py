@@ -203,6 +203,7 @@ def test_missing_template_fails_verifier_and_keeps_old_install(tmp_path: Path):
     assert not (home / "vendor" / module.BACKUP_NAME).exists()
 
 
+@pytest.mark.skipif(os.name != "posix", reason="非 POSIX 平台按设计保留事务现场等人工确认，不做自动回滚")
 def test_failed_dependency_command_restores_old_bytes(tmp_path: Path):
     module = load_module("installer_failed_dependency_names")
     source = tmp_path / "source"
@@ -239,6 +240,7 @@ def test_failed_dependency_command_restores_old_bytes(tmp_path: Path):
     assert not (home / "vendor" / module.BACKUP_NAME).exists()
 
 
+@pytest.mark.skipif(not hasattr(os, "mkfifo"), reason="需要 POSIX 命名管道控制子进程释放时机")
 def test_sigterm_cancels_dependency_child_before_restore(tmp_path: Path):
     module = load_module("installer_sigterm_names")
     source = tmp_path / "source"
@@ -397,6 +399,7 @@ def test_venv_failure_keeps_actionable_message(tmp_path: Path):
         module.install_dependencies(tmp_path / "runtime", with_dev=False)
 
 
+@pytest.mark.skipif(os.name != "posix" or not Path("/proc").is_dir(), reason="需要 POSIX 进程组与 /proc 枚举")
 def test_reaped_parent_group_survives_sigterm_until_group_kill(tmp_path: Path):
     """父进程先退出并被回收后，忽略 SIGTERM 的同组子孙仍必须被取消。不调用 pip。"""
     module = load_module("installer_reaped_parent_group")
@@ -479,6 +482,7 @@ def test_reaped_parent_group_survives_sigterm_until_group_kill(tmp_path: Path):
             bystander.wait(timeout=5)
 
 
+@pytest.mark.skipif(os.name != "posix" or not Path("/proc").is_dir(), reason="该用例用伪 /proc 模拟进程组号复用，只在 POSIX 语义下成立")
 def test_reused_leader_identity_does_not_kill_other_group(monkeypatch: pytest.MonkeyPatch):
     module = load_module("installer_reused_pgid")
     module.DEPENDENCY_CANCEL_GRACE_SECONDS = 0.0

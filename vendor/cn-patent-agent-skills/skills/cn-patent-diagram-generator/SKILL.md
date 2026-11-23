@@ -21,9 +21,19 @@ metadata:
 
 本项目不依赖原 `Claude-Patent-Creator` 的 `mcp_server`。如调用方另有 XML 辅助库，只能作为结构辅助，不能代替 `drawio-skill` 的专业制图与 Draw.io 官方渲染。
 
+## 运行根目录
+
+本文命令用 `$ROOT` 指代运行根目录（本仓库根目录），第一次执行前定义；Windows 上把 `python3` 换成 `python`：
+
+```bash
+ROOT="${CN_PATENT_AGENT_SKILLS_ROOT:-${CN_PATENT_CREATOR_ROOT:-${CLAUDE_PATENT_CREATOR_CN_ROOT:-${CLAUDE_PLUGIN_ROOT:-${CODEX_HOME:-$HOME/.codex}/vendor/cn-patent-agent-skills}}}}"
+```
+
+命令统一走 `$ROOT/scripts/run_python.py`，由它选用运行环境的解释器；下面的脚本路径都相对该运行根目录。不要用当前目录猜测 `scripts/`。
+
 ## 依赖与停止条件
 
-1. 当前环境必须提供 `drawio-skill`。先读取其 `SKILL.md`；按图型需要再读该 Skill 根目录下的 `drawio-skill/references/diagram-types.md`、`drawio-skill/references/xml-authoring.md`、`drawio-skill/references/autolayout.md` 和 `drawio-skill/references/troubleshooting.md`（以下 `drawio-skill/` 前缀均指外部 Skill 根目录，不是本 Skill 的 `references/`）。
+1. 当前环境必须提供 `drawio-skill`。先读取其 `SKILL.md`；按图型需要再读该 Skill 根目录下的 `drawio-skill/references/diagram-types.md`、`drawio-skill/references/xml-authoring.md`、`drawio-skill/references/autolayout.md` 和 `drawio-skill/references/troubleshooting.md`（以下 `drawio-skill/` 前缀均指外部 Skill 根目录，不是本 Skill 的 `references/`）。验证脚本按 `--drawio-skill-dir` → `CN_PATENT_DRAWIO_SKILL_DIR` → 已知 Skill 根目录顺序定位，判据是存在 `scripts/validate.py`；缺失时报告阻塞，不要写死 `~/.codex`。
 2. 必须存在 Draw.io Desktop CLI（`drawio` 或 `draw.io`）。
 3. 任一依赖缺失时，只能交付已校验的绘图合同并报告阻塞；不得改用 Pillow、浏览器截图、canvas 或第二套坐标模型冒充正式导出。
 4. 所有输出写入用户指定案件目录，不得把客户案件或图面产物写入 Skill 目录。
@@ -43,7 +53,7 @@ metadata:
 用户提供修改后的 Draw.io 范例时，不得直接复制整份 XML 或坐标。先保存原始范例并绑定 SHA-256，再运行：
 
 ```bash
-python scripts/analyze_drawing_reference.py \
+python3 "$ROOT/scripts/run_python.py" "$ROOT/skills/cn-patent-diagram-generator/scripts/analyze_drawing_reference.py" \
   --baseline "<案件>/03-审查工作区/附图/style-input/修改前.drawio" \
   --reference "<案件>/03-审查工作区/附图/style-input/用户范例.drawio" \
   --case-dir "<案件>" \
@@ -58,7 +68,7 @@ python scripts/analyze_drawing_reference.py \
 用户修改稿不得直接作为正式母版。对同一幅图的修改稿，批准视觉意图后必须执行安全重建：
 
 ```bash
-python scripts/sanitize_drawing_reference.py \
+python3 "$ROOT/scripts/run_python.py" "$ROOT/skills/cn-patent-diagram-generator/scripts/sanitize_drawing_reference.py" \
   --baseline "修改前.drawio" \
   --reference "用户修改稿.drawio" \
   --output "安全重建.drawio" \
@@ -75,7 +85,7 @@ Schema：`references/drawing-style-brief-schema.json`；安全重建报告：`re
 
 专利起草端先生成 `cn-patent-drawing-brief/v4`，schema：
 
-`references/patent-drawing-brief-schema-v4.json`；v1/v2/v3 旧 schema 已移至 `references/legacy/`，仅供旧案件回放对照，脚本不再加载。v4必须额外绑定已通过验证的 `cn-patent-claim-architecture/v1`
+`references/patent-drawing-brief-schema-v4.json`；v1/v2/v3 旧 schema 已移至 `references/legacy/`（`references/legacy/patent-drawing-brief-schema-v1.json`、`references/legacy/patent-drawing-brief-schema-v3.json`），仅供旧案件回放对照，脚本不再加载。v4必须额外绑定已通过验证的 `cn-patent-claim-architecture/v1`
 
 最少绑定：
 
@@ -92,7 +102,7 @@ Schema：`references/drawing-style-brief-schema.json`；安全重建报告：`re
 先运行：
 
 ```bash
-python scripts/validate_drawing_brief.py \
+python3 "$ROOT/scripts/run_python.py" "$ROOT/skills/cn-patent-diagram-generator/scripts/validate_drawing_brief.py" \
   --brief "<案件>/03-审查工作区/附图/drawing-brief.json" \
   --case-dir "<案件>" \
   --output "<案件>/03-审查工作区/附图/brief-validation.json"
@@ -178,7 +188,7 @@ python scripts/validate_drawing_brief.py \
 本 Skill 的包装器只负责调用官方 CLI、按实际图形边界裁切、写入 DPI 和生成证据报告；禁止按整页导出造成无意义大白边：
 
 ```bash
-python scripts/export_patent_drawio.py \
+python3 "$ROOT/scripts/run_python.py" "$ROOT/skills/cn-patent-diagram-generator/scripts/export_patent_drawio.py" \
   --input "<案件>/02-申请文件/说明书附图/图1.drawio" \
   --png "<案件>/02-申请文件/说明书附图/图1.png" \
   --dpi 300 \
@@ -205,14 +215,14 @@ python scripts/export_patent_drawio.py \
 
 结果写为 `cn-patent-drawing-visual-review/v2`，schema：
 
-`references/visual-review-schema-v2.json`。记录必须绑定当前 drawing brief、当前 export report 和最终 PNG 的 SHA-256，并填写 100% 比例、缩小比例及每个检查项的具体观察文本
+`references/visual-review-schema-v2.json`（旧案件的 v1 记录见 `references/visual-review-schema.json`）。记录必须绑定当前 drawing brief、当前 export report 和最终 PNG 的 SHA-256，并填写 100% 比例、缩小比例及每个检查项的具体观察文本
 
 示例：`assets/visual-review.example.json`。
 
 ## 最终验证
 
 ```bash
-python scripts/verify_patent_drawings.py \
+python3 "$ROOT/scripts/run_python.py" "$ROOT/skills/cn-patent-diagram-generator/scripts/verify_patent_drawings.py" \
   --brief "<案件>/03-审查工作区/附图/drawing-brief.json" \
   --case-dir "<案件>" \
   --output "<案件>/03-审查工作区/附图/final-verification.json"
@@ -238,7 +248,7 @@ python scripts/verify_patent_drawings.py \
 
 ## 约束追踪与回归证据
 
-`config/instruction-stability-contract.json` 将来源绑定、范例样式、技术覆盖、步骤同构、直接连接、节点文字适配、纵向节点间距、PNG白边、克制配色、官方导出和视觉绑定十三类硬约束，逐项映射到主动 checker、正例和最小违规反例。`assets/stability/` 中的样本只用于 Skill 自身回归，不得作为客户案件的最终验收结果。几何和最终外观类 checker 读取调用时传入的领域清单，按整组来源和每一幅附图各自的母版、PNG、导出记录或视觉记录重算或核对当前哈希。`assets/stability/domain/` 只保存可分发的文本测试模板、像素参数和清单。`figure-1.drawio.txt` 与 `figure-2.drawio.txt` 是 Draw.io XML 文本，不是正式交付附图；真实 PNG 由测试在临时目录生成，并同时复制这两份文本模板。检查器不会补造缺失产物。报告字段本身只够做 schema 解释。正式声明多轮稳定性时，仍需由候选外评估者提供签名硬约束基线、至少三轮独立运行证据和 Skill Lint 回执。
+`config/instruction-stability-contract.json` 将来源绑定、范例样式、技术覆盖、步骤同构、直接连接、节点文字适配、纵向节点间距、PNG白边、克制配色、官方导出和视觉绑定十三类硬约束，逐项映射到主动 checker、正例和最小违规反例。`assets/stability/` 中的样本只用于 Skill 自身回归，不得作为客户案件的最终验收结果。几何和最终外观类 checker 读取调用时传入的领域清单，按整组来源和每一幅附图各自的母版、PNG、导出记录或视觉记录重算或核对当前哈希。`assets/stability/domain/` 只保存可分发的文本测试模板、`assets/stability/domain/png-synthesis.json`（PNG 合成参数，schema 为 `cn-patent-domain-png-synthesis/v1`）和清单。`figure-1.drawio.txt` 与 `figure-2.drawio.txt` 是 Draw.io XML 文本，不是正式交付附图；真实 PNG 由测试在临时目录生成，并同时复制这两份文本模板。检查器不会补造缺失产物。新案件一律产出 `cn-patent-drawing-verification/v4`。报告字段本身只够做 schema 解释。正式声明多轮稳定性时，仍需由候选外评估者提供签名硬约束基线、至少三轮独立运行证据和 Skill Lint 回执。
 
 ## 硬失败与回炉
 

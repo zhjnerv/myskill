@@ -1,10 +1,8 @@
 # 2-D：区别特征表（阶段 3 的唯一事实来源）
 
-### 2-D：区别特征表（阶段 3 的唯一事实来源）
-
 权利要求书、说明书和说明书附图各自持有一份技术事实副本、彼此只靠散文连接，是本工作流最深的结构性缺陷：范本学习、检索边界和起草三段各记一套特征编号，谁也对不上谁。**这三份法定文件必须由同一张台账派生。**
 
-新案件固定使用 `cn-patent-feature-ledger/v2`（schema 见 `references/feature-ledger-schema-v2.json`）；v1 schema 已移至 `references/legacy/`，仅供旧案件回放对照，脚本不再加载。v2 台账，每个特征登记一次并绑定它在三份文件中的落点：
+新案件固定使用 `cn-patent-feature-ledger/v2`（schema 见 `references/feature-ledger-schema-v2.json`）；v1 schema 已移至 `references/legacy/feature-ledger-schema.json`，仅供旧案件回放对照，脚本不再加载。v2 台账，每个特征登记一次并绑定它在三份文件中的落点：
 
 - `classification`：`preamble`（与最接近现有技术共有，写入独权前序）／`distinguishing`（区别特征，写入特征部分或从属项）／`fallback_only`（不进权利要求，仅作第三十三条弹药写入说明书）；
 - `prior_art_status.verdict`：**没有 `novel` 这个取值**。检索只支持"截至〔日期〕在〔已检索出口〕中未发现"，不支持"不存在现有技术"；

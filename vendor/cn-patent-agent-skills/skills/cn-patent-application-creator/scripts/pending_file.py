@@ -278,6 +278,9 @@ def _scan_fences(text: str) -> list[tuple[str, str, bool, int, int]]:
 def parse_pending_file(text: str) -> dict[str, list[dict[str, Any]]]:
     if text.startswith("\ufeff"):
         raise PendingFileError("待决文件含 BOM，必须使用 UTF-8 无 BOM")
+    # 用户可能用 Windows 记事本或 Word 改这个文件；行尾统一后再解析，
+    # 否则行尾的 \r 会让「### 决定」等按行锚定的正则匹配不到。
+    text = text.replace("\r\n", "\n").replace("\r", "\n")
     fences = _scan_fences(text)
     items: list[dict[str, Any]] = []
     retired: list[dict[str, Any]] = []

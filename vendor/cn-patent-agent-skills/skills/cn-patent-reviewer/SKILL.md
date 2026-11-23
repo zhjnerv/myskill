@@ -23,18 +23,17 @@ UTF-8 申请文件
 
 四个环节的产物互不覆盖；任一环节的输入字节变化都会使下游证据失效。
 
-## 共享本地法源（执行前读取）
+## 运行根目录与本地法源（执行前读取）
 
-涉及中国专利法律规则、条款或审查方法时，优先读取仓库内的统一法源，不再为已收录内容默认联网搜索：
+本文命令用 `$ROOT` 指代运行根目录，第一次执行前定义一次；Windows 上把 `python3` 换成 `python`：
 
-- 法源先读取 `${CN_PATENT_AGENT_SKILLS_ROOT:-${CN_PATENT_CREATOR_ROOT:-${CLAUDE_PATENT_CREATOR_CN_ROOT:-${CLAUDE_PLUGIN_ROOT:-${CODEX_HOME:-$HOME/.codex}/vendor/cn-patent-agent-skills}}}}/references/cn-legal-sources/source-index.json`，再按主题读取分章；不得默认加载 `guide-full.md`。
-- 专利法：`${CN_PATENT_AGENT_SKILLS_ROOT:-${CN_PATENT_CREATOR_ROOT:-${CLAUDE_PATENT_CREATOR_CN_ROOT:-${CLAUDE_PLUGIN_ROOT:-${CODEX_HOME:-$HOME/.codex}/vendor/cn-patent-agent-skills}}}}/references/cn-legal-sources/专利法(2020-10-17).md`
-- 专利法实施细则：`${CN_PATENT_AGENT_SKILLS_ROOT:-${CN_PATENT_CREATOR_ROOT:-${CLAUDE_PATENT_CREATOR_CN_ROOT:-${CLAUDE_PLUGIN_ROOT:-${CODEX_HOME:-$HOME/.codex}/vendor/cn-patent-agent-skills}}}}/references/cn-legal-sources/专利法实施细则(2023-12-21).md`
-- 审查指南全文：`${CN_PATENT_AGENT_SKILLS_ROOT:-${CN_PATENT_CREATOR_ROOT:-${CLAUDE_PATENT_CREATOR_CN_ROOT:-${CLAUDE_PLUGIN_ROOT:-${CODEX_HOME:-$HOME/.codex}/vendor/cn-patent-agent-skills}}}}/references/cn-legal-sources/审查指南2026MD/guide-full.md`
-- 审查指南分章：`${CN_PATENT_AGENT_SKILLS_ROOT:-${CN_PATENT_CREATOR_ROOT:-${CLAUDE_PATENT_CREATOR_CN_ROOT:-${CLAUDE_PLUGIN_ROOT:-${CODEX_HOME:-$HOME/.codex}/vendor/cn-patent-agent-skills}}}}/references/cn-legal-sources/审查指南2026MD/chapters/`
-- 统一法源目录：`${CN_PATENT_AGENT_SKILLS_ROOT:-${CN_PATENT_CREATOR_ROOT:-${CLAUDE_PATENT_CREATOR_CN_ROOT:-${CLAUDE_PLUGIN_ROOT:-${CODEX_HOME:-$HOME/.codex}/vendor/cn-patent-agent-skills}}}}/skills/cn-patent-reviewer/references/cn-source-catalog.md`
+```bash
+ROOT="${CN_PATENT_AGENT_SKILLS_ROOT:-${CN_PATENT_CREATOR_ROOT:-${CLAUDE_PATENT_CREATOR_CN_ROOT:-${CLAUDE_PLUGIN_ROOT:-${CODEX_HOME:-$HOME/.codex}/vendor/cn-patent-agent-skills}}}}"
+```
 
-本地文本用于条款和章节目定位。只有核对后续修订、施行状态，或处理本地文本缺失与冲突时才联网，并优先使用 CNIPA 官方来源。
+`$ROOT` 下必须同时存在 `skills/`、`references/cn-legal-sources/source-index.json` 和至少一个平台插件清单，否则停止并报告，不得猜测路径。
+
+涉及中国专利法律规则、条款或审查方法时，先读 `$ROOT/references/cn-legal-sources/source-index.json`，按主题只加载其中列出的分章，不默认加载 `guide-full.md`。专利法、实施细则和分章目录都在 `$ROOT/references/cn-legal-sources/` 下，主题到条文的对照见 [中国法源目录](references/cn-source-catalog.md)。本地文本用于条款和章节目定位；只有核对后续修订、施行状态，或处理本地文本缺失与冲突时才联网，并优先使用 CNIPA 官方来源。
 
 ## 必需输入
 
@@ -77,7 +76,7 @@ PDF、DOCX、扫描件和仅含图片的附图不在本轮范围，必须 fail-f
 1. **prepare**：冻结证据并运行三个真实检查器。
 
    ```bash
-   python3 "${CN_PATENT_AGENT_SKILLS_ROOT:-${CN_PATENT_CREATOR_ROOT:-${CLAUDE_PATENT_CREATOR_CN_ROOT:-${CLAUDE_PLUGIN_ROOT:-${CODEX_HOME:-$HOME/.codex}/vendor/cn-patent-agent-skills}}}}/scripts/run_python.py" "${CN_PATENT_AGENT_SKILLS_ROOT:-${CN_PATENT_CREATOR_ROOT:-${CLAUDE_PATENT_CREATOR_CN_ROOT:-${CLAUDE_PLUGIN_ROOT:-${CODEX_HOME:-$HOME/.codex}/vendor/cn-patent-agent-skills}}}}/skills/cn-patent-reviewer/scripts/build_review_bundle.py" prepare \
+   python3 "$ROOT/scripts/run_python.py" "$ROOT/skills/cn-patent-reviewer/scripts/build_review_bundle.py" prepare \
      --application "<prepare-input.json>" \
      --workspace "<工作目录>"
    ```
@@ -93,7 +92,7 @@ PDF、DOCX、扫描件和仅含图片的附图不在本轮范围，必须 fail-f
 3. **finalize**：守恒转换并构造 bundle。
 
    ```bash
-   python3 "${CN_PATENT_AGENT_SKILLS_ROOT:-${CN_PATENT_CREATOR_ROOT:-${CLAUDE_PATENT_CREATOR_CN_ROOT:-${CLAUDE_PLUGIN_ROOT:-${CODEX_HOME:-$HOME/.codex}/vendor/cn-patent-agent-skills}}}}/scripts/run_python.py" "${CN_PATENT_AGENT_SKILLS_ROOT:-${CN_PATENT_CREATOR_ROOT:-${CLAUDE_PATENT_CREATOR_CN_ROOT:-${CLAUDE_PLUGIN_ROOT:-${CODEX_HOME:-$HOME/.codex}/vendor/cn-patent-agent-skills}}}}/skills/cn-patent-reviewer/scripts/build_review_bundle.py" finalize \
+   python3 "$ROOT/scripts/run_python.py" "$ROOT/skills/cn-patent-reviewer/scripts/build_review_bundle.py" finalize \
      --workspace "<工作目录>" \
      --review-input "<已完成的语义审查输入.json>" \
      --output "<review-bundle.json>"
@@ -108,7 +107,7 @@ PDF、DOCX、扫描件和仅含图片的附图不在本轮范围，必须 fail-f
 4. **独立验证与摘要**：
 
    ```bash
-   python3 "${CN_PATENT_AGENT_SKILLS_ROOT:-${CN_PATENT_CREATOR_ROOT:-${CLAUDE_PATENT_CREATOR_CN_ROOT:-${CLAUDE_PLUGIN_ROOT:-${CODEX_HOME:-$HOME/.codex}/vendor/cn-patent-agent-skills}}}}/scripts/run_python.py" "${CN_PATENT_AGENT_SKILLS_ROOT:-${CN_PATENT_CREATOR_ROOT:-${CLAUDE_PATENT_CREATOR_CN_ROOT:-${CLAUDE_PLUGIN_ROOT:-${CODEX_HOME:-$HOME/.codex}/vendor/cn-patent-agent-skills}}}}/skills/cn-patent-reviewer/scripts/verify_review_bundle.py" \
+   python3 "$ROOT/scripts/run_python.py" "$ROOT/skills/cn-patent-reviewer/scripts/verify_review_bundle.py" \
      --workspace "<工作目录>" \
      --bundle "<review-bundle.json>" \
      --output "<bundle-verification.json>" \

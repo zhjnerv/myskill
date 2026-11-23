@@ -36,6 +36,8 @@ CACHE_DIRS = frozenset({".git", ".venv", "venv", ".pytest_cache", "__pycache__"}
 LOCAL_DIRS = frozenset({".local-case-archive", "archive", "dist", "build", "tmp", "temp"})
 # 依赖取消要给进程一点时间消化 SIGTERM；测试可调低。SIGTERM 被忽略时再 SIGKILL。
 DEPENDENCY_CANCEL_GRACE_SECONDS = 2.0
+# Windows 没有 SIGKILL；那里 terminate() 本身就是强制终止，升级信号只作占位。
+FORCE_KILL_SIGNAL = getattr(signal, "SIGKILL", signal.SIGTERM)
 MANUAL_RESTORE_REQUIRED = "必须人工确认后才能恢复"
 DEPENDENCY_BLOCK_KEY = "dependency_processes"
 LEGAL_INDEX_SCHEMA = "cn-patent-legal-source-index/v1"
@@ -648,12 +650,14 @@ def _signal_proven_group(record: dict[str, Any], sig: int) -> str:
                 pass
 
 
-def _signal_direct(record: dict[str, Any], sig: int) -> None:
+def _signal_direct(record: dict[str, Any], sig: int, *, force: bool = False) -> None:
+    """force 表示升级到强制终止。Windows 没有 SIGKILL 号，terminate() 本身就是强制终止。"""
     process: subprocess.Popen[Any] = record["process"]
     if process.poll() is not None:
         return
     try:
-        if sig == signal.SIGKILL:
+        hard = force or (hasattr(signal, "SIGKILL") and sig == signal.SIGKILL)
+        if hard:
             process.kill()
         else:
             process.terminate()
@@ -698,18 +702,18 @@ def _signal_known_descendants(record: dict[str, Any], sig: int) -> None:
                 os.close(fd)
 
 
-def _signal_dependency_tree(record: dict[str, Any], sig: int) -> str:
+def _signal_dependency_tree(record: dict[str, Any], sig: int, *, force: bool = False) -> str:
     """向本次任务证明过的进程组和已观察子孙发信号，不先销毁父树。"""
     if os.name != "posix" or not record.get("group_proven") or record.get("group_unproven"):
-        _signal_direct(record, sig)
+        _signal_direct(record, sig, force=force)
         return "direct-only"
     _capture_descendant_identities(record)
     _signal_known_descendants(record, sig)
     outcome = _signal_proven_group(record, sig)
     if outcome == "unproven":
-        _signal_direct(record, sig)
+        _signal_direct(record, sig, force=force)
         return "direct-only"
-    _signal_direct(record, sig)
+    _signal_direct(record, sig, force=force)
     return "process-group"
 
 
@@ -808,7 +812,7 @@ def _cancel_tracked_dependency_processes() -> dict[str, Any]:
         direct_stopped = all(_reap_direct(record["process"], grace) for record in records)
         if not direct_stopped:
             for record in records:
-                _signal_direct(record, signal.SIGKILL)
+                _signal_direct(record, FORCE_KILL_SIGNAL, force=True)
             direct_stopped = all(_reap_direct(record["process"], grace) for record in records)
         limitation = (
             "非 POSIX 平台只能结束安装器直接持有的依赖进程，不宣称其子进程树已终止；"
@@ -825,7 +829,7 @@ def _cancel_tracked_dependency_processes() -> dict[str, Any]:
     clear, live = _groups_are_clear(records)
     if (not direct_stopped) or (not clear):
         for record in records:
-            if _signal_dependency_tree(record, signal.SIGKILL) != "process-group":
+            if _signal_dependency_tree(record, FORCE_KILL_SIGNAL, force=True) != "process-group":
                 mechanism = "direct-only"
         direct_stopped = all(_reap_direct(record["process"], grace) for record in records)
         clear, live = _wait_groups_clear(records, grace)
@@ -1197,7 +1201,10 @@ def recover_pending(vendor: Path, skills_home: Path) -> None:
 
 
 def _sigterm_handler(signum: int, frame: Any) -> None:
-    """先取消依赖进程并等待已证明的进程组结束，再恢复旧版本；SIGKILL 由下次启动处理。"""
+    """先取消依赖进程并等待已证明的进程组结束，再恢复旧版本；强杀由下次启动处理。
+
+    Windows 的 terminate() 不可捕获，但 Ctrl+Break 会走这里，用户中断后仍应清掉事务现场。
+    """
     signal.signal(signum, signal.SIG_IGN)
     context = _SIGNAL_CONTEXT
     if context is not None:
@@ -1217,6 +1224,9 @@ def _sigterm_handler(signum: int, frame: Any) -> None:
                 print(limitation, file=sys.stderr)
         except BaseException as exc:
             print(f"取消依赖进程或自动恢复失败，保留事务现场：{exc}", file=sys.stderr)
+    if os.name == "nt":
+        # Windows 的 os.kill 无法重新投递 Ctrl+Break；以中断码退出，保留「被中断」语义。
+        raise SystemExit(128 + int(signum))
     signal.signal(signum, signal.SIG_DFL)
     os.kill(os.getpid(), signum)
 
@@ -1341,13 +1351,17 @@ def main() -> int:
     vendor = codex_home / "vendor"
     vendor.mkdir(parents=True, exist_ok=True)
     with _installation_lock(vendor):
-        previous_sigterm = signal.signal(signal.SIGTERM, _sigterm_handler)
+        previous_handlers = [(signal.SIGTERM, signal.signal(signal.SIGTERM, _sigterm_handler))]
+        # Windows 的 Ctrl+Break 是唯一可捕获的中断；terminate() 直接终止进程，交给下次启动恢复。
+        if hasattr(signal, "SIGBREAK"):
+            previous_handlers.append((signal.SIGBREAK, signal.signal(signal.SIGBREAK, _sigterm_handler)))
         _SIGNAL_CONTEXT = (vendor, codex_home / "skills")
         try:
             result = _install(args, source, codex_home)
         finally:
             _SIGNAL_CONTEXT = None
-            signal.signal(signal.SIGTERM, previous_sigterm)
+            for signum, previous in previous_handlers:
+                signal.signal(signum, previous)
     print(json.dumps(result, ensure_ascii=False, indent=2))
     return 0
 

@@ -9,8 +9,10 @@
 从仓库根目录执行：
 
 ```bash
-python3 scripts/install_codex_skill.py
+python scripts/install_codex_skill.py
 ```
+
+Windows 上解释器名通常是 `python` 或 `py`，没有 `python3`；下列命令同理。
 
 安装器会：
 
@@ -54,6 +56,8 @@ export CN_PATENT_AGENT_SKILLS_ROOT=/path/to/cn-patent-agent-skills
 ```
 
 Agent 只需先加载入口 `skills/cn-patent-workflow/SKILL.md`。根目录变量优先于历史兼容变量；脚本运行时使用仓库自带的 `scripts/run_python.py`，涉及 DOCX 时使用安装环境或仓库 `.venv` 的解释器。
+
+`scripts/run_python.py` 只调用安装环境里的解释器（`.venv/bin/python` 或 Windows 的 `.venv\Scripts\python.exe`），它自己不做降级。仓库里遗留的 `.venv`（若有）可能是其他平台的旧环境，此时所有 Skills 命令会以退出码 3 停止。先按上面的一键安装重建运行环境，或直接把命令里的 `"$ROOT/scripts/run_python.py"` 换成当前解释器，再运行同一脚本。
 
 支持插件清单的宿主也可以直接读取 `.codex-plugin/plugin.json` 或 `.claude-plugin/plugin.json`。仓库不依赖特定宿主的 MCP Server、命令系统或模型供应商。
 

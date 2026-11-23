@@ -4,12 +4,14 @@
 
 ## 文件
 
-- `<案件目录>/流程计划.json`：`cn-patent-workflow-plan/v1`，续跑时只信它。
+- `<案件目录>/流程计划.json`：`cn-patent-workflow-plan/v1`（机读结构见 `references/workflow-plan-schema-v1.json`），续跑时只信它。
 - `<案件目录>/流程计划.md`：给人看的同一份计划，每次状态变化都重写。
 
 `init` 发现计划已在时不会覆盖。除非用户明确要求作废，否则不要加 `--force`。
 
 ## 命令
+
+以下命令都在运行根目录执行，`$ROOT` 指该根目录（解析顺序见总入口 `SKILL.md`）：
 
 ```bash
 python3 "$ROOT/scripts/run_python.py" \
@@ -19,13 +21,17 @@ python3 "$ROOT/scripts/run_python.py" \
 
 单阶段不用完整档案。用重复的 `--step id|标题|技能|required` 把本次步骤一次列全。可选步骤第四段写 `optional`；只有可选步骤可以第五段写 `waiting`。
 
+后续命令用同一个函数封装调用前缀：
+
 ```bash
-workflow_plan.py start  --case-dir "<案件目录>" --step <id>
-workflow_plan.py complete --case-dir "<案件目录>" --step <id> --note "<做了什么>" --output "<产物>"
-workflow_plan.py skip   --case-dir "<案件目录>" --step <id> --note "<为何不做>"
-workflow_plan.py block  --case-dir "<案件目录>" --step <id> --note "<硬阻断原因>"
-workflow_plan.py reopen --case-dir "<案件目录>" --step <id> --cascade --note "<为何打回>"
-workflow_plan.py next   --case-dir "<案件目录>"
+plan() { python3 "$ROOT/scripts/run_python.py" "$ROOT/skills/cn-patent-workflow/scripts/workflow_plan.py" "$@"; }
+
+plan start    --case-dir "<案件目录>" --step <id>
+plan complete --case-dir "<案件目录>" --step <id> --note "<做了什么>" --output "<产物>"
+plan skip     --case-dir "<案件目录>" --step <id> --note "<为何不做>"
+plan block    --case-dir "<案件目录>" --step <id> --note "<硬阻断原因>"
+plan reopen   --case-dir "<案件目录>" --step <id> --cascade --note "<为何打回>"
+plan next     --case-dir "<案件目录>"
 ```
 
 ## 状态

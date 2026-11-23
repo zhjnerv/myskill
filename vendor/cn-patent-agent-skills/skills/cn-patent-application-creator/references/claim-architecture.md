@@ -14,7 +14,7 @@ Schema：`claim-architecture-schema-v1.json`。
 合同必须绑定当前权利要求书、说明书和 `feature-ledger.json` 的 SHA-256。完成权利要求和说明书后执行：
 
 ```bash
-python scripts/validate_claim_architecture.py \
+python3 "$ROOT/scripts/run_python.py" "$ROOT/skills/cn-patent-application-creator/scripts/validate_claim_architecture.py" \
   --contract "<claim-architecture.json>" \
   --case-dir "<案件根目录>" \
   --claims "<权利要求书.md>" \

@@ -20,7 +20,6 @@ SKILL = ROOT / "skills" / "cn-patent-diagram-generator"
 BRIEF_VALIDATOR = SKILL / "scripts" / "validate_drawing_brief.py"
 EXPORTER = SKILL / "scripts" / "export_patent_drawio.py"
 VERIFIER = SKILL / "scripts" / "verify_patent_drawings.py"
-DRAWIO_SKILL = Path.home() / ".codex/skills/drawio-skill"
 STABILITY_CHECKER = SKILL / "scripts" / "check_stability_evidence.py"
 STABILITY_ASSETS = SKILL / "assets" / "stability"
 
@@ -34,6 +33,45 @@ def load_module(path: Path, name: str):
     sys.modules[name] = module
     spec.loader.exec_module(module)
     return module
+
+
+def _drawio_skill():
+    """复用生产定位逻辑，避免测试复制安装路径常量。"""
+    verifier = load_module(VERIFIER, "test_drawio_skill_locator")
+    try:
+        return verifier.find_drawio_skill(None)
+    except FileNotFoundError:
+        return None
+
+
+DRAWIO_SKILL = _drawio_skill()
+
+
+def drawio_skill_or_skip() -> Path:
+    """drawio-skill 属外部依赖；缺失时跳过而不是记为回归失败。"""
+    if DRAWIO_SKILL is None:
+        pytest.skip("本机未安装 drawio-skill（可用 CN_PATENT_DRAWIO_SKILL_DIR 指定）")
+    return DRAWIO_SKILL
+
+
+def _drawio_cli_available() -> bool:
+    """shutil.which 会命中 WindowsApps 的空壳别名，必须实际跑一次 --version。"""
+    exporter = load_module(EXPORTER, "test_drawio_cli_probe")
+    try:
+        binary = exporter.find_drawio()
+    except FileNotFoundError:
+        return False
+    try:
+        result = subprocess.run(
+            [binary, "--version"], capture_output=True, text=True,
+            encoding="utf-8", errors="replace", timeout=20, check=False,
+        )
+    except (OSError, subprocess.SubprocessError):
+        return False
+    return result.returncode == 0 and bool((result.stdout or result.stderr).strip())
+
+
+DRAWIO_CLI_AVAILABLE = _drawio_cli_available()
 
 
 def run(script: Path, *args: str) -> subprocess.CompletedProcess[str]:
@@ -239,7 +277,7 @@ def test_historical_source_label_target_route_is_rejected(tmp_path):
         ],
         "relations": [{"id": "R1", "source": "S100", "target": "S110", "label": "是", "preferred_direction": "vertical", "direct_connection_required": True}],
     }
-    report = verifier.verify_drawio(drawing, figure, restrained_policy(), DRAWIO_SKILL)
+    report = verifier.verify_drawio(drawing, figure, restrained_policy(), drawio_skill_or_skip())
     codes = {item["code"] for item in report["errors"]}
     assert "DRAWING-TEXT-WAYPOINT" in codes
     assert "DRAWING-RELATION" in codes
@@ -254,7 +292,7 @@ def test_absolute_endpoint_and_self_loop_are_rejected(tmp_path):
     text = text.replace('id="R1" edge="1" source="S100" target="S110"', 'id="R1" edge="1" source="S100"')
     text = text.replace('id="R2" value="是" edge="1" source="S110" target="S120"', 'id="R2" value="是" edge="1" source="S110" target="S110"')
     drawing.write_text(text, encoding="utf-8")
-    report = verifier.verify_drawio(drawing, basic_figure(), restrained_policy(), DRAWIO_SKILL)
+    report = verifier.verify_drawio(drawing, basic_figure(), restrained_policy(), drawio_skill_or_skip())
     codes = {item["code"] for item in report["errors"]}
     assert "DRAWING-ABSOLUTE-ENDPOINT" in codes
     assert "DRAWING-SELF-LOOP" in codes
@@ -284,7 +322,7 @@ def test_detached_relation_label_is_rejected(tmp_path):
             {"id": "R2", "source": "S110", "target": "S120", "label": "是", "preferred_direction": "vertical", "direct_connection_required": True},
         ],
     }
-    report = verifier.verify_drawio(drawing, figure, restrained_policy(), DRAWIO_SKILL)
+    report = verifier.verify_drawio(drawing, figure, restrained_policy(), drawio_skill_or_skip())
     codes = {item["code"] for item in report["errors"]}
     assert "DRAWING-NATIVE-EDGE-LABEL" in codes
     assert "DRAWING-DETACHED-EDGE-LABEL" in codes
@@ -324,7 +362,7 @@ def test_oversized_node_with_small_font_is_rejected(tmp_path):
             {"id": "R2", "source": "S110", "target": "S120", "label": "是", "preferred_direction": "vertical", "direct_connection_required": True},
         ],
     }
-    report = verifier.verify_drawio(drawing, figure, restrained_policy(), DRAWIO_SKILL)
+    report = verifier.verify_drawio(drawing, figure, restrained_policy(), drawio_skill_or_skip())
     assert any(item["code"] == "DRAWING-NODE-PROPORTION" for item in report["errors"])
 
 
@@ -353,7 +391,7 @@ def test_text_overflow_is_rejected(tmp_path):
             {"id": "R2", "source": "S110", "target": "S120", "label": "是", "preferred_direction": "vertical", "direct_connection_required": True},
         ],
     }
-    report = verifier.verify_drawio(drawing, figure, restrained_policy(), DRAWIO_SKILL)
+    report = verifier.verify_drawio(drawing, figure, restrained_policy(), drawio_skill_or_skip())
     assert any(item["code"] == "DRAWING-TEXT-OVERFLOW" for item in report["errors"])
 
 
@@ -368,7 +406,7 @@ def test_frame_height_cannot_exceed_twice_text_height(tmp_path):
         ),
         encoding="utf-8",
     )
-    report = verifier.verify_drawio(drawing, basic_figure(), restrained_policy(), DRAWIO_SKILL)
+    report = verifier.verify_drawio(drawing, basic_figure(), restrained_policy(), drawio_skill_or_skip())
     assert any(item["code"] == "DRAWING-NODE-HEIGHT" for item in report["errors"])
 
 
@@ -383,7 +421,7 @@ def test_frame_height_equal_to_twice_text_height_is_allowed(tmp_path):
         ),
         encoding="utf-8",
     )
-    report = verifier.verify_drawio(drawing, basic_figure(), restrained_policy(), DRAWIO_SKILL)
+    report = verifier.verify_drawio(drawing, basic_figure(), restrained_policy(), drawio_skill_or_skip())
     assert not any(item["code"] == "DRAWING-NODE-HEIGHT" for item in report["errors"])
 
 
@@ -401,7 +439,7 @@ def test_more_than_twelve_chinese_characters_require_explicit_wrap(tmp_path):
     )
     figure = basic_figure()
     figure["elements"][2]["label"] = label
-    report = verifier.verify_drawio(drawing, figure, restrained_policy(), DRAWIO_SKILL)
+    report = verifier.verify_drawio(drawing, figure, restrained_policy(), drawio_skill_or_skip())
     assert any(item["code"] == "DRAWING-CHINESE-WRAP" for item in report["errors"])
 
 
@@ -419,7 +457,7 @@ def test_exactly_twelve_chinese_characters_can_remain_on_one_line(tmp_path):
     )
     figure = basic_figure()
     figure["elements"][2]["label"] = label
-    report = verifier.verify_drawio(drawing, figure, restrained_policy(), DRAWIO_SKILL)
+    report = verifier.verify_drawio(drawing, figure, restrained_policy(), drawio_skill_or_skip())
     assert not any(item["code"] == "DRAWING-CHINESE-WRAP" for item in report["errors"])
 
 
@@ -437,7 +475,7 @@ def test_explicit_wrap_keeps_source_label_match_and_passes_chinese_limit(tmp_pat
     )
     figure = basic_figure()
     figure["elements"][2]["label"] = label
-    report = verifier.verify_drawio(drawing, figure, restrained_policy(), DRAWIO_SKILL)
+    report = verifier.verify_drawio(drawing, figure, restrained_policy(), drawio_skill_or_skip())
     codes = {item["code"] for item in report["errors"]}
     assert "DRAWING-LABEL" not in codes
     assert "DRAWING-CHINESE-WRAP" not in codes
@@ -454,7 +492,7 @@ def test_vertical_spacing_accepts_minimum_two_font_heights_after_arrowhead(tmp_p
         ),
         encoding="utf-8",
     )
-    report = verifier.verify_drawio(drawing, basic_figure(), restrained_policy(), DRAWIO_SKILL)
+    report = verifier.verify_drawio(drawing, basic_figure(), restrained_policy(), drawio_skill_or_skip())
     assert not any(item["code"].startswith("DRAWING-VERTICAL-SPACING") for item in report["errors"])
 
 
@@ -474,7 +512,7 @@ def test_vertical_spacing_accepts_maximum_three_font_heights_after_arrowhead(tmp
         ),
         encoding="utf-8",
     )
-    report = verifier.verify_drawio(drawing, basic_figure(), restrained_policy(), DRAWIO_SKILL)
+    report = verifier.verify_drawio(drawing, basic_figure(), restrained_policy(), drawio_skill_or_skip())
     assert not any(item["code"].startswith("DRAWING-VERTICAL-SPACING") for item in report["errors"])
 
 
@@ -489,7 +527,7 @@ def test_vertical_spacing_subtracts_native_label_and_arrowhead(tmp_path):
         ),
         encoding="utf-8",
     )
-    report = verifier.verify_drawio(drawing, basic_figure(), restrained_policy(), DRAWIO_SKILL)
+    report = verifier.verify_drawio(drawing, basic_figure(), restrained_policy(), drawio_skill_or_skip())
     assert not any(item["code"].startswith("DRAWING-VERTICAL-SPACING") for item in report["errors"])
 
 
@@ -504,7 +542,7 @@ def test_vertical_spacing_rejects_less_than_two_font_heights(tmp_path):
         ),
         encoding="utf-8",
     )
-    report = verifier.verify_drawio(drawing, basic_figure(), restrained_policy(), DRAWIO_SKILL)
+    report = verifier.verify_drawio(drawing, basic_figure(), restrained_policy(), drawio_skill_or_skip())
     assert any(item["code"] == "DRAWING-VERTICAL-SPACING-MIN" for item in report["errors"])
 
 
@@ -519,7 +557,7 @@ def test_vertical_spacing_rejects_more_than_three_font_heights(tmp_path):
         ),
         encoding="utf-8",
     )
-    report = verifier.verify_drawio(drawing, basic_figure(), restrained_policy(), DRAWIO_SKILL)
+    report = verifier.verify_drawio(drawing, basic_figure(), restrained_policy(), drawio_skill_or_skip())
     assert any(item["code"] == "DRAWING-VERTICAL-SPACING-MAX" for item in report["errors"])
 
 
@@ -553,7 +591,7 @@ def test_cylinder_requires_explicit_storage_semantics(tmp_path):
     drawing.write_text(text, encoding="utf-8")
     figure = basic_figure()
     figure["elements"][2]["kind"] = "step"
-    report = verifier.verify_drawio(drawing, figure, restrained_policy(), DRAWIO_SKILL)
+    report = verifier.verify_drawio(drawing, figure, restrained_policy(), drawio_skill_or_skip())
     assert any(item["code"] == "DRAWING-CYLINDER-SEMANTICS" for item in report["errors"])
 
 
@@ -565,7 +603,7 @@ def test_relation_label_font_must_be_two_thirds_of_node_font(tmp_path):
         drawing.read_text(encoding="utf-8").replace('endFill=1;fontSize=10;', 'endFill=1;fontSize=9;'),
         encoding="utf-8",
     )
-    report = verifier.verify_drawio(drawing, basic_figure(), restrained_policy(), DRAWIO_SKILL)
+    report = verifier.verify_drawio(drawing, basic_figure(), restrained_policy(), drawio_skill_or_skip())
     assert any(item["code"] == "DRAWING-EDGE-LABEL-FONT" for item in report["errors"])
 
 
@@ -580,7 +618,7 @@ def test_relation_label_requires_one_arrowhead_height_above_and_below(tmp_path):
         ),
         encoding="utf-8",
     )
-    report = verifier.verify_drawio(drawing, basic_figure(), restrained_policy(), DRAWIO_SKILL)
+    report = verifier.verify_drawio(drawing, basic_figure(), restrained_policy(), drawio_skill_or_skip())
     assert any(item["code"] == "DRAWING-EDGE-LABEL-CLEARANCE" for item in report["errors"])
 
 
@@ -589,7 +627,7 @@ def test_relation_label_exact_two_thirds_and_clearance_boundary_are_allowed(tmp_
     drawing = tmp_path / "edge-label-boundary.drawio"
     create_valid_drawio(drawing)
     # 节点字号15、标签字号10，正好为2/3；30px净距扣除12px文字块后，上下各9px，大于6px箭头高度。
-    report = verifier.verify_drawio(drawing, basic_figure(), restrained_policy(), DRAWIO_SKILL)
+    report = verifier.verify_drawio(drawing, basic_figure(), restrained_policy(), drawio_skill_or_skip())
     codes = {item["code"] for item in report["errors"]}
     assert "DRAWING-EDGE-LABEL-FONT" not in codes
     assert "DRAWING-EDGE-LABEL-CLEARANCE" not in codes
@@ -622,10 +660,10 @@ def test_restrained_color_policy_rejects_unapproved_flashy_fill(tmp_path):
             {"id": "R2", "source": "S110", "target": "S120", "label": "是", "preferred_direction": "vertical", "direct_connection_required": True},
         ],
     }
-    report = verifier.verify_drawio(drawing, figure, restrained_policy(), DRAWIO_SKILL)
+    report = verifier.verify_drawio(drawing, figure, restrained_policy(), drawio_skill_or_skip())
     assert any(item["code"] == "DRAWING-COLOR" for item in report["errors"])
 
-@pytest.mark.skipif(shutil.which("drawio") is None and shutil.which("draw.io") is None, reason="Draw.io Desktop CLI unavailable")
+@pytest.mark.skipif(not DRAWIO_CLI_AVAILABLE, reason="Draw.io Desktop CLI 不可用（空壳别名或未安装）")
 def test_official_cli_export_and_final_verifier_pass(tmp_path):
     case = tmp_path / "case"
     sources = create_sources(case)
@@ -671,7 +709,7 @@ def test_official_cli_export_and_final_verifier_pass(tmp_path):
     }
     write(case / "03-审查工作区/附图/visual-review.json", json.dumps(visual, ensure_ascii=False, indent=2) + "\n")
     output = case / "03-审查工作区/附图/final-verification.json"
-    result = run(VERIFIER, "--brief", str(brief), "--case-dir", str(case), "--drawio-skill-dir", str(DRAWIO_SKILL), "--output", str(output))
+    result = run(VERIFIER, "--brief", str(brief), "--case-dir", str(case), "--drawio-skill-dir", str(drawio_skill_or_skip()), "--output", str(output))
     assert result.returncode == 0, result.stdout
     payload = json.loads(output.read_text(encoding="utf-8"))
     assert payload["status"] == "PASS"
@@ -680,7 +718,7 @@ def test_official_cli_export_and_final_verifier_pass(tmp_path):
 
     # Candidate binding: changing the final image invalidates both export and visual evidence.
     final_png.write_bytes(final_png.read_bytes() + b"stale")
-    stale = run(VERIFIER, "--brief", str(brief), "--case-dir", str(case), "--drawio-skill-dir", str(DRAWIO_SKILL), "--output", str(output))
+    stale = run(VERIFIER, "--brief", str(brief), "--case-dir", str(case), "--drawio-skill-dir", str(drawio_skill_or_skip()), "--output", str(output))
     assert stale.returncode == 2
     stale_payload = json.loads(output.read_text(encoding="utf-8"))
     stale_codes = {item["code"] for item in stale_payload["errors"]}
@@ -694,7 +732,7 @@ def test_official_cli_export_and_final_verifier_pass(tmp_path):
     write(report, json.dumps(export_payload, ensure_ascii=False, indent=2) + "\n")
     visual["figures"][0]["png_sha256"] = digest(final_png)
     write(case / "03-审查工作区/附图/visual-review.json", json.dumps(visual, ensure_ascii=False, indent=2) + "\n")
-    forged = run(VERIFIER, "--brief", str(brief), "--case-dir", str(case), "--drawio-skill-dir", str(DRAWIO_SKILL), "--output", str(output))
+    forged = run(VERIFIER, "--brief", str(brief), "--case-dir", str(case), "--drawio-skill-dir", str(drawio_skill_or_skip()), "--output", str(output))
     assert forged.returncode == 2
     forged_payload = json.loads(output.read_text(encoding="utf-8"))
     forged_codes = {item["code"] for item in forged_payload["errors"]}
@@ -793,6 +831,46 @@ def test_skill_is_domain_adapter_for_drawio_skill():
         assert required in skill
     assert "不得改用 Pillow" in skill
     assert "from PIL" not in skill
+
+
+def test_drawio_skill_locator_prefers_argument_then_env(tmp_path, monkeypatch):
+    verifier = load_module(VERIFIER, "patent_drawing_drawio_locator")
+    argument_skill = tmp_path / "argument/drawio-skill"
+    env_skill = tmp_path / "env/drawio-skill"
+    for skill in (argument_skill, env_skill):
+        write(skill / "scripts/validate.py", "# stub\n")
+
+    monkeypatch.setenv(verifier.DRAWIO_SKILL_DIR_ENV, str(env_skill))
+    assert verifier.find_drawio_skill(argument_skill) == argument_skill.resolve()
+    assert verifier.find_drawio_skill(None) == env_skill.resolve()
+    # 环境变量也接受 skills 根目录，命中判据仍是有 scripts/validate.py 的 drawio-skill。
+    monkeypatch.setenv(verifier.DRAWIO_SKILL_DIR_ENV, str(env_skill.parent))
+    assert verifier.find_drawio_skill(None) == env_skill.resolve()
+
+    monkeypatch.setenv(verifier.DRAWIO_SKILL_DIR_ENV, str(tmp_path / "missing"))
+    with pytest.raises(FileNotFoundError, match="CN_PATENT_DRAWIO_SKILL_DIR"):
+        verifier.find_drawio_skill(None)
+    with pytest.raises(FileNotFoundError, match="scripts/validate.py"):
+        verifier.find_drawio_skill(tmp_path / "missing")
+
+
+def test_drawio_skill_locator_scans_current_install_roots(tmp_path, monkeypatch):
+    verifier = load_module(VERIFIER, "patent_drawing_drawio_roots")
+    home = tmp_path / "home"
+    codex_home = tmp_path / "codex-home"
+    agents_skill = home / ".agents/skills/drawio-skill"
+    write(agents_skill / "scripts/validate.py", "# stub\n")
+    monkeypatch.setenv(verifier.DRAWIO_SKILL_DIR_ENV, "")
+    monkeypatch.setenv("CODEX_HOME", str(codex_home))
+    monkeypatch.setattr(Path, "home", lambda: home)
+    # 用户目录下没有 ~/.codex/skills 时，现役 ~/.agents/skills 入口仍能被发现。
+    assert verifier.find_drawio_skill(None) == agents_skill.resolve()
+
+
+def test_drawio_skill_locator_prefers_sibling_in_same_skills_root():
+    """安装位置任意时，同根目录的兄弟 Skill 应先于用户目录默认路径被使用。"""
+    verifier = load_module(VERIFIER, "patent_drawing_drawio_sibling")
+    assert verifier.drawio_skill_search_roots()[0] == VERIFIER.parents[2]
 
 
 def test_explicit_visual_failure_is_not_downgraded_to_pending():
