@@ -10,8 +10,8 @@
       "subpath": null,
       "localPrefix": "vendor/cn-patent-agent-skills",
       "vendoredAt": "2026-09-26T09:23:38Z",
-      "lastSync": "2026-11-02T05:40:14Z",
-      "lastSyncTree": "7ac38cee95dea6056d4a94e52ce605a1175e53b1",
+      "lastSync": "2026-11-23T07:11:39Z",
+      "lastSyncTree": "9ff602a67bd08d185ac013bafa3f5cf812edd3e2",
       "notes": "Own package, not a third-party fork. Shared legal sources and scripts live at the package root; do not vendor the seven skills separately. Package renamed from claude-patent-creator-cn."
     },
     {
@@ -58,8 +58,8 @@
       "branch": "main",
       "subpath": null,
       "vendoredAt": "2026-08-08T17:43:02Z",
-      "lastSync": "2026-09-25T09:12:11Z",
-      "lastSyncTree": "2d0e48d6d3df0c805943e58ced4fd94fbd79e0d6",
+      "lastSync": "2026-11-23T07:12:05Z",
+      "lastSyncTree": "ed94f1be4ac417feafea5f980729e522cf74dce5",
       "notes": ""
     },
     {
@@ -83,7 +83,7 @@
       "subpath": "skills/cn-patent-fast-track-screener",
       "localPrefix": "skills/cn-patent-fast-track-screener",
       "vendoredAt": "2026-11-06T13:57:52Z",
-      "lastSync": "2026-11-22T19:32:33Z",
+      "lastSync": "2026-11-23T07:12:06Z",
       "lastSyncTree": "915621808d2aed742cca7ad91fd6419744edd737",
       "notes": "Own public package. Develop and release in ip-practice-workbench-skills; myskill syncs this skill subdirectory."
     },
@@ -96,7 +96,7 @@
       "subpath": "skills/cn-office-action-prior-art-collector",
       "localPrefix": "skills/cn-office-action-prior-art-collector",
       "vendoredAt": "2026-11-06T13:57:52Z",
-      "lastSync": "2026-11-22T19:32:33Z",
+      "lastSync": "2026-11-23T07:12:06Z",
       "lastSyncTree": "d8c5a2f42c1938c1e2d56f7c88e763891d079d90",
       "notes": "Own public package. Develop and release in ip-practice-workbench-skills; myskill syncs this skill subdirectory."
     },
@@ -109,7 +109,7 @@
       "subpath": "skills/cn-trademark-goods-services-recommender",
       "localPrefix": "skills/cn-trademark-goods-services-recommender",
       "vendoredAt": "2026-11-06T13:57:52Z",
-      "lastSync": "2026-11-22T19:32:33Z",
+      "lastSync": "2026-11-23T07:12:07Z",
       "lastSyncTree": "a000de38ba0facbc53d8bc1053bc9fdc1204a0f1",
       "notes": "Own public package. Develop and release in ip-practice-workbench-skills; myskill syncs this skill subdirectory."
     }
