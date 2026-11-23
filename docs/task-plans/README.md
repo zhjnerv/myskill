@@ -28,6 +28,7 @@
 | [清理 subtree 临时工作区](TASK_PLAN_清理subtree临时工作区.md) | 2026-11-01 | worktree 登记、分支与临时目录清理完毕 |
 | [知产技能触发词与双向同步](TASK_PLAN_知产技能触发词与双向同步.md) | 2026-11-22 | 两端描述一致，PR #1/#2 合入，自动回推后续在根目录计划收尾 |
 | [配置 GitHub Actions token](TASK_PLAN_配置GitHub_Actions_token.md) | 2026-11-23 | 配置指南落 [docs/github-actions-token-setup.md](../github-actions-token-setup.md)，secret 名定为 `IP_PRACTICE` |
+| [整理任务计划归档](TASK_PLAN_task-plans整理.md) | 2026-11-24 | 20 份计划整理为根目录 2 份 + 归档 17 份，删除 1 份重复副本，修复 4 条历史断链 |
 
 ## 相关规则
 

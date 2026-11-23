@@ -22,7 +22,7 @@
 
 | 文件 | 未完成项 | 判断 |
 | --- | --- | --- |
-| `TASK_PLAN.md` | 0 | 记账规则，已完成，规则正文已落在 [docs/skills/README.md](docs/skills/README.md) |
+| `TASK_PLAN.md` | 0 | 记账规则，已完成，规则正文已落在 [docs/skills/README.md](../skills/README.md) |
 | `TASK_PLAN_check-skill-updates.md` | 5（陈旧） | 5 项在文末「跟进轮结果（2026-10-16）」已全部完成，只是中途清单没回填 |
 | `TASK_PLAN_choice-oracle.md` | 0 | 已完成 |
 | `TASK_PLAN_codex-hook-timeout.md` | 0 | 已完成 |
@@ -56,11 +56,11 @@
 
 ## 当前进度
 
-8 个步骤全部完成。根目录从 20 份计划降到 3 份，另有 `docs/task-plans/` 归档 17 份加索引。
+8 个步骤全部完成并推送（`4ccd429`）。根目录从 20 份计划降到 3 份，另有 `docs/task-plans/` 归档 17 份加索引。
 
 ## 下一步动作
 
-提交并推送。若后续验证通过，删除本文件（它记录的是这次整理，不属于长期档案）。
+无。本计划随本次整理一并归档到 `docs/task-plans/`。
 
 ## 已知风险
 
