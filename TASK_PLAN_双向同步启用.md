@@ -35,16 +35,17 @@
 - [x] 修 back-sync 缺少“上游是否领先”检查导致的误覆盖风险。结果：`sync_one()` 在提交前比对 `origin/{branch}:{subpath}` tree 与 `registry.json` 的 `lastSyncTree`，不等即抛错并提示先 `skill-sync.ps1`。
 - [x] 给守卫补回归测试。结果：新增 `scripts/test_sync_ip_practice_skills_to_upstream.py`，3 个用例（上游前进、基线缺失、内容一致）全部通过；移除守卫后其中 2 个失败，确认测试有效。
 - [x] 补 token 权限前置检查。结果：workflow 在 `gh auth setup-git` 之后读取 `repos/zhjnerv/ip-practice-workbench-skills` 的 `permissions.push`，读不到或不为 `true` 就中止；这样 token 选错仓库、只给只读或已过期时不会先在上游留下分支。
-- [ ] 手动运行 back-sync workflow 验证。完成标准：日志显示 token 检查通过、三个 `[current]`，不产生 PR。
+- [x] 手动运行 back-sync workflow 验证。结果：`45209965462`（提交 `c72f01b`）与 `45210477755`（`15ad029`）均 success，日志三个 `[current]`，上游未新增分支或 PR。
+- [x] 补 token 权限范围检查。结果：workflow 读 `gh api -i repos/zhjnerv/myskill` 响应头区分 classic / fine-grained；`45211364887` 报 `IP_PRACTICE 是 fine-grained token，但也可访问 zhjnerv/myskill，授权仓库多于最小权限`。
 - [ ] 制造一次真实差异验证开 PR 路径。完成标准：上游出现 `myskill-sync/<name>` 分支与对应 PR，内容只含该技能目录。
 
 ## 当前进度
 
-代码侧改动完成并通过测试，等待推送后手动运行 workflow 验证。
+代码侧改动已推送（`c72f01b`、`15ad029`、`5d5fef3`），workflow 手动运行三次全部 success，`[current]` 路径已验证。
 
 ## 下一步动作
 
-提交并推送，然后 `gh workflow run` 手动触发一次，确认三个 `[current]`。
+真实差异路径（`myskill-sync/<name>` 分支 + PR）尚未验证，需要在上游建分支，待用户授权后执行。
 
 ## 已知风险
 
@@ -54,5 +55,5 @@
 
 ## 凭据待确认
 
-无法通过 API 读取 secret 内容，因此尚未确认 `IP_PRACTICE` 是否为仅授权 `ip-practice-workbench-skills` 的 fine-grained token。
-若它其实是宽权限 classic token（如 `repo` scope），工作流能跑通但违背最小权限。验证运行成功后请核对 token 类型与权限范围。
+已确认 `IP_PRACTICE` 是 fine-grained token（响应头无 `X-OAuth-Scopes`），但它能读 `zhjnerv/myskill`，说明授权仓库不止 `ip-practice-workbench-skills`。
+这不算凭据泄露风险，但违反最小权限：一旦 token 泄漏，攻击面比只授权一个仓库更大。建议在 GitHub 上把该 token 的 Repository access 收紧到仅 `ip-practice-workbench-skills`。
