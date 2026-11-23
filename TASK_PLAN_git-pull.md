@@ -64,4 +64,4 @@
 
 ## 下一步动作
 
-推送 `main` 到 `origin/main` 需另行确认。恢复点：`backup/pre-pull-20261123`（`d1f5922`）。
+已完成推送：`origin/main` 从 `fa0b409` 更新为 `85b8c2c`。恢复点：`backup/pre-pull-20261123`（`d1f5922`）。
