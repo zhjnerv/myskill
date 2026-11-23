@@ -31,4 +31,4 @@
 
 [统计脚本](../../skills/qu-ai-wei/scripts/segment_length.py) 只接收编辑者筛选好的 UTF-8 纯文本，不自动解析 Markdown 或判断引语等保护边界。在 skill 目录运行 `python -X utf8 scripts/segment_length.py 正文.txt`，或用 `-` 读取标准输入；返回片段字数、总字数和平均值，退出码 0/1/2 分别为达标、未达标、无适用内容或输入错误。
 
-验证及安装结果见 [本地账](qu-ai-wei.md) 与 [实施计划](../../TASK_PLAN_qu-ai-wei-average-segment-length.md)。
+验证及安装结果见 [本地账](qu-ai-wei.md) 与 [实施计划](../task-plans/TASK_PLAN_qu-ai-wei-average-segment-length.md)。

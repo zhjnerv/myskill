@@ -16,7 +16,7 @@
 - [x] 同步回独立源仓库。结果：源仓库 PR #2 已合并，merge commit `15e5e5de`；PR #1 因本机自动身份错误关闭。两端三份 SKILL.md SHA-256 一致；registry tree hashes 与本地目录一致。
 
 ## 当前进度
-触发词已更新并交付两端。myskill PR #1 合入目录迁移、回推工作流及三项描述；源仓库 PR #2 合入三项描述；myskill PR #2 记录同步时间和 tree hashes。双向自动 PR workflow 已写入，但 Actions 缺少 `IP_PRACTICE_WORKBENCH_TOKEN` secret，因此将来的自动回推尚未启用。
+触发词已更新并交付两端。myskill PR #1 合入目录迁移、回推工作流及三项描述；源仓库 PR #2 合入三项描述；myskill PR #2 记录同步时间和 tree hashes。双向自动 PR workflow 已写入，当时因 Actions 缺少 secret，自动回推尚未启用。后续已在 2026-11-23 配置 `IP_PRACTICE` 并实跑成功，见[双向同步启用计划](../../TASK_PLAN_双向同步启用.md)。
 
 ## 下一步动作
-无剩余代码动作。若要启用未来的自动回推，在 `zhjnerv/myskill` 配置具有源仓库 Contents 与 Pull requests 读写权限的 `IP_PRACTICE_WORKBENCH_TOKEN` secret；本次改动已通过人工 PR 流程完成双端同步。
+无剩余代码动作。本次改动通过人工 PR 流程完成双端同步；自动回推的启用与验证在[双向同步启用计划](../../TASK_PLAN_双向同步启用.md) 收尾。

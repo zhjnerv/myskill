@@ -4,8 +4,8 @@
 
 让 `myskill` 与 `ip-practice-workbench-skills` 之间的两个方向都能自动跑通：
 
-- 上游 → myskill：由 [sync-upstream-skills.yml](../.github/workflows/sync-upstream-skills.yml) 每周一 00:00 UTC 拉取
-- myskill → 上游：由 [sync-ip-practice-skills-back.yml](../.github/workflows/sync-ip-practice-skills-back.yml) 在三个技能目录被推送后开 PR
+- 上游 → myskill：由 [sync-upstream-skills.yml](.github/workflows/sync-upstream-skills.yml) 每周一 00:00 UTC 拉取
+- myskill → 上游：由 [sync-ip-practice-skills-back.yml](.github/workflows/sync-ip-practice-skills-back.yml) 在三个技能目录被推送后开 PR
 
 本次只解决第二个方向缺失凭据的问题，并修掉一个已知的误覆盖风险。不改技能内容。
 

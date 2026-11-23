@@ -1,13 +1,13 @@
 # TASK_PLAN：重连 cn-patent-agent-skills
 
 ## 目标与范围
-把原 `claude-patent-creator-cn` 整包连接迁移为 `cn-patent-agent-skills`：更新 [registry.json](registry.json) 的包名、远端地址和本地前缀，把 [vendor/claude-patent-creator-cn](vendor/claude-patent-creator-cn) 迁到新包名并同步远端改名后的内容，同时把本机 Codex/Claude 的七个 `cn-patent-*` Skill 入口接到本仓库新包。
+把原 `claude-patent-creator-cn` 整包连接迁移为 `cn-patent-agent-skills`：更新 [registry.json](../../registry.json) 的包名、远端地址和本地前缀，把 `vendor/claude-patent-creator-cn`（现为 `vendor/cn-patent-agent-skills`）的内容迁移到新包名并同步远端改名后的内容，同时把本机 Codex/Claude 的七个 `cn-patent-*` Skill 入口接到本仓库新包。
 
 ## 重要约束
 - 新仓库地址已核验为 `https://github.com/zhjnerv/cn-patent-agent-skills`；七个 Skill 名称不变。
 - 用户已明确授权本次提交并推送；保留现有未跟踪任务计划，不把无关未跟踪文件混入提交。
 - 只替换指向旧源的 Skill 链接，不删除或改动 `~\.cc-switch\skills` 下的源目录。
-- 修改写集限于 `registry.json`、[docs/usage.md](docs/usage.md)、`vendor/claude-patent-creator-cn -> vendor/cn-patent-agent-skills` 及本计划。
+- 修改写集限于 `registry.json`、[docs/usage.md](../usage.md)、`vendor/claude-patent-creator-cn -> vendor/cn-patent-agent-skills` 及本计划。
 
 ## 步骤与验证
 - [x] 核验旧仓库重命名和新远端。结果：GitHub API 返回 `zhjnerv/cn-patent-agent-skills`，远端 `main` 为 `c396b89a`。

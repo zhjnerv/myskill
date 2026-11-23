@@ -2,7 +2,7 @@
 
 ## 目标与范围
 
-盘点本仓库所有含 `SKILL.md` 的技能，并把自有整包 `claude-patent-creator-cn` 从 `zhjnerv/claude-patent-creator-cn` 拉取到本地。范围含 [registry.json](registry.json) 中该整包及其 `vendor/claude-patent-creator-cn/` 目录。
+盘点本仓库所有含 `SKILL.md` 的技能，并把自有整包 `claude-patent-creator-cn` 从 `zhjnerv/claude-patent-creator-cn` 拉取到本地。范围含 [registry.json](../../registry.json) 中该整包及其 `vendor/claude-patent-creator-cn/` 目录。
 
 ## 重要约束
 
@@ -13,7 +13,7 @@
 ## 步骤与验证
 
 - [x] 读取仓库状态、注册表与本地版本信息。结果：registry 登记 6 项、共覆盖 13 份 `SKILL.md`；工作区已有未提交文档/脚本改动。
-- [x] 查询远程版本和内容树。结果：项目自带 [skill-status.ps1](scripts/skill-status.ps1) 因本机缺少 `gh` 回退到耗时的 subtree split，在 md2word 处停止后改用 GitHub 只读 API；远端目录树和关键 `SKILL.md` / `CHANGELOG.md` 已复核。
+- [x] 查询远程版本和内容树。结果：项目自带 [skill-status.ps1](../../scripts/skill-status.ps1) 因本机缺少 `gh` 回退到耗时的 subtree split，在 md2word 处停止后改用 GitHub 只读 API；远端目录树和关键 `SKILL.md` / `CHANGELOG.md` 已复核。
 - [x] 汇总更新盘点并检查内部链接。结果：自有专利整包与 `gzh-design` 存在上游更新；其余项目状态见下表。计划中的本地文件链接已检查存在。
 - [x] 在隔离 worktree 执行 `skill-sync.ps1 -Name claude-patent-creator-cn`。结果：dry-run 指向 fork 提交 `3723846de2`；同步产生 subtree merge 与 registry 基线提交，整包 tree 为 `8264ac29caa7b7bb723f1f472d72a3f5de90e8ea`。候选范围仅含该整包和 registry。
 - [x] 将已核候选窄采用到当前 main 并验证。结果：以具名主目录门禁提交 `c1562ff66a9c3cd8683b4cf7c3d43be6a3b5c714`，仅含 registry 与 `vendor/claude-patent-creator-cn/` 的 89 个路径；提交包 tree 与候选一致，原有无关 dirty 文件保留。未 push；整包测试未运行。
@@ -22,11 +22,11 @@
 
 | registry 项 | 判断 | 证据 |
 |---|---|---|
-| `claude-patent-creator-cn` | **有更新，建议审阅后同步。** 上游与 fork 当前均为提交 `3723846de2d002cb5180d94c028bf1bbbf1ec262`（2026-10-05），本地上次同步为 2026-09-28。7 个子 Skill 中 6 个 `SKILL.md` 与上游存在差异：起草、权利要求分析、附图、形式审查、综合审查、工作流；说明书审查 Skill 相同。整包还有参考资料、脚本、配置与测试资产的上游差异。 | [registry 基线](registry.json)；[上游 2026-10-05 提交](https://github.com/zhjnerv/claude-patent-creator-cn/commit/3723846de2d002cb5180d94c028bf1bbbf1ec262) |
-| `gzh-design` | **有更新。** 原作者上游最新提交 `339840b1343c86b0159d97a06a0e9eba7c09f9ba`（2026-10-03）；`zhjnerv` fork 落后 4 个提交。上游相对本地修改了 `SKILL.md`、`assets/preview-template.html`、`scripts/extract_docx.py`。本地另有二维码指引与二维码资源/脚本，合并时应保留这些本地定制。 | [registry 基线](registry.json)；[原作者上游提交](https://github.com/isjiamu/gzh-design-skill/commit/339840b1343c86b0159d97a06a0e9eba7c09f9ba)；[本地 SKILL](skills/gzh-design/SKILL.md) |
-| `md2word` | **未发现新上游版本。** 本地与上游版本均为 `1.3.8`，上游 CHANGELOG 最新版本日期为 2026-09-23。文件差异来自本地触发词 `2word`、页眉页脚模板功能等定制，未发现上游新增的技能目录文件；不要整目录覆盖。 | [本地 SKILL](skills/md2word/SKILL.md)；[上游更新日志](https://github.com/cat-xierluo/legal-skills/blob/main/skills/md2word/CHANGELOG.md) |
-| `patent-download` | **当前。** registry 对应子目录的本地、fork、原作者上游树完全一致；本地版本 `2.7.1` 与上游一致。 | [本地 SKILL](skills/patent-download/SKILL.md)；[上游 SKILL](https://github.com/cat-xierluo/legal-skills/blob/main/skills/patent-download/SKILL.md) |
-| `qu-ai-wei` | **当前。** 本地、fork、原作者上游的技能树完全一致。 | [本地 SKILL](skills/qu-ai-wei/SKILL.md)；[上游仓库](https://github.com/LifelongLazyLearner/qu-ai-wei) |
+| `claude-patent-creator-cn` | **有更新，建议审阅后同步。** 上游与 fork 当前均为提交 `3723846de2d002cb5180d94c028bf1bbbf1ec262`（2026-10-05），本地上次同步为 2026-09-28。7 个子 Skill 中 6 个 `SKILL.md` 与上游存在差异：起草、权利要求分析、附图、形式审查、综合审查、工作流；说明书审查 Skill 相同。整包还有参考资料、脚本、配置与测试资产的上游差异。 | [registry 基线](../../registry.json)；[上游 2026-10-05 提交](https://github.com/zhjnerv/claude-patent-creator-cn/commit/3723846de2d002cb5180d94c028bf1bbbf1ec262) |
+| `gzh-design` | **有更新。** 原作者上游最新提交 `339840b1343c86b0159d97a06a0e9eba7c09f9ba`（2026-10-03）；`zhjnerv` fork 落后 4 个提交。上游相对本地修改了 `SKILL.md`、`assets/preview-template.html`、`scripts/extract_docx.py`。本地另有二维码指引与二维码资源/脚本，合并时应保留这些本地定制。 | [registry 基线](../../registry.json)；[原作者上游提交](https://github.com/isjiamu/gzh-design-skill/commit/339840b1343c86b0159d97a06a0e9eba7c09f9ba)；[本地 SKILL](../../skills/gzh-design/SKILL.md) |
+| `md2word` | **未发现新上游版本。** 本地与上游版本均为 `1.3.8`，上游 CHANGELOG 最新版本日期为 2026-09-23。文件差异来自本地触发词 `2word`、页眉页脚模板功能等定制，未发现上游新增的技能目录文件；不要整目录覆盖。 | [本地 SKILL](../../skills/md2word/SKILL.md)；[上游更新日志](https://github.com/cat-xierluo/legal-skills/blob/main/skills/md2word/CHANGELOG.md) |
+| `patent-download` | **当前。** registry 对应子目录的本地、fork、原作者上游树完全一致；本地版本 `2.7.1` 与上游一致。 | [本地 SKILL](../../skills/patent-download/SKILL.md)；[上游 SKILL](https://github.com/cat-xierluo/legal-skills/blob/main/skills/patent-download/SKILL.md) |
+| `qu-ai-wei` | **当前。** 本地、fork、原作者上游的技能树完全一致。 | [本地 SKILL](../../skills/qu-ai-wei/SKILL.md)；[上游仓库](https://github.com/LifelongLazyLearner/qu-ai-wei) |
 | `legal-skill-alignment` | **当时为当前版本。** 本地与 fork、原作者上游对应子目录树完全一致；本地和上游版本均为 `1.0.7`。该 skill 已于 2026-11-03 删除。 | 本地 SKILL；[上游 SKILL](https://github.com/cat-xierluo/legal-skills/blob/main/skills/legal-skill-alignment/SKILL.md) |
 
 ### 检查限制
@@ -70,21 +70,23 @@
 
 用户确认跟进。按仓库 fork-workflow 执行 `skill-sync.ps1 -Name gzh-design -FromUpstream`。
 
-- [ ] 检查环境（gh 可用性、工作区状态）。
-- [ ] 在隔离 worktree 从 main 跑同步，fork 先追平 isjiamu 上游（fa4b78fb94）。
-- [ ] 核对候选提交范围仅含 skills/gzh-design/ 与 registry.json。
-- [ ] 窄采用候选到当前 main，保留本地二维码定制；冲突时整份保留本仓库文件并记录。
-- [ ] 验证：git diff 范围、registry lastSync 刷新、本地定制仍在。
+以下清单当初未回填，实际结果见本节之后的「跟进轮结果（2026-10-16）」，五项均已完成：
+
+- [x] 检查环境（gh 可用性、工作区状态）。
+- [x] 在隔离 worktree 从 main 跑同步，fork 先追平 isjiamu 上游（fa4b78fb94）。
+- [x] 核对候选提交范围仅含 skills/gzh-design/ 与 registry.json。
+- [x] 窄采用候选到当前 main，保留本地二维码定制；冲突时整份保留本仓库文件并记录。
+- [x] 验证：git diff 范围、registry lastSync 刷新、本地定制仍在。
 
 ## 跟进轮结果（2026-10-16）
 
 - [x] 环境检查：gh 已安装但未登录，脚本回退本地 push 首次失败为瞬时网络错误，手动重推成功。
 - [x] fork `zhjnerv/gzh-design-skill` main 已追平原作者 `fa4b78fb94`（ba1f417..fa4b78f 快进）。
-- [x] 隔离 worktree 执行 `skill-sync.ps1 -Name gzh-design`，冲突 0；候选 3 个提交（7a39b2a squash、346fd38 subtree merge、bab1b6a registry）仅涉及 [skills/gzh-design/](skills/gzh-design/SKILL.md) 与 registry.json。
+- [x] 隔离 worktree 执行 `skill-sync.ps1 -Name gzh-design`，冲突 0；候选 3 个提交（7a39b2a squash、346fd38 subtree merge、bab1b6a registry）仅涉及 [skills/gzh-design/](../../skills/gzh-design/SKILL.md) 与 registry.json。
 - [x] 以 `git merge --ff-only` 窄采用到 main（bab1b6a），原有未提交改动全部保留。main 领先 origin 4 个提交，未 push。
 - [x] 验证：
   - registry lastSyncTree `ba6f805318a27ab4c7c13c33dab9069b4cce4d19` 与 `git rev-parse sync/...:skills/gzh-design` 一致。
-  - 本地二维码定制完整保留（[SKILL.md](skills/gzh-design/SKILL.md) 第 112 行二维码指引、assets/account-qr.jpg、scripts/account_qr_block.py）。
+  - 本地二维码定制完整保留（[SKILL.md](../../skills/gzh-design/SKILL.md) 第 112 行二维码指引、assets/account-qr.jpg、scripts/account_qr_block.py）。
   - 上游渐变修复已生效（SKILL.md 第 86、129 行；高亮/荧光笔改纯色，移除 linear-gradient 默认可用项）。
   - 随包新增测试 `test_validate_gzh_html.py`：Windows 默认控制台编码下 2 个用例因子进程 GBK 输出按 UTF-8 解码失败，属环境问题；`PYTHONIOENCODING=utf-8` 后 3 个测试全部通过。
 
@@ -96,7 +98,7 @@
 
 ### 目标与范围
 
-对 [registry.json](registry.json) 登记的全部 6 个 skill 做只读上游复查；只判断是否有对应更新，不执行同步、提交或推送。沿用 fork 基线流程：外部 skill 以 `zhjnerv` fork 为本仓库基线，fork 再相对原作者 upstream 判断。
+对 [registry.json](../../registry.json) 登记的全部 6 个 skill 做只读上游复查；只判断是否有对应更新，不执行同步、提交或推送。沿用 fork 基线流程：外部 skill 以 `zhjnerv` fork 为本仓库基线，fork 再相对原作者 upstream 判断。
 
 ### 约束与验证
 
@@ -110,18 +112,18 @@
 - [x] 记录当前工作区与 registry 基线。结果：本地 HEAD `4832c88ec2fce7a3ed0dd4dcd43e2c6e17fe321d`；已跟踪 skill 目录无未提交改动，未跟踪文件均为既有任务计划/文档。
 - [x] 运行只读远程状态检查。结果：本机 `gh` 已安装但未登录，改用 GitHub 公共只读 API 对本地、fork、upstream 的 Git tree 做内容寻址比较；未调用会修改内容的同步脚本。
 - [x] 对有变化的 skill 复核提交与变更文件范围。结果见下表；`gzh-design` 用 commits API 按上次同步时间过滤，`md2word` 用 `path=skills/md2word` 过滤确认为 0 个新提交。
-- [x] 更新检查结论、当前进度和下一步动作。结果：只读复查完成；未修改任何 skill、[registry.json](registry.json) 基线或工作区代码。
+- [x] 更新检查结论、当前进度和下一步动作。结果：只读复查完成；未修改任何 skill、[registry.json](../../registry.json) 基线或工作区代码。
 
 ### 检查结果（2026-10-28）
 
 | registry 项 | 判断 | 证据 |
 |---|---|---|
-| `cn-patent-agent-skills` | 当前。fork 与 upstream 同仓库，HEAD 均为 `c396b89a9e73`，整包 tree 均为 `7ac38cee95de`，与本地/registry 一致。 | [registry 基线](registry.json)；上游仓库 https://github.com/zhjnerv/cn-patent-agent-skills |
-| `gzh-design` | **有新上游更新，建议后续同步。** 上游 HEAD `750a50dffdc4`（2026-10-21），本地/registry tree `ba6f805318a2`；fork HEAD 仍是上次同步的 `fa4b78fb9471`。新增 2 个提交，只改 `README.md`、`README.en.md`，公告 AtomGit 镜像。本地二维码定制为 `assets/account-qr.jpg`、`scripts/account_qr_block.py` 和 [SKILL.md](skills/gzh-design/SKILL.md) 中的指引；上游未碰这些文件。 | [gzh-design 本地账](docs/skills/gzh-design.md)；上游提交 5634700b4adc（2026-10-20）与 750a50dffdc4（2026-10-21） |
-| `legal-skill-alignment` | 当时当前。upstream 子路径 tree `04e08d8f5614`，与 fork、本地、registry 完全一致。该 skill 已于 2026-11-03 删除。 | 本地 SKILL；[registry 基线](registry.json) |
-| `md2word` | 无 10-19 后的新上游更新。按 `skills/md2word` 过滤上游 commits API 返回 0 个提交。本地与 upstream 有 12 个内容差异，对应页眉页脚/斯可睿抬头/GBK 控制台/原生标题样式等本地定制；fork 相对 upstream 只多 fork 侧 `DECISIONS.md` 和 `TASKS.md`。不要把这些定制差异误判为待同步更新。 | [md2word 本地账](docs/skills/md2word.md)；[registry 基线](registry.json) |
-| `patent-download` | 当前。upstream 子路径 tree `b353d07dbf2f`，与 fork、本地、registry 完全一致。 | [本地 SKILL](skills/patent-download/SKILL.md)；[registry 基线](registry.json) |
-| `qu-ai-wei` | 当前。fork 与 upstream HEAD 均为 `1d32e803f091`，tree `2d0e48d6d3df` 与本地/registry 一致。 | [本地 SKILL](skills/qu-ai-wei/SKILL.md)；[registry 基线](registry.json) |
+| `cn-patent-agent-skills` | 当前。fork 与 upstream 同仓库，HEAD 均为 `c396b89a9e73`，整包 tree 均为 `7ac38cee95de`，与本地/registry 一致。 | [registry 基线](../../registry.json)；上游仓库 https://github.com/zhjnerv/cn-patent-agent-skills |
+| `gzh-design` | **有新上游更新，建议后续同步。** 上游 HEAD `750a50dffdc4`（2026-10-21），本地/registry tree `ba6f805318a2`；fork HEAD 仍是上次同步的 `fa4b78fb9471`。新增 2 个提交，只改 `README.md`、`README.en.md`，公告 AtomGit 镜像。本地二维码定制为 `assets/account-qr.jpg`、`scripts/account_qr_block.py` 和 [SKILL.md](../../skills/gzh-design/SKILL.md) 中的指引；上游未碰这些文件。 | [gzh-design 本地账](../skills/gzh-design.md)；上游提交 5634700b4adc（2026-10-20）与 750a50dffdc4（2026-10-21） |
+| `legal-skill-alignment` | 当时当前。upstream 子路径 tree `04e08d8f5614`，与 fork、本地、registry 完全一致。该 skill 已于 2026-11-03 删除。 | 本地 SKILL；[registry 基线](../../registry.json) |
+| `md2word` | 无 10-19 后的新上游更新。按 `skills/md2word` 过滤上游 commits API 返回 0 个提交。本地与 upstream 有 12 个内容差异，对应页眉页脚/斯可睿抬头/GBK 控制台/原生标题样式等本地定制；fork 相对 upstream 只多 fork 侧 `DECISIONS.md` 和 `TASKS.md`。不要把这些定制差异误判为待同步更新。 | [md2word 本地账](../skills/md2word.md)；[registry 基线](../../registry.json) |
+| `patent-download` | 当前。upstream 子路径 tree `b353d07dbf2f`，与 fork、本地、registry 完全一致。 | [本地 SKILL](../../skills/patent-download/SKILL.md)；[registry 基线](../../registry.json) |
+| `qu-ai-wei` | 当前。fork 与 upstream HEAD 均为 `1d32e803f091`，tree `2d0e48d6d3df` 与本地/registry 一致。 | [本地 SKILL](../../skills/qu-ai-wei/SKILL.md)；[registry 基线](../../registry.json) |
 
 ### 检查限制
 
@@ -139,7 +141,7 @@
 
 ### 目标与范围
 
-只读检查当前仓库状态，并逐一判断 [registry.json](registry.json) 中 7 个登记项、共 13 份 `SKILL.md` 是否有对应上游更新；不执行同步、提交、推送、部署或清理。
+只读检查当前仓库状态，并逐一判断 [registry.json](../../registry.json) 中 7 个登记项、共 13 份 `SKILL.md` 是否有对应上游更新；不执行同步、提交、推送、部署或清理。
 
 ### 重要约束
 
@@ -163,18 +165,18 @@
 
 | registry 项 | 判断 | 证据 |
 |---|---|---|
-| [cn-patent-agent-skills](vendor/cn-patent-agent-skills/skills/cn-patent-workflow/SKILL.md) | **无新增内容更新。** 7 个子 skill 随整包一致。 | 上游与 fork HEAD 均为 `c396b89`，远端根 tree 与本地 tree 均为 `7ac38cee`；上游没有 2026-10-25 后的新提交。远端 myskill 的自动同步提交也未改变该 tree。 |
-| [gzh-design](skills/gzh-design/SKILL.md) | **本地无新增更新；fork 尚未追平。** | 原作者 HEAD 仍为 `750a50d`，本地已通过 `89f3c5d` 纳入该版本；fork `fa4b78f` 落后原作者 2 个 README 提交，但这 2 个提交已经在本地。本地二维码定制见 [gzh-design 本地账](docs/skills/gzh-design.md)。 |
+| [cn-patent-agent-skills](../../vendor/cn-patent-agent-skills/skills/cn-patent-workflow/SKILL.md) | **无新增内容更新。** 7 个子 skill 随整包一致。 | 上游与 fork HEAD 均为 `c396b89`，远端根 tree 与本地 tree 均为 `7ac38cee`；上游没有 2026-10-25 后的新提交。远端 myskill 的自动同步提交也未改变该 tree。 |
+| [gzh-design](../../skills/gzh-design/SKILL.md) | **本地无新增更新；fork 尚未追平。** | 原作者 HEAD 仍为 `750a50d`，本地已通过 `89f3c5d` 纳入该版本；fork `fa4b78f` 落后原作者 2 个 README 提交，但这 2 个提交已经在本地。本地二维码定制见 [gzh-design 本地账](../skills/gzh-design.md)。 |
 | `legal-skill-alignment` | **无更新；随后已删除。** | 原作者 `f5dafa4`、fork `6203418` 与本地在 `skills/legal-skill-alignment` 的 tree 均为 `04e08d8f`；删除记录见 [TASK_PLAN_remove-legal-skill-alignment.md](TASK_PLAN_remove-legal-skill-alignment.md)。 |
-| [md2word](skills/md2word/SKILL.md) | **无新增更新。** | 上游该路径最后一次提交为 `b7f5bc9`（2026-10-18），本地已在 `d06c075`（2026-10-19）同步；之后无该路径提交。上游 tree `db274f11` 与本地 `bbf11bbe` 的差异来自既有本地定制，见 [md2word 本地账](docs/skills/md2word.md)。 |
-| [patent-download](skills/patent-download/SKILL.md) | **无更新。** | 原作者、fork 与本地 tree 均为 `b353d07d`。 |
-| [qu-ai-wei](skills/qu-ai-wei/SKILL.md) | **无新增更新。** | 上游与 fork HEAD 均为 `1d32e803`，tree 均为 `2d0e48d6`；本地 tree `ed3b3a49` 来自 [qu-ai-wei 本地账](docs/skills/qu-ai-wei.md)记录的平均断句长度定制。 |
-| [choice-oracle](skills/choice-oracle/SKILL.md) | **不适用。** | registry 标记为 `origin: own`，没有上游。 |
+| [md2word](../../skills/md2word/SKILL.md) | **无新增更新。** | 上游该路径最后一次提交为 `b7f5bc9`（2026-10-18），本地已在 `d06c075`（2026-10-19）同步；之后无该路径提交。上游 tree `db274f11` 与本地 `bbf11bbe` 的差异来自既有本地定制，见 [md2word 本地账](../skills/md2word.md)。 |
+| [patent-download](../../skills/patent-download/SKILL.md) | **无更新。** | 原作者、fork 与本地 tree 均为 `b353d07d`。 |
+| [qu-ai-wei](../../skills/qu-ai-wei/SKILL.md) | **无新增更新。** | 上游与 fork HEAD 均为 `1d32e803`，tree 均为 `2d0e48d6`；本地 tree `ed3b3a49` 来自 [qu-ai-wei 本地账](../skills/qu-ai-wei.md)记录的平均断句长度定制。 |
+| [choice-oracle](../../skills/choice-oracle/SKILL.md) | **不适用。** | registry 标记为 `origin: own`，没有上游。 |
 
 ### 项目状态（2026-11-03）
 
 - 本地 `main` 与 HEAD 为 `d58eec4`；实时远端 `origin/main` 为 `dddf92f`，GitHub compare 显示远端向前 3 个提交、本地落后 0 个本地独有提交，可以快进。
-- 远端 3 个提交来自 2026-11-02 成功运行的 [上游同步 workflow](.github/workflows/sync-upstream-skills.yml)；内容变化只有 [registry.json](registry.json) 中 `cn-patent-agent-skills` 的 `lastSync` 时间，skill 内容 tree 未变。
+- 远端 3 个提交来自 2026-11-02 成功运行的 [上游同步 workflow](../../.github/workflows/sync-upstream-skills.yml)；内容变化只有 [registry.json](../../registry.json) 中 `cn-patent-agent-skills` 的 `lastSync` 时间，skill 内容 tree 未变。
 - 当前无暂存改动；1 个已跟踪修改为 [choice-oracle 计划](TASK_PLAN_choice-oracle.md)，另有 9 个未跟踪条目（既有任务计划与 `临时目录/`）。没有未提交的 skill 内容改动。
 - 当前只有主 worktree；最新 GitHub Actions 定时同步运行 `41395354396` 成功。
 
@@ -186,7 +188,7 @@
 ## 复查轮（2026-11-04）：检查上游更新
 
 ### 目标与范围
-对 [registry.json](registry.json) 登记的 5 个 vendored skill（`cn-patent-agent-skills`、`gzh-design`、`md2word`、`patent-download`、`qu-ai-wei`）做只读上游更新复查，自研 4 个 skill 标注为不适用。判断 upstream 与 fork 相对本仓库本地及 `lastSyncTree` 是否有新增更新；只读检查，不执行同步、拉取、合并或修改业务代码。
+对 [registry.json](../../registry.json) 登记的 5 个 vendored skill（`cn-patent-agent-skills`、`gzh-design`、`md2word`、`patent-download`、`qu-ai-wei`）做只读上游更新复查，自研 4 个 skill 标注为不适用。判断 upstream 与 fork 相对本仓库本地及 `lastSyncTree` 是否有新增更新；只读检查，不执行同步、拉取、合并或修改业务代码。
 
 ### 重要约束
 - 保持工作区干净，不改动任何 skill 或 registry 同步基线。
@@ -204,12 +206,12 @@
 
 | registry 项 | 判断 | 证据与详情 |
 |---|---|---|
-| [cn-patent-agent-skills](vendor/cn-patent-agent-skills/) | **当前（无新更新）** | 上游与 fork 均为 `zhjnerv/cn-patent-agent-skills` main 分支，HEAD 仍为 `c396b89`（2026-10-20），根 tree 为 `7ac38cee`，与本地 HEAD tree 及 [registry 基线](registry.json) 完全一致。 |
-| [gzh-design](skills/gzh-design/SKILL.md) | **当前（无新更新）** | 原作者 `isjiamu/gzh-design-skill` 最新提交仍为 `750a50d`（2026-10-21），自此无任何新提交。该提交已于 2026-10-26 随 `3294abf` 纳入本地。fork 仍留在 `fa4b78f`（未追平 2 个 README 提交，但不影响本地）。本地二维码定制见 [gzh-design 本地账](docs/skills/gzh-design.md)。 |
-| [md2word](skills/md2word/SKILL.md) | **当前（无新更新）** | 原作者 `cat-xierluo/legal-skills` 虽有其他目录提交，但针对 `skills/md2word` 路径最后一次提交为 `b7f5bc9`（2026-10-18），之后无任何触碰该路径的提交。本地已于 2026-10-19 纳入该上游基线，本地定制见 [md2word 本地账](docs/skills/md2word.md)。 |
-| [patent-download](skills/patent-download/SKILL.md) | **当前（无新更新）** | 原作者 `cat-xierluo/legal-skills` 针对 `skills/patent-download` 路径自 2026-08-05（`5fce235`，v2.7.1）以来无任何新提交。本地 tree `b353d07d` 与上游完全一致。 |
-| [qu-ai-wei](skills/qu-ai-wei/SKILL.md) | **当前（无新更新）** | 原作者 `LifelongLazyLearner/qu-ai-wei` 最新提交仍为 `1d32e803`（2026-09-10），自此无任何新提交。fork 亦为 `1d32e803`，上游 tree 为 `2d0e48d6`。本地 tree `ed3b3a49` 系已记录的本地特性定制（`f48cede` 断句长度要求），见 [qu-ai-wei 本地账](docs/skills/qu-ai-wei.md)。 |
-| [choice-oracle](skills/choice-oracle/SKILL.md) 等 4 个自研技能 | **不适用** | `choice-oracle`、`cn-patent-fast-track-screener`、`cn-office-action-prior-art-collector`、`cn-trademark-goods-services-recommender` 均为自研技能（`origin: own`），无外部上游。 |
+| [cn-patent-agent-skills](../../vendor/cn-patent-agent-skills) | **当前（无新更新）** | 上游与 fork 均为 `zhjnerv/cn-patent-agent-skills` main 分支，HEAD 仍为 `c396b89`（2026-10-20），根 tree 为 `7ac38cee`，与本地 HEAD tree 及 [registry 基线](../../registry.json) 完全一致。 |
+| [gzh-design](../../skills/gzh-design/SKILL.md) | **当前（无新更新）** | 原作者 `isjiamu/gzh-design-skill` 最新提交仍为 `750a50d`（2026-10-21），自此无任何新提交。该提交已于 2026-10-26 随 `3294abf` 纳入本地。fork 仍留在 `fa4b78f`（未追平 2 个 README 提交，但不影响本地）。本地二维码定制见 [gzh-design 本地账](../skills/gzh-design.md)。 |
+| [md2word](../../skills/md2word/SKILL.md) | **当前（无新更新）** | 原作者 `cat-xierluo/legal-skills` 虽有其他目录提交，但针对 `skills/md2word` 路径最后一次提交为 `b7f5bc9`（2026-10-18），之后无任何触碰该路径的提交。本地已于 2026-10-19 纳入该上游基线，本地定制见 [md2word 本地账](../skills/md2word.md)。 |
+| [patent-download](../../skills/patent-download/SKILL.md) | **当前（无新更新）** | 原作者 `cat-xierluo/legal-skills` 针对 `skills/patent-download` 路径自 2026-08-05（`5fce235`，v2.7.1）以来无任何新提交。本地 tree `b353d07d` 与上游完全一致。 |
+| [qu-ai-wei](../../skills/qu-ai-wei/SKILL.md) | **当前（无新更新）** | 原作者 `LifelongLazyLearner/qu-ai-wei` 最新提交仍为 `1d32e803`（2026-09-10），自此无任何新提交。fork 亦为 `1d32e803`，上游 tree 为 `2d0e48d6`。本地 tree `ed3b3a49` 系已记录的本地特性定制（`f48cede` 断句长度要求），见 [qu-ai-wei 本地账](../skills/qu-ai-wei.md)。 |
+| [choice-oracle](../../skills/choice-oracle/SKILL.md) 等 4 个自研技能 | **不适用** | `choice-oracle`、`cn-patent-fast-track-screener`、`cn-office-action-prior-art-collector`、`cn-trademark-goods-services-recommender` 均为自研技能（`origin: own`），无外部上游。 |
 
 ### 当前进度
 本轮 5 个引入 skill 的上游更新核查已全部完成。经 `gh api` 逐一比对，各外部上游目前均无新版本或新提交需要同步。未修改任何业务代码或注册表基线。

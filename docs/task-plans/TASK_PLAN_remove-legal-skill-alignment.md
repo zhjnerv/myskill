@@ -2,7 +2,7 @@
 
 ## 目标与范围
 
-从本仓库删除 `legal-skill-alignment`，包括 `skills/legal-skill-alignment/` 的 44 个已跟踪文件和 [registry.json](registry.json) 中的对应登记项；同步修复受影响计划中的内部链接。不删除上游 fork，不执行同步、提交、推送或部署。
+从本仓库删除 `legal-skill-alignment`，包括 `skills/legal-skill-alignment/` 的 44 个已跟踪文件和 [registry.json](../../registry.json) 中的对应登记项；同步修复受影响计划中的内部链接。不删除上游 fork，不执行同步、提交、推送或部署。
 
 ## 重要约束
 

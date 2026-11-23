@@ -2,7 +2,7 @@
 
 ## 目标与结果
 
-独立仓库负责开发和开源；myskill 通过 [整包登记](registry.json) 同步到 [vendor 包](vendor/ip-practice-workbench-skills/README.md)，统一部署三个技能。管理方式和可复用经验只维护在 [包说明](docs/skills/ip-practice-workbench-skills.md)。
+独立仓库负责开发和开源；myskill 通过 [整包登记](../../registry.json) 同步到 [vendor 包](../../vendor/ip-practice-workbench-skills/README.md)，统一部署三个技能。管理方式和可复用经验只维护在 [包说明](../skills/ip-practice-workbench-skills.md)。
 
 ## 已完成（2026-11-06）
 
@@ -15,9 +15,9 @@
 
 本地接回、安装及远端推送完成；已跟踪工作区干净，main 与 origin/main 均为 `2bf5787ce0be42ff0e4959a152529f29e34b641e`，差异 0/0。本轮不改独立公开仓库的已跟踪文件、技能业务实现或线上页面。
 
-本轮无待推送提交；公开仓库资料来源的待核事项仍在包内 DATA_SOURCES/NOTICE 中。后续维护命令见 [包说明](docs/skills/ip-practice-workbench-skills.md)。
+本轮无待推送提交；公开仓库资料来源的待核事项仍在包内 DATA_SOURCES/NOTICE 中。后续维护命令见 [包说明](../skills/ip-practice-workbench-skills.md)。
 
-已验证隔离候选与远端 tree 相同并移除本轮临时 worktree/分支，仓外回退与格式审查证据保留；没有遗留未验证的本机安装步骤。新会话从本记录与 [使用手册](docs/usage.md) 接手，无需重跑已通过的业务测试。
+已验证隔离候选与远端 tree 相同并移除本轮临时 worktree/分支，仓外回退与格式审查证据保留；没有遗留未验证的本机安装步骤。新会话从本记录与 [使用手册](../usage.md) 接手，无需重跑已通过的业务测试。
 
 实际联网同步预览已通过：`skill-sync.ps1 -Name ip-practice-workbench-skills -DryRun` 获取到上游 `1e10423`，同步配置可用。
 
@@ -28,4 +28,4 @@
 - [x] safe-push 成功，远端从 eebf01a 更新至 2bf5787；实时 ls-remote、HEAD 与 origin/main 一致，差异 0/0。
 - [x] 本轮临时工作树和分支在完整 tree 对照后清理；未跟踪计划与临时素材未推送。
 
-当前状态：本次任务完成。按 [技能包说明](docs/skills/ip-practice-workbench-skills.md) 进行后续开发和同步。
+当前状态：本次任务完成。按 [技能包说明](../skills/ip-practice-workbench-skills.md) 进行后续开发和同步。

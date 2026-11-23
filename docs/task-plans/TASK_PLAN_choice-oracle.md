@@ -56,9 +56,9 @@ skill 已完成并实机验证，未提交。
 
 用户补充（同日）：吸睛只是一个场景。通用流程是"用户提问 → 我按问题设计评分卡（分档文字描述，换算 0-10）→ 决策模型打分 → 返回结果"。脚本本就支持任意评分卡，因此改动落在 SKILL.md 工作流。
 
-- [x] 新增评分卡 [eye_catching.json](skills/choice-oracle/assets/scorecards/eye_catching.json)：4 个吸睛维度 + 1 道决赛题。
-- [x] [score_clef.py](skills/choice-oracle/scripts/score_clef.py)：取消逐图 4 张上限；新增 `--pick`、`--finalists`、目录输入；修 usage 只计最后一次。
-- [x] [SKILL.md](skills/choice-oracle/SKILL.md) 改为通用工作流（按问题现场设计评分卡）；更新 TASKS / CHANGELOG。
+- [x] 新增评分卡 [eye_catching.json](../../skills/choice-oracle/assets/scorecards/eye_catching.json)：4 个吸睛维度 + 1 道决赛题。
+- [x] [score_clef.py](../../skills/choice-oracle/scripts/score_clef.py)：取消逐图 4 张上限；新增 `--pick`、`--finalists`、目录输入；修 usage 只计最后一次。
+- [x] [SKILL.md](../../skills/choice-oracle/SKILL.md) 改为通用工作流（按问题现场设计评分卡）；更新 TASKS / CHANGELOG。
 - [x] 验证：6 张测试图 `--pick --finalists 3` 实机跑通，`decided_by=final_compare`，退出码 0；`--compare` 传 6 张正确报错提示改用 `--pick`；dry-run 输出合法。
 
 ## 当前进度

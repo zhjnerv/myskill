@@ -1,7 +1,7 @@
 # TASK_PLAN：处理旧 worktree 遗留问题
 
 ## 目标与范围
-2026-11-02 用户授权处理状态检查发现的两个旧 worktree：临时同步树 `myskill-sync-claude-patent-creator-cn` 路径失效；`myskill-fix-subtree-sync` 的 `.git` 因 Google Drive 云操作失败无法读取。以 Git 登记、分支 tip、交付提交 `a5032da`，以及 [同步实现](scripts/sync_upstream_skills.py) 和 [回归测试](scripts/test_sync_upstream_skills.py) 核对交付与保留材料。
+2026-11-02 用户授权处理状态检查发现的两个旧 worktree：临时同步树 `myskill-sync-claude-patent-creator-cn` 路径失效；`myskill-fix-subtree-sync` 的 `.git` 因 Google Drive 云操作失败无法读取。以 Git 登记、分支 tip、交付提交 `a5032da`，以及 [同步实现](../../scripts/sync_upstream_skills.py) 和 [回归测试](../../scripts/test_sync_upstream_skills.py) 核对交付与保留材料。
 
 ## 约束
 - 主工作区保持 main；不删除未知未提交、未跟踪或 ignored 内容，不使用强制清理。

@@ -1,6 +1,6 @@
 # md2word 本地账
 
-上游的 [CHANGELOG.md](../../skills/md2word/CHANGELOG.md)、[TASKS.md](../../skills/md2word/TASKS.md)、[DECISIONS.md](../../skills/md2word/DECISIONS.md) 继续只承接上游。2026-10-04 之前写进那些文件的本地记录留在原地，不要再往里加。
+上游的 [CHANGELOG.md](../../skills/md2word/CHANGELOG.md) 继续只承接上游（上游已不再提供 `TASKS.md`、`DECISIONS.md`）。2026-10-04 之前写进那些文件的本地记录留在原地，不要再往里加。
 
 ## 落地前已有的本地改动
 
@@ -18,4 +18,4 @@
 - 非目标：不自动插入目录域；不做中文编号（第一章/一、）；不改非标题内容的渲染（正文、表格、引用框、脚注、图片、代码块、letterhead 逐字不变）；不写 skill 内上游账本，不 bump SKILL.md version。
 - 设计取舍：编号用阿拉伯多级 `1 / 1.1 / 1.1.1 / 1.1.1.1` 挂在 Heading1..4 样式的 `w:numPr` 上（Word 新建标题即自动编号）；`--template` 模板缺 Heading 样式时新建；伪标题"目录"页保持普通段不进 TOC；`_apply_heading_pagination` 的 pageBreakBefore 保持段落级直接格式。
 - 怎样算做完：① 全部预设产物 H1~H4 段落含正确 `w:pStyle`，样式外观与预设 `titles.levelN` 一致且与改动前视觉对照无差异；② book-publish 产物标题渲染 1/1.1/1.1.1，其余预设无 numPr；③ `python -X utf8 -m unittest test_regressions` 全绿 + GBK 轮全绿，新增 pStyle/样式/numPr/letterhead 正文不变断言；④ 用户 Word 手工验收：导航窗格层级正确、手动新增标题自动编号且外观一致。
-- 关联计划：[TASK_PLAN_md2word-heading-styles.md](../../TASK_PLAN_md2word-heading-styles.md)
+- 关联计划：[TASK_PLAN_md2word-heading-styles.md](../../TASK_PLAN_md2word-heading-styles.md)（仍在仓库根目录，未开工）
